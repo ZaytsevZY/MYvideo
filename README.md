@@ -10,8 +10,10 @@
 
 | 文件 | 内容 |
 |---|---|
+| [TODO.md](TODO.md) | 待决策事项：画风、主题、技术栈、制作步骤 |
 | [COURSE.md](COURSE.md) | 完整课程作业要求与全部参考选题 |
-| [scripts/RESEARCH.md](scripts/RESEARCH.md) | 参考视频分析：pdoom MV 技术栈、创新点；《我从未见过太阳》风格参考 |
+| [scripts/RESEARCH.md](scripts/RESEARCH.md) | 参考视频分析：三条制作路线、GitHub仓库、Seedance提示词公式 |
+| `assets/references/` | 各风格参考截图（6张） |
 | `scripts/` | 脚本、分镜、提示词 |
 | `assets/` | 图片、音频等小素材 |
 | `output/` | 最终成品（本地存放，不入库） |
