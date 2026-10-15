@@ -2,22 +2,24 @@
 
 马克思主义科技社会观课程的解释型 Video Essay，讨论 Agent 提高执行能力后，效率收益如何可能转化为新的劳动要求，以及劳动者能否相应获得自由时间与决定权。
 
-**当前状态：** 六章原口播已恢复，保留主题，引用与核查意见仅列文末尾注；口播修改须有明确要求。所有有效版本以 [PROJECT_STATE](scripts/PROJECT_STATE.md) 为准。
+**当前状态：** 按本轮授权完成六章音画分配：口播精简并修正事实，情境与图示写入 video content，待试听和内容审核。所有有效版本以 [PROJECT_STATE](scripts/PROJECT_STATE.md) 为准。
 
 - **课程要求：** 成片 3～5 分钟；提交截止为 2026-10-21 24:00，原文见 [COURSE.md](COURSE.md)。
-- **时长检查：** 当前六章正文有 1,683 个汉字，按旧语速假设已超过 5 分钟，后续讨论与真实配音校时。
+- **字符与时间：** 口播840个非空白字符（含标点、英文），低于1,100上限；暂定全片4:40，含14秒文献卡，待实际配音校准。
 - **制作路线：** Claude 编写 Remotion / React 动画代码，再渲染成片；具体模型与依赖版本在执行时记录。
-- **视觉状态：** STYLE_BIBLE v0.1 为候选，尚未冻结；本轮未制作新分镜、代码或视频。
+- **视觉状态：** 已形成21个文字画面段落；STYLE_BIBLE v0.3明确故事＋逻辑双轴与角色识别优先，ART_DIRECTION提供角色、场景、动态图解和代表镜头提案。具体造型待验证，尚未生成素材、代码或视频。
 
 ## 工作文件
 
 | 入口 | 用途 |
 |---|---|
 | [PROJECT_STATE](scripts/PROJECT_STATE.md) | 主题、版本矩阵、时长与审批状态的唯一索引 |
-| [六章工作文本](scripts/final/shot/README.md) | 当前正文修订起点，SHOT_TEXT v0.2；保留原 text，补 subject 与文末尾注 |
+| [六章工作文本](scripts/final/shot/README.md) | SHOT_TEXT v0.4；每章含 audio content、video content 与音画尾注 |
 | [OUTLINE](scripts/final/OUTLINE.md) | 与六章正文对应的内容结构 |
 | [CREATIVE_BRIEF](scripts/style/CREATIVE_BRIEF.md) | 核心问题、概念与表达边界 |
 | [STYLE_BIBLE](scripts/style/STYLE_BIBLE.md) | 全片唯一候选风格规范 |
+| [ART_DIRECTION](scripts/style/ART_DIRECTION.md) | 双轴艺术方向审议：角色、情节分层、逻辑对象与代表镜头 |
+| [STYLE_REFERENCES](scripts/style/STYLE_REFERENCES.md) | 历史参考视频、仓库、技术线索与本地图片索引 |
 | [PRODUCTION_BLUEPRINT](scripts/style/PRODUCTION_BLUEPRINT.md) | Claude / Remotion 制作流程与交付物 |
 | [PRODUCTION_PROTOCOL](scripts/style/PRODUCTION_PROTOCOL.md) | 版本绑定、渲染与留档规则 |
 | [RESEARCH](scripts/doc/RESEARCH.md) | 当前核查入口 |
@@ -32,6 +34,6 @@
 
 ## 工作顺序
 
-讨论六章正文及尾注核查意见、经明确要求再修改口播 → 临时配音校时 → 确认分镜与风格 → Remotion 机制样片 → 分章实现 → 正式声音、字幕与成片导出。
+审核六章音画分配 → 临时配音校时、角色与故事及逻辑设计 → 分层子镜头 → Remotion代表镜头预览与风格验证 → 分章实现 → 正式声音、字幕与成片导出。
 
 文件名中的 `final`、旧稿中的“定稿”或历史“已批准”字样，不单独代表当前工作版本已经审核冻结。每次实际冻结需留下确认依据与文件哈希。
