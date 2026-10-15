@@ -16,3 +16,7 @@ Thumbs.db
 *.ckpt
 *.safetensors
 *.bin
+
+# Agent文件夹
+.claude/skills
+.agents/skills
