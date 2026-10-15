@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "purpose": "Archive superseded agent drafts and preserve pre-sync document snapshots; latest six chapter texts remain unchanged.",
+  "files": [
+    {
+      "action": "move",
+      "original_path": "scripts/draft/NARRATION_DRAFT_v1.0.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/scripts/draft/NARRATION_DRAFT_v1.0.md",
+      "sha256": "9412c885dcb3d9e451ecc5a807a691163353d608486e06c3153bb373d8d3c977",
+      "bytes": 9191
+    },
+    {
+      "action": "move",
+      "original_path": "scripts/draft/NARRATION_DRAFT_v1.1.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/scripts/draft/NARRATION_DRAFT_v1.1.md",
+      "sha256": "8f4832c0195b7c1b609c24679498b622a6691b8f94b8b5de01229121a410bd74",
+      "bytes": 5832
+    },
+    {
+      "action": "move",
+      "original_path": "scripts/draft/NARRATION_DRAFT_v1.2.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/scripts/draft/NARRATION_DRAFT_v1.2.md",
+      "sha256": "22c6a944444e078e51caa0607b2b2d74cb95d3c2a39792e28f1da8682194113c",
+      "bytes": 6046
+    },
+    {
+      "action": "move",
+      "original_path": "scripts/draft/NARRATION_DRAFT_v1.3.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/scripts/draft/NARRATION_DRAFT_v1.3.md",
+      "sha256": "09121fe690491c68dff9db7a816292fdc6768d5e8b7a85ed96588c26376bdc9b",
+      "bytes": 6577
+    },
+    {
+      "action": "move",
+      "original_path": "scripts/draft/NARRATION_DRAFT_v1.4.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/scripts/draft/NARRATION_DRAFT_v1.4.md",
+      "sha256": "3dd0dfd168ead987d4e508ddb888862cc5d476780ce694f0c7e0b7dde30ec489",
+      "bytes": 7972
+    },
+    {
+      "action": "move",
+      "original_path": "scripts/draft/视频内容剧本_v1.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/scripts/draft/视频内容剧本_v1.md",
+      "sha256": "fc0fe7ab2c698f18d98cee68beede30e1f755e45ba74d1397386b46f3b7fd1f4",
+      "bytes": 1676
+    },
+    {
+      "action": "move",
+      "original_path": "scripts/final/NARRATION_FINAL_v1.4.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/scripts/final/NARRATION_FINAL_v1.4.md",
+      "sha256": "4fd7c34ac79b05fbec8bc31f610a4492250c435c51309121caff91d56a188982",
+      "bytes": 8510
+    },
+    {
+      "action": "move",
+      "original_path": "scripts/doc/CLAUDE_SCRIPT_HANDOFF.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/scripts/doc/CLAUDE_SCRIPT_HANDOFF.md",
+      "sha256": "fc25ec97a94d708bad75f9f430c70ded87abf8ead9b80ce0fa562cceedaa9440",
+      "bytes": 11209
+    },
+    {
+      "action": "move",
+      "original_path": "demos/first-segment/README.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/demos/first-segment/README.md",
+      "sha256": "c5a2093d8aa551deb57c58cd920c52e0e6f12988b57721be60d4089b78afbc32",
+      "bytes": 662
+    },
+    {
+      "action": "move",
+      "original_path": "demos/first-segment/STORYBOARD_DEMO_v0.1.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/demos/first-segment/STORYBOARD_DEMO_v0.1.md",
+      "sha256": "2187de82a475a39ce82dabff122461acefab16b298bd25cde043d15dcdea1f3a",
+      "bytes": 1125
+    },
+    {
+      "action": "move",
+      "original_path": "demos/first-segment/STYLE_BIBLE_DEMO_v0.1.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/demos/first-segment/STYLE_BIBLE_DEMO_v0.1.md",
+      "sha256": "004ddd14424cd1e24710299694c8af5513e7a18b6ad09073d7a402b40f23faea",
+      "bytes": 1021
+    },
+    {
+      "action": "move",
+      "original_path": "demos/first-segment/__pycache__/render_demo.cpython-311.pyc",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/demos/first-segment/__pycache__/render_demo.cpython-311.pyc",
+      "sha256": "a2b5e14ddaa335a6a795c9f4e798ba31e5f8808bf01880a3a75e5502cb67cd65",
+      "bytes": 23695
+    },
+    {
+      "action": "move",
+      "original_path": "demos/first-segment/render.sh",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/demos/first-segment/render.sh",
+      "sha256": "29d08990c49bc80d3f674078d549c268523a963691d91f9c9ca20d85ad355f78",
+      "bytes": 651
+    },
+    {
+      "action": "move",
+      "original_path": "demos/first-segment/render_demo.py",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/demos/first-segment/render_demo.py",
+      "sha256": "6f61592f8074d3e8c91f97c66589e90f89596a30d369e53451fcc942ea18cc1d",
+      "bytes": 11586
+    },
+    {
+      "action": "move",
+      "original_path": "demos/first-segment/subtitles.srt",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/demos/first-segment/subtitles.srt",
+      "sha256": "07f6c267314fd89494176e20edb90dc7ea63e2c61d8bf3641079d7d95a966cd0",
+      "bytes": 910
+    },
+    {
+      "action": "move",
+      "original_path": "assets/audio/segment-01-adrian-v4.mp3",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/superseded/assets/audio/segment-01-adrian-v4.mp3",
+      "sha256": "bbf88353e267e4bed47b4665f5dc157559ba04c8077568d11dab5564da61076a",
+      "bytes": 643457
+    },
+    {
+      "action": "snapshot",
+      "original_path": "README.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/snapshots/README.md",
+      "sha256": "6614134d5b1caaf19407c526ef6bd85a4ef18831993d38a6fec27f36d59301de",
+      "bytes": 2401
+    },
+    {
+      "action": "snapshot",
+      "original_path": "TODO.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/snapshots/TODO.md",
+      "sha256": "29b3f43f232bfe266ee11e123d469238d4fe559a3b77e9c36a4d0bbd526f4971",
+      "bytes": 2105
+    },
+    {
+      "action": "snapshot",
+      "original_path": "scripts/HANDOFF.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/snapshots/scripts/HANDOFF.md",
+      "sha256": "343a45c28585a8c0215cd7612a065c57a942a2e3d383cf0d42cf38d297993f80",
+      "bytes": 896
+    },
+    {
+      "action": "snapshot",
+      "original_path": "scripts/final/OUTLINE.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/snapshots/scripts/final/OUTLINE.md",
+      "sha256": "b5fcb05f54bc8975c9998883d74251301139d2e93f5f70b468b1168785ef4b0c",
+      "bytes": 3915
+    },
+    {
+      "action": "snapshot",
+      "original_path": "scripts/style/CREATIVE_BRIEF.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/snapshots/scripts/style/CREATIVE_BRIEF.md",
+      "sha256": "ad916f95480e61b95bd02ea4e976da4fb26f24c672ce86331c831cbce367c98b",
+      "bytes": 2493
+    },
+    {
+      "action": "snapshot",
+      "original_path": "scripts/style/PRODUCTION_BLUEPRINT.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/snapshots/scripts/style/PRODUCTION_BLUEPRINT.md",
+      "sha256": "b522107b7513dcb2c8359cb7faef3b8903b132971369cc47c0cdd1ea3ec23787",
+      "bytes": 8682
+    },
+    {
+      "action": "snapshot",
+      "original_path": "scripts/style/PRODUCTION_PROTOCOL.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/snapshots/scripts/style/PRODUCTION_PROTOCOL.md",
+      "sha256": "fb5fb75917ba08353e47900a19a6e154a4eb89ed761f814dbc916226c88ca702",
+      "bytes": 4553
+    },
+    {
+      "action": "snapshot",
+      "original_path": "scripts/doc/RESEARCH.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/snapshots/scripts/doc/RESEARCH.md",
+      "sha256": "02c69306f9719b83c338a8edf06b3d5a8f46aeb0033f6519c8a61fe7149284cb",
+      "bytes": 3162
+    },
+    {
+      "action": "snapshot",
+      "original_path": "scripts/doc/GENERATION_LOG.md",
+      "archive_path": ".tmp/archive-2026-10-15-project-sync/snapshots/scripts/doc/GENERATION_LOG.md",
+      "sha256": "377ac1b71d3b20ce861a3b83c3d97d6938f2a69683fc991980cb869805a0fd7a",
+      "bytes": 1884
+    }
+  ]
+}

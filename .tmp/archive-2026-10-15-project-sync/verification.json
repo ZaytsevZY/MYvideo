@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-15",
+  "archived_files_verified": 25,
+  "active_markdown_files_checked": 19,
+  "broken_local_links": [],
+  "skills_verified": 8,
+  "current_chapters": [
+    {
+      "path": "scripts/final/shot/01.md",
+      "chinese_characters": 238,
+      "sha256": "9f3081d55636ac5f58495950cf7858dbf463a23dba5255e22ad2fd61c11f849a",
+      "unchanged_from": "2e2135b"
+    },
+    {
+      "path": "scripts/final/shot/02.md",
+      "chinese_characters": 264,
+      "sha256": "255b6ac12e9df5a2c972e457d72ff3e763b474174aea1aeeb931904934dc0dbb",
+      "unchanged_from": "2e2135b"
+    },
+    {
+      "path": "scripts/final/shot/03.md",
+      "chinese_characters": 235,
+      "sha256": "de23428bfdabbbb201c5f161f5bf72dc68a23b8195720283b7d4fb3b177507e6",
+      "unchanged_from": "2e2135b"
+    },
+    {
+      "path": "scripts/final/shot/04.md",
+      "chinese_characters": 352,
+      "sha256": "1872b0ccf8f6adf8eeb5ea8bfe1283c2fd578a0c19792c2a0613c83ada769bdf",
+      "unchanged_from": "2e2135b"
+    },
+    {
+      "path": "scripts/final/shot/05.md",
+      "chinese_characters": 250,
+      "sha256": "8f6a2c8483080421def1b306dc953335f5b6d42488b1ba7105a55a132d25bd53",
+      "unchanged_from": "2e2135b"
+    },
+    {
+      "path": "scripts/final/shot/06.md",
+      "chinese_characters": 344,
+      "sha256": "bc1cacf80883091e1caa4b03ec71055b04688a23628dd5d53bfba152ed5f6f89",
+      "unchanged_from": "2e2135b"
+    }
+  ],
+  "total_chinese_characters": 1683,
+  "git_diff_whitespace_check": "passed"
+}
