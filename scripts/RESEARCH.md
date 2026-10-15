@@ -1,145 +1,43 @@
-# 参考研究
+# 理论与证据研究说明
 
-## 视频一：pdoom MV
+> 本文件记录本片可使用的理论与事实边界，不等于完成引用核验。正式口播前必须对照可访问的原文、中文译本和最终版次。
 
-**B站：** [吓哭了Opus5.5 AGI概念MV](https://www.bilibili.com/video/BV18ta86EEHb)
-**原始仓库：** https://github.com/mexicat/pdoom-video （主流fork：JohnHeibel/PDoomVideo，2086 stars）
-**YouTube 4K：** https://www.youtube.com/watch?v=5EoO5413dBY
+## 主理论线索
 
-完全由 Claude Opus 5.5 在 Claude Code 里对话生成代码，再渲染出的 MV。
+### 马克思：《政治经济学批判（1857—1858 年手稿）》
 
-### 技术栈
+本片用其关于资本一方面创造可自由支配时间、另一方面倾向把它转为剩余劳动的思想，解释“节约劳动的能力”并不自动成为劳动者的自由时间。正式使用时只保留一条核验后的中文引文，不能借此宣称马克思预言了 Agent。
 
-| 层 | 工具 |
-|---|---|
-| 渲染器 | TypeScript + three.js |
-| 构建 | bun + Vite |
-| 音频分析 | Python/uv + Demucs（分轨）+ Whisper + CTC（逐词对齐）|
-| 视频编码 | ffmpeg / libx264 |
-| 离线导出 | headless Chrome（playwright-core）|
+- 中文马克思主义文库：[机器论相关段落](https://www.marxists.org/chinese/marx-engels2/08/14.htm)
+- 英文原文：[Grundrisse, Chapter 14](https://www.marxists.org/archive/marx/works/1857/grundrisse/ch14.htm)
 
-### 核心创新
+### 马克思：《资本论》第一卷
 
-**确定性渲染**
-每一帧都是时间 `t` 的纯函数，不依赖任何随机状态或帧计数。浏览器实时预览与离线导出逐帧完全一致。这是整套工程的基础假设，决定了运动模糊采样和多进程导出都能成立。
+“机器和大工业”及相对剩余价值的讨论，作为生产率提高可能被用于扩大生产、而非自动缩短工作日的理论背景。它不直接证明当代某企业的绩效制度，也不能由任务量直接推算剩余价值。
 
-**逐词歌词同步**
-用 Demucs `htdemucs_ft` 分离人声，再用 CTC 强制对齐 + Whisper 交叉验证，获得逐词（部分逐音节）时间戳。动画锚定到 `word.start` / `word.end`，不是逐行字幕。
+- 英文原文：[Chapter 15](https://www.marxists.org/archive/marx/works/1867-c1/ch15.htm)
 
-**自适应运动模糊采样**
-每帧按 32×32px tile 独立决定采样数（12 / 36 / 108 / 324）。静止区域 12 个子帧即停，高速甩镜自动升到 108~324。平均代价远低于全帧固定高采样。
+## 主现实证据：Haas 对 AI 工作强化的观察
 
-**分镜模块化（17 个 Scene）**
-每个 scene 有完全不同的视觉语言（铜版画刻线、示波器、官僚表格、光线步进 3D、纺织纹样……），但共享同一套：
-- 调色盘：ink / bone / signal(#FF4D12 橙) / ember / blood，极少量 acid(#D8FF3C) 作为唯一点缀色
-- 字体系统：Archivo（歌词主声）/ IBM Plex Mono（机器/标注）/ Cormorant Garamond（预言/神圣语气）/ 单线刻字体（由 spark 写出）
-- 全局 grain / halation / bloom 后处理
+Ranganathan, Aruna 与 Ye, Xingqi Maggie，*AI Doesn't Reduce Work—It Intensifies It*，Harvard Business Review，2026-02-09；研究者说明见 Berkeley Haas（2026-02-18）。
 
-**Beat-sync 动画**
-所有切镜、动作落在 downbeat；hits 对齐 kick/snare。时间数据来自 `audio.json`（BPM 132.007，beats、downbeats、sections、onset 事件、响度包络）。
+- [HBR 条目](https://store.hbr.org/product/ai-doesn-t-reduce-work-it-intensifies-it/H0929G)
+- [Berkeley Haas 说明](https://newsroom.haas.berkeley.edu/ai-promised-to-free-up-workers-time-uc-berkeley-haas-researchers-found-the-opposite/)
 
-### 仓库结构要点
+交接材料记载：研究为约八个月、约 200 人美国科技公司民族志，含四十余次半结构访谈；观察到员工在午间、会前、晚间使用 AI、并行任务和“新增能力—产出—预期”的反馈。正片只需以 1～2 句支撑“主动扩展任务”与“期待重设”，样本细节放在来源注释。研究涉及生成式 AI 和部分 Agent 工作实践，不能表述为所有自主 Agent 的统一因果实验。
 
-```
-analysis/       音频分析脚本（align.py / analyze.py）
-data/           lyrics.json（逐词时间戳）/ audio.json（节拍/响度）
-app/src/
-  engine/       渲染核心：timeline、post、typography、LineBatch、HUD
-  scenes/       每个 scene 一个模块
-  timeline.ts   编辑：scene 窗口锚定到歌词行 + snap 到节拍网格
-scripts/render.ts  离线导出（headless Chrome → raw frames → ffmpeg）
-```
+## 对照背景：效率也可能释放时间
 
----
+Dillon, Eleanor W. 等，*Shifting Work Patterns with Generative AI*，NBER Working Paper 33795（2025）。
 
-## 视频二：《我从未见过太阳》
+- [NBER 论文页](https://www.nber.org/papers/w33795)
 
-**B站：** [震惊瘫坐！Opus 5.5生成短片《我从未见过太阳》](https://www.bilibili.com/video/BV1b9ad6xEnD)
-**UP主：** 霍华德vlog
+其随机实验覆盖 66 家企业、7,137 名知识工作者；在特定条件下，实际使用工具的员工邮件工作时间下降，非工作时间工作也下降。它只说明技术效率能够兑现为时间节约，不应与 Haas 研究拼成未经证明的先后阶段，也不作为本片主证据。
 
-简介无技术说明，无仓库链接。已知由 Claude Opus 5.5 生成，时长约 3~5 分钟。给观看者强烈的情感冲击——孤独感、灵魂感，甚至有些惊悚。具体制作流程暂不明确。
+## 已搁置材料
 
-**对我们的参考价值：** 作为创作目标的情感基准——不追求炫技，追求让人"感觉有灵魂"。
+不使用“三个人干五个人的活，拿四个人的工资”这类无稳定原始出处的说法；不将青年就业、ILO 宏观职业影响、离线权比较、劳动异化四重结构或完整技术史塞进本片。
 
----
+## 制作参考的状态
 
-## 视频三：《从现在看过去——AI简史》
-
-**B站：** [震惊瘫坐！Opus 5.5生成-从现在看过去-AI简史](https://www.bilibili.com/video/BV1H8av6HEYs)
-**UP主：** 铼夏LAYccc
-
-Opus 5.5 纯代码生成，6分多钟，修改了8次、人工把控了部分节奏。无仓库链接。
-
-**对我们的参考价值：** 证明 Opus 5.5 代码生成视频可以做到6分钟以上；"修改8次"说明迭代是正常流程，不是一次性生成。
-
----
-
-## GitHub 参考仓库
-
-### 制作方法路线
-
-**路线A：纯代码渲染（pdoom 路线）**
-用 Claude 生成 TypeScript + three.js / p5.js 代码，每帧是时间的纯函数，headless Chrome 导出。适合精确 beat-sync 和复杂几何视觉。
-
-代表仓库：
-- [mexicat/pdoom-video](https://github.com/mexicat/pdoom-video) — 原始架构，MIT，可直接 fork
-- [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) — 2086 stars，最活跃的 fork
-- [okazaky/claude-skill-lyric-mv-3d](https://github.com/okazaky/claude-skill-lyric-mv-3d) — 基于 pdoom-video 的 Claude Code Skill，已支持中文字体（Noto CJK）和竖屏，**直接可用**
-
-**路线B：水彩 / 手绘风格（p5.js 路线）**
-[zeigarnick/upping-my-pdoom](https://github.com/zeigarnick/upping-my-pdoom)
-
-仅用**两条提示词**完成，Claude Code 自动拆分成15个并行子 agent 各做一个 scene。关键信息：
-- 第一条 prompt：给音频 + 歌词 + 一张角色图，说风格（水彩、p5.brush）和原则（不指定分镜）
-- 第二条 prompt：要求用并行子 agent 分场景制作
-- 用 Whisper + librosa 做音频分析，Demucs 修正人声起始时间
-- 渲染器同样是确定性的（帧 = f(t)），600+ 个水彩 sprite 预渲染进 WebGL framebuffer，每帧合成
-
-**路线C：AI视频生成 + WebGL 着色器后处理（riso-cel 路线）**
-[2606156052/Pdoom-video-anime-version](https://github.com/2606156052/Pdoom-video-anime-version)
-
-用 Seedance / Seedream 生成原始素材，再通过自定义 WebGL 着色器管线转成手绘风格。管线：
-```
-AI生成素材 → Kuwahara滤镜（边缘保持/色块化）→ XDoG（手绘墨线）
-→ 限色量化（纸白/墨黑/橙/琥珀等）→ 45°网点叠印 → 12fps 手绘抖动
-```
-结果是"90年代动画赛璐珞 + Risograph 孔版印刷"风格。**这条路线与我们计划用 SeedDance 的方向直接相关。**
-
----
-
-### 提示词与平台参考
-
-**[Hao0321/ai-media-generator](https://github.com/Hao0321/ai-media-generator)** — 262 stars
-
-跨14+平台的 Claude Code Skill，核心价值是平台专属提示词公式。
-
-Seedance 专用8维提示词公式：
-```
-Subject（主体+外观）+ Action（单个动词）+ Scene（环境）+ Light（光线）
-+ Camera（运镜：低角度手持tracking / 缓慢推进等）+ Style（美学）
-+ Quality（清晰度）+ Constraints（不抖动、不变形、不多肢、稳定地平线、稳定时间一致性）
-```
-
-关键规则：
-- Seedance 用中文训练，英文导演名（如 Deakins）在 Seedance 上是**弱信号**，要换成具体的光线/运镜描述
-- `cinematic, 8k, beautiful, masterpiece` 这类词在任何平台都是无效 token
-- Constraints tail（约束尾缀）必须写：`不抖动、不变形、不多肢、稳定地平线、稳定时间一致性`
-
-示例（古代将军，Seedance 中文）：
-```
-古代中国将军主角，身披金色鳞甲、红披风在风中翻飞，手持青铜宝剑前举，
-骑黑色战马在黎明战场上缓慢冲锋。战场远处千军列阵、红色战旗猎猎、尘雾漂浮。
-金色逆光晨雾、荧光轮廓。低角度手持 tracking 镜头沿马侧跟拍，轻微晃动、稳定地平线。
-墨色留白东方美学、史诗写实电影感。慢动作、流畅、连贯、不僵硬、720p 高清。
-不抖动、不变形、不多肢、稳定地平线、稳定时间一致性。
-```
-
----
-
-## 我们的方向
-
-选题：第四讲 马克思主义科技社会观——「如何驯化 LLM，亲朋好友如何使用 AI？」
-
-制作思路：AI 生成视频，探索 LLM 在普通人生活中的真实处境。可能引入 SeedDance 模型。
-
-截止：2026-10-21 24:00
+既有的代码渲染、AI 视频生成、Seedance 提示词等资料不再作为当前决策依据。脚本冻结前不选择技术栈、画风或分镜；脚本冻结后才重新调研并验证制作路线。
