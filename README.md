@@ -20,6 +20,7 @@
 | [COURSE.md](COURSE.md) | 原始课程作业要求（保留原文） |
 | [scripts/OUTLINE.md](scripts/OUTLINE.md) | v0.9 内容大纲：当前唯一主方案，待核验与冻结 |
 | [scripts/CREATIVE_BRIEF.md](scripts/CREATIVE_BRIEF.md) | 已确认的中心判断、边界和表达规则 |
+| [scripts/PRODUCTION_BLUEPRINT.md](scripts/PRODUCTION_BLUEPRINT.md) | 旁白驱动的讲解型制作蓝图、复用资产与 Claude 分工 |
 | [scripts/视频内容剧本_v1.md](scripts/视频内容剧本_v1.md) | 脚本阶段的工作说明；尚未形成正式旁白稿 |
 | [scripts/HANDOFF.md](scripts/HANDOFF.md) | 本轮内容交接与下一步 |
 | [scripts/PRODUCTION_PROTOCOL.md](scripts/PRODUCTION_PROTOCOL.md) | 大纲和脚本冻结后才生效的可复现制作协议 |
