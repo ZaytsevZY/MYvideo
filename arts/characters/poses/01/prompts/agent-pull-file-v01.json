@@ -1,0 +1,8 @@
+{
+  "prompt": "Use case: identity-preserve. Edit Agent gripping document at image-left. Intermediate pulling document toward torso: left elbow bends inward, moving the same small off-white paper HALFWAY toward the chest, paper centered around x300 y400 in1024x1536 canvas; right hand rises halfway to meet lower paper corner. Keep exact head, hair, identity, torso, legs, feet, scale, camera and canvas. One paper with same three gray strokes. Natural fingers grasp lower edge, intact connected anatomy. Clean flat cel anime, transparent alpha, no ground/shadow/extraobjects/text.",
+  "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-c75cb5a2-1ffe-4fb8-9743-41fd2a6d9ee4.png",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-448a6dde-5283-4408-a35b-a6270f4c06bd.png"
+  ]
+}

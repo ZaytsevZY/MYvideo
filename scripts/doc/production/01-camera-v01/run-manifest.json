@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "cli": "Claude Code 2.1.168",
+  "model_requested": "local configured default; no override",
+  "model_used": null,
+  "attempts": [
+    {
+      "mcp_config": {},
+      "exit_code": 1,
+      "error": "Invalid MCP configuration: mcpServers: Invalid input: expected record, received undefined"
+    },
+    {
+      "mcp_config": {
+        "mcpServers": {}
+      },
+      "exit_code": 1,
+      "result_file": "claude-result.json",
+      "result": "Not logged in · Please run /login",
+      "duration_api_ms": 0
+    }
+  ],
+  "valid_command": "claude -p --tools '' --strict-mcp-config --mcp-config '{\"mcpServers\":{}}' --no-session-persistence --output-format json < scripts/doc/production/01-camera-v01/claude-prompt.txt > scripts/doc/production/01-camera-v01/claude-result.json",
+  "adopted_script_author": "Codex",
+  "status": "text candidate only; no new assets, animation code, audio, or video",
+  "sha256": {
+    "scripts/final/shot/01.md": "e26e806165ae18cbd755105a9cf890a51b3e5a9042f623ee104fb7a959620852",
+    "scripts/doc/01_CAMERA_WORKLOAD.md": "6ac7cc351c3623c0a5770c8ee7ba45835f46322a8ebd570c36cfb449cb3048a6",
+    "scripts/doc/production/01-camera-v01/claude-prompt.txt": "26247312e5f80374485aab254d501ddc1d91bbdb43d36adb9d43d45853b485bf",
+    "scripts/doc/production/01-camera-v01/claude-result.json": "e0e275fd1f1b53b1b7333bbf201da5df09f6ad89500ca203e7257fe5f60835a7"
+  },
+  "checks": {
+    "shot_count": 11,
+    "duration_seconds": 45,
+    "parent_seconds": {
+      "V01.1": 16,
+      "V01.2": 21,
+      "V01.3": 8
+    },
+    "audio_01_unchanged": true,
+    "audio_character_counts": {
+      "01": 155,
+      "02": 121,
+      "03": 127,
+      "04": 171,
+      "05": 156,
+      "06": 110
+    },
+    "checked_local_links": [
+      "scripts/final/shot/01.md",
+      "scripts/doc/01_CAMERA_WORKLOAD.md",
+      "scripts/HANDOFF.md",
+      "scripts/PROJECT_STATE.md",
+      "scripts/final/shot/README.md"
+    ],
+    "broken_links": []
+  }
+}

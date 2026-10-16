@@ -1,0 +1,53 @@
+{
+  "version": "RIG v0.1",
+  "id": "agent",
+  "source": "atlas-v01.png",
+  "metadata": "atlas-v01.json",
+  "sourceFacing": "left",
+  "headRect": [
+    -84,
+    -410,
+    170,
+    199
+  ],
+  "neckPivot": [
+    0,
+    -222
+  ],
+  "torsoRect": [
+    -90,
+    -250,
+    180,
+    272
+  ],
+  "shoulders": {
+    "far": [
+      -63,
+      -202
+    ],
+    "near": [
+      65,
+      -195
+    ]
+  },
+  "upperArmLength": 150,
+  "forearmLength": 145,
+  "armWidth": 59,
+  "legWidth": 56,
+  "footWidth": 80,
+  "joints": {
+    "armOverlap": 16,
+    "forearmOverlap": 13,
+    "legOverlap": 14,
+    "handPalm": [
+      0,
+      22
+    ]
+  },
+  "notes": [
+    "Transparent source atlas remains unchanged.",
+    "Each source rectangle is selected through an SVG symbol, no raster crop/repaint.",
+    "Far/near limbs share artwork; 3/4 view is a limited cutout convention.",
+    "Head rotation cannot synthesize a new perspective."
+  ]
+}

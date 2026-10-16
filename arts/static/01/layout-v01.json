@@ -1,0 +1,236 @@
+{
+  "version": "S01_ASSETS v0.5",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "status": "static assets only; floating logic overlays; no character bake or video",
+  "background_fit": "cover; source1672x941 differs from16:9 by less than0.1%, so use a shared center anchor",
+  "screen_aperture_local": [
+    32,
+    28,
+    576,
+    324
+  ],
+  "composition": [
+    {
+      "asset": "background",
+      "z": 0,
+      "rect": [
+        0,
+        0,
+        1920,
+        1080
+      ]
+    },
+    {
+      "asset": "chair-back",
+      "z": 10,
+      "rect": [
+        315,
+        455,
+        265,
+        374
+      ]
+    },
+    {
+      "asset": "chair-seat",
+      "z": 11,
+      "rect": [
+        315,
+        770,
+        265,
+        242
+      ]
+    },
+    {
+      "asset": "desk-legs",
+      "z": 12,
+      "rect": [
+        180,
+        746,
+        1110,
+        308
+      ]
+    },
+    {
+      "asset": "computer-tower",
+      "z": 13,
+      "rect": [
+        1045,
+        780,
+        170,
+        255
+      ]
+    },
+    {
+      "asset": "programmer-body-FUTURE",
+      "z": 20,
+      "rect": [
+        300,
+        420,
+        360,
+        640
+      ],
+      "available": false
+    },
+    {
+      "asset": "desk-surface",
+      "z": 30,
+      "rect": [
+        180,
+        707,
+        1110,
+        123
+      ]
+    },
+    {
+      "asset": "monitor-frame",
+      "z": 40,
+      "rect": [
+        680,
+        400,
+        544,
+        374
+      ]
+    },
+    {
+      "asset": "screen",
+      "z": 41,
+      "rect": [
+        707.2,
+        423.8,
+        489.6,
+        275.4
+      ]
+    },
+    {
+      "asset": "keyboard",
+      "z": 42,
+      "rect": [
+        625,
+        734,
+        385,
+        70
+      ]
+    },
+    {
+      "asset": "mouse",
+      "z": 42,
+      "rect": [
+        1040,
+        733,
+        43,
+        58
+      ]
+    },
+    {
+      "asset": "desk-lamp",
+      "z": 43,
+      "rect": [
+        185,
+        420,
+        220,
+        346
+      ]
+    },
+    {
+      "asset": "programmer-forearms-FUTURE",
+      "z": 50,
+      "available": false
+    },
+    {
+      "asset": "agent-FUTURE",
+      "z": 60,
+      "rect": [
+        1450,
+        355,
+        280,
+        640
+      ],
+      "available": false
+    },
+    {
+      "asset": "floating-logic-FUTURE",
+      "z": 70,
+      "rect": [
+        650,
+        20,
+        1200,
+        324
+      ],
+      "size_policy": "content bounds; this rect is a preview example, not a mandatory stage"
+    },
+    {
+      "asset": "captions-FUTURE",
+      "z": 100,
+      "rect": [
+        120,
+        930,
+        1680,
+        120
+      ],
+      "available": false
+    }
+  ],
+  "contact_anchors": {
+    "left_hand_keyboard": [
+      759.75,
+      765.11
+    ],
+    "right_hand_keyboard": [
+      868.83,
+      765.11
+    ],
+    "mouse": [
+      1061.5,
+      765.25
+    ],
+    "person_head_approx": [
+      452,
+      460
+    ],
+    "agent_zone": [
+      1410,
+      345,
+      390,
+      650
+    ]
+  },
+  "semantic_palette": {
+    "ink": "#263342",
+    "paper": "#F6F1E7",
+    "text_muted": "#687783",
+    "muted": "#9BA7B1",
+    "blue": "#798DA8",
+    "cyan": "#6DBCCB",
+    "green": "#84B79A",
+    "amber": "#E9B468",
+    "coral": "#CC806F",
+    "wood": "#B69270",
+    "woodlight": "#D7B897",
+    "screen": "#152330"
+  },
+  "diagram_layout": {
+    "mode": "floating over story background",
+    "container": "content-sized background from diagram-panels-v01.json; Agent above panel",
+    "size_policy": "fit actual content, readable labels, and current actor/prop exclusion zones",
+    "preview_region": [
+      650,
+      20,
+      1200,
+      324
+    ],
+    "background_visible": true,
+    "text_contrast": "local glyph outlines; no automatic whole-screen dimming",
+    "optional_panel": "logic-panel-v01.svg only for a specific justified legibility need"
+  },
+  "notes": [
+    "No character silhouettes are baked into backgrounds.",
+    "Coordinates are static assembly defaults, not validated character joints.",
+    "Room has no workstation furniture; native SVG furniture is separate.",
+    "Keyboard uses preserveAspectRatio=none to flatten its tabletop projection; hand anchors use separate x/y scales.",
+    "Readability and hand contact must be rechecked after character baking.",
+    "No numerical data or measured efficiency is encoded."
+  ]
+}

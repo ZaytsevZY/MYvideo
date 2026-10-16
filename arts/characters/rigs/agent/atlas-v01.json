@@ -1,0 +1,136 @@
+{
+  "id": "agent",
+  "source": "atlas-v01.png",
+  "imageSize": [
+    1536,
+    1024
+  ],
+  "alpha": {
+    "min": 0,
+    "max": 254,
+    "transparentPixels": 1172969
+  },
+  "parts": {
+    "head": {
+      "region": [
+        5,
+        45,
+        415,
+        515
+      ],
+      "visibleBounds": [
+        37,
+        78,
+        352,
+        411
+      ],
+      "sampling": "SVG viewBox; source raster unchanged"
+    },
+    "torso": {
+      "region": [
+        435,
+        40,
+        755,
+        535
+      ],
+      "visibleBounds": [
+        460,
+        67,
+        266,
+        453
+      ],
+      "sampling": "SVG viewBox; source raster unchanged"
+    },
+    "upperArm": {
+      "region": [
+        875,
+        60,
+        1115,
+        500
+      ],
+      "visibleBounds": [
+        911,
+        103,
+        159,
+        369
+      ],
+      "sampling": "SVG viewBox; source raster unchanged"
+    },
+    "forearm": {
+      "region": [
+        1255,
+        120,
+        1465,
+        505
+      ],
+      "visibleBounds": [
+        1297,
+        172,
+        141,
+        287
+      ],
+      "sampling": "SVG viewBox; source raster unchanged"
+    },
+    "handRelax": {
+      "region": [
+        110,
+        615,
+        290,
+        955
+      ],
+      "visibleBounds": [
+        144,
+        660,
+        116,
+        249
+      ],
+      "sampling": "SVG viewBox; source raster unchanged"
+    },
+    "handPoint": {
+      "region": [
+        500,
+        605,
+        680,
+        940
+      ],
+      "visibleBounds": [
+        529,
+        659,
+        113,
+        243
+      ],
+      "sampling": "SVG viewBox; source raster unchanged"
+    },
+    "upperLeg": {
+      "region": [
+        875,
+        540,
+        1075,
+        990
+      ],
+      "visibleBounds": [
+        905,
+        585,
+        138,
+        361
+      ],
+      "sampling": "SVG viewBox; source raster unchanged"
+    },
+    "lowerLeg": {
+      "region": [
+        1190,
+        520,
+        1465,
+        995
+      ],
+      "visibleBounds": [
+        1228,
+        553,
+        195,
+        418
+      ],
+      "sampling": "SVG viewBox; source raster unchanged"
+    }
+  },
+  "status": "measured source bounds; pivots and rig geometry require calibration"
+}

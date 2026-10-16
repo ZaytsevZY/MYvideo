@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-15",
+  "tool": "image_gen.imagegen",
+  "model_identifier": "not exposed",
+  "calls": [
+    {
+      "id": "programmer",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-8340da3f-93f7-44a1-80d1-aa2514e8f09b.png",
+      "output": "arts/characters/rigs/programmer/atlas-v01.png",
+      "prompt": "arts/characters/rigs/programmer/prompt-v01.txt",
+      "references": [
+        "arts/characters/programmer-model-sheet-v01.png"
+      ],
+      "transparent_background": true
+    },
+    {
+      "id": "agent",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-787fb4d6-913d-489a-8b6b-b53e22fc7814.png",
+      "output": "arts/characters/rigs/agent/atlas-v01.png",
+      "prompt": "arts/characters/rigs/agent/prompt-v01.txt",
+      "references": [
+        "arts/characters/agent-model-sheet-v01.png"
+      ],
+      "transparent_background": true
+    }
+  ]
+}

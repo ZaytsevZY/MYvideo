@@ -1,0 +1,8 @@
+{
+  "prompt": "Use case: identity-preserve. Edit target is Agent holding paper in outstretched hand. REMOVE ONLY the paper, and open the gripping fingers gently into a receiving C-shaped hand at EXACTLY the same wrist location. Keep exact arm geometry, hand height, head, outfit, torso, feet, scale and1024x1536 canvas. This is the keyframe just before the paper lands in her hand, transparent empty space where paper was. Entire intact character, same cel anime, no paper, shadows, scenery or text; genuine alpha transparency.",
+  "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-fdff9a2e-8a4f-4b68-a8c8-a16417031c08.png",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-448a6dde-5283-4408-a35b-a6270f4c06bd.png"
+  ]
+}

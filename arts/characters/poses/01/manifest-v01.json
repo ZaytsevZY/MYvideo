@@ -1,0 +1,196 @@
+{
+  "version": "S01_WHOLE_POSES v0.1",
+  "tool": "image_gen.imagegen",
+  "rawPixelsUnchanged": true,
+  "assets": [
+    {
+      "id": "agent-idle",
+      "path": "arts/characters/poses/01/agent-idle-v01.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds96": [
+        283,
+        23,
+        770,
+        1513
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sha256": "fbcf2a3125182fc9d7834015378b786a6bdf6187b334bc3d6ecb996d62c6df4c",
+      "prompt": "arts/characters/poses/01/prompts/agent-idle-v01.json",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-9d0845a9-708c-467d-bb64-2b1f65db8c60.png"
+    },
+    {
+      "id": "agent-receive",
+      "path": "arts/characters/poses/01/agent-receive-v01.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds96": [
+        101,
+        21,
+        771,
+        1514
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sha256": "dac6f4c336ca5dfeee79843776c8e3a60df740e611ad6c4ef45d364ed7fe15f5",
+      "prompt": "arts/characters/poses/01/prompts/agent-receive-v01.json",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-65d2846e-eb5b-40dd-8124-25163c5b003c.png"
+    },
+    {
+      "id": "agent-report",
+      "path": "arts/characters/poses/01/agent-report-v01.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds96": [
+        199,
+        22,
+        773,
+        1514
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sha256": "22198fc0ea7f38bc081ca8ce4d886d316913b1c3c9f658c2bae86f61459a5c1e",
+      "prompt": "arts/characters/poses/01/prompts/agent-report-v01.json",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-2fbc9ca2-abc1-43dd-9f56-1e4294ea568a.png"
+    },
+    {
+      "id": "programmer-input",
+      "path": "arts/characters/poses/01/programmer-input-v01.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds96": [
+        121,
+        23,
+        921,
+        1462
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373",
+      "prompt": "arts/characters/poses/01/prompts/programmer-input-v01.json",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-6a50f860-644e-47fd-9fa7-4e11be30cb7d.png"
+    },
+    {
+      "id": "programmer-rest",
+      "path": "arts/characters/poses/01/programmer-rest-v01.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds96": [
+        235,
+        22,
+        789,
+        1462
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sha256": "2f7042e7620dc3f31d176036cd3f68246e4f37d595194b79c0d3431282b8bc85",
+      "prompt": "arts/characters/poses/01/prompts/programmer-rest-v01.json",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-d12e3ada-431e-4a98-8cbc-adee19f5694d.png"
+    },
+    {
+      "id": "programmer-rise",
+      "path": "arts/characters/poses/01/programmer-rise-v01.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds96": [
+        220,
+        20,
+        841,
+        1491
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sha256": "c03856bd6ccdea1a3690c388451327e50546d371150fa690a59a5a098149b70b",
+      "prompt": "arts/characters/poses/01/prompts/programmer-rise-v01.json",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-fb025bb0-7379-4442-ab85-f54b8983a4cc.png"
+    },
+    {
+      "id": "programmer-stand",
+      "path": "arts/characters/poses/01/programmer-stand-v01.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds96": [
+        258,
+        23,
+        765,
+        1489
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sha256": "47a0ff3b3a1c0d6aaa5039b0f4ca03bf692cb99cccef0842ab673f92094b9fb6",
+      "prompt": "arts/characters/poses/01/prompts/programmer-stand-v01.json",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-c54e6112-5791-4318-953b-88aa74af8e33.png"
+    },
+    {
+      "id": "programmer-walk-a",
+      "path": "arts/characters/poses/01/programmer-walk-a-v01.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds96": [
+        148,
+        29,
+        905,
+        1461
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sha256": "ee3d05ba41d87a7e4e928ab5596c0d58c76c7cf66e4af0879e4f7d7ca4200db8",
+      "prompt": "arts/characters/poses/01/prompts/programmer-walk-a-v01.json",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-7876afe7-78b1-4c52-8ad8-272a8e5eefcd.png"
+    },
+    {
+      "id": "programmer-walk-pass",
+      "path": "arts/characters/poses/01/programmer-walk-pass-v01.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bounds96": [
+        266,
+        21,
+        689,
+        1463
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "sha256": "53b1f23d23d9b348856254d95aa1647eef9739f9efd54d9da22c33e8f0a58c18",
+      "prompt": "arts/characters/poses/01/prompts/programmer-walk-pass-v01.json",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-ce918988-7ba5-4071-9c11-6fb5f081cf34.png"
+    }
+  ]
+}

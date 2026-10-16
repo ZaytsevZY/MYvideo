@@ -1,0 +1,8 @@
+{
+  "prompt": "Use case: identity-preserve. Edit the full-body Agent. Lock exact head identity, camera, torso position, legs, feet, scale, cel style and 1024x1536 canvas. Orange bob, starburst clip, off-white jacket and dark outfit unchanged. Receiving action follow-through: bend BOTH elbows inward, bring ONE small off-white upright document close to lower chest/upper waist, left hand supports lower left corner, right hand gently steadies lower right edge. The paper approximately140x180px, three short gray strokes, NO letters. Gaze follows paper slightly downward, calm focused face. Natural connected arms and visible fingers gripping edges. Full body shoes intact. Transparent cutout, no ground, shadow, backgrounds, props other than one paper.",
+  "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-63137f24-3acc-46e0-a22d-187103c281f8.png",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/agent-receive-v01.png"
+  ]
+}

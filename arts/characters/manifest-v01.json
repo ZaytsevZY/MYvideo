@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_identifier": "not exposed by tool",
+  "transparent_background": false,
+  "status": "candidate character model sheets; not approved animation rigs",
+  "calls": [
+    {
+      "id": "agent",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-2e354b54-eeb4-4aa6-8eaf-1a44e8a84d73.png",
+      "output": "arts/characters/agent-model-sheet-v01.png",
+      "prompt": "arts/characters/prompts/agent-v01.txt",
+      "references": [
+        "assets/references/anime-contact1.jpg",
+        "assets/references/anime-contact2.jpg"
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "output_sha256": "988d3df0b3b8ceb0158cf65c315d2f436e1b85498a8a368a285a4e4a618c653e",
+      "prompt_sha256": "efa2aa4e52eb5050bfae06f5cd3eef3da2a431f99cd32db427819e401c59c1e6",
+      "reference_sha256": {
+        "assets/references/anime-contact1.jpg": "a235722cdf820b43c9d6c7056a0791f3f7d39388dbca0d8fef85cdf3f76c334f",
+        "assets/references/anime-contact2.jpg": "b6cfaf043d7946e97610e04491e6f10af3761fb9382d44fa10dbeb9187de335f"
+      }
+    },
+    {
+      "id": "programmer",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-17dce719-01bf-4f40-b733-57cbcc62b13c.png",
+      "output": "arts/characters/programmer-model-sheet-v01.png",
+      "prompt": "arts/characters/prompts/programmer-v01.txt",
+      "references": [
+        "assets/references/anime-contact1.jpg",
+        "assets/references/anime-contact2.jpg",
+        "arts/characters/agent-model-sheet-v01.png"
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "output_sha256": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0",
+      "prompt_sha256": "79b83a6dc28219a2ccc7bdc7721243338cdf5c2aca813f5558e0efe45f92a8f6",
+      "reference_sha256": {
+        "assets/references/anime-contact1.jpg": "a235722cdf820b43c9d6c7056a0791f3f7d39388dbca0d8fef85cdf3f76c334f",
+        "assets/references/anime-contact2.jpg": "b6cfaf043d7946e97610e04491e6f10af3761fb9382d44fa10dbeb9187de335f",
+        "arts/characters/agent-model-sheet-v01.png": "988d3df0b3b8ceb0158cf65c315d2f436e1b85498a8a368a285a4e4a618c653e"
+      }
+    },
+    {
+      "id": "coworker",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-f6320437-3906-4101-924f-b88d97222295.png",
+      "output": "arts/characters/coworker-model-sheet-v01.png",
+      "prompt": "arts/characters/prompts/coworker-v01.txt",
+      "references": [
+        "assets/references/anime-contact1.jpg",
+        "assets/references/anime-contact2.jpg",
+        "arts/characters/agent-model-sheet-v01.png"
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "output_sha256": "9a38c56153b054c2eb2a4981e6cc650f7b5cf356986cfb6711d8dbd5dfedce42",
+      "prompt_sha256": "5ed65b40a7a9b06a02008c2ae5c4bc521542b81c8584f2f5e5b16396f6ca7b05",
+      "reference_sha256": {
+        "assets/references/anime-contact1.jpg": "a235722cdf820b43c9d6c7056a0791f3f7d39388dbca0d8fef85cdf3f76c334f",
+        "assets/references/anime-contact2.jpg": "b6cfaf043d7946e97610e04491e6f10af3761fb9382d44fa10dbeb9187de335f",
+        "arts/characters/agent-model-sheet-v01.png": "988d3df0b3b8ceb0158cf65c315d2f436e1b85498a8a368a285a4e4a618c653e"
+      }
+    },
+    {
+      "id": "manager",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-7e2b1ccc-a3ef-4527-9ac4-52ff6215232a.png",
+      "output": "arts/characters/manager-model-sheet-v01.png",
+      "prompt": "arts/characters/prompts/manager-v01.txt",
+      "references": [
+        "assets/references/anime-contact1.jpg",
+        "assets/references/anime-contact2.jpg",
+        "arts/characters/agent-model-sheet-v01.png"
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "output_sha256": "13c0d3a291c355a01e2bfda55194c3e9626e5a31abbbf12ae26dc2076108c693",
+      "prompt_sha256": "ab131e26827aacbee1cd31f1cf02626114c1ebefab686d3167ecbbb72fe190dd",
+      "reference_sha256": {
+        "assets/references/anime-contact1.jpg": "a235722cdf820b43c9d6c7056a0791f3f7d39388dbca0d8fef85cdf3f76c334f",
+        "assets/references/anime-contact2.jpg": "b6cfaf043d7946e97610e04491e6f10af3761fb9382d44fa10dbeb9187de335f",
+        "arts/characters/agent-model-sheet-v01.png": "988d3df0b3b8ceb0158cf65c315d2f436e1b85498a8a368a285a4e4a618c653e"
+      }
+    }
+  ]
+}

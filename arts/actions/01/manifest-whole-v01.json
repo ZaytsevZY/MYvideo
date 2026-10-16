@@ -1,0 +1,584 @@
+{
+  "version": "S01_WHOLE_PREVIEW v0.3",
+  "codeAuthor": "Codex; human explicitly authorized this preview",
+  "imageTool": "image_gen.imagegen",
+  "poseAssets": 21,
+  "keyframeTracks": {
+    "release": [
+      [
+        0,
+        "input"
+      ],
+      [
+        0.22,
+        "release-half"
+      ],
+      [
+        0.62,
+        "rest"
+      ]
+    ],
+    "rise": [
+      [
+        0,
+        "rest"
+      ],
+      [
+        0.12,
+        "lean"
+      ],
+      [
+        0.3,
+        "rise"
+      ],
+      [
+        0.54,
+        "rise-high"
+      ],
+      [
+        0.76,
+        "stand"
+      ],
+      [
+        0.9,
+        "turn-left"
+      ]
+    ],
+    "sit": [
+      [
+        0,
+        "turn-left"
+      ],
+      [
+        0.12,
+        "stand"
+      ],
+      [
+        0.28,
+        "rise-high"
+      ],
+      [
+        0.48,
+        "rise"
+      ],
+      [
+        0.7,
+        "lean"
+      ],
+      [
+        0.85,
+        "rest"
+      ],
+      [
+        0.97,
+        "input"
+      ]
+    ],
+    "walk": [
+      [
+        0,
+        "walk-a"
+      ],
+      [
+        0.24,
+        "walk-recover"
+      ],
+      [
+        0.5,
+        "walk-pass"
+      ],
+      [
+        0.76,
+        "walk-recover"
+      ]
+    ],
+    "receive": [
+      [
+        0,
+        "idle"
+      ],
+      [
+        0.08,
+        "reach-half"
+      ],
+      [
+        0.2,
+        "receive"
+      ],
+      [
+        0.32,
+        "pregrasp"
+      ],
+      [
+        0.52,
+        "grasp-file"
+      ],
+      [
+        0.62,
+        "pull-file"
+      ],
+      [
+        0.74,
+        "hold-file"
+      ],
+      [
+        0.84,
+        "inspect-file"
+      ]
+    ],
+    "deliver": [
+      [
+        0,
+        "inspect-file"
+      ],
+      [
+        0.12,
+        "hold-file"
+      ],
+      [
+        0.25,
+        "pull-file"
+      ],
+      [
+        0.4,
+        "grasp-file"
+      ],
+      [
+        0.5,
+        "offer-file"
+      ],
+      [
+        0.66,
+        "pregrasp"
+      ],
+      [
+        0.78,
+        "receive"
+      ],
+      [
+        0.88,
+        "reach-half"
+      ],
+      [
+        0.98,
+        "idle"
+      ]
+    ],
+    "explain": [
+      [
+        0,
+        "idle"
+      ],
+      [
+        0.16,
+        "reach-half"
+      ],
+      [
+        0.32,
+        "receive"
+      ],
+      [
+        0.52,
+        "pregrasp"
+      ],
+      [
+        0.72,
+        "report"
+      ]
+    ]
+  },
+  "actions": [
+    {
+      "id": "P01",
+      "name": "背面操作",
+      "duration": 2
+    },
+    {
+      "id": "P02",
+      "name": "派发任务",
+      "duration": 2
+    },
+    {
+      "id": "P03",
+      "name": "完整坐姿收手",
+      "duration": 1
+    },
+    {
+      "id": "P04",
+      "name": "前倾→起身→转身",
+      "duration": 1.2
+    },
+    {
+      "id": "P05",
+      "name": "向左离席（补充经过位）",
+      "duration": 1.8
+    },
+    {
+      "id": "P06",
+      "name": "返回工位",
+      "duration": 1.5
+    },
+    {
+      "id": "P07",
+      "name": "站姿→半蹲→入座",
+      "duration": 1
+    },
+    {
+      "id": "P08",
+      "name": "面向屏幕验收",
+      "duration": 2
+    },
+    {
+      "id": "P09",
+      "name": "同一任务退回",
+      "duration": 1.5
+    },
+    {
+      "id": "P10",
+      "name": "人物保持，图解展开",
+      "duration": 2
+    },
+    {
+      "id": "A01",
+      "name": "Agent 伸手接过文件",
+      "duration": 2.4
+    },
+    {
+      "id": "A02",
+      "name": "Agent 收到身前查看",
+      "duration": 3
+    },
+    {
+      "id": "A03",
+      "name": "Agent 递回结果",
+      "duration": 2.4
+    }
+  ],
+  "beats": [
+    {
+      "start": 0,
+      "end": 0.8,
+      "id": "P01",
+      "name": "输入准备"
+    },
+    {
+      "start": 0.8,
+      "end": 2.2,
+      "id": "P02",
+      "name": "派发"
+    },
+    {
+      "start": 2.2,
+      "end": 3.2,
+      "id": "P03",
+      "name": "收手"
+    },
+    {
+      "start": 3.2,
+      "end": 4.3,
+      "id": "P04",
+      "name": "起身"
+    },
+    {
+      "start": 4.3,
+      "end": 6,
+      "id": "P05",
+      "name": "离席"
+    },
+    {
+      "start": 6,
+      "end": 9,
+      "id": "A02",
+      "name": "后台执行／夜转晨"
+    },
+    {
+      "start": 9,
+      "end": 10.5,
+      "id": "P06",
+      "name": "返回"
+    },
+    {
+      "start": 10.5,
+      "end": 11.5,
+      "id": "P07",
+      "name": "入座"
+    },
+    {
+      "start": 11.5,
+      "end": 13.5,
+      "id": "P08",
+      "name": "验收"
+    },
+    {
+      "start": 13.5,
+      "end": 15,
+      "id": "P09",
+      "name": "退回修改"
+    },
+    {
+      "start": 15,
+      "end": 16,
+      "id": "A02",
+      "name": "继续执行"
+    },
+    {
+      "start": 16,
+      "end": 23,
+      "id": "P10",
+      "name": "人的操作／机器执行"
+    },
+    {
+      "start": 23,
+      "end": 37,
+      "id": "P01",
+      "name": "候选需求进入排期"
+    },
+    {
+      "start": 37,
+      "end": 45,
+      "id": "P10",
+      "name": "新增任务／终点后移"
+    }
+  ],
+  "sceneSamples": 1351,
+  "sampleFps": 30,
+  "rasterFrames": 0,
+  "mp4": false,
+  "claudeCode": false,
+  "priorRigStatus": "rejected visually by human; not active",
+  "limitations": [
+    "finite complete cel poses; pose changes remain discrete",
+    "three walking drawings plus turn; not full anatomical gait interpolation",
+    "30fps is root/prop state sampling, not 30 newly drawn cels per second",
+    "no voice timing or Remotion composition",
+    "keyboard alignment checked visually, no measured finger contact"
+  ],
+  "stills": [
+    [
+      "assembly-night-whole-v01",
+      0
+    ],
+    [
+      "assembly-day-whole-v01",
+      12
+    ],
+    [
+      "rise-whole-v01",
+      3.8
+    ],
+    [
+      "logic-whole-v01",
+      20
+    ],
+    [
+      "workflow-whole-v01",
+      30
+    ],
+    [
+      "queue-whole-v01",
+      41
+    ],
+    [
+      "receive-file-whole-v01",
+      2.3
+    ],
+    [
+      "inspect-file-whole-v01",
+      3
+    ],
+    [
+      "return-file-whole-v01",
+      10.3
+    ]
+  ],
+  "files": [
+    {
+      "path": "arts/characters/poses/01/README.md",
+      "sha256": "d11d94475699c5bfae4e53c083425881b771fed58cae935d52a6ed725db8a9d9"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-grasp-file-v01.png",
+      "sha256": "2e3f7a7e80edbf582dac5e621aeee09ee50e5ffcb0fdb85e19e9b6659fb25563"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-hold-file-v01.png",
+      "sha256": "b2462a68b37ef0ef2d0d15460f5044a097b79049b1350976e8db53ef86ea611e"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-idle-v01.png",
+      "sha256": "fbcf2a3125182fc9d7834015378b786a6bdf6187b334bc3d6ecb996d62c6df4c"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-inspect-file-v01.png",
+      "sha256": "1c61c9c353b92cc2efd8881a684854392056d057eeba2e569b608055f23a3a88"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-offer-file-v01.png",
+      "sha256": "65c06a3902b13821725a64a8d9a25d8c18c8409186f46558409e3b05d3c9b235"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-pregrasp-v01.png",
+      "sha256": "1b544554be3ec80ac769785fce33b498de2ff9beaaecbfe3277e7807e45b1523"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-pull-file-v01.png",
+      "sha256": "0f5ccc2bf4d605efb024e610a3daa563fb409fd580f350d96302a7f0e6c70048"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-reach-half-v01.png",
+      "sha256": "7e6543230b7ef6c73d04d100fd1e8d09c6d9a150c8d16432fec2b7b983c396c7"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-receive-v01.png",
+      "sha256": "dac6f4c336ca5dfeee79843776c8e3a60df740e611ad6c4ef45d364ed7fe15f5"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-report-v01.png",
+      "sha256": "22198fc0ea7f38bc081ca8ce4d886d316913b1c3c9f658c2bae86f61459a5c1e"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-input-v01.png",
+      "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-lean-v01.png",
+      "sha256": "470d0a4d34b3f4d8ac4fcceff2fb613c7573c4918319bce6e019100339ee89d2"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+      "sha256": "6304e88141b54c50d2e87659315b26392d86123a2073cdd98068b38776a1312b"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rest-v01.png",
+      "sha256": "2f7042e7620dc3f31d176036cd3f68246e4f37d595194b79c0d3431282b8bc85"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rise-high-v01.png",
+      "sha256": "b3816159ee33b110bde7121f117d99bd076b12168e368446eb719fa6c5f34dc6"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rise-v01.png",
+      "sha256": "c03856bd6ccdea1a3690c388451327e50546d371150fa690a59a5a098149b70b"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-stand-v01.png",
+      "sha256": "47a0ff3b3a1c0d6aaa5039b0f4ca03bf692cb99cccef0842ab673f92094b9fb6"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-turn-left-v01.png",
+      "sha256": "ae6165c17cbb75f95a2b61ee722baa3802821225da50fffc855ea9eca2e9b308"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-a-v01.png",
+      "sha256": "ee3d05ba41d87a7e4e928ab5596c0d58c76c7cf66e4af0879e4f7d7ca4200db8"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-pass-v01.png",
+      "sha256": "53b1f23d23d9b348856254d95aa1647eef9739f9efd54d9da22c33e8f0a58c18"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-recover-v01.png",
+      "sha256": "4e31a14ecf89a66483dc7c39764d1b049dce66d74bbdfb94e90eab3257ad04de"
+    },
+    {
+      "path": "arts/actions/01/README.md",
+      "sha256": "5c24d16aa703d5ad55c28dd5405fa8779950cef1ab391cbe93390da75be2bfe0"
+    },
+    {
+      "path": "arts/actions/01/assembly-day-whole-v01.svg",
+      "sha256": "e795fc8d212cd61971cd5ba01ed31fbfc2931acca80ca95e4534b3716dbb87c8"
+    },
+    {
+      "path": "arts/actions/01/assembly-night-whole-v01.svg",
+      "sha256": "1d6ae447afda3b2a3e41c5f3f23864f8baa08051872397350490b8ee16183257"
+    },
+    {
+      "path": "arts/actions/01/atlas-check.html",
+      "sha256": "ece8983da8865c67e5c9b9dcd0da5ff3626ed6492ad6a206689ac8f3e2e82746"
+    },
+    {
+      "path": "arts/actions/01/bake-whole.mjs",
+      "sha256": "a1499ce17b2548bf9ad109a65eba38f972c94427b5d8511de54bae3bdcc30076"
+    },
+    {
+      "path": "arts/actions/01/bake.mjs",
+      "sha256": "7a093a29d3fca314ee589e7c866c340c686f97c5623f1d4aedde3d957892c7b4"
+    },
+    {
+      "path": "arts/actions/01/bundle-whole-v01.json",
+      "sha256": "d3aa5a5d4f8a44acf34e56f4ef0c194b7f509de5f4c8599564b2b85188fa22f8"
+    },
+    {
+      "path": "arts/actions/01/contact-sheet-whole-v01.svg",
+      "sha256": "b5919ce4cc076c540afdd06928f535ce548d20c15a55231fb8c3f14962c7c403"
+    },
+    {
+      "path": "arts/actions/01/contact-sheet-whole-v02.svg",
+      "sha256": "efe80f534c22516d74eb61b94d051e325c80270983dfe43ce139a5f051fa21c2"
+    },
+    {
+      "path": "arts/actions/01/inspect-file-whole-v01.svg",
+      "sha256": "97e6e5d3a64026f242e1a5732ea823e93708147de3f0042ee9efc5528402eb1d"
+    },
+    {
+      "path": "arts/actions/01/keyframe-tracks-v01.json",
+      "sha256": "8f5b37e4700cc340e8677ea122c9b052df2f3274a378be4c2452076e23487f8a"
+    },
+    {
+      "path": "arts/actions/01/keyframes.mjs",
+      "sha256": "b026c5bb7341787c9436718a6aa7dc1d6bfe4600d3c276955eac070db0be6451"
+    },
+    {
+      "path": "arts/actions/01/layout-whole-v01.json",
+      "sha256": "7fb8e1a619ec221d967db5aed00f0fd68989131b71efba94f964aff96917a4a3"
+    },
+    {
+      "path": "arts/actions/01/logic-whole-v01.svg",
+      "sha256": "f7db23ab3aad5564d1ee8d629935611a794d33eec865bf83c202dd0483cae2c9"
+    },
+    {
+      "path": "arts/actions/01/motion.mjs",
+      "sha256": "1abc33cd008be7f65ef9e40db4fe33d2d2196a83019ca3dcaa26ce94e21db9d4"
+    },
+    {
+      "path": "arts/actions/01/preview.html",
+      "sha256": "90f0ef31e2734d98415ca6fbc85107a369d806894aafc4e7ef9067d51eb5edfd"
+    },
+    {
+      "path": "arts/actions/01/queue-whole-v01.svg",
+      "sha256": "3beaf90ea865692da6eb47a8c228387b03e03890267f9715cdddced321e31e2d"
+    },
+    {
+      "path": "arts/actions/01/receive-file-whole-v01.svg",
+      "sha256": "dd6945fddd0e3f28bbcc55ca52ed03a6c5affb2833bf9318bc5025d024c09060"
+    },
+    {
+      "path": "arts/actions/01/return-file-whole-v01.svg",
+      "sha256": "5806014991acfa524c69b66625de0a8db3f6879f773575a1db9555df05b07cef"
+    },
+    {
+      "path": "arts/actions/01/rise-whole-v01.svg",
+      "sha256": "888a194bb8be668133b124a37f26c958a4fdc05f33f38a1e18e2ae98ca528595"
+    },
+    {
+      "path": "arts/actions/01/scene-whole-12fps-v01.json",
+      "sha256": "2e370e69b3cea7358002784dde289d7a12ab503f3f9817fe47e7673d0a507c18"
+    },
+    {
+      "path": "arts/actions/01/scene-whole-30fps-v02.json",
+      "sha256": "f3e2418bc786ec319330519e86f093d8f0a3db584a2a4f15b8f61a2ba2f7b456"
+    },
+    {
+      "path": "arts/actions/01/stage-overrides-v01.json",
+      "sha256": "5ee2a622928a0369ae8a4dba99b3e78290d21b23f77b541cdaacdebd8b0b55dd"
+    },
+    {
+      "path": "arts/actions/01/whole-motion.mjs",
+      "sha256": "27fedc5b9e2b47c03aeafd30f8daec6a78fae5673af1606c913b6cd969b096d3"
+    },
+    {
+      "path": "arts/actions/01/workflow-whole-v01.svg",
+      "sha256": "006574a4a76713ea4033064dcffeb135289fbaa5808796bd590a8a7d26010f5e"
+    }
+  ]
+}

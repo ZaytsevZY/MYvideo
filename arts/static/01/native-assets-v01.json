@@ -1,0 +1,511 @@
+[
+  {
+    "id": "desk-legs",
+    "path": "arts/items/01/desk-legs-v01.svg",
+    "size": [
+      1440,
+      400
+    ],
+    "role": "behind seated character and desk surface",
+    "anchors": {
+      "floor": [
+        720,
+        390
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "desk-surface",
+    "path": "arts/items/01/desk-surface-v01.svg",
+    "size": [
+      1440,
+      160
+    ],
+    "role": "foreground occluder; arms and input items layer above",
+    "anchors": {
+      "surface_center": [
+        720,
+        54
+      ],
+      "front_edge_y": 86
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "chair-back",
+    "path": "arts/items/01/chair-back-v01.svg",
+    "size": [
+      340,
+      480
+    ],
+    "role": "behind character torso",
+    "anchors": {
+      "seat_connection": [
+        170,
+        460
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "chair-seat",
+    "path": "arts/items/01/chair-seat-v01.svg",
+    "size": [
+      340,
+      310
+    ],
+    "role": "behind thighs; attach to chair-back seat_connection",
+    "anchors": {
+      "seat_top": [
+        170,
+        14
+      ],
+      "floor": [
+        170,
+        306
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "monitor-frame",
+    "path": "arts/items/01/monitor-frame-v01.svg",
+    "size": [
+      640,
+      440
+    ],
+    "role": "screen UI overlays the exact aperture",
+    "anchors": {
+      "screen_rect": [
+        32,
+        28,
+        576,
+        324
+      ],
+      "stand_base": [
+        320,
+        432
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "computer-tower",
+    "path": "arts/items/01/computer-tower-v01.svg",
+    "size": [
+      260,
+      390
+    ],
+    "role": "under desk, behind desk front",
+    "anchors": {
+      "floor": [
+        130,
+        380
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "keyboard",
+    "path": "arts/items/01/keyboard-v01.svg",
+    "size": [
+      600,
+      180
+    ],
+    "role": "hand contact prop",
+    "anchors": {
+      "typing_left": [
+        210,
+        80
+      ],
+      "typing_right": [
+        380,
+        80
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "mouse",
+    "path": "arts/items/01/mouse-v01.svg",
+    "size": [
+      120,
+      160
+    ],
+    "role": "right-hand contact prop",
+    "anchors": {
+      "palm": [
+        60,
+        90
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "desk-lamp",
+    "path": "arts/items/01/desk-lamp-v01.svg",
+    "size": [
+      280,
+      440
+    ],
+    "role": "lamp geometry only; separate glow overlay",
+    "anchors": {
+      "light_source": [
+        150,
+        116
+      ],
+      "base": [
+        145,
+        399
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "lamp-glow",
+    "path": "arts/items/01/lamp-glow-v01.svg",
+    "size": [
+      520,
+      440
+    ],
+    "role": "optional additive-look overlay; no fixture",
+    "anchors": {
+      "center": [
+        255,
+        190
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "screen-off",
+    "path": "arts/items/01/screen-off-v01.svg",
+    "size": [
+      576,
+      324
+    ],
+    "role": "opaque screen fill; aperture only",
+    "anchors": {},
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "screen-idle",
+    "path": "arts/items/01/screen-idle-v01.svg",
+    "size": [
+      576,
+      324
+    ],
+    "role": "editable native UI; no fake code or metrics",
+    "anchors": {},
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "screen-running",
+    "path": "arts/items/01/screen-running-v01.svg",
+    "size": [
+      576,
+      324
+    ],
+    "role": "edit named groups or replace full state; not a numerical progress report",
+    "anchors": {},
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "screen-review",
+    "path": "arts/items/01/screen-review-v01.svg",
+    "size": [
+      576,
+      324
+    ],
+    "role": "generation does not imply acceptance; rework remains visible",
+    "anchors": {},
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "logic-panel",
+    "path": "arts/static/01/logic-panel-v01.svg",
+    "size": [
+      1500,
+      760
+    ],
+    "role": "optional only; not used in default floating overlays",
+    "anchors": {
+      "content_rect": [
+        48,
+        120,
+        1404,
+        570
+      ],
+      "header_rect": [
+        110,
+        20,
+        1300,
+        65
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "time-tracks-base",
+    "path": "arts/static/01/time-tracks-base-v01.svg",
+    "size": [
+      1500,
+      350
+    ],
+    "role": "floating lines and labels, no panel or filled track background",
+    "anchors": {
+      "human_lane": [
+        286,
+        62,
+        1130,
+        56
+      ],
+      "machine_lane": [
+        286,
+        202,
+        1130,
+        56
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "human-dispatch",
+    "path": "arts/static/01/human-dispatch-v01.svg",
+    "size": [
+      170,
+      60
+    ],
+    "role": "qualitative length only; not time measurement",
+    "anchors": {},
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "human-review",
+    "path": "arts/static/01/human-review-v01.svg",
+    "size": [
+      170,
+      60
+    ],
+    "role": "qualitative length only; not time measurement",
+    "anchors": {},
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "machine-execution",
+    "path": "arts/static/01/machine-execution-v01.svg",
+    "size": [
+      760,
+      60
+    ],
+    "role": "qualitative length only; not time measurement",
+    "anchors": {},
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "lane-evaluation",
+    "path": "arts/static/01/lane-evaluation-v01.svg",
+    "size": [
+      410,
+      350
+    ],
+    "role": "transparent header and alignment anchor, no filled lane or border",
+    "anchors": {
+      "task_slot": [
+        45,
+        110,
+        320,
+        140
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "lane-scheduled",
+    "path": "arts/static/01/lane-scheduled-v01.svg",
+    "size": [
+      410,
+      350
+    ],
+    "role": "transparent header and alignment anchor, no filled lane or border",
+    "anchors": {
+      "task_slot": [
+        45,
+        110,
+        320,
+        140
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "lane-acceptance",
+    "path": "arts/static/01/lane-acceptance-v01.svg",
+    "size": [
+      410,
+      350
+    ],
+    "role": "transparent header and alignment anchor, no filled lane or border",
+    "anchors": {
+      "task_slot": [
+        45,
+        110,
+        320,
+        140
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "task-test",
+    "path": "arts/static/01/task-test-v01.svg",
+    "size": [
+      320,
+      140
+    ],
+    "role": "icon and label only; stable identity without a card container",
+    "anchors": {
+      "drag_anchor": [
+        160,
+        70
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "task-interface",
+    "path": "arts/static/01/task-interface-v01.svg",
+    "size": [
+      320,
+      140
+    ],
+    "role": "icon and label only; stable identity without a card container",
+    "anchors": {
+      "drag_anchor": [
+        160,
+        70
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "task-feature",
+    "path": "arts/static/01/task-feature-v01.svg",
+    "size": [
+      320,
+      140
+    ],
+    "role": "icon and label only; stable identity without a card container",
+    "anchors": {
+      "drag_anchor": [
+        160,
+        70
+      ]
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "connector-arrow",
+    "path": "arts/static/01/connector-arrow-v01.svg",
+    "size": [
+      160,
+      54
+    ],
+    "role": "meaning defined by scene, not decorative",
+    "anchors": {},
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "endpoint-marker",
+    "path": "arts/static/01/endpoint-marker-v01.svg",
+    "size": [
+      100,
+      210
+    ],
+    "role": "move independently from tracks and cards",
+    "anchors": {
+      "line_x": 28
+    },
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "cursor",
+    "path": "arts/static/01/cursor-v01.svg",
+    "size": [
+      70,
+      90
+    ],
+    "role": "independent pointer",
+    "anchors": {},
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "status-check",
+    "path": "arts/static/01/status-check-v01.svg",
+    "size": [
+      70,
+      70
+    ],
+    "role": "only where a scene explicitly indicates approval",
+    "anchors": {},
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "status-rework",
+    "path": "arts/static/01/status-rework-v01.svg",
+    "size": [
+      70,
+      70
+    ],
+    "role": "distinct from completed/approved",
+    "anchors": {},
+    "format": "native SVG",
+    "source": "arts/static/01/build_assets.py"
+  },
+  {
+    "id": "chair-back-rear",
+    "path": "arts/items/01/chair-back-rear-v02.svg",
+    "size": [
+      340,
+      480
+    ],
+    "title": "椅背外壳背面",
+    "layer": "in front of complete rear-view programmer",
+    "anchors": {
+      "seat_connection": [
+        170,
+        460
+      ]
+    }
+  }
+]

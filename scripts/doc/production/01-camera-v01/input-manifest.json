@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "status": "script and estimate only",
+  "input_sha256": {
+    "scripts/final/shot/01.md": "fc350df47aae15ef1b11be5a4136b8b20398446c36d700651e5cf963f92f4b30",
+    "arts/actions/01/README.md": "5c24d16aa703d5ad55c28dd5405fa8779950cef1ab391cbe93390da75be2bfe0",
+    "arts/actions/01/whole-motion.mjs": "27fedc5b9e2b47c03aeafd30f8daec6a78fae5673af1606c913b6cd969b096d3",
+    "arts/actions/01/layout-whole-v01.json": "7fb8e1a619ec221d967db5aed00f0fd68989131b71efba94f964aff96917a4a3",
+    "arts/characters/poses/01/README.md": "d11d94475699c5bfae4e53c083425881b771fed58cae935d52a6ed725db8a9d9",
+    "scripts/style/STYLE_BIBLE.md": "7bed9576a38b73e1a82a606fa3f51f8b4a1952f366370a8f76b22ba30a8dde9b",
+    ".agents/skills/storyboard-prompt-assistant/SKILL.md": "4595df3024bb826b9a97bfd9b79cccc628b1ab5aca712d9dca81547efb0785f2"
+  },
+  "prompt_sha256": "26247312e5f80374485aab254d501ddc1d91bbdb43d36adb9d43d45853b485bf",
+  "audio_sha256": "5ae8341392d69fabf24f2fbb6a23c46c7777699f3c1e11db588cc1774b733c13",
+  "audio_nonwhitespace_characters": 155
+}

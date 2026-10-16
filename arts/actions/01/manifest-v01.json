@@ -1,0 +1,481 @@
+{
+  "version": "S01_RIG_TRIAL v0.1",
+  "date": "2026-10-15",
+  "codeAuthor": "Codex (user explicitly authorized this turn after Claude auth failure)",
+  "imageTool": "image_gen.imagegen",
+  "characters": 2,
+  "sourceAtlasPartsPerCharacter": 8,
+  "partWrapperSvgs": 16,
+  "actions": [
+    {
+      "id": "P01",
+      "actor": "programmer",
+      "name": "输入准备",
+      "kind": "input",
+      "duration": 2,
+      "contact": "双手键盘",
+      "sampleCount": 25,
+      "keypose": "keyposes/P01-v01.svg",
+      "clip": "clips/P01-v01.json"
+    },
+    {
+      "id": "P02",
+      "actor": "programmer",
+      "name": "键盘派发",
+      "kind": "dispatch",
+      "duration": 2,
+      "contact": "双手键盘，按键触发任务",
+      "sampleCount": 25,
+      "keypose": "keyposes/P02-v01.svg",
+      "clip": "clips/P02-v01.json"
+    },
+    {
+      "id": "P03",
+      "actor": "programmer",
+      "name": "收手",
+      "kind": "release",
+      "duration": 1,
+      "contact": "解除键盘接触",
+      "sampleCount": 13,
+      "keypose": "keyposes/P03-v01.svg",
+      "clip": "clips/P03-v01.json"
+    },
+    {
+      "id": "P04",
+      "actor": "programmer",
+      "name": "起身",
+      "kind": "rise",
+      "duration": 1.2,
+      "contact": "脚部回到站姿，骨盆上移",
+      "sampleCount": 16,
+      "keypose": "keyposes/P04-v01.svg",
+      "clip": "clips/P04-v01.json"
+    },
+    {
+      "id": "P05",
+      "actor": "programmer",
+      "name": "离开工位",
+      "kind": "exit",
+      "duration": 1.8,
+      "contact": "先切换向左视向，再交替迈步",
+      "sampleCount": 23,
+      "keypose": "keyposes/P05-v01.svg",
+      "clip": "clips/P05-v01.json"
+    },
+    {
+      "id": "P06",
+      "actor": "programmer",
+      "name": "返回工位",
+      "kind": "return",
+      "duration": 1.5,
+      "contact": "向右步入并停在座位",
+      "sampleCount": 19,
+      "keypose": "keyposes/P06-v01.svg",
+      "clip": "clips/P06-v01.json"
+    },
+    {
+      "id": "P07",
+      "actor": "programmer",
+      "name": "入座",
+      "kind": "sit",
+      "duration": 1,
+      "contact": "骨盆落向座垫，屈膝",
+      "sampleCount": 13,
+      "keypose": "keyposes/P07-v01.svg",
+      "clip": "clips/P07-v01.json"
+    },
+    {
+      "id": "P08",
+      "actor": "programmer",
+      "name": "核对结果",
+      "kind": "review",
+      "duration": 2,
+      "contact": "双手键盘，头部轻倾",
+      "sampleCount": 25,
+      "keypose": "keyposes/P08-v01.svg",
+      "clip": "clips/P08-v01.json"
+    },
+    {
+      "id": "P09",
+      "actor": "programmer",
+      "name": "退回修改",
+      "kind": "rework",
+      "duration": 1.5,
+      "contact": "键盘确认，触发同一任务退回",
+      "sampleCount": 19,
+      "keypose": "keyposes/P09-v01.svg",
+      "clip": "clips/P09-v01.json"
+    },
+    {
+      "id": "P10",
+      "actor": "programmer",
+      "name": "指向图解",
+      "kind": "explain",
+      "duration": 2,
+      "contact": "近侧手臂指向浮层方向",
+      "sampleCount": 25,
+      "keypose": "keyposes/P10-v01.svg",
+      "clip": "clips/P10-v01.json"
+    },
+    {
+      "id": "A01",
+      "actor": "agent",
+      "name": "接收任务",
+      "kind": "receive",
+      "duration": 1.2,
+      "contact": "手势与任务到达点相连",
+      "sampleCount": 16,
+      "keypose": "keyposes/A01-v01.svg",
+      "clip": "clips/A01-v01.json"
+    },
+    {
+      "id": "A02",
+      "actor": "agent",
+      "name": "执行任务",
+      "kind": "work",
+      "duration": 2.5,
+      "contact": "有限前臂动作，可循环",
+      "sampleCount": 31,
+      "keypose": "keyposes/A02-v01.svg",
+      "clip": "clips/A02-v01.json"
+    },
+    {
+      "id": "A03",
+      "actor": "agent",
+      "name": "报告结果",
+      "kind": "report",
+      "duration": 1.2,
+      "contact": "展示结果，等待人工审核",
+      "sampleCount": 16,
+      "keypose": "keyposes/A03-v01.svg",
+      "clip": "clips/A03-v01.json"
+    }
+  ],
+  "isolatedPoseSamples": 266,
+  "scenePoseSamples": 541,
+  "poseSampleFps": 12,
+  "keyposeSvgs": 13,
+  "contacts": {
+    "samples": 334,
+    "maxErrorPixels": 0,
+    "unreachableArmSolutions": 0,
+    "scope": "calibrated palm anchors against keyboard; not finger motion or mouse reach"
+  },
+  "mp4Rendered": false,
+  "rasterAnimationFramesExported": 0,
+  "files": [
+    {
+      "path": "arts/characters/rigs/agent/atlas-v01.json",
+      "bytes": 2225,
+      "sha256": "60a699aa3a715f32a56a20062b857b92b2d80f6b1f449a9ea684a3d45e7a5316"
+    },
+    {
+      "path": "arts/characters/rigs/agent/atlas-v01.png",
+      "bytes": 1554120,
+      "sha256": "7d3c2b7ced2eed55e508ca085421d76d5d5d687ccb10200b38eb976ccf2ee265"
+    },
+    {
+      "path": "arts/characters/rigs/agent/parts/forearm-v01.svg",
+      "bytes": 2072351,
+      "sha256": "fed192c855fb6161c958f34fb5eb188435161be2f29c00412bc2de003bd410ec"
+    },
+    {
+      "path": "arts/characters/rigs/agent/parts/handPoint-v01.svg",
+      "bytes": 2072352,
+      "sha256": "bc43c69294f5545da7277996e3995d1e4b3792e3430e550c7817e44f2c7f4ed8"
+    },
+    {
+      "path": "arts/characters/rigs/agent/parts/handRelax-v01.svg",
+      "bytes": 2072352,
+      "sha256": "35a7e712c212f0abe7323fd86b9fd8dad1c9eb9f651f3591ea221365e7ef5df2"
+    },
+    {
+      "path": "arts/characters/rigs/agent/parts/head-v01.svg",
+      "bytes": 2072345,
+      "sha256": "3463d0f334ff16daf7acebb40041e3a319381b40fa53e287df1f546f27703e0d"
+    },
+    {
+      "path": "arts/characters/rigs/agent/parts/lowerLeg-v01.svg",
+      "bytes": 2072352,
+      "sha256": "a3e0c6e5ce005a6ff9792680a02813485ae1a52770a6e0470ee8f0c99a1b461c"
+    },
+    {
+      "path": "arts/characters/rigs/agent/parts/torso-v01.svg",
+      "bytes": 2072347,
+      "sha256": "587c46a3fdd62bf9ba1459515b0ec93dbcdb8d9db5cf66c9a3093c11ce8b07f8"
+    },
+    {
+      "path": "arts/characters/rigs/agent/parts/upperArm-v01.svg",
+      "bytes": 2072351,
+      "sha256": "b6810a7574ebc18389e011c95c94cf0b17effde2a0fdc865267041071620c791"
+    },
+    {
+      "path": "arts/characters/rigs/agent/parts/upperLeg-v01.svg",
+      "bytes": 2072351,
+      "sha256": "20e6dddeaf89ada0b1d8739137428a0611416f3ac9c10b62740d66ec750d3d9d"
+    },
+    {
+      "path": "arts/characters/rigs/agent/prompt-v01.txt",
+      "bytes": 2773,
+      "sha256": "95607b4f3400461e193eab4845732fdfcca66ae722c853ae6de0779b89bf265a"
+    },
+    {
+      "path": "arts/characters/rigs/agent/rig-v01.json",
+      "bytes": 917,
+      "sha256": "66c4e6aa0144c480c99499fb15a37e5071ebe1fdf0941e4fa6d9f815c37361e1"
+    },
+    {
+      "path": "arts/characters/rigs/programmer/atlas-v01.json",
+      "bytes": 2230,
+      "sha256": "9b1df0adc58571a02f27f00ee11e7f8b7ccbac559912d51701571ef937d2e83c"
+    },
+    {
+      "path": "arts/characters/rigs/programmer/atlas-v01.png",
+      "bytes": 1479422,
+      "sha256": "1bb7ec9eaa8e09d322158095b09d94f07aa940ec1e798dfff25638a9988431cd"
+    },
+    {
+      "path": "arts/characters/rigs/programmer/parts/forearm-v01.svg",
+      "bytes": 1972760,
+      "sha256": "95f120b9dfe1bb0cdb472493e807a1f41485e5e276c3ec425243dc43e79b6581"
+    },
+    {
+      "path": "arts/characters/rigs/programmer/parts/handPoint-v01.svg",
+      "bytes": 1972761,
+      "sha256": "fc9416f92fcfaaec1b40455ba38d1f3317485af57f0ab6869631318cfb9f0725"
+    },
+    {
+      "path": "arts/characters/rigs/programmer/parts/handRelax-v01.svg",
+      "bytes": 1972761,
+      "sha256": "bf0001daac158992094be790612e6e365f7f754a2a91fa2fe13b6eddc040ec06"
+    },
+    {
+      "path": "arts/characters/rigs/programmer/parts/head-v01.svg",
+      "bytes": 1972754,
+      "sha256": "1fe44b7ec3f3e92cc65c55b1228be3976c8450e2b04abe58ef80390719a637ea"
+    },
+    {
+      "path": "arts/characters/rigs/programmer/parts/lowerLeg-v01.svg",
+      "bytes": 1972761,
+      "sha256": "caae6ed81f8948122a584220a0934a1b995f39a9efd58744fff0fe2411385120"
+    },
+    {
+      "path": "arts/characters/rigs/programmer/parts/torso-v01.svg",
+      "bytes": 1972756,
+      "sha256": "0376d41a1347e387be718d9acf7e17e882f3638a9926511709fde867b4ffb382"
+    },
+    {
+      "path": "arts/characters/rigs/programmer/parts/upperArm-v01.svg",
+      "bytes": 1972759,
+      "sha256": "60b4f6d45082e995a42994bbf1fd6fc61c9ac5a19d64cbeccfe6071411b6a363"
+    },
+    {
+      "path": "arts/characters/rigs/programmer/parts/upperLeg-v01.svg",
+      "bytes": 1972760,
+      "sha256": "06a4bffb9015eb08b028388859321fbb6429bcbf69bc2800552bcf07a4f0027c"
+    },
+    {
+      "path": "arts/characters/rigs/programmer/prompt-v01.txt",
+      "bytes": 2529,
+      "sha256": "f11e3f0ece3d9928e19bdbf2469db2379985140031c02158852e4ee02de73210"
+    },
+    {
+      "path": "arts/characters/rigs/programmer/rig-v01.json",
+      "bytes": 923,
+      "sha256": "26cc12ad894ebdea0e4a5944625383341a997c61c05ad068c7e8a7c1a92cf99e"
+    },
+    {
+      "path": "arts/characters/rigs/runtime/rig.mjs",
+      "bytes": 6851,
+      "sha256": "ae98a0e315af66887e347471381f315c81cb7ac94c5d808147893246261fce8a"
+    },
+    {
+      "path": "arts/actions/01/atlas-check.html",
+      "bytes": 555,
+      "sha256": "ece8983da8865c67e5c9b9dcd0da5ff3626ed6492ad6a206689ac8f3e2e82746"
+    },
+    {
+      "path": "arts/actions/01/bake.mjs",
+      "bytes": 6148,
+      "sha256": "7a093a29d3fca314ee589e7c866c340c686f97c5623f1d4aedde3d957892c7b4"
+    },
+    {
+      "path": "arts/actions/01/bundle-v01.json",
+      "bytes": 8131944,
+      "sha256": "6b5080441066634e69107c637f953c984cacd560bc167a16770be10c020d7339"
+    },
+    {
+      "path": "arts/actions/01/clips/A01-v01.json",
+      "bytes": 10819,
+      "sha256": "879cb0c2decc64879d64071cc8926a5e989e686c06cbdd2f6901c6be38236489"
+    },
+    {
+      "path": "arts/actions/01/clips/A02-v01.json",
+      "bytes": 21274,
+      "sha256": "961a3712b32972d6f6da17d6b4f3e41dd919478b3863af56b95689143e8def26"
+    },
+    {
+      "path": "arts/actions/01/clips/A03-v01.json",
+      "bytes": 11069,
+      "sha256": "ca2b28873b0d1675ce58ec7dcebecc2edb6cd887d28a877e0248f8ab67585dca"
+    },
+    {
+      "path": "arts/actions/01/clips/P01-v01.json",
+      "bytes": 23200,
+      "sha256": "bd94f372860bfb06804acc9455cfbe060e69b182dc18666adbc5e26b0f61c080"
+    },
+    {
+      "path": "arts/actions/01/clips/P02-v01.json",
+      "bytes": 23299,
+      "sha256": "7137675656451613292400fc0bd0baa53a2bc61150e22d234a074e736f567e8e"
+    },
+    {
+      "path": "arts/actions/01/clips/P03-v01.json",
+      "bytes": 9202,
+      "sha256": "2087d5f186ecd9b7c0fb38836adc01bc03ba64fcfd2dbc0299d5600a382afc30"
+    },
+    {
+      "path": "arts/actions/01/clips/P04-v01.json",
+      "bytes": 12619,
+      "sha256": "718da545312c8ed6f4faefc16a2d375dffb2054719171ee02f0ae2ce8c25522a"
+    },
+    {
+      "path": "arts/actions/01/clips/P05-v01.json",
+      "bytes": 18430,
+      "sha256": "49a45e00fa1c2c9321ea3f0fd8033dfe7eb57911870441cd21860d4430847fb1"
+    },
+    {
+      "path": "arts/actions/01/clips/P06-v01.json",
+      "bytes": 15253,
+      "sha256": "f73972a43f832540af89d020fe37087811da57c6be4929c7b677a939b955fc31"
+    },
+    {
+      "path": "arts/actions/01/clips/P07-v01.json",
+      "bytes": 9859,
+      "sha256": "c4826e86fee15a9b760baad4804edc7e8f08d307bbf8ee8a14289f056d8cdced"
+    },
+    {
+      "path": "arts/actions/01/clips/P08-v01.json",
+      "bytes": 21971,
+      "sha256": "851f4224c5d8143d560869d61144e0a731bd3387bbd5284bc048e32949acedb6"
+    },
+    {
+      "path": "arts/actions/01/clips/P09-v01.json",
+      "bytes": 17756,
+      "sha256": "8ab73176072327042af49d26ee0f68df526d2099576dc4c17ad64324dee2f678"
+    },
+    {
+      "path": "arts/actions/01/clips/P10-v01.json",
+      "bytes": 16680,
+      "sha256": "751bf59c17dcc24158ba41bd56ddf9de07e221a6bccf196def5f7ddf0d98b5b6"
+    },
+    {
+      "path": "arts/actions/01/contact-sheet-v01.svg",
+      "bytes": 4069967,
+      "sha256": "a4a69fc935e78e60b9285a55b7a8bebd99ce5a3ca2b31b069957915c36364daa"
+    },
+    {
+      "path": "arts/actions/01/keyposes/A01-v01.svg",
+      "bytes": 2075049,
+      "sha256": "a507586d68f82c0ef1037d92f8cc69ea69f8a646d3df6be9c6a7f16ce6631682"
+    },
+    {
+      "path": "arts/actions/01/keyposes/A02-v01.svg",
+      "bytes": 2075065,
+      "sha256": "a4816861cbab3fc218325de57a18ac06469d54a02ac8bdc7da0b4af1218469c2"
+    },
+    {
+      "path": "arts/actions/01/keyposes/A03-v01.svg",
+      "bytes": 2075048,
+      "sha256": "3d862c87fc45b3c2c6bbf8ab8feb9724398b3718d500d93e73749cdfd66e83ce"
+    },
+    {
+      "path": "arts/actions/01/keyposes/P01-v01.svg",
+      "bytes": 1975607,
+      "sha256": "0d2e5de063d6622d51dd7956346f64546ec2a96342cad8e03f3f4141490db4f6"
+    },
+    {
+      "path": "arts/actions/01/keyposes/P02-v01.svg",
+      "bytes": 1975613,
+      "sha256": "49fa93e2af8452135fad3e5774356dfedf209f1989e796965447769e374000bb"
+    },
+    {
+      "path": "arts/actions/01/keyposes/P03-v01.svg",
+      "bytes": 1975608,
+      "sha256": "f87332710d4e00c4d745b06183a752bb0b2e04c22a4b81eac51493d3b119dad0"
+    },
+    {
+      "path": "arts/actions/01/keyposes/P04-v01.svg",
+      "bytes": 1975610,
+      "sha256": "1830bdc7536d95b431fd8c6d089dfc001f92707ceab25407f75d042035a5288f"
+    },
+    {
+      "path": "arts/actions/01/keyposes/P05-v01.svg",
+      "bytes": 1975617,
+      "sha256": "4ac854873a79eaebbcd1de602e570c6c793df406ad802123e9f4e4b365d33d45"
+    },
+    {
+      "path": "arts/actions/01/keyposes/P06-v01.svg",
+      "bytes": 1975626,
+      "sha256": "610169cd1a3ba22f5b4603c19a103133e93764985178b26597c9b080a5b34400"
+    },
+    {
+      "path": "arts/actions/01/keyposes/P07-v01.svg",
+      "bytes": 1975608,
+      "sha256": "f7207f96bcf81d3f151a586a4cf3f1406025de4e11f74461c93ef1e66b12df84"
+    },
+    {
+      "path": "arts/actions/01/keyposes/P08-v01.svg",
+      "bytes": 1975609,
+      "sha256": "6f4b86fd8800fcc30285577c1d1a1ef4564c41daf65e1a42376ef7c95d84ac39"
+    },
+    {
+      "path": "arts/actions/01/keyposes/P09-v01.svg",
+      "bytes": 1975611,
+      "sha256": "6c2cef02b6cc07945556f66639348da4c85abe6bddbd890b59b052a40d835f08"
+    },
+    {
+      "path": "arts/actions/01/keyposes/P10-v01.svg",
+      "bytes": 1975610,
+      "sha256": "0e6f238cdc642af3b80b55dc54af77dcc89ada57c76064aa71e9be68fbebc425"
+    },
+    {
+      "path": "arts/actions/01/motion.mjs",
+      "bytes": 9596,
+      "sha256": "1abc33cd008be7f65ef9e40db4fe33d2d2196a83019ca3dcaa26ce94e21db9d4"
+    },
+    {
+      "path": "arts/actions/01/preview.html",
+      "bytes": 4104,
+      "sha256": "acfc281508addf61fef05c220fedd25b2679f31410b55f2fc792bb6449ec3a91"
+    },
+    {
+      "path": "arts/actions/01/provenance/atlas-calls-v01.json",
+      "bytes": 965,
+      "sha256": "47927a380639ebfe555c7d1edfa637e906e56b33543e29b01a344ebc3ebd759c"
+    },
+    {
+      "path": "arts/actions/01/provenance/claude-task-v01.txt",
+      "bytes": 8607,
+      "sha256": "27837e0bdc481abf5a07f416f3f99035c73e66fbd57444b9c88c0aec96172560"
+    },
+    {
+      "path": "arts/actions/01/provenance/input-hashes-v01.json",
+      "bytes": 1019,
+      "sha256": "a62be71a6d6b84394a2005ba8745aa15754b68a6f2723d60bce8512ebf44a698"
+    },
+    {
+      "path": "arts/actions/01/scene-poses-12fps-v01.json",
+      "bytes": 748292,
+      "sha256": "d427f8b7ed26fa756cdc20cc3e2ff2bb2a18c9a93396b794be35367d6506d642"
+    },
+    {
+      "path": "arts/actions/01/stage-overrides-v01.json",
+      "bytes": 464,
+      "sha256": "5ee2a622928a0369ae8a4dba99b3e78290d21b23f77b541cdaacdebd8b0b55dd"
+    }
+  ],
+  "status": "rejected visual trial; superseded by S01_WHOLE_PREVIEW v0.1",
+  "active": false,
+  "reason": "Human reported poor occlusion and limb connections; requested complete poses and rear-view initial programmer."
+}

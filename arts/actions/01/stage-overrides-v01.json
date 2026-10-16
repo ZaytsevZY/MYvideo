@@ -1,0 +1,35 @@
+{
+  "chairBack": [
+    480,
+    455,
+    265,
+    374
+  ],
+  "chairSeat": [
+    480,
+    770,
+    265,
+    242
+  ],
+  "monitor": [
+    740,
+    400,
+    544,
+    374
+  ],
+  "screen": [
+    767.2,
+    423.8,
+    489.6,
+    275.4
+  ],
+  "programmerPelvis": [
+    600,
+    790
+  ],
+  "agentPelvis": [
+    1550,
+    735
+  ],
+  "note": "Only action-stage overrides. Original static assets/layout unchanged. Keyboard is the contact device; no mouse reach is claimed."
+}

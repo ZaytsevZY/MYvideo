@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: identity-preserve. Generate intermediate TURNING pose between rear standing and left-facing walk. Reference identity/outfit: adult short charcoal hair, blue-gray sweatshirt, charcoal trousers, off-white sneakers. Full body, three-quarter REAR LEFT view, back still mostly visible, head looks toward left, left shoulder opens slightly toward left. Both feet near each other, left shoe pivots left, arms relaxed at sides. Keep exact clean cel anime style and 1024x1536 portrait proportions, full hair to shoes. Natural connected anatomy, no prop, chair, ground, shadow, lettering, background; alpha transparency.",
+  "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-1312f3b5-b7a6-4a33-92f3-a2f1e012de7d.png",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-stand-v01.png",
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-walk-a-v01.png"
+  ]
+}

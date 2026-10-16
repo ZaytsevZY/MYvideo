@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: identity-preserve. Edit target is the full-body standing orange-haired Agent, identity/style/camera and canvas locked. Create the intermediate pose halfway from relaxed arms to receiving a document on the LEFT: her arm on image-left lifts forward, elbow bent near waist, open palm facing diagonally up positioned between hip and the final outstretched hand. Other arm relaxed. Keep exact head, gaze direction, torso, feet, scale and 1024x1536 framing. Clean flat cel anime, complete connected anatomy. No document yet, no background, ground, shadow, text or extra poses. Genuine alpha transparency.",
+  "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-ed0d66ec-d8d9-4ca8-ba9c-7e49c1490ad6.png",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/agent-idle-v01.png",
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/agent-receive-v01.png"
+  ]
+}

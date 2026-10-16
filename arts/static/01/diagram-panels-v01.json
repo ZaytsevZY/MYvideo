@@ -1,0 +1,15 @@
+{
+  "version": "S01_DIAGRAM_PANELS v0.1",
+  "fill": "#F6F1E7",
+  "fillOpacity": 0.97,
+  "stroke": "#8D9CA6",
+  "strokeWidth": 2,
+  "radius": 20,
+  "transform": "translate(650 20) scale(.8)",
+  "bounds": {
+    "time": [-24, -12, 1548, 438],
+    "workflow": [-24, -12, 1548, 450],
+    "queue": [-24, -12, 1548, 430]
+  },
+  "layerPolicy": "diagram backdrop and content below foreground Agent; frame fits content, never full screen"
+}

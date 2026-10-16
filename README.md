@@ -7,7 +7,9 @@
 - **课程要求：** 成片 3～5 分钟；提交截止为 2026-10-21 24:00，原文见 [COURSE.md](COURSE.md)。
 - **字符与时间：** 口播840个非空白字符（含标点、英文），低于1,100上限；暂定全片4:40，含14秒文献卡，待实际配音校准。
 - **制作路线：** Claude 编写 Remotion / React 动画代码，再渲染成片；具体模型与依赖版本在执行时记录。
-- **视觉状态：** 已形成21个文字画面段落；STYLE_BIBLE v0.3明确故事＋逻辑双轴与角色识别优先，ART_DIRECTION提供角色、场景、动态图解和代表镜头提案。具体造型待验证，尚未生成素材、代码或视频。
+- **视觉状态：** 已形成21个文字画面段落；STYLE_BIBLE v0.9明确故事＋逻辑双轴与角色识别优先。已有四张角色设定及01静态资源：两个昼夜背景、15个道具SVG和16个图解SVG；01另有21张完整姿态与Codex动作预览，初始程序员背向镜头；尚无Remotion工程或成片。
+
+2026-10-16已细化[01镜头稿](scripts/final/shot/01.md#video-content)为11镜／45秒：情境多机位、逻辑站立讲解；[镜头增量评估](scripts/doc/01_CAMERA_WORKLOAD.md)推荐增加5项素材、8–14制作工时。当前为文字候选，尚未改动素材与动画；口播沿用原稿。
 
 ## 工作文件
 
@@ -19,6 +21,9 @@
 | [CREATIVE_BRIEF](scripts/style/CREATIVE_BRIEF.md) | 核心问题、概念与表达边界 |
 | [STYLE_BIBLE](scripts/style/STYLE_BIBLE.md) | 全片唯一候选风格规范 |
 | [ART_DIRECTION](scripts/style/ART_DIRECTION.md) | 双轴艺术方向审议：角色、情节分层、逻辑对象与代表镜头 |
+| [角色设定 CHAR-V01](arts/characters/README.md) | 四张角色模型表、完整生图提示词、生成来源与哈希 |
+| [01动作试验](arts/actions/01/README.md) | 完整姿态、13条动作和当前遮挡布局；旧分件试验停用 |
+| [01静态素材 S01_ASSETS](arts/static/01/README.md) | 背景、道具、图解与当前背面工位静态预览 |
 | [STYLE_REFERENCES](scripts/style/STYLE_REFERENCES.md) | 历史参考视频、仓库、技术线索与本地图片索引 |
 | [PRODUCTION_BLUEPRINT](scripts/style/PRODUCTION_BLUEPRINT.md) | Claude / Remotion 制作流程与交付物 |
 | [PRODUCTION_PROTOCOL](scripts/style/PRODUCTION_PROTOCOL.md) | 版本绑定、渲染与留档规则 |

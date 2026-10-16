@@ -1,0 +1,15 @@
+Use case: identity-preserve.
+Asset type: a production-ready TRANSPARENT cutout puppet PARTS ATLAS for limited 2D animation, not a model sheet of complete people.
+Input image is the identity and outfit reference. Preserve its clean dark anime ink contours, muted flat cel fills, minimal shadows, adult proportions and recognizable face/hair/clothes. Simplify small folds.
+Composition: a landscape atlas with EXACTLY FOUR EQUAL COLUMNS and TWO EQUAL ROWS, eight isolated parts, one centered part per cell, no part crosses a cell edge; generous transparent margins in each cell. No gridlines or labels. Every part is drawn separately with complete closed silhouettes; NO attached neighbouring limbs or full people. All body parts use the same three-quarter view and scale logic. Art is suitable for assembling and rotating body parts at overlapping joints. Genuine alpha transparency across all empty areas, no white or checkerboard background, no ground shadow.
+Cell order from top-left, reading left to right:
+row 1 cell 1 HEAD with complete hair, face and short neck, NO shoulders;
+row 1 cell 2 TORSO with clothing and pelvis, NO head and NO arms and NO legs;
+row 1 cell 3 ONE UPPER ARM sleeve, rounded hidden shoulder end to elbow, pointing vertically DOWN;
+row 1 cell 4 ONE FOREARM sleeve from elbow to wrist, pointing vertically DOWN, NO hand;
+row 2 cell 1 ONE RELAXED HAND with short wrist, wrist at top and fingers pointing down;
+row 2 cell 2 ONE SIMPLE POINTING HAND with short wrist, wrist at top, index pointing down, other fingers naturally curled;
+row 2 cell 3 ONE UPPER LEG trouser/thigh section from hip to knee, pointing vertically DOWN;
+row 2 cell 4 ONE LOWER LEG including attached shoe from knee to foot, pointing vertically DOWN with shoe directed toward the character's facing direction.
+Make join surfaces rounded and slightly overlapping rather than sharp puzzle notches. Include NO body-part annotations, dimensions, guides, decorative graphics, weapons, screens, watermark or typography. Do not include facial-expression variants or additional parts.
+Character specifics: adult programmer with short charcoal hair, dark eyes, blue-gray crewneck sweatshirt, dark teal lanyard and blank rectangular badge, charcoal trousers and off-white sneakers. The entire character faces THREE-QUARTER RIGHT (toward a computer on the viewer's right); head gaze to the right. Torso keeps lanyard and badge. The two leg sections are charcoal trousers. Keep the face recognizable from the reference, calm focused expression.

@@ -1,0 +1,69 @@
+{
+  "version": "S01_WHOLE_PREVIEW v0.3",
+  "camera": "behind programmer; screen faces programmer, chair rear shell faces viewer",
+  "desk": [
+    180,
+    620,
+    1110,
+    123
+  ],
+  "deskLegs": [
+    180,
+    659,
+    1110,
+    308
+  ],
+  "monitor": [
+    600,
+    320,
+    544,
+    374
+  ],
+  "screen": [
+    627.2,
+    343.8,
+    489.6,
+    275.4
+  ],
+  "keyboard": [
+    440,
+    649,
+    405,
+    67
+  ],
+  "mouse": [
+    875,
+    650,
+    43,
+    58
+  ],
+  "chairSeat": [
+    480,
+    813,
+    265,
+    205
+  ],
+  "chairRear": [
+    483,
+    663,
+    265,
+    296
+  ],
+  "programmerCenter": 610,
+  "floor": 1008,
+  "layerOrder": [
+    "room",
+    "desk legs/tower",
+    "desktop",
+    "monitor and screen",
+    "keyboard/lamp",
+    "chair seat",
+    "complete programmer",
+    "chair rear shell",
+    "diagram backdrop",
+    "diagram content",
+    "foreground Agent",
+    "task overlays"
+  ],
+  "note": "All complete PNG poses rendered once with uniform scale. No limb seams, masks or independent forearms. Hands are visually aligned with keyboard, not numerically proven finger contact."
+}

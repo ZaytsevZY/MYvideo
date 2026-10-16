@@ -1,0 +1,8 @@
+{
+  "prompt": "Use case: identity-preserve. Edit left-facing full-body walking programmer. Keep exact left-facing head, hair, outfit, upper torso, scale, style and portrait framing. Create a RECOVERY walking phase, distinctly different from reference wide stride: front planted leg nearly straight under hip; trailing leg bent BEHIND toward RIGHT with heel lifted toward buttocks, toe pointing down. Feet close horizontally. Arms near sides, opposite small swing. Complete connected anatomy; natural office walk not running. Both shoes visible. No ground/shadow/props/text, true transparent background.",
+  "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-663cb6af-8c80-4c49-9edc-ae7f6d02eec5.png",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-walk-a-v01.png"
+  ]
+}

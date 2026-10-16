@@ -1,0 +1,11 @@
+{
+  "scripts/final/shot/01.md": "2ee7bf5e37a407bd95121c637349ed4b63f2e6f2c81f03d2c419c9a95532eb0a",
+  "arts/static/01/layout-v01.json": "6a6fbad2398f5f0fc44a11c2f4d7c52841224db27f10e377d8b376eca2b23f3c",
+  "arts/static/01/native-assets-v01.json": "939c2b7749154f867a6c2e04ba8df109a6105ef986afb9360c2cb56f37c68664",
+  "arts/characters/programmer-model-sheet-v01.png": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0",
+  "arts/characters/agent-model-sheet-v01.png": "988d3df0b3b8ceb0158cf65c315d2f436e1b85498a8a368a285a4e4a618c653e",
+  "arts/characters/rigs/programmer/atlas-v01.png": "1bb7ec9eaa8e09d322158095b09d94f07aa940ec1e798dfff25638a9988431cd",
+  "arts/characters/rigs/agent/atlas-v01.png": "7d3c2b7ced2eed55e508ca085421d76d5d5d687ccb10200b38eb976ccf2ee265",
+  "arts/characters/rigs/programmer/atlas-v01.json": "9b1df0adc58571a02f27f00ee11e7f8b7ccbac559912d51701571ef937d2e83c",
+  "arts/characters/rigs/agent/atlas-v01.json": "60a699aa3a715f32a56a20062b857b92b2d80f6b1f449a9ea684a3d45e7a5316"
+}

@@ -1,0 +1,6 @@
+{
+  "status": "not active",
+  "reason": "edit did not provide clearly opposite gait",
+  "prompt": "Use case: identity-preserve. Edit target is the left-facing walking programmer. Keep exact identity, outfit, clean anime cel style, scale, profile camera, head height, full body portrait framing and alpha background. Change to OPPOSITE walking stride: the OTHER leg now leads toward LEFT planted heel down, previous leading leg trails right with heel raised. Arms swap their swing naturally. Keep moderate stride and body centered at the same location. Anatomically connected complete person, all fingers and shoes present. No ground, shadow, props, scene, text or detached parts. True transparency.",
+  "source": "Generated images are saved to /Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e as /Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-4de6eea3-60a5-47de-91b1-afd186343857.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

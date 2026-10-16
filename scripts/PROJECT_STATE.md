@@ -1,6 +1,6 @@
 # 项目版本与状态
 
-**版本：** PROJECT_STATE v0.7 · 2026-10-15
+**版本：** PROJECT_STATE v0.14 · 2026-10-16
 
 本文件为当前版本的唯一索引。工作片名：《当效率成为义务》——Agent 时代的劳动悖论；课程方向为马克思主义科技社会观。
 
@@ -15,18 +15,22 @@
 | 对象 | 当前文件 / 版本 | 状态 |
 |---|---|---|
 | 音画文本 | [SHOT_TEXT v0.4](final/shot/README.md) | 第01章补回叙事引入，其余口播未改；待试听及内容审核 |
-| 主题与表达 | [CREATIVE_BRIEF v0.8](style/CREATIVE_BRIEF.md) | 同步故事＋逻辑双轴及避免MV、slide的约束 |
+| 01镜头细化 | [S01_CAMERA v0.1](final/shot/01.md#video-content) / [增量评估](doc/01_CAMERA_WORKLOAD.md) | 11镜／45秒文字候选，情境增加机位与景深、逻辑保持站立；尚未制作新增素材或实现 |
+| 主题与表达 | [CREATIVE_BRIEF v0.9](style/CREATIVE_BRIEF.md) | 同步故事＋逻辑双轴及避免MV、slide的约束 |
 | 六章结构 | [OUTLINE v0.14](final/OUTLINE.md) | 同步音画分工与暂定时段 |
-| 风格 | [STYLE_BIBLE v0.3](style/STYLE_BIBLE.md) | 双轴形式和角色识别优先已明确，具体造型与美术参数待验证 |
-| 艺术方向 | [ART_DIRECTION v0.1](style/ART_DIRECTION.md) | 角色、场景分层、逻辑对象、两个代表镜头的审议稿 |
+| 风格 | [STYLE_BIBLE v0.9](style/STYLE_BIBLE.md) | 图解改用按内容定高的暖白底框；Agent处于底框上方 |
+| 艺术方向 | [ART_DIRECTION v0.7](style/ART_DIRECTION.md) | 01已改完整背面姿态叠层；后续镜头仍为草案 |
+| 角色设计 | [CHAR-V01](../arts/characters/README.md) | 四张设定表；01另有21张完整透明姿态候选 |
+| 01动作预览 | [S01_WHOLE_PREVIEW v0.3](../arts/actions/01/README.md) | 21张完整姿态、13条动作；三种图解底框在Agent后方；无MP4 |
+| 01静态素材 | [S01_ASSETS v0.5](../arts/static/01/README.md) | 两个背景、31个SVG；默认静态入口已改背面人物工位 |
 | 制作参考 | [STYLE_REFERENCES v0.2](style/STYLE_REFERENCES.md) | 保留历史参考；明确不采用MV叙事及空镜填充 |
-| 制作蓝图 | [PRODUCTION_BLUEPRINT v0.6](style/PRODUCTION_BLUEPRINT.md) | 先设计角色、故事与逻辑，再落实分层镜头与代码预览 |
+| 制作蓝图 | [PRODUCTION_BLUEPRINT v0.10](style/PRODUCTION_BLUEPRINT.md) | 本轮Codex动作预览例外已获用户授权；正式工程待建 |
 | 制作协议 | [PRODUCTION_PROTOCOL v0.2](style/PRODUCTION_PROTOCOL.md) | 管理正式生成、版本绑定与留档 |
 | 来源与概念 | [SOURCES v0.3](doc/SOURCES.md) | 经典、其他哲学文本、研究与技术来源分别标注 |
 | 研究入口 | [RESEARCH v0.7](doc/RESEARCH.md) | 沿用既有原文核查范围，增加历史制作调研恢复入口 |
 | 内容检查 | [FACT_CHECK v0.4](doc/FACT_CHECK.md) | 本版事实、引文与音画分配检查 |
-| 制作日志 | [GENERATION_LOG v0.2](doc/GENERATION_LOG.md) | 当前路线尚无正式动画或渲染记录 |
-| 交接 | [HANDOFF v0.8](HANDOFF.md) | 同步双轴约束、设计草案与待验证内容 |
+| 制作日志 | [GENERATION_LOG v0.8](doc/GENERATION_LOG.md) | 登记分件试验淘汰、21张完整姿态和有限动作预览 |
+| 交接 | [HANDOFF v0.15](HANDOFF.md) | 同步01镜头候选、增量评估与旧预览状态区别 |
 
 ## 字符与时间
 
@@ -44,12 +48,26 @@
 
 ## 制作路线与留档
 
-用户决定由Claude编写Remotion / React动画代码并渲染；计划模型为Claude Opus 5.5，实际调用和依赖版本在使用时登记。当前只完成文字音画稿，没有生成声音、图片、工程或视频。
+用户决定由Claude编写Remotion / React动画代码并渲染；计划模型为Claude Opus 5.5，实际调用和依赖版本在使用时登记。当前已有四张设定表、21张01完整姿态、两个背景及31个SVG，以及Codex编写的有限动作预览。Claude本机未登录，用户明确授权本轮预览代码由Codex编写；未生成声音、Remotion工程、逐帧光栅序列或MP4。
 
 分镜使用storyboard-prompt-assistant，动画使用Remotion官方skills；Claude从 `.claude/skills/` 读取，Codex通过 `.agents/skills/` 链接共用同一份文件。
 
 历史视频和仓库参考已从 `80a999e` 的父版本恢复至 STYLE_REFERENCES；该文件最近修改提交为 `0d15be5`。保留原链接与技术线索，恢复时未重新验证外部内容。用户现已明确采用故事＋逻辑双轴、避免MV及slide叙事，Agent以识别度为先、画风统一；具体造型和美术参数仍待验证。
 
-ART_DIRECTION给出二维卡通分件角色、三种可复用场景、六章逻辑对象，以及V01.1与V02.2两个代表镜头提案。本轮只记录设计审议，未改六章正文、生成角色素材或创建工程。已查阅Remotion官方属性动画与Sequence文档，技术可行性不等于已完成视觉验证。
+01角色先尝试分件绑定，人体连接和遮挡视觉较差，已按用户反馈停用。当前改用完整姿态PNG叠层，程序员初始背对观众面向显示器，椅背外壳放在人物前景；不拼接肢体或重复前臂。首批九姿态现扩展至21张，包含程序员收手、前倾、起身、转身、三种步态及Agent接收、握持、查看和返还；全部保留原始alpha与提示词。当前布局以arts/actions/01/layout-whole-v01.json为准，旧layout-v01.json仅为空工位素材参考。
+
+本地浏览器已查看背面坐姿、半起身、任务派发、白天验收和图解浮层。动作45秒为无配音工艺试验，已补起身前倾、接近站直、转身和第三步态；更细的姿态衔接仍待优化；1,351条30fps采样是姿态选择与整身位置数据，不能称为1,351张动画帧。口播未改，图解仍按内容浮动叠在背景上。
 
 本轮明确不在 `.tmp` 新建副本。早先整理、核查与恢复记录仍保留在历史归档；其中的原稿字数和恢复验证不再表示本版口播状态。后续实质变更同步本表与派生文件；最终冻结仍须记录实际审核依据。
+
+用户最新要求图解在杂色背景上突出，并明确Agent在背景色框上方。当前S01_WHOLE_PREVIEW v0.3与S01_ASSETS v0.5已采用统一暖白框（#F6F1E7，填充0.97、细灰蓝边、圆角），静态和动作入口同步；图解内容及底框均在Agent后面。早先“默认透明、无底框”的约束以此条修订。
+
+当前角色关键帧已扩展至21张（程序员11、Agent10），新增12次内置生图。Agent以伸手、抓握、收回查看、递出返还推进同一T01任务；代码按30fps采样整身缓动与文件曲线，离散绘制姿态不等于每秒30张新人物图。动作数据以scene-whole-30fps-v02.json及keyframe-tracks-v01.json为准。
+
+## 2026-10-16：01镜头细化候选
+
+用户希望逻辑段保持站立演出，情境段加入景别、景深和角度变化，并提出开头正面特写。当前[01正文](final/shot/01.md)据此拆为11镜，仍为16／21／8秒三段、共45秒，口播155字符及全片840字符不变。新脚本优先于旧的“初始背面”制作约束；背面工位继续复用在派发、离席与次日验收。新构图尚未写入layout或动作预览。
+
+推荐方案最少新增5项素材，增量估计8–14制作工时；经济方案3项、3–5小时。详见[评估口径](doc/01_CAMERA_WORKLOAD.md)，不含新建Remotion工程等共同待做工作。当前仅完成文字脚本与评估，未生图、改动画、录音或渲染。
+
+本次本机Claude Code 2.1.168调用仍返回未登录，没有模型输出；完整输入、哈希及原始结果见[调用记录](doc/production/01-camera-v01/input-manifest.json)。镜头稿由Codex整理，未将失败调用记为Claude生成。

@@ -1,0 +1,241 @@
+{
+  "version": "S01_WHOLE_PREVIEW v0.3",
+  "tracks": {
+    "release": [
+      [
+        0,
+        "input"
+      ],
+      [
+        0.22,
+        "release-half"
+      ],
+      [
+        0.62,
+        "rest"
+      ]
+    ],
+    "rise": [
+      [
+        0,
+        "rest"
+      ],
+      [
+        0.12,
+        "lean"
+      ],
+      [
+        0.3,
+        "rise"
+      ],
+      [
+        0.54,
+        "rise-high"
+      ],
+      [
+        0.76,
+        "stand"
+      ],
+      [
+        0.9,
+        "turn-left"
+      ]
+    ],
+    "sit": [
+      [
+        0,
+        "turn-left"
+      ],
+      [
+        0.12,
+        "stand"
+      ],
+      [
+        0.28,
+        "rise-high"
+      ],
+      [
+        0.48,
+        "rise"
+      ],
+      [
+        0.7,
+        "lean"
+      ],
+      [
+        0.85,
+        "rest"
+      ],
+      [
+        0.97,
+        "input"
+      ]
+    ],
+    "walk": [
+      [
+        0,
+        "walk-a"
+      ],
+      [
+        0.24,
+        "walk-recover"
+      ],
+      [
+        0.5,
+        "walk-pass"
+      ],
+      [
+        0.76,
+        "walk-recover"
+      ]
+    ],
+    "receive": [
+      [
+        0,
+        "idle"
+      ],
+      [
+        0.08,
+        "reach-half"
+      ],
+      [
+        0.2,
+        "receive"
+      ],
+      [
+        0.32,
+        "pregrasp"
+      ],
+      [
+        0.52,
+        "grasp-file"
+      ],
+      [
+        0.62,
+        "pull-file"
+      ],
+      [
+        0.74,
+        "hold-file"
+      ],
+      [
+        0.84,
+        "inspect-file"
+      ]
+    ],
+    "deliver": [
+      [
+        0,
+        "inspect-file"
+      ],
+      [
+        0.12,
+        "hold-file"
+      ],
+      [
+        0.25,
+        "pull-file"
+      ],
+      [
+        0.4,
+        "grasp-file"
+      ],
+      [
+        0.5,
+        "offer-file"
+      ],
+      [
+        0.66,
+        "pregrasp"
+      ],
+      [
+        0.78,
+        "receive"
+      ],
+      [
+        0.88,
+        "reach-half"
+      ],
+      [
+        0.98,
+        "idle"
+      ]
+    ],
+    "explain": [
+      [
+        0,
+        "idle"
+      ],
+      [
+        0.16,
+        "reach-half"
+      ],
+      [
+        0.32,
+        "receive"
+      ],
+      [
+        0.52,
+        "pregrasp"
+      ],
+      [
+        0.72,
+        "report"
+      ]
+    ]
+  },
+  "calibration": {
+    "programmer-input": {
+      "scale": 0.43,
+      "bottom": 1462
+    },
+    "programmer-release-half": {
+      "scale": 0.43,
+      "bottom": 1462
+    },
+    "programmer-rest": {
+      "scale": 0.43,
+      "bottom": 1462
+    },
+    "programmer-lean": {
+      "scale": 0.43,
+      "bottom": 1431
+    },
+    "programmer-rise": {
+      "scale": 0.49,
+      "bottom": 1491
+    },
+    "programmer-rise-high": {
+      "scale": 0.515,
+      "bottom": 1493
+    },
+    "programmer-stand": {
+      "scale": 0.53,
+      "bottom": 1489
+    },
+    "programmer-turn-left": {
+      "scale": 0.53,
+      "bottom": 1478
+    },
+    "programmer-walk-a": {
+      "scale": 0.53,
+      "bottom": 1461,
+      "center": 490
+    },
+    "programmer-walk-pass": {
+      "scale": 0.53,
+      "bottom": 1463,
+      "center": 495
+    },
+    "programmer-walk-recover": {
+      "scale": 0.53,
+      "bottom": 1472,
+      "center": 494
+    },
+    "agent-hold-file": {
+      "scale": 0.477,
+      "bottom": 1496,
+      "center": 500
+    }
+  }
+}

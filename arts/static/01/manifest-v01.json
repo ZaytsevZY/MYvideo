@@ -1,0 +1,804 @@
+{
+  "version": "S01_ASSETS v0.5",
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "shot": "01",
+  "content_version": "SHOT_TEXT v0.4",
+  "background_calls": [
+    {
+      "id": "BG01-night",
+      "tool": "image_gen.imagegen (built-in)",
+      "model_identifier": "not exposed by tool",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-c94dd154-cfdb-4035-b679-b6c45423183d.png",
+      "output": "arts/backgrounds/01/workroom-night-v01.png",
+      "prompt": "arts/backgrounds/01/prompts/night-v01.txt",
+      "referenced_image_paths": [
+        "arts/characters/programmer-model-sheet-v01.png",
+        "assets/references/anime-contact2.jpg"
+      ],
+      "transparent_background": false
+    },
+    {
+      "id": "BG01-day",
+      "tool": "image_gen.imagegen (built-in)",
+      "model_identifier": "not exposed by tool",
+      "source": "/Users/alan671/.codex/generated_images/01a13f4b-7a05-7633-a3d3-9128b7ed983e/exec-75fc85ad-baf1-442c-9e05-686dd2b9682c.png",
+      "output": "arts/backgrounds/01/workroom-day-v01.png",
+      "prompt": "arts/backgrounds/01/prompts/day-v01.txt",
+      "referenced_image_paths": [
+        "arts/backgrounds/01/workroom-night-v01.png"
+      ],
+      "transparent_background": false
+    }
+  ],
+  "native_svg_count": 31,
+  "native_assets": [
+    {
+      "id": "desk-legs",
+      "path": "arts/items/01/desk-legs-v01.svg",
+      "size": [
+        1440,
+        400
+      ],
+      "role": "behind seated character and desk surface",
+      "anchors": {
+        "floor": [
+          720,
+          390
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "desk-surface",
+      "path": "arts/items/01/desk-surface-v01.svg",
+      "size": [
+        1440,
+        160
+      ],
+      "role": "foreground occluder; arms and input items layer above",
+      "anchors": {
+        "surface_center": [
+          720,
+          54
+        ],
+        "front_edge_y": 86
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "chair-back",
+      "path": "arts/items/01/chair-back-v01.svg",
+      "size": [
+        340,
+        480
+      ],
+      "role": "behind character torso",
+      "anchors": {
+        "seat_connection": [
+          170,
+          460
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "chair-seat",
+      "path": "arts/items/01/chair-seat-v01.svg",
+      "size": [
+        340,
+        310
+      ],
+      "role": "behind thighs; attach to chair-back seat_connection",
+      "anchors": {
+        "seat_top": [
+          170,
+          14
+        ],
+        "floor": [
+          170,
+          306
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "monitor-frame",
+      "path": "arts/items/01/monitor-frame-v01.svg",
+      "size": [
+        640,
+        440
+      ],
+      "role": "screen UI overlays the exact aperture",
+      "anchors": {
+        "screen_rect": [
+          32,
+          28,
+          576,
+          324
+        ],
+        "stand_base": [
+          320,
+          432
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "computer-tower",
+      "path": "arts/items/01/computer-tower-v01.svg",
+      "size": [
+        260,
+        390
+      ],
+      "role": "under desk, behind desk front",
+      "anchors": {
+        "floor": [
+          130,
+          380
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "keyboard",
+      "path": "arts/items/01/keyboard-v01.svg",
+      "size": [
+        600,
+        180
+      ],
+      "role": "hand contact prop",
+      "anchors": {
+        "typing_left": [
+          210,
+          80
+        ],
+        "typing_right": [
+          380,
+          80
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "mouse",
+      "path": "arts/items/01/mouse-v01.svg",
+      "size": [
+        120,
+        160
+      ],
+      "role": "right-hand contact prop",
+      "anchors": {
+        "palm": [
+          60,
+          90
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "desk-lamp",
+      "path": "arts/items/01/desk-lamp-v01.svg",
+      "size": [
+        280,
+        440
+      ],
+      "role": "lamp geometry only; separate glow overlay",
+      "anchors": {
+        "light_source": [
+          150,
+          116
+        ],
+        "base": [
+          145,
+          399
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "lamp-glow",
+      "path": "arts/items/01/lamp-glow-v01.svg",
+      "size": [
+        520,
+        440
+      ],
+      "role": "optional additive-look overlay; no fixture",
+      "anchors": {
+        "center": [
+          255,
+          190
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "screen-off",
+      "path": "arts/items/01/screen-off-v01.svg",
+      "size": [
+        576,
+        324
+      ],
+      "role": "opaque screen fill; aperture only",
+      "anchors": {},
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "screen-idle",
+      "path": "arts/items/01/screen-idle-v01.svg",
+      "size": [
+        576,
+        324
+      ],
+      "role": "editable native UI; no fake code or metrics",
+      "anchors": {},
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "screen-running",
+      "path": "arts/items/01/screen-running-v01.svg",
+      "size": [
+        576,
+        324
+      ],
+      "role": "edit named groups or replace full state; not a numerical progress report",
+      "anchors": {},
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "screen-review",
+      "path": "arts/items/01/screen-review-v01.svg",
+      "size": [
+        576,
+        324
+      ],
+      "role": "generation does not imply acceptance; rework remains visible",
+      "anchors": {},
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "logic-panel",
+      "path": "arts/static/01/logic-panel-v01.svg",
+      "size": [
+        1500,
+        760
+      ],
+      "role": "optional only; not used in default floating overlays",
+      "anchors": {
+        "content_rect": [
+          48,
+          120,
+          1404,
+          570
+        ],
+        "header_rect": [
+          110,
+          20,
+          1300,
+          65
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "time-tracks-base",
+      "path": "arts/static/01/time-tracks-base-v01.svg",
+      "size": [
+        1500,
+        350
+      ],
+      "role": "floating lines and labels, no panel or filled track background",
+      "anchors": {
+        "human_lane": [
+          286,
+          62,
+          1130,
+          56
+        ],
+        "machine_lane": [
+          286,
+          202,
+          1130,
+          56
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "human-dispatch",
+      "path": "arts/static/01/human-dispatch-v01.svg",
+      "size": [
+        170,
+        60
+      ],
+      "role": "qualitative length only; not time measurement",
+      "anchors": {},
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "human-review",
+      "path": "arts/static/01/human-review-v01.svg",
+      "size": [
+        170,
+        60
+      ],
+      "role": "qualitative length only; not time measurement",
+      "anchors": {},
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "machine-execution",
+      "path": "arts/static/01/machine-execution-v01.svg",
+      "size": [
+        760,
+        60
+      ],
+      "role": "qualitative length only; not time measurement",
+      "anchors": {},
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "lane-evaluation",
+      "path": "arts/static/01/lane-evaluation-v01.svg",
+      "size": [
+        410,
+        350
+      ],
+      "role": "transparent header and alignment anchor, no filled lane or border",
+      "anchors": {
+        "task_slot": [
+          45,
+          110,
+          320,
+          140
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "lane-scheduled",
+      "path": "arts/static/01/lane-scheduled-v01.svg",
+      "size": [
+        410,
+        350
+      ],
+      "role": "transparent header and alignment anchor, no filled lane or border",
+      "anchors": {
+        "task_slot": [
+          45,
+          110,
+          320,
+          140
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "lane-acceptance",
+      "path": "arts/static/01/lane-acceptance-v01.svg",
+      "size": [
+        410,
+        350
+      ],
+      "role": "transparent header and alignment anchor, no filled lane or border",
+      "anchors": {
+        "task_slot": [
+          45,
+          110,
+          320,
+          140
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "task-test",
+      "path": "arts/static/01/task-test-v01.svg",
+      "size": [
+        320,
+        140
+      ],
+      "role": "icon and label only; stable identity without a card container",
+      "anchors": {
+        "drag_anchor": [
+          160,
+          70
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "task-interface",
+      "path": "arts/static/01/task-interface-v01.svg",
+      "size": [
+        320,
+        140
+      ],
+      "role": "icon and label only; stable identity without a card container",
+      "anchors": {
+        "drag_anchor": [
+          160,
+          70
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "task-feature",
+      "path": "arts/static/01/task-feature-v01.svg",
+      "size": [
+        320,
+        140
+      ],
+      "role": "icon and label only; stable identity without a card container",
+      "anchors": {
+        "drag_anchor": [
+          160,
+          70
+        ]
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "connector-arrow",
+      "path": "arts/static/01/connector-arrow-v01.svg",
+      "size": [
+        160,
+        54
+      ],
+      "role": "meaning defined by scene, not decorative",
+      "anchors": {},
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "endpoint-marker",
+      "path": "arts/static/01/endpoint-marker-v01.svg",
+      "size": [
+        100,
+        210
+      ],
+      "role": "move independently from tracks and cards",
+      "anchors": {
+        "line_x": 28
+      },
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "cursor",
+      "path": "arts/static/01/cursor-v01.svg",
+      "size": [
+        70,
+        90
+      ],
+      "role": "independent pointer",
+      "anchors": {},
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "status-check",
+      "path": "arts/static/01/status-check-v01.svg",
+      "size": [
+        70,
+        70
+      ],
+      "role": "only where a scene explicitly indicates approval",
+      "anchors": {},
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "status-rework",
+      "path": "arts/static/01/status-rework-v01.svg",
+      "size": [
+        70,
+        70
+      ],
+      "role": "distinct from completed/approved",
+      "anchors": {},
+      "format": "native SVG",
+      "source": "arts/static/01/build_assets.py"
+    },
+    {
+      "id": "chair-back-rear",
+      "path": "arts/items/01/chair-back-rear-v02.svg",
+      "size": [
+        340,
+        480
+      ],
+      "title": "椅背外壳背面",
+      "layer": "in front of complete rear-view programmer",
+      "anchors": {
+        "seat_connection": [
+          170,
+          460
+        ]
+      }
+    }
+  ],
+  "static_layout_preview_count": 4,
+  "animation_frames_baked": 0,
+  "current_character_layout": "arts/actions/01/layout-whole-v01.json",
+  "reference_sha256": {
+    "arts/backgrounds/01/workroom-night-v01.png": "062660817c9cc28f7acd52678e761b8f2c1d584dc6d57cd5b9165c6a124cd77c",
+    "arts/characters/programmer-model-sheet-v01.png": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0",
+    "assets/references/anime-contact2.jpg": "b6cfaf043d7946e97610e04491e6f10af3761fb9382d44fa10dbeb9187de335f"
+  },
+  "files": [
+    {
+      "path": "arts/backgrounds/01/README.md",
+      "bytes": 1895,
+      "sha256": "c85fdcf39c2348413d084586770c4011d740d750f50918e5a5bf7db2d0f577f0"
+    },
+    {
+      "path": "arts/backgrounds/01/generation-v01.json",
+      "bytes": 1187,
+      "sha256": "49d0f5bf10075c2ac7da1026647b84c5e321e951ef50d540a082dcffb86dd60a"
+    },
+    {
+      "path": "arts/backgrounds/01/prompts/day-v01.txt",
+      "bytes": 1390,
+      "sha256": "5e92dcf02aebd857d607efe6007909effaf9a0bad8e88edcde07689a30f5d18a"
+    },
+    {
+      "path": "arts/backgrounds/01/prompts/night-v01.txt",
+      "bytes": 2068,
+      "sha256": "647a52b39f4c24e7cc00d193397cdc4d85c6b81e7d8c7eeb3919c00122db63ab"
+    },
+    {
+      "path": "arts/backgrounds/01/workroom-day-v01.png",
+      "bytes": 1577652,
+      "sha256": "45e33124784fffdfd755d27f6ee1b13d06d65261795087e83ec15c74392c50b3",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "arts/backgrounds/01/workroom-night-v01.png",
+      "bytes": 1456166,
+      "sha256": "062660817c9cc28f7acd52678e761b8f2c1d584dc6d57cd5b9165c6a124cd77c",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "arts/items/01/README.md",
+      "bytes": 2862,
+      "sha256": "f3e230566ef8eb3c898cd099c8af13f183db5a68dc905c3de1b5b98c47ebd7e5"
+    },
+    {
+      "path": "arts/items/01/chair-back-rear-v02.svg",
+      "bytes": 648,
+      "sha256": "7126fbd1b4fc9bb0c57ba527b2199804993167bdbf520b91ae7d67f366dd8c92"
+    },
+    {
+      "path": "arts/items/01/chair-back-v01.svg",
+      "bytes": 642,
+      "sha256": "a1adf60ec121f3a0083d457a2bfb96015ad386dc43268b3a0669582070fcba19"
+    },
+    {
+      "path": "arts/items/01/chair-seat-v01.svg",
+      "bytes": 1002,
+      "sha256": "33fadca63d1cd895c085555bc8f8b6cdc42f47dadc125d02e182daf61616dbc2"
+    },
+    {
+      "path": "arts/items/01/computer-tower-v01.svg",
+      "bytes": 934,
+      "sha256": "86561951af241f22a4b7e717ec8448ac9291a251c5f8b05df4e24adfa83b3f21"
+    },
+    {
+      "path": "arts/items/01/desk-lamp-v01.svg",
+      "bytes": 1019,
+      "sha256": "af90a83e55af6b25c7805a636b579055340d96b313273ed974371a3d01ecdb21"
+    },
+    {
+      "path": "arts/items/01/desk-legs-v01.svg",
+      "bytes": 795,
+      "sha256": "fbbfa4e5e4389bd2bb42e19d75b6e7a4351d2686aff09a092cab4c5165b52f39"
+    },
+    {
+      "path": "arts/items/01/desk-surface-v01.svg",
+      "bytes": 860,
+      "sha256": "cd0f83b599154d7753ffe6653610b6645c58f66640bee56fea88902b1800818b"
+    },
+    {
+      "path": "arts/items/01/keyboard-v01.svg",
+      "bytes": 5567,
+      "sha256": "27fb0840895faa80db0074be3254655956a1c8236c1393a070297568d2c7e8c5"
+    },
+    {
+      "path": "arts/items/01/lamp-glow-v01.svg",
+      "bytes": 564,
+      "sha256": "6854251b1bcd62669977c585b3c847d19532683f16c5df4165cb8aef0fe639d1"
+    },
+    {
+      "path": "arts/items/01/monitor-frame-v01.svg",
+      "bytes": 946,
+      "sha256": "a2e5fef0185ba0585a7feaaf374965054e6fceafdbb4c806589c04c2d2449d5a"
+    },
+    {
+      "path": "arts/items/01/mouse-v01.svg",
+      "bytes": 722,
+      "sha256": "1a457d16ba87490f8e7446fd0703c83492c9ecda7e17ae2d37bc0bcc63ce189e"
+    },
+    {
+      "path": "arts/items/01/screen-idle-v01.svg",
+      "bytes": 862,
+      "sha256": "790677fd516595915e4d46ac9bc3bdda44d74f458713936ad3cd18356c6d8203"
+    },
+    {
+      "path": "arts/items/01/screen-off-v01.svg",
+      "bytes": 427,
+      "sha256": "7e336f4ab5045f97698a322a00e5e779df7d9a286fadadd7eb4959b0d9472cfc"
+    },
+    {
+      "path": "arts/items/01/screen-review-v01.svg",
+      "bytes": 1745,
+      "sha256": "4c0fee3c6abb9b3e25772aa25c709ddd28fb40919f81112001e9d23cfa547745"
+    },
+    {
+      "path": "arts/items/01/screen-running-v01.svg",
+      "bytes": 1267,
+      "sha256": "dadbb8a9ac8bc4812ea03553f7112e4b2abc8ca764c1eea65850f195fcf95f8c"
+    },
+    {
+      "path": "arts/static/01/README.md",
+      "bytes": 5734,
+      "sha256": "31dd629bae42bb6fe8f61c2983d20aeb9ab01ff906023f4d00bae7b788e79993"
+    },
+    {
+      "path": "arts/static/01/assembly-day-v01.svg",
+      "bytes": 4247676,
+      "sha256": "21c05b61db6b92ffb7db07e2c255e2ac53cb6769441955508746c7f51e31b1e4"
+    },
+    {
+      "path": "arts/static/01/assembly-night-v01.svg",
+      "bytes": 3922447,
+      "sha256": "10675c83132dae48c4ab70531ac8a1e6d5bf3e84b5dc4f52acb58b12a3fd191c"
+    },
+    {
+      "path": "arts/static/01/build_assets.py",
+      "bytes": 21002,
+      "sha256": "7a9eec94f7727e92d922ec6e8d027f8ad299ec7cae6dfe9858dc8ae0a8ab0401"
+    },
+    {
+      "path": "arts/static/01/connector-arrow-v01.svg",
+      "bytes": 475,
+      "sha256": "33ddd0b5cf77935f4294c8624449964e75e70469b857e19a0961c034b9bc07e6"
+    },
+    {
+      "path": "arts/static/01/cursor-v01.svg",
+      "bytes": 476,
+      "sha256": "8644710ef890d036ffb200a10be9d55e67adc79c20ee18089129261f2a428b05"
+    },
+    {
+      "path": "arts/static/01/diagram-panels-v01.json",
+      "bytes": 431,
+      "sha256": "7e65d2b79343155516d4f74f3edd6688c4de1196f70c02e37f15d37d6cffed16"
+    },
+    {
+      "path": "arts/static/01/endpoint-marker-v01.svg",
+      "bytes": 585,
+      "sha256": "4cc8261c1e2f0651c68d145b8a0cfebffa56c9d06499d5a04886d2dda9c16cf4"
+    },
+    {
+      "path": "arts/static/01/human-dispatch-v01.svg",
+      "bytes": 526,
+      "sha256": "005f5bc4ca442fc91680c9242e28a4a7b44e777c570cc13b55c26c3f22ad0589"
+    },
+    {
+      "path": "arts/static/01/human-review-v01.svg",
+      "bytes": 526,
+      "sha256": "db29f627d3d1e98002e805d8462e1523e2d52a0d48da7ebd873cc6b5fe14bf50"
+    },
+    {
+      "path": "arts/static/01/lane-acceptance-v01.svg",
+      "bytes": 632,
+      "sha256": "df38f6793a7fe5fd0d6fcbb25361fc0b73471434150e132ff585a177997d7ed7"
+    },
+    {
+      "path": "arts/static/01/lane-evaluation-v01.svg",
+      "bytes": 623,
+      "sha256": "7e59d826eba66650106d353783b82ef9c6d941969521b36ff06baac2bf113d3e"
+    },
+    {
+      "path": "arts/static/01/lane-scheduled-v01.svg",
+      "bytes": 632,
+      "sha256": "e77d28f5a0dcd6909963e2ba93f18c85f3f5e495ef05c8f4b7f0b4e73a9239ac"
+    },
+    {
+      "path": "arts/static/01/layout-v01.json",
+      "bytes": 4326,
+      "sha256": "db10acad819a75f38e1d7abce66379c7aa6bbbab52972a7492df36073e8ee8c7"
+    },
+    {
+      "path": "arts/static/01/logic-panel-v01.svg",
+      "bytes": 661,
+      "sha256": "df2afd1900ffefc24b64a9acf367537b20f2b29a774e8865152ebb20495e90e4"
+    },
+    {
+      "path": "arts/static/01/logic-time-preview-v01.svg",
+      "bytes": 4256072,
+      "sha256": "e80560c5d40551913eda263377601a6b840baae6610ed800306c4ad261d82693"
+    },
+    {
+      "path": "arts/static/01/logic-workflow-preview-v01.svg",
+      "bytes": 4263621,
+      "sha256": "df2dd61d5f0e1a5e85a1044a16c5434f32509f11609f882b4fb612024d8c9aa6"
+    },
+    {
+      "path": "arts/static/01/machine-execution-v01.svg",
+      "bytes": 545,
+      "sha256": "8d2b151989389ae26928de5a7fa3484ea132fea6b7b362635be3f8d3a9c640ad"
+    },
+    {
+      "path": "arts/static/01/native-assets-v01.json",
+      "bytes": 10440,
+      "sha256": "90fa17cdc26d2c808b2afb6c1d639e647d1af9246286826f2974e33603e618df"
+    },
+    {
+      "path": "arts/static/01/preview.html",
+      "bytes": 2085,
+      "sha256": "f1f53d0ab8f219b243251b49e0ecf49a6dace9e80db0d018b382e18f66341c0b"
+    },
+    {
+      "path": "arts/static/01/status-check-v01.svg",
+      "bytes": 449,
+      "sha256": "96c7319669dcbd57d1da3902acd600b7c989617732833545fc20e21e68c592cb"
+    },
+    {
+      "path": "arts/static/01/status-rework-v01.svg",
+      "bytes": 484,
+      "sha256": "a76dd3b7c2d92f54516ccde34add4ef6d314b214f2c4087c0a949c716f81ea05"
+    },
+    {
+      "path": "arts/static/01/task-feature-v01.svg",
+      "bytes": 744,
+      "sha256": "8594b65450fe97a2dee27c9a90e976236d5c298c2eb3c701b75e410e2dd7335d"
+    },
+    {
+      "path": "arts/static/01/task-interface-v01.svg",
+      "bytes": 836,
+      "sha256": "0084b36613aa18bb3683ae0da0163f07b3b104d6c1b5f0e52ac64b8fcc1753e7"
+    },
+    {
+      "path": "arts/static/01/task-test-v01.svg",
+      "bytes": 777,
+      "sha256": "eb8a41e5402c435528ac18f917625052bd779feaa0862e2e2c7a1c176dbfdc3b"
+    },
+    {
+      "path": "arts/static/01/time-tracks-base-v01.svg",
+      "bytes": 1059,
+      "sha256": "ea544003f70c26b4905e2e4f471e9c220c6ec3769c1a32a794bce11c674107c7"
+    }
+  ]
+}
