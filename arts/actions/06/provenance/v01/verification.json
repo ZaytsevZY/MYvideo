@@ -1,0 +1,258 @@
+{
+  "status": "verified_candidate_pending_user_review",
+  "semanticChecks": {
+    "samples": 1741,
+    "narrationVerbatim": true,
+    "characters": 110,
+    "captionCount": 9,
+    "captionsEnd": 44,
+    "referenceCardsSeconds": 14,
+    "singleSavingsToken": true,
+    "branchesMutuallyExclusive": true,
+    "reviewBeforeAcceptance": true,
+    "wholePoseSingleLayer": true,
+    "machineLaborSeparated": true,
+    "deterministicSamples": true
+  },
+  "stills": [
+    {
+      "time": 0,
+      "path": "arts/actions/06/provenance/v01/frame-00.png",
+      "sha256": "d538f78b598e8bed01f1be15c213f6c8ac4949439d03bf77d2c3d97c9ad6b539"
+    },
+    {
+      "time": 1.9,
+      "path": "arts/actions/06/provenance/v01/frame-01.png",
+      "sha256": "f1da80b68e5a59d8ec21238dc9431a6e891effac47078011eae7199b79d1c6fc"
+    },
+    {
+      "time": 2,
+      "path": "arts/actions/06/provenance/v01/frame-02.png",
+      "sha256": "7b4d5aeb286dba6e899a8efe3c9dbe770ff65524c79ae5de7a701e27d2af0801"
+    },
+    {
+      "time": 3.4,
+      "path": "arts/actions/06/provenance/v01/frame-03.png",
+      "sha256": "eb0b56f305d3f2fda75084ba94e9b6eb9a9ea57348df383f6b103fcae8b3ba38"
+    },
+    {
+      "time": 4.7,
+      "path": "arts/actions/06/provenance/v01/frame-04.png",
+      "sha256": "122ea6727245245a7b21d35f1975d21a3911f6be6a456783cd992e8bb8151ada"
+    },
+    {
+      "time": 5.3,
+      "path": "arts/actions/06/provenance/v01/frame-05.png",
+      "sha256": "15b0621d7ddc7e4907aa6031b74a6d0148a8a6eb01ffeb070a90c3710fc2ba42"
+    },
+    {
+      "time": 6,
+      "path": "arts/actions/06/provenance/v01/frame-06.png",
+      "sha256": "ce701f8e9d9f5aa84955062228f1d667302187e7861c85a1e35ed90a9203d232"
+    },
+    {
+      "time": 7.5,
+      "path": "arts/actions/06/provenance/v01/frame-07.png",
+      "sha256": "2ac5c27a234539699eda2f44ec9049720d0fdbe2e057f541134b12743231dd6a"
+    },
+    {
+      "time": 10,
+      "path": "arts/actions/06/provenance/v01/frame-08.png",
+      "sha256": "f6a98efcbf773008234a32c8e76eabde788ca3dfa0e9390c5df8a7a7917202af"
+    },
+    {
+      "time": 15.966667,
+      "path": "arts/actions/06/provenance/v01/frame-09.png",
+      "sha256": "188b65534ac1b019419a90fe0341d035ae1acccbdb3f72a0a236172a649d04f1"
+    },
+    {
+      "time": 16,
+      "path": "arts/actions/06/provenance/v01/frame-10.png",
+      "sha256": "dc313075319a5173237031eee989e6ae59ab3e556769790eaff6b3aa24d2ce64"
+    },
+    {
+      "time": 17,
+      "path": "arts/actions/06/provenance/v01/frame-11.png",
+      "sha256": "46906ffc8136ab42739322207ecd3229ebb56ea15520dd77cb95799ce6c21ce0"
+    },
+    {
+      "time": 18,
+      "path": "arts/actions/06/provenance/v01/frame-12.png",
+      "sha256": "9338f966487b2937d189f2ad387d50aa0945b01b598b8a36389d1a840b30cfcc"
+    },
+    {
+      "time": 20.5,
+      "path": "arts/actions/06/provenance/v01/frame-13.png",
+      "sha256": "de0172c245437f559b8c679611bd00f4207759e51202a4c6a3469b78f8c1a48e"
+    },
+    {
+      "time": 22,
+      "path": "arts/actions/06/provenance/v01/frame-14.png",
+      "sha256": "fe64c9fb94dd3d34afa92819e85a0da4120c1f7d66c99ac6c81cb703d236b8f6"
+    },
+    {
+      "time": 25,
+      "path": "arts/actions/06/provenance/v01/frame-15.png",
+      "sha256": "1f46341d491140b5499a424af8f62a49b0f7da46a5c5e1c07e2d60a7696b6a06"
+    },
+    {
+      "time": 30.966667,
+      "path": "arts/actions/06/provenance/v01/frame-16.png",
+      "sha256": "5d4f097af0856cdc3077c482feba3eb29841341f2539b630ba05c4b30fd90234"
+    },
+    {
+      "time": 31,
+      "path": "arts/actions/06/provenance/v01/frame-17.png",
+      "sha256": "8ee2c84b04ef4f705cb120c730c2526f77b5bf7b4ca3e41e0c68954eafda308c"
+    },
+    {
+      "time": 32.2,
+      "path": "arts/actions/06/provenance/v01/frame-18.png",
+      "sha256": "0bb03346b4e6726a857d048569c207b4e0a80aae21bcf1727d7bfb13b5f16094"
+    },
+    {
+      "time": 32.6,
+      "path": "arts/actions/06/provenance/v01/frame-19.png",
+      "sha256": "58dba753a2cd56bd4c7b8530733e9cbd80a2fa2ef85fe127a34ea3741d2ce38b"
+    },
+    {
+      "time": 33.4,
+      "path": "arts/actions/06/provenance/v01/frame-20.png",
+      "sha256": "3b211eb2e4d9b04f82c7a4d1bbc8accefc41acbd7378dbaed351279128c8a9ba"
+    },
+    {
+      "time": 33.8,
+      "path": "arts/actions/06/provenance/v01/frame-21.png",
+      "sha256": "3bea3065848e02f04c5ec8a8b52fac4f61c029f416367a6d00b8a66c8c5fcccb"
+    },
+    {
+      "time": 35,
+      "path": "arts/actions/06/provenance/v01/frame-22.png",
+      "sha256": "49eb068435da1badd415e34bfa5148a791eb25e0a91e8ffc4f55fa0b9decc89e"
+    },
+    {
+      "time": 36.8,
+      "path": "arts/actions/06/provenance/v01/frame-23.png",
+      "sha256": "33c99696c50fe2a9c09c314e85630996204af7f0a41da1e5c45250a889cb84b1"
+    },
+    {
+      "time": 37.5,
+      "path": "arts/actions/06/provenance/v01/frame-24.png",
+      "sha256": "287f0311c1d2dc061768e0ae3f25b3a67329f068c6e3958e339b5d084963c39d"
+    },
+    {
+      "time": 38.5,
+      "path": "arts/actions/06/provenance/v01/frame-25.png",
+      "sha256": "4df599950cc41b837da910480c46d6ff22547028701536e4bef0bb2c5779fb12"
+    },
+    {
+      "time": 39.5,
+      "path": "arts/actions/06/provenance/v01/frame-26.png",
+      "sha256": "0f29c3413374da1954357d33f66923a34b81a5f6b27504b474c0030de8121f2a"
+    },
+    {
+      "time": 41.3,
+      "path": "arts/actions/06/provenance/v01/frame-27.png",
+      "sha256": "6962ad24d8c25d9e93861c2786d14d97b544d6b643e05b8fc48d987ce4b4ba25"
+    },
+    {
+      "time": 43.966667,
+      "path": "arts/actions/06/provenance/v01/frame-28.png",
+      "sha256": "0f1e9a7f56a431503bf8824205bf8418a2df28b3f95c732a752af8fc6c7024a1"
+    },
+    {
+      "time": 44,
+      "path": "arts/actions/06/provenance/v01/frame-29.png",
+      "sha256": "f9e3aab5708a884de9ad453e15e47203a524b543f86c10a58284cb9b20c382e6"
+    },
+    {
+      "time": 50.966667,
+      "path": "arts/actions/06/provenance/v01/frame-30.png",
+      "sha256": "f9e3aab5708a884de9ad453e15e47203a524b543f86c10a58284cb9b20c382e6"
+    },
+    {
+      "time": 51,
+      "path": "arts/actions/06/provenance/v01/frame-31.png",
+      "sha256": "86b035797e015f4956394767924b7310ba51d026fbca0e49a0e04e3105c59c1f"
+    },
+    {
+      "time": 57.966667,
+      "path": "arts/actions/06/provenance/v01/frame-32.png",
+      "sha256": "86b035797e015f4956394767924b7310ba51d026fbca0e49a0e04e3105c59c1f"
+    }
+  ],
+  "limitations": [
+    "Silent; provisional subtitle timing.",
+    "05 not rendered; incoming seam untested.",
+    "Course member names pending."
+  ],
+  "mediaChecks": {
+    "fullDecode": true,
+    "monotonic30fpsTimestamps": true,
+    "blackFrames": false,
+    "version": "S06 v0.1",
+    "duration": 58,
+    "fps": 30,
+    "frames": 1740,
+    "width": 1920,
+    "height": 1080,
+    "globalStartFrame": 6660,
+    "audio": false
+  },
+  "output": {
+    "path": "arts/actions/06/exports/06-complete-silent-v01.mp4",
+    "sha256": "6b8cb64a5e86849088765e467b90c45691fa5bca35ee7e3bb688571b2f14ab32",
+    "bytes": 2163664
+  },
+  "visualReview": {
+    "representativeTimes": 33,
+    "evidence": "encoded-00.png through encoded-32.png; contact sheet and enlarged key frames inspected",
+    "scope": [
+      "allocation and reset",
+      "decision node movement",
+      "human approval marks",
+      "rise, chair occlusion and exit",
+      "44s and51s reference cuts"
+    ],
+    "findings": "No text crossfade ghosts, duplicate whole bodies, clipped reference titles or lingering narration captions identified in reviewed frames.",
+    "encodedContactSheet": "arts/actions/06/exports/06-encoded-contact-v01.png"
+  },
+  "repeatRender": {
+    "sameEnvironment": true,
+    "independentOutputDirectory": "/tmp/myvideo-chapter06-repro-20261016",
+    "completeMp4ByteIdentical": true,
+    "sha256": "6b8cb64a5e86849088765e467b90c45691fa5bca35ee7e3bb688571b2f14ab32",
+    "bytes": 2163664,
+    "scope": "Same machine, same assets, source, fonts and tool versions; cross-platform identity not asserted."
+  },
+  "checksFinal": {
+    "allInputHashesMatch": true,
+    "allSourceSnapshotsMatch": true,
+    "readmeAndChapterLinksExist": true,
+    "outputHashMatch": true
+  },
+  "supportingDocuments": [
+    {
+      "path": "arts/actions/06/package.json",
+      "sha256": "1ad062053bae242b6df7ea7bc8aa42872d85fdc531a98b6964fa9f70d0175419"
+    },
+    {
+      "path": "arts/actions/06/README.md",
+      "sha256": "d0b877bc0c99c867fc770efea5d2da8bcec2344816f83ba52e71ed516b5c2c7e"
+    }
+  ],
+  "browserReview": {
+    "interactivePreviewPlayed": true,
+    "previewConsoleErrors": [],
+    "actualMp4Playback": true,
+    "duration": 58,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "mediaError": null,
+    "actualMp4Ended": true,
+    "observedEndTime": 58,
+    "mediaConsoleErrors": []
+  }
+}

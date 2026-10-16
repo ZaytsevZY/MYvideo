@@ -1,0 +1,8 @@
+{
+  "name": "myvideo-chapter-06",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {"stills": "node build.mjs", "render": "node build.mjs --video"},
+  "dependencies": {"sharp": "0.35.5"}
+}

@@ -1,0 +1,318 @@
+{
+  "config": {
+    "version": "S06 v0.1",
+    "duration": 58,
+    "fps": 30,
+    "frames": 1740,
+    "width": 1920,
+    "height": 1080,
+    "globalStartFrame": 6660,
+    "audio": false
+  },
+  "inputs": [
+    {
+      "path": "arts/actions/06/scene.mjs",
+      "sha256": "6441471b14334235b32f323fa3a2830cf50f6d6d992f738fef8fa633332e6dc6",
+      "snapshot": "arts/actions/06/provenance/v01/source-snapshot/arts__actions__06__scene.mjs"
+    },
+    {
+      "path": "arts/actions/06/build.mjs",
+      "sha256": "dbbb9942392e0f01fb2b9ce6ae53bc92d21a62e17be054e445176e95cff97c55",
+      "snapshot": "arts/actions/06/provenance/v01/source-snapshot/arts__actions__06__build.mjs"
+    },
+    {
+      "path": "arts/actions/06/provenance/v01/chapter-plan.md",
+      "sha256": "34750a57339c80aa339a8a276cc51229ff3241832d541b1c53b7ccb0054a091a",
+      "snapshot": "arts/actions/06/provenance/v01/source-snapshot/arts__actions__06__provenance__v01__chapter-plan.md"
+    },
+    {
+      "path": "arts/actions/01/keyframes.mjs",
+      "sha256": "b026c5bb7341787c9436718a6aa7dc1d6bfe4600d3c276955eac070db0be6451",
+      "snapshot": "arts/actions/06/provenance/v01/source-snapshot/arts__actions__01__keyframes.mjs"
+    },
+    {
+      "path": "arts/actions/01/bundle-camera-v01.json",
+      "sha256": "4b6c8ef5834cd865479658ce9353a742636298aa750240fad2741ab26b804892",
+      "snapshot": "arts/actions/06/provenance/v01/source-snapshot/arts__actions__01__bundle-camera-v01.json"
+    },
+    {
+      "path": "scripts/final/shot/06.md",
+      "sha256": "6c61a7e5fe7ac870d73cd63d6e0bd47b5f0276ff2133860eddb95c069ae7cd10",
+      "snapshot": "arts/actions/06/provenance/v01/source-snapshot/scripts__final__shot__06.md"
+    },
+    {
+      "path": "scripts/final/shot/05.md",
+      "sha256": "2751df5c2f8aadce9b62c2aa60b5760e2b782f9307f5deab8b9d3cad36023c54",
+      "snapshot": "arts/actions/06/provenance/v01/source-snapshot/scripts__final__shot__05.md"
+    },
+    {
+      "path": "scripts/style/STYLE_BIBLE.md",
+      "sha256": "823f68429584a3d32132c439d90364f77fd2a445f4da0f9507fd94a22f97f487",
+      "snapshot": "arts/actions/06/provenance/v01/source-snapshot/scripts__style__STYLE_BIBLE.md"
+    },
+    {
+      "path": "scripts/doc/SOURCES.md",
+      "sha256": "874847adedcb99f4ad292d28f3e7a6954c4f087e9d7d7d2e0429a1131fb6f409",
+      "snapshot": "arts/actions/06/provenance/v01/source-snapshot/scripts__doc__SOURCES.md"
+    },
+    {
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420"
+    },
+    {
+      "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+      "sha256": "20a101697879a0e54da5861532080cede1db7d4cfd7dbbd9dbd7af820d9cfbaa"
+    },
+    {
+      "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+      "sha256": "4e6f1beaf38dd2e02df9f6e3a1943d3815a73d6e0113f2b8531ea7ad6113fc1e"
+    },
+    {
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828"
+    },
+    {
+      "path": "arts/characters/portraits/01/agent-focus-v01.png",
+      "sha256": "2db469f8afaae3bcbb54aa1ec4487f43c8a614bffcf56c85a77dbe15b3703f20"
+    },
+    {
+      "path": "arts/static/01/cursor-v01.svg",
+      "sha256": "8644710ef890d036ffb200a10be9d55e67adc79c20ee18089129261f2a428b05"
+    },
+    {
+      "path": "arts/items/01/workstation-painted-v02.png",
+      "sha256": "c05a579cb7d6e3eeefac268c6d122495396b6fbe759d5efbc5cda4c1981a234a"
+    },
+    {
+      "path": "arts/items/01/chair-back-rear-painted-v01.png",
+      "sha256": "c8081c17e825a75dacb7b6f23f21e8d7ed6f76bdffe978eba4bd525aef6071c6"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-idle-v01.png",
+      "sha256": "fbcf2a3125182fc9d7834015378b786a6bdf6187b334bc3d6ecb996d62c6df4c"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-input-v01.png",
+      "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-lean-v01.png",
+      "sha256": "470d0a4d34b3f4d8ac4fcceff2fb613c7573c4918319bce6e019100339ee89d2"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+      "sha256": "6304e88141b54c50d2e87659315b26392d86123a2073cdd98068b38776a1312b"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rest-v01.png",
+      "sha256": "2f7042e7620dc3f31d176036cd3f68246e4f37d595194b79c0d3431282b8bc85"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rise-v01.png",
+      "sha256": "c03856bd6ccdea1a3690c388451327e50546d371150fa690a59a5a098149b70b"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rise-high-v01.png",
+      "sha256": "b3816159ee33b110bde7121f117d99bd076b12168e368446eb719fa6c5f34dc6"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-stand-v01.png",
+      "sha256": "47a0ff3b3a1c0d6aaa5039b0f4ca03bf692cb99cccef0842ab673f92094b9fb6"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-turn-left-v01.png",
+      "sha256": "ae6165c17cbb75f95a2b61ee722baa3802821225da50fffc855ea9eca2e9b308"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-a-v01.png",
+      "sha256": "ee3d05ba41d87a7e4e928ab5596c0d58c76c7cf66e4af0879e4f7d7ca4200db8"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-pass-v01.png",
+      "sha256": "53b1f23d23d9b348856254d95aa1647eef9739f9efd54d9da22c33e8f0a58c18"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-recover-v01.png",
+      "sha256": "4e31a14ecf89a66483dc7c39764d1b049dce66d74bbdfb94e90eab3257ad04de"
+    },
+    {
+      "path": "arts/actions/06/provenance/v01/stage-room.png",
+      "sha256": "b5fc2c3901b135d7f4ce148785def8bebc61a39a258662b5c28aadd8732dae83"
+    },
+    {
+      "path": "arts/backgrounds/01/workroom-day-v01.png",
+      "sha256": "45e33124784fffdfd755d27f6ee1b13d06d65261795087e83ec15c74392c50b3"
+    }
+  ],
+  "registry": {
+    "document-portrait": {
+      "dataUri": "../../items/01/task-document-portrait-v01.png",
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "width": 1086,
+      "height": 1448,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "avatar-programmer-neutral": {
+      "dataUri": "../../characters/portraits/01/programmer-neutral-v01.png",
+      "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "avatar-programmer-focus": {
+      "dataUri": "../../characters/portraits/01/programmer-focus-v01.png",
+      "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "avatar-agent-neutral": {
+      "dataUri": "../../characters/portraits/01/agent-neutral-v01.png",
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "avatar-agent-focus": {
+      "dataUri": "../../characters/portraits/01/agent-focus-v01.png",
+      "path": "arts/characters/portraits/01/agent-focus-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "cursor": {
+      "dataUri": "../../static/01/cursor-v01.svg",
+      "path": "arts/static/01/cursor-v01.svg",
+      "width": 70,
+      "height": 90
+    },
+    "workstation-painted": {
+      "dataUri": "../../items/01/workstation-painted-v02.png",
+      "path": "arts/items/01/workstation-painted-v02.png",
+      "width": 1672,
+      "height": 941,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "chair-back-painted": {
+      "dataUri": "../../items/01/chair-back-rear-painted-v01.png",
+      "path": "arts/items/01/chair-back-rear-painted-v01.png",
+      "width": 1055,
+      "height": 1491,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "agent-idle": {
+      "dataUri": "../../characters/poses/01/agent-idle-v01.png",
+      "path": "arts/characters/poses/01/agent-idle-v01.png",
+      "width": 1024,
+      "height": 1536
+    },
+    "programmer-input": {
+      "dataUri": "../../characters/poses/01/programmer-input-v01.png",
+      "path": "arts/characters/poses/01/programmer-input-v01.png",
+      "width": 1024,
+      "height": 1536
+    },
+    "programmer-lean": {
+      "dataUri": "../../characters/poses/01/programmer-lean-v01.png",
+      "path": "arts/characters/poses/01/programmer-lean-v01.png",
+      "width": 1024,
+      "height": 1536
+    },
+    "programmer-release-half": {
+      "dataUri": "../../characters/poses/01/programmer-release-half-v01.png",
+      "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+      "width": 1024,
+      "height": 1536
+    },
+    "programmer-rest": {
+      "dataUri": "../../characters/poses/01/programmer-rest-v01.png",
+      "path": "arts/characters/poses/01/programmer-rest-v01.png",
+      "width": 1024,
+      "height": 1536
+    },
+    "programmer-rise": {
+      "dataUri": "../../characters/poses/01/programmer-rise-v01.png",
+      "path": "arts/characters/poses/01/programmer-rise-v01.png",
+      "width": 1024,
+      "height": 1536
+    },
+    "programmer-rise-high": {
+      "dataUri": "../../characters/poses/01/programmer-rise-high-v01.png",
+      "path": "arts/characters/poses/01/programmer-rise-high-v01.png",
+      "width": 1024,
+      "height": 1536
+    },
+    "programmer-stand": {
+      "dataUri": "../../characters/poses/01/programmer-stand-v01.png",
+      "path": "arts/characters/poses/01/programmer-stand-v01.png",
+      "width": 1024,
+      "height": 1536
+    },
+    "programmer-turn-left": {
+      "dataUri": "../../characters/poses/01/programmer-turn-left-v01.png",
+      "path": "arts/characters/poses/01/programmer-turn-left-v01.png",
+      "width": 1024,
+      "height": 1536
+    },
+    "programmer-walk-a": {
+      "dataUri": "../../characters/poses/01/programmer-walk-a-v01.png",
+      "path": "arts/characters/poses/01/programmer-walk-a-v01.png",
+      "width": 1024,
+      "height": 1536
+    },
+    "programmer-walk-pass": {
+      "dataUri": "../../characters/poses/01/programmer-walk-pass-v01.png",
+      "path": "arts/characters/poses/01/programmer-walk-pass-v01.png",
+      "width": 1024,
+      "height": 1536
+    },
+    "programmer-walk-recover": {
+      "dataUri": "../../characters/poses/01/programmer-walk-recover-v01.png",
+      "path": "arts/characters/poses/01/programmer-walk-recover-v01.png",
+      "width": 1024,
+      "height": 1536
+    },
+    "stage-room": {
+      "path": "arts/actions/06/provenance/v01/stage-room.png",
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "toolVersions": {
+    "node": "v24.16.0",
+    "sharp": {
+      "aom": "3.15.1",
+      "archive": "3.8.9",
+      "cairo": "1.18.6",
+      "cgif": "0.5.4",
+      "exif": "0.6.26",
+      "expat": "2.8.5",
+      "ffi": "3.8.0",
+      "fontconfig": "2.18.3",
+      "freetype": "2.14.3",
+      "fribidi": "1.0.17",
+      "glib": "2.90.0",
+      "harfbuzz": "14.5.0",
+      "heif": "1.23.5",
+      "highway": "1.4.0",
+      "imagequant": "2.4.1",
+      "lcms": "2.19.1",
+      "mozjpeg": "0826579",
+      "pango": "1.58.2",
+      "pixman": "0.46.4",
+      "png": "1.6.58",
+      "proxy-libintl": "0.5",
+      "rsvg": "2.63.2",
+      "tiff": "4.7.2",
+      "uhdr": "2.0.2",
+      "vips": "8.18.7",
+      "webp": "1.6.0",
+      "xml2": "2.15.4",
+      "zlib-ng": "2.3.3",
+      "sharp": "0.35.5"
+    }
+  },
+  "externalModelCalls": 0,
+  "imageGenerationCalls": 0,
+  "audioGenerationCalls": 0
+}
