@@ -1,8 +1,10 @@
 # 当前协作交接
 
-**版本：** HANDOFF v0.21 · 2026-10-16
+**版本：** HANDOFF v0.22 · 2026-10-16
 
 先读 [PROJECT_STATE](PROJECT_STATE.md) 与 [六章音画分配稿](final/shot/README.md)。
+
+**后续章节入口：** 使用[分章动画制作skill](../skills/chapter-video-production/SKILL.md)，按已授权范围从现有阶段继续02–06。入口已链接到Codex／Claude技能目录，不要求Claude或为导出迁移Remotion。剧本、美术、演出、字幕与导出步骤及跨章衔接均已整理；衔接提案不等于已验证。01终态T01已验收、T01-R已合并、feedback仍为候选，02不得重置这些状态。当前02–06尚未制作，声音仍按具体任务要求。
 
 **最新交付覆盖：** 01已完成45.00秒／1920×1080／30fps／1350帧无声MP4，原口播155字符烧录为14段字幕。[视频及SRT](../arts/actions/01/exports/README.md)，默认预览S01_CAMERA_PREVIEW v0.4同步字幕。时点按语义与镜头暂排，待配音校时。原生SVG→sharp／librsvg→FFmpeg编码，无音频轨；16项测试与全视频解码通过，编码后首／中／尾帧已目视检查。没有新增模型调用，未建立Remotion工程，未用户冻结。下文无MP4及v0.3预览为历史阶段。
 

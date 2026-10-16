@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1",
+  "status": "draft",
+  "fromChapter": null,
+  "toChapter": null,
+  "versions": {"from": null, "to": null, "style": null},
+  "narrative": {
+    "outgoingQuestionOrResult": null,
+    "incomingExplanation": null,
+    "handoffObjectId": null,
+    "outgoingSentenceIds": [],
+    "incomingSentenceIds": []
+  },
+  "timeline": {
+    "fps": null,
+    "width": null,
+    "height": null,
+    "fromGlobalStartFrame": null,
+    "fromFrameCount": null,
+    "toGlobalStartFrame": null,
+    "toFrameCount": null,
+    "fromLastEncodedLocalFrame": null,
+    "fromDiagnosticEndpointStatePath": null,
+    "transitionType": null,
+    "transitionFrameOwnership": null,
+    "overlapFrames": null
+  },
+  "outgoingState": {
+    "scene": null,
+    "lighting": null,
+    "cameraAndAxis": null,
+    "coordinateSpace": null,
+    "actors": [],
+    "objects": [],
+    "taskStates": {},
+    "layerOrder": [],
+    "outgoingCaption": null,
+    "audioPresent": null
+  },
+  "incomingPlan": {
+    "shotId": null,
+    "retain": [],
+    "transform": [],
+    "introduce": [],
+    "removeWithReason": [],
+    "firstCaption": null
+  },
+  "evidence": {
+    "fromVideoPath": null,
+    "fromVideoSha256": null,
+    "fromLastFramePath": null,
+    "fromStatePath": null,
+    "toFirstFramePath": null,
+    "seamPreviewPath": null,
+    "verified": false,
+    "verifiedAt": null,
+    "checks": []
+  },
+  "openIssues": []
+}

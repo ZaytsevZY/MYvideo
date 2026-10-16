@@ -1,10 +1,12 @@
 # 项目版本与状态
 
-**版本：** PROJECT_STATE v0.20 · 2026-10-16
+**版本：** PROJECT_STATE v0.21 · 2026-10-16
 
 本文件为当前版本的唯一索引。工作片名：《当效率成为义务》——Agent 时代的劳动悖论；课程方向为马克思主义科技社会观。
 
 ## 当前任务与论证
+
+**当前流程入口：** [chapter-video-production v0.1](../skills/chapter-video-production/SKILL.md)已整理01的剧本细化、美术、演出、字幕与导出经验，含02–06接续提案、边界契约和制作单；用户明确不要求Claude。原生逐帧导出可复用，尚未实际制作02–06。
 
 **最新交付：** 用户授权将01口播字幕加入现有演出并bake完整45秒无声视频，已完成[MP4及字幕](../arts/actions/01/exports/README.md)。当前为原生SVG逐帧经sharp／FFmpeg编码，无Remotion工程；后文制作阶段记录中的“无视频”仅表示当时状态。
 
@@ -28,13 +30,14 @@
 | 01无声视频 | [S01_SILENT_VIDEO v0.1](../arts/actions/01/exports/README.md) | 已导出1080p／30fps／1350帧／45.00秒MP4，字幕烧录，无音频轨；字幕待配音校时 |
 | 01静态素材 | [S01_ASSETS v0.5](../arts/static/01/README.md) | 两个背景、31个SVG；默认静态入口已改背面人物工位 |
 | 制作参考 | [STYLE_REFERENCES v0.2](style/STYLE_REFERENCES.md) | 保留历史参考；明确不采用MV叙事及空镜填充 |
-| 制作蓝图 | [PRODUCTION_BLUEPRINT v0.10](style/PRODUCTION_BLUEPRINT.md) | 本轮Codex动作预览例外已获用户授权；正式工程待建 |
-| 制作协议 | [PRODUCTION_PROTOCOL v0.2](style/PRODUCTION_PROTOCOL.md) | 管理正式生成、版本绑定与留档 |
+| 分章制作skill | [chapter-video-production v0.1](../skills/chapter-video-production/SKILL.md) | 模型无绑定；工作流、连续性规则及两项模板；Codex／Claude共用入口 |
+| 制作蓝图 | [PRODUCTION_BLUEPRINT v0.11](style/PRODUCTION_BLUEPRINT.md) | 同步当前模型自由选择、原生导出与可选Remotion路线 |
+| 制作协议 | [PRODUCTION_PROTOCOL v0.3](style/PRODUCTION_PROTOCOL.md) | 管理正式生成、版本绑定与留档 |
 | 来源与概念 | [SOURCES v0.3](doc/SOURCES.md) | 经典、其他哲学文本、研究与技术来源分别标注 |
 | 研究入口 | [RESEARCH v0.7](doc/RESEARCH.md) | 沿用既有原文核查范围，增加历史制作调研恢复入口 |
 | 内容检查 | [FACT_CHECK v0.4](doc/FACT_CHECK.md) | 本版事实、引文与音画分配检查 |
-| 制作日志 | [GENERATION_LOG v0.14](doc/GENERATION_LOG.md) | 登记分件试验淘汰、21张完整姿态和有限动作预览 |
-| 交接 | [HANDOFF v0.21](HANDOFF.md) | 同步01镜头候选、增量评估与旧预览状态区别 |
+| 制作日志 | [GENERATION_LOG v0.15](doc/GENERATION_LOG.md) | 登记分件试验淘汰、21张完整姿态和有限动作预览 |
+| 交接 | [HANDOFF v0.22](HANDOFF.md) | 同步01镜头候选、增量评估与旧预览状态区别 |
 
 ## 字符与时间
 
@@ -52,7 +55,7 @@
 
 ## 制作路线与留档
 
-用户决定由Claude编写Remotion / React动画代码并渲染；计划模型为Claude Opus 5.5，实际调用和依赖版本在使用时登记。当前已有四张设定表、24张01人物姿态、三个背景及32个原生SVG，以及Codex编写的有限动作预览。初次预览时Claude CLI未登录，用户授权该次由Codex编写预览代码；2026-10-16已登录并成功用Opus5.5重写镜头文本，动画预览代码未更新；未生成声音、Remotion工程、逐帧光栅序列或MP4。
+当前后续制作不要求必须使用Claude，入口为chapter-video-production；可复用原生SVG逐帧导出或按任务采用Remotion，实际模型／工具／依赖如实记录。以下为早期阶段记录，不覆盖当前状态：当前已有四张设定表、24张01人物姿态、三个背景及32个原生SVG，以及Codex编写的有限动作预览。初次预览时Claude CLI未登录，用户授权该次由Codex编写预览代码；2026-10-16已登录并成功用Opus5.5重写镜头文本，动画预览代码未更新；未生成声音、Remotion工程、逐帧光栅序列或MP4。
 
 分镜使用storyboard-prompt-assistant，动画使用Remotion官方skills；Claude从 `.claude/skills/` 读取，Codex通过 `.agents/skills/` 链接共用同一份文件。
 
@@ -119,3 +122,7 @@ S01_CAMERA_PREVIEW v0.3按用户要求以绘制PNG替换主要几何SVG主体。
 保留现有PNG和动画，使用原生SVG确定性状态经sharp 0.35.5／librsvg 2.63.2逐帧栅格化，FFmpeg 8.0编码H.264／yuv420p，CRF18／medium；实测1920×1080、30fps、1350帧、45.00秒、6,968,085字节，无音频轨。该轮不新建Remotion工程；本章原生导出例外已写入制作蓝图。没有调用Claude或图像模型。
 
 原13项动作测试及新增3项字幕测试通过；全视频解码1350帧无错误，检查编码后的0／26.5／44.967秒抽帧；素材像素未改。命令、依赖、输入输出哈希与ffprobe记录在exports及[本轮证据](../arts/actions/01/provenance/subtitles-v01/verification.json)。此为01完整无声字幕候选，未记为用户冻结，也不是六章全片完成。
+
+## 2026-10-16：01流程整理为后续章节skill
+
+已新增skills/chapter-video-production，包含SKILL、workflow、continuity、章节制作单与边界契约JSON；两个代理技能目录均链接同一维护源。连续性说明核对01实际末帧和taskStates，包含候选／排期／验收／合并区别、01→02及02→06桥接提案、帧边界、全片offset和06文献卡字幕规则。已同步制作协议与蓝图的工具约束，未修改六章口播、美术或已交付视频，未调用外部模型，未开始02–06生成。

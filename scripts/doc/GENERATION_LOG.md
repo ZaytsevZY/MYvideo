@@ -1,6 +1,6 @@
 # 当前制作记录
 
-**版本：** GENERATION_LOG v0.14 · 2026-10-16
+**版本：** GENERATION_LOG v0.15 · 2026-10-16
 **依赖：** [PROJECT_STATE](../PROJECT_STATE.md)、[PRODUCTION_PROTOCOL](../style/PRODUCTION_PROTOCOL.md)。
 
 早期静态阶段已生成四张候选角色设定图、第01章两个背景PNG及30个原生SVG道具／图解组件，并完成四种静态布局检查。该阶段为完整姿态及Codex有限动作预览；当时尚无Remotion工程、光栅动画序列或视频编码。静态素材与动作试验分别登记。
@@ -8,6 +8,13 @@
 旧 `S01-D01` 记录、第一段 Python demo、临时音频和旧正文均在 [本轮归档](../../.tmp/archive-2026-10-15-project-sync/README.md) 中保留；其“候选 demo”结论不继承为当前场景的审核结果。
 
 下一次实际生成、预览或渲染时，按制作协议填写记录。必须区分计划、实际调用和审核通过，记录完整输入、提示词、代码、依赖、命令与输出哈希。
+
+## CHAPTER-PRODUCTION-SKILL-V01 · 制作经验与连续性整理
+
+- 2026-10-16，用户要求总结01并整理到skills，支持02–06继续制作，不要求Claude，补充分镜衔接。
+- Codex按skill-creator整理[chapter-video-production](../../skills/chapter-video-production/SKILL.md)，含制作流程、连续性规则、章节制作单和边界契约；skills/是唯一维护源，.agents／.claude两个入口为符号链接。
+- 核对01动态代码、实际末帧和状态JSON及02–06正文；桥接方案明确为未制作候选，保留稳定任务ID、验收语义、全片时间和字幕规则。同步PROJECT_STATE／HANDOFF／蓝图／协议／README。
+- 本轮仅文档和技能入口；未调用Claude、imagegen或其他外部模型，未改六章口播、生成新美术或重新导出视频，未实际制作02–06。技能结构、内部链接、模板JSON、发现入口与01末态一致性另作本地校验。
 
 ## S01-SILENT-CAPTION-V01 · 当前45秒字幕视频
 
