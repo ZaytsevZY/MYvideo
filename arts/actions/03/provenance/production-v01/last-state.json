@@ -1,0 +1,15 @@
+{
+  "t": 38.96666666666667,
+  "phase": "team-schedule",
+  "active": false,
+  "taskStates": {
+    "S03-A": "accepted",
+    "S03-B": "accepted",
+    "S03-C": "scheduled",
+    "S03-D": "scheduled-next-workday"
+  },
+  "workdayEnded": true,
+  "lateTask": "deferred-to-next-workday",
+  "humanOperation": "none",
+  "audio": false
+}

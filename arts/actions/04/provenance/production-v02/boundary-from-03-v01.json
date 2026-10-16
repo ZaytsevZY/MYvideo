@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1",
+  "status": "rendered-technical-checks-passed",
+  "fromChapter": "03",
+  "toChapter": "04",
+  "versions": {
+    "from": "S03_SILENT_VIDEO v0.1",
+    "to": "S04_SILENT_VIDEO v0.2",
+    "style": "STYLE_BIBLE v0.11"
+  },
+  "narrative": {
+    "outgoingQuestionOrResult": "技术执行缩短不自动扩大时间决定权",
+    "incomingExplanation": "切入研究观察，区分单一公司证据和机制示意",
+    "handoffObjectId": "team-schedule",
+    "outgoingSentenceIds": [],
+    "incomingSentenceIds": []
+  },
+  "timeline": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "fromGlobalStartFrame": 2490,
+    "fromFrameCount": 1170,
+    "toGlobalStartFrame": 3660,
+    "toFrameCount": 1650,
+    "fromLastEncodedLocalFrame": 1169,
+    "fromDiagnosticEndpointStatePath": null,
+    "transitionType": "proposed graphic match; separate research context",
+    "transitionFrameOwnership": "within existing budgets",
+    "overlapFrames": 0
+  },
+  "outgoingState": {
+    "scene": "day workroom with local team schedule",
+    "lighting": "day",
+    "cameraAndAxis": "fixed neutral wide view",
+    "coordinateSpace": "1920x1080 screen pixels",
+    "actors": [
+      {
+        "id": "programmer",
+        "position": [
+          260,
+          1001
+        ],
+        "state": "rest at workstation"
+      },
+      {
+        "id": "agent",
+        "state": "idle beside workstation"
+      }
+    ],
+    "objects": [
+      {
+        "id": "workday-boundary",
+        "x": 1410,
+        "y": [
+          284,
+          460
+        ]
+      },
+      {
+        "id": "team-schedule",
+        "rect": [
+          805,
+          535,
+          675,
+          202
+        ]
+      },
+      {
+        "id": "S03-D",
+        "status": "scheduled-next-workday"
+      }
+    ],
+    "taskStates": {
+      "S03-A": "accepted",
+      "S03-B": "accepted",
+      "S03-C": "scheduled",
+      "S03-D": "scheduled-next-workday"
+    },
+    "layerOrder": [
+      "room",
+      "diagram",
+      "avatars and documents",
+      "workstation vignette",
+      "source",
+      "captions"
+    ],
+    "outgoingCaption": "未必同步扩大。",
+    "audioPresent": false
+  },
+  "incomingPlan": {
+    "shotId": "04-A",
+    "retain": [
+      "room",
+      "workstation",
+      "team-schedule anchor for first 0.4 seconds",
+      "S03-D remains scheduled"
+    ],
+    "transform": [
+      "local schedule into clearly labeled study card over 1.2 seconds"
+    ],
+    "introduce": [
+      "single-company qualitative evidence card"
+    ],
+    "removeWithReason": [
+      "workday diagram removed from local panel as topic moves to study observation"
+    ],
+    "firstCaption": "一家科技公司的田野研究记录到，"
+  },
+  "evidence": {
+    "fromVideoPath": "arts/actions/03/exports/03-captioned-silent-v01.mp4",
+    "fromVideoSha256": "4c215db23680e114e733c817a67633ff224434d4c8e13df89d62f071ee0f3a92",
+    "fromLastFramePath": "arts/actions/03/provenance/production-v01/encoded-38.97.png",
+    "fromStatePath": "arts/actions/03/provenance/production-v01/last-state.json",
+    "toFirstFramePath": "arts/actions/04/provenance/production-v02/encoded-0.00.png",
+    "seamPreviewPath": "arts/actions/04/provenance/production-v02/03-to-04-seam-v01.mp4",
+    "verified": false,
+    "verifiedAt": null,
+    "checks": [
+      "120-frame encoded seam decoded",
+      "initial picture matches prior ending outside caption area",
+      "chapter-local captions do not overlap",
+      "timeline no added frames; 39+55=94 seconds"
+    ]
+  },
+  "openIssues": [
+    "编码接缝技术检查和时序抽帧完成，浏览器实际播放受file协议限制未验证",
+    "字幕待配音校时",
+    "02由同伴制作，不修改或约束02"
+  ]
+}

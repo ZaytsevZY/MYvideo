@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1",
+  "status": "candidate-unverified",
+  "fromChapter": "04",
+  "toChapter": "05",
+  "versions": {
+    "from": "S04_SILENT_VIDEO v0.1",
+    "to": null,
+    "style": "STYLE_BIBLE v0.11"
+  },
+  "narrative": {
+    "outgoingQuestionOrResult": "额外测试经排期成为常规验收要求",
+    "incomingExplanation": "执行工具权限与组织决定权分层",
+    "handoffObjectId": "delivery-and-acceptance-controls",
+    "outgoingSentenceIds": [],
+    "incomingSentenceIds": []
+  },
+  "timeline": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "fromGlobalStartFrame": 3660,
+    "fromFrameCount": 1650,
+    "toGlobalStartFrame": 5310,
+    "toFrameCount": 1350,
+    "fromLastEncodedLocalFrame": 1649,
+    "fromDiagnosticEndpointStatePath": null,
+    "transitionType": "proposed control-node graphic match",
+    "transitionFrameOwnership": "within existing budgets",
+    "overlapFrames": 0
+  },
+  "outgoingState": {
+    "scene": "day workroom with three planning rounds",
+    "lighting": "day",
+    "cameraAndAxis": "fixed neutral view, inherited 03 placement",
+    "coordinateSpace": "1920x1080 screen pixels",
+    "actors": [
+      {
+        "id": "programmer",
+        "state": "rest at workstation"
+      },
+      {
+        "id": "agent",
+        "state": "idle"
+      }
+    ],
+    "objects": [
+      {
+        "id": "S04-X",
+        "name": "额外测试",
+        "status": "routine-acceptance",
+        "rect": [
+          1490,
+          469,
+          200,
+          100
+        ]
+      },
+      {
+        "id": "delivery-and-acceptance-controls",
+        "rect": [
+          690,
+          672,
+          620,
+          82
+        ]
+      }
+    ],
+    "taskStates": {
+      "S03-D": "scheduled-next-workday",
+      "S04-X": "routine-acceptance"
+    },
+    "layerOrder": [
+      "room",
+      "diagram",
+      "avatars and documents",
+      "workstation vignette",
+      "source",
+      "captions"
+    ],
+    "outgoingCaption": "转变发生在任务标准之中。",
+    "audioPresent": false
+  },
+  "incomingPlan": {
+    "shotId": null,
+    "retain": [],
+    "transform": [],
+    "introduce": [],
+    "removeWithReason": [],
+    "firstCaption": null
+  },
+  "evidence": {
+    "fromVideoPath": "arts/actions/04/exports/04-captioned-silent-v01.mp4",
+    "fromVideoSha256": null,
+    "fromLastFramePath": "arts/actions/04/provenance/production-v01/encoded-54.97.png",
+    "fromStatePath": "arts/actions/04/provenance/production-v01/last-state.json",
+    "toFirstFramePath": null,
+    "seamPreviewPath": null,
+    "verified": false,
+    "verifiedAt": null,
+    "checks": []
+  },
+  "openIssues": [
+    "05未制作，尚无动态接缝验证",
+    "字幕暂排，待配音校时"
+  ]
+}

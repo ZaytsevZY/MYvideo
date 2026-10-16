@@ -1,0 +1,16 @@
+{
+  "t": 54.96666666666667,
+  "phase": "standards",
+  "evidenceType": "theoretical-application",
+  "active": false,
+  "humanOperation": "none",
+  "companyAAdopted": true,
+  "companyBAdopted": true,
+  "taskId": "S04-X",
+  "extraTaskState": "routine-acceptance",
+  "decisionOrigin": "human-or-organization",
+  "inheritedTasks": {
+    "S03-D": "scheduled-next-workday"
+  },
+  "audio": false
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "path": "scripts/PROJECT_STATE.md",
+    "sha256": "f877fe7d50b57c69b196b5b739b99d1870a103d67888fbbc3a5ea3039d245079"
+  },
+  {
+    "path": "scripts/HANDOFF.md",
+    "sha256": "fc90d3543ffe7d6c2a3886fceb6580fe9ce5bd8558340cfed69aa265467e3c65"
+  },
+  {
+    "path": "scripts/final/shot/03.md",
+    "sha256": "811a77cd1418d7b96b725da2b4464f6b2b3ae3c87c3613316df7f7cbf26d891e"
+  },
+  {
+    "path": "scripts/style/STYLE_BIBLE.md",
+    "sha256": "823f68429584a3d32132c439d90364f77fd2a445f4da0f9507fd94a22f97f487"
+  },
+  {
+    "path": "scripts/style/ART_DIRECTION.md",
+    "sha256": "c68353784843815dcbef2d5efa3cda85c0a663558da160e41c2f423961661320"
+  },
+  {
+    "path": "scripts/style/PRODUCTION_PROTOCOL.md",
+    "sha256": "adedebd1c6e5374fa57d02e4ec3abccb0ffbff6fc683ea24d30b8ff0977eccce"
+  },
+  {
+    "path": "scripts/doc/SOURCES.md",
+    "sha256": "874847adedcb99f4ad292d28f3e7a6954c4f087e9d7d7d2e0429a1131fb6f409"
+  },
+  {
+    "path": "skills/chapter-video-production/SKILL.md",
+    "sha256": "71eb8fa380054e9fb10b6cc3529fff23998c3a6a5f637c5888c984c609f748de"
+  },
+  {
+    "path": "skills/chapter-video-production/references/workflow.md",
+    "sha256": "c51f46178ccd20c36689f53e0046b60203b8162c14bcccb1a8bd20c8d55c9a0a"
+  },
+  {
+    "path": "skills/chapter-video-production/references/continuity.md",
+    "sha256": "b4ffc12d6099108ca12e7d46e23476de4738e4168959b28fb55719fa6c6895db"
+  },
+  {
+    "path": "arts/actions/03/provenance/production-v01/request.txt",
+    "sha256": "6b86ddb06487b7d78b55c98b8822598a9f3b55b2da159f354630530080ba2f4c"
+  }
+]

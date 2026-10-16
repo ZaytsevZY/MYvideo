@@ -1,0 +1,62 @@
+[
+  {
+    "path": "scripts/PROJECT_STATE.md",
+    "sha256": "14b3adb1b1c53d222b787ec3769f2ea717a6f1512ac07a8bea7aaa02d330f897"
+  },
+  {
+    "path": "scripts/HANDOFF.md",
+    "sha256": "3a964f1eb7c2c2bf36becd56e41b0f7ebdcaed3f0c459a2e9691959c1afa0497"
+  },
+  {
+    "path": "scripts/final/shot/04.md",
+    "sha256": "5a7b4229719c83b9c5d7ade16af0d7c241ab5f082890e5154a3ad57093e2d00c"
+  },
+  {
+    "path": "scripts/final/shot/05.md",
+    "sha256": "2751df5c2f8aadce9b62c2aa60b5760e2b782f9307f5deab8b9d3cad36023c54"
+  },
+  {
+    "path": "scripts/style/STYLE_BIBLE.md",
+    "sha256": "823f68429584a3d32132c439d90364f77fd2a445f4da0f9507fd94a22f97f487"
+  },
+  {
+    "path": "scripts/style/ART_DIRECTION.md",
+    "sha256": "c68353784843815dcbef2d5efa3cda85c0a663558da160e41c2f423961661320"
+  },
+  {
+    "path": "scripts/style/PRODUCTION_PROTOCOL.md",
+    "sha256": "adedebd1c6e5374fa57d02e4ec3abccb0ffbff6fc683ea24d30b8ff0977eccce"
+  },
+  {
+    "path": "scripts/doc/SOURCES.md",
+    "sha256": "874847adedcb99f4ad292d28f3e7a6954c4f087e9d7d7d2e0429a1131fb6f409"
+  },
+  {
+    "path": "skills/chapter-video-production/SKILL.md",
+    "sha256": "71eb8fa380054e9fb10b6cc3529fff23998c3a6a5f637c5888c984c609f748de"
+  },
+  {
+    "path": "skills/chapter-video-production/references/workflow.md",
+    "sha256": "c51f46178ccd20c36689f53e0046b60203b8162c14bcccb1a8bd20c8d55c9a0a"
+  },
+  {
+    "path": "skills/chapter-video-production/references/continuity.md",
+    "sha256": "b4ffc12d6099108ca12e7d46e23476de4738e4168959b28fb55719fa6c6895db"
+  },
+  {
+    "path": "arts/actions/03/scene.mjs",
+    "sha256": "b552427143f4db96dab75fd047020fae2bdb2f207a3aaa2220f60671ed051ef8"
+  },
+  {
+    "path": "arts/actions/03/exports/03-captioned-silent-v01.mp4",
+    "sha256": "4c215db23680e114e733c817a67633ff224434d4c8e13df89d62f071ee0f3a92"
+  },
+  {
+    "path": "arts/actions/03/provenance/production-v01/boundary-to-04-v01.json",
+    "sha256": "c05d8e5bb8d95b7041a8e0ce6ee16d49bcb43f5b72693bb3b8051d6fb27767ae"
+  },
+  {
+    "path": "arts/actions/04/provenance/production-v01/request.txt",
+    "sha256": "feeefc6311374be8816e9f3559d036dbe85fffa5f75528b4dc212ee8965b2010"
+  }
+]

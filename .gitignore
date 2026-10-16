@@ -20,3 +20,7 @@ Thumbs.db
 # Agent文件夹
 .claude/skills
 .agents/skills
+# 本轮已完成的小体积03/04无声候选及接缝预览
+!arts/actions/03/exports/03-captioned-silent-v01.mp4
+!arts/actions/04/exports/04-captioned-silent-v02.mp4
+!arts/actions/04/provenance/production-v02/03-to-04-seam-v01.mp4

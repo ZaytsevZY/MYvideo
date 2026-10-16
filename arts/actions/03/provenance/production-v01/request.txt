@@ -1,0 +1,9 @@
+用户请求（原文）：
+那请你阅读其中的工作流，并遵照执行，生成03部分的视频
+
+后续范围说明（原文）：
+02部分我的同伴正在推进，你不用管，现在你先做03看看效果
+
+执行依据：skills/chapter-video-production/SKILL.md 0.1、references/workflow.md、references/continuity.md；scripts/final/shot/03.md SHOT_TEXT v0.4；scripts/style/STYLE_BIBLE.md v0.11、ART_DIRECTION.md v0.9、PRODUCTION_PROTOCOL.md v0.3；scripts/doc/SOURCES.md C2/C3/C4。
+直接由本会话Codex编写，无外部模型委派或图像模型调用。实际模型精确标识对本会话不可见，不虚填。
+未修改口播、02文件与共享美术；未声称原稿已冻结。暂无配音，因此制作无音轨带字幕视频，语义暂排。

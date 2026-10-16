@@ -1,0 +1,10 @@
+用户原始请求：
+好的做的还行，接着把04做一下吧
+
+继承有效偏好：按项目工作流执行；02由同伴推进，不修改02；03用户评价还行，本轮继续04；同03交付范围，生成无声字幕候选，不新增配音／配乐／音效。
+
+输入规范：chapter-video-production v0.1，references/workflow.md及continuity.md；SHOT_TEXT v0.4 的04原口播171个非空白字符；STYLE_BIBLE v0.11，ART_DIRECTION v0.9；PRODUCTION_PROTOCOL v0.3；PROJECT_STATE当前03状态；HANDOFF；03实际末帧与boundary-to-04-v01.json；05仅阅读以设计出口，不制作05。
+
+本轮Codex直接编写动画、渲染及记录；未调用外部代码模型、Claude、图像模型。模型精确标识在当前会话中不可见，不虚填。复用01采用版PNG和03的素材路径／匹配首帧；不修改01和03的源代码或视频。
+
+新阅读核验：2026-10-16，官方Haas访谈 https://newsroom.haas.berkeley.edu/ai-promised-to-free-up-workers-time-uc-berkeley-haas-researchers-found-the-opposite/ ，核对公司规模、研究时长、访谈数量和午餐／会前／晚间实践；研究解释及本片理论应用标记分开。经典依据仍沿用项目SOURCES C5。

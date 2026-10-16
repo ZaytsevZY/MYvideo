@@ -1,0 +1,40 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
+import {spawn,spawnSync} from 'node:child_process';
+import {once} from 'node:events';
+import {svg,state,assets,cues,W,H,FPS,N,DURATION} from './scene.mjs';
+const require=createRequire(import.meta.url);
+const sharp=require('/Users/tianshuzhang/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+sharp.concurrency(1);sharp.cache({memory:128,items:64,files:16});
+const dir=path.dirname(fileURLToPath(import.meta.url)),root=path.resolve(dir,'../../..'),out=path.join(dir,'exports'),qa=path.join(dir,'provenance/production-v01');
+const ffmpeg='/Users/tianshuzhang/.cache/uv/archive-v0/7urleh9z1iqs64qY/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1';
+const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+fs.mkdirSync(out,{recursive:true});fs.mkdirSync(qa,{recursive:true});
+const refs={};
+for(const [id,p] of Object.entries(assets)){const buf=await sharp(path.join(root,p)).resize(id==='room'?1920:id==='desk'?720:id==='doc'?320:480,null,{withoutEnlargement:true}).png().toBuffer();refs[id]='data:image/png;base64,'+buf.toString('base64');}
+function stamp(ms,vtt=false){const h=Math.floor(ms/3600000),m=Math.floor(ms/60000)%60,s=Math.floor(ms/1000)%60;return [h,m,s].map(v=>String(v).padStart(2,'0')).join(':')+(vtt?'.':',')+String(ms%1000).padStart(3,'0')}
+fs.writeFileSync(path.join(dir,'captions/04-narration-v01.json'),JSON.stringify(cues,null,2));
+fs.writeFileSync(path.join(out,'04-captioned-silent-v01.srt'),cues.map((c,i)=>`${i+1}\n${stamp(c.startMs)} --> ${stamp(c.endMs)}\n${c.text}\n`).join('\n'));
+fs.writeFileSync(path.join(out,'04-captioned-silent-v01.vtt'),'WEBVTT\n\n'+cues.map(c=>`${stamp(c.startMs,true)} --> ${stamp(c.endMs,true)}\n${c.text}\n`).join('\n'));
+const shot=fs.readFileSync(path.join(root,'scripts/final/shot/04.md'),'utf8').split('<start>')[1].split('<end>')[0].replace(/\s/g,'');
+if(cues.map(c=>c.text).join('').replace(/\s/g,'')!==shot)throw Error('Caption text differs from script');
+for(let f=0;f<N;f++){const s=state(f/FPS);if(!Number.isFinite(s.t))throw Error('Invalid time');if(s.t>=27&&s.evidenceType!=='theoretical-application')throw Error('Research evidence marker leaked into theory');if(s.decisionOrigin!=='human-or-organization')throw Error('Unattributed organization decision');} if(state(45).taskId!==state(54).taskId)throw Error('Task identity changed across scheduling rounds');
+const qaTimes=[0,2.8,7.6,12.5,17.5,23.7,29.8,34.2,39,44.5,48.4,54.9666667];
+if(process.argv.includes('--qa')){for(const t of qaTimes)await sharp(Buffer.from(svg(t,refs))).png().toFile(path.join(qa,`frame-${t.toFixed(2)}.png`));
+ const mini=[];for(let i=0;i<qaTimes.length;i++)mini.push({input:await sharp(path.join(qa,`frame-${qaTimes[i].toFixed(2)}.png`)).resize(640,360).toBuffer(),left:(i%3)*640,top:Math.floor(i/3)*360});
+ await sharp({create:{width:1920,height:1440,channels:3,background:'#F6F1E7'}}).composite(mini).png().toFile(path.join(qa,'contact-sheet.png'));console.log('QA contact sheet generated; source/caption and 1650 state checks passed');process.exit(0);}
+fs.writeFileSync(path.join(dir,'preview.html'),`<!doctype html><meta charset="utf-8"><title>第04章｜55秒无声字幕预览</title><style>body{margin:0;background:#152330;color:white;font:16px sans-serif}#screen{width:100%;aspect-ratio:16/9}svg{width:100%;height:100%}footer{padding:12px;display:flex;gap:20px;align-items:center}input{flex:1}</style><div id="screen"></div><footer><button id="play">播放</button><input type="range" id="seek" min="0" max="54.966667" step="0.033333" value="0"><span id="time">0.00 / 55.00</span></footer><script type="module">import {svg,assets} from './scene.mjs';const refs=Object.fromEntries(Object.entries(assets).map(([k,v])=>[k,'../../../'+v]));let playing=false,t=0,last;const draw=()=>{document.querySelector('#screen').innerHTML=svg(t,refs);document.querySelector('#seek').value=t;document.querySelector('#time').textContent=t.toFixed(2)+' / 55.00'};document.querySelector('#play').onclick=()=>{playing=!playing;last=performance.now();document.querySelector('#play').textContent=playing?'暂停':'播放'};document.querySelector('#seek').oninput=e=>{t=+e.target.value;draw()};function tick(now){if(playing){t+=(now-last)/1000;if(t>=55){t=0;playing=false}draw()}last=now;requestAnimationFrame(tick)}draw();requestAnimationFrame(tick);</script>`);
+const final=path.join(out,'04-captioned-silent-v01.mp4'),partial=final.replace('.mp4','.part.mp4');
+if(fs.existsSync(final))throw Error('Select new version; existing output will not be overwritten');
+const args=['-hide_banner','-loglevel','warning','-y','-f','rawvideo','-pix_fmt','rgb24','-s',`${W}x${H}`,'-r',String(FPS),'-i','pipe:0','-an','-c:v','libx264','-preset','medium','-crf','18','-pix_fmt','yuv420p','-frames:v',String(N),'-movflags','+faststart',partial];
+const encoder=spawn(ffmpeg,args,{stdio:['pipe','ignore','pipe']});let log='';encoder.stderr.on('data',d=>log+=d);const done=once(encoder,'close');encoder.stdin.on('error',()=>{});const start=Date.now();
+for(let f=0;f<N;f++){const data=await sharp(Buffer.from(svg(f/FPS,refs))).flatten({background:'#F6F1E7'}).removeAlpha().raw().toBuffer();if(!encoder.stdin.write(data))await once(encoder.stdin,'drain');if(f%90===0)console.log(JSON.stringify({frame:f,total:N,elapsed:Math.round((Date.now()-start)/1000)}));}
+encoder.stdin.end();const [code]=await done;fs.writeFileSync(path.join(out,'ffmpeg.log'),log);if(code!==0)throw Error(log);fs.renameSync(partial,final);
+const verify=spawnSync(ffmpeg,['-v','error','-nostats','-i',final,'-map','0:v:0','-f','null','-','-progress','pipe:1'],{encoding:'utf8'});if(verify.status!==0)throw Error(verify.stderr);if(!verify.stdout.includes('frame=1650')||!verify.stdout.includes('out_time=00:00:55.000000'))throw Error('Frame count or duration mismatch');fs.writeFileSync(path.join(qa,'full-decode.txt'),verify.stdout);
+const meta=spawnSync(ffmpeg,['-hide_banner','-i',final],{encoding:'utf8'}).stderr;fs.writeFileSync(path.join(out,'media-info.txt'),meta);if(!meta.includes('1920x1080')||!meta.includes('30 fps')||/Audio:/.test(meta))throw Error('Media stream mismatch');
+for(const t of [0,7.6,23.7,34.2,48.4,54.9666667]){const result=spawnSync(ffmpeg,['-v','error','-y','-ss',String(Math.min(t,54.966)),'-i',final,'-frames:v','1',path.join(qa,`encoded-${t.toFixed(2)}.png`)],{encoding:'utf8'});if(result.status!==0)throw Error(result.stderr);}
+const manifest={version:'S04_SILENT_VIDEO v0.1',date:'2026-10-16',timezone:'Asia/Shanghai',method:'frame-driven native SVG, sharp/librsvg, FFmpeg H264',duration:55,frames:N,width:W,height:H,fps:FPS,audio:false,captionTiming:'provisional semantic timing; no voice alignment',captionCues:cues.length,font:'Hiragino Sans GB',model:'Codex; exact model identifier unavailable in session; no external model or image generation calls',script:'SHOT_TEXT v0.4',style:'STYLE_BIBLE v0.11',sharp:sharp.versions,ffmpeg:spawnSync(ffmpeg,['-version'],{encoding:'utf8'}).stdout.split('\n')[0],command:[ffmpeg,...args],elapsedSeconds:(Date.now()-start)/1000,checks:{captionExactMatch:true,states:N,fullDecodePassed:true,encodedFramesExtracted:true,adjacentSeamsVerified:false},inputs:Object.entries(assets).map(([id,p])=>({id,path:p,sha256:sha(path.join(root,p))})),code:['scene.mjs','produce.mjs','../03/scene.mjs'].map(p=>({path:p,sha256:sha(path.join(dir,p))})),output:{path:final,bytes:fs.statSync(final).size,sha256:sha(final)}};
+fs.writeFileSync(path.join(out,'04-manifest.json'),JSON.stringify(manifest,null,2));fs.writeFileSync(path.join(qa,'last-state.json'),JSON.stringify(state((N-1)/FPS),null,2));console.log(JSON.stringify({complete:true,output:final,elapsed:manifest.elapsedSeconds,media:meta}));
