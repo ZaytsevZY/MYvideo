@@ -1,0 +1,13 @@
+{
+  "id": "N1",
+  "prompt": "Use case: illustration-story. Asset: ONE complete frontal upper-body animation cutout for shots S01-01 and S01-02 of a restrained 2D educational film. Reference image 1 is the definitive CHARACTER IDENTITY, outfit and anime/cel drawing style. Reference image 2 is seated working posture and clothing consistency only; do NOT keep its rear viewpoint or any surrounding glow. Draw the SAME adult East Asian programmer: short tousled charcoal hair in large simple locks, dark eyes, blue-gray crewneck sweatshirt, dark teal lanyard with a small BLANK ivory rectangular badge. True front view, eye-level camera near an invisible monitor, face and chest facing the viewer. Seated, torso upright with a slight natural forward lean, level shoulders, eyes looking slightly DOWN at the invisible screen, neutral quiet concentration with mild late-night fatigue, closed mouth. Both elbows relaxed and naturally connected, forearms angled forward toward an invisible keyboard just below the frame; hands may be entirely below the lower crop, never sever a visible wrist. Show the entire head, hair, neck, both shoulders, torso and both connected arms down through the waist; intentional straight lower crop below the waist, not at the neck/chest. Single centered figure, portrait canvas, generous transparent margins above hair and beside elbows; keep anatomy and proportions of the reference, no chibi. Subtle cool screen light ON the face and sweatshirt, but preserve readable skin and blue-gray fabric. Clean dark contour, matte flat cel colors and restrained simple shadows like the supplied cast, not photorealistic, not 3D. Background must be genuinely transparent alpha, with NO halo, NO glow outside the silhouette, NO checkerboard painted into pixels, NO cast shadow, NO wall, NO chair, desk, keyboard or monitor, NO visible text or logos. Do not include legs, multiple views, model-sheet layout, disconnected parts or extra fingers. This is one intact drawing, not a rig or collage.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-input-v01.png"
+  ],
+  "transparent_background": true,
+  "status": "generated candidate; inspected individually and in offline static composite; source pixels unchanged",
+  "output": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+  "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-1466f74a-67bb-4d75-a519-24b848d20317.png",
+  "sha256": "f3862cc0ea51085524d03d2d9d3a704b756f892533d258a9c05ea598fea00ddf"
+}

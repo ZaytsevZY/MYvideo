@@ -1,5 +1,9 @@
 # 01 · 完整角色姿态与补充关键帧
 
+## 2026-10-16：镜头新增姿态
+
+新增[正面中性](programmer-front-neutral-v01.png)、[正面决定派发](programmer-front-dispatch-v01.png)（均1153×1364，完整上半身）及[朝右3/4站姿](programmer-logic-stand-right-v01.png)（1024×1536，全身），均为透明PNG，原始像素未改。现有01库存共24张人物姿态（程序员14、Agent10）；新camera动态bundle已接入全部24张，旧whole动作bundle保留21张。新增索引见[manifest-camera-v01.json](manifest-camera-v01.json)，完整用途、提示词与静态合成检查见[CAMERA_ASSETS](../../../static/01/CAMERA_ASSETS.md)。正面素材不应套用旧baker的1024×1536固定尺寸。
+
 **版本：** S01_WHOLE_POSES v0.2 · 2026-10-15。当前21张1024×1536透明PNG，均由内置image_gen.imagegen生成，原始像素未编辑；准确底层模型标识未暴露。
 
 程序员共11张：背面操作、收手中间位、收手、起身前倾、半起身、接近站直、站立、向左转身、跨步、经过位与后腿回收。初始背对观众，视线朝向屏幕。Agent共10张：待命、抬手中间位、伸手、抓握前、握住文件、收回文件、身前持有、低头查看、递出文件、指向图解。次要人物仍使用上级目录无五官设定，本镜头不新增其动作。

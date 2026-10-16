@@ -1,5 +1,9 @@
 # 角色设定 · v01
 
+## 2026-10-16：01镜头新增角色资源
+
+正面近景两姿态与朝右3/4站姿已放入[poses/01](poses/01/README.md)，新增3张透明PNG，库存共24张人物姿态；旧动作预览仍使用先前21张。[新增镜头资源](../static/01/CAMERA_ASSETS.md)记录实际尺寸、完整prompt、来源哈希与静态合成。
+
 2026-10-15 · 内置 `image_gen.imagegen` 生成 · 候选设计，尚未冻结。
 
 以 [anime-contact1.jpg](../../assets/references/anime-contact1.jpg)、[anime-contact2.jpg](../../assets/references/anime-contact2.jpg)为风格参考。先生成Agent，再以其设定表作为其余三次调用的共同风格参考，保持线条、平涂、有限阴影和服装轮廓一致。准确底层模型标识未由工具暴露，不补写模型版本。

@@ -1,5 +1,9 @@
 # 01 · 独立道具与屏幕状态
 
+## 2026-10-16：显示器背壳前景
+
+新增[monitor-back-v01.svg](monitor-back-v01.svg)，1280×360，N5：与现有显示器共用深蓝灰色板，作为正面反打的独立近前景，不含屏幕文字。当前目录共16个道具SVG；原build_assets.py仍维护旧15项，新背壳由独立[镜头资源清单](../../static/01/camera-assets-manifest-v01.json)记录。合成检查见[CAMERA_ASSETS](../../static/01/CAMERA_ASSETS.md)。
+
 **版本：** S01_ASSETS v0.5 · 2026-10-15。
 
 本目录15个原生SVG（包含新增椅背背面外壳），基础道具由 [build_assets.py](../../static/01/build_assets.py)确定性绘制；透明区域保持透明，屏幕界面自身为不透明内容。它们采用与角色相近的深色轮廓、有限阴影及克制配色，便于按图层控制。它们是实际可用的矢量道具，不是截取背景里的物件。

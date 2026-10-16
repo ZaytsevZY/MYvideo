@@ -1,6 +1,6 @@
 # 当前制作记录
 
-**版本：** GENERATION_LOG v0.8 · 2026-10-15
+**版本：** GENERATION_LOG v0.11 · 2026-10-16
 **依赖：** [PROJECT_STATE](../PROJECT_STATE.md)、[PRODUCTION_PROTOCOL](../style/PRODUCTION_PROTOCOL.md)。
 
 当前已生成四张候选角色设定图、第01章两个背景PNG及30个原生SVG道具／图解组件，并完成四种静态布局检查。01现有完整姿态及Codex有限动作预览；尚无Remotion工程、光栅动画序列或视频编码。静态素材与动作试验分别登记。
@@ -78,3 +78,31 @@
 - Codex整理[S01_CAMERA v0.1](../final/shot/01.md#video-content)及[增量评估](01_CAMERA_WORKLOAD.md)：11镜／45秒；情境正面、越肩、Agent近景与背面工位交替，逻辑固定机位站立，结尾拉远跟移。推荐最少新增5项素材、8–14制作工时；经济版3项、3–5小时，均为相对完成既有单机位方案的增量估算，不是机器实测或完整工程总工时。
 - 检查：01口播哈希与输入一致、155非空白字符，六章仍合计840；11镜连续无重叠或空档，父段时长16／21／8秒，合计45秒。维护的本地链接可解析。输出哈希及检查范围在运行清单中。
 - 状态：文字候选、未配音校时。未新增图片、修改动画代码、bake或建立Remotion工程，没有声音与MP4；旧动作预览仍是原背面构图。新用户要求修订旧初始背面约束，已同步索引与艺术方向说明。后续先验证正面近景和反打背景组合。
+
+## S01-CAMERA-V02 · Claude Opus5.5英文prompt重写
+
+- 日期与时区：2026-10-16，Asia/Shanghai。用户确认CLI已登录，授权重写脚本、建议英文prompt，并随后指定可用Opus5.5重试。
+- 本机认证检查成功。最初默认Sonnet长请求未返回正文后中断；短健康检查成功。指定Opus5.5时旧CLI2.1.168被拒绝（要求至少2.1.280），经批准更新至2.1.301。宽范围Opus请求约8分钟未交付后中断，再精简为仅交付镜头正文。
+- 最后成功调用：claude-opus-5-5 / firstParty，effort low，禁用工具与外部MCP，无会话持久化，stream-json。CLI报告1回合、is_error=false、end_turn；总耗时61000ms，API60962ms。该耗时仅为最后一轮，不包含前述过程。输入为[精简英文prompt](production/01-camera-v02/claude-prompt-en-focused.txt)，[结果元数据](production/01-camera-v02/claude-result.json)记录实际模型标识。
+- [Claude原稿](production/01-camera-v02/claude-storyboard.md)给出12镜；Codex将人工验收从2秒扩为4秒，校正计划扩张及结尾口播锚点，离线置于派发／审核之间，返工项补人工复核，移除缺少背景支持的俯视机位和甩镜／切黑候选。[审校说明](production/01-camera-v02/review.md)记录逐镜差异。
+- 当前正文S01_CAMERA v0.2为12镜／45秒，父段仍为16／21／8秒；155字符口播与引用保持不变。推荐5项新增素材、8–14工时估算沿用，尚未生图、改动画代码、配音或渲染。输入快照、输出哈希、命令与核对范围保存在run-manifest.json。
+- 用户明确要求延长等待、不要频繁重试。收到该要求后没有再发起模型请求，只读取当时正在运行的精简请求并本地审校；后续沿用英文prompt与该等待偏好。
+
+## S01-CAMERA-ART-V01 · 新机位美术资源
+
+- 日期与时区：2026-10-16，Asia/Shanghai。用户授权生成新镜头美术，放入已有01资源目录；输入基准S01_CAMERA v0.2、既有角色设定、21张姿态与昼夜背景，源输入哈希在arts/static/01/camera-assets-input-v01.json。
+- 实际工具：内置image_gen.imagegen，共4次成功调用，无额外重试。N1正面中性、N3朝右3/4站姿、N4反打夜景分别参考既有素材；N2以上轮新N1为编辑目标，仅改决定派发表情。完整英文prompt、引用与透明参数分别存在原人物／背景01目录的prompts；模型准确标识未暴露。
+- 输出：N1/N2均1153×1364 RGBA，N3为1024×1536 RGBA，N4为1672×941 RGB；全部直接复制原始PNG，源哈希匹配。角色alpha角点均为0；N3有极低alpha轮廓外边缘，已在日间底图检查，未做像素清理。
+- N5显示器背壳由Codex原生SVG编写，1280×360，独立近前景、沿用深蓝灰色板；无新的图像模型调用。5项输出与逐项哈希见[镜头资源清单](../../arts/static/01/camera-assets-manifest-v01.json)，人类可读入口[CAMERA_ASSETS](../../arts/static/01/CAMERA_ASSETS.md)。
+- 静态检查：原生SVG组合人物、背景和前景，使用bundled sharp／librsvg离线渲染三张1920×1080 PNG并目视检查。确认显示器遮挡下沿不挡脸、两张正面构图近似对齐、站姿朝右、Agent在图解底框及内容之前、文字避开面部。浏览器拒绝file协议后未绕过，其交互页面没有记为验证通过。
+- 重建：python3 arts/static/01/build_camera_assets_preview.py；NODE_PATH=<已安装sharp路径> node arts/static/01/render_camera_assets_preview.cjs。仅生成静态QA产物，不修改PNG源像素或运行生图。布局、渲染器版本、原始源路径与哈希随清单保存。
+- 状态：资源候选已制备，新增3张姿态后库存24张；旧动作bundle仍21张，未接入新资产或实现12镜时间轴，未生成声音／MP4。口播与引文未改，无新的Claude调用，未在.tmp新建副本。
+
+## S01-CAMERA-DYNAMIC-V01 · N1–N5接入原生动态框架
+
+- 日期与时区：2026-10-16，Asia/Shanghai。用户授权将新美术接入当前动态框架，沿用原生SVG／JavaScript，未新建Remotion工程或导出媒体。
+- 单次Claude Code2.1.301调用，claude-opus-5-5、effort low、英文prompt、禁用工具与MCP。CLI报告1回合成功、end_turn、总耗时368608ms（API368548ms），本轮无重试或额外健康检查。完整输入、原始模块、结果JSON与采用修订在[provenance/camera-v01](../../arts/actions/01/provenance/camera-v01/review.md)。
+- Claude生成camera-motion.mjs基础模块；Codex完成camera素材包、播放器接入、12镜关键图与8项测试，并修改清单连续重排、混合尺寸、缩放精度、Agent半身取景、人工复核状态、候选／排期区别、终点可见及文字避让。新包用源图URL与实际宽高，约10.8KB元数据；图片由浏览器缓存。
+- 新增动态模块／构图／状态采样以[CAMERA_PREVIEW](../../arts/actions/01/CAMERA_PREVIEW.md)和manifest-camera-v01.json为准。24姿态、12镜／45秒、1351条30fps状态；原whole模块、keyframes、bake-whole与旧素材包保留，PNG源像素未改。T01-R先人工复核再通过，三类新增任务仍未验收。
+- 8项测试通过，覆盖边界、确定性、尺寸、1351状态引用与有限数值、单人物／飞行文件、人工选择／验收时序、终点与旧项可见、推近细度。离线渲染12张代表图和总览；浏览器加载全部素材，观察完整45秒至结尾，检查近景、验收、站立、结尾及旧A01动作，控制台无错误。实际截图留在同一provenance目录。
+- 本机预览服务为127.0.0.1:8765，浏览器tab保留为交付。检查不等于逐帧艺术审核或配音对轴；无声音、MP4或Remotion正式工程，口播与引用未改。

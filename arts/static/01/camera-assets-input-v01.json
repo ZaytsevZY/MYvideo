@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "script": "S01_CAMERA v0.2",
+  "tool": "image_gen.imagegen (built-in)",
+  "exact_model": "not exposed",
+  "input_sha256": {
+    "scripts/final/shot/01.md": "a9ff9a3617b817adc3063a9e10f32b2b4672085a2cec852c70e30c282f9b76cd",
+    "arts/characters/poses/01/manifest-v02.json": "9290d092380a958de5c646a22145a2ee07bd2145d6b8c8f9e1ca7e96c3dc653b",
+    "arts/characters/programmer-model-sheet-v01.png": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0",
+    "arts/characters/poses/01/programmer-input-v01.png": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373",
+    "arts/characters/poses/01/programmer-stand-v01.png": "47a0ff3b3a1c0d6aaa5039b0f4ca03bf692cb99cccef0842ab673f92094b9fb6",
+    "arts/characters/poses/01/agent-report-v01.png": "22198fc0ea7f38bc081ca8ce4d886d316913b1c3c9f658c2bae86f61459a5c1e",
+    "arts/backgrounds/01/workroom-night-v01.png": "062660817c9cc28f7acd52678e761b8f2c1d584dc6d57cd5b9165c6a124cd77c"
+  }
+}

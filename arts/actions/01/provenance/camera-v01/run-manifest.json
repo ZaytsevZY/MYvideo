@@ -1,0 +1,66 @@
+{
+  "version": "S01_CAMERA_PREVIEW v0.1",
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "cli_version": "2.1.301",
+  "model": [
+    "claude-opus-5-5"
+  ],
+  "effort": "low",
+  "model_requests_this_task": 1,
+  "retries": 0,
+  "result": {
+    "is_error": false,
+    "num_turns": 1,
+    "duration_ms": 368608,
+    "duration_api_ms": 368548,
+    "stop_reason": "end_turn"
+  },
+  "command": "claude -p --model claude-opus-5-5 --effort low --tools '' --strict-mcp-config --mcp-config '{\"mcpServers\":{}}' --no-session-persistence --verbose --output-format stream-json < arts/actions/01/provenance/camera-v01/claude-prompt-en.txt > arts/actions/01/provenance/camera-v01/claude-result.jsonl",
+  "preview_url": "http://127.0.0.1:8765/actions/01/preview.html",
+  "checks": {
+    "tests_passed": 8,
+    "samples": 1351,
+    "shot_count": 12,
+    "duration_seconds": 45,
+    "source_images_hash_match": true,
+    "legacy_modules_unchanged": true,
+    "audio_unchanged": true,
+    "references_unchanged": true,
+    "broken_links": [],
+    "browser_full_playback_end_observed": "45.00 /45.00, S01-12",
+    "browser_legacy_action_end_observed": "A01 2.40 /2.40",
+    "browser_console_errors": [],
+    "browser_shots_inspected": [
+      "S01-01",
+      "S01-03",
+      "S01-05",
+      "S01-06",
+      "S01-09",
+      "S01-10",
+      "S01-12"
+    ],
+    "representative_stills": 12
+  },
+  "media_export": {
+    "audio": false,
+    "mp4": false,
+    "new_raster_animation_frames": false
+  },
+  "sha256": {
+    "arts/actions/01/camera-motion.mjs": "a02a660b295dbaf2bda271fcbb43080840fbf31c6ebd1e0421b547119af1454b",
+    "arts/actions/01/bake-camera.mjs": "f0db6e495b9e6f4629575f026e7a8ef61a516e73481d52354541506c3e4ea685",
+    "arts/actions/01/preview.html": "45ac421ac8e6d844fa0cfe38d8a5812eb6ff85cb34f7f6b6c8ce69f74bbec26c",
+    "arts/actions/01/camera-motion.test.mjs": "37fb36d2d66aba7abf7cc5a6d5b3e308bae3a344e2ed82fc61d79eb3afcef18f",
+    "arts/actions/01/render-camera-stills.cjs": "2dc90e714c22b81170f51c1a2dbf7c147f478670ad384cfb9fceffa1e6a90e85",
+    "arts/actions/01/bundle-camera-v01.json": "4ea204bbe47eb4fae55f1fbb109919ea26e8300e5a42c9385d2fb1168f8135ec",
+    "arts/actions/01/scene-camera-30fps-v01.json": "976812dfbaaf40aefc89ef7fb1886c009aaf4b713b672bcdcd6a8876bb1bd6d5",
+    "arts/actions/01/manifest-camera-v01.json": "c2d71c35dbe1355b597093617dc3506fa2a7686cd8ff4d6022bc9879ed892b07",
+    "arts/actions/01/camera-contact-v01.png": "dd50c2f0df7ccd0a4437828291dacb509e09f0e078c074badb4a10ab44f7523f",
+    "arts/actions/01/provenance/camera-v01/browser-standing-v01.png": "fda6373a4f0b12de4eebdde9b24a39babaa672c3aa7b438ef5387a64b71805df",
+    "arts/actions/01/provenance/camera-v01/browser-ending-v01.png": "a5c4bbcd3e88032ed46b7b74d86794ca1afacb71ad5b62b8be448fb5b07617d6",
+    "arts/actions/01/provenance/camera-v01/claude-prompt-en.txt": "1e2ba365f00857f73a74a544206fc3af11ad8108c963f23e48f762e651a76814",
+    "arts/actions/01/provenance/camera-v01/camera-motion-original.mjs": "a2c5c1d2afa9c7f9612e81ceee8c85e2910bfe37994712b3b98a639838e94e62",
+    "arts/actions/01/provenance/camera-v01/codex-integration.patch": "9c5d72dd4ff150631eff945e9fd08f68c04f36f8aa5266d625b2bf3d91786e04"
+  }
+}

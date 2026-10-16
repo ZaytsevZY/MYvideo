@@ -1,0 +1,239 @@
+{
+  "version": "S01_CAMERA_ASSETS v0.1",
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "script": "S01_CAMERA v0.2",
+  "status": "generated candidate assets; static QA only; not user frozen",
+  "raster_calls": 4,
+  "native_svg_count": 1,
+  "source_pixels": "copied unchanged; no raster postprocessing",
+  "assets": [
+    {
+      "id": "N1",
+      "key": "programmer-front-neutral",
+      "path": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+      "sha256": "f3862cc0ea51085524d03d2d9d3a704b756f892533d258a9c05ea598fea00ddf",
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-1466f74a-67bb-4d75-a519-24b848d20317.png",
+      "prompt": "arts/characters/poses/01/prompts/programmer-front-neutral-v01.json",
+      "tool": "image_gen.imagegen (built-in)",
+      "model_identifier": "not exposed by tool",
+      "transparent_background_requested": true,
+      "references": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-input-v01.png"
+      ],
+      "size": [
+        1153,
+        1364
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "bounds96": [
+        29,
+        30,
+        1129,
+        1322
+      ],
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_sha256": "e4b7704ccb60d82e2d3d3bb3f4b04c8b76757480c87ea3621e07bf1ffe89c801",
+      "reference_sha256": {
+        "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0",
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-input-v01.png": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373"
+      }
+    },
+    {
+      "id": "N2",
+      "key": "programmer-front-dispatch",
+      "path": "arts/characters/poses/01/programmer-front-dispatch-v01.png",
+      "sha256": "2884433d982fb66f6e8c506fd6b4bcef27dfc0cd4f5b75b6fc8693b6ffd22a3c",
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-8ec19459-0971-4c60-8e23-49eccfda7bbd.png",
+      "prompt": "arts/characters/poses/01/prompts/programmer-front-dispatch-v01.json",
+      "tool": "image_gen.imagegen (built-in)",
+      "model_identifier": "not exposed by tool",
+      "transparent_background_requested": true,
+      "references": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png",
+        "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png"
+      ],
+      "size": [
+        1153,
+        1364
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "bounds96": [
+        27,
+        32,
+        1135,
+        1323
+      ],
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_sha256": "85e0ba50d9d2bfb6838606f7efd519908e51065d30c2ff302b8927860505471c",
+      "reference_sha256": {
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png": "f3862cc0ea51085524d03d2d9d3a704b756f892533d258a9c05ea598fea00ddf",
+        "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0"
+      }
+    },
+    {
+      "id": "N3",
+      "key": "programmer-logic-stand-right",
+      "path": "arts/characters/poses/01/programmer-logic-stand-right-v01.png",
+      "sha256": "527c21130304764ec19156ae62d75b6909432a194b686072d67a7905087ea117",
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-7f0d8f96-e55b-43ac-a88e-c5e4fd72d1f6.png",
+      "prompt": "arts/characters/poses/01/prompts/programmer-logic-stand-right-v01.json",
+      "tool": "image_gen.imagegen (built-in)",
+      "model_identifier": "not exposed by tool",
+      "transparent_background_requested": true,
+      "references": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-stand-v01.png",
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/agent-report-v01.png"
+      ],
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "bounds96": [
+        279,
+        15,
+        741,
+        1509
+      ],
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_sha256": "90e8e0e47996613010692da858391de8ad3df44a2f5ce12e99546965cfd8aa87",
+      "reference_sha256": {
+        "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0",
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-stand-v01.png": "47a0ff3b3a1c0d6aaa5039b0f4ca03bf692cb99cccef0842ab673f92094b9fb6",
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/agent-report-v01.png": "22198fc0ea7f38bc081ca8ce4d886d316913b1c3c9f658c2bae86f61459a5c1e"
+      }
+    },
+    {
+      "id": "N4",
+      "key": "workroom-reverse-night",
+      "path": "arts/backgrounds/01/workroom-reverse-night-v01.png",
+      "sha256": "28a1e268b5376a4680ef30d4ad631af2b142993d614a74f45d4a9540d1e60814",
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-6f99f237-6214-46a8-af81-b7d8633bb4d0.png",
+      "prompt": "arts/backgrounds/01/prompts/reverse-night-v01.json",
+      "tool": "image_gen.imagegen (built-in)",
+      "model_identifier": "not exposed by tool",
+      "transparent_background_requested": false,
+      "references": [
+        "/Users/alan671/Documents/MYvideo/arts/backgrounds/01/workroom-night-v01.png",
+        "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png"
+      ],
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "prompt_sha256": "25beb50f433a99b193375652418b5640e3a21944c98b275344cf028adc54cf2d",
+      "reference_sha256": {
+        "/Users/alan671/Documents/MYvideo/arts/backgrounds/01/workroom-night-v01.png": "062660817c9cc28f7acd52678e761b8f2c1d584dc6d57cd5b9165c6a124cd77c",
+        "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0"
+      }
+    },
+    {
+      "id": "N5",
+      "key": "monitor-back",
+      "path": "arts/items/01/monitor-back-v01.svg",
+      "sha256": "04136d3b114a923c39fd795b654905975a612bd4f930b3ab11ffedc8db77cc44",
+      "source": null,
+      "prompt": null,
+      "tool": "native SVG authored by Codex",
+      "model_identifier": null,
+      "transparent_background_requested": true,
+      "references": [],
+      "size": [
+        1280,
+        360
+      ],
+      "reference_sha256": {}
+    }
+  ],
+  "checks": {
+    "source_hashes_match": true,
+    "all_character_alpha_corners_transparent": true,
+    "frontal_canvas_sizes_equal": true
+  },
+  "derived_static_previews": [
+    {
+      "path": "arts/static/01/camera-front-neutral-v01.svg",
+      "sha256": "40879408fc87e8b5588e63361fd0fcadbd68829773b3b89ba3188505eb36ec3e"
+    },
+    {
+      "path": "arts/static/01/camera-front-dispatch-v01.svg",
+      "sha256": "0d99043cfa4156ed0b57e82b140feb53169af9360f7bd6ff447c448a99e64c06"
+    },
+    {
+      "path": "arts/static/01/camera-standing-layout-v01.svg",
+      "sha256": "dfbd018447db9a86461bcaba987ccb3fb520f1556e16aab126f8b36d61d8dae7"
+    }
+  ],
+  "builder": "arts/static/01/build_camera_assets_preview.py",
+  "limitations": [
+    "Static compositing checks are not timed animation validation.",
+    "N1/N2 contours are not pixel-identical; use pose cuts, never body crossfade.",
+    "N3 source carries very low alpha fringe similar to older poses; inspect against final backgrounds.",
+    "Frontal PNG native size differs from older 1024x1536 full-body assets; consumer must read native dimensions."
+  ],
+  "offline_static_render": {
+    "renderer": "sharp 0.35.5",
+    "svg_renderer": "librsvg 2.63.2",
+    "command": "NODE_PATH=<installed-node-packages> node arts/static/01/render_camera_assets_preview.cjs",
+    "images": [
+      {
+        "source": "arts/static/01/camera-front-neutral-v01.svg",
+        "path": "arts/static/01/camera-front-neutral-v01.png",
+        "size": [
+          1920,
+          1080
+        ],
+        "sha256": "fe322a4d895de8cb9f792855f0890fc7723cb43c6a551b2ab5a6ecefd70cc41c"
+      },
+      {
+        "source": "arts/static/01/camera-front-dispatch-v01.svg",
+        "path": "arts/static/01/camera-front-dispatch-v01.png",
+        "size": [
+          1920,
+          1080
+        ],
+        "sha256": "85684bded8f936bd7a47deda93ac8ae04656a4121d75d4eee2e808415b60c856"
+      },
+      {
+        "source": "arts/static/01/camera-standing-layout-v01.svg",
+        "path": "arts/static/01/camera-standing-layout-v01.png",
+        "size": [
+          1920,
+          1080
+        ],
+        "sha256": "74625f84cc8c6abdf1f5d41959b24c966f367e67d26ca84a19c123177f24f59c"
+      }
+    ]
+  }
+}

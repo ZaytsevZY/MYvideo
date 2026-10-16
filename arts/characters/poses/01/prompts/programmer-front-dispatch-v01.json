@@ -1,0 +1,13 @@
+{
+  "id": "N2",
+  "prompt": "Use case: identity-preserve. Image 1 is the EDIT TARGET: the already approved-for-iteration frontal upper-body transparent programmer drawing. Image 2 is identity/outfit reference only. Create one companion cel for a subtle 'decides to dispatch the unfinished task' beat. Preserve Image 1's EXACT canvas size and crop, character scale and center, hair silhouette, face identity, blue-gray sweatshirt, dark teal lanyard and blank ivory badge, outline weight, cool screen lighting, torso, shoulders and intact connected arms. CHANGE ONLY the small preparatory expression/pose: chin very slightly tucked, brows subtly more focused, gaze directed a little further DOWN at the invisible screen/keyboard, closed mouth a little more resolved. Add only a tiny natural settling of the shoulders/forearms toward the invisible input area; keep both hands below the same bottom crop and keep the overall silhouette nearly identical so the two complete drawings can hard-cut without a body-size jump. Do not change age, hair design, face shape, costume, head orientation to 3/4, lighting, camera viewpoint or composition; no smile, angry expression, theatrical gesture, new props or pointing. ONE intact frontal upper-body drawing, not separate parts, not an expression sheet. Maintain genuine transparent alpha background, no painted checkerboard, outside halo/glow, cast shadow, background, monitor, desk, chair, text, logo, watermark, extra hands or detached anatomy. Do not crop hair or elbows. Output this single modified cutout preserving the source framing.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png",
+    "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png"
+  ],
+  "transparent_background": true,
+  "output": "arts/characters/poses/01/programmer-front-dispatch-v01.png",
+  "status": "generated candidate; inspected individually and in offline static composite; source pixels unchanged",
+  "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-8ec19459-0971-4c60-8e23-49eccfda7bbd.png",
+  "sha256": "2884433d982fb66f6e8c506fd6b4bcef27dfc0cd4f5b75b6fc8693b6ffd22a3c"
+}

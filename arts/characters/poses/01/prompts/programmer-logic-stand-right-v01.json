@@ -1,0 +1,14 @@
+{
+  "id": "N3",
+  "prompt": "Use case: illustration-story. Asset: ONE complete FULL-BODY standing programmer cutout for an explanatory animation. Image 1 defines the exact programmer identity, front face, haircut and outfit. Image 2 defines the same programmer's existing standing height/proportions and clean cel treatment, NOT its rear viewpoint. Image 3 is the existing Agent as a supporting style/proportion reference only; DO NOT draw or borrow her features, outfit or pointing pose. Draw only the SAME adult East Asian programmer, short slightly tousled dark charcoal hair, simple dark eyes and restrained neutral face, blue-gray crewneck sweatshirt, dark teal lanyard with one small blank ivory badge, charcoal straight trousers and simple off-white low sneakers. New genuine FRONT THREE-QUARTER view turning TOWARD IMAGE-RIGHT, the viewer sees the front of the sweatshirt and badge and both eyes; head and gaze gently directed to a diagram that will be added separately on image-right. He will stand on the LEFT of the explanatory frame, listening while Agent stands to the right. Calm balanced standing with feet planted on the same baseline, arms hanging naturally, hands relaxed and empty beside hips, no pointing, no walking, no dramatic gestures. Full figure visible from hair to both shoe soles, centered on a portrait canvas, generous true alpha margin, adult proportions matching the existing cast. Soft neutral diffuse illumination suitable for the daytime workroom; no colored spotlight. Clean dark contour, matte limited cel fills, coherent with the references, no new accessories. Truly transparent background, no outside silhouette halo or rim glow, no floor, contact shadow, room, chair, panel, diagrams, labels, logo or watermark. No other character, split limbs, separate views, floating hands, chibi anatomy, photorealism or 3D. Draw the correct right-facing anatomy; do not horizontally flip the reference sheet.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-stand-v01.png",
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/agent-report-v01.png"
+  ],
+  "transparent_background": true,
+  "status": "generated candidate; inspected individually and in offline static composite; source pixels unchanged",
+  "output": "arts/characters/poses/01/programmer-logic-stand-right-v01.png",
+  "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-7f0d8f96-e55b-43ac-a88e-c5e4fd72d1f6.png",
+  "sha256": "527c21130304764ec19156ae62d75b6909432a194b686072d67a7905087ea117"
+}

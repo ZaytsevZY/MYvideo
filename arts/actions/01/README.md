@@ -1,6 +1,10 @@
 # 01 · 完整姿态与遮挡预览
 
-**当前：** S01_WHOLE_PREVIEW v0.3 · 2026-10-15。代码由Codex编写，用户在Claude未登录后明确授权本轮预览例外；正式Claude / Remotion路线保持后续计划。
+**当前动态入口：** [S01_CAMERA_PREVIEW v0.1](CAMERA_PREVIEW.md)，12镜／45秒，24张人物姿态，N1–N5已接入正面近景、站立讲解与结尾镜头。直接打开[本机预览](http://127.0.0.1:8765/actions/01/preview.html)；菜单仍保留以下旧工艺和原13条独立动作。
+
+以下内容记录旧背面工位与动作工艺，旧模块和素材包保持不变。
+
+**旧工艺对照：** S01_WHOLE_PREVIEW v0.3 · 2026-10-15。代码由Codex编写，用户在Claude未登录后明确授权本轮预览例外；正式Claude / Remotion路线保持后续计划。
 
 - [preview.html](preview.html)：45秒无配音试验、13个动作条目和关键时间按钮；本地地址为 http://127.0.0.1:8765/actions/01/preview.html 。
 - [21张完整姿态](../../characters/poses/01/README.md)、[姿态总览](contact-sheet-whole-v02.svg)。

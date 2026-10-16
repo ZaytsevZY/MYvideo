@@ -1,0 +1,191 @@
+{
+  "version": "S01_CAMERA_PREVIEW v0.1",
+  "script": "S01_CAMERA v0.2",
+  "front": {
+    "room": [
+      -8,
+      -5,
+      1936,
+      1090
+    ],
+    "pose": [
+      510.33,
+      70,
+      899.34,
+      1063.92
+    ],
+    "monitorBack": [
+      360,
+      844,
+      1200,
+      337.5
+    ],
+    "push": 0.03
+  },
+  "rear": {
+    "desk": [
+      180,
+      620,
+      1110,
+      123
+    ],
+    "deskLegs": [
+      180,
+      659,
+      1110,
+      308
+    ],
+    "monitor": [
+      600,
+      320,
+      544,
+      374
+    ],
+    "screen": [
+      627.2,
+      343.8,
+      489.6,
+      275.4
+    ],
+    "keyboard": [
+      440,
+      649,
+      405,
+      67
+    ],
+    "mouse": [
+      875,
+      650,
+      43,
+      58
+    ],
+    "chairSeat": [
+      480,
+      813,
+      265,
+      205
+    ],
+    "chairRear": [
+      483,
+      663,
+      265,
+      296
+    ],
+    "review": [
+      740,
+      356,
+      366,
+      252
+    ],
+    "taskPanel": [
+      1170,
+      300,
+      250,
+      180
+    ],
+    "ots": {
+      "x": 165,
+      "y": 90,
+      "scale": 1.15
+    },
+    "wide": {
+      "x": 0,
+      "y": 0,
+      "scale": 1
+    },
+    "agentCrop": {
+      "x": 1137.6923,
+      "y": 250,
+      "scale": 2.6
+    }
+  },
+  "standing": {
+    "programmer": [
+      84.8,
+      223.32,
+      532.48,
+      798.72
+    ],
+    "agent": [
+      1394,
+      281.28,
+      491.52,
+      737.28
+    ],
+    "floor": 1008,
+    "fill": "#F6F1E7",
+    "fillOpacity": 0.97,
+    "backdrop": {
+      "time": [
+        600,
+        65,
+        1120,
+        390
+      ],
+      "workflow": [
+        600,
+        65,
+        1120,
+        470
+      ],
+      "queue": [
+        600,
+        65,
+        2040,
+        360
+      ]
+    },
+    "textSafeRight": 1370,
+    "lanes": [
+      [
+        630,
+        "待评估"
+      ],
+      [
+        875,
+        "已排期"
+      ],
+      [
+        1120,
+        "验收"
+      ]
+    ]
+  },
+  "human": {
+    "reviewClicks": [
+      12.8,
+      13.3,
+      13.8
+    ],
+    "select": [
+      24.2,
+      25.8,
+      27.4
+    ],
+    "approveT01R": 31.6,
+    "checkT01R": 32,
+    "mergeT01R": [
+      32.6,
+      33.6
+    ]
+  },
+  "endpoint": {
+    "reference": 1015,
+    "referenceFrom": 35.5,
+    "final": 2560,
+    "move": [
+      41,
+      44.2
+    ]
+  },
+  "layerOrder": [
+    "room (blurred, own parallax)",
+    "workstation silhouette",
+    "diagram backdrop",
+    "diagram content + human cursor",
+    "programmer",
+    "foreground Agent",
+    "screen-space label/debug"
+  ],
+  "note": "Every pose drawn once at native aspect; front/standing use explicit rects, rear uses CALIBRATION baselines. No limb assembly or body crossfades."
+}

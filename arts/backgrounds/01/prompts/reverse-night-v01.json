@@ -1,0 +1,13 @@
+{
+  "id": "N4",
+  "prompt": "Use case: illustration-story. Asset: ONE clean empty BACKGROUND PLATE, wide 16:9 landscape, for a frontal close-up in the SAME existing workroom at night. Image 1 defines the actual workroom's clean anime/cel background style, muted blue-gray walls, dark blue shadow palette, simple shelving, warm wooden trim and restrained warm lamp spill. Image 2 defines only the cast's drawing language and scale; DO NOT draw the person. This is a NEW REVERSE CAMERA VIEW of that same room, not an edit leaving the existing window composition intact: camera is near the monitor in the original workstation, looking toward the seated programmer's FACE and toward the room wall BEHIND him. Therefore show a mostly plain dark blue-gray opposite wall behind the future centered head, NOT the large city-view window from the reference. Quiet shallow background, eye-level close-up framing with no wide-angle distortion. Main central 70 percent must be calm low-detail blank wall for layering a large foreground portrait; only subtle wall-panel seams, a thin same-style bookcase edge near far left and muted dark wood doorway trim near far right may establish the same room, without drawing attention. No second window or skyline behind the face. Night illumination: broad subtle cool screen/environment fill, a very restrained warm side light near the left edge, no neon, sparkles or theatrical beams. Clean restrained hand-drawn anime background with coherent dark contour and flat/simple soft cel lighting; same palette and material treatment as image 1. Entire opaque landscape background only: NO person, Agent, chair, desk, keyboard, monitor, laptop, lamp fixture, whiteboard, diagram, labels, text, watermark, or baked portrait. Furniture, protagonist and monitor-back foreground will be overlaid separately. Do not generate a finished combined scene. Sharp source plate; later compositing will supply subtle blur.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/01/workroom-night-v01.png",
+    "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png"
+  ],
+  "transparent_background": false,
+  "status": "generated candidate; inspected individually and in offline static composite; source pixels unchanged",
+  "output": "arts/backgrounds/01/workroom-reverse-night-v01.png",
+  "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-6f99f237-6214-46a8-af81-b7d8633bb4d0.png",
+  "sha256": "28a1e268b5376a4680ef30d4ad631af2b142993d614a74f45d4a9540d1e60814"
+}

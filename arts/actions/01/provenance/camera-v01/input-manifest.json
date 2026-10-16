@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "requested_model": "claude-opus-5-5",
+  "prompt_language": "English instructions; Chinese source text",
+  "prompt_sha256": "1e2ba365f00857f73a74a544206fc3af11ad8108c963f23e48f762e651a76814",
+  "input_sha256": {
+    "arts/actions/01/whole-motion.mjs": "27fedc5b9e2b47c03aeafd30f8daec6a78fae5673af1606c913b6cd969b096d3",
+    "arts/actions/01/keyframes.mjs": "b026c5bb7341787c9436718a6aa7dc1d6bfe4600d3c276955eac070db0be6451",
+    "arts/actions/01/bake-whole.mjs": "a1499ce17b2548bf9ad109a65eba38f972c94427b5d8511de54bae3bdcc30076",
+    "arts/actions/01/preview.html": "90f0ef31e2734d98415ca6fbc85107a369d806894aafc4e7ef9067d51eb5edfd",
+    "scripts/final/shot/01.md": "d169bd620f7ac9ae157a3ba1dd9b2a02b45e5bb1a0b02d477e83562d73dd0ad7",
+    "arts/static/01/camera-assets-layout-v01.json": "ab6cc8dcc424d84aee743cdac87c2f76d7b0e3dee6de68e028206d815c32b948",
+    "arts/static/01/camera-assets-manifest-v01.json": "4538246d1245c63fa9234df05824e9199ac59dbe325461817836382a412c3e96"
+  },
+  "scope": "one native SVG animation module; parent integrates preview; no media export"
+}

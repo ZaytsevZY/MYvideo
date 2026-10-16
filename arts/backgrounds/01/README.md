@@ -1,5 +1,9 @@
 # 01 · 背景
 
+## 2026-10-16：反打夜景
+
+新增[workroom-reverse-night-v01.png](workroom-reverse-night-v01.png)，1672×941不透明PNG：同房间对侧墙，用于正面近景，背景中未烘焙人物、椅子或电脑。现有01背景共3张；原昼夜两图继续用于背后工位。完整请求见[prompts/reverse-night-v01.json](prompts/reverse-night-v01.json)，来源、哈希与静态合成见[CAMERA_ASSETS](../../static/01/CAMERA_ASSETS.md)。
+
 **版本：** S01_ASSETS v0.5 · 2026-10-15 · 静态分层资源，尚未bake。
 
 | 文件 | 用途 | 完整生图提示词 |

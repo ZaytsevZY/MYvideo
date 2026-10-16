@@ -1,6 +1,6 @@
 # 项目版本与状态
 
-**版本：** PROJECT_STATE v0.14 · 2026-10-16
+**版本：** PROJECT_STATE v0.17 · 2026-10-16
 
 本文件为当前版本的唯一索引。工作片名：《当效率成为义务》——Agent 时代的劳动悖论；课程方向为马克思主义科技社会观。
 
@@ -15,13 +15,14 @@
 | 对象 | 当前文件 / 版本 | 状态 |
 |---|---|---|
 | 音画文本 | [SHOT_TEXT v0.4](final/shot/README.md) | 第01章补回叙事引入，其余口播未改；待试听及内容审核 |
-| 01镜头细化 | [S01_CAMERA v0.1](final/shot/01.md#video-content) / [增量评估](doc/01_CAMERA_WORKLOAD.md) | 11镜／45秒文字候选，情境增加机位与景深、逻辑保持站立；尚未制作新增素材或实现 |
+| 01镜头细化 | [S01_CAMERA v0.2](final/shot/01.md#video-content) / [增量评估](doc/01_CAMERA_WORKLOAD.md) | Claude Opus 5.5重写并审校，12镜／45秒；情境多机位、逻辑站立；新增美术已接入原生SVG／JavaScript动态预览 |
 | 主题与表达 | [CREATIVE_BRIEF v0.9](style/CREATIVE_BRIEF.md) | 同步故事＋逻辑双轴及避免MV、slide的约束 |
 | 六章结构 | [OUTLINE v0.14](final/OUTLINE.md) | 同步音画分工与暂定时段 |
 | 风格 | [STYLE_BIBLE v0.9](style/STYLE_BIBLE.md) | 图解改用按内容定高的暖白底框；Agent处于底框上方 |
 | 艺术方向 | [ART_DIRECTION v0.7](style/ART_DIRECTION.md) | 01已改完整背面姿态叠层；后续镜头仍为草案 |
-| 角色设计 | [CHAR-V01](../arts/characters/README.md) | 四张设定表；01另有21张完整透明姿态候选 |
-| 01动作预览 | [S01_WHOLE_PREVIEW v0.3](../arts/actions/01/README.md) | 21张完整姿态、13条动作；三种图解底框在Agent后方；无MP4 |
+| 角色设计 | [CHAR-V01](../arts/characters/README.md) | 四张设定表；01人物姿态共24张，含2张上半身近景 |
+| 01镜头美术 | [S01_CAMERA_ASSETS v0.1](../arts/static/01/CAMERA_ASSETS.md) | N1–N5共5项已制备；已静态检查并接入新版camera动态bundle |
+| 01动作预览 | [S01_CAMERA_PREVIEW v0.1](../arts/actions/01/CAMERA_PREVIEW.md) | 12镜／45秒、24姿态；旧工艺及13单动作保留；无配音／MP4 |
 | 01静态素材 | [S01_ASSETS v0.5](../arts/static/01/README.md) | 两个背景、31个SVG；默认静态入口已改背面人物工位 |
 | 制作参考 | [STYLE_REFERENCES v0.2](style/STYLE_REFERENCES.md) | 保留历史参考；明确不采用MV叙事及空镜填充 |
 | 制作蓝图 | [PRODUCTION_BLUEPRINT v0.10](style/PRODUCTION_BLUEPRINT.md) | 本轮Codex动作预览例外已获用户授权；正式工程待建 |
@@ -29,8 +30,8 @@
 | 来源与概念 | [SOURCES v0.3](doc/SOURCES.md) | 经典、其他哲学文本、研究与技术来源分别标注 |
 | 研究入口 | [RESEARCH v0.7](doc/RESEARCH.md) | 沿用既有原文核查范围，增加历史制作调研恢复入口 |
 | 内容检查 | [FACT_CHECK v0.4](doc/FACT_CHECK.md) | 本版事实、引文与音画分配检查 |
-| 制作日志 | [GENERATION_LOG v0.8](doc/GENERATION_LOG.md) | 登记分件试验淘汰、21张完整姿态和有限动作预览 |
-| 交接 | [HANDOFF v0.15](HANDOFF.md) | 同步01镜头候选、增量评估与旧预览状态区别 |
+| 制作日志 | [GENERATION_LOG v0.11](doc/GENERATION_LOG.md) | 登记分件试验淘汰、21张完整姿态和有限动作预览 |
+| 交接 | [HANDOFF v0.18](HANDOFF.md) | 同步01镜头候选、增量评估与旧预览状态区别 |
 
 ## 字符与时间
 
@@ -48,7 +49,7 @@
 
 ## 制作路线与留档
 
-用户决定由Claude编写Remotion / React动画代码并渲染；计划模型为Claude Opus 5.5，实际调用和依赖版本在使用时登记。当前已有四张设定表、21张01完整姿态、两个背景及31个SVG，以及Codex编写的有限动作预览。Claude本机未登录，用户明确授权本轮预览代码由Codex编写；未生成声音、Remotion工程、逐帧光栅序列或MP4。
+用户决定由Claude编写Remotion / React动画代码并渲染；计划模型为Claude Opus 5.5，实际调用和依赖版本在使用时登记。当前已有四张设定表、24张01人物姿态、三个背景及32个原生SVG，以及Codex编写的有限动作预览。初次预览时Claude CLI未登录，用户授权该次由Codex编写预览代码；2026-10-16已登录并成功用Opus5.5重写镜头文本，动画预览代码未更新；未生成声音、Remotion工程、逐帧光栅序列或MP4。
 
 分镜使用storyboard-prompt-assistant，动画使用Remotion官方skills；Claude从 `.claude/skills/` 读取，Codex通过 `.agents/skills/` 链接共用同一份文件。
 
@@ -64,10 +65,34 @@
 
 当前角色关键帧已扩展至21张（程序员11、Agent10），新增12次内置生图。Agent以伸手、抓握、收回查看、递出返还推进同一T01任务；代码按30fps采样整身缓动与文件曲线，离散绘制姿态不等于每秒30张新人物图。动作数据以scene-whole-30fps-v02.json及keyframe-tracks-v01.json为准。
 
-## 2026-10-16：01镜头细化候选
+## 2026-10-16：首轮01镜头候选（v0.1历史）
 
-用户希望逻辑段保持站立演出，情境段加入景别、景深和角度变化，并提出开头正面特写。当前[01正文](final/shot/01.md)据此拆为11镜，仍为16／21／8秒三段、共45秒，口播155字符及全片840字符不变。新脚本优先于旧的“初始背面”制作约束；背面工位继续复用在派发、离席与次日验收。新构图尚未写入layout或动作预览。
+用户希望逻辑段保持站立演出，情境段加入景别、景深和角度变化，并提出开头正面特写。首轮01文字候选据此拆为11镜，仍为16／21／8秒三段、共45秒，口播155字符及全片840字符不变。新脚本优先于旧的“初始背面”制作约束；背面工位继续复用在派发、离席与次日验收。新构图尚未写入layout或动作预览。
 
 推荐方案最少新增5项素材，增量估计8–14制作工时；经济方案3项、3–5小时。详见[评估口径](doc/01_CAMERA_WORKLOAD.md)，不含新建Remotion工程等共同待做工作。当前仅完成文字脚本与评估，未生图、改动画、录音或渲染。
 
 本次本机Claude Code 2.1.168调用仍返回未登录，没有模型输出；完整输入、哈希及原始结果见[调用记录](doc/production/01-camera-v01/input-manifest.json)。镜头稿由Codex整理，未将失败调用记为Claude生成。
+
+## 2026-10-16：Claude重写01镜头（v0.2文本阶段记录）
+
+CLI已登录；为支持用户指定的Opus5.5，从2.1.168更新至2.1.301。最后成功请求由claude-opus-5-5执行精简英文prompt，约61秒返回12镜草案，Codex审校为[当前01正文](final/shot/01.md#video-content)。口播155字符、全片840字符及45秒父段预算保持不变；未生成新素材或修改动画代码。
+
+采用稿为12镜／45秒，人工验收保留12–16秒，逻辑段16–37秒固定站立、人的光标触发计划选择，结尾37–45秒拉远与跟移。新增素材仍为5项，增量工时估计8–14小时，尚未制作。此前中断／未登录／旧CLI版本拒绝不记为成功。[原稿与采用修订](doc/production/01-camera-v02/review.md)、英文prompt及最终结果已留档。
+
+用户要求后续适当延长等待、不要频繁重试，并偏好英文prompt。收到该要求后只等待既有请求，未再发起模型调用；后续调用遵守此偏好。
+
+## 2026-10-16：N1–N5镜头美术（当前资源状态）
+
+用户授权生成新美术并放入已有01目录。本轮内置image_gen成功4次，生成N1正面中性上半身、N2决定派发上半身、N3朝右3/4站姿、N4同房间反打夜景；另由Codex直接编写N5显示器背壳SVG。三张人物PNG有真实alpha，源像素未改；N1/N2为1153×1364，N3为1024×1536，背景1672×941，SVG1280×360。全部源图、完整prompt、引用及哈希见[资源入口](../arts/static/01/CAMERA_ASSETS.md)。
+
+已用原生SVG分层，离线渲染并目视检查正面中性、决定派发与站立图解三张1920×1080合成PNG，确认近景遮挡、姿态方向和Agent前景层序。浏览器file协议被安全策略阻止，未绕过；HTML检查页未记为交互验证通过。没有改原动作bundle、配音或视频，也没有将候选图记为用户冻结。
+
+现有01库存共24张人物姿态（程序员14、Agent10）、3个背景、16个道具SVG＋16个图解SVG。旧动作预览仍使用原21姿态及背面工位。下一步按新增布局接入S01_CAMERA v0.2并做动态与配音校时；本次未请求新的Claude调用。
+
+## 2026-10-16：新增资源接入动态框架（当前）
+
+用户授权将新美术放入动态框架。本轮沿用原生SVG／JavaScript，新增camera-motion.mjs、bake-camera.mjs和camera素材包，preview.html默认12镜，菜单保留原45秒工艺和13单动作。N1/N2按实际1153×1364尺寸绘制，24姿态及N1–N5全部注册；原whole-motion、keyframes、bake-whole和whole素材包不变。
+
+一次Claude Opus5.5英文prompt生成基础镜头模块，约368.6秒返回，无重试；Codex接入与审校，修正任务流到清单的连续重排、缩放精度、近景取景、终点参照和文字避让。8项节点测试覆盖1351采样状态；12张代表性离线PNG及实际浏览器播放／跳转／旧动作检查通过，控制台无错误。详见[当前动态入口](../arts/actions/01/CAMERA_PREVIEW.md)与provenance/camera-v01。
+
+当前仍无配音、Remotion工程或MP4；30fps数据是状态采样，不是新绘制的逐帧人物序列。下一步为配音后校时、有限姿态衔接审阅与第02章接续，尚未记为用户冻结。

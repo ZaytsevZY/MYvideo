@@ -1,0 +1,24 @@
+Rewrite the camera storyboard for Chapter 01 of a Chinese 2D educational video essay. Return ONLY the finished replacement body under the existing "### video content" heading, in Simplified Chinese. Do not include the heading itself, narration, JSON, a preamble, or any explanation of your process. Keep the answer concise: one detailed table of 10-12 shots, followed by no more than 6 continuity/production notes. Do not use tools or agents.
+
+Mandatory requirements:
+- Exactly 45 seconds. Preserve parent intervals V01.1=0-16s (night dispatch, offline Agent work, next-morning human review and rework); V01.2=16-37s (stable standing explanatory performance: human vs machine time tracks, then tasks entering planning); V01.3=37-45s (completed old list plus expanding new queue, endpoint moves away, connects to next chapter).
+- Integer-second, contiguous, non-overlapping subshot times, IDs S01-01 through S01-10/11/12. Include exact start/end and duration, parent ID, Chinese narration anchor, shot size/viewpoint/camera movement, foreground-midground-background/focus, action start/change/end, transition, reused/new assets. Keep narration anchors semantic: voice timing is not yet measured.
+- Opening is a FRONTAL CLOSE-UP of the programmer at night, monitor light on the face; cut to the rear/over-shoulder workstation view for dispatch. Use actual viewpoint changes, shot size changes, and gentle layered depth in story scenes. Crop/zoom is not a new viewpoint. Do not rotate/flip rear PNGs into front views. No continuous 3D orbit.
+- Logic scenes stay in a stable medium-wide shot with Agent standing right of the warm off-white diagram backdrop and programmer standing left. Agent remains in front of backdrop and diagram content; no blur of labels. Allow timed object movement and clear read holds, not slideshow panels. Ending may pull back/reveal and follow the endpoint while keeping old completion visible.
+- Existing complete transparent PNG poses: programmer rear sitting/input/release/rise/stand plus limited side walk (11 total); Agent 3/4 idle/reach/grasp/hold/inspect/offer/point toward picture-left (10 total). Only whole-body transforms and pose swaps; no limb splicing or double-body dissolves. Full front/3/4/profile model sheets are identity references, not ready front sitting assets.
+- Existing two day/night empty-room backgrounds (1672x941) show a window BEYOND the monitor from behind the programmer. A frontal close-up needs a NEW reverse view of this SAME room, showing the opposite wall behind the face, plus a simple foreground monitor-back silhouette. No extra room or new character.
+- Reuse 15 SVG props and 16 SVG diagram elements: monitor, screens, keyboard, chair, task cards, arrows, check/rework markers, endpoint; text remains editable. Aim for <=5 newly adopted assets: front upper-body neutral, front upper-body decides-to-dispatch, programmer 3/4 standing, reverse-room background, monitor-back SVG. List asset IDs consistently in the table; optional assets may be identified as optional.
+- Task T01 stays identifiable across dispatch, processing, human acceptance and returning only a rework branch. Generated results are not accepted results. Switching off the screen ends direct human interaction; Agent keeps running. Keep next-morning review and rework. Compress travel by cuts; do not overload a 3-second shot with close-screen + full departure + overnight + return.
+- Human operation and machine execution tracks are distinct. Offline time is not automatically free time; no empirical-looking ratios or productivity multipliers. Candidate evaluation, scheduling, and human acceptance are distinct states. New planning is attributable to a HUMAN selection action/cursor, not Agent inventing organizational requirements. Old accepted tasks stay visible as queue expands. No full-screen question text.
+- Keep subtitles, footnotes and scenario label in clear screen-space layers. Preserve user narration exactly; do not rewrite it. The table must remain feasible within the provisional 45s and show motivated cuts, not camera changes for decoration.
+
+Narration (unchanged, for semantic anchors only):
+深夜，一位程序员把尚未完成的功能交给 Agent：编写代码、运行测试、整理结果。随后，他关掉屏幕，等到第二天验收。
+
+他从亲手执行转向派发与审核，有机会更早离开电脑。
+
+项目计划也开始改变：补齐测试、优化界面、重启上周搁置的需求。旧任务逐项完成，待办清单却继续延长。
+
+工具替人完成了更多任务，为什么工作的终点反而越来越远？
+
+Output the finished Chinese shot table and concise continuity notes now.

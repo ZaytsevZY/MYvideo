@@ -1,0 +1,63 @@
+{
+  "version": "S01_CAMERA_ASSETS v0.1",
+  "script": "S01_CAMERA v0.2",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "status": "static asset QA candidates; not animation or frozen layout",
+  "front": {
+    "room": [
+      -8,
+      -5,
+      1936,
+      1090
+    ],
+    "N1_N2": [
+      510.33,
+      70,
+      899.34,
+      1063.92
+    ],
+    "N5": [
+      360,
+      844,
+      1200,
+      337.5
+    ],
+    "layer_order": [
+      "N4 background with preview blur",
+      "N1 or N2 intact pose",
+      "N5 monitor-back foreground"
+    ],
+    "note": "N1 and N2 use the same transform and native dimensions; never stretch either axis independently."
+  },
+  "standing": {
+    "N3": [
+      84.8,
+      223.32,
+      532.48,
+      798.72
+    ],
+    "agent_report": [
+      1394,
+      281.28,
+      491.52,
+      737.28
+    ],
+    "backdrop": [
+      600,
+      65,
+      1120,
+      450
+    ],
+    "floor_baseline": 1008,
+    "layer_order": [
+      "day room",
+      "local diagram backdrop",
+      "editable diagram primitives",
+      "N3",
+      "foreground Agent"
+    ]
+  }
+}

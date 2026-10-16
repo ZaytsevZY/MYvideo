@@ -1,0 +1,121 @@
+{
+  "version": "S01_CAMERA_POSES v0.1",
+  "extends": "manifest-v02.json",
+  "existing_pose_count": 21,
+  "new_pose_count": 3,
+  "new_poses": [
+    {
+      "id": "N1",
+      "key": "programmer-front-neutral",
+      "path": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+      "sha256": "f3862cc0ea51085524d03d2d9d3a704b756f892533d258a9c05ea598fea00ddf",
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-1466f74a-67bb-4d75-a519-24b848d20317.png",
+      "prompt": "arts/characters/poses/01/prompts/programmer-front-neutral-v01.json",
+      "tool": "image_gen.imagegen (built-in)",
+      "model_identifier": "not exposed by tool",
+      "transparent_background_requested": true,
+      "references": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-input-v01.png"
+      ],
+      "size": [
+        1153,
+        1364
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "bounds96": [
+        29,
+        30,
+        1129,
+        1322
+      ],
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_sha256": "e4b7704ccb60d82e2d3d3bb3f4b04c8b76757480c87ea3621e07bf1ffe89c801"
+    },
+    {
+      "id": "N2",
+      "key": "programmer-front-dispatch",
+      "path": "arts/characters/poses/01/programmer-front-dispatch-v01.png",
+      "sha256": "2884433d982fb66f6e8c506fd6b4bcef27dfc0cd4f5b75b6fc8693b6ffd22a3c",
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-8ec19459-0971-4c60-8e23-49eccfda7bbd.png",
+      "prompt": "arts/characters/poses/01/prompts/programmer-front-dispatch-v01.json",
+      "tool": "image_gen.imagegen (built-in)",
+      "model_identifier": "not exposed by tool",
+      "transparent_background_requested": true,
+      "references": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png",
+        "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png"
+      ],
+      "size": [
+        1153,
+        1364
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "bounds96": [
+        27,
+        32,
+        1135,
+        1323
+      ],
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_sha256": "85e0ba50d9d2bfb6838606f7efd519908e51065d30c2ff302b8927860505471c"
+    },
+    {
+      "id": "N3",
+      "key": "programmer-logic-stand-right",
+      "path": "arts/characters/poses/01/programmer-logic-stand-right-v01.png",
+      "sha256": "527c21130304764ec19156ae62d75b6909432a194b686072d67a7905087ea117",
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-7f0d8f96-e55b-43ac-a88e-c5e4fd72d1f6.png",
+      "prompt": "arts/characters/poses/01/prompts/programmer-logic-stand-right-v01.json",
+      "tool": "image_gen.imagegen (built-in)",
+      "model_identifier": "not exposed by tool",
+      "transparent_background_requested": true,
+      "references": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-stand-v01.png",
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/agent-report-v01.png"
+      ],
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "bounds96": [
+        279,
+        15,
+        741,
+        1509
+      ],
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_sha256": "90e8e0e47996613010692da858391de8ad3df44a2f5ce12e99546965cfd8aa87"
+    }
+  ],
+  "consumer_note": "Additive registry only. Existing animation still reads its original bundle; no source PNG has been resized to a hard-coded canvas."
+}

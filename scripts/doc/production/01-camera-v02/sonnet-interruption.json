@@ -1,0 +1,9 @@
+{
+  "status": "terminated after over 9 minutes without final output",
+  "reason": "user authorized retry with Opus 5.5",
+  "signal": "SIGTERM",
+  "pid": 22495,
+  "requested_model": "local default",
+  "observed_default_model_in_health_check": "claude-sonnet-4-6",
+  "health_check": "successful; OK."
+}

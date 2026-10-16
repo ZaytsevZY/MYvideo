@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "cli_version": "2.1.301",
+  "requested_model": "claude-opus-5-5",
+  "actual_model_identifiers": [
+    "claude-opus-5-5"
+  ],
+  "effort": "low",
+  "prompt_language": "English instructions with unchanged Chinese narration",
+  "deliverable_language": "Simplified Chinese",
+  "command": "claude -p --model claude-opus-5-5 --effort low --tools '' --strict-mcp-config --mcp-config '{\"mcpServers\":{}}' --no-session-persistence --verbose --output-format stream-json < scripts/doc/production/01-camera-v02/claude-prompt-en-focused.txt > scripts/doc/production/01-camera-v02/claude-opus-result.jsonl",
+  "result_metadata": {
+    "is_error": false,
+    "subtype": "success",
+    "num_turns": 1,
+    "duration_ms": 61000,
+    "duration_api_ms": 60962,
+    "stop_reason": "end_turn"
+  },
+  "previous_attempts": [
+    {
+      "model": "default Sonnet (health check observed claude-sonnet-4-6)",
+      "status": "terminated without final output after over 9 minutes"
+    },
+    {
+      "model": "claude-opus-5-5",
+      "cli": "2.1.168",
+      "status": "rejected; CLI >=2.1.280 required"
+    },
+    {
+      "model": "claude-opus-5-5",
+      "cli": "2.1.301",
+      "effort": "high",
+      "status": "broad request terminated without final output after about 8 minutes"
+    }
+  ],
+  "user_wait_preference": "After the user requested longer waiting and no frequent retries, no new model calls were made; only existing process output was read. Preserve this preference.",
+  "auth_details_retained": "Boolean login status only; no credentials or account email captured in this manifest",
+  "editorial_review": "review.md",
+  "sha256": {
+    "scripts/final/shot/01.md": "a9ff9a3617b817adc3063a9e10f32b2b4672085a2cec852c70e30c282f9b76cd",
+    "scripts/doc/01_CAMERA_WORKLOAD.md": "e37024a559a354e103e9a524e2466600e2b7f96714c578d8c119b08946573348",
+    "scripts/doc/production/01-camera-v02/claude-storyboard.md": "8f86f8ebf11fbd3c65f32fdc3d68f5ad5ad5ade2f48c4a35c903f29be04bd170",
+    "scripts/doc/production/01-camera-v02/adopted-video-content.md": "e05604f5082632fbed43db7e5d5e1b0a202c97059ad6a327215878c6f6456ffd",
+    "scripts/doc/production/01-camera-v02/review.md": "9e126a58e42d948942741d83a9d7e43aecdcc093032b91e445f5be338837c1df",
+    "scripts/doc/production/01-camera-v02/claude-result.json": "c29c87a816ff3452ad33454b0cd06216fddb48ab1b02c1435cd2d7ba4243753d",
+    "scripts/doc/production/01-camera-v02/claude-prompt-en-focused.txt": "e8d5d7790b59984f4a72ba89e8ff1ad5ab6b79d963f64fb02e6808460fe554bd"
+  },
+  "checks": {
+    "shot_count": 12,
+    "timing": [
+      {
+        "id": "S01-01",
+        "parent": "V01.1",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "id": "S01-02",
+        "parent": "V01.1",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "id": "S01-03",
+        "parent": "V01.1",
+        "start": 5,
+        "end": 8
+      },
+      {
+        "id": "S01-04",
+        "parent": "V01.1",
+        "start": 8,
+        "end": 10
+      },
+      {
+        "id": "S01-05",
+        "parent": "V01.1",
+        "start": 10,
+        "end": 12
+      },
+      {
+        "id": "S01-06",
+        "parent": "V01.1",
+        "start": 12,
+        "end": 16
+      },
+      {
+        "id": "S01-07",
+        "parent": "V01.2",
+        "start": 16,
+        "end": 20
+      },
+      {
+        "id": "S01-08",
+        "parent": "V01.2",
+        "start": 20,
+        "end": 23
+      },
+      {
+        "id": "S01-09",
+        "parent": "V01.2",
+        "start": 23,
+        "end": 30
+      },
+      {
+        "id": "S01-10",
+        "parent": "V01.2",
+        "start": 30,
+        "end": 37
+      },
+      {
+        "id": "S01-11",
+        "parent": "V01.3",
+        "start": 37,
+        "end": 41
+      },
+      {
+        "id": "S01-12",
+        "parent": "V01.3",
+        "start": 41,
+        "end": 45
+      }
+    ],
+    "parent_seconds": {
+      "V01.1": 16,
+      "V01.2": 21,
+      "V01.3": 8
+    },
+    "duration_seconds": 45,
+    "audio_01_unchanged": true,
+    "references_01_unchanged": true,
+    "audio_character_counts": {
+      "01": 155,
+      "02": 121,
+      "03": 127,
+      "04": 171,
+      "05": 156,
+      "06": 110
+    },
+    "broken_links": [],
+    "new_media_or_animation_code": false
+  }
+}

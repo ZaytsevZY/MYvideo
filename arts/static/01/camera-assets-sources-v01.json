@@ -1,0 +1,55 @@
+[
+  {
+    "id": "N1",
+    "key": "programmer-front-neutral",
+    "path": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+    "promptPath": "arts/characters/poses/01/prompts/programmer-front-neutral-v01.json",
+    "transparent": true,
+    "refs": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-input-v01.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset: ONE complete frontal upper-body animation cutout for shots S01-01 and S01-02 of a restrained 2D educational film. Reference image 1 is the definitive CHARACTER IDENTITY, outfit and anime/cel drawing style. Reference image 2 is seated working posture and clothing consistency only; do NOT keep its rear viewpoint or any surrounding glow. Draw the SAME adult East Asian programmer: short tousled charcoal hair in large simple locks, dark eyes, blue-gray crewneck sweatshirt, dark teal lanyard with a small BLANK ivory rectangular badge. True front view, eye-level camera near an invisible monitor, face and chest facing the viewer. Seated, torso upright with a slight natural forward lean, level shoulders, eyes looking slightly DOWN at the invisible screen, neutral quiet concentration with mild late-night fatigue, closed mouth. Both elbows relaxed and naturally connected, forearms angled forward toward an invisible keyboard just below the frame; hands may be entirely below the lower crop, never sever a visible wrist. Show the entire head, hair, neck, both shoulders, torso and both connected arms down through the waist; intentional straight lower crop below the waist, not at the neck/chest. Single centered figure, portrait canvas, generous transparent margins above hair and beside elbows; keep anatomy and proportions of the reference, no chibi. Subtle cool screen light ON the face and sweatshirt, but preserve readable skin and blue-gray fabric. Clean dark contour, matte flat cel colors and restrained simple shadows like the supplied cast, not photorealistic, not 3D. Background must be genuinely transparent alpha, with NO halo, NO glow outside the silhouette, NO checkerboard painted into pixels, NO cast shadow, NO wall, NO chair, desk, keyboard or monitor, NO visible text or logos. Do not include legs, multiple views, model-sheet layout, disconnected parts or extra fingers. This is one intact drawing, not a rig or collage.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-1466f74a-67bb-4d75-a519-24b848d20317.png"
+  },
+  {
+    "id": "N3",
+    "key": "programmer-logic-stand-right",
+    "path": "arts/characters/poses/01/programmer-logic-stand-right-v01.png",
+    "promptPath": "arts/characters/poses/01/prompts/programmer-logic-stand-right-v01.json",
+    "transparent": true,
+    "refs": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-stand-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/agent-report-v01.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset: ONE complete FULL-BODY standing programmer cutout for an explanatory animation. Image 1 defines the exact programmer identity, front face, haircut and outfit. Image 2 defines the same programmer's existing standing height/proportions and clean cel treatment, NOT its rear viewpoint. Image 3 is the existing Agent as a supporting style/proportion reference only; DO NOT draw or borrow her features, outfit or pointing pose. Draw only the SAME adult East Asian programmer, short slightly tousled dark charcoal hair, simple dark eyes and restrained neutral face, blue-gray crewneck sweatshirt, dark teal lanyard with one small blank ivory badge, charcoal straight trousers and simple off-white low sneakers. New genuine FRONT THREE-QUARTER view turning TOWARD IMAGE-RIGHT, the viewer sees the front of the sweatshirt and badge and both eyes; head and gaze gently directed to a diagram that will be added separately on image-right. He will stand on the LEFT of the explanatory frame, listening while Agent stands to the right. Calm balanced standing with feet planted on the same baseline, arms hanging naturally, hands relaxed and empty beside hips, no pointing, no walking, no dramatic gestures. Full figure visible from hair to both shoe soles, centered on a portrait canvas, generous true alpha margin, adult proportions matching the existing cast. Soft neutral diffuse illumination suitable for the daytime workroom; no colored spotlight. Clean dark contour, matte limited cel fills, coherent with the references, no new accessories. Truly transparent background, no outside silhouette halo or rim glow, no floor, contact shadow, room, chair, panel, diagrams, labels, logo or watermark. No other character, split limbs, separate views, floating hands, chibi anatomy, photorealism or 3D. Draw the correct right-facing anatomy; do not horizontally flip the reference sheet.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-7f0d8f96-e55b-43ac-a88e-c5e4fd72d1f6.png"
+  },
+  {
+    "id": "N4",
+    "key": "workroom-reverse-night",
+    "path": "arts/backgrounds/01/workroom-reverse-night-v01.png",
+    "promptPath": "arts/backgrounds/01/prompts/reverse-night-v01.json",
+    "transparent": false,
+    "refs": [
+      "/Users/alan671/Documents/MYvideo/arts/backgrounds/01/workroom-night-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset: ONE clean empty BACKGROUND PLATE, wide 16:9 landscape, for a frontal close-up in the SAME existing workroom at night. Image 1 defines the actual workroom's clean anime/cel background style, muted blue-gray walls, dark blue shadow palette, simple shelving, warm wooden trim and restrained warm lamp spill. Image 2 defines only the cast's drawing language and scale; DO NOT draw the person. This is a NEW REVERSE CAMERA VIEW of that same room, not an edit leaving the existing window composition intact: camera is near the monitor in the original workstation, looking toward the seated programmer's FACE and toward the room wall BEHIND him. Therefore show a mostly plain dark blue-gray opposite wall behind the future centered head, NOT the large city-view window from the reference. Quiet shallow background, eye-level close-up framing with no wide-angle distortion. Main central 70 percent must be calm low-detail blank wall for layering a large foreground portrait; only subtle wall-panel seams, a thin same-style bookcase edge near far left and muted dark wood doorway trim near far right may establish the same room, without drawing attention. No second window or skyline behind the face. Night illumination: broad subtle cool screen/environment fill, a very restrained warm side light near the left edge, no neon, sparkles or theatrical beams. Clean restrained hand-drawn anime background with coherent dark contour and flat/simple soft cel lighting; same palette and material treatment as image 1. Entire opaque landscape background only: NO person, Agent, chair, desk, keyboard, monitor, laptop, lamp fixture, whiteboard, diagram, labels, text, watermark, or baked portrait. Furniture, protagonist and monitor-back foreground will be overlaid separately. Do not generate a finished combined scene. Sharp source plate; later compositing will supply subtle blur.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-6f99f237-6214-46a8-af81-b7d8633bb4d0.png"
+  },
+  {
+    "id": "N2",
+    "key": "programmer-front-dispatch",
+    "path": "arts/characters/poses/01/programmer-front-dispatch-v01.png",
+    "promptPath": "arts/characters/poses/01/prompts/programmer-front-dispatch-v01.json",
+    "transparent": true,
+    "refs": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png"
+    ],
+    "prompt": "Use case: identity-preserve. Image 1 is the EDIT TARGET: the already approved-for-iteration frontal upper-body transparent programmer drawing. Image 2 is identity/outfit reference only. Create one companion cel for a subtle 'decides to dispatch the unfinished task' beat. Preserve Image 1's EXACT canvas size and crop, character scale and center, hair silhouette, face identity, blue-gray sweatshirt, dark teal lanyard and blank ivory badge, outline weight, cool screen lighting, torso, shoulders and intact connected arms. CHANGE ONLY the small preparatory expression/pose: chin very slightly tucked, brows subtly more focused, gaze directed a little further DOWN at the invisible screen/keyboard, closed mouth a little more resolved. Add only a tiny natural settling of the shoulders/forearms toward the invisible input area; keep both hands below the same bottom crop and keep the overall silhouette nearly identical so the two complete drawings can hard-cut without a body-size jump. Do not change age, hair design, face shape, costume, head orientation to 3/4, lighting, camera viewpoint or composition; no smile, angry expression, theatrical gesture, new props or pointing. ONE intact frontal upper-body drawing, not separate parts, not an expression sheet. Maintain genuine transparent alpha background, no painted checkerboard, outside halo/glow, cast shadow, background, monitor, desk, chair, text, logo, watermark, extra hands or detached anatomy. Do not crop hair or elbows. Output this single modified cutout preserving the source framing.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-8ec19459-0971-4c60-8e23-49eccfda7bbd.png"
+  }
+]

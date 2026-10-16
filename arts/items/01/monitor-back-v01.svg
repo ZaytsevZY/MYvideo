@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">N5 · 正面反打镜头的显示器背壳前景</title>
+  <desc id="desc">独立透明SVG。背壳上沿作近前景遮挡；底部延伸出画，使用者无需绘制屏幕内容。与现有显示器共用深蓝灰色板。</desc>
+  <g stroke="#1B2734" stroke-width="4" stroke-linejoin="round">
+    <path d="M31 57 Q31 28 63 26 L1217 26 Q1249 28 1249 57 L1267 348 L13 348 Z" fill="#263342"/>
+    <path d="M63 26 L1217 26 Q1242 27 1249 47 L31 47 Q35 27 63 26Z" fill="#485565" stroke="none"/>
+    <path d="M63 29 H1217" fill="none" stroke="#687783" stroke-width="2"/>
+    <path d="M65 69 H1215 L1227 331 H53Z" fill="#2E3C4C" stroke="#344355" stroke-width="2"/>
+    <path d="M550 134 H730 Q748 134 748 152 V348 H532 V152 Q532 134 550 134Z" fill="#263342" stroke="#202D3B" stroke-width="3"/>
+    <path d="M112 94 H264 M112 105 H264 M1016 94 H1168 M1016 105 H1168" fill="none" stroke="#1D2B39" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

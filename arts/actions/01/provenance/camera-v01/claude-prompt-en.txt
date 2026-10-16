@@ -1,0 +1,354 @@
+Implement ONE JavaScript ES module for our existing deterministic native SVG animation preview. Output ONLY valid source code, no Markdown fences, no prose, no tools or file edits. Do not create agents or call external tools. This is NOT a new Remotion project. The user asked to integrate five new art assets into the existing animation framework, following the supplied 12-shot storyboard. Preserve complete-pose cel animation, no limb assembly or body crossfades. No audio or MP4.
+
+Target file: arts/actions/01/camera-motion.mjs. You are writing only this module. The parent agent will wire the bundle, HTML controller, tests and static QA.
+
+Required exports:
+export const CAMERA_BEATS = [{id:'S01-01',start:0,end:3,name:'...',mode:'front'}, ...12 shots...]; exact boundaries [0,3,5,8,10,12,16,20,23,30,37,41,45].
+export const CAMERA_LAYOUT = {...};
+export function sampleCameraScene(t) => serializable deterministic state with t,beat,programmer,agent,interaction,day,camera,taskStates. Clamp t to 0..45; at t=45 use final shot. Avoid dependence on call order or browser time. Pose objects use id,x,baseline,scaleOverride/rotation (compatible with supplied keyframe functions) OR explicit top-left x,y,scale where justified. Standing programmer and Agent use same ground baseline.
+export function cameraDefinitions(bundle) => a COMPLETE <defs>...</defs> string, all IDs unique. Assets are #asset-ID; poses are #pose-ID. Bundle.poses[id] contains {dataUri,width,height}; unlike old code MUST use the actual per-pose dimensions (front PNGs 1153x1364, full-body 1024x1536), preserve aspect ratios and draw each intact figure once. Include frame clipping/filter definitions as required. Blur only scene background/foreground, never diagrams/text/characters.
+export function drawCameraScene(state,bundle,{debug=false}={}) => SVG content string using the symbols; no outer <svg> or <defs>. Keep scenario label and debug information in a screen-space layer outside camera transforms.
+export function renderCameraScene(state,bundle,options={}) => self-contained SVG via rootSvg helper and cameraDefinitions.
+
+Imports available: import {asset,label,rootSvg,clamp,smooth,lerp} from '../../characters/rigs/runtime/rig.mjs'; import {programmerMotion,agentMotion,workingAgent,CALIBRATION} from './keyframes.mjs'; You may use them unchanged. asset(name,x,y,w,h) produces <use href="#asset-NAME">, label(x,y,text,size=28,fill=...) escapes text, rootSvg(content,defs) wraps 1920x1080. You may implement your own compact helpers when needed. Do not import whole-motion.mjs or its old timeline.
+
+Bundle contract: assets use the old native asset IDs from whole-motion.mjs (room-night,room-day,desk-legs,desk-surface,computer-tower,monitor-frame,screen-idle,screen-off,screen-running,screen-review,keyboard,mouse,desk-lamp,chair-seat,chair-back-rear,time-tracks-base,human-dispatch,human-review,machine-execution,lane-evaluation,lane-scheduled,lane-acceptance,task-test,task-interface,task-feature,connector-arrow,endpoint-marker,cursor,status-check,status-rework), PLUS room-reverse-night (1672x941) and monitor-back (1280x360). Bundle.poses has all 21 old IDs PLUS programmer-front-neutral (1153x1364), programmer-front-dispatch (1153x1364), programmer-logic-stand-right (1024x1536).
+
+Implementation priorities:
+1. S01-01/02 front shot: use room-reverse-night full background with subtle blur, N1/N2 drawn at x510.33,y70,width899.34,height1063.92 (scale .78); monitor-back foreground x360,y844,1200x337.5 with slight blur. Only first 3 seconds push ~3%, hold at matching endpoint for 3..5, no crossfade between N1/N2.
+2. S01-03 rear OTS: reuse old workstation layout and intact old poses; agentMotion('receive',u) drives T01 screen-to-hand. One flying paper maximum, disappears once pose embeds held paper. Task steps code/test/results appear sequentially, state remains generated vs accepted distinct. S01-04 only close screen, release and begin rising; machine continues. S01-05 existing Agent inspect/hold 3/4 half-body crop, night-to-day background, no empty-room filler. Can reuse old pose with uniform camera crop rather than inventing perspective. S01-06 begins already seated, editable review states, only rework branch T01-R returns to Agent late in shot. Allocate enough time for review. Render partial acceptance, never imply output automatically accepted.
+3. S01-07..10 stable standing framing: programmer-logic-stand-right at x84.8,y223.32,scale .52 (feet y1008); Agent x1394,y281.28,scale .48 or equivalent calibrated placement. Keep daytime room visible and a restrained workstation silhouette behind actors where sensible. Diagram warm off-white #F6F1E7 at .97 opacity, around x600,y65,width1120, height based on content; Agent drawn AFTER backdrop and diagram, texts avoid head at right. Camera locked 16..37; no frame-driven wobbling in these reading passages. Use idle/report swaps and pauses.
+4. Time tracks 16..23 separate human dispatch/review vs machine execution. 20..23 mark the OFFLINE GAP BETWEEN dispatch and morning review; no percentages, multiples, or labeling it free time. Draw qualitative progression and leave read holds. Keep text >=26px at output scale where possible.
+5. Workflow23..30: three tasks '补齐测试','优化界面','搁置需求' move from evaluation to scheduling after a visible HUMAN cursor selection, remain unaccepted. Agent only points. Show distinct candidate/scheduled/acceptance states; do not merely change static slides.
+6. 30..37: old T01 has rework branch returning for human review; show human cursor approving it BEFORE green check; then merge branch into accepted T01. Preserve other old accepted tasks, accumulate new scheduled tasks. Establish fixed old endpoint reference before37.
+7. 37..41 reveal more queue via modest pullback;41..45 follow a visibly moving endpoint. Keep at least one old completed item and new pending items on-screen, endpoint visible, no blank exposed borders, text readable, Agent in front and out of key label/endpoint regions. Full opaque room backdrop can have separate smaller parallax to guarantee coverage. Ground actors can shift slightly to remain in frame. Do not scale the entire scene down against a blank canvas, and do not reduce diagrams to tiny text. End task can connect to next chapter; no full-screen question text.
+8. Plain editable SVG text and simple shapes for T01/T01-R status cards are encouraged; do not bake labels into raster art. Add data-document="T01" or "T01-R" only to a freely moving standalone paper, not all diagram representations. Tagged state semantics and human-selection timings should be readable for tests. No duplicated PNG body, same held+flying paper simultaneously, detached limbs or pose stretching.
+9. Keep code concise and understandable (aim <400 lines). Use supplied storyboard for precise narrative, but do not put all narration as on-screen text. Preserve source art. No CSS animation/transitions, random values or timers inside scene sampling; HTML player supplies t.
+
+SOURCE CONTEXT:
+
+===== arts/actions/01/whole-motion.mjs =====
+// Active complete-pose compositor. No IK, limb scaling or duplicated foreground arms.
+import {asset,label,rootSvg,clamp,smooth,lerp} from '../../characters/rigs/runtime/rig.mjs';
+import {BEATS} from './motion.mjs';
+import {key,programmerMotion,walking,agentMotion,workingAgent,CALIBRATION} from './keyframes.mjs';
+export {BEATS};
+export const ACTIONS=[
+ {id:'P01',name:'背面操作',duration:2}, {id:'P02',name:'派发任务',duration:2},
+ {id:'P03',name:'完整坐姿收手',duration:1}, {id:'P04',name:'前倾→起身→转身',duration:1.2},
+ {id:'P05',name:'向左离席（补充经过位）',duration:1.8}, {id:'P06',name:'返回工位',duration:1.5},
+ {id:'P07',name:'站姿→半蹲→入座',duration:1}, {id:'P08',name:'面向屏幕验收',duration:2},
+ {id:'P09',name:'同一任务退回',duration:1.5}, {id:'P10',name:'人物保持，图解展开',duration:2},
+ {id:'A01',name:'Agent 伸手接过文件',duration:2.4}, {id:'A02',name:'Agent 收到身前查看',duration:3},
+ {id:'A03',name:'Agent 递回结果',duration:2.4}
+];
+export const LAYOUT={version:'S01_WHOLE_PREVIEW v0.3',camera:'behind programmer; screen faces programmer, chair rear shell faces viewer',
+ desk:[180,620,1110,123],deskLegs:[180,659,1110,308],monitor:[600,320,544,374],screen:[627.2,343.8,489.6,275.4],keyboard:[440,649,405,67],mouse:[875,650,43,58],
+ chairSeat:[480,813,265,205],chairRear:[483,663,265,296],programmerCenter:610,floor:1008,
+ layerOrder:['room','desk legs/tower','desktop','monitor and screen','keyboard/lamp','chair seat','complete programmer','chair rear shell','diagram backdrop','diagram content','foreground Agent','task overlays'],
+ note:'All complete PNG poses rendered once with uniform scale. No limb seams, masks or independent forearms. Hands are visually aligned with keyboard, not numerically proven finger contact.'};
+const p=(pose='input',extra={})=>({id:'programmer-'+pose,x:610,baseline:1008,flip:false,...extra});
+const agent=(pose='idle')=>({id:'agent-'+pose,x:1580,baseline:1008});
+export function sampleScene(t){
+ t=clamp(t,0,45);const beat=BEATS.find(b=>t>=b.start&&t<b.end)||BEATS.at(-1),u=clamp((t-beat.start)/(beat.end-beat.start));
+ let programmer=p(),a=agent(),interaction=null;
+ if(t>=2.2&&t<3.2)programmer=programmerMotion('release',u);
+ else if(t>=3.2&&t<4.3)programmer=programmerMotion('rise',u);
+ else if(t>=4.3&&t<6)programmer=walking(u);
+ else if(t>=6&&t<9)programmer=null;
+ else if(t>=9&&t<10.5)programmer=walking(u,true);
+ else if(t>=10.5&&t<11.5)programmer=programmerMotion('sit',u);
+ else if(t>=16&&t<16.6)programmer=programmerMotion('release',(t-16)/.6);
+ else if(t>=16.6)programmer=p('rest');
+ if(t>=1.1&&t<3.2)interaction=agentMotion('receive',(t-1.1)/2.1);
+ else if(t>=3.2&&t<9) a=workingAgent(t-3.2);
+ else if(t>=9&&t<11.5)interaction=agentMotion('deliver',(t-9)/2.5);
+ else if(t>=13.5&&t<15.8)interaction=agentMotion('receive',(t-13.5)/2.3);
+ else if(t>=15.8&&t<17.2)a=workingAgent(t-15.8);
+ else if(t>=17.2&&t<18.5)interaction=agentMotion('deliver',(t-17.2)/1.3);
+ else if(t>=18.5&&t<20)interaction=agentMotion('explain',(t-18.5)/1.5);
+ else if(t>=20)a=agent('report');
+ if(interaction)a=interaction.actor;
+ return {t,beat,programmer,agent:a,interaction,day:smooth((t-6)/3)};
+}
+export function sampleAction(id,t){
+ const state=sampleScene(0),a=ACTIONS.find(a=>a.id===id),u=clamp(t/a.duration);state.beat={id,name:a.name};state.day=1;
+ if(id==='P02'){Object.assign(state,sampleScene(1.1+u*2.1));state.day=1;state.beat={id,name:a.name};}
+ if(id==='P03')state.programmer=programmerMotion('release',u);
+ if(id==='P04')state.programmer=programmerMotion('rise',u);
+ if(id==='P05')state.programmer=walking(u);
+ if(id==='P06')state.programmer=walking(u,true);
+ if(id==='P07')state.programmer=programmerMotion('sit',u);
+ if(id==='P08')state.t=12;
+ if(id==='P09'){Object.assign(state,sampleScene(13.5+u*2.3));state.day=1;state.beat={id,name:a.name};}
+ if(id==='P10'){state.t=18.5+u*4.4;state.programmer=p('rest');state.interaction=agentMotion('explain',u);state.agent=state.interaction.actor;}
+ if(id==='A01'||id==='A03'){
+  state.interaction=agentMotion(id==='A01'?'receive':'deliver',u);state.agent=state.interaction.actor;state.t=id==='A01'?1.5:10;
+ }
+ if(id==='A02'){state.t=7;state.agent=workingAgent(t);}
+ return state;
+}
+export function definitions(bundle){
+ let s='';for(const [id,a] of Object.entries(bundle.assets))s+='<symbol id="asset-'+id+'" viewBox="0 0 '+a.width+' '+a.height+'" preserveAspectRatio="none"><image href="'+a.dataUri+'" width="'+a.width+'" height="'+a.height+'"/></symbol>';
+ for(const [id,a] of Object.entries(bundle.poses))s+='<symbol id="pose-'+id+'" viewBox="0 0 1024 1536"><image href="'+a.dataUri+'" width="1024" height="1536"/></symbol>';
+ return '<defs>'+s+'</defs>';
+}
+export function drawPose(q){
+ if(!q)return '';
+ const c=CALIBRATION[q.id]||{},s=q.scaleOverride??c.scale??(q.id.startsWith('agent')?.47:.53),bottom=c.bottom??(q.id.startsWith('agent')?1515:1462),center=c.center??512;
+ const y=q.baseline-bottom*s;
+ return '<g data-pose="'+q.id+'" transform="translate('+q.x+' '+q.baseline+') rotate('+(q.rotation||0)+') translate(0 '+(-bottom*s)+') scale('+(q.flip?-s:s)+' '+s+')"><use href="#pose-'+q.id+'" x="'+(-center)+'" width="1024" height="1536"/></g>';
+}
+const paper=({x,y,rotation=0})=>'<g data-document="T01" transform="translate('+x+' '+y+') rotate('+rotation+' 30 37)"><path d="M0 0H60V74H0Z" fill="#F6F1E7" stroke="#263342" stroke-width="1.5"/><path d="M13 24H47M13 35H47M13 46H43" fill="none" stroke="#777779" stroke-width="3" stroke-linecap="round"/></g>';
+export function drawRoom(state,bundle,{debug=false}={}){
+ let s=asset('room-night',0,0,1920,1080)+'<g opacity="'+state.day+'">'+asset('room-day',0,0,1920,1080)+'</g>';
+ s+=asset('desk-legs',...LAYOUT.deskLegs)+asset('computer-tower',1045,693,170,255)+asset('desk-surface',...LAYOUT.desk);
+ s+=asset('monitor-frame',...LAYOUT.monitor)+asset(state.t<.8?'screen-idle':state.t>=3.2&&state.t<9?'screen-off':state.t<11.5?'screen-running':state.t<15?'screen-review':'screen-running',...LAYOUT.screen);
+ s+=asset('keyboard',...LAYOUT.keyboard)+asset('mouse',...LAYOUT.mouse)+asset('desk-lamp',185,333,220,346);
+ s+=asset('chair-seat',...LAYOUT.chairSeat);
+ const walking=state.programmer?.id.includes('walk');
+ if(!walking)s+=drawPose(state.programmer);
+ s+=asset('chair-back-rear',...LAYOUT.chairRear);
+ if(walking)s+=drawPose(state.programmer); // aisle is nearer to camera than chair
+ const t=state.t;
+ if(t>=16)s+=drawLogicBackground(state,bundle)+drawLogic(state);
+ s+='<g data-layer="foreground-agent">'+drawPose(state.agent)+'</g>';
+ if(state.interaction?.file)s+=paper(state.interaction.file);
+ if(state.interaction)s+=label(1320,248,'T01 · '+(state.interaction.kind==='receive'?'接收文件':state.interaction.kind==='deliver'?'返还结果':'解释时间分配'),27);
+ if(t>=3.2&&t<9)s+=label(1370,248,'T01 · 执行中'+'.'.repeat(Math.floor(t*2)%4),27);
+ if(t>=9&&t<11.5&&!state.interaction)s+=label(1370,248,'T01 · 待验收',27);
+ s+=label(85,70,'情境示意',26);
+ if(debug){
+  s+='<path d="M180 620H1290M483 663H748M180 1008H1780" stroke="#CC806F" fill="none" stroke-width="3" stroke-dasharray="12 8"/>';
+  s+=label(85,105,'完整姿态单次绘制；椅背前景遮挡',24);
+ }
+ return s;
+}
+function drawLogicBackground({t},bundle){
+ const c=bundle.diagramPanels,kind=t<23?'time':t<37?'workflow':'queue',r=c.bounds[kind];
+ return '<g data-layer="diagram-backdrop" transform="'+c.transform+'"><rect x="'+r[0]+'" y="'+r[1]+'" width="'+r[2]+'" height="'+r[3]+'" rx="'+c.radius+'" fill="'+c.fill+'" fill-opacity="'+c.fillOpacity+'" stroke="'+c.stroke+'" stroke-width="'+c.strokeWidth+'"/></g>';
+}
+function drawLogic({t}){
+ let s='<g data-layer="diagram-content" transform="translate(650 20) scale(.8)">';
+ if(t<23){s+=label(18,38,'人物操作与后台执行',34)+asset('time-tracks-base',0,55,1500,350)+asset('human-dispatch',286,117,170,60)+asset('human-review',1216,117,170,60)+asset('machine-execution',456,257,760,60)+label(520,225,'离线区间不直接标为自由时间',28);}
+ else if(t<37){
+  s+=label(18,38,'候选任务进入项目计划',34);
+  for(const [x,name] of [[0,'evaluation'],[520,'scheduled'],[1040,'acceptance']])s+=asset('lane-'+name,x,65,410,350);
+  const k=clamp((t-23)/14);
+  for(const [i,name] of ['test','interface','feature'].entries())s+=asset('task-'+name,45+520*clamp(k*3-i),175+i*43,320,140);
+  s+=asset('connector-arrow',420,222,88,30)+asset('connector-arrow',940,222,88,30);
+ }else{
+  const q=smooth((t-37)/8),end=580+780*q;s+=label(18,38,'新的要求继续进入',34)+'<path d="M40 145H1460" stroke="#657E91" stroke-width="3"/>';
+  for(let i=0;i<5;i++){const x=30+i*260-120*q;s+=asset('task-'+['test','interface','feature'][i%3],x,90,260,114);if(i<2)s+=asset('status-check',x+170,205,36,36);}
+  s+=asset('endpoint-marker',end,70,60,126)+label(end-35,280,'本轮终点',26)+label(18,375,'机制示意，不表示实测增幅',26);
+ }
+ return s+'</g>';
+}
+export function renderScene(state,bundle,{debug=false}={}){return rootSvg(drawRoom(state,bundle,{debug}),definitions(bundle));}
+
+
+===== arts/actions/01/keyframes.mjs =====
+// Whole-figure keyframes; smooth root motion, discrete cel drawings, no limb assembly.
+import {clamp,smooth,lerp} from '../../characters/rigs/runtime/rig.mjs';
+export const TRACKS={
+ release:[[0,'input'],[.22,'release-half'],[.62,'rest']],
+ rise:[[0,'rest'],[.12,'lean'],[.30,'rise'],[.54,'rise-high'],[.76,'stand'],[.9,'turn-left']],
+ sit:[[0,'turn-left'],[.12,'stand'],[.28,'rise-high'],[.48,'rise'],[.7,'lean'],[.85,'rest'],[.97,'input']],
+ walk:[[0,'walk-a'],[.24,'walk-recover'],[.5,'walk-pass'],[.76,'walk-recover']],
+ receive:[[0,'idle'],[.08,'reach-half'],[.20,'receive'],[.32,'pregrasp'],[.52,'grasp-file'],[.62,'pull-file'],[.74,'hold-file'],[.84,'inspect-file']],
+ deliver:[[0,'inspect-file'],[.12,'hold-file'],[.25,'pull-file'],[.40,'grasp-file'],[.50,'offer-file'],[.66,'pregrasp'],[.78,'receive'],[.88,'reach-half'],[.98,'idle']],
+ explain:[[0,'idle'],[.16,'reach-half'],[.32,'receive'],[.52,'pregrasp'],[.72,'report']]
+};
+export const CALIBRATION={
+ 'programmer-input':{scale:.43,bottom:1462},'programmer-release-half':{scale:.43,bottom:1462},'programmer-rest':{scale:.43,bottom:1462},
+ 'programmer-lean':{scale:.43,bottom:1431},'programmer-rise':{scale:.49,bottom:1491},'programmer-rise-high':{scale:.515,bottom:1493},
+ 'programmer-stand':{scale:.53,bottom:1489},'programmer-turn-left':{scale:.53,bottom:1478},
+ 'programmer-walk-a':{scale:.53,bottom:1461,center:490},'programmer-walk-pass':{scale:.53,bottom:1463,center:495},'programmer-walk-recover':{scale:.53,bottom:1472,center:494},
+ 'agent-hold-file':{scale:.477,bottom:1496,center:500}
+};
+export function key(track,u){return TRACKS[track].filter(([at])=>at<=clamp(u)).at(-1)[1];}
+const HEIGHT={input:619,'release-half':619,rest:619,lean:579,rise:721,'rise-high':766,stand:777,'turn-left':772};
+const TOP={input:23,'release-half':22,rest:22,lean:84,rise:20,'rise-high':6,stand:23,'turn-left':22};
+export function programmerMotion(track,u){
+ u=clamp(u);const frames=TRACKS[track],i=Math.max(0,frames.findLastIndex(([at])=>at<=u)),a=frames[i],b=frames[Math.min(i+1,frames.length-1)];
+ const v=a===b?0:clamp((u-a[0])/(b[0]-a[0])),pose=v<.5?a[1]:b[1],c=CALIBRATION['programmer-'+pose];
+ const height=lerp(HEIGHT[a[1]],HEIGHT[b[1]],smooth(v));
+ return {id:'programmer-'+pose,x:610,baseline:1008,flip:false,scaleOverride:height/(c.bottom-TOP[pose])};
+}
+export function walking(u,returning=false){
+ const travel=smooth(u),phase=(u*3.2)%1;
+ return {id:'programmer-'+key('walk',phase),x:lerp(returning?-240:610,returning?610:-240,travel),baseline:1008-2*Math.sin(phase*Math.PI*2)**2,flip:returning};
+}
+export function agentMotion(kind,u){
+ u=clamp(u);const pose=key(kind==='deliver'?'deliver':kind==='explain'?'explain':'receive',u);
+ const reach=kind==='receive'?Math.sin(Math.PI*u):kind==='deliver'?Math.sin(Math.PI*u):0;
+ const actor={id:'agent-'+pose,x:1580-5*reach,baseline:1008,rotation:-.3*reach};
+ let file=null,owner='agent';
+ if(kind==='receive'&&u>=.15&&u<.52){
+  const v=smooth((u-.15)/.37);
+  file={x:lerp(995,1402-5*reach,v),y:lerp(487,425,v)-26*Math.sin(Math.PI*v),rotation:lerp(0,-9,v)};owner='transfer';
+ }else if(kind==='receive'&&u<.52)owner='programmer';
+ if(kind==='deliver'&&u>=.66){
+  const v=smooth((u-.66)/.34);
+  file=u<.98?{x:lerp(1363,995,v),y:lerp(431,487,v)-22*Math.sin(Math.PI*v),rotation:lerp(-12,0,v)}:null;owner=u<.98?'transfer':'programmer';
+ }
+ return {actor,file,owner,phase:pose,kind,progress:u};
+}
+export function workingAgent(t){
+ // Looking down at the held result, then returning to the neutral hold. Motion pauses serve reading.
+ const phase=(t%3)/3,id=phase<.65?'inspect-file':'hold-file';
+ return {id:'agent-'+id,x:1580+1.2*Math.sin(t*1.8),baseline:1008,rotation:.12*Math.sin(t*1.8)};
+}
+
+
+===== scripts/final/shot/01.md =====
+# Shot 01
+
+**版本：** SHOT_TEXT v0.4 / S01_CAMERA v0.2 · 2026-10-16 · 口播沿用，镜头细化候选，待配音校时
+
+**暂定时间：** 00:00–00:45（45 秒；video content 内为相对本章起点的秒数）
+
+**口播预算：** 155 字符，按全部非空白字符计，含标点和英文；注释、镜头描述与画面文字不口播。
+
+## subject
+
+劳动生产力提高与任务边界：Agent 减少直接执行，为什么未必让人更早结束工作？
+
+## text
+
+### audio content
+
+<start>
+深夜，一位程序员把尚未完成的功能交给 Agent：编写代码、运行测试、整理结果。随后，他关掉屏幕，等到第二天验收。
+
+他从亲手执行转向派发与审核，有机会更早离开电脑。
+
+项目计划也开始改变：补齐测试、优化界面、重启上周搁置的需求。旧任务逐项完成，待办清单却继续延长。
+
+工具替人完成了更多任务，为什么工作的终点反而越来越远？
+<end>
+
+### video content
+
+本节为01镜头脚本的唯一正文。Claude Opus 5.5按英文指令重写为12镜，Codex核对后调整验收时长、旁白锚点与人工验收状态；原始稿与采用差异见[制作记录](../../doc/production/01-camera-v02/review.md)。时间仍为配音前预算，口播锚点表示语义对应，不代表已测量的逐句起止。三个父段落保持0–16、16–37、37–45秒，共45秒。
+
+#### 演出与机位规则
+
+情境段采用正面近景、背后越肩、工位中全景与Agent半身近景，景深随注意对象变化；逻辑段采用固定机位站立演出，让任务与图解变化承担解释。结尾拉远揭示清单，再小幅向右跟移终点。镜头变化由人物行动与信息揭示触发，不添加空镜填充。
+
+| 镜号 | 时间（时长） | 父段 | 口播锚点 | 景别／视角／运镜 | 前景·中景·背景／焦点 | 动作：起→变→止 | 转场与素材 |
+|---|---|---|---|---|---|---|---|
+| S01-01 | 0–3秒（3秒） | V01.1 | “深夜，一位程序员” | 正面胸像近景、平视；极缓推近约3%，结束停稳 | 前：显示器背壳压住下沿、轻虚化；中：冷色屏光照亮程序员的脸，主体清晰；后：同一房间反打方向的暗墙，轻虚化 | 起：低头注视屏幕→变：屏光轻变，疲惫克制→止：视线停住，不加大幅表情演出 | 首镜直接进入；新增N1正面中性姿态、N4反打夜景、N5显示器背壳 |
+| S01-02 | 3–5秒（2秒） | V01.1 | “把尚未完成的功能交给 Agent”前半句 | 延续正面近景、固定机位 | 沿用前镜三层；焦点仍在人物，不新增空间信息 | 起：中性→变：整体换为决定派发姿态，下颌微收、视线朝操作区→止：保持半秒。此镜是派发的预备动作，实际交接在下一镜完成 | 以视线／动作点切背后越肩；新增N2决定派发姿态，复用N4、N5；两个身体不叠化 |
+| S01-03 | 5–8秒（3秒） | V01.1 | “交给 Agent：编写代码、运行测试、整理结果” | 背后越肩中景，眼高；固定 | 前：程序员背影及椅背；中：屏幕T01和右侧Agent；后：原夜间窗景。焦点从屏幕移至接收位置，T01始终可辨 | 起：未完成的T01在输入区→变：同一卡片移向Agent，伸手→抓握→持有；三个子步骤依次出现并指示当前步骤→止：接收完成、仍在执行，尚未验收 | 沿交接动作接续，不重复派发；复用背面输入、Agent接收／抓握／持有、屏幕、键盘与任务元素。表中“子步骤”为可编辑状态，非新增栅格素材 |
+| S01-04 | 8–10秒（2秒） | V01.1 | “随后，他关掉屏幕” | 切背面工位中全景；同一眼高，扩大可见范围，固定 | 中：程序员、桌面和右侧Agent同时可见；后：窗景清楚；屏幕熄灭后，注意落到仍在处理T01的Agent | 起：程序员收手→变：关屏，换为起身姿态→止：重心离开椅子。只演离席起点，不在本镜塞入完整行走或返回 | 下一镜省略离席中段；复用收手／起身姿态、关屏状态及Agent查看。扩大景别不宣称产生新的俯视角 |
+| S01-05 | 10–12秒（2秒） | V01.1 | “等到第二天” | Agent 3/4半身近景，沿主空间方向切入；固定 | 前：T01及Agent持有／查看姿态清晰；后：弱化的工位与窗景由夜到昼。程序员在画外，画面持续有执行动作 | 起：Agent查看文件，“执行中”→变：背景光色转晨，角色不叠化→止：结果集合显示“待人工验收”。背景变化压缩等待，不能把它剪成静止空房间 | 切至次日验收；复用Agent查看／持有与昼夜背景。当前Agent本身为3/4视向，近景裁切不冒充绕拍获得新视角 |
+| S01-06 | 12–16秒（4秒） | V01.1 | “验收” | 日间背后越肩中景，沿S01-03方向；固定 | 前：程序员背影；中：已点亮的审核屏幕与同一T01，Agent在右；后：日间窗景弱化。标签与返工分支清晰 | 起：切入时程序员已入座、结果已就位→变：人工核对，部分子项通过，待改项拆为T01-R→止：仅T01-R退回Agent，主卡标“部分验收”。不再加入完整入座、开屏和递回全流程 | T01路径接入下一镜时间轨；复用审核界面、通过／返工标记及退回动作。T01-R是T01的子分支，不是第二个独立项目 |
+| S01-07 | 16–20秒（4秒） | V01.2 | “他从亲手执行转向派发与审核” | 眼高中全景，稳定站立构图；锁定机位 | 后：房间与桌面轮廓；中：按内容定高的暖白局部底框、上下两轨；前：程序员左侧3/4站立，Agent右侧站立，在底框及内容上方。人物和文字均清晰 | 起：沿T01提取操作节点→变：上轨依次出现人工“派发／审核”，下轨展开机器执行；两轨保持独立→止：Agent指向人的操作节点，留出约1秒读图 | 坐姿到站姿用切镜省略过程；新增N3程序员3/4站姿，复用Agent待命／指向、时间轨和局部底框。不展示铺满整轨再按比例缩短的伪测量 |
+| S01-08 | 20–23秒（3秒） | V01.2 | “有机会更早离开电脑” | 同机位、同景深，锁定 | 维持两人站位；焦点由上轨操作节点转向节点之间的留白，图解始终清晰 | 起：人的派发与次日审核之间留空→变：标出“离线区间”，机器执行轨仍跨过该段→止：静止读图约1秒。留白的位置在派发与审核之间，不移到审核之后冒充当夜离线 | 不切镜，沿同一任务转入项目计划；复用区段与标签。离线不等于自由时间，无实测刻度、比例或倍数 |
+| S01-09 | 23–30秒（7秒） | V01.2 | “项目计划也开始改变：补齐测试、优化界面、重启上周搁置的需求” | 同一站立中全景、固定机位 | 时间轨收拢为项目入口，局部底框随内容调整；“待评估→列入排期→进入验收”在两人之间清晰排布，Agent不遮字 | 起：测试、界面、搁置功能三卡位于候选区→变：程序员的选择光标逐张评估、点选，已决定的卡进入排期；旧项目保留在验收端→止：三类状态可辨，留约1.5秒读图。新卡不能沿箭头自动获得通过勾 | 原机位内连续变换，Agent只指向呼应；复用任务卡、流程、光标、箭头和指向姿态。新增工作要求由人的项目选择触发，不由Agent自行决定 |
+| S01-10 | 30–37秒（7秒） | V01.2 | “旧任务逐项完成，待办清单却继续延长” | 同机位、固定；人物收手让出读图区 | 左：旧任务与验收端；右：刚进入排期的新任务；底框按内容延展，人物保持清晰站立 | 起：T01仍部分验收、T01-R已回到人工审核入口→变：显示一次人工复核通过动作，再将T01-R并回T01、标为已验收；其余原已验收旧项保留；右侧新排期继续累积→止：旧完成项和新待办并见，原终点在固定位置建立参照，留约2秒读图 | 接拉远揭示；复用通过标记、人工光标、T01与清单组件。这里以读图示意压缩复核过程，不宣称机器处理后自动通过，三张新卡保持未验收 |
+| S01-11 | 37–41秒（4秒） | V01.3 | “工具替人完成了更多任务” | 同一视向缓慢拉远，揭示更宽清单；不改变机位角度 | 左：已验收旧清单持续可见；右：新增队列被揭示；人物站姿随构图缩小，必读文字维持可读字号、图解不虚化 | 起：沿前镜固定终点展开范围→变：显露更多已列入计划的任务，显示原有终点已不足以容纳清单→止：拉远停住，新旧任务与原终点参照同时可见 | 转为沿终点跟移；复用人物、卡片和终点，扩展清单的可编辑范围。不是缩小整张合成图，新增卡沿用人的排期来源标记 |
+| S01-12 | 41–45秒（4秒） | V01.3 | “为什么工作的终点反而越来越远？” | 小幅向右跟移，跟随终点；末端停稳 | 左缘至少保留一项旧完成任务；中：延伸的清单；右：终点保持在可见区。人物／图解布局随构图避让，Agent始终在底框前 | 起：终点从既有参照位置后移→变：新任务填入延长段→止：终点在右侧停住，末端同一任务卡接入第02章项目筛选。保留一次清楚的移动，不反复追逐或甩镜 | 用任务卡连续衔接下一章，不切黑填时；复用清单、终点与通过标记。问句仅用既有字幕呈现，不铺全屏文字 |
+
+#### 连续性与制作注记
+
+1. **时长与校时：** 12镜为3＋2＋3＋2＋2＋4＋4＋3＋7＋7＋4＋4＝45秒，父段分别16／21／8秒。所有时间为预算；临时配音后按句子校准，优先守住S01-06的人工验收与返工、S01-09的计划选择。离席／返回中段用切镜省略，不以加快口播填入完整往返。
+2. **空间与视向：** 正面反打仅用于01／02，人物后方为房间对侧墙；背面工位保持程序员左、Agent右，之后沿同一侧拍摄。原窗景不充当正面镜头的背景，不翻转背面PNG制造正面。机位角度靠正确构图和素材切换，缩放仅改变景别。
+3. **焦点与层序：** 情境段主体与T01清晰，近前景和房间背景可轻虚化；逻辑段及所有必读标签不虚化。Agent在局部暖白底框与图解内容上方，标签避开脸与手。字幕、脚注、“情境示意”固定于屏幕空间，不随推近、拉远或跟移漂移；背景原图1672×941，避免大倍率放大。
+4. **任务与责任：** T01贯穿派发、机器执行、已生成、部分验收和人工复核；T01-R只表示待改子分支。派发／审核与机器执行分轨，离线不等于自由时间。计划由人的光标选择触发；“待评估”“已排期”“已验收”不能互换，新增需求不等于已完成。
+5. **人物工艺与新增素材：** 全身／完整上半身PNG只做均匀缩放、整身移动和姿态替换，不拆肢体、不叠化两个身体。最少新增N1正面中性上半身、N2正面决定派发上半身、N3朝向图解的3/4站姿、N4同房间反打夜景、N5显示器背壳SVG，共5项；其余复用现有21姿态与昼夜工位及原生SVG。素材数不等于生成调用次数，屏幕／图解状态仍需代码重排。
+6. **实施状态：** 镜头文字稿与N1–N5美术资源已备，有正面／站立静态合成；旧动态预览仍是背面工位与坐姿逻辑构图，未按新稿实现。素材与增量工时见[01镜头增量评估](../../doc/01_CAMERA_WORKLOAD.md)；配音、字幕时间轴及第02章接续需后续联调，不把本次文本检查记为动画视觉验收。
+
+## description
+
+画面任务集中写在 video content；本节不另建第二套分镜描述。
+
+本章已有素材见[01素材总览](../../../arts/static/01/README.md)与[01完整姿态预览](../../../arts/actions/01/README.md)。N1–N5新增美术资源已制备，见[镜头资源入口](../../../arts/static/01/CAMERA_ASSETS.md)：三张透明人物PNG、一张反打夜景PNG与显示器背壳SVG，另有正面和站立的静态合成检查。旧layout-whole-v01.json及动作预览仍是背面工位；本轮未改动画代码、配音或成片。
+
+## generation style
+
+统一引用 [STYLE_BIBLE](../../style/STYLE_BIBLE.md)；此处不另定色板、字体或风格参数。
+
+## references
+
+尾注不口播。以 audio 段落与 video 段落 ID 对应来源；字幕从口播正文生成，再按这里的映射添加脚注，配音文本不读注号。直接引文统一用 ASCII 英文双引号 `"` 标注；未加引号的理论表述为转述或本片分析。
+
+### [01-1]
+
+- 对应：audio 第1–2段；V01.1–V01.2。
+- 技术范围参照：Agent 可以依据目标与反馈调用工具、多步执行；不保证任意任务自主成功。画面中的验收与返工是本片情境设计。
+- 出处：[T1：Anthropic 技术说明（2024-12-19）](../../doc/SOURCES.md#t1)。
+
+### [01-2]
+
+- 对应：audio 第2–4段；V01.2–V01.3。
+- 程序员与清单均为说明性情境，不作特定公司的实测结论；没有具体节时、费用、AGI 距离或效率倍数。“更早离开电脑”指直接操作结束的可能性，不等同于已获得不受工作要求侵入的自由时间。
+- 出处：本片情境或分析，不冒充文献原话。
+
+
+===== arts/static/01/camera-assets-layout-v01.json =====
+{
+  "version": "S01_CAMERA_ASSETS v0.1",
+  "script": "S01_CAMERA v0.2",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "status": "static asset QA candidates; not animation or frozen layout",
+  "front": {
+    "room": [
+      -8,
+      -5,
+      1936,
+      1090
+    ],
+    "N1_N2": [
+      510.33,
+      70,
+      899.34,
+      1063.92
+    ],
+    "N5": [
+      360,
+      844,
+      1200,
+      337.5
+    ],
+    "layer_order": [
+      "N4 background with preview blur",
+      "N1 or N2 intact pose",
+      "N5 monitor-back foreground"
+    ],
+    "note": "N1 and N2 use the same transform and native dimensions; never stretch either axis independently."
+  },
+  "standing": {
+    "N3": [
+      84.8,
+      223.32,
+      532.48,
+      798.72
+    ],
+    "agent_report": [
+      1394,
+      281.28,
+      491.52,
+      737.28
+    ],
+    "backdrop": [
+      600,
+      65,
+      1120,
+      450
+    ],
+    "floor_baseline": 1008,
+    "layer_order": [
+      "day room",
+      "local diagram backdrop",
+      "editable diagram primitives",
+      "N3",
+      "foreground Agent"
+    ]
+  }
+}
+
