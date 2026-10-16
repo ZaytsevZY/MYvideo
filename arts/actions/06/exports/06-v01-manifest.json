@@ -354,5 +354,13 @@
   },
   "externalModelCalls": 0,
   "imageGenerationCalls": 0,
-  "audioGenerationCalls": 0
+  "audioGenerationCalls": 0,
+  "postRenderDocumentationUpdates": [
+    {
+      "path": "scripts/final/shot/05.md",
+      "renderSnapshotSha256": "2751df5c2f8aadce9b62c2aa60b5760e2b782f9307f5deab8b9d3cad36023c54",
+      "currentSha256": "931a05f4bd890f407e829a4e3cef5ac07924b5542e149efccf8fc4515d582dd6",
+      "scope": "Only production route description and chapter-plan link added after06 render; audio unchanged;05 is a06 provenance document, not scene logic."
+    }
+  ]
 }

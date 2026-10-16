@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1",
+  "status": "incoming_rendered_outgoing_unavailable_proposal_only",
+  "fromChapter": "05",
+  "toChapter": "06",
+  "versions": {
+    "from": "SHOT_TEXT v0.4; no05 animation present",
+    "to": "S06 v0.1",
+    "style": "STYLE_BIBLE v0.11"
+  },
+  "narrative": {
+    "handoffObjectId": "schedule-and-gain-allocation-node",
+    "outgoingResult": "工具调用权限不自动带来排期与收益分配决定权",
+    "incomingExplanation": "效率收益有不同配置；劳动者参与共同决定，才可能获得实际时间"
+  },
+  "timeline": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "toGlobalStartFrame": 6660,
+    "toFrameCount": 1740,
+    "globalOffsetStatus": "provisional prior-chapter budget; update after03–05 actual durations",
+    "transitionFrameOwnership": "within06; no added overlap"
+  },
+  "incomingState": {
+    "room": "daytime; adopted01 room and workstation vignette",
+    "avatarRects": {
+      "agent": [
+        1672.4,
+        282.4,
+        135.2,
+        135.2
+      ],
+      "programmer": [
+        1672.4,
+        622.4,
+        135.2,
+        135.2
+      ]
+    },
+    "allocationButtons": {
+      "moreDelivery": [
+        860,
+        255,
+        300,
+        54
+      ],
+      "shorterHours": [
+        1270,
+        255,
+        300,
+        54
+      ]
+    },
+    "timeLaneOrigin": [
+      940,
+      430
+    ],
+    "taskScope": "independent illustrative06 tasks, never resetting inherited01 IDs",
+    "caption": "效率收益可以转化为更多交付，"
+  },
+  "evidence": {
+    "fromVideoPath": null,
+    "fromLastFramePath": null,
+    "toVideoPath": "arts/actions/06/exports/06-complete-silent-v01.mp4",
+    "toVideoSha256": "6b8cb64a5e86849088765e467b90c45691fa5bca35ee7e3bb688571b2f14ab32",
+    "toFirstFramePath": "arts/actions/06/provenance/v01/encoded-00.png",
+    "seamPreviewPath": null,
+    "verified": false
+  },
+  "openIssues": [
+    "05 animation and final state unavailable; dynamic seam not tested.",
+    "Align object positions, framing and last caption after05 handoff.",
+    "No narration timing."
+  ]
+}

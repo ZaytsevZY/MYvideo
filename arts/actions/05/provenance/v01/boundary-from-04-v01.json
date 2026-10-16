@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1",
+  "status": "incoming_rendered_outgoing_unavailable_proposal_only",
+  "fromChapter": "04",
+  "toChapter": "05",
+  "versions": {
+    "from": "SHOT_TEXT v0.4; no04 animation in checkout",
+    "to": "S05 v0.1"
+  },
+  "handoffObjectId": "organization-delivery-standard",
+  "narrative": {
+    "outgoing": "额外贡献经排期与验收转成岗位要求",
+    "incoming": "工具执行能力增加，组织决定节点不自动移交"
+  },
+  "timeline": {
+    "fps": 30,
+    "toGlobalStartFrame": 5310,
+    "toFrameCount": 1350,
+    "globalOffsetStatus": "provisional03–04 durations"
+  },
+  "evidence": {
+    "fromVideoPath": null,
+    "fromLastFramePath": null,
+    "toFirstFramePath": "arts/actions/05/provenance/v01/encoded-00.png",
+    "seamPreviewPath": null,
+    "verified": false
+  },
+  "openIssues": [
+    "04 animation and exact final state not handed off.",
+    "Preserve mechanism-versus-research labeling; do not make05 programmer a real interview subject."
+  ]
+}

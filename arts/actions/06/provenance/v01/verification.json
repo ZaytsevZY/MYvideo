@@ -183,7 +183,6 @@
   ],
   "limitations": [
     "Silent; provisional subtitle timing.",
-    "05 not rendered; incoming seam untested.",
     "Course member names pending."
   ],
   "mediaChecks": {
@@ -226,10 +225,12 @@
     "scope": "Same machine, same assets, source, fonts and tool versions; cross-platform identity not asserted."
   },
   "checksFinal": {
-    "allInputHashesMatch": true,
+    "allInputHashesMatch": false,
     "allSourceSnapshotsMatch": true,
     "readmeAndChapterLinksExist": true,
-    "outputHashMatch": true
+    "outputHashMatch": true,
+    "allCurrentExecutableAndAssetInputsMatch": true,
+    "postRenderDocumentationUpdateRecorded": true
   },
   "supportingDocuments": [
     {
@@ -238,7 +239,7 @@
     },
     {
       "path": "arts/actions/06/README.md",
-      "sha256": "d0b877bc0c99c867fc770efea5d2da8bcec2344816f83ba52e71ed516b5c2c7e"
+      "sha256": "eb464228f58dfd466d06b9f228bd5383256001733147b314097fd026f64637c9"
     }
   ],
   "browserReview": {
@@ -254,5 +255,18 @@
     "actualMp4Ended": true,
     "observedEndTime": 58,
     "mediaConsoleErrors": []
-  }
+  },
+  "incomingSeamUpdate": {
+    "canonicalContract": "arts/actions/05/provenance/v01/boundary-to-06-v01.json",
+    "actualEncodedSeamChecked": true,
+    "sixthVideoAndSceneUnchanged": true
+  },
+  "postRenderDocumentationUpdates": [
+    {
+      "path": "scripts/final/shot/05.md",
+      "renderSnapshotSha256": "2751df5c2f8aadce9b62c2aa60b5760e2b782f9307f5deab8b9d3cad36023c54",
+      "currentSha256": "931a05f4bd890f407e829a4e3cef5ac07924b5542e149efccf8fc4515d582dd6",
+      "scope": "Only production route description and chapter-plan link added after06 render; audio unchanged;05 is a06 provenance document, not scene logic."
+    }
+  ]
 }

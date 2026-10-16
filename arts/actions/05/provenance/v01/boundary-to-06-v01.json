@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1",
+  "status": "actual_encoded_seam_checked",
+  "canonicalContract": "arts/actions/05/provenance/v01/boundary-to-06-v01.json",
+  "fromChapter": "05",
+  "toChapter": "06",
+  "versions": {
+    "from": "S05 v0.1",
+    "to": "S06 v0.1",
+    "style": "STYLE_BIBLE v0.11"
+  },
+  "narrative": {
+    "outgoingResult": "调用权限不自动带来排期、任务边界或收益分配决定权",
+    "incomingExplanation": "效率收益的配置及劳动者参与共同决定",
+    "handoffObjectId": "schedule-and-gain-allocation-node"
+  },
+  "timeline": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "fromGlobalStartFrame": 5310,
+    "fromFrameCount": 1350,
+    "fromLastEncodedLocalFrame": 1349,
+    "toGlobalStartFrame": 6660,
+    "toFrameCount": 1740,
+    "overlapFrames": 0,
+    "transitionFrameOwnership": "05 local42–45s adapts to06 first graphic; no extra duration",
+    "globalOffsetStatus": "provisional03–04 budget; actual local05 and06 durations verified"
+  },
+  "outgoingAndIncomingGraphic": {
+    "sourceMatch": "withoutCaptions(draw05(sample05(44.966667))) equals withoutCaptions(draw06(sample06(0)))",
+    "avatarRects": {
+      "agent": [
+        1672.4,
+        282.4,
+        135.2,
+        135.2
+      ],
+      "programmer": [
+        1672.4,
+        622.4,
+        135.2,
+        135.2
+      ]
+    },
+    "scope": "same background, workstation, typography, allocation controls, savings token and three lanes; caption wording changes at cut",
+    "taskStates": "No inherited task state reset; 06 allocation is a new illustrative scenario, not a new measured result"
+  },
+  "captions": {
+    "outgoing": "拒绝额外任务或分享效率收益的权力。",
+    "incoming": "效率收益可以转化为更多交付，",
+    "audioPresent": false
+  },
+  "evidence": {
+    "fromVideoPath": "arts/actions/05/exports/05-complete-silent-v01.mp4",
+    "fromVideoSha256": "c23daddf6ba6678ac17f9c75dedb4cadc997c0d588159a15b62d8cef830f686e",
+    "fromLastFramePath": "arts/actions/05/provenance/v01/encoded-33.png",
+    "toVideoPath": "arts/actions/06/exports/06-complete-silent-v01.mp4",
+    "toVideoSha256": "6b8cb64a5e86849088765e467b90c45691fa5bca35ee7e3bb688571b2f14ab32",
+    "toFirstFramePath": "arts/actions/06/provenance/v01/encoded-00.png",
+    "seamPreviewPath": "arts/actions/05/exports/05-to-06-seam-v01.mp4",
+    "seamSha256": "d40f5a7c963609045eb598c650adf499425970ebc40c8363c776eb3a25b1bab3",
+    "verified": true,
+    "verifiedAt": "2026-10-16"
+  },
+  "openIssues": [
+    "No recorded narration; audio continuity and final subtitle timing untested.",
+    "Global offsets may change after03 and04 final durations."
+  ]
+}

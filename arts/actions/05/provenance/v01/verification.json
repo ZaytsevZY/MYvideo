@@ -1,0 +1,300 @@
+{
+  "status": "verified_candidate",
+  "semanticChecks": {
+    "samples": 1351,
+    "narrationVerbatim": true,
+    "characters": 156,
+    "captionCount": 12,
+    "captionsEnd": 45,
+    "decisionOwnerPreserved": true,
+    "noAutomaticDecisionRights": true,
+    "feedbackOriginOrganization": true,
+    "agentNotEmployer": true,
+    "noAutomaticAcceptance": true,
+    "wholePoseSingleLayer": true,
+    "deterministicSamples": true,
+    "exitGraphicExactMatch06": true
+  },
+  "stills": [
+    {
+      "time": 0,
+      "path": "arts/actions/05/provenance/v01/frame-00.png",
+      "sha256": "051ee8d378e44bbd18ae287b9ed91114def3d83a51476811b0c275852f1d149c"
+    },
+    {
+      "time": 1.6,
+      "path": "arts/actions/05/provenance/v01/frame-01.png",
+      "sha256": "31fa8174e43f5b1b486bade944f4866266339e11b48761993da56c84ba0e50eb"
+    },
+    {
+      "time": 3,
+      "path": "arts/actions/05/provenance/v01/frame-02.png",
+      "sha256": "a3c506b4aa1d559544b955ee71f2491dcf2035b1c7cda44de112c8351342895e"
+    },
+    {
+      "time": 4.3,
+      "path": "arts/actions/05/provenance/v01/frame-03.png",
+      "sha256": "4a0871f100b9e00cb402c5e8b246c7e3b8b240fb4d52be9ae0a53b6822adc90b"
+    },
+    {
+      "time": 5.3,
+      "path": "arts/actions/05/provenance/v01/frame-04.png",
+      "sha256": "ed9ef47b97c5bd1780833227e281cee4b4cf72aec7436ae85822223ee0d1e645"
+    },
+    {
+      "time": 6.8,
+      "path": "arts/actions/05/provenance/v01/frame-05.png",
+      "sha256": "b03603c4e6aed66861e5c787c9edf9e2930572fd81afaf1a2bb9d3850f7b5484"
+    },
+    {
+      "time": 8,
+      "path": "arts/actions/05/provenance/v01/frame-06.png",
+      "sha256": "15d7af10cfb2b32bdc72d892b5578539444e02b737d2a5d84a296984dfa62ea9"
+    },
+    {
+      "time": 10,
+      "path": "arts/actions/05/provenance/v01/frame-07.png",
+      "sha256": "9e001e482907adc0ad7c044a8760ef895dfb43a3a7a91f3efad615585297c3c2"
+    },
+    {
+      "time": 13.966667,
+      "path": "arts/actions/05/provenance/v01/frame-08.png",
+      "sha256": "9e001e482907adc0ad7c044a8760ef895dfb43a3a7a91f3efad615585297c3c2"
+    },
+    {
+      "time": 14,
+      "path": "arts/actions/05/provenance/v01/frame-09.png",
+      "sha256": "3c5b12b74eed722ca15d1e6fe3e2db40d876ad3bed18463f95bd8d1cdd313750"
+    },
+    {
+      "time": 15.3,
+      "path": "arts/actions/05/provenance/v01/frame-10.png",
+      "sha256": "035170433588fee5dd8431e56a461af1307b382d8c958c16c33f87f9d043ae7f"
+    },
+    {
+      "time": 17.5,
+      "path": "arts/actions/05/provenance/v01/frame-11.png",
+      "sha256": "31423d096f3c92424fe42361ac4802d67fdc79d70fcfef9792e2665c6266ba6b"
+    },
+    {
+      "time": 18.5,
+      "path": "arts/actions/05/provenance/v01/frame-12.png",
+      "sha256": "597287b37ecfb7dfee06e980b9b44a7211ade63f7c20566022d4ecd0717ba2a4"
+    },
+    {
+      "time": 19.2,
+      "path": "arts/actions/05/provenance/v01/frame-13.png",
+      "sha256": "a04452aa872bf3914364e7884fdf218ab10ddb03be825a036a1de14218f84f86"
+    },
+    {
+      "time": 21.966667,
+      "path": "arts/actions/05/provenance/v01/frame-14.png",
+      "sha256": "42877c9713ada6e2be1f90e2299a2aa5a3d3f53417da305c851c303830420e38"
+    },
+    {
+      "time": 22,
+      "path": "arts/actions/05/provenance/v01/frame-15.png",
+      "sha256": "5a1b28b4c2ad1522f515eb418a432affc2a5b1954aa0e12c5112a76a42e5891a"
+    },
+    {
+      "time": 25.966667,
+      "path": "arts/actions/05/provenance/v01/frame-16.png",
+      "sha256": "5a1b28b4c2ad1522f515eb418a432affc2a5b1954aa0e12c5112a76a42e5891a"
+    },
+    {
+      "time": 26,
+      "path": "arts/actions/05/provenance/v01/frame-17.png",
+      "sha256": "90d3a018518b08890ebc7ce1375874acd0e9d3c46b85b6f43fce8d6d0783341e"
+    },
+    {
+      "time": 28.5,
+      "path": "arts/actions/05/provenance/v01/frame-18.png",
+      "sha256": "1fcd2fc62bc46db8ebcc1aeecb47b0eafbcec25c7446279a3732ea94ad0796a1"
+    },
+    {
+      "time": 30.966667,
+      "path": "arts/actions/05/provenance/v01/frame-19.png",
+      "sha256": "1fcd2fc62bc46db8ebcc1aeecb47b0eafbcec25c7446279a3732ea94ad0796a1"
+    },
+    {
+      "time": 31,
+      "path": "arts/actions/05/provenance/v01/frame-20.png",
+      "sha256": "1a769c0f882ce4356f42eb5d1294fc5779a59e62c011e0e67777b2130fbd9e9a"
+    },
+    {
+      "time": 31.8,
+      "path": "arts/actions/05/provenance/v01/frame-21.png",
+      "sha256": "ef072d966249e9d253c0eff916ff59a1b84bfeab2e8c3f6674f852aa94312817"
+    },
+    {
+      "time": 34,
+      "path": "arts/actions/05/provenance/v01/frame-22.png",
+      "sha256": "fd17de2c3dbc31ca8265ce6dbba02ddd31a48cf0766b7fe57cdc22bc95e6b2cb"
+    },
+    {
+      "time": 35.7,
+      "path": "arts/actions/05/provenance/v01/frame-23.png",
+      "sha256": "d62d05dd4ccbbf4d5d4c8c9bf2031013854baa4467c94390c3926babcf0f2a3f"
+    },
+    {
+      "time": 37.9,
+      "path": "arts/actions/05/provenance/v01/frame-24.png",
+      "sha256": "2b22ba79676039328c6637e90aa55666c2910ea93699b85a186398a6d1e15d71"
+    },
+    {
+      "time": 39.2,
+      "path": "arts/actions/05/provenance/v01/frame-25.png",
+      "sha256": "bcc5668e2f48f4ebdc83e493e447f1f3e64c25564b486b71696def9ca67bd57a"
+    },
+    {
+      "time": 40,
+      "path": "arts/actions/05/provenance/v01/frame-26.png",
+      "sha256": "5eb2494261739b00d309f07e563cd8f6ffef9b2290cab7d37338bb6c14685330"
+    },
+    {
+      "time": 40.5,
+      "path": "arts/actions/05/provenance/v01/frame-27.png",
+      "sha256": "79a4a47968d9f99d636ad9f3b44ec16ee40d4f45bc44e49547c541bdb43e59d1"
+    },
+    {
+      "time": 41,
+      "path": "arts/actions/05/provenance/v01/frame-28.png",
+      "sha256": "d5da9987d2315a8be836d4ab388f69625bc35276036f4b0a5ac5bfe0aa9210f5"
+    },
+    {
+      "time": 41.4,
+      "path": "arts/actions/05/provenance/v01/frame-29.png",
+      "sha256": "712274b0d43da6d62565b7fd15e9d87a603adbcf84f760d342d427bdebdda165"
+    },
+    {
+      "time": 41.966667,
+      "path": "arts/actions/05/provenance/v01/frame-30.png",
+      "sha256": "712274b0d43da6d62565b7fd15e9d87a603adbcf84f760d342d427bdebdda165"
+    },
+    {
+      "time": 42,
+      "path": "arts/actions/05/provenance/v01/frame-31.png",
+      "sha256": "584403002b2d940d0af0eb6234753dfaeaec32c09e96290beed4f7394702b874"
+    },
+    {
+      "time": 43,
+      "path": "arts/actions/05/provenance/v01/frame-32.png",
+      "sha256": "584403002b2d940d0af0eb6234753dfaeaec32c09e96290beed4f7394702b874"
+    },
+    {
+      "time": 44.966667,
+      "path": "arts/actions/05/provenance/v01/frame-33.png",
+      "sha256": "584403002b2d940d0af0eb6234753dfaeaec32c09e96290beed4f7394702b874"
+    }
+  ],
+  "limitations": [
+    "Silent; provisional subtitle timing.",
+    "04 animation absent; incoming seam not tested."
+  ],
+  "mediaChecks": {
+    "fullDecode": true,
+    "monotonic30fpsTimestamps": true,
+    "blackFrames": false,
+    "version": "S05 v0.1",
+    "duration": 45,
+    "fps": 30,
+    "frames": 1350,
+    "width": 1920,
+    "height": 1080,
+    "globalStartFrame": 5310,
+    "audio": false
+  },
+  "output": {
+    "path": "arts/actions/05/exports/05-complete-silent-v01.mp4",
+    "sha256": "c23daddf6ba6678ac17f9c75dedb4cadc997c0d588159a15b62d8cef830f686e",
+    "bytes": 1774804
+  },
+  "seam": {
+    "path": "arts/actions/05/exports/05-to-06-seam-v01.mp4",
+    "sha256": "d40f5a7c963609045eb598c650adf499425970ebc40c8363c776eb3a25b1bab3",
+    "bytes": 257983,
+    "fromVideoSha256": "c23daddf6ba6678ac17f9c75dedb4cadc997c0d588159a15b62d8cef830f686e",
+    "toVideoPath": "arts/actions/06/exports/06-complete-silent-v01.mp4",
+    "toVideoSha256": "6b8cb64a5e86849088765e467b90c45691fa5bca35ee7e3bb688571b2f14ab32",
+    "commands": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-y",
+      "-i",
+      "/Users/bytedance/Desktop/zhayi/university/MYvideo/arts/actions/05/exports/05-complete-silent-v01.mp4",
+      "-i",
+      "/Users/bytedance/Desktop/zhayi/university/MYvideo/arts/actions/06/exports/06-complete-silent-v01.mp4",
+      "-filter_complex",
+      "[0:v]trim=start_frame=1290:end_frame=1350,setpts=PTS-STARTPTS[a];[1:v]trim=start_frame=0:end_frame=60,setpts=PTS-STARTPTS[b];[a][b]concat=n=2:v=1:a=0[v]",
+      "-map",
+      "[v]",
+      "-an",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "18",
+      "-pix_fmt",
+      "yuv420p",
+      "-r",
+      "30",
+      "-frames:v",
+      "120",
+      "-movflags",
+      "+faststart",
+      "/Users/bytedance/Desktop/zhayi/university/MYvideo/arts/actions/05/exports/05-to-06-seam-v01.mp4"
+    ],
+    "fullDecode": true
+  },
+  "visualReview": {
+    "representativeTimes": 34,
+    "encodedContactSheet": "arts/actions/05/exports/05-encoded-contact-v01.png",
+    "scope": [
+      "multiple agents carry distinct instance labels",
+      "resource cards clear delivery-standard label",
+      "rule feedback originates from organization",
+      "single-agent handoff path",
+      "cutpoint geometry and captions"
+    ],
+    "findings": "No overlapping labels or duplicate transition avatars identified in reviewed frames."
+  },
+  "repeatRender": {
+    "sameEnvironment": true,
+    "independentOutputDirectory": "/tmp/myvideo-chapter05-repro-20261016",
+    "completeMp4ByteIdentical": true,
+    "sha256": "c23daddf6ba6678ac17f9c75dedb4cadc997c0d588159a15b62d8cef830f686e",
+    "bytes": 1774804
+  },
+  "seamReview": {
+    "sourceGeometryExactExceptCaptions": true,
+    "actualEncodedInputs": true,
+    "fullDecode": true,
+    "frames": 120,
+    "duration": 4,
+    "meanAbsoluteRGBDifferenceExcludingSubtitleRegion": 0.2003040824915825,
+    "differenceScope": "RGB mean over y0..989; both sides re-encoded in seam, not a lossless identity claim.",
+    "cutpointFrames": [
+      "arts/actions/05/provenance/v01/seam-before.png",
+      "arts/actions/05/provenance/v01/seam-after.png"
+    ]
+  },
+  "inputAndSnapshotHashesVerified": true,
+  "browserReview": {
+    "interactivePreviewPlayed": true,
+    "previewConsoleErrors": [],
+    "actualMp4PlayedToEnd": true,
+    "observedEndTime": 45,
+    "duration": 45,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "mediaError": null,
+    "consoleErrors": [],
+    "seamPlaybackEnded": true,
+    "seamDuration": 4,
+    "seamMediaError": null
+  }
+}

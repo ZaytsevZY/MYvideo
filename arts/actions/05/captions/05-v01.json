@@ -1,0 +1,86 @@
+[
+  {
+    "text": "调度多个 Agent，",
+    "startMs": 0,
+    "endMs": 3000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "扩大的是执行能力，",
+    "startMs": 3000,
+    "endMs": 6500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "未必改变产品目标、",
+    "startMs": 6500,
+    "endMs": 9800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "交付周期和成果分配的决定权。",
+    "startMs": 9800,
+    "endMs": 14000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "社会劳动创造的生产力量，",
+    "startMs": 14000,
+    "endMs": 18000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "在特定的占有和组织关系中，",
+    "startMs": 18000,
+    "endMs": 22000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "反过来成为约束劳动者的外在力量。",
+    "startMs": 22000,
+    "endMs": 26000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "这是劳动异化的一个切口：",
+    "startMs": 26000,
+    "endMs": 28500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "指令由人发出，劳动的目的与尺度仍可能由他人设定。",
+    "startMs": 28500,
+    "endMs": 34000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "拥有工具调用权限，",
+    "startMs": 34000,
+    "endMs": 37000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "不会自动获得修改排期、",
+    "startMs": 37000,
+    "endMs": 40000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "拒绝额外任务或分享效率收益的权力。",
+    "startMs": 40000,
+    "endMs": 45000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]
