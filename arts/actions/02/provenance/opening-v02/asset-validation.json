@@ -1,0 +1,68 @@
+{
+  "checks": [
+    {
+      "id": "document-portrait",
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true,
+      "sourceHashMatchesAdoptedManifest": true
+    },
+    {
+      "id": "avatar-programmer-neutral",
+      "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "sourceHashMatchesAdoptedManifest": true
+    },
+    {
+      "id": "avatar-programmer-focus",
+      "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "sourceHashMatchesAdoptedManifest": true
+    },
+    {
+      "id": "avatar-agent-neutral",
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "sourceHashMatchesAdoptedManifest": true
+    },
+    {
+      "id": "avatar-agent-focus",
+      "path": "arts/characters/portraits/01/agent-focus-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "sourceHashMatchesAdoptedManifest": true
+    },
+    {
+      "id": "cursor",
+      "path": "arts/static/01/cursor-v01.svg",
+      "width": 70,
+      "height": 90,
+      "hasAlpha": true,
+      "sourceHashMatchesAdoptedManifest": null
+    },
+    {
+      "id": "stage",
+      "path": "arts/actions/02/provenance/opening-v02/stage-idle.png",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": true,
+      "sourceHashMatchesAdoptedManifest": null
+    },
+    {
+      "id": "stage-lean",
+      "path": "arts/actions/02/provenance/opening-v02/stage-lean.png",
+      "width": 1920,
+      "height": 1080,
+      "hasAlpha": true,
+      "sourceHashMatchesAdoptedManifest": null
+    }
+  ]
+}

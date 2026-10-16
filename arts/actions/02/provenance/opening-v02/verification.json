@@ -1,0 +1,95 @@
+{
+  "status": "candidate_verified_pending_user_review",
+  "checks": {
+    "sampledFrames": 391,
+    "deterministicSeeking": true,
+    "inheritedStatesPreserved": true,
+    "candidateNotAutoScheduled": true,
+    "firstParagraphVerbatim": true,
+    "expectedFeasibilityAtEnd": [
+      true,
+      true,
+      false
+    ],
+    "captionEndsAt13000": true
+  },
+  "stills": [
+    {
+      "t": 0,
+      "path": "arts/actions/02/provenance/opening-v02/frame-00.png",
+      "sha256": "bb25d318ee991eb25be3d326c718178a30bd2b54dda903fc49e9adf774f0f338"
+    },
+    {
+      "t": 2.4,
+      "path": "arts/actions/02/provenance/opening-v02/frame-01.png",
+      "sha256": "c7de367b88e9a5332dfc5daf0b314591ef151c6bdfb1a6b6b46298ddb92d170c"
+    },
+    {
+      "t": 4.9,
+      "path": "arts/actions/02/provenance/opening-v02/frame-02.png",
+      "sha256": "576bde2e6aaddab31e2b01116a5816ea230886e2d3f1e9d50e3a486d255a5071"
+    },
+    {
+      "t": 6.5,
+      "path": "arts/actions/02/provenance/opening-v02/frame-03.png",
+      "sha256": "47d4f80019f179dfa5178a04695355db316638015bbd8ed0d805e68c2b490e5b"
+    },
+    {
+      "t": 8.3,
+      "path": "arts/actions/02/provenance/opening-v02/frame-04.png",
+      "sha256": "5977fd025b597b3a1735ad117897bee2455741aa5234db9ab55a9619208f7e6f"
+    },
+    {
+      "t": 10.4,
+      "path": "arts/actions/02/provenance/opening-v02/frame-05.png",
+      "sha256": "e20d46944ae63d146480455a72320e7affa834edad4bc8899fe9557e97e37e09"
+    },
+    {
+      "t": 12.966667,
+      "path": "arts/actions/02/provenance/opening-v02/frame-06.png",
+      "sha256": "e20d46944ae63d146480455a72320e7affa834edad4bc8899fe9557e97e37e09"
+    }
+  ],
+  "currentVersion": "S02_OPENING v0.2",
+  "media": {
+    "durationSeconds": 13,
+    "frames": 390,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "audioStreams": 0,
+    "bytes": 1023424,
+    "sha256": "1e4cc2297bf98f4695d0667f1d007b7fdd637e07c7e8ba081d5bc2433af3dbfc",
+    "fullDecode": "passed",
+    "blackDetection": "none detected at d=0.03 pix_th=0.10"
+  },
+  "seam": {
+    "durationSeconds": 4,
+    "frames": 120,
+    "fullDecode": "passed",
+    "source": "01 last2s reconstructed with unchanged original code +02 first2s",
+    "original01MP4Available": false
+  },
+  "visualReview": {
+    "representativeFrames": "seven frames and full-size crossing/end reviewed",
+    "encodedFrames": [
+      "encoded-start.png",
+      "encoded-crossing.png",
+      "encoded-end.png"
+    ],
+    "corrections": "v01 right-pointing motion marker corrected to left; status labels given local matte",
+    "browser": "interactive playback and Home/End seeking checked; no console errors; final v02 MP4 plays to13s",
+    "userFrozen": false
+  },
+  "inputHashesVerified": true,
+  "assetValidation": "asset-validation.json",
+  "limitations": [
+    "no recorded narration; semantic subtitle timing only",
+    "only chapter02 first13s made",
+    "seam uses01 code reconstruction, not original encoded MP4",
+    "finite existing character poses; no new inbetween drawings",
+    "At01→02 cut, retained agent avatar scale and card label baseline change slightly; object semantics are continuous, visual polish remains for user review."
+  ]
+}

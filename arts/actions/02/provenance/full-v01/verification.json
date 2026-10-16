@@ -1,0 +1,87 @@
+{
+  "status": "superseded_internal_draft",
+  "checks": {
+    "samples": 1141,
+    "narrationVerbatim": true,
+    "cues": 11,
+    "captionCoverageMs": 38000,
+    "singleSavingToken": true,
+    "resetBeforeB": true,
+    "hypotheticalTasksIsolated": true,
+    "inheritedStatesPreserved": true,
+    "comparisonContracts": true
+  },
+  "stills": [
+    {
+      "time": 0,
+      "path": "arts/actions/02/provenance/full-v01/frame-00.png",
+      "sha256": "e4aa73de1053d7fb9fd7e775e505205e8fa1a32d8acf9f23bdcad65eb8c9ad0f"
+    },
+    {
+      "time": 12.966667,
+      "path": "arts/actions/02/provenance/full-v01/frame-01.png",
+      "sha256": "93cfa3eb330eef23d41fb3b8f537c9cc368e8a317acee876509ceddb68a27d64"
+    },
+    {
+      "time": 13,
+      "path": "arts/actions/02/provenance/full-v01/frame-02.png",
+      "sha256": "6aa8f5c44ffc99f53ff56749f25d9db0fb85d5d930fb9e547dab1113df1b9436"
+    },
+    {
+      "time": 13.7,
+      "path": "arts/actions/02/provenance/full-v01/frame-03.png",
+      "sha256": "5fd4b44f78bcbb91f50d407589e997e35faeed381f65ee431334dbdc439d2c9d"
+    },
+    {
+      "time": 15.4,
+      "path": "arts/actions/02/provenance/full-v01/frame-04.png",
+      "sha256": "06231ff5f5f47a78101fdd49122723f45ae30513025fd00d3e25853a75962ad8"
+    },
+    {
+      "time": 17.4,
+      "path": "arts/actions/02/provenance/full-v01/frame-05.png",
+      "sha256": "45b8c6c62cdaa5edb8f8cd3b66692c3a67f5054d30670ef2785b3be3c059074e"
+    },
+    {
+      "time": 19.1,
+      "path": "arts/actions/02/provenance/full-v01/frame-06.png",
+      "sha256": "019d4d17b7a700b8c7ce6e0596bbed99f0f11a5965950c859dcbd82881c85c17"
+    },
+    {
+      "time": 24.5,
+      "path": "arts/actions/02/provenance/full-v01/frame-07.png",
+      "sha256": "829deb2a00ebb8c3f0c0afa85091df1a938f216ed7a82e23df351f2bc44800b4"
+    },
+    {
+      "time": 27,
+      "path": "arts/actions/02/provenance/full-v01/frame-08.png",
+      "sha256": "db2f2b7dd60ca9f2e7d3df0067bbe2a82d179671a1f66c14313fdf58c3be1c30"
+    },
+    {
+      "time": 28.5,
+      "path": "arts/actions/02/provenance/full-v01/frame-09.png",
+      "sha256": "e4a7b0748bbe764cd0a822d3a70dfa7894a009b02d8904b7232c2494966553c5"
+    },
+    {
+      "time": 30.9,
+      "path": "arts/actions/02/provenance/full-v01/frame-10.png",
+      "sha256": "c0de341f38edfba4682d70d515a9b84ab7f42d4e9756f56884bf2898d9ffc183"
+    },
+    {
+      "time": 33.7,
+      "path": "arts/actions/02/provenance/full-v01/frame-11.png",
+      "sha256": "61acce2e9f5b816fd6f8809296339c77bba5068c2b8c52475a3b8b432ab96099"
+    },
+    {
+      "time": 35.5,
+      "path": "arts/actions/02/provenance/full-v01/frame-12.png",
+      "sha256": "82c8c0b9bbeee9e448967bb0a3f77d126b47439acb6159066a0b3bb42dfc564f"
+    },
+    {
+      "time": 37.966667,
+      "path": "arts/actions/02/provenance/full-v01/frame-13.png",
+      "sha256": "82c8c0b9bbeee9e448967bb0a3f77d126b47439acb6159066a0b3bb42dfc564f"
+    }
+  ],
+  "reason": "Final comparison now preserves H02-new1/2 identifiers; current delivery full-v02."
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "text": "工作量不是固定的存量。",
+    "startMs": 0,
+    "endMs": 2400,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "开发成本下降，",
+    "startMs": 2400,
+    "endMs": 5200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "会改变项目的成本收益边界，",
+    "startMs": 5200,
+    "endMs": 8000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "使一部分原先不值得开展的需求",
+    "startMs": 8000,
+    "endMs": 10300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "变得可行。",
+    "startMs": 10300,
+    "endMs": 13000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "效率收益既可用于减少劳动，",
+    "startMs": 13000,
+    "endMs": 16400,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "也可用于扩大产出。",
+    "startMs": 16400,
+    "endMs": 19200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "以价值增殖为目的的生产，",
+    "startMs": 19200,
+    "endMs": 22700,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "有将节约重新投入生产的动力。",
+    "startMs": 22700,
+    "endMs": 27000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "单项任务耗时缩短，",
+    "startMs": 27000,
+    "endMs": 30900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "总劳动投入仍取决于任务规模。",
+    "startMs": 30900,
+    "endMs": 38000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

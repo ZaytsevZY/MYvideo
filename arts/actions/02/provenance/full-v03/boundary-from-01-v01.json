@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1",
+  "status": "candidate_code_reconstruction_seam_checked",
+  "fromChapter": "01",
+  "toChapter": "02",
+  "versions": {
+    "from": "S01_CAMERA v0.3 / S01_CAMERA_PREVIEW v0.4",
+    "to": "S02_FULL v0.3",
+    "style": "STYLE_BIBLE v0.11"
+  },
+  "narrative": {
+    "outgoingQuestionOrResult": "为什么工作的终点反而越来越远？",
+    "incomingExplanation": "工作量不是固定的存量；投入变化扩大可行需求范围",
+    "handoffObjectId": "feedback",
+    "outgoingSentenceIds": [
+      "01-final"
+    ],
+    "incomingSentenceIds": [
+      "02-audio-paragraph1"
+    ]
+  },
+  "timeline": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "fromGlobalStartFrame": 0,
+    "fromFrameCount": 1350,
+    "toGlobalStartFrame": 1350,
+    "toFrameCount": 1140,
+    "fromLastEncodedLocalFrame": 1349,
+    "fromDiagnosticEndpointStatePath": "arts/actions/01/scene-camera-30fps-v01.json",
+    "transitionType": "graphic match with continuous object rearrangement",
+    "transitionFrameOwnership": "02 first72frames; no extra frames",
+    "overlapFrames": 0
+  },
+  "outgoingState": {
+    "scene": "daytime room with warm-white diagram and workstation inset",
+    "lighting": "day",
+    "cameraAndAxis": "01 final fixed wide diagram, original inset axis retained",
+    "coordinateSpace": "1920x1080 screen pixels",
+    "actors": [
+      {
+        "id": "programmer",
+        "pose": "programmer-input",
+        "location": "left lower workstation inset"
+      },
+      {
+        "id": "agent",
+        "pose": "agent-idle",
+        "location": "inset right; avatar in diagram"
+      }
+    ],
+    "objects": [
+      {
+        "id": "feedback",
+        "status": "candidate",
+        "rect": [
+          1432,
+          128,
+          140.8,
+          144
+        ]
+      },
+      {
+        "id": "endpoint",
+        "meaning": "work endpoint; retires in first0.8s, not repurposed"
+      }
+    ],
+    "taskStates": {
+      "T00": "accepted",
+      "T01": "accepted",
+      "T01-R": "merged",
+      "test": "scheduled",
+      "interface": "scheduled",
+      "feature": "scheduled",
+      "docs": "scheduled",
+      "perf": "scheduled",
+      "compat": "scheduled",
+      "migrate": "scheduled",
+      "feedback": "candidate"
+    },
+    "layerOrder": [
+      "room",
+      "diagram",
+      "tasks",
+      "avatars",
+      "workstation inset",
+      "captions"
+    ],
+    "outgoingCaption": "为什么工作的终点反而越来越远？",
+    "audioPresent": false
+  },
+  "incomingPlan": {
+    "shotId": "S02-01",
+    "retain": [
+      "feedback identity and candidate status",
+      "accepted/scheduled task states",
+      "room/daylight",
+      "workstation inset"
+    ],
+    "transform": [
+      "existing queue compresses into upper rail",
+      "feedback moves into qualitative project filter"
+    ],
+    "introduce": [
+      "separate cost-benefit axes",
+      "new IDs N02-A/N02-B with same document art",
+      "human tool-choice feedback"
+    ],
+    "removeWithReason": [
+      {
+        "id": "endpoint",
+        "reason": "not an economic threshold; retires explicitly"
+      }
+    ],
+    "firstCaption": "工作量不是固定的存量。"
+  },
+  "evidence": {
+    "fromVideoPath": null,
+    "fromVideoSha256": null,
+    "fromLastFramePath": "arts/actions/01/exports/01-captioned-silent-v01-frame-1349.png",
+    "fromStatePath": "arts/actions/01/scene-camera-30fps-v01.json",
+    "toFirstFramePath": "arts/actions/02/provenance/full-v03/encoded-00.png",
+    "seamPreviewPath": "arts/actions/02/exports/01-to-02-seam-v03.mp4",
+    "verified": true,
+    "verifiedAt": "2026-10-16",
+    "checks": [
+      "Chapter01 final source SVG reused exactly for entry graphic.",
+      "120 frame 4s code-reconstruction seam decoded and cutpoint frames reviewed.",
+      "Avatar scale, card typography and statuses retained at cut.",
+      "Original encoded01 MP4 comparison not performed."
+    ]
+  },
+  "openIssues": [
+    "Original01 encoded MP4 absent; seam source reconstruction only.",
+    "No recorded narration; provisional captions.",
+    "User review pending."
+  ],
+  "reuseNote": "Full38 seconds rerendered; adopted PNG art and exact chapter01 endpoint graphic reused."
+}

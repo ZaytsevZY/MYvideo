@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-16",
+  "codeAuthor": "Codex",
+  "externalModelCalls": 0,
+  "imageGenerationCalls": 0,
+  "prompt": null,
+  "method": "reuse adopted PNG assets unchanged; native SVG/JavaScript; derived stage excludes old diagram and captions",
+  "inputs": [
+    {
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420"
+    },
+    {
+      "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+      "sha256": "20a101697879a0e54da5861532080cede1db7d4cfd7dbbd9dbd7af820d9cfbaa"
+    },
+    {
+      "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+      "sha256": "4e6f1beaf38dd2e02df9f6e3a1943d3815a73d6e0113f2b8531ea7ad6113fc1e"
+    },
+    {
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828"
+    },
+    {
+      "path": "arts/characters/portraits/01/agent-focus-v01.png",
+      "sha256": "2db469f8afaae3bcbb54aa1ec4487f43c8a614bffcf56c85a77dbe15b3703f20"
+    },
+    {
+      "path": "arts/static/01/cursor-v01.svg",
+      "sha256": "8644710ef890d036ffb200a10be9d55e67adc79c20ee18089129261f2a428b05"
+    },
+    {
+      "path": "arts/actions/02/provenance/opening-v02/stage-idle.png",
+      "sha256": "bd40ce09b4584e1f55c35bffeaadd032bea3c3b8b4012695f728711e1ed6eac3"
+    },
+    {
+      "path": "arts/actions/02/provenance/opening-v02/stage-lean.png",
+      "sha256": "1008c45f8c4b334f28cf5fbd754778963a7575b9b88da44d75c72ef20c32e923"
+    },
+    {
+      "path": "scripts/final/shot/01.md",
+      "sha256": "0bec30c0ba6e713660947041db930db1894633c90058a78584ca40f9966a85d9"
+    },
+    {
+      "path": "scripts/final/shot/02.md",
+      "sha256": "e8fc623ea43b6bae3d5dd287dff01967dcac40994af5e703f384942c318bd03e"
+    },
+    {
+      "path": "scripts/style/STYLE_BIBLE.md",
+      "sha256": "823f68429584a3d32132c439d90364f77fd2a445f4da0f9507fd94a22f97f487"
+    },
+    {
+      "path": "arts/actions/01/camera-motion.mjs",
+      "sha256": "434ec2191c05e357997f0390b363b8ab841a50717191f4dee08a41bdef8789db"
+    },
+    {
+      "path": "arts/actions/01/performance.mjs",
+      "sha256": "3405c27ceee06f6999d52a1854efb91a73f7d8e9f2bd118e93368a80b28f5a04"
+    },
+    {
+      "path": "arts/actions/01/bundle-camera-v01.json",
+      "sha256": "4b6c8ef5834cd865479658ce9353a742636298aa750240fad2741ab26b804892"
+    },
+    {
+      "path": "arts/actions/02/scene.mjs",
+      "sha256": "e433238148db2dc30cba49f81fb9e163a14f96172d052801222dd6fa9abb187a"
+    },
+    {
+      "path": "arts/actions/02/build.mjs",
+      "sha256": "e3805e669cdfda8ef924ecd5941aa9a6adbc2d0aa0e9642789bf88a772b1efa3"
+    }
+  ],
+  "registry": {
+    "document-portrait": {
+      "dataUri": "../../items/01/task-document-portrait-v01.png",
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "width": 1086,
+      "height": 1448,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "avatar-programmer-neutral": {
+      "dataUri": "../../characters/portraits/01/programmer-neutral-v01.png",
+      "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "avatar-programmer-focus": {
+      "dataUri": "../../characters/portraits/01/programmer-focus-v01.png",
+      "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "avatar-agent-neutral": {
+      "dataUri": "../../characters/portraits/01/agent-neutral-v01.png",
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "avatar-agent-focus": {
+      "dataUri": "../../characters/portraits/01/agent-focus-v01.png",
+      "path": "arts/characters/portraits/01/agent-focus-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "cursor": {
+      "dataUri": "../../static/01/cursor-v01.svg",
+      "path": "arts/static/01/cursor-v01.svg",
+      "width": 70,
+      "height": 90
+    },
+    "stage": {
+      "path": "arts/actions/02/provenance/opening-v02/stage-idle.png",
+      "width": 1920,
+      "height": 1080
+    },
+    "stage-lean": {
+      "path": "arts/actions/02/provenance/opening-v02/stage-lean.png",
+      "width": 1920,
+      "height": 1080
+    }
+  }
+}

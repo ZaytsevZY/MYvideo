@@ -1,0 +1,75 @@
+{
+  "status": "superseded",
+  "checks": {
+    "sampledFrames": 391,
+    "deterministicSeeking": true,
+    "inheritedStatesPreserved": true,
+    "candidateNotAutoScheduled": true,
+    "firstParagraphVerbatim": true,
+    "expectedFeasibilityAtEnd": [
+      true,
+      true,
+      false
+    ],
+    "captionEndsAt13000": true
+  },
+  "stills": [
+    {
+      "t": 0,
+      "path": "arts/actions/02/provenance/opening-v01/frame-00.png",
+      "sha256": "bb25d318ee991eb25be3d326c718178a30bd2b54dda903fc49e9adf774f0f338"
+    },
+    {
+      "t": 2.4,
+      "path": "arts/actions/02/provenance/opening-v01/frame-01.png",
+      "sha256": "c7de367b88e9a5332dfc5daf0b314591ef151c6bdfb1a6b6b46298ddb92d170c"
+    },
+    {
+      "t": 4.9,
+      "path": "arts/actions/02/provenance/opening-v01/frame-02.png",
+      "sha256": "576bde2e6aaddab31e2b01116a5816ea230886e2d3f1e9d50e3a486d255a5071"
+    },
+    {
+      "t": 6.5,
+      "path": "arts/actions/02/provenance/opening-v01/frame-03.png",
+      "sha256": "308e2c6f56355a39f84fc9b1e5ba6767d620b14a48db93af7cf8192399938cf1"
+    },
+    {
+      "t": 8.3,
+      "path": "arts/actions/02/provenance/opening-v01/frame-04.png",
+      "sha256": "5977fd025b597b3a1735ad117897bee2455741aa5234db9ab55a9619208f7e6f"
+    },
+    {
+      "t": 10.4,
+      "path": "arts/actions/02/provenance/opening-v01/frame-05.png",
+      "sha256": "66f2510de177888af4a8b4fbed2adac976ba7aef1ab4569771ccb481924da21d"
+    },
+    {
+      "t": 12.966667,
+      "path": "arts/actions/02/provenance/opening-v01/frame-06.png",
+      "sha256": "66f2510de177888af4a8b4fbed2adac976ba7aef1ab4569771ccb481924da21d"
+    }
+  ],
+  "visualReview": {
+    "representativeFrames": [
+      0,
+      2.4,
+      4.9,
+      6.5,
+      8.3,
+      10.4,
+      12.966667
+    ],
+    "result": "reviewed at full frame and contact sheet; changed candidateA position and source footer spacing before video export",
+    "newBitmapAssets": 0,
+    "browser": {
+      "url": "http://127.0.0.1:8766/arts/actions/02/preview.html",
+      "playback": "observed time advance to final state",
+      "seek": "Home restores opening, End restores final candidates",
+      "consoleErrors": []
+    },
+    "encodedFrames": "pending",
+    "seamPlayback": "pending"
+  },
+  "reason": "Encoded-frame QA found movement arrow in wrong direction; v02 corrects marker and state-label readability."
+}

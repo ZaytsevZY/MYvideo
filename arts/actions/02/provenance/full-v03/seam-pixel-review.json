@@ -1,0 +1,14 @@
+{
+  "source": "coded01 reconstruction vs revised02 first frame, both re-encoded in same seam; excludes subtitle wording change",
+  "regions": {
+    "wholeWithoutSubtitles": {
+      "meanAbsoluteRGBDifference": 0.6468152006172839
+    },
+    "agent": {
+      "meanAbsoluteRGBDifference": 1.597172619047619
+    },
+    "tasks": {
+      "meanAbsoluteRGBDifference": 1.2979499632082414
+    }
+  }
+}

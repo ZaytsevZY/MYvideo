@@ -1,6 +1,6 @@
 # 当前制作记录
 
-**版本：** GENERATION_LOG v0.15 · 2026-10-16
+**版本：** GENERATION_LOG v0.18 · 2026-10-16
 **依赖：** [PROJECT_STATE](../PROJECT_STATE.md)、[PRODUCTION_PROTOCOL](../style/PRODUCTION_PROTOCOL.md)。
 
 早期静态阶段已生成四张候选角色设定图、第01章两个背景PNG及30个原生SVG道具／图解组件，并完成四种静态布局检查。该阶段为完整姿态及Codex有限动作预览；当时尚无Remotion工程、光栅动画序列或视频编码。静态素材与动作试验分别登记。
@@ -8,6 +8,31 @@
 旧 `S01-D01` 记录、第一段 Python demo、临时音频和旧正文均在 [本轮归档](../../.tmp/archive-2026-10-15-project-sync/README.md) 中保留；其“候选 demo”结论不继承为当前场景的审核结果。
 
 下一次实际生成、预览或渲染时，按制作协议填写记录。必须区分计划、实际调用和审核通过，记录完整输入、提示词、代码、依赖、命令与输出哈希。
+
+## S02-FULL-V03 · 贴近第01章修订
+
+- 用户要求修改第二章贴近第一章，并先检查再呈现完整版。完整重绘38秒1140帧；01终态SVG直接用于入点，保持采用的PNG、卡片字形和头像尺寸。
+- 移除13秒／27秒整层文字和角色叠化；新增任务采用稳定ID连续移动，入场后不消失或重复新增。原121字符口播未改。
+- Codex修改opening-revised.mjs／full-scene.mjs，新增entry-v03.mjs／build-revision.mjs；模型、imagegen、声音调用均为0，源PNG不改。
+- 1141状态采样、31张代表帧与编码后抽帧、完整解码、30fps时间戳、黑帧、快照／素材哈希核验通过，证据见[full-v03](../../arts/actions/02/provenance/full-v03/verification.json)。渲染后仅更新02镜头文档入口与修订说明，精确渲染快照仍保留，audio未变。
+- 4秒接缝为01代码重绘2秒＋本版02首2秒，原01完整MP4缺失；无配音，03未制作。待用户审阅，本轮不push。旧v0.2视觉缺陷已标记，历史技术检查不等于视觉通过。
+
+## S02-FULL-V02 · 完整第02章38秒
+
+- 用户授权完整制作第二部分、允许复用样片。本轮保留原audio121字符，完成V02.1–V02.3、12镜／38.00秒／1140帧，11条无声字幕；未用户冻结，待配音校时。
+- 前13秒直接复用opening-v02 MP4，以解码帧MD5确认390帧完全一致；新制25秒750帧。编码参数兼容后流复制拼接，检查1140帧连续30fps时间戳、全程解码及黑帧；编码后11张QA帧与交互预览另作目视检查。
+- Codex编写full-scene.mjs／build-full.mjs；外部模型、imagegen和声音调用均为0。只读复用原PNG；新增stage-rest为01合成器使用完整休息绘稿的派生场景。渲染时以内存小纹理和原始RGB背景组合优化，源图不修改，不把派生合成记为模型绘稿。
+- 两方案复用唯一saving-02，A→共同起点→B；真实候选与H02假设任务分开。末段沿用H02-new1/2，区分操作和审核，机器等待不合计人工投入；长度和任务数仅作定性说明。
+- [输入哈希／精确源码快照](../../arts/actions/02/provenance/full-v02/input-manifest.json)、[媒体清单](../../arts/actions/02/exports/02-complete-silent-v02-manifest.json)、[验证](../../arts/actions/02/provenance/full-v02/verification.json)、[镜头表](../../arts/actions/02/provenance/full-v02/chapter-plan.md)与02→03边界记录均已保存。v0.1为内部过程，v0.2统一了任务ID，当前入口为[完整第02章](../../arts/actions/02/README.md)。
+- 01原MP4缺失，既有接缝为01代码重绘，已知入口小跳变仍保留。03未制作，02→03只记提案，未把本章导出记成全片完成。
+
+## S02-OPENING-V01 · 13秒短样片
+
+- 用户批准计划：第02章开头V02.1、13秒、3～4镜，无声字幕预览。实际细化4镜，正文见[制作单](../../arts/actions/02/provenance/opening-v01/chapter-plan.md)。只覆盖本章0–13秒，不代表全章38秒或全片完成。
+- Codex编写原生SVG／JavaScript状态与导出器；外部模型调用0、imagegen调用0、声音调用0。复用01采用的PNG头像／文件／房间／工位／完整姿态；源图未修改，stage为现有合成器派生。
+- 原口播第一自然段逐字保留，5条字幕仅语义排时；已有通过与排期状态不回退。feedback/N02-A/N02-B保留candidate，可行性作为独立属性，两项进入可行区、一项仍搁置。
+- 完整[输入哈希](../../arts/actions/02/provenance/opening-v01/input-manifest.json)、[旧依赖哈希](../../arts/actions/02/provenance/opening-v01/legacy-dependencies.json)、[边界契约](../../arts/actions/02/provenance/opening-v01/boundary-from-01-v01.json)、[验证记录](../../arts/actions/02/provenance/opening-v01/verification.json)与命令／工具版本随产物保存。
+- v0.2已完成13.00秒／390帧／1080p30无声MP4与4秒接缝；代表帧、浏览器、素材哈希／alpha、媒体规格、全程解码、黑帧检测及编码后抽帧检查通过。v01因方向箭头错误淘汰，过程保留；v02修正箭头与状态文字遮挡。01原MP4缺失，接缝重绘原代码最后2秒，不声称对原MP4验证。候选待用户审阅。
 
 ## CHAPTER-PRODUCTION-SKILL-V01 · 制作经验与连续性整理
 

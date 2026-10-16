@@ -1,0 +1,37 @@
+[
+  {
+    "text": "工作量不是固定的存量。",
+    "startMs": 0,
+    "endMs": 2400,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "开发成本下降，",
+    "startMs": 2400,
+    "endMs": 5200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "会改变项目的成本收益边界，",
+    "startMs": 5200,
+    "endMs": 8000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "使一部分原先不值得开展的需求",
+    "startMs": 8000,
+    "endMs": 10300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "变得可行。",
+    "startMs": 10300,
+    "endMs": 13000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

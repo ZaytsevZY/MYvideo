@@ -1,0 +1,383 @@
+{
+  "config": {
+    "version": "S02_FULL v0.3",
+    "duration": 38,
+    "fps": 30,
+    "frames": 1140,
+    "width": 1920,
+    "height": 1080,
+    "globalStartFrame": 1350,
+    "audio": false
+  },
+  "date": "2026-10-16",
+  "inputs": [
+    {
+      "path": "arts/actions/02/full-scene.mjs",
+      "sha256": "c58c352a6f73f9bced8d1986dacc2e86c28f64fedb6e6721914b6585cd7fcbe5",
+      "snapshot": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__02__full-scene.mjs"
+    },
+    {
+      "path": "arts/actions/02/build-revision.mjs",
+      "sha256": "22d88de66bb322bab68d93ed1f4d65b9e965bb52901ff5d2401f48dd7c7f5824",
+      "snapshot": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__02__build-revision.mjs"
+    },
+    {
+      "path": "arts/actions/02/opening-revised.mjs",
+      "sha256": "930bfd52447780ceac05ca424b16b83a944206cf3fed11fefb03bbeef7c8e88b",
+      "snapshot": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__02__opening-revised.mjs"
+    },
+    {
+      "path": "arts/actions/02/entry-v03.mjs",
+      "sha256": "f703c15a3b9a3b18c55f341d3bdd43fecb84895f2deff9f19f23199c3c3525af",
+      "snapshot": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__02__entry-v03.mjs"
+    },
+    {
+      "path": "arts/actions/02/scene.mjs",
+      "sha256": "e433238148db2dc30cba49f81fb9e163a14f96172d052801222dd6fa9abb187a",
+      "snapshot": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__02__scene.mjs"
+    },
+    {
+      "path": "arts/actions/01/camera-motion.mjs",
+      "sha256": "434ec2191c05e357997f0390b363b8ab841a50717191f4dee08a41bdef8789db",
+      "snapshot": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__01__camera-motion.mjs"
+    },
+    {
+      "path": "arts/actions/01/performance.mjs",
+      "sha256": "3405c27ceee06f6999d52a1854efb91a73f7d8e9f2bd118e93368a80b28f5a04",
+      "snapshot": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__01__performance.mjs"
+    },
+    {
+      "path": "arts/actions/01/keyframes.mjs",
+      "sha256": "b026c5bb7341787c9436718a6aa7dc1d6bfe4600d3c276955eac070db0be6451",
+      "snapshot": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__01__keyframes.mjs"
+    },
+    {
+      "path": "arts/characters/rigs/runtime/rig.mjs",
+      "sha256": "ae98a0e315af66887e347471381f315c81cb7ac94c5d808147893246261fce8a",
+      "snapshot": "arts/actions/02/provenance/full-v03/source-snapshot/arts__characters__rigs__runtime__rig.mjs"
+    },
+    {
+      "path": "arts/actions/01/bundle-camera-v01.json",
+      "sha256": "4b6c8ef5834cd865479658ce9353a742636298aa750240fad2741ab26b804892"
+    },
+    {
+      "path": "scripts/final/shot/02.md",
+      "sha256": "58ea77133bd4386e1ad36aa8a94fd0b9243464c15dc79baed6f898c156a4697d",
+      "snapshot": "arts/actions/02/provenance/full-v03/source-snapshot/scripts__final__shot__02.md"
+    },
+    {
+      "path": "scripts/final/shot/03.md",
+      "sha256": "811a77cd1418d7b96b725da2b4464f6b2b3ae3c87c3613316df7f7cbf26d891e",
+      "snapshot": "arts/actions/02/provenance/full-v03/source-snapshot/scripts__final__shot__03.md"
+    },
+    {
+      "path": "scripts/style/STYLE_BIBLE.md",
+      "sha256": "823f68429584a3d32132c439d90364f77fd2a445f4da0f9507fd94a22f97f487",
+      "snapshot": "arts/actions/02/provenance/full-v03/source-snapshot/scripts__style__STYLE_BIBLE.md"
+    },
+    {
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420"
+    },
+    {
+      "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+      "sha256": "20a101697879a0e54da5861532080cede1db7d4cfd7dbbd9dbd7af820d9cfbaa"
+    },
+    {
+      "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+      "sha256": "4e6f1beaf38dd2e02df9f6e3a1943d3815a73d6e0113f2b8531ea7ad6113fc1e"
+    },
+    {
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828"
+    },
+    {
+      "path": "arts/characters/portraits/01/agent-focus-v01.png",
+      "sha256": "2db469f8afaae3bcbb54aa1ec4487f43c8a614bffcf56c85a77dbe15b3703f20"
+    },
+    {
+      "path": "arts/static/01/cursor-v01.svg",
+      "sha256": "8644710ef890d036ffb200a10be9d55e67adc79c20ee18089129261f2a428b05"
+    },
+    {
+      "path": "arts/actions/02/provenance/opening-v02/stage-idle.png",
+      "sha256": "bd40ce09b4584e1f55c35bffeaadd032bea3c3b8b4012695f728711e1ed6eac3"
+    },
+    {
+      "path": "arts/actions/02/provenance/opening-v02/stage-lean.png",
+      "sha256": "1008c45f8c4b334f28cf5fbd754778963a7575b9b88da44d75c72ef20c32e923"
+    },
+    {
+      "path": "arts/items/01/task-document-landscape-v01.png",
+      "sha256": "2c5ecf3f14465c3622b8d2e783c994e8240bebb063dbb8604414923d1cf7c225"
+    },
+    {
+      "path": "arts/items/01/plan-tray-painted-v01.png",
+      "sha256": "5a9d24eb3d6eaf19cd9a7e2fad7f142c7650f2795ff36b8d52afb382fd27d1ca"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v03/stage-rest.png",
+      "sha256": "2493e278870a0695e6de62357fbf2d2130c14957a22a4e03532aec0118d26e28"
+    },
+    {
+      "path": "arts/backgrounds/01/workroom-day-v01.png",
+      "sha256": "45e33124784fffdfd755d27f6ee1b13d06d65261795087e83ec15c74392c50b3"
+    },
+    {
+      "path": "arts/items/01/workstation-painted-v02.png",
+      "sha256": "c05a579cb7d6e3eeefac268c6d122495396b6fbe759d5efbc5cda4c1981a234a"
+    },
+    {
+      "path": "arts/items/01/chair-back-rear-painted-v01.png",
+      "sha256": "c8081c17e825a75dacb7b6f23f21e8d7ed6f76bdffe978eba4bd525aef6071c6"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rest-v01.png",
+      "sha256": "2f7042e7620dc3f31d176036cd3f68246e4f37d595194b79c0d3431282b8bc85"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-idle-v01.png",
+      "sha256": "fbcf2a3125182fc9d7834015378b786a6bdf6187b334bc3d6ecb996d62c6df4c"
+    }
+  ],
+  "registry": {
+    "document-portrait": {
+      "dataUri": "../../items/01/task-document-portrait-v01.png",
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "width": 1086,
+      "height": 1448,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "avatar-programmer-neutral": {
+      "dataUri": "../../characters/portraits/01/programmer-neutral-v01.png",
+      "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "avatar-programmer-focus": {
+      "dataUri": "../../characters/portraits/01/programmer-focus-v01.png",
+      "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "avatar-agent-neutral": {
+      "dataUri": "../../characters/portraits/01/agent-neutral-v01.png",
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "avatar-agent-focus": {
+      "dataUri": "../../characters/portraits/01/agent-focus-v01.png",
+      "path": "arts/characters/portraits/01/agent-focus-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "cursor": {
+      "dataUri": "../../static/01/cursor-v01.svg",
+      "path": "arts/static/01/cursor-v01.svg",
+      "width": 70,
+      "height": 90
+    },
+    "stage": {
+      "path": "arts/actions/02/provenance/opening-v02/stage-idle.png",
+      "width": 1920,
+      "height": 1080
+    },
+    "stage-lean": {
+      "path": "arts/actions/02/provenance/opening-v02/stage-lean.png",
+      "width": 1920,
+      "height": 1080
+    },
+    "document-landscape": {
+      "dataUri": "../../items/01/task-document-landscape-v01.png",
+      "path": "arts/items/01/task-document-landscape-v01.png",
+      "width": 1774,
+      "height": 887,
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "plan-tray": {
+      "dataUri": "../../items/01/plan-tray-painted-v01.png",
+      "path": "arts/items/01/plan-tray-painted-v01.png",
+      "width": 1672,
+      "height": 941,
+      "preserveAspectRatio": "xMidYMid meet",
+      "viewBox": [
+        39,
+        237,
+        1595,
+        445
+      ]
+    },
+    "stage-rest": {
+      "path": "arts/actions/02/provenance/full-v03/stage-rest.png",
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "externalModelCalls": 0,
+  "imageGenerationCalls": 0,
+  "audioGenerationCalls": 0,
+  "output": {
+    "path": "arts/actions/02/exports/02-complete-silent-v03.mp4",
+    "sha256": "fab9a43389975479d89faa325592083286a0ea09a3a49dd60939801a64b49ac5",
+    "bytes": 2056154
+  },
+  "seam": {
+    "path": "arts/actions/02/exports/01-to-02-seam-v03.mp4",
+    "sha256": "4cbe285c26335a50e32b32f157b30f8fd64e742ae0db84528317dc4dc4400c85",
+    "from": "original01 code reconstruction in existing seam-v02; original encoded01MP4 still unavailable"
+  },
+  "commands": [
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "warning",
+      "-nostdin",
+      "-y",
+      "-f",
+      "rawvideo",
+      "-pixel_format",
+      "rgb24",
+      "-video_size",
+      "1920x1080",
+      "-framerate",
+      "30",
+      "-i",
+      "pipe:0",
+      "-an",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "18",
+      "-pix_fmt",
+      "yuv420p",
+      "-frames:v",
+      "1140",
+      "-movflags",
+      "+faststart",
+      "/Users/bytedance/Desktop/zhayi/university/MYvideo/arts/actions/02/exports/02-complete-silent-v03.part.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-y",
+      "-i",
+      "/Users/bytedance/Desktop/zhayi/university/MYvideo/arts/actions/02/exports/01-to-02-seam-v02.mp4",
+      "-i",
+      "/Users/bytedance/Desktop/zhayi/university/MYvideo/arts/actions/02/exports/02-complete-silent-v03.mp4",
+      "-filter_complex",
+      "[0:v]trim=start_frame=0:end_frame=60,setpts=PTS-STARTPTS[a];[1:v]trim=start_frame=0:end_frame=60,setpts=PTS-STARTPTS[b];[a][b]concat=n=2:v=1:a=0[v]",
+      "-map",
+      "[v]",
+      "-an",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "18",
+      "-pix_fmt",
+      "yuv420p",
+      "-r",
+      "30",
+      "-frames:v",
+      "120",
+      "-movflags",
+      "+faststart",
+      "/Users/bytedance/Desktop/zhayi/university/MYvideo/arts/actions/02/exports/01-to-02-seam-v03.mp4"
+    ]
+  ],
+  "versions": {
+    "sharp": {
+      "aom": "3.15.1",
+      "archive": "3.8.9",
+      "cairo": "1.18.6",
+      "cgif": "0.5.4",
+      "exif": "0.6.26",
+      "expat": "2.8.5",
+      "ffi": "3.8.0",
+      "fontconfig": "2.18.3",
+      "freetype": "2.14.3",
+      "fribidi": "1.0.17",
+      "glib": "2.90.0",
+      "harfbuzz": "14.5.0",
+      "heif": "1.23.5",
+      "highway": "1.4.0",
+      "imagequant": "2.4.1",
+      "lcms": "2.19.1",
+      "mozjpeg": "0826579",
+      "pango": "1.58.2",
+      "pixman": "0.46.4",
+      "png": "1.6.58",
+      "proxy-libintl": "0.5",
+      "rsvg": "2.63.2",
+      "tiff": "4.7.2",
+      "uhdr": "2.0.2",
+      "vips": "8.18.7",
+      "webp": "1.6.0",
+      "xml2": "2.15.4",
+      "zlib-ng": "2.3.3",
+      "sharp": "0.35.5"
+    },
+    "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "elapsedSeconds": 21.379,
+  "checks": {
+    "fullDecode": true,
+    "monotonic30fpsTimestamps": true,
+    "blackFrames": false,
+    "first13SecondsRerenderedForEntryFix": true,
+    "persistentNewTaskCards": true,
+    "singleActorLayer": true
+  },
+  "qaTimes": [
+    0,
+    0.4,
+    1.2,
+    2.4,
+    7.2,
+    12.966667,
+    13,
+    13.3,
+    13.65,
+    13.9,
+    14.1,
+    14.3,
+    15.4,
+    17.4,
+    18.7,
+    19.2,
+    19.59,
+    20,
+    21.39,
+    24.5,
+    26.966667,
+    27,
+    27.3,
+    27.6,
+    27.9,
+    28.2,
+    29.5,
+    30.9,
+    33.7,
+    35.5,
+    37.966667
+  ],
+  "captionTiming": "provisional semantic timing; no recorded narration; full121 characters preserved",
+  "postRenderDocumentationUpdates": [
+    {
+      "path": "scripts/final/shot/02.md",
+      "renderSnapshotSha256": "58ea77133bd4386e1ad36aa8a94fd0b9243464c15dc79baed6f898c156a4697d",
+      "currentSha256": "6d98701a7bc71cbbbe88f2bccead1fa8d6ca341499666830dfd8d55cbe5468b3",
+      "scope": "Current production-plan link and revision description only; audio content unchanged."
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "status": "revised_candidate_verified_pending_user_review",
+  "checks": {
+    "samples": 1141,
+    "narrationVerbatim": true,
+    "cues": 11,
+    "captionCoverageMs": 38000,
+    "singleSavingToken": true,
+    "resetBeforeB": true,
+    "hypotheticalTasksIsolated": true,
+    "inheritedStatesPreserved": true,
+    "comparisonContracts": true,
+    "fullDecode": true,
+    "monotonic30fpsTimestamps": true,
+    "blackFrames": false,
+    "first13SecondsRerenderedForEntryFix": true,
+    "persistentNewTaskCards": true,
+    "singleActorLayer": true,
+    "allRenderSnapshotsMatch": true,
+    "currentExecutableAndAssetInputsMatch": true,
+    "postRenderDocumentationOnlyChangeRecorded": true,
+    "encodedRepresentativeFramesReviewed": 31,
+    "entrySvgMatchesChapter01End": true,
+    "noWholeSceneTextCrossfades": true,
+    "newTaskIdsRemainVisibleAfterArrival": true
+  },
+  "stills": [
+    {
+      "time": 0,
+      "path": "arts/actions/02/provenance/full-v03/frame-00.png",
+      "sha256": "b0287a9d215da9cf2c1bbd8f48a024007192b6283bce6a30a2f14cf4cf1effec"
+    },
+    {
+      "time": 0.4,
+      "path": "arts/actions/02/provenance/full-v03/frame-01.png",
+      "sha256": "b0287a9d215da9cf2c1bbd8f48a024007192b6283bce6a30a2f14cf4cf1effec"
+    },
+    {
+      "time": 1.2,
+      "path": "arts/actions/02/provenance/full-v03/frame-02.png",
+      "sha256": "99f646f5aa4b4569d62d65525426481ff71db11290428f0c4b66d7a610e537ac"
+    },
+    {
+      "time": 2.4,
+      "path": "arts/actions/02/provenance/full-v03/frame-03.png",
+      "sha256": "dce23e26ba4c10a54070c2cee51303fa80af247e739fccde138fb447248208fd"
+    },
+    {
+      "time": 7.2,
+      "path": "arts/actions/02/provenance/full-v03/frame-04.png",
+      "sha256": "425d0fab5fee3655b9b2f98758b8dfe6d97414212f3ba6b4317e68eec1813b33"
+    },
+    {
+      "time": 12.966667,
+      "path": "arts/actions/02/provenance/full-v03/frame-05.png",
+      "sha256": "0c0120df5e83164de001d2eb6d728fb67162e2983873a247ee09e01ad3a34af3"
+    },
+    {
+      "time": 13,
+      "path": "arts/actions/02/provenance/full-v03/frame-06.png",
+      "sha256": "7c338ae97ec03209a5935e64dd09820b92dccbb52f4f6a1f1cea1e4d7d214e68"
+    },
+    {
+      "time": 13.3,
+      "path": "arts/actions/02/provenance/full-v03/frame-07.png",
+      "sha256": "090a1f8f24cd9f2fc8dcbd815285d4f7a1e7f42bb46c23e74524ffa8613559ee"
+    },
+    {
+      "time": 13.65,
+      "path": "arts/actions/02/provenance/full-v03/frame-08.png",
+      "sha256": "6225738dd03a486efa811192b8f01c1fab48a982db7c63ac592c396f493f8123"
+    },
+    {
+      "time": 13.9,
+      "path": "arts/actions/02/provenance/full-v03/frame-09.png",
+      "sha256": "5263a23a1293c2ce552f18209d003eee597e212e63a4a2f2bc612d1627d9a61e"
+    },
+    {
+      "time": 14.1,
+      "path": "arts/actions/02/provenance/full-v03/frame-10.png",
+      "sha256": "70f9d6aae4ba8552b60781fc0e400b92e8f656cad16a85fce280eb5511465184"
+    },
+    {
+      "time": 14.3,
+      "path": "arts/actions/02/provenance/full-v03/frame-11.png",
+      "sha256": "cb08d8d9fe6b837713c442caf433f5822bfe5433474d691d915d28b6ea24543a"
+    },
+    {
+      "time": 15.4,
+      "path": "arts/actions/02/provenance/full-v03/frame-12.png",
+      "sha256": "e15d2c08386a73418d180c20b56ff07fe0da195a476096afe91066d44339f192"
+    },
+    {
+      "time": 17.4,
+      "path": "arts/actions/02/provenance/full-v03/frame-13.png",
+      "sha256": "f1347f3031a5bcdcf64811899352db1e776fda551e989402ed3d60c96513f6e8"
+    },
+    {
+      "time": 18.7,
+      "path": "arts/actions/02/provenance/full-v03/frame-14.png",
+      "sha256": "bc2508ab5c977cded2203d98ad9e53a32c2e95850fcdf85315e935e995fbf60d"
+    },
+    {
+      "time": 19.2,
+      "path": "arts/actions/02/provenance/full-v03/frame-15.png",
+      "sha256": "1ecc41c4bbe50457e390c30a33b4962b78a129d625fe1daea1719895db54444d"
+    },
+    {
+      "time": 19.59,
+      "path": "arts/actions/02/provenance/full-v03/frame-16.png",
+      "sha256": "e1392a29586300b9d26501905a570b947fe06582adf7cc22063b5b6afaafcbbd"
+    },
+    {
+      "time": 20,
+      "path": "arts/actions/02/provenance/full-v03/frame-17.png",
+      "sha256": "84659661519e0c2ab3c43688ea5a8dd7a64b0352ae1e0dda7192b933f267d112"
+    },
+    {
+      "time": 21.39,
+      "path": "arts/actions/02/provenance/full-v03/frame-18.png",
+      "sha256": "394e4b5814031a68f9f0dcd87e0cfe6bd1a81afa50c96d80abefc299b5f6d0ae"
+    },
+    {
+      "time": 24.5,
+      "path": "arts/actions/02/provenance/full-v03/frame-19.png",
+      "sha256": "0b5dcf0562db63429e3da19ecb735c09ae31cfd580448b2a67521fa207f44c75"
+    },
+    {
+      "time": 26.966667,
+      "path": "arts/actions/02/provenance/full-v03/frame-20.png",
+      "sha256": "0b5dcf0562db63429e3da19ecb735c09ae31cfd580448b2a67521fa207f44c75"
+    },
+    {
+      "time": 27,
+      "path": "arts/actions/02/provenance/full-v03/frame-21.png",
+      "sha256": "8cf8be2648356ec2a3e7273ccec9c0d63dd27a181d450a1e6a6df90077905b5b"
+    },
+    {
+      "time": 27.3,
+      "path": "arts/actions/02/provenance/full-v03/frame-22.png",
+      "sha256": "c42b4775301ded50a07eb98a478fd4d15ea8d7d9bec139fa1669be3c22da370d"
+    },
+    {
+      "time": 27.6,
+      "path": "arts/actions/02/provenance/full-v03/frame-23.png",
+      "sha256": "7d3daf0ff72e914683e20d2885dca404bb2d5b57b0bb434e20255be9eadc8976"
+    },
+    {
+      "time": 27.9,
+      "path": "arts/actions/02/provenance/full-v03/frame-24.png",
+      "sha256": "07373ab2da9ca020d672f0eca03997512fefee9015c8e80615ffc45b1d3e2ddf"
+    },
+    {
+      "time": 28.2,
+      "path": "arts/actions/02/provenance/full-v03/frame-25.png",
+      "sha256": "786842b696477fee73450501ddf4c7b89c03c1a0669780ff0e97d231f57146d5"
+    },
+    {
+      "time": 29.5,
+      "path": "arts/actions/02/provenance/full-v03/frame-26.png",
+      "sha256": "234a062620d4bb31cd762c52288ff1c0b2fa567d3e8071a5204fc68a4e490dfb"
+    },
+    {
+      "time": 30.9,
+      "path": "arts/actions/02/provenance/full-v03/frame-27.png",
+      "sha256": "a098861f464c78add9b3450b2c7e4d66bc4f3cd6f51cc2bf1f9b67499673d4fc"
+    },
+    {
+      "time": 33.7,
+      "path": "arts/actions/02/provenance/full-v03/frame-28.png",
+      "sha256": "aa0f9c97d002fbd6835a299361a1a1f43363c7a0b990238a69e40dd7647e2904"
+    },
+    {
+      "time": 35.5,
+      "path": "arts/actions/02/provenance/full-v03/frame-29.png",
+      "sha256": "f1c2ec5a5a48eceeda35074031605911576188dbe0e160de1ef16953b14fecda"
+    },
+    {
+      "time": 37.966667,
+      "path": "arts/actions/02/provenance/full-v03/frame-30.png",
+      "sha256": "f1c2ec5a5a48eceeda35074031605911576188dbe0e160de1ef16953b14fecda"
+    }
+  ],
+  "media": {
+    "version": "S02_FULL v0.3",
+    "duration": 38,
+    "fps": 30,
+    "frames": 1140,
+    "width": 1920,
+    "height": 1080,
+    "globalStartFrame": 1350,
+    "audio": false
+  },
+  "seamReview": {
+    "source": "coded01 reconstruction vs revised02 first frame, both re-encoded in same seam; excludes subtitle wording change",
+    "regions": {
+      "wholeWithoutSubtitles": {
+        "meanAbsoluteRGBDifference": 0.6468152006172839
+      },
+      "agent": {
+        "meanAbsoluteRGBDifference": 1.597172619047619
+      },
+      "tasks": {
+        "meanAbsoluteRGBDifference": 1.2979499632082414
+      }
+    }
+  },
+  "limitations": [
+    "No recorded narration; subtitle timing provisional.",
+    "Original encoded chapter01 MP4 unavailable; seam uses source reconstruction.",
+    "Chapter03 not produced; outgoing seam is proposal."
+  ],
+  "outputs": {
+    "video": {
+      "path": "arts/actions/02/exports/02-complete-silent-v03.mp4",
+      "sha256": "fab9a43389975479d89faa325592083286a0ea09a3a49dd60939801a64b49ac5",
+      "bytes": 2056154
+    },
+    "seam": {
+      "path": "arts/actions/02/exports/01-to-02-seam-v03.mp4",
+      "sha256": "4cbe285c26335a50e32b32f157b30f8fd64e742ae0db84528317dc4dc4400c85",
+      "from": "original01 code reconstruction in existing seam-v02; original encoded01MP4 still unavailable"
+    }
+  },
+  "browserPlayback": {
+    "checked": true,
+    "duration": 38,
+    "width": 1920,
+    "height": 1080,
+    "observedPlaybackTime": 28.65552,
+    "mediaError": null,
+    "consoleErrors": [],
+    "scope": "Actual revised MP4 browser playback observed; complete decode separately checked."
+  }
+}

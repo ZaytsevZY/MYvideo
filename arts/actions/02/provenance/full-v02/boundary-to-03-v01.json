@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1",
+  "status": "outgoing_rendered_incoming_proposed",
+  "fromChapter": "02",
+  "toChapter": "03",
+  "versions": {
+    "from": "S02_FULL v0.2",
+    "to": "SHOT_TEXT v0.4 only; not rendered",
+    "style": "STYLE_BIBLE v0.11"
+  },
+  "narrative": {
+    "outgoingQuestionOrResult": "单项任务耗时缩短，总劳动投入仍取决于任务规模。",
+    "incomingExplanation": "在以工时组织的雇佣劳动中，清单完成和约定工作时段结束有别。",
+    "handoffObjectId": "H02-new1/H02-new2 + human-input-band",
+    "outgoingSentenceIds": [
+      "02-audio-last"
+    ],
+    "incomingSentenceIds": [
+      "03-audio-first"
+    ]
+  },
+  "timeline": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "fromGlobalStartFrame": 1350,
+    "fromFrameCount": 1140,
+    "toGlobalStartFrame": 2490,
+    "toFrameCount": 1170,
+    "fromLastEncodedLocalFrame": 1139,
+    "fromDiagnosticEndpointStatePath": "arts/actions/02/provenance/full-v02/scene-states.json",
+    "transitionType": "proposed graphic match: task set and human-input band into explicit work-period frame",
+    "transitionFrameOwnership": "within03 budget; not implemented",
+    "overlapFrames": 0
+  },
+  "outgoingState": {
+    "scene": "daytime room; candidate pool at upper-left; workstation inset lower-left; quantitative-free diagram on right",
+    "lighting": "day",
+    "cameraAndAxis": "fixed screen-space diagram; original workstation axis preserved",
+    "coordinateSpace": "1920x1080 screen pixels",
+    "actors": [
+      {
+        "id": "programmer",
+        "pose": "programmer-input",
+        "inset": "lower-left",
+        "avatarRect": [
+          1640,
+          580,
+          140,
+          140
+        ]
+      },
+      {
+        "id": "agent",
+        "pose": "agent-idle",
+        "inset": "right of workstation",
+        "avatarRect": [
+          1640,
+          300,
+          140,
+          140
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "id": "human-input-band",
+        "rect": [
+          940,
+          790,
+          440,
+          35
+        ],
+        "meaning": "qualitative total human operation plus review; not clock time or measured duration"
+      },
+      {
+        "id": "H02-new1",
+        "status": "scheduled",
+        "scenario": "hypotheticalB",
+        "documentCenter": [
+          1335,
+          563
+        ]
+      },
+      {
+        "id": "H02-new2",
+        "status": "scheduled",
+        "scenario": "hypotheticalB",
+        "documentCenter": [
+          1535,
+          563
+        ]
+      }
+    ],
+    "taskStates": {
+      "T00": "accepted",
+      "T01": "accepted",
+      "T01-R": "merged",
+      "test": "scheduled",
+      "interface": "scheduled",
+      "feature": "scheduled",
+      "docs": "scheduled",
+      "perf": "scheduled",
+      "compat": "scheduled",
+      "migrate": "scheduled",
+      "feedback": "candidate",
+      "N02-A": "candidate",
+      "N02-B": "candidate"
+    },
+    "layerOrder": [
+      "room and complete workstation inset",
+      "local diagram backdrops",
+      "task files and operation/review bars",
+      "avatars and action feedback",
+      "screen-space captions"
+    ],
+    "outgoingCaption": "总劳动投入仍取决于任务规模。",
+    "audioPresent": false
+  },
+  "incomingPlan": {
+    "shotId": "V03.1 proposed",
+    "retain": [
+      "hypothetical task set with stable IDs",
+      "manual review node",
+      "human input band as handoff shape"
+    ],
+    "transform": [
+      "explicitly introduce contracted work-period coordinate system; do not relabel operation bar as clock duration",
+      "complete tasks only after human review; preserve inherited01 accepted/scheduled states"
+    ],
+    "introduce": [
+      "work-period frame and explicit boundary",
+      "remaining agreed interval separate from free time"
+    ],
+    "removeWithReason": [
+      {
+        "id": "candidate side graph",
+        "reason": "may exit after new contracted-work frame established"
+      }
+    ],
+    "firstCaption": "在以工时组织的雇佣劳动中，"
+  },
+  "evidence": {
+    "fromVideoPath": "arts/actions/02/exports/02-complete-silent-v02.mp4",
+    "fromVideoSha256": "906a7fc36090cfd46706c1729dbe4f62560f2aafde143302243c2e843f84a2fa",
+    "fromLastFramePath": "arts/actions/02/provenance/full-v02/encoded-10.png",
+    "fromStatePath": "arts/actions/02/provenance/full-v02/scene-states.json",
+    "toFirstFramePath": null,
+    "seamPreviewPath": null,
+    "verified": false,
+    "verifiedAt": null,
+    "checks": [
+      "02 last encoded frame reviewed",
+      "03 source paragraph read; no03 rendered output"
+    ]
+  },
+  "openIssues": [
+    "03 not produced, seam not tested",
+    "03 duration1170frames remains provisional budget, not measured output",
+    "no voice alignment",
+    "avoid converting hypotheticalB scheduled tasks to accepted at cut without visible review",
+    "qualitative human input bar is not automatically a contracted clock-time bar"
+  ]
+}
