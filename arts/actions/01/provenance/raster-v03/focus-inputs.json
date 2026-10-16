@@ -1,0 +1,20 @@
+[
+  {
+    "id": "avatar-programmer-focus",
+    "dest": "arts/characters/portraits/01/programmer-focus-v01.png",
+    "refs": [
+      "arts/characters/portraits/01/programmer-neutral-v01.png"
+    ],
+    "prompt": "Edit target: the referenced transparent programmer head-and-shoulders portrait. Produce ONE alternate expression cel with EXACT same square1254x1254 composition, hair silhouette, shoulder contour, neck, clothing, face position and rendering. Change ONLY eyes/eyebrows/mouth: gaze angled slightly downward to inspect a task, eyebrows drawn inward very slightly, thoughtful small closed mouth; focused and mildly tired, not angry. Preserve identity, fine anime linework, subtle cel shading, transparent background. No new objects or text, no circle frame, no restyling, no recrop, no body/head motion. This will switch with the neutral portrait at the exact same screen coordinates.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-1656f1ef-7138-42bf-8b53-9fec6288a886.png"
+  },
+  {
+    "id": "avatar-agent-focus",
+    "dest": "arts/characters/portraits/01/agent-focus-v01.png",
+    "refs": [
+      "arts/characters/portraits/01/agent-neutral-v01.png"
+    ],
+    "prompt": "Edit target: the referenced transparent orange-haired Agent head-and-shoulders portrait. Produce ONE alternate thinking expression cel with EXACT same square1254x1254 composition, head tilt, hair silhouette, star clip, shoulder contour, neck and clothing. Change ONLY eyes/eyebrows/mouth: amber pupils look down toward a held task, slightly intent brows, small neutral closed mouth, focused rather than smiling. Preserve adult identity, fine anime linework, subtle cel shading, WHITE eight-point star hairclip, transparent background. No paper or hands or symbols or text, no circle frame, no recrop/restyling, no head/body movement. Alternate cel must align with the original at the same coordinates.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-1bc76cac-5c58-42bd-8b9c-eb0fa2df7660.png"
+  }
+]

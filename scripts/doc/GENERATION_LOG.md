@@ -1,13 +1,21 @@
 # 当前制作记录
 
-**版本：** GENERATION_LOG v0.11 · 2026-10-16
+**版本：** GENERATION_LOG v0.14 · 2026-10-16
 **依赖：** [PROJECT_STATE](../PROJECT_STATE.md)、[PRODUCTION_PROTOCOL](../style/PRODUCTION_PROTOCOL.md)。
 
-当前已生成四张候选角色设定图、第01章两个背景PNG及30个原生SVG道具／图解组件，并完成四种静态布局检查。01现有完整姿态及Codex有限动作预览；尚无Remotion工程、光栅动画序列或视频编码。静态素材与动作试验分别登记。
+早期静态阶段已生成四张候选角色设定图、第01章两个背景PNG及30个原生SVG道具／图解组件，并完成四种静态布局检查。该阶段为完整姿态及Codex有限动作预览；当时尚无Remotion工程、光栅动画序列或视频编码。静态素材与动作试验分别登记。
 
 旧 `S01-D01` 记录、第一段 Python demo、临时音频和旧正文均在 [本轮归档](../../.tmp/archive-2026-10-15-project-sync/README.md) 中保留；其“候选 demo”结论不继承为当前场景的审核结果。
 
 下一次实际生成、预览或渲染时，按制作协议填写记录。必须区分计划、实际调用和审核通过，记录完整输入、提示词、代码、依赖、命令与输出哈希。
+
+## S01-SILENT-CAPTION-V01 · 当前45秒字幕视频
+
+- 2026-10-16，用户授权添加口播字幕，bake完整45秒且不加配音和音效。沿用SHOT_TEXT v0.4／S01_CAMERA v0.3及PNG演出，预览更新v0.4；本轮无Claude、imagegen或其他生成模型调用。
+- 原155字符口播未改；14个连续语义字幕以Caption JSON为源，派生SRT／VTT，烧录到底部画面。尚未配音，时间为暂定；没有识别置信度或语音对齐结果。
+- 当前无Remotion工程。本次Codex编写原生SVG逐帧导出，sharp 0.35.5／librsvg 2.63.2／FFmpeg 8.0；H.264 libx264、medium、CRF18、yuv420p、faststart、-an，流式编码，保留5张QA源帧。
+- 实际产物：[01-captioned-silent-v01.mp4](../../arts/actions/01/exports/01-captioned-silent-v01.mp4)，1920×1080、30fps、1350帧、45.00秒，6,968,085字节，SHA-256 c7d4caba123034b39880a86688c1ee725218523c220125b88b5d5ebdb085b0c8。编码耗时约601.4秒；字幕烧录，无音频流。
+- 检查：13项原动作测试＋3项字幕测试通过，口播完整、字幕连续、位置不越界；全视频解码1350帧无错误，编码后0／26.5／44.967秒抽帧目视清晰。实际命令、源哈希、字体、依赖及探测结果在[exports](../../arts/actions/01/exports/README.md)与[验证记录](../../arts/actions/01/provenance/subtitles-v01/verification.json)。候选未冻结，六章全片尚未完成。
 
 ## CHAR-V01 · 候选角色设定
 
@@ -106,3 +114,17 @@
 - 新增动态模块／构图／状态采样以[CAMERA_PREVIEW](../../arts/actions/01/CAMERA_PREVIEW.md)和manifest-camera-v01.json为准。24姿态、12镜／45秒、1351条30fps状态；原whole模块、keyframes、bake-whole与旧素材包保留，PNG源像素未改。T01-R先人工复核再通过，三类新增任务仍未验收。
 - 8项测试通过，覆盖边界、确定性、尺寸、1351状态引用与有限数值、单人物／飞行文件、人工选择／验收时序、终点与旧项可见、推近细度。离线渲染12张代表图和总览；浏览器加载全部素材，观察完整45秒至结尾，检查近景、验收、站立、结尾及旧A01动作，控制台无错误。实际截图留在同一provenance目录。
 - 本机预览服务为127.0.0.1:8765，浏览器tab保留为交付。检查不等于逐帧艺术审核或配音对轴；无声音、MP4或Remotion正式工程，口播与引用未改。
+
+## 2026-10-16 · S01_PERFORMANCE v0.2 · 候选预览
+
+用户要求四项动效／视觉叙事修订，按S01_CAMERA v0.3更新。一次claude-opus-5-5、effort low、英文prompt、无tools/MCP，276539ms完成，无重试。完整prompt、原始JSONL、result与原始performance模块保存于arts/actions/01/provenance/performance-v02。Codex修正初始文件边界空引用、层序与头像避让、字号和纸张形态，接入camera与baker；12项节点检查、1351状态及12镜离线代表图通过，浏览器关键片段检查。测试不代表艺术冻结。
+
+一次内置image_gen.imagegen编辑原正面中性绘稿，新增疲惫闭眼完整上半身；真实alpha、1153×1364，原始像素直接复制。最终路径arts/characters/poses/01/programmer-front-fatigue-v01.png，完整prompt与来源见同目录prompts/programmer-front-fatigue-v01.json，哈希见manifest-performance-v01.json。底层生图模型标识未暴露。头像／文件／反馈为可编辑原生SVG代码。
+
+无新配音／音效、Remotion工程或MP4；1351条为状态采样而非新绘制动画帧。口播155字符及全片840字符未改。旧whole模块与源PNG保留。后续按用户视觉审阅调整，再做配音校时。
+
+## 2026-10-16 · S01_RASTER_ASSETS v0.1 · 主体素材重绘候选
+
+用户要求用图像模型细化SVG主体并统一线条和透视。内置image_gen.imagegen共11次调用：四张头像、横竖纸张、托盘、工位首稿／对位修订稿、椅背、显示器背壳。当前采用10项PNG，工位首稿仅作过程保留；底层模型标识未暴露。全部实际prompt和引用逐字保存在arts/characters/portraits/01/prompts及arts/items/01/prompts，来源、实际尺寸、alpha及SHA-256见arts/static/01/raster-assets-manifest-v01.json。源PNG直接复制；托盘和显示器背壳的viewBox只去除透明布局留白，无源像素编辑。
+
+Codex接入camera／performance／baker，保留可编辑文字与动作反馈；工位整体修正桌面高度及键盘宽度，屏幕内容与审核坐标重新对位，小窗复用同一套工位。13项节点检查、1351采样和12镜代表图通过；浏览器核对工位、审核和头像搬运。未调用Claude、未配音／导出视频、未用户冻结。

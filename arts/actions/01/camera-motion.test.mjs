@@ -75,3 +75,53 @@ test('the opening push uses many distinct rendered scale values rather than coar
  }
  assert.ok(scales.size>50,'opening push is visibly quantized');
 });
+test('thinking feedback stops at result generation, including when scrubbing backwards',()=>{
+ const draw=t=>drawCameraScene(sampleCameraScene(t),bundle);
+ assert.match(draw(10.8),/data-agent-thinking="loading"/);
+ assert.doesNotMatch(draw(11.3),/data-agent-thinking="loading"/);
+ assert.match(draw(11.3),/data-agent-thinking="feedback"/);
+ assert.match(draw(7),/data-agent-thinking="loading"/);
+ assert.notEqual(draw(10.4),draw(10.5));
+});
+test('opening includes a drawn blink and a brief pose buffer, not two overlaid bodies',()=>{
+ assert.equal(sampleCameraScene(1.75).programmer.id,'programmer-front-fatigue');
+ assert.equal(sampleCameraScene(1.5).programmer.id,'programmer-front-neutral');
+ assert.match(drawCameraScene(sampleCameraScene(3.03),bundle),/data-motion="pose-buffer"/);
+ assert.doesNotMatch(drawCameraScene(sampleCameraScene(3.2),bundle),/data-motion="pose-buffer"/);
+ assert.deepEqual([bundle.poses['programmer-front-fatigue'].width,bundle.poses['programmer-front-fatigue'].height],[1153,1364]);
+});
+test('logic scenes use acting avatars and a changing workstation vignette without slide disclaimers',()=>{
+ for(const t of [18,21.5,26.5,32,39,43]){
+  const svg=drawCameraScene(sampleCameraScene(t),bundle);
+  assert.match(svg,/data-avatar="agent"/);
+  assert.match(svg,/data-layer="vignette"/);
+  assert.doesNotMatch(svg,/示意|实测时长|人工操作与机器执行|人的项目清单/);
+  assert.doesNotMatch(svg,/href="#pose-programmer-logic-stand-right"/);
+ }
+ const pose=t=>drawCameraScene(sampleCameraScene(t),bundle).match(/data-pose="(programmer-[^"]+)"/)[1];
+ assert.notEqual(pose(34.4),pose(36));
+});
+
+test('final hold stops camera, carrier and vignette after 44.2 seconds',()=>{
+ assert.equal(drawCameraScene(sampleCameraScene(44.25),bundle),drawCameraScene(sampleCameraScene(45),bundle));
+});
+test('painted assets are genuine native-aspect PNGs and replace the old visible geometric subjects',()=>{
+ const manifest=JSON.parse(fs.readFileSync(new URL('../../static/01/raster-assets-manifest-v01.json',import.meta.url)));
+ assert.equal(manifest.assets.length,10);
+ const defs=cameraDefinitions(bundle);
+ for(const a of manifest.assets){
+  const bytes=fs.readFileSync(new URL('../../../'+a.path,import.meta.url));
+  assert.equal(bytes.subarray(0,8).toString('hex'),'89504e470d0a1a0a');
+  assert.deepEqual([bytes.readUInt32BE(16),bytes.readUInt32BE(20)],a.size);
+  assert.equal(a.alpha,true);
+  assert.equal(bundle.assets[a.id].preserveAspectRatio,'xMidYMid meet');
+  assert.match(defs,new RegExp('id="asset-'+a.id+'"[^>]*preserveAspectRatio="xMidYMid meet"'));
+ }
+ const rear=drawCameraScene(sampleCameraScene(6.5),bundle),logic=drawCameraScene(sampleCameraScene(26.5),bundle);
+ assert.match(rear,/#asset-workstation-painted/);
+ assert.doesNotMatch(rear,/#asset-(?:desk-lamp|keyboard|mouse|monitor-frame|desk-surface|desk-legs|chair-back-rear)"/);
+ assert.match(logic,/#asset-avatar-programmer-neutral/);
+ assert.match(logic,/#asset-avatar-agent-focus/);
+ assert.match(logic,/#asset-document-landscape/);
+ assert.match(logic,/#asset-plan-tray/);
+});

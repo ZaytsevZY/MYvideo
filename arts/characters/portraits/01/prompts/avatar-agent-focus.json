@@ -1,0 +1,9 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "transparent_background": true,
+  "prompt": "Edit target: the referenced transparent orange-haired Agent head-and-shoulders portrait. Produce ONE alternate thinking expression cel with EXACT same square1254x1254 composition, head tilt, hair silhouette, star clip, shoulder contour, neck and clothing. Change ONLY eyes/eyebrows/mouth: amber pupils look down toward a held task, slightly intent brows, small neutral closed mouth, focused rather than smiling. Preserve adult identity, fine anime linework, subtle cel shading, WHITE eight-point star hairclip, transparent background. No paper or hands or symbols or text, no circle frame, no recrop/restyling, no head/body movement. Alternate cel must align with the original at the same coordinates.",
+  "references": [
+    "arts/characters/portraits/01/agent-neutral-v01.png"
+  ],
+  "destination": "arts/characters/portraits/01/agent-focus-v01.png"
+}

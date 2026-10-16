@@ -1,0 +1,105 @@
+--- arts/actions/01/provenance/raster-v03/performance-before.mjs
++++ arts/actions/01/performance.mjs
+@@ -34,11 +34,8 @@
+  return `<path d="${d}" stroke="${color}" stroke-width="4" stroke-linecap="round" opacity="${fmt(1-u)}"/>`;
+ }
+ const check=(x,y,s=1)=>`<g transform="translate(${fmt(x)} ${fmt(y)}) scale(${fmt(s)})"><circle r="14" fill="${GREEN}" stroke="${INK}" stroke-width="2"/><path d="M-6 0L-2 5L7 -5" stroke="${PAPER}" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>`;
+-function icon(kind,x,y){
+- const st=`fill="none" stroke="${INK}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"`;
+- const d=kind==='test'?'M-5 -10H5M-3 -10V-2L-9 9H9L3 -2V-10':kind==='ui'?'M-10 -8H10V8H-10ZM-10 -3H10':kind==='pause'?'M-5 -8V8M5 -8V8':'M-8 -6H8M-8 0H8M-8 6H4';
+- return `<path transform="translate(${fmt(x)} ${fmt(y)})" d="${d}" ${st}/>`;
+-}
++// Painted subjects retain native aspect; only labels and action/status marks remain procedural.
++const raster=(id,x,y,w,h,opacity=1)=>`<use href="#asset-${id}" x="${fmt(x)}" y="${fmt(y)}" width="${fmt(w)}" height="${fmt(h)}" opacity="${fmt(opacity)}"/>`;
+ function smear(p,prev,cx,cy){
+  if(!p||!prev)return '';
+  const dx=p.x-prev.x,dy=p.y-prev.y,l=Math.hypot(dx,dy);if(l<3)return '';
+@@ -46,23 +43,18 @@
+  for(const k of [-14,0,14])d+=`M${fmt(cx-ux*(24+len)-uy*k)} ${fmt(cy-uy*(24+len)+ux*k)}L${fmt(cx-ux*24-uy*k)} ${fmt(cy-uy*24+ux*k)}`;
+  return `<path d="${d}" stroke="${INK}" stroke-width="5" stroke-linecap="round" opacity=".35" />`;
+ }
+-function paperDoc({x,y,w=190,h=96,rot=0,label,state,id,human=false,ok=false,ico}){
+- const stroke=state==='candidate'?'#8A929B':state==='selected'||state==='partial'||state==='rework'||state==='awaiting-review'?ORANGE:state==='scheduled'?BLUE:state==='accepted'||state==='approved'?GREEN:INK;
++function paperDoc({x,y,w=190,h=96,rot=0,label,state,id,human=false,ok=false}){
++ const p=clamp((h-96)/84),mark=state==='candidate'?'#8A929B':state==='selected'||state==='partial'||state==='rework'||state==='awaiting-review'?ORANGE:state==='scheduled'?BLUE:GREEN;
+  return `<g data-task="${id}" data-state="${state}"${human?' data-source="human"':''} transform="translate(${fmt(x)} ${fmt(y)}) rotate(${fmt(rot)} ${fmt(w/2)} ${fmt(h/2)})">`
+-  +`<path d="M0 0H${fmt(w-18)}L${fmt(w)} 18V${fmt(h)}H0Z" fill="${PAPER}" stroke="${stroke}" stroke-width="3"${state==='candidate'?' stroke-dasharray="9 6"':''}/>`
+-  +`<path d="M${fmt(w-18)} 0V18H${fmt(w)}" fill="none" stroke="${stroke}" stroke-width="2"/>`
+-  +(state==='partial'?`<path d="M3 ${fmt(h-9)}H${fmt(w*.5)}V${fmt(h-3)}H3Z" fill="${ORANGE}"/>`:'')
+-  +(h>130?'<g transform="translate('+fmt(w/2)+' 54) scale(2.1)">'+icon(ico||'doc',0,0)+'</g>'+txt(w/2,h-28,label,36):icon(ico||'doc',24,h/2)+txt(w/2+12,h/2+10,label,30))
+-  +(human?`<circle cx="${fmt(w-14)}" cy="${fmt(h-14)}" r="6" fill="${BLUE}"/>`:'')+(ok?check(w-4,-2):'')+'</g>';
++  +raster('document-landscape',0,0,w,h,1-p)+raster('document-portrait',0,0,w,h,p)
++  +txt(w/2,lerp(h*.59,h-30,p),label,lerp(30,36,p))
++  +(state==='candidate'?`<path d="M${fmt(w*.2)} ${fmt(h-10)}H${fmt(w*.8)}" stroke="${mark}" stroke-width="2" stroke-dasharray="5 5"/>`:`<circle cx="${fmt(w*.82)}" cy="${fmt(h*.18)}" r="5" fill="${mark}"/>`)
++  +(state==='partial'?`<path d="M${fmt(w*.2)} ${fmt(h-12)}H${fmt(w*.5)}" stroke="${ORANGE}" stroke-width="4" stroke-linecap="round"/>`:'')
++  +(human?`<circle cx="${fmt(w*.8)}" cy="${fmt(h*.8)}" r="5" fill="${BLUE}"/>`:'')+(ok?check(w*.83,h*.12):'')+'</g>';
+ }
+ function avatar(kind,x,y,s=1,mood=''){
+- const eyes=kind==='human'?(mood==='focus'?`<path d="M-14 5H-6M6 5H14" stroke="${INK}" stroke-width="3" stroke-linecap="round"/>`:`<ellipse cx="-10" cy="5" rx="3" ry="4" fill="${INK}"/><ellipse cx="10" cy="5" rx="3" ry="4" fill="${INK}"/>`)
+-  :[-10,10].map(ex=>`<circle cx="${ex}" cy="7" r="5" fill="#D79A2B" stroke="${INK}" stroke-width="1.5"/><circle cx="${ex}" cy="${mood==='think'?4:7}" r="2" fill="${INK}"/>`).join('');
+- const mouth=`<path d="${mood==='happy'?'M-7 16Q0 22 7 16':mood==='focus'?'M-4 17H4':'M-6 17Q0 19 6 17'}" fill="none" stroke="${INK}" stroke-width="2.5" stroke-linecap="round"/>`;
+- const body=kind==='human'
+-  ?`<path d="M-48 60Q-46 26 0 24Q46 26 48 60Z" fill="${BLUE}" stroke="${INK}" stroke-width="2.5"/><path d="M-12 27Q0 36 12 27" fill="none" stroke="${INK}" stroke-width="2"/><circle r="30" fill="${SKIN}" stroke="${INK}" stroke-width="2.5"/><path d="M-33 -2Q-38 -36 -10 -40L-4 -50L4 -41L14 -47L16 -38Q38 -32 32 -2Q26 -18 12 -18L6 -26L0 -17Q-18 -22 -33 -2Z" fill="#2A2D35"/>`
+-  :`<path d="M-46 60Q-44 28 0 26Q44 28 46 60Z" fill="${PAPER}" stroke="${INK}" stroke-width="2.5"/><path d="M-14 29L0 40L14 29" fill="none" stroke="${ORANGE}" stroke-width="4"/><path d="M-38 22Q-44 -42 0 -42Q44 -42 38 22Q30 26 22 20H-22Q-30 26 -38 22Z" fill="${ORANGE}" stroke="${INK}" stroke-width="2.5"/><circle cy="2" r="28" fill="#F6DCC6" stroke="${INK}" stroke-width="2.5"/><path d="M-30 -2Q-28 -34 0 -34Q28 -34 30 -2Q18 -14 4 -10Q-14 -16 -30 -2Z" fill="${ORANGE}"/>`+star(18,-24,10,0,'#FFFFFF',INK);
+- return `<g data-avatar="${kind}" transform="translate(${fmt(x)} ${fmt(y)}) scale(${fmt(s*1.45)})">${body}${eyes}${mouth}</g>`;
++ const role=kind==='human'?'programmer':'agent',expression=mood==='focus'||mood==='think'?'focus':'neutral';
++ return `<g data-avatar="${kind}" data-expression="${expression}" transform="translate(${fmt(x)} ${fmt(y)}) scale(${fmt(s*1.45)})">${raster('avatar-'+role+'-'+expression,-52,-62,104,124)}</g>`;
+ }
+ 
+ export function storyAccents(state){
+@@ -81,7 +73,7 @@
+  }
+  if(t>=11.2&&t<12){
+   const p=smooth((t-11.2)/.22)*(1-smooth((t-11.8)/.2));
+-  s+=`<g data-agent-thinking="feedback" transform="translate(1700 300) scale(${fmt(p)})"><path d="M-26 -22H26Q32 -22 32 -16V14Q32 20 26 20H-6L-16 30L-14 20H-26Q-32 20 -32 14V-16Q-32 -22 -26 -22Z" fill="${PAPER}" stroke="${INK}" stroke-width="2"/><path d="M-16 -14H0L4 -10V12H-16Z" fill="#FFFFFF" stroke="${INK}" stroke-width="1.5"/>${check(12,4,.55)}</g>`
++  s+=`<g data-agent-thinking="feedback" transform="translate(1700 300) scale(${fmt(p)})"><path d="M-26 -22H26Q32 -22 32 -16V14Q32 20 26 20H-6L-16 30L-14 20H-26Q-32 20 -32 14V-16Q-32 -22 -26 -22Z" fill="${PAPER}" stroke="${INK}" stroke-width="2"/>${raster('document-portrait',-21,-17,24,32)}${check(12,4,.55)}</g>`
+    +burst(1700,300,(t-11.2)/.4,ORANGE,38);
+  }
+  const ia=state.interaction,f=ia?.file;
+@@ -153,7 +145,7 @@
+ }
+ function docs(state,q){
+  const {t,taskStates:ts}=state;
+- let s=`<g opacity="${fmt(1-q)}"><path d="M1080 500H1350L1320 550H1100Z" fill="#E7DCC6" stroke="${INK}" stroke-width="2.5"/></g>`;
++ let s=`<g opacity="${fmt(1-q)}">${raster('plan-tray',1070,480,290,85)}</g>`;
+  if(state.endpoint!=null)s+=`<path d="M640 250H${fmt(state.endpoint)}" stroke="${BLUE}" stroke-width="3" opacity="${fmt(q*.6)}"/>`;
+  const ap=agentAt(t,q);
+  for(const k of QUEUE){
+@@ -163,7 +155,7 @@
+   if(k in CAND)s+=burst(p.x+90,p.y+50,(t-SELECT[CAND[k]]-1.1)/.32,BLUE,26);
+   if(k in CAND)s+=burst(p.x+10,p.y+40,(t-SELECT[CAND[k]])/.4,ORANGE,34);
+  }
+- s+=`<g opacity="${fmt(1-q)}"><path d="M1086 520H1344L1320 550H1100Z" fill="#E7DCC6" stroke="${INK}" stroke-width="2.5"/></g>`;
++ s+=`<g opacity="${fmt(1-q)}"><svg x="1070" y="534" width="290" height="31" viewBox="0 54 290 31" overflow="hidden">${raster('plan-tray',0,0,290,85)}</svg></g>`;
+  if(ts['T01-R']&&t<33.6){
+   const m=smooth((t-32.6)/1),x=lerp(1640,1460,m),y=lerp(410,270,m);
+   s+=`<g opacity="${fmt(1-m)}">${paperDoc({x,y,label:'T01-R',state:ts['T01-R'],id:'T01-R',human:t>=31.6,ok:t>=32})}</g>`+burst(1650,450,(t-31.6)/.4,BLUE,34)+burst(1460,310,(t-33.6)/.4,GREEN,40);
+@@ -193,20 +185,22 @@
+ }
+ export function performanceActors(t){
+  const c=TRIG.find(x=>t>=x-.35&&t<x),dip=c?3*bump((t-c+.35)/.25):0;
+- return {programmer:{id:'programmer-'+progPose(t),x:230,baseline:1000+dip,flip:false,scaleOverride:.17},agent:{id:'agent-'+agentPose(t),x:545,baseline:1000,rotation:0,scaleOverride:.16}};
++ return {programmer:{id:'programmer-'+progPose(t),x:263.5,baseline:982.8+dip,flip:false,scaleOverride:.1505},agent:{id:'agent-'+agentPose(t),x:545,baseline:1000,rotation:0,scaleOverride:.16}};
+ }
+ function vignette(state,bundle,drawPose){
+  const t=state.t,pp=progPose(t),c=TRIG.find(x=>t>=x-.35&&t<x),dip=c?3*bump((t-c+.35)/.25):0;
+  const lit=pp==='lean'||pp==='input',screen=pp==='rest'?'#3A4552':pp==='lean'?'#E3EEF0':'#A9BCC6';
+  let s=`<g data-layer="vignette" clip-path="url(#perf-vignette)"><path d="M120 722Q110 690 160 692L580 698Q620 700 616 740L612 984Q610 1000 590 1000H132Q106 998 106 970Z" fill="${PAPER}" fill-opacity=".5"/>`
+-  +`<rect x="226" y="728" width="215" height="148" rx="8" fill="${INK}"/><rect x="237" y="739" width="193" height="108" rx="3" fill="${screen}"/><path d="M326 876h16v10h-16z" fill="${INK}"/>`
+-  +(lit&&pp==='lean'?star(412,756,8,t*90,ORANGE):'')+`<rect x="110" y="847" width="380" height="16" rx="4" fill="#B88B63" stroke="${INK}" stroke-width="2"/>`;
+- const actors=performanceActors(t);s+=drawPose(actors.programmer,bundle)+drawPose(actors.agent,bundle);
++  +`<g transform="translate(50 630) scale(.35)">${raster('workstation-painted',0,0,1920,1080)}</g>`
++  +`<rect x="258.6" y="750.05" width="189" height="93.8" rx="2" fill="${screen}" opacity=".65"/>`
++  +(lit&&pp==='lean'?star(423,764,7,t*90,ORANGE):'');
++ const actors=performanceActors(t);s+=drawPose(actors.programmer,bundle)
++  +`<g transform="translate(50 630) scale(.35)">${raster('chair-back-painted',483,663,265,296)}</g>`+drawPose(actors.agent,bundle);
+  const arr=ARRIVE.filter(a=>a<=t);
+- arr.forEach((a,i)=>{const d=t-a,y=847-9*(i+1)-40*(1-smooth(d/.25));s+=`<rect x="118" y="${fmt(y)}" width="64" height="8" rx="1" fill="${PAPER}" stroke="${INK}" stroke-width="1.5" transform="rotate(${fmt((i%2?2:-2)+4*settle(d-.25))} 150 ${fmt(y+4)})"/>`;});
++ arr.forEach((a,i)=>{const d=t-a,y=847-9*(i+1)-40*(1-smooth(d/.25));s+=`<g transform="rotate(${fmt((i%2?2:-2)+4*settle(d-.25))} 150 ${fmt(y+4)})">${raster('document-landscape',116,y-20,68,34)}</g>`;});
+  const nx=ARRIVE.find(a=>t>=a-.35&&t<a);
+  if(nx!=null){const v=smooth((t-nx+.35)/.35),[x,y]=quad([520,760],[330,690],[150,820],v),[px,py]=quad([520,760],[330,690],[150,820],Math.max(0,v-.12));
+-  s+=smear({x,y},{x:px,y:py},x,y)+`<path transform="translate(${fmt(x-14)} ${fmt(y-17)})" d="M0 0H20L28 8V34H0Z" fill="${PAPER}" stroke="${INK}" stroke-width="2"/>`;}
++  s+=smear({x,y},{x:px,y:py},x,y)+raster('document-portrait',x-14,y-17,28,34);}
+  return s+'</g>';
+ }
+ 

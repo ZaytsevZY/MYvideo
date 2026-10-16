@@ -1,0 +1,9 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "transparent_background": true,
+  "prompt": "Use case: illustration-story. Asset for an existing 1920x1080 2D anime educational film. Match the reference character's fine dark warm-gray linework, restrained cel shading, subtle material highlights, muted blue-gray / warm ivory / muted orange palette. Hand-drawn anime production art, NOT geometric SVG, NOT flat UI, NOT photorealistic, no 3D render, no thick black emoji outlines, no glow or background halo. Actual transparent background with clean alpha. No lettering, labels, watermark, border, frame or extra objects. Reference only for matching style and the cream paper she holds. Draw ONE upright portrait-format small work document icon, front-on almost orthographic, warm ivory paper, gently curled upper-right corner, two or three very subtle pale-gray short lines confined to upper third, slight paper thickness and tactile cel-shaded edge. Main central/lower half absolutely blank to receive an editable short task label later. It must read as a paper prop, not a software card. Small blue-gray index tab at upper-left is allowed. No clip, no checkmark, no status, no icon symbols, no letters/numbers. Entire canvas portrait3:4 with transparent margin5% each side; paper occupies90% width and90% height, straight vertical axis, no perspective tilt, no shadow outside alpha. Intended at176x180 and60x74px; strong simple silhouette but same refined anime linework as reference.",
+  "references": [
+    "arts/characters/poses/01/agent-inspect-file-v01.png"
+  ],
+  "destination": "arts/items/01/task-document-portrait-v01.png"
+}

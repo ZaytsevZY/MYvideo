@@ -1,6 +1,6 @@
 {
-  "version": "S01_CAMERA_PREVIEW v0.1",
-  "script": "S01_CAMERA v0.2",
+  "version": "S01_CAMERA_PREVIEW v0.4",
+  "script": "S01_CAMERA v0.3",
   "front": {
     "room": [
       -8,
@@ -42,10 +42,10 @@
       374
     ],
     "screen": [
-      627.2,
-      343.8,
-      489.6,
-      275.4
+      596,
+      343,
+      540,
+      268
     ],
     "keyboard": [
       440,
@@ -178,14 +178,24 @@
       44.2
     ]
   },
+  "logic": {
+    "stage": "acting cartoon avatars + folded documents",
+    "vignette": [
+      106,
+      692,
+      510,
+      308
+    ],
+    "performanceModule": "performance.mjs"
+  },
   "layerOrder": [
     "room (blurred, own parallax)",
-    "workstation silhouette",
-    "diagram backdrop",
-    "diagram content + human cursor",
-    "programmer",
-    "foreground Agent",
-    "screen-space label/debug"
+    "local diagram backdrop",
+    "documents",
+    "acting avatars",
+    "screen-space workstation vignette + intact actors",
+    "action accents",
+    "debug only"
   ],
-  "note": "Every pose drawn once at native aspect; front/standing use explicit rects, rear uses CALIBRATION baselines. No limb assembly or body crossfades."
+  "note": "Every pose drawn once at native aspect; front uses explicit rects, rear uses CALIBRATION baselines, logic uses compact workstation actor states. No limb assembly or body crossfades."
 }

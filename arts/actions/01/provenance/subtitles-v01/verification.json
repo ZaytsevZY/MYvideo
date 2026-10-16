@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-16",
+  "output": "arts/actions/01/exports/01-captioned-silent-v01.mp4",
+  "sha256": "c7d4caba123034b39880a86688c1ee725218523c220125b88b5d5ebdb085b0c8",
+  "durationSeconds": 45,
+  "framesDecoded": 1350,
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "audioStreams": 0,
+  "fullDecodeExitCode": 0,
+  "decodeErrors": "",
+  "encodedFrameSamples": [
+    0,
+    26.5,
+    44.966667
+  ],
+  "captionCues": 14,
+  "captionTiming": "provisional; no voice alignment",
+  "modelCallsThisStage": 0,
+  "visualReview": "Encoded frames 0,26.5,44.966667 viewed: captions legible, complete, screen-safe.",
+  "tests": {
+    "total": 16,
+    "passed": 16
+  },
+  "browserPlayback": {
+    "durationSeconds": 45,
+    "size": [
+      1920,
+      1080
+    ],
+    "readyState": 4,
+    "playingObservedAtSeconds": [
+      7.111204,
+      35.050821
+    ]
+  }
+}

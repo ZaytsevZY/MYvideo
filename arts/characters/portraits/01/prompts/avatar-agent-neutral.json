@@ -1,0 +1,9 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "transparent_background": true,
+  "prompt": "Use case: illustration-story. Asset for an existing 1920x1080 2D anime educational film. Match the reference character's fine dark warm-gray linework, restrained cel shading, subtle material highlights, muted blue-gray / warm ivory / muted orange palette. Hand-drawn anime production art, NOT geometric SVG, NOT flat UI, NOT photorealistic, no 3D render, no thick black emoji outlines, no glow or background halo. Actual transparent background with clean alpha. No lettering, labels, watermark, border, frame or extra objects. Reference is identity/style reference. Draw ONE compact front-facing head-and-shoulders portrait of this exact young adult female Agent. Orange bob hair with stray lock, amber eyes, WHITE eight-point star hairclip at viewer right, white jacket orange collar over black shirt. Moderately simplified anime portrait for 140px onscreen display, detailed eyes and hair locks; adult proportions with slightly enlarged head, NOT baby chibi. Small confident friendly smile. Square transparent canvas, portrait centered, full hair and both shoulders visible, silhouette fills88% width, hair top8%, shoulders end92%, face centered45% height. No hands, no paper.",
+  "references": [
+    "arts/characters/poses/01/agent-inspect-file-v01.png"
+  ],
+  "destination": "arts/characters/portraits/01/agent-neutral-v01.png"
+}

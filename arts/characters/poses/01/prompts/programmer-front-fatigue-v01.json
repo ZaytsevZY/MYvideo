@@ -1,0 +1,12 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "mode": "edit",
+  "prompt": "Edit target: the referenced transparent anime programmer bust. Create ONE alternate facial expression animation cel. Preserve the exact identity, dark tousled hair silhouette, blue sweatshirt, lanyard, shoulder width, lower edge and composition of the input, identical camera and scale and pose alignment. Change ONLY facial expression: both eyelids closed in a tired blink, slightly pinched eyebrows and a very small tense mouth conveying fatigue from repeated checking. Keep head position and all clothing unchanged. Transparent background, clean alpha, no scenery, no new objects, no text, no duplicate body, no collage. This will alternate briefly with the neutral cel in the existing animation. Deliver one complete intact upper-body character drawing matching the input bounds.",
+  "references": [
+    "arts/characters/poses/01/programmer-front-neutral-v01.png"
+  ],
+  "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-a7daa2e1-bf76-473d-be90-c3d117cf5fcc.png",
+  "transparent_background": true,
+  "purpose": "short fatigue blink and repeated-check reaction",
+  "sourcePixels": "copied unchanged"
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "avatar-programmer-neutral",
+    "dest": "arts/characters/portraits/01/programmer-neutral-v01.png",
+    "refs": [
+      "arts/characters/poses/01/programmer-front-neutral-v01.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset for an existing 1920x1080 2D anime educational film. Match the reference character's fine dark warm-gray linework, restrained cel shading, subtle material highlights, muted blue-gray / warm ivory / muted orange palette. Hand-drawn anime production art, NOT geometric SVG, NOT flat UI, NOT photorealistic, no 3D render, no thick black emoji outlines, no glow or background halo. Actual transparent background with clean alpha. No lettering, labels, watermark, border, frame or extra objects. Reference is identity/style reference. Draw ONE compact front-facing head-and-shoulders portrait of this exact young adult programmer. Recognizable tousled charcoal hair, gray eyes, blue sweatshirt neckline, a little lanyard. Moderately simplified anime portrait for 140px onscreen display, detailed eyes and hair locks; adult proportions with a slightly enlarged head, NOT baby chibi. Neutral attentive expression. Square transparent canvas, portrait centered, full hair and both shoulders visible, silhouette fills 88% width, hair top at8%, shoulders end at92%, face centered at45% height. No hands or torso below shoulders.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-aa51a378-8247-4afc-bb24-bc83cda0afe1.png"
+  },
+  {
+    "id": "avatar-agent-neutral",
+    "dest": "arts/characters/portraits/01/agent-neutral-v01.png",
+    "refs": [
+      "arts/characters/poses/01/agent-inspect-file-v01.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset for an existing 1920x1080 2D anime educational film. Match the reference character's fine dark warm-gray linework, restrained cel shading, subtle material highlights, muted blue-gray / warm ivory / muted orange palette. Hand-drawn anime production art, NOT geometric SVG, NOT flat UI, NOT photorealistic, no 3D render, no thick black emoji outlines, no glow or background halo. Actual transparent background with clean alpha. No lettering, labels, watermark, border, frame or extra objects. Reference is identity/style reference. Draw ONE compact front-facing head-and-shoulders portrait of this exact young adult female Agent. Orange bob hair with stray lock, amber eyes, WHITE eight-point star hairclip at viewer right, white jacket orange collar over black shirt. Moderately simplified anime portrait for 140px onscreen display, detailed eyes and hair locks; adult proportions with slightly enlarged head, NOT baby chibi. Small confident friendly smile. Square transparent canvas, portrait centered, full hair and both shoulders visible, silhouette fills88% width, hair top8%, shoulders end92%, face centered45% height. No hands, no paper.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-778b21d6-e863-47c3-bd3c-5068db22d4da.png"
+  },
+  {
+    "id": "workstation-painted",
+    "dest": "arts/items/01/workstation-painted-v01.png",
+    "refs": [
+      "arts/actions/01/provenance/raster-v03/workstation-layout-guide.png",
+      "arts/characters/poses/01/programmer-front-neutral-v01.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset for an existing 1920x1080 2D anime educational film. Match the reference character's fine dark warm-gray linework, restrained cel shading, subtle material highlights, muted blue-gray / warm ivory / muted orange palette. Hand-drawn anime production art, NOT geometric SVG, NOT flat UI, NOT photorealistic, no 3D render, no thick black emoji outlines, no glow or background halo. Actual transparent background with clean alpha. No lettering, labels, watermark, border, frame or extra objects. Image1 is an EXACT LAYOUT edit target, Image2 only establishes anime linework/shading. Redraw all furnishings in Image1 as a coherent painted anime background-prop assembly, retaining its 16:9 transparent canvas, empty upper margin and empty right third. Do NOT crop to the objects or recenter. Keep desktop near y620..715 and x180..1290 in a1920x1080 coordinate system; monitor screen opening x627..1117 y344..619, monitor outer x600..1144 y320..694; chair seat centered x610 y840 with wheelbase to1015. Keep those anchors to fit existing character animation and dynamic screen overlay. Draw detailed wood tabletop/edge, steel desk legs, computer tower under right side, blue-gray monitor with a completely plain flat dark blue screen (no reflection/text/content), keyboard and a mouse on tabletop, articulated desk lamp at left, and chair seat/stem/wheelbase WITHOUT chair backrest. Improve spatial consistency: keyboard, lamp base and mouse must lie naturally on the SAME tabletop in a consistent shallow downward viewing perspective. Especially mouse is low horizontal curved shell lying on table, NEVER upright. Fine joints/screws, plausible lamp shade/bulb housing, restrained wood grain, keycap depth, subtle material highlights. Keep form silhouettes and relative placement from guide, refine clumsy geometry. Neutral balanced lighting, contact shading only on furnishings, no cast-shadow rectangle on transparent background. No people, no room, no full chair back, no floor.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-a339f6be-45f8-4491-b5d7-3d50333062f5.png"
+  },
+  {
+    "id": "document-portrait",
+    "dest": "arts/items/01/task-document-portrait-v01.png",
+    "refs": [
+      "arts/characters/poses/01/agent-inspect-file-v01.png"
+    ],
+    "prompt": "Use case: illustration-story. Asset for an existing 1920x1080 2D anime educational film. Match the reference character's fine dark warm-gray linework, restrained cel shading, subtle material highlights, muted blue-gray / warm ivory / muted orange palette. Hand-drawn anime production art, NOT geometric SVG, NOT flat UI, NOT photorealistic, no 3D render, no thick black emoji outlines, no glow or background halo. Actual transparent background with clean alpha. No lettering, labels, watermark, border, frame or extra objects. Reference only for matching style and the cream paper she holds. Draw ONE upright portrait-format small work document icon, front-on almost orthographic, warm ivory paper, gently curled upper-right corner, two or three very subtle pale-gray short lines confined to upper third, slight paper thickness and tactile cel-shaded edge. Main central/lower half absolutely blank to receive an editable short task label later. It must read as a paper prop, not a software card. Small blue-gray index tab at upper-left is allowed. No clip, no checkmark, no status, no icon symbols, no letters/numbers. Entire canvas portrait3:4 with transparent margin5% each side; paper occupies90% width and90% height, straight vertical axis, no perspective tilt, no shadow outside alpha. Intended at176x180 and60x74px; strong simple silhouette but same refined anime linework as reference.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-2ee8314d-7797-4586-a12a-424eb6777064.png"
+  },
+  {
+    "id": "document-landscape",
+    "dest": "arts/items/01/task-document-landscape-v01.png",
+    "refs": [
+      "arts/characters/poses/01/agent-inspect-file-v01.png"
+    ],
+    "prompt": "Use case: illustration-story. Production prop for a1920x1080 2D anime educational film. Match fine dark warm-gray linework and restrained cel shading of the referenced programmer/Agent, muted blue-gray, warm ivory and muted orange. Detailed hand-drawn anime material rendering, not geometric vector/SVG, not photorealistic, not 3D render. True transparent background, clean alpha, no glow or halo, no text/logos/watermarks. Reference establishes paper material and anime style only. ONE landscape paper work-slip prop, a small cream task document approximately2:1 width/height, nearly front-on, axis level. Gently folded upper-right corner, thin visible paper edge along bottom, very restrained pale-gray fine ruled detail only near upper-left. Center and right80% completely blank for an editable Chinese task name later. No symbols, checks, seals, status colors, letters or numbers. It should feel like a physical hand-drawn paper, not a rounded UI card. Landscape2:1 transparent canvas, document occupying90% width and80% height, slight fine material shading.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-a3b821bb-dce8-4437-8747-cd9cf7524cb2.png"
+  },
+  {
+    "id": "plan-tray",
+    "dest": "arts/items/01/plan-tray-painted-v01.png",
+    "refs": [
+      "arts/characters/poses/01/agent-inspect-file-v01.png"
+    ],
+    "prompt": "Use case: illustration-story. Production prop for a1920x1080 2D anime educational film. Match fine dark warm-gray linework and restrained cel shading of the referenced programmer/Agent, muted blue-gray, warm ivory and muted orange. Detailed hand-drawn anime material rendering, not geometric vector/SVG, not photorealistic, not 3D render. True transparent background, clean alpha, no glow or halo, no text/logos/watermarks. Reference only for linework/cel shading. Draw ONE empty desktop paper in-tray, low rectangular warm-gray/tan powder-coated metal tray with a small front lip, open top, subtle rim thickness and joints. View from front slightly above, shallow consistent perspective, wide about4:1 silhouette, not deep isometric. Entire tray isolated, no desk or papers. Transparent wide canvas with5% margin, tray filling90% width and80%height. Detailed anime background prop, fine realistic line weights and restrained contact shadow on the tray itself. No label slot text.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-aa3f327e-c11d-4132-9716-b0fd8d784f80.png"
+  },
+  {
+    "id": "chair-back-painted",
+    "dest": "arts/items/01/chair-back-rear-painted-v01.png",
+    "refs": [
+      "arts/actions/01/provenance/raster-v03/chair-layout-guide.png",
+      "arts/characters/poses/01/programmer-front-neutral-v01.png"
+    ],
+    "prompt": "Use case: illustration-story. Production prop for a1920x1080 2D anime educational film. Match fine dark warm-gray linework and restrained cel shading of the referenced programmer/Agent, muted blue-gray, warm ivory and muted orange. Detailed hand-drawn anime material rendering, not geometric vector/SVG, not photorealistic, not 3D render. True transparent background, clean alpha, no glow or halo, no text/logos/watermarks. Image1 is exact silhouette/layout edit target; Image2 style reference. Redraw ONLY this rear-facing blue-gray office chair BACKREST and short central support, as detailed anime prop. Preserve exact upright camera direction and canvas placement: backrest spans x40..300 y12..355 within a340x480 canvas, short central support x149..191 extends to468. No seat, armrests, wheels or extra chair parts. Visible rear shell seams, slight molded curvature, central attachment plate and two tiny screws, tasteful fabric or matte-plastic shading with slender linework. Dark slate blue, neutral lighting. It overlays an existing seated figure; do not rotate or crop/recenter, preserve transparent margins and exact composition.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-d4ba0b99-60c5-4138-9885-a194a86d2d38.png"
+  },
+  {
+    "id": "monitor-back-painted",
+    "dest": "arts/items/01/monitor-back-painted-v01.png",
+    "refs": [
+      "arts/actions/01/provenance/raster-v03/monitor-back-layout-guide.png",
+      "arts/characters/poses/01/programmer-front-neutral-v01.png"
+    ],
+    "prompt": "Use case: illustration-story. Production prop for a1920x1080 2D anime educational film. Match fine dark warm-gray linework and restrained cel shading of the referenced programmer/Agent, muted blue-gray, warm ivory and muted orange. Detailed hand-drawn anime material rendering, not geometric vector/SVG, not photorealistic, not 3D render. True transparent background, clean alpha, no glow or halo, no text/logos/watermarks. Image1 exact composition edit target; Image2 style reference. Redraw only this wide dark blue-gray MONITOR BACK panel seen directly from behind, upper rear shell of computer screen used as lower foreground occluder. Preserve very wide horizontal silhouette, gentle curved top corners and top bevel, panel reaches bottom crop; no exposed stand, desk or screen face. Refined anime linework, subtle matte-plastic shading, ventilation slots, restrained screws/central mounting cover, no logo. Shape begins~2% inset and7%down and reaches bottom edge of a1280x360 wide canvas. Do not add surrounding scene, do not rotate, no text, no centered floating small monitor, fill almost entire wide frame while preserving transparency outside silhouette.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-f6feebe3-9c93-4c1d-840e-40ec454db927.png"
+  }
+]

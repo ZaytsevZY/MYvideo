@@ -1,8 +1,14 @@
 # 当前协作交接
 
-**版本：** HANDOFF v0.18 · 2026-10-16
+**版本：** HANDOFF v0.21 · 2026-10-16
 
 先读 [PROJECT_STATE](PROJECT_STATE.md) 与 [六章音画分配稿](final/shot/README.md)。
+
+**最新交付覆盖：** 01已完成45.00秒／1920×1080／30fps／1350帧无声MP4，原口播155字符烧录为14段字幕。[视频及SRT](../arts/actions/01/exports/README.md)，默认预览S01_CAMERA_PREVIEW v0.4同步字幕。时点按语义与镜头暂排，待配音校时。原生SVG→sharp／librsvg→FFmpeg编码，无音频轨；16项测试与全视频解码通过，编码后首／中／尾帧已目视检查。没有新增模型调用，未建立Remotion工程，未用户冻结。下文无MP4及v0.3预览为历史阶段。
+
+**当前素材覆盖：** 默认预览现为S01_CAMERA_PREVIEW v0.3，主要头像与道具使用图像模型重绘PNG；25张原完整姿态和四张新头像分别计数。11次生成采用10项（工位采用v02）；工位及小窗重新对位，保留矢量文字／状态／动作标点。13项检查与浏览器关键片段通过，未用户冻结。[素材／prompt／哈希入口](../arts/static/01/RASTER_REFINEMENT.md)。以下v0.2为上一轮演出记录，原生SVG绘制头像和道具的描述不覆盖本条。
+
+**当前覆盖说明：** 最新01为S01_CAMERA v0.3／S01_CAMERA_PREVIEW v0.2，用户取消长时间站立讲解，要求动作反馈、表情、头像搬运与操作小窗。已加入performance.mjs及25号疲惫闭眼姿态；清单为竖向文件图标，删除泛化解释文字。口播与45秒不变。Claude Opus 5.5单次英文prompt，276.539秒无重试；Codex接入与视觉修正；12项检查通过。详见[当前预览说明](../arts/actions/01/CAMERA_PREVIEW.md)与其performance-v02留档。以下v0.2站立方案和24姿态记录为历史，不覆盖本条。
 
 最新镜头正文为[01 / S01_CAMERA v0.2](final/shot/01.md#video-content)：Claude Opus 5.5按英文prompt生成12镜草案，Codex审校后采用，仍为45秒，155字符口播未改。情境段正面近景、背后越肩、Agent近景交替；16–37秒固定机位站立讲解，结尾拉远与跟移揭示新任务。审核段已扩为12–16秒，计划选择归因于人的光标，返工项经人工复核后才通过；[采用差异](doc/production/01-camera-v02/review.md)留档。
 

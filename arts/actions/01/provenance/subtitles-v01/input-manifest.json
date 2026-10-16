@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "user_request": "add narration subtitles and bake complete45s, no voice or sound effects",
+  "source_script": "SHOT_TEXT v0.4 / S01_CAMERA v0.3",
+  "captions": "S01_CAPTIONS v0.1",
+  "preview": "S01_CAMERA_PREVIEW v0.4",
+  "render_method": "native SVG/sharp/librsvg to FFmpeg; no Remotion project",
+  "model_calls": 0,
+  "sha256": {
+    "scripts/final/shot/01.md": "b9ef57fe0abbdeb593d0551af392da6b038af8f89a8af20c2b98ded7ee67238c",
+    "arts/actions/01/captions/01-narration-v01.json": "72836a0c4b500f8bb247a2e508f14f6d4295148f3b683f71cdb61ed90a8a21fa",
+    "arts/actions/01/captions/01-narration-v01.srt": "4664392ed9d6b63dad93e32d404b40f8e29ca0a999001f777fd7e78b917866c7",
+    "arts/actions/01/captions/captions.mjs": "c4e5da6fd614b7ff9ef50f3a39a5960c4f68b0b3bf31449fd318c7722c581c0c",
+    "arts/actions/01/camera-motion.mjs": "434ec2191c05e357997f0390b363b8ab841a50717191f4dee08a41bdef8789db",
+    "arts/actions/01/performance.mjs": "3405c27ceee06f6999d52a1854efb91a73f7d8e9f2bd118e93368a80b28f5a04",
+    "arts/static/01/raster-assets-manifest-v01.json": "9562105f65b3afc5bc7b56e5d0d7341ceca0c7ed10d26d241e80d12df8ba6405",
+    "/System/Library/Fonts/Hiragino Sans GB.ttc": "eca1d26a1bc493490f5a2450fd1b931e4a1822cc37288110163ae6e9938d4130"
+  }
+}

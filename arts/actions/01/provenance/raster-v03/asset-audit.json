@@ -1,0 +1,122 @@
+[
+  {
+    "id": "avatar-programmer-neutral",
+    "sourceMatch": true,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "avatar-agent-neutral",
+    "sourceMatch": true,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "workstation-painted",
+    "sourceMatch": true,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "id": "document-portrait",
+    "sourceMatch": true,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "id": "document-landscape",
+    "sourceMatch": true,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "size": [
+      1774,
+      887
+    ]
+  },
+  {
+    "id": "plan-tray",
+    "sourceMatch": true,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "id": "chair-back-painted",
+    "sourceMatch": true,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "size": [
+      1055,
+      1491
+    ]
+  },
+  {
+    "id": "monitor-back-painted",
+    "sourceMatch": true,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "size": [
+      1983,
+      793
+    ]
+  },
+  {
+    "id": "avatar-programmer-focus",
+    "sourceMatch": true,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "avatar-agent-focus",
+    "sourceMatch": true,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "size": [
+      1254,
+      1254
+    ]
+  }
+]

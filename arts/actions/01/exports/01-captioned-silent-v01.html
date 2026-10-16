@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>01 · 45秒无声字幕视频</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#172431;color:#f6f1e7;font-family:system-ui,"PingFang SC",sans-serif}main{max-width:min(1320px,calc((100vh - 205px) * 16 / 9 + 40px));margin:auto;padding:20px}h1{font-size:22px;margin:0 0 10px}p,nav{font-size:14px;color:#c3d0d8;line-height:1.6}video{display:block;width:100%;aspect-ratio:16/9;background:#101923}nav{display:flex;gap:24px;margin-top:14px;flex-wrap:wrap}a{color:#e9b468}output{font-variant-numeric:tabular-nums}</style>
+<main><h1>01 · 45秒无声字幕视频</h1><p><output id="info">加载视频信息…</output> · 字幕已烘焙进画面 · 无配音、无音效</p>
+<video id="video" controls playsinline preload="metadata" poster="01-captioned-silent-v01-frame-0000.png" src="01-captioned-silent-v01.mp4"></video>
+<nav><a href="01-captioned-silent-v01.mp4" download>下载 MP4</a><a href="01-captioned-silent-v01.srt" download>下载 SRT 字幕</a><a href="../preview.html">返回可拖动的动画预览</a></nav>
+<p>字幕按镜头与语义暂排；加入配音后再校准。当前使用完整有限姿态与逐帧动效。</p></main>
+<script>const v=document.querySelector('#video'),o=document.querySelector('#info');v.addEventListener('loadedmetadata',()=>o.textContent=`${v.videoWidth} × ${v.videoHeight} · 30 fps · ${v.duration.toFixed(2)} 秒`);v.addEventListener('error',()=>o.textContent='视频尚未就绪，请在导出完成后刷新。');</script></html>

@@ -1,0 +1,56 @@
+--- arts/actions/01/provenance/raster-v03/camera-before.mjs
++++ arts/actions/01/camera-motion.mjs
+@@ -19,9 +19,9 @@
+ ];
+ const SELECT=[24.2,25.8,27.4],REVIEW=[12.8,13.3,13.8],STEPS=[6.4,7,7.6];
+ const EXTRA=[['docs',34.2],['perf',35],['compat',37],['migrate',38.6],['feedback',42.6]];
+-export const CAMERA_LAYOUT={version:'S01_CAMERA_PREVIEW v0.2',script:'S01_CAMERA v0.3',
++export const CAMERA_LAYOUT={version:'S01_CAMERA_PREVIEW v0.3',script:'S01_CAMERA v0.3',
+  front:{room:[-8,-5,1936,1090],pose:[510.33,70,899.34,1063.92],monitorBack:[360,844,1200,337.5],push:.03},
+- rear:{desk:[180,620,1110,123],deskLegs:[180,659,1110,308],monitor:[600,320,544,374],screen:[627.2,343.8,489.6,275.4],keyboard:[440,649,405,67],mouse:[875,650,43,58],
++ rear:{desk:[180,620,1110,123],deskLegs:[180,659,1110,308],monitor:[600,320,544,374],screen:[596,343,540,268],keyboard:[440,649,405,67],mouse:[875,650,43,58],
+   chairSeat:[480,813,265,205],chairRear:[483,663,265,296],review:[740,356,366,252],taskPanel:[1170,300,250,180],
+   ots:{x:165,y:90,scale:1.15},wide:{x:0,y:0,scale:1},agentCrop:{x:1137.6923,y:250,scale:2.6}},
+  standing:{programmer:[84.8,223.32,532.48,798.72],agent:[1394,281.28,491.52,737.28],floor:1008,fill:'#F6F1E7',fillOpacity:.97,
+@@ -92,7 +92,7 @@
+  let s='<clipPath id="cam-frame"><rect width="1920" height="1080"/></clipPath>'
+   +'<filter id="cam-blur-bg" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="3"/></filter>'
+   +'<filter id="cam-blur-fg" x="-5%" y="-10%" width="110%" height="120%"><feGaussianBlur stdDeviation="4"/></filter>';
+- for(const [id,a] of Object.entries(bundle.assets))s+='<symbol id="asset-'+id+'" viewBox="0 0 '+a.width+' '+a.height+'" preserveAspectRatio="none"><image href="'+a.dataUri+'" width="'+a.width+'" height="'+a.height+'"/></symbol>';
++ for(const [id,a] of Object.entries(bundle.assets))s+='<symbol id="asset-'+id+'" viewBox="'+(a.viewBox?a.viewBox.join(' '):'0 0 '+a.width+' '+a.height)+'" preserveAspectRatio="'+(a.preserveAspectRatio||'none')+'"><image href="'+a.dataUri+'" width="'+a.width+'" height="'+a.height+'"/></symbol>';
+  for(const [id,a] of Object.entries(bundle.poses))s+='<symbol id="pose-'+id+'" viewBox="0 0 '+a.width+' '+a.height+'"><image href="'+a.dataUri+'" width="'+a.width+'" height="'+a.height+'"/></symbol>';
+  return '<defs>'+s+'<filter id="cam-pose-smear"><feGaussianBlur stdDeviation="2.2 .5"/></filter>'+performanceDefinitions()+'</defs>';
+ }
+@@ -104,7 +104,7 @@
+  const c=CALIBRATION[q.id]||{},ag=q.id.startsWith('agent'),s=q.scaleOverride??c.scale??(ag?.47:.53),bottom=c.bottom??(ag?1515:1462),center=c.center??d.width/2;
+  return '<g data-pose="'+q.id+'" transform="translate('+fmt(q.x)+' '+fmt(q.baseline)+') rotate('+fmt(q.rotation||0)+')'+(q.flip?' scale(-1 1)':'')+'"><use href="#pose-'+q.id+'" x="'+fmt(-center*s)+'" y="'+fmt(-bottom*s)+'" width="'+fmt(d.width*s)+'" height="'+fmt(d.height*s)+'"/></g>';
+ }
+-const paper=({x,y,rotation=0},doc)=>'<g data-document="'+doc+'" transform="translate('+fmt(x)+' '+fmt(y)+') rotate('+fmt(rotation)+' 30 37)"><path d="M0 0H60V74H0Z" fill="#F6F1E7" stroke="#263342" stroke-width="1.5"/><path d="M13 24H47M13 35H47M13 46H43" fill="none" stroke="#777779" stroke-width="3" stroke-linecap="round"/></g>';
++const paper=({x,y,rotation=0},doc)=>'<g data-document="'+doc+'" transform="translate('+fmt(x)+' '+fmt(y)+') rotate('+fmt(rotation)+' 30 37)">'+asset('document-portrait',0,0,60,74)+'</g>';
+ const chip=(x,y,w,text,id)=>'<g data-chip="'+id+'"><rect x="'+x+'" y="'+y+'" width="'+w+'" height="44" rx="6" fill="#FFFDF8" stroke="#263342" stroke-width="2"/>'+label(x+12,y+31,text,24)+'</g>';
+ function cursorSvg(c){
+  if(!c)return '';
+@@ -114,7 +114,7 @@
+ function drawFront(state,bundle){
+  const F=CAMERA_LAYOUT.front;
+  return '<g data-layer="background" filter="url(#cam-blur-bg)">'+asset('room-reverse-night',...F.room)+'</g>'+drawPose(state.programmer,bundle)
+-  +'<g data-layer="foreground" filter="url(#cam-blur-fg)">'+asset('monitor-back',...F.monitorBack)+'</g>';
++  +'<g data-layer="foreground" filter="url(#cam-blur-fg)">'+asset('monitor-back-painted',...F.monitorBack)+'</g>';
+ }
+ function drawReview(t){
+  const [x,y,w,h]=R.review;
+@@ -130,11 +130,10 @@
+  const {t,interaction:ia}=state,heldByProgrammer=!ia||ia.owner==='programmer';
+  const screen=t<5?'screen-idle':t<8.7?'screen-running':'screen-off';
+  let s='<g data-layer="background"'+(state.mode==='agent'?' filter="url(#cam-blur-bg)"':'')+'>'+asset('room-night',0,0,1920,1080)+'<g opacity="'+fmt(state.day)+'">'+asset('room-day',0,0,1920,1080)+'</g>'
+-  +asset('desk-legs',...R.deskLegs)+asset('computer-tower',1045,693,170,255)+asset('desk-surface',...R.desk)+asset('monitor-frame',...R.monitor)+asset(screen,...R.screen)
+-  +asset('keyboard',...R.keyboard)+asset('mouse',...R.mouse)+asset('desk-lamp',185,333,220,346)+asset('chair-seat',...R.chairSeat)+'</g>';
++  +asset('workstation-painted',0,0,1920,1080)+asset(screen,...R.screen)+'</g>';
+  if(t>=5&&t<8&&heldByProgrammer)s+=chip(900,470,160,'T01 未完成','T01');
+- if(t>=12){s+=drawReview(t);if(t>=13.8&&heldByProgrammer&&t<16)s+=chip(995,530,100,'T01-R','T01-R');s+=cursorSvg(state.cursor);}
+- s+=drawPose(state.programmer,bundle)+asset('chair-back-rear',...R.chairRear);
++ if(t>=12){s+='<g transform="translate(-25 0)">'+drawReview(t)+'</g>';if(t>=13.8&&heldByProgrammer&&t<16)s+=chip(995,530,100,'T01-R','T01-R');s+='<g transform="translate(-25 0)">'+cursorSvg(state.cursor)+'</g>';}
++ s+=drawPose(state.programmer,bundle)+asset('chair-back-painted',...R.chairRear);
+  s+='<g data-layer="foreground-agent">'+drawPose(state.agent,bundle)+'</g>';
+  if(ia?.file)s+=paper(ia.file,ia.doc);
+  return s;

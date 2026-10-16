@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "request": "01 performance and integrated visual explanation revision",
+  "input_sha256": {
+    "arts/actions/01/camera-motion.mjs": "a02a660b295dbaf2bda271fcbb43080840fbf31c6ebd1e0421b547119af1454b",
+    "arts/actions/01/preview.html": "45ac421ac8e6d844fa0cfe38d8a5812eb6ff85cb34f7f6b6c8ce69f74bbec26c",
+    "scripts/final/shot/01.md": "91fc57ce3d925af768ff13ae5e14e7210b6e9b8e0d2416e6f623b4a1e501a0f0",
+    "scripts/style/ART_DIRECTION.md": "8c67e1d07aee5314ee758589e7730b450fa5b6a3fd9f29b003559a774d33e2e5",
+    "scripts/style/STYLE_BIBLE.md": "3b316863c6a997438b044737bae29b02a4977b361038894e3992e83556fe76db"
+  },
+  "audio_sha256": "5ae8341392d69fabf24f2fbb6a23c46c7777699f3c1e11db588cc1774b733c13",
+  "model": "claude-opus-5-5",
+  "model_requests": 1,
+  "retries": 0,
+  "prompt": "claude-prompt-en.txt"
+}

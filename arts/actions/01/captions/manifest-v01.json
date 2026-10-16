@@ -1,0 +1,15 @@
+{
+  "version": "S01_CAPTIONS v0.1",
+  "source": "/Users/alan671/Documents/MYvideo/scripts/final/shot/01.md",
+  "narrationSHA256": "1c9b85b7b04294de6275d97906cb000356fa61ad8eb6bb90fba4eaa80350a217",
+  "cues": 14,
+  "startMs": 0,
+  "endMs": 45000,
+  "timing": "provisional semantic and shot alignment; no recorded voice",
+  "text": "exact narration, preserving punctuation and Agent spelling; original whitespace breaks collapsed",
+  "font": "Hiragino Sans GB",
+  "fontSize": 44,
+  "position": "screen space, center x960 y1028; above bottom18px safe margin",
+  "voice": false,
+  "sfx": false
+}

@@ -1,0 +1,22 @@
+{
+  "version": "S01_PERFORMANCE_ASSETS v0.1",
+  "date": "2026-10-16",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_identifier": "not exposed by tool",
+  "raster_calls": 1,
+  "assets": [
+    {
+      "id": "programmer-front-fatigue",
+      "path": "arts/characters/poses/01/programmer-front-fatigue-v01.png",
+      "size": [
+        1153,
+        1364
+      ],
+      "alpha": true,
+      "sha256": "bdec5ffc33566c2540c81bb27e45021242305af4b75237e183c8c6efcdae10ff",
+      "prompt": "arts/characters/poses/01/prompts/programmer-front-fatigue-v01.json",
+      "reference": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+      "source_pixels": "copied unchanged"
+    }
+  ]
+}

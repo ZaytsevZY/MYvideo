@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "preview_version": "S01_CAMERA_PREVIEW v0.3",
+  "script": "S01_CAMERA v0.3",
+  "tool": "image_gen.imagegen (built-in)",
+  "model_identifier": "not exposed by tool",
+  "image_calls": 11,
+  "active_png_assets": 10,
+  "superseded_pngs": 1,
+  "claude_requests": 0,
+  "source_pixels": "all selected PNG bytes copied unchanged from generated source",
+  "prompt_index": "arts/static/01/raster-assets-manifest-v01.json",
+  "checks": {
+    "node_tests_passed": 13,
+    "state_samples": 1351,
+    "offline_representative_pngs": 12,
+    "browser_playback_start_observed": 0.17,
+    "browser_playback_end_observed": 45,
+    "browser_shots_sought": [
+      0,
+      6.5,
+      14,
+      26.5,
+      45
+    ],
+    "browser_console_errors": [],
+    "audio_sha256_unchanged": true,
+    "source_hashes_match": true,
+    "all_pngs_have_alpha_0_and_255": true,
+    "git_diff_check_passed": true,
+    "offline_renderer_transient_io_error": "One EIO during contact-sheet read; one local render rerun completed all 12 images. No image model retry."
+  },
+  "sha256": {
+    "arts/actions/01/camera-motion.mjs": "362202baf0450002a1c953fdf2b27bd6f735f50b1b0e1ac530f7f3161f0fd86a",
+    "arts/actions/01/performance.mjs": "3405c27ceee06f6999d52a1854efb91a73f7d8e9f2bd118e93368a80b28f5a04",
+    "arts/actions/01/preview.html": "c7dddf26ecc112a95aab70ddcfcc4746c5e4d4618dfd8abf70a8b93a48e72fad",
+    "arts/actions/01/bake-camera.mjs": "d4a02d1b701d1c91a761bfde19c651c63246771156b88008d73eddb2462a9421",
+    "arts/actions/01/camera-motion.test.mjs": "eaa2a72cf9d594073f6f6bc1f8bcda2b7f8e05425a1a9714fe5d7a13ba74242f",
+    "arts/static/01/raster-assets-manifest-v01.json": "9562105f65b3afc5bc7b56e5d0d7341ceca0c7ed10d26d241e80d12df8ba6405",
+    "scripts/final/shot/01.md": "b9ef57fe0abbdeb593d0551af392da6b038af8f89a8af20c2b98ded7ee67238c"
+  },
+  "screenshots": [
+    "browser-workstation-v03.png",
+    "browser-portraits-v03.png",
+    "browser-ending-v03.png"
+  ],
+  "limitations": [
+    "unvoiced preview; no narration timing",
+    "finite intact character cels; no new full-body animation",
+    "visual candidate awaiting user review",
+    "no MP4 export"
+  ]
+}

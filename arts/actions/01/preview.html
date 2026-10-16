@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="zh-CN">
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>01 · 多机位动态预览</title>
+<title>01 · 字幕与视频预览</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#172431;color:#f6f1e7;font-family:system-ui,"PingFang SC",sans-serif}header{padding:16px 22px 8px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}h1{font-size:21px;margin:0}small{color:#bac8d0}.controls{padding:10px 22px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}button,select{font:inherit;border:1px solid #718493;border-radius:5px;padding:7px 11px;background:#f6f1e7;color:#263342}button{cursor:pointer;min-width:62px}button[aria-current=true]{background:#e9b468}input[type=range]{flex:1;min-width:220px;accent-color:#e9b468}label{font-size:14px}#stage{max-width:1440px;margin:auto;background:#101923;aspect-ratio:16/9;overflow:hidden}#stage svg{width:100%;height:100%;display:block}#status{padding:10px 22px;color:#c2d0d8;font-size:14px}#loading{padding:80px;text-align:center}#error{white-space:pre-wrap;color:#ffb7a7;padding:20px}.foot{padding:0 22px 14px;color:#afc1cc;font-size:13px}
-</style>
-<header><h1>01 · 多机位动态预览</h1><small>12镜 · 45秒预算 · 完整姿态PNG · 无配音</small></header>
-<div class="controls"><button id="play" disabled>播放</button><select id="action" aria-label="预览模式"><option value="camera">新版12镜 · 45秒</option><option value="legacy">旧背面工位 · 45秒</option></select><input id="seek" aria-label="时间" type="range" min="0" max="45" value="0" step=".01"><output id="clock">0.00 / 45.00秒</output><label><input type="checkbox" id="joints">显示构图基线</label></div>
-<div class="controls" id="keytimes"></div><div id="stage"><div id="loading">加载新增美术与镜头框架…</div></div><div id="status">准备中</div><div class="foot">镜头与动作按时间采样；仍是有限绘制姿态，无配音校时或视频导出。</div><pre id="error" hidden></pre>
+details{margin:0 22px 12px}summary{cursor:pointer;color:#bac8d0;font-size:14px}details .controls{padding:10px 0 0}</style>
+<header><h1>01 · 字幕与视频预览</h1><small>12镜 · 45秒 · 口播稿字幕 · 无声音</small></header>
+<div class="controls"><button id="play" disabled>播放</button><select id="action" aria-label="预览模式"><option value="camera">字幕版 · 45秒</option><option value="legacy">旧背面工位 · 45秒</option></select><input id="seek" aria-label="时间" type="range" min="0" max="45" value="0" step=".01"><output id="clock">0.00 / 45.00秒</output><label><input type="checkbox" id="joints">显示构图基线</label></div>
+<details id="shot-navigation"><summary>镜头跳转</summary><div class="controls" id="keytimes"></div></details><div id="stage"><div id="loading">加载画面…</div></div><div id="status">准备中</div><div class="foot">可用进度条检查动作前后；字幕按镜头和语义暂排，后续随配音校时。</div><pre id="error" hidden></pre>
 <script type="module">
 import {rootSvg} from '../../characters/rigs/runtime/rig.mjs';
 import {ACTIONS,sampleScene,sampleAction,drawRoom} from './whole-motion.mjs';
@@ -27,7 +27,7 @@ try{
   if(mode==='camera'){state=sampleCameraScene(time);name=state.beat.id+' '+state.beat.name;picture.innerHTML=drawCameraScene(state,bundle,{debug:$('#joints').checked});}
   else{state=mode==='legacy'?sampleScene(time):sampleAction(mode,time);name=state.beat.name;picture.innerHTML=drawRoom(state,bundle,{debug:$('#joints').checked});}
   $('#clock').value=time.toFixed(2)+' / '+duration.toFixed(2)+'秒';$('#seek').value=time;
-  $('#status').textContent=name+' ｜'+(mode==='camera'?'N1–N5已接入 · 24张姿态 · 12镜时间轴':'旧工艺对照 · 原21张姿态动作')+' · 无配音';
+  $('#status').textContent=name+' ｜'+(mode==='camera'?'口播稿字幕 · 暂定时间轴':'旧工艺对照 · 原21张姿态动作')+' · 无配音';
   stage.dataset.time=time.toFixed(3);stage.dataset.action=mode;stage.dataset.shot=mode==='camera'?state.beat.id:'';
   for(const [button,id] of beatButtons)button.setAttribute('aria-current',mode==='camera'&&state.beat.id===id?'true':'false');
  }

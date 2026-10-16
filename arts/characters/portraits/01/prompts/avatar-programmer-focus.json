@@ -1,0 +1,9 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "transparent_background": true,
+  "prompt": "Edit target: the referenced transparent programmer head-and-shoulders portrait. Produce ONE alternate expression cel with EXACT same square1254x1254 composition, hair silhouette, shoulder contour, neck, clothing, face position and rendering. Change ONLY eyes/eyebrows/mouth: gaze angled slightly downward to inspect a task, eyebrows drawn inward very slightly, thoughtful small closed mouth; focused and mildly tired, not angry. Preserve identity, fine anime linework, subtle cel shading, transparent background. No new objects or text, no circle frame, no restyling, no recrop, no body/head motion. This will switch with the neutral portrait at the exact same screen coordinates.",
+  "references": [
+    "arts/characters/portraits/01/programmer-neutral-v01.png"
+  ],
+  "destination": "arts/characters/portraits/01/programmer-focus-v01.png"
+}

@@ -1,5 +1,10 @@
 # 01 · 独立道具与屏幕状态
 
+## 2026-10-16 · 主体素材重绘
+
+当前动态预览的主要工位与纸张／托盘已改用图像模型绘制PNG，统一透视和材质；workstation-painted-v02.png为采用稿，v01只作过程保留。椅背与显示器背壳独立PNG保留遮挡职责。 完整prompt、来源、尺寸、alpha与哈希见[重绘记录](../../static/01/RASTER_REFINEMENT.md)。保留矢量文字、状态与动效标点；新主体PNG按原生比例渲染，不用拉伸补构图。
+
+
 ## 2026-10-16：显示器背壳前景
 
 新增[monitor-back-v01.svg](monitor-back-v01.svg)，1280×360，N5：与现有显示器共用深蓝灰色板，作为正面反打的独立近前景，不含屏幕文字。当前目录共16个道具SVG；原build_assets.py仍维护旧15项，新背壳由独立[镜头资源清单](../../static/01/camera-assets-manifest-v01.json)记录。合成检查见[CAMERA_ASSETS](../../static/01/CAMERA_ASSETS.md)。

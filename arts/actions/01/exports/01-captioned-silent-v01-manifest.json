@@ -1,0 +1,117 @@
+{
+  "version": "S01_SILENT_VIDEO v0.1",
+  "date": "2026-10-16",
+  "method": "native frame-driven SVG via sharp/librsvg, streamed to FFmpeg; not realtime capture or Remotion",
+  "fps": 30,
+  "frames": 1350,
+  "width": 1920,
+  "height": 1080,
+  "durationSeconds": 45,
+  "audio": false,
+  "burnedCaptions": true,
+  "captionTiming": "provisional semantic timing; no voice alignment",
+  "font": "Hiragino Sans GB",
+  "captionCues": 14,
+  "rendererVersions": {
+    "aom": "3.15.1",
+    "archive": "3.8.9",
+    "cairo": "1.18.6",
+    "cgif": "0.5.4",
+    "exif": "0.6.26",
+    "expat": "2.8.5",
+    "ffi": "3.8.0",
+    "fontconfig": "2.18.3",
+    "freetype": "2.14.3",
+    "fribidi": "1.0.17",
+    "glib": "2.90.0",
+    "harfbuzz": "14.5.0",
+    "heif": "1.23.5",
+    "highway": "1.4.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.19.1",
+    "mozjpeg": "0826579",
+    "pango": "1.58.2",
+    "pixman": "0.46.4",
+    "png": "1.6.58",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.63.2",
+    "tiff": "4.7.2",
+    "uhdr": "2.0.2",
+    "vips": "8.18.7",
+    "webp": "1.6.0",
+    "xml2": "2.15.4",
+    "zlib-ng": "2.3.3",
+    "sharp": "0.35.5"
+  },
+  "ffmpeg": "ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers",
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "warning",
+    "-nostdin",
+    "-y",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "medium",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-frames:v",
+    "1350",
+    "-movflags",
+    "+faststart",
+    "-metadata",
+    "title=01 · 口播字幕 · 无声音",
+    "/Users/alan671/Documents/MYvideo/arts/actions/01/exports/01-captioned-silent-v01.part.mp4"
+  ],
+  "elapsedSeconds": 601.406,
+  "output": {
+    "path": "arts/actions/01/exports/01-captioned-silent-v01.mp4",
+    "bytes": 6968085,
+    "sha256": "c7d4caba123034b39880a86688c1ee725218523c220125b88b5d5ebdb085b0c8"
+  },
+  "code": [
+    {
+      "path": "arts/actions/01/bake-video.mjs",
+      "sha256": "b196881cf9e0c19a724c0d930d4c153d318051da1c78c18bd97966f3d52fffb1"
+    },
+    {
+      "path": "arts/actions/01/render-frame.mjs",
+      "sha256": "d674fc0d135339ed70c0853aa1d5531730ecc480095a3f6b53961d974666aa31"
+    },
+    {
+      "path": "arts/actions/01/camera-motion.mjs",
+      "sha256": "434ec2191c05e357997f0390b363b8ab841a50717191f4dee08a41bdef8789db"
+    },
+    {
+      "path": "arts/actions/01/performance.mjs",
+      "sha256": "3405c27ceee06f6999d52a1854efb91a73f7d8e9f2bd118e93368a80b28f5a04"
+    },
+    {
+      "path": "arts/actions/01/captions/captions.mjs",
+      "sha256": "c4e5da6fd614b7ff9ef50f3a39a5960c4f68b0b3bf31449fd318c7722c581c0c"
+    },
+    {
+      "path": "arts/actions/01/captions/01-narration-v01.json",
+      "sha256": "72836a0c4b500f8bb247a2e508f14f6d4295148f3b683f71cdb61ed90a8a21fa"
+    }
+  ],
+  "assetManifest": {
+    "path": "arts/static/01/raster-assets-manifest-v01.json",
+    "sha256": "9562105f65b3afc5bc7b56e5d0d7341ceca0c7ed10d26d241e80d12df8ba6405"
+  }
+}

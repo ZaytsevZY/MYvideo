@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "transparent_background": true,
+  "prompt": "Use case: illustration-story. Production prop for a1920x1080 2D anime educational film. Match fine dark warm-gray linework and restrained cel shading of the referenced programmer/Agent, muted blue-gray, warm ivory and muted orange. Detailed hand-drawn anime material rendering, not geometric vector/SVG, not photorealistic, not 3D render. True transparent background, clean alpha, no glow or halo, no text/logos/watermarks. Image1 exact composition edit target; Image2 style reference. Redraw only this wide dark blue-gray MONITOR BACK panel seen directly from behind, upper rear shell of computer screen used as lower foreground occluder. Preserve very wide horizontal silhouette, gentle curved top corners and top bevel, panel reaches bottom crop; no exposed stand, desk or screen face. Refined anime linework, subtle matte-plastic shading, ventilation slots, restrained screws/central mounting cover, no logo. Shape begins~2% inset and7%down and reaches bottom edge of a1280x360 wide canvas. Do not add surrounding scene, do not rotate, no text, no centered floating small monitor, fill almost entire wide frame while preserving transparency outside silhouette.",
+  "references": [
+    "arts/actions/01/provenance/raster-v03/monitor-back-layout-guide.png",
+    "arts/characters/poses/01/programmer-front-neutral-v01.png"
+  ],
+  "destination": "arts/items/01/monitor-back-painted-v01.png"
+}

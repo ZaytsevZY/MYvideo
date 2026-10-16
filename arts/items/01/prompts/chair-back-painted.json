@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "transparent_background": true,
+  "prompt": "Use case: illustration-story. Production prop for a1920x1080 2D anime educational film. Match fine dark warm-gray linework and restrained cel shading of the referenced programmer/Agent, muted blue-gray, warm ivory and muted orange. Detailed hand-drawn anime material rendering, not geometric vector/SVG, not photorealistic, not 3D render. True transparent background, clean alpha, no glow or halo, no text/logos/watermarks. Image1 is exact silhouette/layout edit target; Image2 style reference. Redraw ONLY this rear-facing blue-gray office chair BACKREST and short central support, as detailed anime prop. Preserve exact upright camera direction and canvas placement: backrest spans x40..300 y12..355 within a340x480 canvas, short central support x149..191 extends to468. No seat, armrests, wheels or extra chair parts. Visible rear shell seams, slight molded curvature, central attachment plate and two tiny screws, tasteful fabric or matte-plastic shading with slender linework. Dark slate blue, neutral lighting. It overlays an existing seated figure; do not rotate or crop/recenter, preserve transparent margins and exact composition.",
+  "references": [
+    "arts/actions/01/provenance/raster-v03/chair-layout-guide.png",
+    "arts/characters/poses/01/programmer-front-neutral-v01.png"
+  ],
+  "destination": "arts/items/01/chair-back-rear-painted-v01.png"
+}

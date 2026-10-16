@@ -1,5 +1,9 @@
 # 01 · 完整角色姿态与补充关键帧
 
+## 2026-10-16：动效表情帧
+
+新增[疲惫闭眼上半身](programmer-front-fatigue-v01.png)，1153×1364、真实alpha；保持中性帧构图和身体，仅改表情，用作短暂疲惫眨眼。一次内置imagegen编辑，源像素直接复制。当前库存25张，camera bundle已注册；[清单与哈希](manifest-performance-v01.json)、[完整prompt](prompts/programmer-front-fatigue-v01.json)。下文24张为上一轮状态。
+
 ## 2026-10-16：镜头新增姿态
 
 新增[正面中性](programmer-front-neutral-v01.png)、[正面决定派发](programmer-front-dispatch-v01.png)（均1153×1364，完整上半身）及[朝右3/4站姿](programmer-logic-stand-right-v01.png)（1024×1536，全身），均为透明PNG，原始像素未改。现有01库存共24张人物姿态（程序员14、Agent10）；新camera动态bundle已接入全部24张，旧whole动作bundle保留21张。新增索引见[manifest-camera-v01.json](manifest-camera-v01.json)，完整用途、提示词与静态合成检查见[CAMERA_ASSETS](../../../static/01/CAMERA_ASSETS.md)。正面素材不应套用旧baker的1024×1536固定尺寸。

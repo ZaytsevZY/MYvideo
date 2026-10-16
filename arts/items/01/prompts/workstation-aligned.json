@@ -1,0 +1,10 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "transparent_background": true,
+  "prompt": "Precise layout correction edit for an anime animation prop. Image1 is the painted workstation EDIT TARGET; Image2 is the original layout POSITION GUIDE. Keep the SAME1672x941 transparent canvas and match Image1's excellent anime material detail, wood grain, thin linework, colors, lamp shade, horizontal mouse, all design identity. Correct only layout/alignment to Image2: LOWER the entire desk tabletop and desk-mounted objects by about30 pixels in the1920x1080 world coordinate system (about26 pixels on1672x941 canvas), so a pre-existing seated character's typing fingers at world y670 rest on TOP of the desk rather than below its front edge. Enlarge keyboard WIDTH by about35% around its same center, but do NOT increase its front-to-back depth; keycap rows must retain a plausible shallow perspective. Put keyboard front edge at world y700, centered x620, width~350; reference guide shows exact intended hand contact zone. Keep chair seat/stem/wheels at their CURRENT Image1 positions and keep desk legs/tower grounded near same baseline; increase/lower desk surface locally, do not shift entire composition. Monitor remains blank dark blue screen, lower naturally with desk; lamp and mouse sit on same lowered desk surface. Preserve empty upper margin and empty right third. No people, no room, no new objects, no text or screen content. No crop, no recenter, true transparency. One corrected complete workstation assembly, not a sheet or comparison.",
+  "references": [
+    "arts/items/01/workstation-painted-v01.png",
+    "arts/actions/01/provenance/raster-v03/workstation-layout-guide.png"
+  ],
+  "destination": "arts/items/01/workstation-painted-v02.png"
+}

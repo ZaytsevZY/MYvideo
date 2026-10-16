@@ -1,0 +1,9 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "transparent_background": true,
+  "prompt": "Use case: illustration-story. Production prop for a1920x1080 2D anime educational film. Match fine dark warm-gray linework and restrained cel shading of the referenced programmer/Agent, muted blue-gray, warm ivory and muted orange. Detailed hand-drawn anime material rendering, not geometric vector/SVG, not photorealistic, not 3D render. True transparent background, clean alpha, no glow or halo, no text/logos/watermarks. Reference only for linework/cel shading. Draw ONE empty desktop paper in-tray, low rectangular warm-gray/tan powder-coated metal tray with a small front lip, open top, subtle rim thickness and joints. View from front slightly above, shallow consistent perspective, wide about4:1 silhouette, not deep isometric. Entire tray isolated, no desk or papers. Transparent wide canvas with5% margin, tray filling90% width and80%height. Detailed anime background prop, fine realistic line weights and restrained contact shadow on the tray itself. No label slot text.",
+  "references": [
+    "arts/characters/poses/01/agent-inspect-file-v01.png"
+  ],
+  "destination": "arts/items/01/plan-tray-painted-v01.png"
+}

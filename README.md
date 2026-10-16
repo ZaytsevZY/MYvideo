@@ -7,9 +7,9 @@
 - **课程要求：** 成片 3～5 分钟；提交截止为 2026-10-21 24:00，原文见 [COURSE.md](COURSE.md)。
 - **字符与时间：** 口播840个非空白字符（含标点、英文），低于1,100上限；暂定全片4:40，含14秒文献卡，待实际配音校准。
 - **制作路线：** Claude 编写 Remotion / React 动画代码，再渲染成片；具体模型与依赖版本在执行时记录。
-- **视觉状态：** 已形成21个文字画面段落；STYLE_BIBLE v0.9明确故事＋逻辑双轴与角色识别优先。已有四张角色设定及01资源：三个背景、16个道具SVG和16个图解SVG；人物姿态共24张（含2张上半身近景）。[新增5项镜头美术](arts/static/01/CAMERA_ASSETS.md)已静态检查，[12镜动态预览](arts/actions/01/CAMERA_PREVIEW.md)已接入24张姿态和N1–N5，保留原21姿态工艺对照；尚无Remotion工程或成片。
+- **视觉状态：** 已形成21个文字画面段落；STYLE_BIBLE v0.11明确故事＋逻辑双轴与角色识别优先。已有四张角色设定及01资源：三个背景、16个道具SVG和16个图解SVG；人物姿态共25张（含疲惫闭眼表情帧）。[新增5项镜头美术](arts/static/01/CAMERA_ASSETS.md)已静态检查，[12镜动态预览](arts/actions/01/CAMERA_PREVIEW.md)已接入25张姿态、动作反馈和头像搬运文件，保留原21姿态工艺对照；现已导出01的45秒无声字幕MP4，尚无Remotion工程及六章完整成片。
 
-2026-10-16已细化[01镜头稿](scripts/final/shot/01.md#video-content)为12镜／45秒：由Claude Opus 5.5按英文prompt重写并经本地审校，情境多机位、逻辑站立讲解；[镜头增量评估](scripts/doc/01_CAMERA_WORKLOAD.md)推荐增加5项素材、8–14制作工时。镜头文字与新增5项美术已接入[12镜动态框架](arts/actions/01/CAMERA_PREVIEW.md)，完成状态测试和浏览器播放检查；无配音，口播沿用原稿。
+2026-10-16已细化[01镜头稿](scripts/final/shot/01.md#video-content)为12镜／45秒：由Claude Opus 5.5按英文prompt重写并经本地审校，情境多机位、逻辑头像搬运与工位操作小窗；[镜头增量评估](scripts/doc/01_CAMERA_WORKLOAD.md)推荐增加5项素材、8–14制作工时。镜头文字与新增5项美术已接入[12镜动态框架](arts/actions/01/CAMERA_PREVIEW.md)，完成状态测试和浏览器播放检查；无配音，口播沿用原稿。
 
 ## 工作文件
 
@@ -42,3 +42,9 @@
 审核六章音画分配 → 临时配音校时、角色与故事及逻辑设计 → 分层子镜头 → Remotion代表镜头预览与风格验证 → 分章实现 → 正式声音、字幕与成片导出。
 
 文件名中的 `final`、旧稿中的“定稿”或历史“已批准”字样，不单独代表当前工作版本已经审核冻结。每次实际冻结需留下确认依据与文件哈希。
+
+2026-10-16动效修订：加入打字／思考／交接反馈、闭眼与短时姿态模糊，清单增长与程序员反复查看电脑同步；图解精简为头像、文件与托盘。当前[S01_CAMERA_PREVIEW v0.2](arts/actions/01/CAMERA_PREVIEW.md)，12项检查通过，口播与45秒预算不变。
+
+2026-10-16素材细化：当前[S01_CAMERA_PREVIEW v0.3](arts/actions/01/CAMERA_PREVIEW.md)已将主要SVG头像／道具替换为图像模型绘制PNG，统一工位透视，保留可编辑文字与动作反馈；[素材及完整prompt](arts/static/01/RASTER_REFINEMENT.md)。
+
+2026-10-16字幕与视频：当前[S01_CAMERA_PREVIEW v0.4](arts/actions/01/CAMERA_PREVIEW.md)加入14段口播字幕；[45秒无声MP4及SRT](arts/actions/01/exports/README.md)已导出，1080p／30fps／1350帧，无音频轨。字幕按语义和镜头暂排，待配音校时。

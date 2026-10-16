@@ -1,0 +1,9 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "transparent_background": true,
+  "prompt": "Use case: illustration-story. Production prop for a1920x1080 2D anime educational film. Match fine dark warm-gray linework and restrained cel shading of the referenced programmer/Agent, muted blue-gray, warm ivory and muted orange. Detailed hand-drawn anime material rendering, not geometric vector/SVG, not photorealistic, not 3D render. True transparent background, clean alpha, no glow or halo, no text/logos/watermarks. Reference establishes paper material and anime style only. ONE landscape paper work-slip prop, a small cream task document approximately2:1 width/height, nearly front-on, axis level. Gently folded upper-right corner, thin visible paper edge along bottom, very restrained pale-gray fine ruled detail only near upper-left. Center and right80% completely blank for an editable Chinese task name later. No symbols, checks, seals, status colors, letters or numbers. It should feel like a physical hand-drawn paper, not a rounded UI card. Landscape2:1 transparent canvas, document occupying90% width and80% height, slight fine material shading.",
+  "references": [
+    "arts/characters/poses/01/agent-inspect-file-v01.png"
+  ],
+  "destination": "arts/items/01/task-document-landscape-v01.png"
+}

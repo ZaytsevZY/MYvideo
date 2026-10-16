@@ -1,10 +1,12 @@
 # 项目版本与状态
 
-**版本：** PROJECT_STATE v0.17 · 2026-10-16
+**版本：** PROJECT_STATE v0.20 · 2026-10-16
 
 本文件为当前版本的唯一索引。工作片名：《当效率成为义务》——Agent 时代的劳动悖论；课程方向为马克思主义科技社会观。
 
 ## 当前任务与论证
+
+**最新交付：** 用户授权将01口播字幕加入现有演出并bake完整45秒无声视频，已完成[MP4及字幕](../arts/actions/01/exports/README.md)。当前为原生SVG逐帧经sharp／FFmpeg编码，无Remotion工程；后文制作阶段记录中的“无视频”仅表示当时状态。
 
 用户已明确授权本轮改写六章 `text`，拆成口播 audio content 与镜头文本 video content；不是继续保持原口播的任务。保留六章主题与主论证：任务成本降低扩大需求范围，劳动关系与竞争影响工作要求，执行能力增长未必同步扩大劳动自主性。
 
@@ -15,14 +17,15 @@
 | 对象 | 当前文件 / 版本 | 状态 |
 |---|---|---|
 | 音画文本 | [SHOT_TEXT v0.4](final/shot/README.md) | 第01章补回叙事引入，其余口播未改；待试听及内容审核 |
-| 01镜头细化 | [S01_CAMERA v0.2](final/shot/01.md#video-content) / [增量评估](doc/01_CAMERA_WORKLOAD.md) | Claude Opus 5.5重写并审校，12镜／45秒；情境多机位、逻辑站立；新增美术已接入原生SVG／JavaScript动态预览 |
+| 01镜头细化 | [S01_CAMERA v0.3](final/shot/01.md#video-content) / [增量评估](doc/01_CAMERA_WORKLOAD.md) | Claude Opus 5.5重写并审校，12镜／45秒；情境多机位；逻辑头像搬运＋操作小窗，已接入动作反馈与疲惫表情 |
 | 主题与表达 | [CREATIVE_BRIEF v0.9](style/CREATIVE_BRIEF.md) | 同步故事＋逻辑双轴及避免MV、slide的约束 |
 | 六章结构 | [OUTLINE v0.14](final/OUTLINE.md) | 同步音画分工与暂定时段 |
-| 风格 | [STYLE_BIBLE v0.9](style/STYLE_BIBLE.md) | 图解改用按内容定高的暖白底框；Agent处于底框上方 |
-| 艺术方向 | [ART_DIRECTION v0.7](style/ART_DIRECTION.md) | 01已改完整背面姿态叠层；后续镜头仍为草案 |
-| 角色设计 | [CHAR-V01](../arts/characters/README.md) | 四张设定表；01人物姿态共24张，含2张上半身近景 |
+| 风格 | [STYLE_BIBLE v0.11](style/STYLE_BIBLE.md) | 图解改用按内容定高的暖白底框；Agent处于底框上方 |
+| 艺术方向 | [ART_DIRECTION v0.9](style/ART_DIRECTION.md) | 01已改完整背面姿态叠层；后续镜头仍为草案 |
+| 角色设计 | [CHAR-V01](../arts/characters/README.md) | 四张设定表；01人物姿态共25张，含疲惫闭眼上半身 |
 | 01镜头美术 | [S01_CAMERA_ASSETS v0.1](../arts/static/01/CAMERA_ASSETS.md) | N1–N5共5项已制备；已静态检查并接入新版camera动态bundle |
-| 01动作预览 | [S01_CAMERA_PREVIEW v0.1](../arts/actions/01/CAMERA_PREVIEW.md) | 12镜／45秒、24姿态；旧工艺及13单动作保留；无配音／MP4 |
+| 01动作预览 | [S01_CAMERA_PREVIEW v0.4](../arts/actions/01/CAMERA_PREVIEW.md) | 12镜／45秒、25姿态，14段口播字幕；旧工艺及13单动作保留 |
+| 01无声视频 | [S01_SILENT_VIDEO v0.1](../arts/actions/01/exports/README.md) | 已导出1080p／30fps／1350帧／45.00秒MP4，字幕烧录，无音频轨；字幕待配音校时 |
 | 01静态素材 | [S01_ASSETS v0.5](../arts/static/01/README.md) | 两个背景、31个SVG；默认静态入口已改背面人物工位 |
 | 制作参考 | [STYLE_REFERENCES v0.2](style/STYLE_REFERENCES.md) | 保留历史参考；明确不采用MV叙事及空镜填充 |
 | 制作蓝图 | [PRODUCTION_BLUEPRINT v0.10](style/PRODUCTION_BLUEPRINT.md) | 本轮Codex动作预览例外已获用户授权；正式工程待建 |
@@ -30,8 +33,8 @@
 | 来源与概念 | [SOURCES v0.3](doc/SOURCES.md) | 经典、其他哲学文本、研究与技术来源分别标注 |
 | 研究入口 | [RESEARCH v0.7](doc/RESEARCH.md) | 沿用既有原文核查范围，增加历史制作调研恢复入口 |
 | 内容检查 | [FACT_CHECK v0.4](doc/FACT_CHECK.md) | 本版事实、引文与音画分配检查 |
-| 制作日志 | [GENERATION_LOG v0.11](doc/GENERATION_LOG.md) | 登记分件试验淘汰、21张完整姿态和有限动作预览 |
-| 交接 | [HANDOFF v0.18](HANDOFF.md) | 同步01镜头候选、增量评估与旧预览状态区别 |
+| 制作日志 | [GENERATION_LOG v0.14](doc/GENERATION_LOG.md) | 登记分件试验淘汰、21张完整姿态和有限动作预览 |
+| 交接 | [HANDOFF v0.21](HANDOFF.md) | 同步01镜头候选、增量评估与旧预览状态区别 |
 
 ## 字符与时间
 
@@ -96,3 +99,23 @@ CLI已登录；为支持用户指定的Opus5.5，从2.1.168更新至2.1.301。�
 一次Claude Opus5.5英文prompt生成基础镜头模块，约368.6秒返回，无重试；Codex接入与审校，修正任务流到清单的连续重排、缩放精度、近景取景、终点参照和文字避让。8项节点测试覆盖1351采样状态；12张代表性离线PNG及实际浏览器播放／跳转／旧动作检查通过，控制台无错误。详见[当前动态入口](../arts/actions/01/CAMERA_PREVIEW.md)与provenance/camera-v01。
 
 当前仍无配音、Remotion工程或MP4；30fps数据是状态采样，不是新绘制的逐帧人物序列。下一步为配音后校时、有限姿态衔接审阅与第02章接续，尚未记为用户冻结。
+
+## 2026-10-16：动作与视觉叙事修订（当前）
+
+用户四项反馈修订旧连续站立规则。当前S01_CAMERA v0.3／S01_CAMERA_PREVIEW v0.2加入打字动作线、疲惫闭眼完整绘稿、思考星芒、交接／点击反馈、两帧姿态模糊和收势。逻辑主图改由卡通头像选择／搬运文件，下方工位小窗演程序员反复查看电脑、文件增加；清单改折角竖向文件图标，移除画面内泛化解释文字。口播155字符、全片840字符与45秒预算不变。
+
+一次Claude Opus 5.5英文prompt生成performance.mjs基础模块，276.539秒，无重试；Codex接入和视觉修正。一次内置imagegen生成programmer-front-fatigue-v01.png，1153×1364真实alpha，原始像素直接复制。全部25姿态注册，当前仍为原生SVG／JavaScript预览；12项检查通过，代表图和浏览器关键片段检查，未配音、未导出视频，未用户冻结。输入输出与采用差异见arts/actions/01/provenance/performance-v02。
+
+## 2026-10-16：图像模型重绘01主体素材（当前）
+
+S01_CAMERA_PREVIEW v0.3按用户要求以绘制PNG替换主要几何SVG主体。11次内置imagegen调用，采用10项PNG：程序员／Agent各两种表情头像、横竖文件、托盘、统一工位、椅背和显示器背壳。工位首稿经一次桌面／键盘接触点修正后采用v02。主镜头和小窗共用工位，审核屏幕已重新对位；PNG均原样复制、按原生比例渲染，托盘／近前景显示器仅裁去透明布局留白。文字、状态及动作标点保留矢量。25张完整人物姿态、口播155字符、45秒预算与验收责任状态不变。
+
+13项检查通过，含1351状态、PNG真实签名／尺寸和当前画面不再引用旧几何工位主体；离线12镜及浏览器关键片段检查。完整prompt、引用、alpha、哈希与采用关系见arts/static/01/RASTER_REFINEMENT.md和raster-assets-manifest-v01.json。本轮未调用Claude，未新增声音或导出视频，候选尚未冻结。
+
+## 2026-10-16：01口播字幕与45秒无声视频（当前）
+
+原155字符口播拆为14段连续字幕，覆盖0–45秒；JSON、SRT、VTT及屏幕空间字幕层共用一份时间轴。按语义和镜头暂排，尚无声音，不声称完成配音对轴。字幕为44px白字配半透明深色底，保持在画面底部。当前预览v0.4同步字幕。
+
+保留现有PNG和动画，使用原生SVG确定性状态经sharp 0.35.5／librsvg 2.63.2逐帧栅格化，FFmpeg 8.0编码H.264／yuv420p，CRF18／medium；实测1920×1080、30fps、1350帧、45.00秒、6,968,085字节，无音频轨。该轮不新建Remotion工程；本章原生导出例外已写入制作蓝图。没有调用Claude或图像模型。
+
+原13项动作测试及新增3项字幕测试通过；全视频解码1350帧无错误，检查编码后的0／26.5／44.967秒抽帧；素材像素未改。命令、依赖、输入输出哈希与ffprobe记录在exports及[本轮证据](../arts/actions/01/provenance/subtitles-v01/verification.json)。此为01完整无声字幕候选，未记为用户冻结，也不是六章全片完成。

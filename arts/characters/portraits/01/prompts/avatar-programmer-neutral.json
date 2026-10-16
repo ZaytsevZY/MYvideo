@@ -1,0 +1,9 @@
+{
+  "tool": "image_gen.imagegen (built-in)",
+  "transparent_background": true,
+  "prompt": "Use case: illustration-story. Asset for an existing 1920x1080 2D anime educational film. Match the reference character's fine dark warm-gray linework, restrained cel shading, subtle material highlights, muted blue-gray / warm ivory / muted orange palette. Hand-drawn anime production art, NOT geometric SVG, NOT flat UI, NOT photorealistic, no 3D render, no thick black emoji outlines, no glow or background halo. Actual transparent background with clean alpha. No lettering, labels, watermark, border, frame or extra objects. Reference is identity/style reference. Draw ONE compact front-facing head-and-shoulders portrait of this exact young adult programmer. Recognizable tousled charcoal hair, gray eyes, blue sweatshirt neckline, a little lanyard. Moderately simplified anime portrait for 140px onscreen display, detailed eyes and hair locks; adult proportions with a slightly enlarged head, NOT baby chibi. Neutral attentive expression. Square transparent canvas, portrait centered, full hair and both shoulders visible, silhouette fills 88% width, hair top at8%, shoulders end at92%, face centered at45% height. No hands or torso below shoulders.",
+  "references": [
+    "arts/characters/poses/01/programmer-front-neutral-v01.png"
+  ],
+  "destination": "arts/characters/portraits/01/programmer-neutral-v01.png"
+}
