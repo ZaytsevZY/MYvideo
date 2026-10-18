@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1",
+  "status": "implemented-and-checked",
+  "verified": true,
+  "userArtFrozen": false,
+  "fromChapter": "03",
+  "toChapter": "04",
+  "source": "S04_STORY v0.5 / FILM_PREVIEW v0.4",
+  "timeline": {
+    "fps": 30,
+    "size": [
+      1920,
+      1080
+    ],
+    "cutGlobalFrame": 3660,
+    "fromLastEncodedLocalFrame": 1169,
+    "overlapFrames": 0,
+    "addedFrames": 0,
+    "transitionOwnership": "first12frames of incoming chapter hold actual outgoing terminal, then hard cut"
+  },
+  "outgoing": {
+    "t": 38.96666666666667,
+    "beatId": "S03-11",
+    "type": "L",
+    "phase": "organization-tree",
+    "pose": "front",
+    "chatCount": 6,
+    "completionSent": true,
+    "assignmentArrived": true,
+    "assignmentRead": true,
+    "neighborPose": "neighbors",
+    "reportProgress": 1,
+    "taskStates": {
+      "S03-A": "completed",
+      "S03-B": "completed",
+      "S03-C": "in-progress"
+    },
+    "humanOperation": "none",
+    "workdayEnded": false,
+    "deadline": "17:00",
+    "completionTime": "14:00",
+    "assignmentTime": "14:01",
+    "taskSet": "distinct-S03-scenario",
+    "audio": false
+  },
+  "incoming": {
+    "t": 0,
+    "beat": "S04-01",
+    "type": "E",
+    "phase": "entry",
+    "inheritedTasks": {},
+    "previousScenarioTasks": {
+      "S03-A": "completed",
+      "S03-B": "completed",
+      "S03-C": "in-progress"
+    },
+    "scenarioRelation": "distinct-research-scenario",
+    "poses": {
+      "lunch": "lunchEat",
+      "meeting": "meetingType",
+      "evening": "eveningPack",
+      "collaboration": "collab",
+      "traditional": "traditional"
+    },
+    "appraisal": {
+      "author": "manager",
+      "left": null,
+      "right": null
+    },
+    "feedbackNodes": 0,
+    "agents": [
+      0,
+      0,
+      0
+    ],
+    "cycles": [
+      "1年",
+      "1年",
+      "1年"
+    ],
+    "marketWeights": [
+      0.34,
+      0.33,
+      0.33
+    ],
+    "marketIsMeasured": false,
+    "marketFrozen": false,
+    "planningOrder": null,
+    "planCycle": null,
+    "board": {
+      "strike": 0,
+      "writing": 0,
+      "before": "3人负责产品线",
+      "after": "1人负责产品线",
+      "insert": false
+    },
+    "job": {
+      "id": "S04-JOB-01",
+      "independentResponsibility": false,
+      "multipleAgents": false,
+      "published": false,
+      "cvCount": 0,
+      "requirements": [
+        "参与产品线开发"
+      ]
+    },
+    "routine": {
+      "extra": 0,
+      "plan": 0,
+      "required": 0
+    },
+    "terminalHeld": false,
+    "caption": null
+  },
+  "method": "03组织树图保留0.4秒后硬切三窗研究情境，S03-C不自动完成。",
+  "audioPresent": false,
+  "evidence": {
+    "preview": "arts/actions/film/provenance/integration-v04/03-to-04-source-v04.mp4",
+    "frames": 120,
+    "durationSec": 4,
+    "size": [
+      960,
+      540
+    ],
+    "decodePassed": true,
+    "visualReview": "passed",
+    "sourceFrameEquality": "exact SVG equality without captions at global cut",
+    "sourceTests": "arts/actions/04/story-v05.test.mjs"
+  },
+  "limitations": [
+    "研究情境为卡通说明，非访谈影像复原"
+  ]
+}

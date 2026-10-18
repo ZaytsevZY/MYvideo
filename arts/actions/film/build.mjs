@@ -11,7 +11,7 @@ const read=p=>fs.readFileSync(path.join(ROOT,p)),json=p=>JSON.parse(read(p)),sha
 const registries={'02':json('arts/actions/02/provenance/full-v03/input-manifest.json').registry,'05':json('arts/actions/05/provenance/v01/input-manifest.json').registry,'06':json('arts/actions/06/provenance/v01/input-manifest.json').registry};
 Object.assign(registries['02'],STORY02);
 const bundle01=json('arts/actions/01/bundle-camera-v01.json');
-const data={version:'FILM_PREVIEW v0.3',date:'2026-10-18',fps:FPS,duration:DURATION,frames:TOTAL_FRAMES,width:1920,height:1080,audio:false,bundle01,registries,chapters:CHAPTERS,beats:GLOBAL_BEATS};
+const data={version:'FILM_PREVIEW v0.4',date:'2026-10-18',fps:FPS,duration:DURATION,frames:TOTAL_FRAMES,width:1920,height:1080,audio:false,bundle01,registries,chapters:CHAPTERS,beats:GLOBAL_BEATS};
 const sources=['arts/actions/01/camera-motion.mjs','arts/actions/01/performance.mjs','arts/actions/01/keyframes.mjs','arts/actions/01/bundle-camera-v01.json','arts/actions/01/captions/caption-data.mjs','arts/actions/02/full-scene.mjs','arts/actions/02/opening-revised.mjs','arts/actions/02/entry-v03.mjs','arts/actions/02/scene.mjs','arts/actions/03/scene.mjs','arts/actions/04/scene.mjs','arts/actions/05/scene.mjs','arts/actions/06/scene.mjs'];
 const inventory=new Map();
 function add(id,a,chapter){
@@ -21,7 +21,7 @@ function add(id,a,chapter){
 for(const [id,a]of Object.entries({...bundle01.assets,...bundle01.poses}))add(id,a,'01');
 for(const [chapter,r]of Object.entries(registries))for(const [id,a]of Object.entries(r))add(id,a,chapter);
 for(const [chapter,items]of Object.entries(DIRECT_ASSETS_BY_CHAPTER))for(const [id,p]of Object.entries(items))add(id,{path:p},chapter);
-// The adapted 04 entry holds the new 03 terminal image before opening the study.
+//04 holds03's terminal image before opening the simultaneous study scenes.
 for(const id of ['manager','portrait','coworkerA','coworkerB','office'])add(id,{path:DIRECT_ASSETS_BY_CHAPTER['03'][id]},'04');
 const sharp=createRequire(import.meta.url)('/Users/alan671/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
 for(const item of inventory.values()){
@@ -41,5 +41,7 @@ const stamp=ms=>{const x=Math.round(ms);return `${String(Math.floor(x/3600000)).
 fs.writeFileSync(path.join(DIR,'captions-v01.srt'),GLOBAL_CUES.map((c,i)=>`${i+1}\n${stamp(c.startMs)} --> ${stamp(c.endMs)}\n${c.text}\n`).join('\n'));
 sources.push('arts/actions/02/story-scene-v04.mjs','arts/static/02/story-assets-v01/scene-layered-v03.mjs');
 sources.push('arts/actions/03/story-scene-v05.mjs','arts/actions/04/entry-from-03-v05.mjs','arts/static/03/story-assets-v04/assets.mjs','arts/static/03/story-assets-v04/screen-copy.json');
-save('provenance/integration-v03/inputs.json',{date:data.date,chapters:CHAPTERS,source:sources.map(p=>({path:p,sha256:sha(p)})),framework:['timeline.mjs','scenes.mjs','player.mjs','player.css','preview.html','build.mjs','qa.mjs','framework.test.mjs'].map(p=>({path:'arts/actions/film/'+p,sha256:sha('arts/actions/film/'+p)})),audio:false,externalModelCalls:0,updatedChapter:'03',entryAdapter:'04 first 1.6 seconds only; original scene sources preserved'});
+sources.push('arts/actions/04/story-scene-v05.mjs','arts/actions/04/captions/04-narration-v05.json','arts/static/04/story-assets-v03/assets.mjs','arts/static/04/story-assets-v03/screen-copy.json','arts/actions/05/entry-from-04-v05.mjs');
+fs.mkdirSync(path.join(DIR,'provenance/integration-v04'),{recursive:true});
+save('provenance/integration-v04/inputs.json',{date:data.date,chapters:CHAPTERS,source:sources.map(p=>({path:p,sha256:sha(p)})),framework:['timeline.mjs','scenes.mjs','player.mjs','player.css','preview.html','build.mjs','qa.mjs','framework.test.mjs'].map(p=>({path:'arts/actions/film/'+p,sha256:sha('arts/actions/film/'+p)})),audio:false,externalModelCalls:0,updatedChapter:'04',entryAdapter:'03 exact terminal held for0.4s in04;04 published job page held for0.4s in05; chapter05 body preserved'});
 console.log(JSON.stringify({chapters:CHAPTERS.length,duration:DURATION,frames:TOTAL_FRAMES,captions:GLOBAL_CUES.length,uniqueAssetPaths:inventory.size}));

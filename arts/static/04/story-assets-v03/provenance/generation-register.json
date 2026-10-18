@@ -1,0 +1,533 @@
+[
+  {
+    "id": "premeeting-type",
+    "prompt": "Use case: illustration-story. Asset: a single portrait 2:3 animation keyframe for a three-window montage. References: image 1 is the exact identity of the brown-haired male coworker A; image 2 is office meeting-room composition/style only (replace its black-haired foreground protagonist). Draw ONE coherent anime/cel-shaded office scene matching the established fine dark outlines and warm soft shading. Coworker A, brown tousled hair and grey-green crewneck, sits correctly on an office chair at a conference table before a meeting, typing on the keyboard of his open laptop. Medium close portrait framing, face upper-middle, BOTH hands visibly touching the laptop keyboard, laptop lid back facing viewer. Three-quarter frontal camera, hands and tabletop share a single perspective. Glass office partition, open doorway and empty meeting chairs in background. No duplicate people; no faceless figures. Daylight, muted blue-grey and warm wood. No floating UI or baked text, letters, logos, arrows, badges with writing, or watermarks. Keep enough headroom for a separately composited small caption. Output one complete full-frame scene, not a contact sheet, no panels.",
+    "refs": [
+      "arts/characters/portraits/03/coworker-a-v04.png",
+      "arts/static/04/premeeting-panel-v02.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-766366f7-8b4a-4280-9963-18bc3a4da3a2.png",
+    "target": "arts/backgrounds/04/premeeting-type-v03.png",
+    "sha256": "436ef33361460775fb549cdfb2c65de1d79cac3d945e3e6fabe28a88d8654e59",
+    "originalSha256": "436ef33361460775fb549cdfb2c65de1d79cac3d945e3e6fabe28a88d8654e59",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/characters/portraits/03/coworker-a-v04.png",
+        "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5"
+      },
+      {
+        "path": "arts/static/04/premeeting-panel-v02.png",
+        "sha256": "91ab9b9a78012b7b2f366e3965c8fa7ff90492ad54b1ec243edd7f6aa641fe9b"
+      }
+    ]
+  },
+  {
+    "id": "evening-reopen",
+    "prompt": "Use case: illustration-story. Produce ONE portrait 2:3 coherent anime office animation keyframe. Image 1 is the exact face/hair identity of coworker B: brown hair tied into a loose low bun, cream/beige knitted sweater. Image 2 is reference for the established office, realistic chair/table relationship and cel-shaded rendering. She is seated properly at HER COMPANY WORKSTATION just before leaving on an evening, torso 3/4 frontal, face clearly visible in upper half. Dusk city windows and rows of unattended office desks in background, fluorescent office lighting plus dusk; explicitly an open-plan company office, not a bedroom or home study. Her shoulder bag rests on a separate adjacent chair. She has paused packing to reopen a laptop: left hand on upper edge of lid, right hand resting on trackpad, believable hands/contact and one continuous tabletop perspective. Medium-close vertical framing shows her face, both hands, laptop and bag. Warm muted wood and cool navy dusk, fine clean outlines matching references. No UI overlays or baked labels/text, no logos, symbols, clocks, arrows or watermark. Keep desk props sparse and keep her body seated below desktop.",
+    "refs": [
+      "arts/characters/portraits/03/coworker-b-v04.png",
+      "arts/backgrounds/03/neighbor-work-a-v05.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-15f87391-97d3-4902-a60c-60de0e44ad90.png",
+    "target": "arts/backgrounds/04/evening-reopen-v03.png",
+    "sha256": "4e7b41ce20e85760caf6ca6cc801e0b745451327816bef520a1646b7b979b77f",
+    "originalSha256": "4e7b41ce20e85760caf6ca6cc801e0b745451327816bef520a1646b7b979b77f",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/characters/portraits/03/coworker-b-v04.png",
+        "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5"
+      },
+      {
+        "path": "arts/backgrounds/03/neighbor-work-a-v05.png",
+        "sha256": "8a6fa3f0e97925dacfa825ea2a8545928e41d6d4899c55ff0dd1662f3da80a0c"
+      }
+    ]
+  },
+  {
+    "id": "premeeting-look",
+    "prompt": "Use case: identity-preserve. Edit target image 1: retain the entire meeting-room scene, camera framing, laptop, table, chair, glass walls, brown-haired coworker A's identity, grey-green clothing, lighting and cel-shaded art exactly. Produce a second complete animation keyframe. Change only the character's action: he pauses typing and turns his head slightly toward the open doorway on image LEFT, eyes looking up-left as a meeting participant is arriving offscreen. Left hand rests on the table beside the laptop, right hand remains on the keyboard. The head is naturally rotated, no duplicated face, correct shoulders and seated anatomy; do not move the laptop/table or change perspective. Keep doorway empty, arriving person stays offscreen. Portrait 2:3, one whole scene. No text, UI, icons, arrows or watermark.",
+    "refs": [
+      "arts/backgrounds/04/premeeting-type-v03.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-74a38fdc-a9b0-4616-a8fd-2ce015ce3625.png",
+    "target": "arts/backgrounds/04/premeeting-look-v03.png",
+    "sha256": "098b6cdc0445744ec7a0624e8968e93611f21cd24ede69b4f4a2b242f67d7dc8",
+    "originalSha256": "098b6cdc0445744ec7a0624e8968e93611f21cd24ede69b4f4a2b242f67d7dc8",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/backgrounds/04/premeeting-type-v03.png",
+        "sha256": "436ef33361460775fb549cdfb2c65de1d79cac3d945e3e6fabe28a88d8654e59"
+      }
+    ]
+  },
+  {
+    "id": "evening-type",
+    "prompt": "Use case: identity-preserve. Edit target image 1, second animation keyframe. Keep the exact portrait framing, company open-plan office at dusk, cream-sweater brown-bun coworker B, bag on adjacent chair, desk, laptop and background geometry unchanged. Only change her action to actively working again: laptop is fully open at the same position, BOTH hands are now on its keyboard, gaze focused down on screen, shoulders lean slightly forward, mouth neutral instead of smiling. Her left hand is no longer on the lid. Natural fingers touching keys, not floating. Preserve one coherent perspective and all identity details. Medium close portrait 2:3, one complete full-frame cel-shaded anime scene, no panels. No text, UI, symbols, labels or watermark.",
+    "refs": [
+      "arts/backgrounds/04/evening-reopen-v03.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-4497ab52-5b13-48f5-bc6a-51bc584fcd18.png",
+    "target": "arts/backgrounds/04/evening-type-v03.png",
+    "sha256": "336864ce555670662eda5f0696aefeb1b9df4406dd08427a0c633b57f54c5c51",
+    "originalSha256": "336864ce555670662eda5f0696aefeb1b9df4406dd08427a0c633b57f54c5c51",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/backgrounds/04/evening-reopen-v03.png",
+        "sha256": "4e7b41ce20e85760caf6ca6cc801e0b745451327816bef520a1646b7b979b77f"
+      }
+    ]
+  },
+  {
+    "id": "lunch-eat",
+    "prompt": "Use case: identity-preserve. Edit target image 1 only. Make one complete 2:3 portrait animation keyframe retaining the exact cafeteria, black-haired protagonist identity, blue-grey sweatshirt and teal lanyard, table, food tray, mug, laptop placement, camera angle, rendering and daytime light. Change only his action to actually eating: lift the spoon in his image-left hand to just below his mouth, with a small bite of rice on it, eyes looking toward the spoon, mouth slightly open naturally. Other hand rests near the laptop trackpad, not reaching through the laptop. No extra hands or duplicate utensils. Keep chair and body anatomically below tabletop. Original image's objects remain exactly located. Anime fine lines and warm soft cel shading, no baked words, labels, motion symbols or watermark.",
+    "refs": [
+      "arts/static/04/lunch-panel-v02.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-0bb02fe5-b23b-4e56-b032-a561420f4a26.png",
+    "target": "arts/backgrounds/04/lunch-eat-v03.png",
+    "sha256": "b3a0dea4e8aacbbb3dfb378c1466760bd4416563ca8ab45d6c9b0015aa58f9ea",
+    "originalSha256": "b3a0dea4e8aacbbb3dfb378c1466760bd4416563ca8ab45d6c9b0015aa58f9ea",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/static/04/lunch-panel-v02.png",
+        "sha256": "7b22f7f4573b16440bdd5310b20a73814f46a04e0dd07ad08d6125d41e138854"
+      }
+    ]
+  },
+  {
+    "id": "lunch-type",
+    "prompt": "Use case: identity-preserve. Edit target image 1 retaining this exact cafeteria, portrait 2:3 camera, table and laptop geometry, food tray, mug, protagonist face/hair/clothes/lanyard and lighting. Create the next single full-frame action key: protagonist has stopped eating to work, spoon now lies on the folded paper napkin in front of his food tray, image-left arm reaches naturally ACROSS BEHIND the tray to join his other hand on the laptop keyboard at image right. BOTH hands contact keyboard in plausible seated anatomy, shoulders and eyes turn toward laptop on image right. Food remains on tray, no floating spoon, no third hand, hands not through the laptop lid. Keep desk and room unchanged, same anime line/shading style. No text, UI, labels, symbols or watermark.",
+    "refs": [
+      "arts/static/04/lunch-panel-v02.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-b51b366f-347e-4993-91f0-5cb1428e31a6.png",
+    "target": "arts/backgrounds/04/lunch-type-v03.png",
+    "sha256": "76c22715ee2c1f55a0379b93d0ec10aee8b44839b42d78f2ca0357f89e20423d",
+    "originalSha256": "76c22715ee2c1f55a0379b93d0ec10aee8b44839b42d78f2ca0357f89e20423d",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/static/04/lunch-panel-v02.png",
+        "sha256": "7b22f7f4573b16440bdd5310b20a73814f46a04e0dd07ad08d6125d41e138854"
+      }
+    ]
+  },
+  {
+    "id": "collaboration-review",
+    "prompt": "Use case: illustration-story. ONE square coherent office animation keyframe for LEFT half of a 1920x1080 performance comparison. Reference 1 is exact black-haired protagonist identity, blue-grey sweatshirt and teal ID lanyard and anime office rendering. Reference 2 is exact anthropomorphic Agent identity: orange bob hair, star hairclip, white jacket with orange trim and star chest motif, black inner outfit. Two people naturally collaborate at ONE desk: human seated correctly in office chair at image left-middle, Agent standing naturally beside him at image right, slightly behind desk. A completed white paper document is being handed from Agent to human above the desktop; each holds an opposite edge with anatomically correct fingers, no merged hands. Human looks down reviewing it, calm focused expression. Small desktop monitor at far left, keyboard on desk, no huge laptop lid hiding the transfer. Frontal 3/4 medium shot, both faces large and clearly visible, heads in upper half, hands and paper in lower-middle. Modern office, warm daylight, wooden desk, muted blues/teal, clean fine anime outlines and soft cel shadows matching image1. Leave top 12% unobstructed for a later performance UI label. No generated words, letter grades, logos, UI, arrows, sparkles, watermark; paper has only a few faint nonlinguistic lines. One continuous scene, not split panels, not model sheet.",
+    "refs": [
+      "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+      "arts/characters/agent-model-sheet-v01.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-77888af0-4fc8-43bc-8214-9679b74985e1.png",
+    "target": "arts/backgrounds/04/collaboration-review-v03.png",
+    "sha256": "c01cd90560ca7bad42fb469c070041f5b76bbe119a623d370471ced5194db6be",
+    "originalSha256": "c01cd90560ca7bad42fb469c070041f5b76bbe119a623d370471ced5194db6be",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+        "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac"
+      },
+      {
+        "path": "arts/characters/agent-model-sheet-v01.png",
+        "sha256": "988d3df0b3b8ceb0158cf65c315d2f436e1b85498a8a368a285a4e4a618c653e"
+      }
+    ]
+  },
+  {
+    "id": "traditional-type",
+    "prompt": "Use case: illustration-story. Create ONE square full-frame office anime illustration as RIGHT half of a two-workstation comparison. Image1 is exact coworker A identity: brown tousled hair, brown eyes, face proportions; image2 is style/camera/table-keyboard reference only, not the black-haired person's identity. Brown-haired programmer wears an olive-grey PLAID button-up shirt over a plain grey t-shirt (recognizable plaid, not blue protagonist sweatshirt). He sits properly in an office chair, seen frontal medium-close at a wooden desk, both hands actively typing on ONE visible keyboard. Slight forward lean, focused earnest expression, tense eyebrows from concentration, no clown face. His monitor is off-camera ahead just left of lens; do not hide hands or face with a laptop. Correct five fingers and table contact. Company daylight windows and office desks in soft background, balanced warm wood/cool muted blue-grey cel shades, fine anime outlines match references. Keep upper-left top background available for a separate future performance label. NO Agent in this scene, no baked text/letter grades, labels, speech bubbles, symbols, arrows, speed lines or watermark. One complete scene, no panels.",
+    "refs": [
+      "arts/characters/portraits/03/coworker-a-v04.png",
+      "arts/backgrounds/03/programmer-front-desk-a-v05.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-f1da35ec-8f5d-4e68-9e6b-daf2f8f95822.png",
+    "target": "arts/backgrounds/04/traditional-type-v03.png",
+    "sha256": "a43ae89da68997143906f51f4130f4de8bf9b834ebdcce5114be4ea7fce71bc7",
+    "originalSha256": "a43ae89da68997143906f51f4130f4de8bf9b834ebdcce5114be4ea7fce71bc7",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/characters/portraits/03/coworker-a-v04.png",
+        "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5"
+      },
+      {
+        "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+        "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac"
+      }
+    ]
+  },
+  {
+    "id": "traditional-disappointed",
+    "prompt": "Use case: identity-preserve. Edit target image1 only. Produce a second square complete animation keyframe retaining the exact brown-haired programmer, olive plaid shirt pattern, chair, keyboard, wooden desk, office background, camera, size, composition and lighting. Change only action/expression following disappointing work-performance feedback on his offscreen monitor: typing stops, hands relax and hover just above/rest on keyboard with fingers less curled; his eyes look up a little toward monitor, brows raised slightly at inner corners and mouth tight/downturned, shoulders sink very slightly. A restrained mix of surprise and disappointment, clearly readable without cartoon tear/sweat icons. Still professional, no dramatic crying. Preserve correct hands/anatomy and scene geometry. No baked letter grade, text, UI, symbols or watermark; these are separate layers.",
+    "refs": [
+      "arts/backgrounds/04/traditional-type-v03.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-31f2d3ce-263c-44f6-b594-c860baa0da75.png",
+    "target": "arts/backgrounds/04/traditional-disappointed-v03.png",
+    "sha256": "bec96443329051a9d8d7ea043ab29c1a21cdf0bd31b028f3ffc2c5daab4ed683",
+    "originalSha256": "bec96443329051a9d8d7ea043ab29c1a21cdf0bd31b028f3ffc2c5daab4ed683",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/backgrounds/04/traditional-type-v03.png",
+        "sha256": "a43ae89da68997143906f51f4130f4de8bf9b834ebdcce5114be4ea7fce71bc7"
+      }
+    ]
+  },
+  {
+    "id": "collaboration-relief",
+    "prompt": "Use case: identity-preserve. Edit target image1 only. Keep the exact square office composition, protagonist face/hair/blue-grey sweatshirt/lanyard, Agent orange bob/star accessory/white jacket, desk, monitor, keyboard, paper, two identities and daylight rendering. Generate the next complete action keyframe: after successful performance feedback, human has finished receiving the paper, holding it with BOTH hands in front of him above keyboard; his face has relaxed eyebrows and a small pleased/relieved smile, gaze slightly raised toward the offscreen monitor on image left. Agent's offering hand has withdrawn naturally to her side while she watches him with a gentle closed-mouth smile. All hands anatomically separate, no floating duplicate paper or third arm. Keep positions and framing nearly unchanged. No baked A grade, labels, text, overlays or effects. One complete anime scene, no panels.",
+    "refs": [
+      "arts/backgrounds/04/collaboration-review-v03.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-44efec20-97fe-4701-a8af-efddd4c47d0f.png",
+    "target": "arts/backgrounds/04/collaboration-relief-v03.png",
+    "sha256": "e12ba87ea330e2d899b44bd244b88834542aea41ebbc4ae58a98f5700ffd3cd6",
+    "originalSha256": "e12ba87ea330e2d899b44bd244b88834542aea41ebbc4ae58a98f5700ffd3cd6",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/backgrounds/04/collaboration-review-v03.png",
+        "sha256": "c01cd90560ca7bad42fb469c070041f5b76bbe119a623d370471ced5194db6be"
+      }
+    ]
+  },
+  {
+    "id": "meeting-whiteboard-room",
+    "prompt": "Use case: illustration-story. Reference image is the project's existing company meeting-room art; use it for exact anime linework, architecture, warm wood/grey-blue palette and glass office walls. Generate ONE WIDE 16:9 empty meeting-room background plate from a NEW camera: eye-level mostly frontal to a large rectangular wall-mounted whiteboard occupying the RIGHT 60 percent of the frame. Board surface completely blank, matte pale ivory with thin grey frame, corners visible, perspective nearly frontal so later Chinese text can be composed cleanly. Board extends approximately normalized x .39-.96, y .12-.75. LEFT third is clear floor/neutral glass wall for a standing presenter; there must be NO desk, table, chair or plant blocking the standing presenter area or bottom of the board. The conference tabletop may appear only as a narrow blurred strip at very bottom foreground with one chair corner, not a giant empty table. Warm daylight from image left, believable office interior, fine clean anime outlines, soft cel-shaded colors, same existing style. No people, no words, writing, diagrams, screens, logos, watermark. This is an animation background for a separate full-body presenter layer.",
+    "refs": [
+      "arts/backgrounds/shared/meeting-room-day-v01.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-8d480a24-5966-48bb-85d6-4da6aeb9cfc9.png",
+    "target": "arts/backgrounds/04/meeting-whiteboard-room-v03.png",
+    "sha256": "89731a6310321cc34a9cbe4a7b229caec5dde3eb06cbeb3963ecdb41479d05b8",
+    "originalSha256": "89731a6310321cc34a9cbe4a7b229caec5dde3eb06cbeb3963ecdb41479d05b8",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/backgrounds/shared/meeting-room-day-v01.png",
+        "sha256": "6191a947317c3fa1220fce801a7fb252d7d34cff2fe5ce4a6bd4678431c966de"
+      }
+    ]
+  },
+  {
+    "id": "manager-ready",
+    "prompt": "Use case: illustration-story. Generate ONE isolated full-body male manager character animation layer on a genuinely transparent background. Image1 is exact manager identity: adult black side-part hair, grey-brown eyes, calm mature face, navy blazer over off-white crewneck; retain that face closely. Image2 is lighting/perspective reference only, do not include room or whiteboard. Character is standing upright, feet on one ground line, three-quarter front view facing screen RIGHT, head turned toward a whiteboard offscreen right. Navy blazer, off-white shirt, charcoal trousers, plain dark office shoes; fine anime outlines, soft warm light from left matching references. Full complete body including both shoes and both hands with comfortable margins. His right writing hand holds ONE black dry-erase marker naturally near chest height, elbow flexed in preparation to write toward screen right; his left hand hangs relaxed at side. Serious neutral professional expression. No document, no board, no furniture, no text or logo, no shadow painted as solid floor, no checkerboard texture; genuine transparent alpha. Single character single pose, not model sheet.",
+    "refs": [
+      "arts/characters/portraits/03/manager-neutral-v04.png",
+      "arts/backgrounds/04/meeting-whiteboard-room-v03.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-492053c9-ad64-4d5d-ac8f-79cb6008669a.png",
+    "target": "arts/characters/poses/04/manager-ready-v03.png",
+    "transparent": true,
+    "sha256": "b96793b65b44a77777ede2e1a9a84a0fcbad6720b47a5861eff0308b00e1b6ac",
+    "originalSha256": "b96793b65b44a77777ede2e1a9a84a0fcbad6720b47a5861eff0308b00e1b6ac",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "hasAlpha": true,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/characters/portraits/03/manager-neutral-v04.png",
+        "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370"
+      },
+      {
+        "path": "arts/backgrounds/04/meeting-whiteboard-room-v03.png",
+        "sha256": "89731a6310321cc34a9cbe4a7b229caec5dde3eb06cbeb3963ecdb41479d05b8"
+      }
+    ]
+  },
+  {
+    "id": "manager-strike",
+    "prompt": "Use case: identity-preserve. Edit target image1: exact manager full-body character, same head/face navy blazer off-white shirt dark trousers shoes and style, same canvas 2:3 and body/root position. Produce ONE complete next pose on a genuinely transparent background. Only change the writing arm and gaze: extend his right arm diagonally toward screen RIGHT at shoulder height, elbow almost straight but naturally bent, hand holding one black dry-erase marker with nib aimed right at a vertical board just offscreen. Marker nib around normalized x .93, y .31; his gaze follows tip. Other arm stays down at side, feet stay in identical stance. Correct hand/marker grip, marker not floating, hand not enormous. No board, floor, furniture or background at all. Remove any colored haze/halo behind character; only solidly opaque character and natural antialiased edge on transparent alpha. No writing, logos, text, contact sheet or watermark.",
+    "refs": [
+      "arts/characters/poses/04/manager-ready-v03.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-66face76-9ed7-4ffb-bbd2-cc55439bc398.png",
+    "target": "arts/characters/poses/04/manager-strike-v03.png",
+    "transparent": true,
+    "sha256": "6a9bf6b1665ce125cf0fbea0a65ef870a824bbe42e9cc736c54c330baf653aad",
+    "originalSha256": "6a9bf6b1665ce125cf0fbea0a65ef870a824bbe42e9cc736c54c330baf653aad",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "hasAlpha": true,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/characters/poses/04/manager-ready-v03.png",
+        "sha256": "b96793b65b44a77777ede2e1a9a84a0fcbad6720b47a5861eff0308b00e1b6ac"
+      }
+    ]
+  },
+  {
+    "id": "manager-write",
+    "prompt": "Use case: identity-preserve. Edit target image1, preserve manager identity navy blazer/off-white shirt/dark trousers/shoes and complete full-body silhouette; retain same camera, scale, head location, feet and torso/root position on same portrait 2:3 transparent canvas. Generate a new whole-body writing pose. His writing hand and black marker are lowered to waist/low-chest height, extended toward screen RIGHT. Marker nib should be near normalized x .93, y .42, aimed right, ready to write a second lower line on an offscreen vertical whiteboard. Elbow naturally bent and shoulder relaxed, not a dislocated arm, anatomically correct grip. His eyes follow this lower marker point. Other hand stays down at side. Same fine anime outlines and warm left lighting, opaque character with clean genuine transparent alpha outside edges, no room, board, floor, haze, text, logo or watermark. One pose only, no collage.",
+    "refs": [
+      "arts/characters/poses/04/manager-strike-v03.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-1e0c2cc8-90e9-4ec3-8334-4b7b9dd884f7.png",
+    "target": "arts/characters/poses/04/manager-write-v03.png",
+    "transparent": true,
+    "sha256": "5fbdd9407facee33f46043445f49ee488f3244a43379e218ffa44b70d07fe628",
+    "originalSha256": "5fbdd9407facee33f46043445f49ee488f3244a43379e218ffa44b70d07fe628",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "hasAlpha": true,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/characters/poses/04/manager-strike-v03.png",
+        "sha256": "6a9bf6b1665ce125cf0fbea0a65ef870a824bbe42e9cc736c54c330baf653aad"
+      }
+    ]
+  },
+  {
+    "id": "hr-edit",
+    "prompt": "Use case: illustration-story. Produce ONE coherent portrait 2:3 anime office scene for a human-resources employee editing a hiring website. Reference image is ONLY for fine anime linework, office background, desk and camera perspective; create a DISTINCT new adult HR character, do not reuse the black-haired young male protagonist or bun-haired coworker. HR is an adult woman with straight dark-chestnut chin-length bob, side part, subtle thin rectangular glasses, white collared blouse, muted navy sleeveless cardigan and teal lanyard with blank badge. Front-facing medium-close, seated in office chair, wooden desktop in lower quarter, both hands correctly touching one keyboard, a mouse visible at image right. She looks toward her monitor just to camera RIGHT with calm focused expression. Monitor stays outside frame; do not put a laptop/large screen in foreground. Warm daylight company office, glass partitions, shelves and other empty workstations softly behind her. Eyes and hands prominent and coherent, body behind desk. Upper half head and shoulders, lower half hands and working area, same muted cel-shaded color treatment. No words, UI overlays, logos, numbers, arrows or watermark. One full frame, no panels.",
+    "refs": [
+      "arts/backgrounds/03/programmer-front-desk-a-v05.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-250f4759-bbda-4308-ad3d-b6e6569b4b7c.png",
+    "target": "arts/backgrounds/04/hr-edit-v03.png",
+    "sha256": "917e7fd3c38cf3bf51dad5743966551fcce91fe279ae4da237fb4ebde1cd132b",
+    "originalSha256": "917e7fd3c38cf3bf51dad5743966551fcce91fe279ae4da237fb4ebde1cd132b",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+        "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac"
+      }
+    ]
+  },
+  {
+    "id": "hr-review",
+    "prompt": "Use case: identity-preserve. Edit target image1 only, exact same HR woman dark-chestnut chin-length bob, thin glasses, white collared blouse, navy cardigan, teal lanyard, face identity, company office background, camera, keyboard, desk and portrait 2:3 composition. Next complete animation keyframe: she has finished typing and uses the mouse at image RIGHT with the nearby hand, while other hand rests on keyboard. She lifts her gaze slightly toward the monitor offscreen right, eyebrows slightly raised, restrained attentive surprise at incoming applications, lips closed not a broad smile. Head turns only a little toward image right. The mouse remains exactly where it was, correct fingers holding it, elbow anatomically connected, no duplicated keyboard or hand. Keep all room/table geometry and daylight unchanged. No UI, words, numbers, labels, icons or watermark. Single coherent scene no panels.",
+    "refs": [
+      "arts/backgrounds/04/hr-edit-v03.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-2006ac17-09fd-418c-be75-1a6a99fb62b4.png",
+    "target": "arts/backgrounds/04/hr-review-v03.png",
+    "sha256": "b271516fa0d8a9924733c0515c0fd17b3a0e9432337f29d3b6f38e7fa566dc79",
+    "originalSha256": "b271516fa0d8a9924733c0515c0fd17b3a0e9432337f29d3b6f38e7fa566dc79",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/backgrounds/04/hr-edit-v03.png",
+        "sha256": "917e7fd3c38cf3bf51dad5743966551fcce91fe279ae4da237fb4ebde1cd132b"
+      }
+    ]
+  },
+  {
+    "id": "company-a",
+    "prompt": "Use case: illustration-story. Asset: ONE isolated exterior illustration of fictional technology company campus A for a video mechanism diagram, NOT an infographic. Reference image is for the established anime architecture drawing style and muted colors ONLY, do not include any people or room. Draw a compact modern six-storey blue-grey glass office headquarters with a distinctive stepped left wing, small entrance canopy, a few modest shrubs at base. Eye-level 3/4 exterior view, straight believable architectural perspective, clear detailed windows, thin dark clean outlines and soft cel shadows matching the office reference. Restrained muted TEAL/BLUE identifying accents on facade, warm white highlights. Building fills central 80% of square frame, complete roof and ground edge visible with padding. Truly transparent background, no sky, no neighboring buildings, no rectangle behind it, no ground-plane extending to frame edges, no glowing halo. No words/letters/numbers, labels, brand logo, people, diagram lines or watermark. Single building illustration only, no collage.",
+    "refs": [
+      "arts/backgrounds/03/neighbor-work-a-v05.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-b6560774-4109-4ef2-bdc0-366c14c15a97.png",
+    "target": "arts/items/04/company-a-v03.png",
+    "transparent": true,
+    "sha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247",
+    "originalSha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "hasAlpha": true,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/backgrounds/03/neighbor-work-a-v05.png",
+        "sha256": "8a6fa3f0e97925dacfa825ea2a8545928e41d6d4899c55ff0dd1662f3da80a0c"
+      }
+    ]
+  },
+  {
+    "id": "company-b",
+    "prompt": "Use case: illustration-story. Asset ONE isolated exterior illustration of fictional technology company B for same animated comparison as reference1. Reference1 is ONLY linework, detail density, perspective/camera, lighting and color rendering reference. Draw a DIFFERENT recognizably distinct compact office headquarters: a warm pale-sand stone modern building with four broad terraced floors, a rounded corner glass atrium, muted CORAL/terracotta vertical accent fins and restrained shrubs at entrance. Believable architectural eye-level 3/4 view, equivalent visual scale as reference building. Clean fine dark anime outlines, soft cel shadows, warm daylight from left, moderate detail that survives 250px display. Square full building with roof and base visible and comfortable margins. Genuine transparent background, no sky or box, no street scene, no people, no text, letters, logo, diagrams or watermark. Single company building only, no collage.",
+    "refs": [
+      "arts/items/04/company-a-v03.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-9a1ce8b0-939e-4b96-b397-8620c1ae4866.png",
+    "target": "arts/items/04/company-b-v03.png",
+    "transparent": true,
+    "sha256": "ad461fe80d1bae95f3e63750bc07c4ab85685f8b686a1107edb6db40abf098eb",
+    "originalSha256": "ad461fe80d1bae95f3e63750bc07c4ab85685f8b686a1107edb6db40abf098eb",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "hasAlpha": true,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/items/04/company-a-v03.png",
+        "sha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247"
+      }
+    ]
+  },
+  {
+    "id": "company-c",
+    "prompt": "Use case: illustration-story. Asset ONE isolated fictional company C office building, matching reference1 anime architecture style, line weight, visual scale, light direction and camera. DIFFERENT silhouette from reference: compact L-shaped low-rise headquarters, wide horizontal charcoal-grey brick wing with bands of glass, one taller square tower on LEFT, muted SAGE GREEN facade louvers, recessed central entrance, a few shrubs in planters. Avoid stepped terraces; use flat roofs and a clear L-shaped corner. Eye-level 3/4 realistic architectural perspective, fine dark outlines, warm soft cel shadows, window detail readable when reduced. Square frame with complete building roof and base inside comfortable margins. Genuine transparent background outside building; no sky, neighboring buildings, street, solid box, shadows extending to border. No people, logos, words, numbers, arrows, labels, charts or watermark. Single building, no collage.",
+    "refs": [
+      "arts/items/04/company-a-v03.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-24209d8d-2994-44b2-8247-3de2fce87057.png",
+    "target": "arts/items/04/company-c-v03.png",
+    "transparent": true,
+    "sha256": "6b11cb4e739089d5394ff6ccdef3cd0d6029eddc108b95a76df0b3dc1df8dc74",
+    "originalSha256": "6b11cb4e739089d5394ff6ccdef3cd0d6029eddc108b95a76df0b3dc1df8dc74",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "hasAlpha": true,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/items/04/company-a-v03.png",
+        "sha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247"
+      }
+    ]
+  },
+  {
+    "id": "evening-pack",
+    "prompt": "Use case: identity-preserve. Edit target image1, exact cream-sweater brown-bun coworker B, company office at dusk, same desk laptop bag chair camera framing and lighting. Create the earlier action keyframe just BEFORE she reopens her laptop: laptop lid is almost closed at SAME tabletop location, one hand resting lightly on closed lid; the other hand reaches toward the handles of the brown shoulder bag on adjacent chair at image right as she prepares to leave. She is still seated correctly, looking toward bag with calm neutral expression, no duplicated arm or hand. Preserve identity, room geometry and bag position, plausible fingers and contact; laptop lid closure changes only the laptop pose, not table position. Complete portrait 2:3 anime scene, fine clean outlines and soft cel shading. No text, UI, labels, clocks, motion symbols or watermark. One frame only.",
+    "refs": [
+      "arts/backgrounds/04/evening-reopen-v03.png"
+    ],
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-0bf368d7-1e9b-47e7-85fb-7e4a107b4e40.png",
+    "target": "arts/backgrounds/04/evening-pack-v03.png",
+    "sha256": "d1dc9acac78a6e025989548534866cd0e5818b48cca80cde84c3efca3c8272b6",
+    "originalSha256": "d1dc9acac78a6e025989548534866cd0e5818b48cca80cde84c3efca3c8272b6",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "hasAlpha": false,
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "status": "adopted",
+    "references": [
+      {
+        "path": "arts/backgrounds/04/evening-reopen-v03.png",
+        "sha256": "4e7b41ce20e85760caf6ca6cc801e0b745451327816bef520a1646b7b979b77f"
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "version": "S04_ART v0.3",
+  "passed": true,
+  "phase": "art-and-representative-compositions",
+  "modelCalls": 20,
+  "adoptedGeneratedPngs": 20,
+  "derivedPortraits": 1,
+  "reusedAssets": 4,
+  "registeredAssets": 25,
+  "representativeCompositions": 19,
+  "protectedFilesBytePreserved": 19,
+  "checks": [
+    "raw model outputs copied byte-identically",
+    "PNG dimensions and registry SHA",
+    "all reference SHA retained",
+    "genuine alpha in six isolated assets",
+    "light and dark alpha review",
+    "complete character and contact-perspective review",
+    "three distinct simultaneous window identities",
+    "editable performance and whiteboard copy",
+    "single normalized market in all four states",
+    "same job identity and growing CV list",
+    "source ends at992px before caption-safe997px",
+    "no script, runtime, caption or film mutation"
+  ],
+  "browserChecked": true,
+  "browserChecks": [
+    "three-window key states",
+    "A/M feedback",
+    "competition next-round state",
+    "whiteboard final state and caption-safe toggle",
+    "JD published with four anonymous CV rows"
+  ],
+  "browserScreenshot": "arts/static/04/story-assets-v03/provenance/browser-preview.png",
+  "commands": [
+    "node arts/static/04/story-assets-v03/build.mjs",
+    "node arts/static/04/story-assets-v03/provenance/audit.mjs"
+  ],
+  "newRuntime": false,
+  "newFilmBuild": false,
+  "newVideo": false,
+  "newAudio": false,
+  "limitations": [
+    "有限完整关键态，尚非完整人物／写字逐帧动画",
+    "新55秒动态／185字符正式字幕待制作",
+    "03→04及04→05新接缝未实测",
+    "制作方视觉复查，不代表用户冻结或Claude审核"
+  ]
+}

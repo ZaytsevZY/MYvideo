@@ -1,0 +1,23 @@
+{
+  "version": "S04_ART v0.4",
+  "scope": "画面组件用字；不写入口播／正式字幕。JD具体措辞沿已记录分镜提案。",
+  "parallel": ["午餐", "会前", "晚间"],
+  "performance": ["绩效 A", "绩效 M"],
+  "companies": ["企业甲", "企业乙", "企业丙"],
+  "cycleLabel": "生产周期",
+  "cycles": ["1年", "3个月", "1个月"],
+  "marketLabel": "共同市场",
+  "board": {"before": "3人负责产品线", "after": "1人负责产品线"},
+  "job": {
+    "id": "S04-JOB-01",
+    "title": "软件工程师",
+    "before": ["参与产品线开发"],
+    "after": ["独立负责产品线", "熟练调度多个Agent"],
+    "section": "任职要求",
+    "applications": "收到的简历"
+  },
+  "researchFootnote": "资料：UC Berkeley Haas（2026-02-18）；一家约200人的科技公司，8个月观察、40余次访谈。",
+  "feedback": ["执行能力", "产出", "组织预期", "下轮任务"],
+  "organization": {"planning": "排期与考核"},
+  "routine": ["额外贡献", "下轮排期", "常规要求"]
+}

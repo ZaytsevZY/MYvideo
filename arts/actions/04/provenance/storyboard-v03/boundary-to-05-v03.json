@@ -1,0 +1,68 @@
+{
+  "status": "draft-not-implemented",
+  "fromChapter": "04",
+  "toChapter": "05",
+  "versions": {
+    "from": "S04_STORYBOARD v0.3",
+    "toScript": "S05_STORY_LOGIC v0.1"
+  },
+  "timeline": {
+    "fps": 30,
+    "cutGlobalFrame": 5310,
+    "fromLastEncodedLocalFrame": 1649,
+    "toFrameCount": 1350,
+    "overlapFrames": 0,
+    "transitionOwnership": "existing chapter budgets"
+  },
+  "outgoingState": {
+    "scene": "published-job-requirements→standard-control-card",
+    "objects": [
+      {
+        "id": "delivery-and-acceptance-controls",
+        "label": "交付周期 · 验收标准",
+        "candidateRect": [
+          690,
+          672,
+          620,
+          82
+        ],
+        "coordinateSpace": "1920x1080 screen pixels"
+      },
+      {
+        "id": "S04-JOB-01",
+        "status": "published-with-raised-requirements"
+      }
+    ],
+    "retiredFromNewPlot": [
+      "S04-X",
+      "S03-D"
+    ],
+    "previousScenarioTasks": {
+      "S03-A": "completed",
+      "S03-B": "completed",
+      "S03-C": "in-progress"
+    },
+    "caption": "从我能多做，到我必须做到。",
+    "audioPresent": false
+  },
+  "incomingPlan": {
+    "shotId": "V05.1-E1",
+    "handoff": "周期／标准安排→人物派发工具任务",
+    "firstNarration": "调度多个 Agent，扩大的是执行能力，未必改变产品目标、交付周期和成果分配的决定权。",
+    "preserve": [
+      "05原口播",
+      "工具执行能力与组织决定权分开"
+    ],
+    "requiredAdapter": "实际新04终帧完成后，按控制项匹配05入口，不复用额外测试卡当新任务"
+  },
+  "evidence": {
+    "fromLastFramePath": null,
+    "toFirstFramePath": null,
+    "seamPreviewPath": null,
+    "verified": false
+  },
+  "openIssues": [
+    "坐标只是构图候选，未做新接缝实测",
+    "05当前基础框架和新故事脚本分别保留"
+  ]
+}

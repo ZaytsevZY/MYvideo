@@ -1,0 +1,836 @@
+{
+  "version": "S04_STORY v0.5",
+  "chapterFrames": 1650,
+  "stateSamples": 1651,
+  "globalFramesChecked": 8400,
+  "shots": [
+    {
+      "id": "S04-01",
+      "start": 0,
+      "end": 12.3,
+      "type": "E",
+      "name": "三窗并行"
+    },
+    {
+      "id": "S04-02",
+      "start": 12.3,
+      "end": 14.6,
+      "type": "E",
+      "name": "成果交接"
+    },
+    {
+      "id": "S04-03",
+      "start": 14.6,
+      "end": 17.3,
+      "type": "E",
+      "name": "绩效与反应"
+    },
+    {
+      "id": "S04-04",
+      "start": 17.3,
+      "end": 20,
+      "type": "L",
+      "name": "产出与组织预期"
+    },
+    {
+      "id": "S04-05",
+      "start": 20,
+      "end": 21.8,
+      "type": "L",
+      "name": "共同市场"
+    },
+    {
+      "id": "S04-06",
+      "start": 21.8,
+      "end": 24.6,
+      "type": "L",
+      "name": "率先采用"
+    },
+    {
+      "id": "S04-07",
+      "start": 24.6,
+      "end": 29.6,
+      "type": "L",
+      "name": "方法普及"
+    },
+    {
+      "id": "S04-08",
+      "start": 29.6,
+      "end": 32.6,
+      "type": "L",
+      "name": "再压缩周期"
+    },
+    {
+      "id": "S04-09",
+      "start": 32.6,
+      "end": 35.8,
+      "type": "L",
+      "name": "进入排期考核"
+    },
+    {
+      "id": "S04-10",
+      "start": 35.8,
+      "end": 39,
+      "type": "E",
+      "name": "划去原人数"
+    },
+    {
+      "id": "S04-11",
+      "start": 39,
+      "end": 42.2,
+      "type": "E",
+      "name": "重写产品线安排"
+    },
+    {
+      "id": "S04-12",
+      "start": 42.2,
+      "end": 45.6,
+      "type": "E",
+      "name": "提高招聘要求"
+    },
+    {
+      "id": "S04-13",
+      "start": 45.6,
+      "end": 50.6,
+      "type": "E",
+      "name": "发布与简历增加"
+    },
+    {
+      "id": "S04-14",
+      "start": 50.6,
+      "end": 55,
+      "type": "L",
+      "name": "额外贡献成为常规要求"
+    }
+  ],
+  "unchangedInputs": 42,
+  "sixScriptBytesUnchanged": true,
+  "originalChapterSceneModulesUnchanged": true,
+  "sources": [
+    {
+      "frame": 12,
+      "localTime": 0.4,
+      "path": "arts/actions/04/provenance/story-v05/frame-0012.png",
+      "sha256": "93b7400c7318c8c386a700a59191ee15a0b10b30d7864c5824e80927860691ef"
+    },
+    {
+      "frame": 36,
+      "localTime": 1.2,
+      "path": "arts/actions/04/provenance/story-v05/frame-0036.png",
+      "sha256": "958a451385f758f59e305d8504e37c5eab328b1299bf41bd79c554fdfe9556d1"
+    },
+    {
+      "frame": 66,
+      "localTime": 2.2,
+      "path": "arts/actions/04/provenance/story-v05/frame-0066.png",
+      "sha256": "c148d31395edce4b3e6a3adc9e18b12aa7372de10c5adf938eb7da988fa967d6"
+    },
+    {
+      "frame": 156,
+      "localTime": 5.2,
+      "path": "arts/actions/04/provenance/story-v05/frame-0156.png",
+      "sha256": "bd634c76c4a8214d8048959bb9904b7566ce14b0b36029ffc3d4e8d4ea6a4e09"
+    },
+    {
+      "frame": 246,
+      "localTime": 8.2,
+      "path": "arts/actions/04/provenance/story-v05/frame-0246.png",
+      "sha256": "83d94854389a57ef70ec133763a25cdfa3ce1977c85431fe49313dfbcc542a5d"
+    },
+    {
+      "frame": 300,
+      "localTime": 10,
+      "path": "arts/actions/04/provenance/story-v05/frame-0300.png",
+      "sha256": "265a3d2d331b0cb9c9308f0cb4690e1524bd8bff77872a55e8c013f5ca8362db"
+    },
+    {
+      "frame": 384,
+      "localTime": 12.8,
+      "path": "arts/actions/04/provenance/story-v05/frame-0384.png",
+      "sha256": "2a8c8ddc47e3f90f847b00c95aa18a8397d548c78095ed70f89df05df58d4475"
+    },
+    {
+      "frame": 420,
+      "localTime": 14,
+      "path": "arts/actions/04/provenance/story-v05/frame-0420.png",
+      "sha256": "2a8c8ddc47e3f90f847b00c95aa18a8397d548c78095ed70f89df05df58d4475"
+    },
+    {
+      "frame": 462,
+      "localTime": 15.4,
+      "path": "arts/actions/04/provenance/story-v05/frame-0462.png",
+      "sha256": "1665c2b943f9cd55e45194ec0ebc5119386d99885d92ba0f7d571eab8fe9ec08"
+    },
+    {
+      "frame": 474,
+      "localTime": 15.8,
+      "path": "arts/actions/04/provenance/story-v05/frame-0474.png",
+      "sha256": "cc69ba513ac7be073128bb54f7006f8cbc32074a86f6aabdf7336187eee046bb"
+    },
+    {
+      "frame": 492,
+      "localTime": 16.4,
+      "path": "arts/actions/04/provenance/story-v05/frame-0492.png",
+      "sha256": "c8df6969e9e0c353f472a0ed436cb6a40dd21be4f17c5ce55144cc8857d63064"
+    },
+    {
+      "frame": 504,
+      "localTime": 16.8,
+      "path": "arts/actions/04/provenance/story-v05/frame-0504.png",
+      "sha256": "ad692af9b4271af7019e1a94650fe2e02a3df2d78689fbce86d5b665c4d2b8ff"
+    },
+    {
+      "frame": 582,
+      "localTime": 19.4,
+      "path": "arts/actions/04/provenance/story-v05/frame-0582.png",
+      "sha256": "f62b5594322c3e29020390806a5ca803d8696f2ab4962807679efc6b60768515"
+    },
+    {
+      "frame": 624,
+      "localTime": 20.8,
+      "path": "arts/actions/04/provenance/story-v05/frame-0624.png",
+      "sha256": "7fe16a993235b17397716ff826c94033bcd9f800d2658035370c92ef2c0f1c84"
+    },
+    {
+      "frame": 672,
+      "localTime": 22.4,
+      "path": "arts/actions/04/provenance/story-v05/frame-0672.png",
+      "sha256": "764e36ffa4b678e1e59563f6600b97a9001238d07897010977dac32cb7002356"
+    },
+    {
+      "frame": 714,
+      "localTime": 23.8,
+      "path": "arts/actions/04/provenance/story-v05/frame-0714.png",
+      "sha256": "2e1062e06a1c92d5748430d16f42da7e06ee5becc216e42e0bc00dfa21423f5a"
+    },
+    {
+      "frame": 804,
+      "localTime": 26.8,
+      "path": "arts/actions/04/provenance/story-v05/frame-0804.png",
+      "sha256": "17815ef91f7ef2f0c969ce869b699ec265d2a19c565a521633ba05c95601dc94"
+    },
+    {
+      "frame": 855,
+      "localTime": 28.5,
+      "path": "arts/actions/04/provenance/story-v05/frame-0855.png",
+      "sha256": "ed3044333eeea193dd7b0331a71476e3e9ed5aa061bbe3dfc848f26b26c9a1f7"
+    },
+    {
+      "frame": 906,
+      "localTime": 30.2,
+      "path": "arts/actions/04/provenance/story-v05/frame-0906.png",
+      "sha256": "d461f18b6cfbb4e232c24496d8555c635bdf7a4e8df7d63fbcc22d34deecc667"
+    },
+    {
+      "frame": 957,
+      "localTime": 31.9,
+      "path": "arts/actions/04/provenance/story-v05/frame-0957.png",
+      "sha256": "0cbdbeb326a891071005f14347ae2baa017e618b02fa3ee75c1f9fa2257c52bb"
+    },
+    {
+      "frame": 993,
+      "localTime": 33.1,
+      "path": "arts/actions/04/provenance/story-v05/frame-0993.png",
+      "sha256": "5281c5a682be9890dbd3a1622dcb7dc5183769011b9e8b1535338b84b7650f88"
+    },
+    {
+      "frame": 1038,
+      "localTime": 34.6,
+      "path": "arts/actions/04/provenance/story-v05/frame-1038.png",
+      "sha256": "729009993ef0acf2bdb73d4cfa7e1e9540bd8ecf7367ff3d92374f4939596644"
+    },
+    {
+      "frame": 1086,
+      "localTime": 36.2,
+      "path": "arts/actions/04/provenance/story-v05/frame-1086.png",
+      "sha256": "ced11b03c7a136825a72f829ed43f538d1502b3a46dd59c2203b499a0b8e45c0"
+    },
+    {
+      "frame": 1104,
+      "localTime": 36.8,
+      "path": "arts/actions/04/provenance/story-v05/frame-1104.png",
+      "sha256": "28b88a497c94044c24eaef4092522a4b97736a893556132d74f63dd6d4eb2a74"
+    },
+    {
+      "frame": 1116,
+      "localTime": 37.2,
+      "path": "arts/actions/04/provenance/story-v05/frame-1116.png",
+      "sha256": "56204c3c6efdc2566f8eb2d1b27aeb4f6fb25b64b919c04a0acef26a24f78716"
+    },
+    {
+      "frame": 1140,
+      "localTime": 38,
+      "path": "arts/actions/04/provenance/story-v05/frame-1140.png",
+      "sha256": "38e8e9e324f6005791620fc8f0fb3c7b34c56da271c05078774e69fb9da6d7ea"
+    },
+    {
+      "frame": 1188,
+      "localTime": 39.6,
+      "path": "arts/actions/04/provenance/story-v05/frame-1188.png",
+      "sha256": "2657f2284c620a5bd334d4ef925a120661ac4f39d12ce7514b587cd04c377389"
+    },
+    {
+      "frame": 1197,
+      "localTime": 39.9,
+      "path": "arts/actions/04/provenance/story-v05/frame-1197.png",
+      "sha256": "a91e82d3f2b8aeb0adfb18df8ef74783c2b75a52790fd1926dbd0227d7655250"
+    },
+    {
+      "frame": 1215,
+      "localTime": 40.5,
+      "path": "arts/actions/04/provenance/story-v05/frame-1215.png",
+      "sha256": "9e6e4acfda9006bc38d543bd2a6497ef4241e6a0d2294378a22cf69745703cf2"
+    },
+    {
+      "frame": 1242,
+      "localTime": 41.4,
+      "path": "arts/actions/04/provenance/story-v05/frame-1242.png",
+      "sha256": "924ea63a799c7cfd35b22380da091278b63e9e425968771ee2ddf389f5ec8842"
+    },
+    {
+      "frame": 1272,
+      "localTime": 42.4,
+      "path": "arts/actions/04/provenance/story-v05/frame-1272.png",
+      "sha256": "1328224846c5cd2769bf2c8f8952bae0f0f20e6b53524349f6ccbac3f4cf35e8"
+    },
+    {
+      "frame": 1287,
+      "localTime": 42.9,
+      "path": "arts/actions/04/provenance/story-v05/frame-1287.png",
+      "sha256": "4948c6d3156ac9003e15b54c9bf873ac00eba533aaf92cef7f57413a2cbaa49e"
+    },
+    {
+      "frame": 1314,
+      "localTime": 43.8,
+      "path": "arts/actions/04/provenance/story-v05/frame-1314.png",
+      "sha256": "6ab02b248ff381666885c6bbf390233d842c0d36157c15386ba95050769899eb"
+    },
+    {
+      "frame": 1344,
+      "localTime": 44.8,
+      "path": "arts/actions/04/provenance/story-v05/frame-1344.png",
+      "sha256": "8d5d032f8b48e281c7770b53ebb1698a06a25c6f54dd59bcb913907b4dbba424"
+    },
+    {
+      "frame": 1392,
+      "localTime": 46.4,
+      "path": "arts/actions/04/provenance/story-v05/frame-1392.png",
+      "sha256": "932de5914516ced53567a917f5cee5bf17edfe8ce877ac9f7d86d022b177ad41"
+    },
+    {
+      "frame": 1407,
+      "localTime": 46.9,
+      "path": "arts/actions/04/provenance/story-v05/frame-1407.png",
+      "sha256": "d30c0d10baf57571e89350a7d881275fd068e51bb466dafb3b40dbffb8fb1945"
+    },
+    {
+      "frame": 1458,
+      "localTime": 48.6,
+      "path": "arts/actions/04/provenance/story-v05/frame-1458.png",
+      "sha256": "142f95415320efd6a6a03a798c6a08f6acb3c8bd5df0a03a89cee72c3870025e"
+    },
+    {
+      "frame": 1491,
+      "localTime": 49.7,
+      "path": "arts/actions/04/provenance/story-v05/frame-1491.png",
+      "sha256": "e7514dbf2c2b82cf5a19b0a3bbe5d35dd55e87983f3c5b6897a10867f7c6f6d4"
+    },
+    {
+      "frame": 1542,
+      "localTime": 51.4,
+      "path": "arts/actions/04/provenance/story-v05/frame-1542.png",
+      "sha256": "fc12da6d49bbecb6e5846ef3be3dada017acd0bbf0cdce070ea400bd22886d51"
+    },
+    {
+      "frame": 1566,
+      "localTime": 52.2,
+      "path": "arts/actions/04/provenance/story-v05/frame-1566.png",
+      "sha256": "c079122359f40a331b5866a42f629971cdaad18a58bf3bdb17e8d428666a668f"
+    },
+    {
+      "frame": 1605,
+      "localTime": 53.5,
+      "path": "arts/actions/04/provenance/story-v05/frame-1605.png",
+      "sha256": "b2d11c4087a785a3d81b3548757f1b5b53f759c8ccaed6a13766890a446cc08b"
+    },
+    {
+      "frame": 1644,
+      "localTime": 54.8,
+      "path": "arts/actions/04/provenance/story-v05/frame-1644.png",
+      "sha256": "b2d11c4087a785a3d81b3548757f1b5b53f759c8ccaed6a13766890a446cc08b"
+    }
+  ],
+  "seams": [
+    {
+      "name": "03-to-04",
+      "path": "arts/actions/film/provenance/integration-v04/03-to-04-source-v04.mp4",
+      "frames": 120,
+      "duration": 4,
+      "fps": 30,
+      "size": [
+        960,
+        540
+      ],
+      "audio": false,
+      "source": "current framework render, no historical MP4 concatenation",
+      "decodePassed": true,
+      "sha256": "bf9d5e1e0ad492387597280f44fcdde9ddbddca0c6a171d29efc8757c44f5373",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-f",
+        "rawvideo",
+        "-pixel_format",
+        "rgb24",
+        "-video_size",
+        "960x540",
+        "-framerate",
+        "30",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "veryfast",
+        "-crf",
+        "20",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/alan671/Documents/MYvideo/arts/actions/film/provenance/integration-v04/03-to-04-source-v04.mp4"
+      ],
+      "measuredStream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 960,
+        "height": 540,
+        "coded_width": 960,
+        "coded_height": 540,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 31,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 61440,
+        "duration": "4.000000",
+        "bit_rate": "300676",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "120",
+        "extradata_size": 45,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc62.11.100 libx264"
+        }
+      },
+      "measuredFormat": {
+        "filename": "arts/actions/film/provenance/integration-v04/03-to-04-source-v04.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "4.000000",
+        "size": "152463",
+        "bit_rate": "304926",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf62.3.100"
+        }
+      },
+      "visualReview": "passed encoded before/cut/after frame inspection; subtitle changes only at held cut"
+    },
+    {
+      "name": "04-to-05",
+      "path": "arts/actions/film/provenance/integration-v04/04-to-05-source-v04.mp4",
+      "frames": 120,
+      "duration": 4,
+      "fps": 30,
+      "size": [
+        960,
+        540
+      ],
+      "audio": false,
+      "source": "current framework render, no historical MP4 concatenation",
+      "decodePassed": true,
+      "sha256": "0dfda7e97ce6a0dacfdd1a57cac49cceb1682599b7f044943405f6858012b111",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-f",
+        "rawvideo",
+        "-pixel_format",
+        "rgb24",
+        "-video_size",
+        "960x540",
+        "-framerate",
+        "30",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "veryfast",
+        "-crf",
+        "20",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/alan671/Documents/MYvideo/arts/actions/film/provenance/integration-v04/04-to-05-source-v04.mp4"
+      ],
+      "measuredStream": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 960,
+        "height": 540,
+        "coded_width": 960,
+        "coded_height": 540,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 31,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 61440,
+        "duration": "4.000000",
+        "bit_rate": "215542",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "120",
+        "extradata_size": 45,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc62.11.100 libx264"
+        }
+      },
+      "measuredFormat": {
+        "filename": "arts/actions/film/provenance/integration-v04/04-to-05-source-v04.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "4.000000",
+        "size": "110056",
+        "bit_rate": "220112",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf62.3.100"
+        }
+      },
+      "visualReview": "passed encoded before/cut/after frame inspection; subtitle changes only at held cut"
+    }
+  ],
+  "imageGenerationCalls": 0,
+  "externalModelCalls": 0,
+  "audio": false,
+  "fullChapterMp4Exported": false,
+  "visualReview": {
+    "status": "passed",
+    "scope": "42 full-size representative frames,20-panel contact, encoded seams at cut vicinity, actual browser playback and HR/performance layouts",
+    "limitations": [
+      "finite whole-raster character keyframes; not continuous redrawn body animation",
+      "05 story body remains existing basic implementation",
+      "55-second full chapter and280-second full-film MP4 not exported",
+      "caption times provisional without voice"
+    ]
+  },
+  "boundaryFrom03": {
+    "out": {
+      "t": 38.96666666666667,
+      "beatId": "S03-11",
+      "type": "L",
+      "phase": "organization-tree",
+      "pose": "front",
+      "chatCount": 6,
+      "completionSent": true,
+      "assignmentArrived": true,
+      "assignmentRead": true,
+      "neighborPose": "neighbors",
+      "reportProgress": 1,
+      "taskStates": {
+        "S03-A": "completed",
+        "S03-B": "completed",
+        "S03-C": "in-progress"
+      },
+      "humanOperation": "none",
+      "workdayEnded": false,
+      "deadline": "17:00",
+      "completionTime": "14:00",
+      "assignmentTime": "14:01",
+      "taskSet": "distinct-S03-scenario",
+      "audio": false
+    },
+    "incoming": {
+      "t": 0,
+      "beat": "S04-01",
+      "type": "E",
+      "phase": "entry",
+      "inheritedTasks": {},
+      "previousScenarioTasks": {
+        "S03-A": "completed",
+        "S03-B": "completed",
+        "S03-C": "in-progress"
+      },
+      "scenarioRelation": "distinct-research-scenario",
+      "poses": {
+        "lunch": "lunchEat",
+        "meeting": "meetingType",
+        "evening": "eveningPack",
+        "collaboration": "collab",
+        "traditional": "traditional"
+      },
+      "appraisal": {
+        "author": "manager",
+        "left": null,
+        "right": null
+      },
+      "feedbackNodes": 0,
+      "agents": [
+        0,
+        0,
+        0
+      ],
+      "cycles": [
+        "1年",
+        "1年",
+        "1年"
+      ],
+      "marketWeights": [
+        0.34,
+        0.33,
+        0.33
+      ],
+      "marketIsMeasured": false,
+      "marketFrozen": false,
+      "planningOrder": null,
+      "planCycle": null,
+      "board": {
+        "strike": 0,
+        "writing": 0,
+        "before": "3人负责产品线",
+        "after": "1人负责产品线",
+        "insert": false
+      },
+      "job": {
+        "id": "S04-JOB-01",
+        "independentResponsibility": false,
+        "multipleAgents": false,
+        "published": false,
+        "cvCount": 0,
+        "requirements": [
+          "参与产品线开发"
+        ]
+      },
+      "routine": {
+        "extra": 0,
+        "plan": 0,
+        "required": 0
+      },
+      "terminalHeld": false,
+      "caption": null
+    },
+    "mode": "hold exact03 terminal for0.4s then cut to distinct simultaneous story windows; S03-C remains unfinished"
+  },
+  "boundaryTo05": {
+    "out": {
+      "t": 54.96666666666667,
+      "beat": "S04-14",
+      "type": "L",
+      "phase": "hr",
+      "inheritedTasks": {},
+      "previousScenarioTasks": null,
+      "scenarioRelation": "distinct-research-scenario",
+      "poses": {
+        "lunch": "lunchType",
+        "meeting": "meetingType",
+        "evening": "eveningType",
+        "collaboration": "collabRelief",
+        "traditional": "traditionalLoss"
+      },
+      "appraisal": {
+        "author": "manager",
+        "left": "A",
+        "right": "M"
+      },
+      "feedbackNodes": 4,
+      "agents": [
+        1,
+        3,
+        1
+      ],
+      "cycles": [
+        "3个月",
+        "1个月",
+        "3个月"
+      ],
+      "marketWeights": [
+        0.28,
+        0.49,
+        0.23
+      ],
+      "marketIsMeasured": false,
+      "marketFrozen": true,
+      "planningOrder": "S04-PLAN-01",
+      "planCycle": "1个月",
+      "board": {
+        "strike": 1,
+        "writing": 1,
+        "before": "3人负责产品线",
+        "after": "1人负责产品线",
+        "insert": false
+      },
+      "job": {
+        "id": "S04-JOB-01",
+        "independentResponsibility": true,
+        "multipleAgents": true,
+        "published": true,
+        "cvCount": 4,
+        "requirements": [
+          "独立负责产品线",
+          "熟练调度多个Agent"
+        ]
+      },
+      "routine": {
+        "extra": 1,
+        "plan": 1,
+        "required": 1
+      },
+      "terminalHeld": true,
+      "caption": {
+        "id": "S04-A13",
+        "text": "从我能多做，到我必须做到。",
+        "startMs": 50500,
+        "endMs": 55000,
+        "sourceNote": "04-3"
+      }
+    },
+    "incoming": {
+      "t": 0,
+      "phase": "tools",
+      "beat": "S05-01",
+      "caption": {
+        "text": "调度多个 Agent，",
+        "startMs": 0,
+        "endMs": 3000,
+        "timestampMs": null,
+        "confidence": null
+      },
+      "availableAgents": 1,
+      "decisionOwner": "organization",
+      "workerDecisionRights": "not_automatically_granted",
+      "workerParticipatesInDecision": false,
+      "feedbackOrigin": "organization-delivery-standard",
+      "agentIsEmployer": false,
+      "acceptedTaskCount": 0,
+      "illustrativeTasks": true,
+      "pose": "idle",
+      "entryRequirement": {
+        "jobId": "S04-JOB-01",
+        "text": "熟练调度多个Agent",
+        "relation": "organization-requirement-to-actual-tool-use"
+      },
+      "inheritedTasks": {},
+      "hrIsDirectSupervisor": false,
+      "cvIsToolTask": false
+    },
+    "mode": "hold actual published JD for0.4s, then cut to existing05 tool use; job requirement is conceptual anchor; CV not tool task"
+  },
+  "tests": {
+    "command": "node --test arts/actions/04/story-v05.test.mjs arts/actions/03/story-v05.test.mjs arts/actions/film/framework.test.mjs",
+    "tests": 17,
+    "pass": 17,
+    "fail": 0,
+    "executed": true
+  },
+  "browserProof": "arts/actions/04/provenance/story-v05/browser-hr-v05.png"
+}

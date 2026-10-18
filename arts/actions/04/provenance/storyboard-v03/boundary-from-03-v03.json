@@ -1,0 +1,49 @@
+{
+  "status": "draft-not-implemented",
+  "fromChapter": "03",
+  "toChapter": "04",
+  "versions": {
+    "from": "S03_STORY v0.5",
+    "to": "S04_STORYBOARD v0.3"
+  },
+  "timeline": {
+    "fps": 30,
+    "cutGlobalFrame": 3660,
+    "fromLastEncodedLocalFrame": 1169,
+    "toFrameCount": 1650,
+    "overlapFrames": 0,
+    "transitionOwnership": "04 first 48 frames"
+  },
+  "outgoingState": {
+    "graphic": "employment-and-worktime-tree",
+    "tasks": {
+      "S03-A": "completed",
+      "S03-B": "completed",
+      "S03-C": "in-progress"
+    }
+  },
+  "incomingPlan": {
+    "shotId": "S04-01",
+    "holdSeconds": 0.4,
+    "researchEntryBySeconds": 1.6,
+    "handoff": "约定工时框→独立研究定位",
+    "scenarioRelation": "distinct-research-scenario",
+    "rules": [
+      "S03-C不改成S03-D",
+      "研究场景不清空03任务",
+      "不额外延长全片"
+    ]
+  },
+  "evidence": {
+    "existingBoundary": "arts/actions/03/provenance/story-v05/boundary-to-04-v05.json",
+    "newFromFramePath": null,
+    "newToFramePath": null,
+    "seamPreviewPath": null,
+    "verified": false
+  },
+  "openIssues": [
+    "新04美术与动画尚未制作",
+    "当前已通过的旧04入口接缝不等于新版验收",
+    "新口播字幕待同步"
+  ]
+}

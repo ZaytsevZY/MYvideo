@@ -1,0 +1,3 @@
+claude -p --model claude-opus-5-5 --tools "" --output-format json --no-session-persistence --safe-mode < arts/actions/04/provenance/storyboard-v04/claude-prompt-en.txt > arts/actions/04/provenance/storyboard-v04/claude-result.json 2> arts/actions/04/provenance/storyboard-v04/claude-stderr.txt
+
+One invocation, successfully completed. No retry, no image generation, no tools or file edits by Claude. The prompt includes fixed text inputs and asks for Chinese shot directions using English instructions.

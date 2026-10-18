@@ -1,0 +1,137 @@
+{
+  "version": "S04_STORYBOARD v0.4",
+  "status": "storyboard-not-runtime",
+  "fps": 30,
+  "durationSec": 55,
+  "durationFrames": 1650,
+  "globalStartFrame": 3660,
+  "globalEndFrameExclusive": 5310,
+  "shots": [
+    {
+      "id": "S04-01",
+      "parent": "V04.1",
+      "type": "E",
+      "startSec": 0.0,
+      "endSec": 12.3,
+      "startFrame": 0,
+      "endFrameExclusive": 369
+    },
+    {
+      "id": "S04-02",
+      "parent": "V04.2",
+      "type": "E",
+      "startSec": 12.3,
+      "endSec": 14.6,
+      "startFrame": 369,
+      "endFrameExclusive": 438
+    },
+    {
+      "id": "S04-03",
+      "parent": "V04.2",
+      "type": "E",
+      "startSec": 14.6,
+      "endSec": 17.3,
+      "startFrame": 438,
+      "endFrameExclusive": 519
+    },
+    {
+      "id": "S04-04",
+      "parent": "V04.2",
+      "type": "L",
+      "startSec": 17.3,
+      "endSec": 20.0,
+      "startFrame": 519,
+      "endFrameExclusive": 600
+    },
+    {
+      "id": "S04-05",
+      "parent": "V04.3",
+      "type": "L",
+      "startSec": 20.0,
+      "endSec": 21.8,
+      "startFrame": 600,
+      "endFrameExclusive": 654
+    },
+    {
+      "id": "S04-06",
+      "parent": "V04.3",
+      "type": "L",
+      "startSec": 21.8,
+      "endSec": 24.6,
+      "startFrame": 654,
+      "endFrameExclusive": 738
+    },
+    {
+      "id": "S04-07",
+      "parent": "V04.3",
+      "type": "L",
+      "startSec": 24.6,
+      "endSec": 29.6,
+      "startFrame": 738,
+      "endFrameExclusive": 888
+    },
+    {
+      "id": "S04-08",
+      "parent": "V04.3",
+      "type": "L",
+      "startSec": 29.6,
+      "endSec": 32.6,
+      "startFrame": 888,
+      "endFrameExclusive": 978
+    },
+    {
+      "id": "S04-09",
+      "parent": "V04.3",
+      "type": "L",
+      "startSec": 32.6,
+      "endSec": 35.8,
+      "startFrame": 978,
+      "endFrameExclusive": 1074
+    },
+    {
+      "id": "S04-10",
+      "parent": "V04.4",
+      "type": "E",
+      "startSec": 35.8,
+      "endSec": 39.0,
+      "startFrame": 1074,
+      "endFrameExclusive": 1170
+    },
+    {
+      "id": "S04-11",
+      "parent": "V04.4",
+      "type": "E",
+      "startSec": 39.0,
+      "endSec": 42.2,
+      "startFrame": 1170,
+      "endFrameExclusive": 1266
+    },
+    {
+      "id": "S04-12",
+      "parent": "V04.4",
+      "type": "E",
+      "startSec": 42.2,
+      "endSec": 45.6,
+      "startFrame": 1266,
+      "endFrameExclusive": 1368
+    },
+    {
+      "id": "S04-13",
+      "parent": "V04.4",
+      "type": "E",
+      "startSec": 45.6,
+      "endSec": 50.6,
+      "startFrame": 1368,
+      "endFrameExclusive": 1518
+    },
+    {
+      "id": "S04-14",
+      "parent": "V04.4",
+      "type": "L",
+      "startSec": 50.6,
+      "endSec": 55.0,
+      "startFrame": 1518,
+      "endFrameExclusive": 1650
+    }
+  ]
+}

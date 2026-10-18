@@ -1,0 +1,26 @@
+[
+  {
+    "path": "arts/actions/04/provenance/storyboard-v04/chapter-plan.md",
+    "sha256": "566c7ccd7b4b85796a3656d5d71802ac9b9a058e30a66e46ae088501fdd35c01"
+  },
+  {
+    "path": "scripts/final/shot/04.md",
+    "sha256": "22d1756fc08e7349a4877fcf1e808d3790409211b1974ef3212de69f1fe75e95"
+  },
+  {
+    "path": "scripts/final/shot/01.md",
+    "sha256": "0bec30c0ba6e713660947041db930db1894633c90058a78584ca40f9966a85d9"
+  },
+  {
+    "path": "scripts/final/shot/02.md",
+    "sha256": "5b05a43abfca68d8823916764c8638085e9b2ec17f9fa0d5bdb974b562c7413b"
+  },
+  {
+    "path": "arts/actions/03/provenance/story-v05/chapter-plan.md",
+    "sha256": "45aec7f3520f7e07fab4682a5116d2f0a290f2b07d6213df8182bc9ea49ba5d8"
+  },
+  {
+    "path": "arts/static/04/story-assets-v03/screen-copy.json",
+    "sha256": "71056964691a6365340e341dde35f4c8b96c9b94cdc1c3fbd9736db5b05db1ae"
+  }
+]

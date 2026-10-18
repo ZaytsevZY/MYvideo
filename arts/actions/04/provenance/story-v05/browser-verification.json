@@ -1,0 +1,21 @@
+{
+  "fullFilm": {
+    "tab": 4,
+    "loadedAssetCount": 120,
+    "chapters": 6,
+    "chapter04Shots": 14,
+    "playbackTested": true,
+    "finalLocalFrame": 18,
+    "finalGlobalFrame": 3678,
+    "proof": "arts/actions/04/provenance/story-v05/browser-hr-v05.png"
+  },
+  "standalone04": {
+    "url": "http://127.0.0.1:8765/actions/04/full-preview.html?t=44.8",
+    "loaded": true,
+    "localFrame": 1344,
+    "visibleBeat": "提高招聘要求",
+    "visibleCaption": "Agent 带来的普遍生产力提升造成了工作标准的提升：",
+    "duration": 55,
+    "temporaryVerificationTabClosed": true
+  }
+}

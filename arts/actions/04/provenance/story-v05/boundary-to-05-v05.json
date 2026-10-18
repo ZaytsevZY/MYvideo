@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1",
+  "status": "implemented-and-checked",
+  "verified": true,
+  "userArtFrozen": false,
+  "fromChapter": "04",
+  "toChapter": "05",
+  "source": "S04_STORY v0.5 / FILM_PREVIEW v0.4",
+  "timeline": {
+    "fps": 30,
+    "size": [
+      1920,
+      1080
+    ],
+    "cutGlobalFrame": 5310,
+    "fromLastEncodedLocalFrame": 1649,
+    "overlapFrames": 0,
+    "addedFrames": 0,
+    "transitionOwnership": "first12frames of incoming chapter hold actual outgoing terminal, then hard cut"
+  },
+  "outgoing": {
+    "t": 54.96666666666667,
+    "beat": "S04-14",
+    "type": "L",
+    "phase": "hr",
+    "inheritedTasks": {},
+    "previousScenarioTasks": null,
+    "scenarioRelation": "distinct-research-scenario",
+    "poses": {
+      "lunch": "lunchType",
+      "meeting": "meetingType",
+      "evening": "eveningType",
+      "collaboration": "collabRelief",
+      "traditional": "traditionalLoss"
+    },
+    "appraisal": {
+      "author": "manager",
+      "left": "A",
+      "right": "M"
+    },
+    "feedbackNodes": 4,
+    "agents": [
+      1,
+      3,
+      1
+    ],
+    "cycles": [
+      "3个月",
+      "1个月",
+      "3个月"
+    ],
+    "marketWeights": [
+      0.28,
+      0.49,
+      0.23
+    ],
+    "marketIsMeasured": false,
+    "marketFrozen": true,
+    "planningOrder": "S04-PLAN-01",
+    "planCycle": "1个月",
+    "board": {
+      "strike": 1,
+      "writing": 1,
+      "before": "3人负责产品线",
+      "after": "1人负责产品线",
+      "insert": false
+    },
+    "job": {
+      "id": "S04-JOB-01",
+      "independentResponsibility": true,
+      "multipleAgents": true,
+      "published": true,
+      "cvCount": 4,
+      "requirements": [
+        "独立负责产品线",
+        "熟练调度多个Agent"
+      ]
+    },
+    "routine": {
+      "extra": 1,
+      "plan": 1,
+      "required": 1
+    },
+    "terminalHeld": true,
+    "caption": {
+      "id": "S04-A13",
+      "text": "从我能多做，到我必须做到。",
+      "startMs": 50500,
+      "endMs": 55000,
+      "sourceNote": "04-3"
+    }
+  },
+  "incoming": {
+    "t": 0,
+    "phase": "tools",
+    "beat": "S05-01",
+    "caption": {
+      "text": "调度多个 Agent，",
+      "startMs": 0,
+      "endMs": 3000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    "availableAgents": 1,
+    "decisionOwner": "organization",
+    "workerDecisionRights": "not_automatically_granted",
+    "workerParticipatesInDecision": false,
+    "feedbackOrigin": "organization-delivery-standard",
+    "agentIsEmployer": false,
+    "acceptedTaskCount": 0,
+    "illustrativeTasks": true,
+    "pose": "idle",
+    "entryRequirement": {
+      "jobId": "S04-JOB-01",
+      "text": "熟练调度多个Agent",
+      "relation": "organization-requirement-to-actual-tool-use"
+    },
+    "inheritedTasks": {},
+    "hrIsDirectSupervisor": false,
+    "cvIsToolTask": false
+  },
+  "method": "同一公开岗位要求精确保留0.4秒，接工具调用说明；HR不成直接主管，CV不成工具任务。",
+  "audioPresent": false,
+  "evidence": {
+    "preview": "arts/actions/film/provenance/integration-v04/04-to-05-source-v04.mp4",
+    "frames": 120,
+    "durationSec": 4,
+    "size": [
+      960,
+      540
+    ],
+    "decodePassed": true,
+    "visualReview": "passed",
+    "sourceFrameEquality": "exact SVG equality without captions at global cut",
+    "sourceTests": "arts/actions/04/story-v05.test.mjs"
+  },
+  "limitations": [
+    "05主体仍基础图解版，新故事提纲尚未制作"
+  ]
+}

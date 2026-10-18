@@ -1,0 +1,133 @@
+{
+  "stage": "storyboard-text-only",
+  "date": "2026-10-18",
+  "modelCalls": 0,
+  "userScriptBefore": {
+    "path": "scripts/final/shot/04.md",
+    "sha256": "ad5cb278589b26abbf259e483e32e2409eeebfdd8c009f57c0cf990adea319bb"
+  },
+  "protected": [
+    {
+      "path": "scripts/final/shot/01.md",
+      "sha256": "0bec30c0ba6e713660947041db930db1894633c90058a78584ca40f9966a85d9"
+    },
+    {
+      "path": "scripts/final/shot/02.md",
+      "sha256": "5b05a43abfca68d8823916764c8638085e9b2ec17f9fa0d5bdb974b562c7413b"
+    },
+    {
+      "path": "scripts/final/shot/03.md",
+      "sha256": "8f2388ec19eb7a6709d35121453a60ad51ef0df49890dcdfd8df7f480b7f2368"
+    },
+    {
+      "path": "scripts/final/shot/05.md",
+      "sha256": "25ba327ad2546c34d131f269e3948bc3be59a8d75817a85aae481be7f65639d3"
+    },
+    {
+      "path": "scripts/final/shot/06.md",
+      "sha256": "79b18a04b49ba5481e6507be152f634ed162c127fb2999e26872c1652095778b"
+    },
+    {
+      "path": "arts/actions/03/story-scene-v05.mjs",
+      "sha256": "d5b9bc9be725af408f7dfe9a5f288facc175d7cb9b5b01fe0c78af5a4d4caa6c"
+    },
+    {
+      "path": "arts/actions/04/scene.mjs",
+      "sha256": "63d4b006e9a294cef05e5e2ccbe62a916a823f036dc2ceafbe5fb1be88fce771"
+    },
+    {
+      "path": "arts/actions/04/entry-from-03-v05.mjs",
+      "sha256": "dbc6a24f1355a7f73705ab8313a41ca4a60cd8131b845ca5392fbfc1af4183a2"
+    },
+    {
+      "path": "arts/actions/04/captions/04-narration-v01.json",
+      "sha256": "930d78be5cb6d49db35d7de04a9ee5f95be7461e90bc0321288f7eab4ff76e31"
+    },
+    {
+      "path": "arts/actions/05/scene.mjs",
+      "sha256": "c2c1598797e950543788875d7c55b8f7cfa1c4594c63427c819ac7b0f0e85f39"
+    },
+    {
+      "path": "arts/actions/film/scenes.mjs",
+      "sha256": "38bfc165c3bd71b282b2f434ea249c938034124c38a294b420bc2573d90b42f5"
+    },
+    {
+      "path": "arts/actions/film/timeline.mjs",
+      "sha256": "6e3c85860463dc427c4dc84957b84d570297e1450fc41f0f165e82c0e1ce7fab"
+    },
+    {
+      "path": "arts/actions/film/bundle-v01.json",
+      "sha256": "549acd26faa9b4e0d453ebdb838b4767ccce0cb6ee4187735f64761ce1ebf357"
+    },
+    {
+      "path": "arts/actions/film/captions-v01.json",
+      "sha256": "7b2860445e2d8a489018d51ff5e274295cbc7f205639258cdeeea95c5454475d"
+    },
+    {
+      "path": "arts/actions/film/captions-v01.srt",
+      "sha256": "d7b45eb61e35787bcece3dc24ce6243fe0774f3f70b0e9bb676bd708a74d1e3a"
+    }
+  ],
+  "references": [
+    {
+      "path": "arts/static/04/lunch-panel-v02.png",
+      "sha256": "7b22f7f4573b16440bdd5310b20a73814f46a04e0dd07ad08d6125d41e138854"
+    },
+    {
+      "path": "arts/static/04/premeeting-panel-v02.png",
+      "sha256": "91ab9b9a78012b7b2f366e3965c8fa7ff90492ad54b1ec243edd7f6aa641fe9b"
+    },
+    {
+      "path": "arts/static/04/evening-panel-v02.png",
+      "sha256": "c4361c2e3320b0959c183a856135c52b36f79057ca433fa20f467dce107b6071"
+    },
+    {
+      "path": "arts/backgrounds/shared/meeting-room-day-v01.png",
+      "sha256": "6191a947317c3fa1220fce801a7fb252d7d34cff2fe5ce4a6bd4678431c966de"
+    },
+    {
+      "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+      "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11"
+    },
+    {
+      "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+      "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac"
+    },
+    {
+      "path": "arts/backgrounds/03/neighbor-work-a-v05.png",
+      "sha256": "8a6fa3f0e97925dacfa825ea2a8545928e41d6d4899c55ff0dd1662f3da80a0c"
+    },
+    {
+      "path": "arts/backgrounds/03/neighbor-work-b-v05.png",
+      "sha256": "3532019deb04853dc9f64a1e1463ca8bc4be803b55ed87723c74d073bb49b9e6"
+    },
+    {
+      "path": "arts/characters/portraits/03/coworker-a-v04.png",
+      "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5"
+    },
+    {
+      "path": "arts/characters/portraits/03/coworker-b-v04.png",
+      "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5"
+    },
+    {
+      "path": "arts/characters/portraits/03/manager-neutral-v04.png",
+      "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370"
+    },
+    {
+      "path": "arts/characters/agent-model-sheet-v01.png",
+      "sha256": "988d3df0b3b8ceb0158cf65c315d2f436e1b85498a8a368a285a4e4a618c653e"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-offer-file-v01.png",
+      "sha256": "65c06a3902b13821725a64a8d9a25d8c18c8409186f46558409e3b05d3c9b235"
+    },
+    {
+      "path": "arts/characters/poses/shared/manager-assign-left-v01.png",
+      "sha256": "69dbdbbea503b3ef9100ece87b42692013bcce03048e6edced267a9046dc39ba"
+    },
+    {
+      "path": "arts/actions/03/provenance/story-v05/boundary-to-04-v05.json",
+      "sha256": "1b519cdcbb5d459ac71f6a6d3fba90548b9e0248177a7073e6bdd4ece955f1ae"
+    }
+  ]
+}

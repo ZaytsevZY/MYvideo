@@ -1,0 +1,44 @@
+{
+  "status": "draft-not-implemented",
+  "fromChapter": "03",
+  "toChapter": "04",
+  "versions": {
+    "from": "S03_STORY v0.5",
+    "to": "S04_STORYBOARD v0.4"
+  },
+  "timeline": {
+    "fps": 30,
+    "cutGlobalFrame": 3660,
+    "fromLastEncodedLocalFrame": 1169,
+    "toFrameCount": 1650,
+    "overlapFrames": 0,
+    "transitionOwnership": "within04 first12frames"
+  },
+  "previousScenarioTasks": {
+    "S03-A": "completed",
+    "S03-B": "completed",
+    "S03-C": "in-progress"
+  },
+  "incomingPlan": {
+    "shotId": "S04-01",
+    "holdTreeSeconds": 0.4,
+    "cutToThreeWindowsAtSeconds": 0.4,
+    "researchInfo": "footnote-inside-three-windows",
+    "standaloneResearchPage": false,
+    "scenarioRelation": "distinct-research-illustration",
+    "rules": [
+      "不重命名S03-C为研究任务",
+      "不清空03未完成任务",
+      "不额外延长全片"
+    ]
+  },
+  "evidence": {
+    "existingOld04Boundary": "arts/actions/03/provenance/story-v05/boundary-to-04-v05.json",
+    "newSeamPreviewPath": null,
+    "verified": false
+  },
+  "openIssues": [
+    "正式新04尚未制作，旧1.6秒入口需替换",
+    "新首镜无研究页；动态图接缝尚待实测"
+  ]
+}

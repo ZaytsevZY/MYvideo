@@ -1,0 +1,174 @@
+[
+  {
+    "path": "scripts/final/shot/06.md",
+    "sha256": "79b18a04b49ba5481e6507be152f634ed162c127fb2999e26872c1652095778b"
+  },
+  {
+    "path": "scripts/final/shot/02.md",
+    "sha256": "5b05a43abfca68d8823916764c8638085e9b2ec17f9fa0d5bdb974b562c7413b"
+  },
+  {
+    "path": "scripts/final/shot/03.md",
+    "sha256": "8f2388ec19eb7a6709d35121453a60ad51ef0df49890dcdfd8df7f480b7f2368"
+  },
+  {
+    "path": "scripts/final/shot/05.md",
+    "sha256": "25ba327ad2546c34d131f269e3948bc3be59a8d75817a85aae481be7f65639d3"
+  },
+  {
+    "path": "scripts/final/shot/01.md",
+    "sha256": "0bec30c0ba6e713660947041db930db1894633c90058a78584ca40f9966a85d9"
+  },
+  {
+    "path": "arts/actions/04/scene.mjs",
+    "sha256": "63d4b006e9a294cef05e5e2ccbe62a916a823f036dc2ceafbe5fb1be88fce771"
+  },
+  {
+    "path": "arts/actions/04/entry-from-03-v05.mjs",
+    "sha256": "dbc6a24f1355a7f73705ab8313a41ca4a60cd8131b845ca5392fbfc1af4183a2"
+  },
+  {
+    "path": "arts/actions/04/captions/04-narration-v01.json",
+    "sha256": "930d78be5cb6d49db35d7de04a9ee5f95be7461e90bc0321288f7eab4ff76e31"
+  },
+  {
+    "path": "arts/actions/film/qa.mjs",
+    "sha256": "504396f39bd843ae35bca52db04023eaa18175e13d8a2c352eda8032f555b60d"
+  },
+  {
+    "path": "arts/actions/film/timeline.mjs",
+    "sha256": "6e3c85860463dc427c4dc84957b84d570297e1450fc41f0f165e82c0e1ce7fab"
+  },
+  {
+    "path": "arts/actions/film/player.mjs",
+    "sha256": "5e1c0087be3e85bc8b4f4620ef419f12b63fcc70a36ea2efeda7f568fcdbf122"
+  },
+  {
+    "path": "arts/actions/film/build.mjs",
+    "sha256": "3863609e28b02b4d9d0e53221f3b41ecaee112da9f63537a5d5cc53146c614f4"
+  },
+  {
+    "path": "arts/actions/film/framework.test.mjs",
+    "sha256": "c2fdadffb38944d3e3c5fba772d94cef26fe6a5a6d1bc158d27514488796de83"
+  },
+  {
+    "path": "arts/actions/film/scenes.mjs",
+    "sha256": "38bfc165c3bd71b282b2f434ea249c938034124c38a294b420bc2573d90b42f5"
+  },
+  {
+    "path": "arts/actions/film/captions-v01.json",
+    "sha256": "7b2860445e2d8a489018d51ff5e274295cbc7f205639258cdeeea95c5454475d"
+  },
+  {
+    "path": "arts/actions/film/assets-v01.json",
+    "sha256": "ce6cd78c8b23713564ebd292205622eaacc4e10cc4e9f27de4f7cfad5f7a5f6a"
+  },
+  {
+    "path": "arts/actions/film/bundle-v01.json",
+    "sha256": "549acd26faa9b4e0d453ebdb838b4767ccce0cb6ee4187735f64761ce1ebf357"
+  },
+  {
+    "path": "arts/actions/film/captions-v01.srt",
+    "sha256": "d7b45eb61e35787bcece3dc24ce6243fe0774f3f70b0e9bb676bd708a74d1e3a"
+  },
+  {
+    "path": "arts/static/04/lunch-panel-v02.png",
+    "sha256": "7b22f7f4573b16440bdd5310b20a73814f46a04e0dd07ad08d6125d41e138854"
+  },
+  {
+    "path": "arts/backgrounds/04/lunch-eat-v03.png",
+    "sha256": "b3a0dea4e8aacbbb3dfb378c1466760bd4416563ca8ab45d6c9b0015aa58f9ea"
+  },
+  {
+    "path": "arts/backgrounds/04/lunch-type-v03.png",
+    "sha256": "76c22715ee2c1f55a0379b93d0ec10aee8b44839b42d78f2ca0357f89e20423d"
+  },
+  {
+    "path": "arts/backgrounds/04/premeeting-type-v03.png",
+    "sha256": "436ef33361460775fb549cdfb2c65de1d79cac3d945e3e6fabe28a88d8654e59"
+  },
+  {
+    "path": "arts/backgrounds/04/premeeting-look-v03.png",
+    "sha256": "098b6cdc0445744ec7a0624e8968e93611f21cd24ede69b4f4a2b242f67d7dc8"
+  },
+  {
+    "path": "arts/backgrounds/04/evening-pack-v03.png",
+    "sha256": "d1dc9acac78a6e025989548534866cd0e5818b48cca80cde84c3efca3c8272b6"
+  },
+  {
+    "path": "arts/backgrounds/04/evening-reopen-v03.png",
+    "sha256": "4e7b41ce20e85760caf6ca6cc801e0b745451327816bef520a1646b7b979b77f"
+  },
+  {
+    "path": "arts/backgrounds/04/evening-type-v03.png",
+    "sha256": "336864ce555670662eda5f0696aefeb1b9df4406dd08427a0c633b57f54c5c51"
+  },
+  {
+    "path": "arts/backgrounds/04/collaboration-review-v03.png",
+    "sha256": "c01cd90560ca7bad42fb469c070041f5b76bbe119a623d370471ced5194db6be"
+  },
+  {
+    "path": "arts/backgrounds/04/collaboration-relief-v03.png",
+    "sha256": "e12ba87ea330e2d899b44bd244b88834542aea41ebbc4ae58a98f5700ffd3cd6"
+  },
+  {
+    "path": "arts/backgrounds/04/traditional-type-v03.png",
+    "sha256": "a43ae89da68997143906f51f4130f4de8bf9b834ebdcce5114be4ea7fce71bc7"
+  },
+  {
+    "path": "arts/backgrounds/04/traditional-disappointed-v03.png",
+    "sha256": "bec96443329051a9d8d7ea043ab29c1a21cdf0bd31b028f3ffc2c5daab4ed683"
+  },
+  {
+    "path": "arts/backgrounds/04/meeting-whiteboard-room-v03.png",
+    "sha256": "89731a6310321cc34a9cbe4a7b229caec5dde3eb06cbeb3963ecdb41479d05b8"
+  },
+  {
+    "path": "arts/characters/poses/04/manager-ready-v03.png",
+    "sha256": "b96793b65b44a77777ede2e1a9a84a0fcbad6720b47a5861eff0308b00e1b6ac"
+  },
+  {
+    "path": "arts/characters/poses/04/manager-strike-v03.png",
+    "sha256": "6a9bf6b1665ce125cf0fbea0a65ef870a824bbe42e9cc736c54c330baf653aad"
+  },
+  {
+    "path": "arts/characters/poses/04/manager-write-v03.png",
+    "sha256": "5fbdd9407facee33f46043445f49ee488f3244a43379e218ffa44b70d07fe628"
+  },
+  {
+    "path": "arts/backgrounds/04/hr-edit-v03.png",
+    "sha256": "917e7fd3c38cf3bf51dad5743966551fcce91fe279ae4da237fb4ebde1cd132b"
+  },
+  {
+    "path": "arts/backgrounds/04/hr-review-v03.png",
+    "sha256": "b271516fa0d8a9924733c0515c0fd17b3a0e9432337f29d3b6f38e7fa566dc79"
+  },
+  {
+    "path": "arts/characters/portraits/04/hr-neutral-v03.png",
+    "sha256": "d7c2d563d083410aa22dc8266bb089f886d9876f6f95caba7e93191705a8a4c1"
+  },
+  {
+    "path": "arts/items/04/company-a-v03.png",
+    "sha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247"
+  },
+  {
+    "path": "arts/items/04/company-b-v03.png",
+    "sha256": "ad461fe80d1bae95f3e63750bc07c4ab85685f8b686a1107edb6db40abf098eb"
+  },
+  {
+    "path": "arts/items/04/company-c-v03.png",
+    "sha256": "6b11cb4e739089d5394ff6ccdef3cd0d6029eddc108b95a76df0b3dc1df8dc74"
+  },
+  {
+    "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+    "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828"
+  },
+  {
+    "path": "arts/items/01/task-document-portrait-v01.png",
+    "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420"
+  },
+  {
+    "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+    "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11"
+  }
+]

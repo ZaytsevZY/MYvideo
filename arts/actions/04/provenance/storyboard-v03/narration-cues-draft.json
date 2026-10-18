@@ -1,0 +1,100 @@
+{
+  "status": "DRAFT-not-runtime-captions",
+  "version": "S04_STORYBOARD v0.3",
+  "timingBasis": "semantic-budget-no-voice",
+  "source": "scripts/final/shot/04.md",
+  "nonWhitespaceCharacters": 185,
+  "cues": [
+    {
+      "id": "S04-A01",
+      "text": "一家科技公司的田野研究记录到，",
+      "startMs": 500,
+      "endMs": 4400,
+      "sourceNote": "04-1"
+    },
+    {
+      "id": "S04-A02",
+      "text": "部分员工主动扩大任务范围，",
+      "startMs": 4400,
+      "endMs": 7600,
+      "sourceNote": "04-1"
+    },
+    {
+      "id": "S04-A03",
+      "text": "将生成式 AI 工作延伸到午餐、会前和晚间。",
+      "startMs": 7600,
+      "endMs": 12300,
+      "sourceNote": "04-1"
+    },
+    {
+      "id": "S04-A04",
+      "text": "新增能力带来更多产出，",
+      "startMs": 12300,
+      "endMs": 16000,
+      "sourceNote": "04-1"
+    },
+    {
+      "id": "S04-A05",
+      "text": "组织预期也随之提高。",
+      "startMs": 16000,
+      "endMs": 20000,
+      "sourceNote": "04-1"
+    },
+    {
+      "id": "S04-A06",
+      "text": "竞争进一步强化这种压力：",
+      "startMs": 20000,
+      "endMs": 23500,
+      "sourceNote": "04-2"
+    },
+    {
+      "id": "S04-A07",
+      "text": "新方法普及后，",
+      "startMs": 23500,
+      "endMs": 27000,
+      "sourceNote": "04-2"
+    },
+    {
+      "id": "S04-A08",
+      "text": "原有的效率优势逐渐消退，",
+      "startMs": 27000,
+      "endMs": 30500,
+      "sourceNote": "04-2"
+    },
+    {
+      "id": "S04-A09",
+      "text": "企业仍有缩短周期、增加交付的动力。",
+      "startMs": 30500,
+      "endMs": 35800,
+      "sourceNote": "04-2"
+    },
+    {
+      "id": "S04-A10",
+      "text": "当更高产出进入排期和考核，",
+      "startMs": 35800,
+      "endMs": 40000,
+      "sourceNote": "04-3"
+    },
+    {
+      "id": "S04-A11",
+      "text": "额外贡献就可能转为岗位的新基准。",
+      "startMs": 40000,
+      "endMs": 44300,
+      "sourceNote": "04-3"
+    },
+    {
+      "id": "S04-A12",
+      "text": "Agent 带来的普遍生产力提升造成了工作标准的提升：",
+      "startMs": 44300,
+      "endMs": 50500,
+      "sourceNote": "04-3"
+    },
+    {
+      "id": "S04-A13",
+      "text": "从我能多做，到我必须做到。",
+      "startMs": 50500,
+      "endMs": 55000,
+      "sourceNote": "04-3"
+    }
+  ]
+}

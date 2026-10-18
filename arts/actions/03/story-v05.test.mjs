@@ -17,9 +17,11 @@ test('all chapter frames are deterministic, bounded and use whole frame poses wi
  for(let f=0;f<1170;f++){const t=f/30,s=sample(t),a=svg(t,refs,{caption:false});assert(!/NaN|Infinity|undefined/.test(a));assert.equal(s.workdayEnded,false);assert(!a.includes('data-chapter-caption='));assert(!a.includes('stroke-dasharray'));assert(a.startsWith('<svg'));assert.equal(a,svg(t,refs,{caption:false}));if(t>=9.1&&t<20||t>=23&&t<30.5)assert.equal((a.match(/data-pose=/g)||[]).length,1);}
  assert.throws(()=>sample(NaN));assert.equal(sample(-1).t,0);assert.equal(sample(50).t,39);
 });
-test('original narration, captions, original chapter sources and raster inputs are byte preserved',()=>{
+test('03 narration, captions, original chapter sources and raster inputs are byte preserved;04 follows its authorized revision',()=>{
  const root=new URL('../../../',import.meta.url),guards=JSON.parse(fs.readFileSync(new URL('./provenance/story-v05/inputs-before.json',import.meta.url)));
- for(const g of guards){const hash=crypto.createHash('sha256').update(fs.readFileSync(new URL(g.path,root))).digest('hex');assert.equal(hash,g.sha256,g.path);}
+ //04 was manually rewritten after this03 snapshot. Preserve the historical manifest and check04 against its current stage input guard.
+ const current04=JSON.parse(fs.readFileSync(new URL('../04/provenance/story-v05/inputs-before.json',import.meta.url))).find(g=>g.path==='scripts/final/shot/04.md');
+ for(const g of guards){const hash=crypto.createHash('sha256').update(fs.readFileSync(new URL(g.path,root))).digest('hex');assert.equal(hash,g.path==='scripts/final/shot/04.md'?current04.sha256:g.sha256,g.path);}
  const caption=JSON.parse(fs.readFileSync(new URL('./captions/03-narration-v01.json',import.meta.url)));assert.deepEqual(CUES,caption);
  const inventory=JSON.parse(fs.readFileSync(new URL('../../static/03/story-assets-v04/layout.json',import.meta.url))).registry;
  for(const p of Object.values(ASSETS)){const expected=inventory.find(a=>a.path===p);assert(expected,p);assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(p,root))).digest('hex'),expected.sha256,p);}
@@ -31,5 +33,5 @@ test('film entry04 holds exact new03 end before introducing distinct research; n
  assert.equal(render(3659,{captions:false}).svg,render(3660,{captions:false}).svg);
  assert.equal(stateAt('04',0).previousScenarioTasks['S03-C'],'in-progress');assert.deepEqual(stateAt('04',0).inheritedTasks,{});
  assert(render(3678).svg.includes('data-entry="new-study"'));assert.equal((render(3678).svg.match(/data-film-caption=/g)||[]).length,1);
- assert(!render(3710).svg.includes('data-entry="new-study"'));assert.equal(render(3710).chapter.id,'04');
+ assert(render(3710).svg.includes('data-entry="new-study"'));assert.equal(render(3710).chapter.id,'04');
 });

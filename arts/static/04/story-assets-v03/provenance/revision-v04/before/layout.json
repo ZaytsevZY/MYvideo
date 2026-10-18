@@ -1,0 +1,743 @@
+{
+  "version": "S04_ART v0.3",
+  "stage": "art-and-representative-compositions",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "subtitleSafe": [
+    40,
+    997,
+    1840,
+    65
+  ],
+  "parallel": {
+    "panels": [
+      [
+        24,
+        40,
+        608,
+        912
+      ],
+      [
+        656,
+        40,
+        608,
+        912
+      ],
+      [
+        1288,
+        40,
+        608,
+        912
+      ]
+    ],
+    "characters": [
+      "C-P",
+      "C-C-A",
+      "C-C-B"
+    ],
+    "layers": [
+      "office-background",
+      "scene-plate-per-window",
+      "window-labels",
+      "execution-feedback",
+      "evidence",
+      "subtitle-safe"
+    ]
+  },
+  "performance": {
+    "panels": [
+      [
+        24,
+        32,
+        924,
+        924
+      ],
+      [
+        972,
+        32,
+        924,
+        924
+      ]
+    ],
+    "layers": [
+      "office-background",
+      "coherent-workstation-left",
+      "coherent-workstation-right",
+      "performance-feedback",
+      "evidence",
+      "subtitle-safe"
+    ]
+  },
+  "board": {
+    "surface": [
+      650,
+      116,
+      1190,
+      510
+    ],
+    "managerRect": [
+      320,
+      142,
+      716.8,
+      1075.2
+    ],
+    "oldText": [
+      960,
+      310
+    ],
+    "newText": [
+      960,
+      514
+    ],
+    "markerTips": {
+      "ready": [
+        941,
+        309
+      ],
+      "strike": [
+        1022,
+        275
+      ],
+      "write": [
+        980,
+        480
+      ]
+    },
+    "foregroundTableClip": [
+      0,
+      958,
+      1920,
+      122
+    ],
+    "layers": [
+      "meeting-room",
+      "board-text-and-stroke",
+      "whole-manager-alpha",
+      "foreground-table",
+      "evidence",
+      "subtitle-safe"
+    ]
+  },
+  "hr": {
+    "plate": [
+      0,
+      0,
+      688,
+      995
+    ],
+    "window": [
+      716,
+      30,
+      1174,
+      940
+    ],
+    "jobId": "S04-JOB-01",
+    "layers": [
+      "office-background",
+      "coherent-hr-desk",
+      "careers-window",
+      "editable-requirements",
+      "application-list",
+      "evidence",
+      "subtitle-safe"
+    ]
+  },
+  "competition": {
+    "companies": [
+      {
+        "id": "company-a",
+        "name": "企业甲",
+        "color": "#6e9faf"
+      },
+      {
+        "id": "company-b",
+        "name": "企业乙",
+        "color": "#c98372"
+      },
+      {
+        "id": "company-c",
+        "name": "企业丙",
+        "color": "#91aa85"
+      }
+    ],
+    "pie": [
+      1510,
+      535,
+      240
+    ],
+    "layers": [
+      "office-background",
+      "warm-paper",
+      "bitmap-companies",
+      "cycle-text",
+      "bitmap-agent-markers",
+      "shared-market-pie",
+      "evidence",
+      "subtitle-safe"
+    ]
+  },
+  "notes": [
+    "所有图像保持比例",
+    "原生文字／图表与主体绘稿分层",
+    "手写口播和四段故事不改",
+    "关键态用于检查素材；不是55秒成片"
+  ],
+  "registry": [
+    {
+      "id": "lunchBefore",
+      "path": "arts/static/04/lunch-panel-v02.png",
+      "sha256": "7b22f7f4573b16440bdd5310b20a73814f46a04e0dd07ad08d6125d41e138854",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "kind": "reused",
+      "shots": [
+        "S04-02"
+      ]
+    },
+    {
+      "id": "lunchEat",
+      "path": "arts/backgrounds/04/lunch-eat-v03.png",
+      "sha256": "b3a0dea4e8aacbbb3dfb378c1466760bd4416563ca8ab45d6c9b0015aa58f9ea",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-02"
+      ]
+    },
+    {
+      "id": "lunchType",
+      "path": "arts/backgrounds/04/lunch-type-v03.png",
+      "sha256": "76c22715ee2c1f55a0379b93d0ec10aee8b44839b42d78f2ca0357f89e20423d",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-02"
+      ]
+    },
+    {
+      "id": "meetingType",
+      "path": "arts/backgrounds/04/premeeting-type-v03.png",
+      "sha256": "436ef33361460775fb549cdfb2c65de1d79cac3d945e3e6fabe28a88d8654e59",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-02"
+      ]
+    },
+    {
+      "id": "meetingLook",
+      "path": "arts/backgrounds/04/premeeting-look-v03.png",
+      "sha256": "098b6cdc0445744ec7a0624e8968e93611f21cd24ede69b4f4a2b242f67d7dc8",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-02"
+      ]
+    },
+    {
+      "id": "eveningPack",
+      "path": "arts/backgrounds/04/evening-pack-v03.png",
+      "sha256": "d1dc9acac78a6e025989548534866cd0e5818b48cca80cde84c3efca3c8272b6",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-02"
+      ]
+    },
+    {
+      "id": "eveningReopen",
+      "path": "arts/backgrounds/04/evening-reopen-v03.png",
+      "sha256": "4e7b41ce20e85760caf6ca6cc801e0b745451327816bef520a1646b7b979b77f",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-02"
+      ]
+    },
+    {
+      "id": "eveningType",
+      "path": "arts/backgrounds/04/evening-type-v03.png",
+      "sha256": "336864ce555670662eda5f0696aefeb1b9df4406dd08427a0c633b57f54c5c51",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-02"
+      ]
+    },
+    {
+      "id": "collab",
+      "path": "arts/backgrounds/04/collaboration-review-v03.png",
+      "sha256": "c01cd90560ca7bad42fb469c070041f5b76bbe119a623d370471ced5194db6be",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-03",
+        "S04-04"
+      ]
+    },
+    {
+      "id": "collabRelief",
+      "path": "arts/backgrounds/04/collaboration-relief-v03.png",
+      "sha256": "e12ba87ea330e2d899b44bd244b88834542aea41ebbc4ae58a98f5700ffd3cd6",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-03",
+        "S04-04"
+      ]
+    },
+    {
+      "id": "traditional",
+      "path": "arts/backgrounds/04/traditional-type-v03.png",
+      "sha256": "a43ae89da68997143906f51f4130f4de8bf9b834ebdcce5114be4ea7fce71bc7",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-03",
+        "S04-04"
+      ]
+    },
+    {
+      "id": "traditionalLoss",
+      "path": "arts/backgrounds/04/traditional-disappointed-v03.png",
+      "sha256": "bec96443329051a9d8d7ea043ab29c1a21cdf0bd31b028f3ffc2c5daab4ed683",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-03",
+        "S04-04"
+      ]
+    },
+    {
+      "id": "room",
+      "path": "arts/backgrounds/04/meeting-whiteboard-room-v03.png",
+      "sha256": "89731a6310321cc34a9cbe4a7b229caec5dde3eb06cbeb3963ecdb41479d05b8",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-09",
+        "S04-10"
+      ]
+    },
+    {
+      "id": "managerReady",
+      "path": "arts/characters/poses/04/manager-ready-v03.png",
+      "sha256": "b96793b65b44a77777ede2e1a9a84a0fcbad6720b47a5861eff0308b00e1b6ac",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "kind": "imagegen",
+      "shots": [
+        "S04-09",
+        "S04-10"
+      ]
+    },
+    {
+      "id": "managerStrike",
+      "path": "arts/characters/poses/04/manager-strike-v03.png",
+      "sha256": "6a9bf6b1665ce125cf0fbea0a65ef870a824bbe42e9cc736c54c330baf653aad",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "kind": "imagegen",
+      "shots": [
+        "S04-09",
+        "S04-10"
+      ]
+    },
+    {
+      "id": "managerWrite",
+      "path": "arts/characters/poses/04/manager-write-v03.png",
+      "sha256": "5fbdd9407facee33f46043445f49ee488f3244a43379e218ffa44b70d07fe628",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "kind": "imagegen",
+      "shots": [
+        "S04-09",
+        "S04-10"
+      ]
+    },
+    {
+      "id": "hrEdit",
+      "path": "arts/backgrounds/04/hr-edit-v03.png",
+      "sha256": "917e7fd3c38cf3bf51dad5743966551fcce91fe279ae4da237fb4ebde1cd132b",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-11",
+        "S04-12",
+        "S04-13"
+      ]
+    },
+    {
+      "id": "hrReview",
+      "path": "arts/backgrounds/04/hr-review-v03.png",
+      "sha256": "b271516fa0d8a9924733c0515c0fd17b3a0e9432337f29d3b6f38e7fa566dc79",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "kind": "imagegen",
+      "shots": [
+        "S04-11",
+        "S04-12",
+        "S04-13"
+      ]
+    },
+    {
+      "id": "hrPortrait",
+      "path": "arts/characters/portraits/04/hr-neutral-v03.png",
+      "sha256": "d7c2d563d083410aa22dc8266bb089f886d9876f6f95caba7e93191705a8a4c1",
+      "width": 512,
+      "height": 512,
+      "hasAlpha": false,
+      "kind": "derived-portrait",
+      "source": "arts/backgrounds/04/hr-edit-v03.png",
+      "crop": {
+        "left": 230,
+        "top": 115,
+        "width": 540,
+        "height": 540
+      },
+      "output": [
+        512,
+        512
+      ],
+      "shots": [
+        "S04-11",
+        "S04-12",
+        "S04-13"
+      ]
+    },
+    {
+      "id": "companyA",
+      "path": "arts/items/04/company-a-v03.png",
+      "sha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "kind": "imagegen",
+      "shots": [
+        "S04-05",
+        "S04-06",
+        "S04-07",
+        "S04-08"
+      ]
+    },
+    {
+      "id": "companyB",
+      "path": "arts/items/04/company-b-v03.png",
+      "sha256": "ad461fe80d1bae95f3e63750bc07c4ab85685f8b686a1107edb6db40abf098eb",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "kind": "imagegen",
+      "shots": [
+        "S04-05",
+        "S04-06",
+        "S04-07",
+        "S04-08"
+      ]
+    },
+    {
+      "id": "companyC",
+      "path": "arts/items/04/company-c-v03.png",
+      "sha256": "6b11cb4e739089d5394ff6ccdef3cd0d6029eddc108b95a76df0b3dc1df8dc74",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "kind": "imagegen",
+      "shots": [
+        "S04-05",
+        "S04-06",
+        "S04-07",
+        "S04-08"
+      ]
+    },
+    {
+      "id": "agent",
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "kind": "reused",
+      "shots": [
+        "S04-05",
+        "S04-06",
+        "S04-07",
+        "S04-08"
+      ]
+    },
+    {
+      "id": "document",
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true,
+      "kind": "reused",
+      "shots": [
+        "shared-support"
+      ]
+    },
+    {
+      "id": "office",
+      "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+      "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "kind": "reused",
+      "shots": [
+        "shared-support"
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "name": "study",
+      "state": 0,
+      "label": "研究定位",
+      "path": "arts/static/04/story-assets-v03/compositions/study-0.png",
+      "sha256": "a0bbbb23e514f6967b9bac7188964bceae7d21c8f4e1481458519c103f040ee9",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "parallel",
+      "state": 0,
+      "label": "三窗并行",
+      "path": "arts/static/04/story-assets-v03/compositions/parallel-0.png",
+      "sha256": "60ac8e0feb6d1ba11c566ac6e945929dcc1a158b2bacc96102772c09cbc8831d",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "parallel",
+      "state": 1,
+      "label": "三窗并行",
+      "path": "arts/static/04/story-assets-v03/compositions/parallel-1.png",
+      "sha256": "52139114b238829c5a0be13b290d354675aa09d87718b30d2d0b77c468c60e4c",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "parallel",
+      "state": 2,
+      "label": "三窗并行",
+      "path": "arts/static/04/story-assets-v03/compositions/parallel-2.png",
+      "sha256": "a92c3e9d1b2c073448bdda556ba3d33af57795b92d76caebd700e4849c5d825f",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "performance",
+      "state": 0,
+      "label": "工作与绩效",
+      "path": "arts/static/04/story-assets-v03/compositions/performance-0.png",
+      "sha256": "cef40c97b0be03de0390028d6d00d8db36582a93007eb367fdf28a35ef9ff219",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "performance",
+      "state": 1,
+      "label": "工作与绩效",
+      "path": "arts/static/04/story-assets-v03/compositions/performance-1.png",
+      "sha256": "bf83356012f6d9421a3efede8430a22226c7445a4ac783a2176eecfe87760a9d",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "competition",
+      "state": 0,
+      "label": "企业竞争",
+      "path": "arts/static/04/story-assets-v03/compositions/competition-0.png",
+      "sha256": "3235e73ee2e6c68852991574da92416e25667223a516876d2083c8b5dd6aa90d",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "competition",
+      "state": 1,
+      "label": "企业竞争",
+      "path": "arts/static/04/story-assets-v03/compositions/competition-1.png",
+      "sha256": "c6120804da64de7fa9e65ccdcc7fcd7be7211a0ade1e84de000ec3d0de249f1a",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "competition",
+      "state": 2,
+      "label": "企业竞争",
+      "path": "arts/static/04/story-assets-v03/compositions/competition-2.png",
+      "sha256": "a8e9f11627e19c45d3c2712c6a3dacbacb4eda330d026fe654ca230034be62b1",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "competition",
+      "state": 3,
+      "label": "企业竞争",
+      "path": "arts/static/04/story-assets-v03/compositions/competition-3.png",
+      "sha256": "051ef3325add5eede45cafd2d24bc5d97c018469e14dc50084bd6d0b73207822",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "board",
+      "state": 0,
+      "label": "白板改人数",
+      "path": "arts/static/04/story-assets-v03/compositions/board-0.png",
+      "sha256": "8848a471faba27abb954c66e9ce6dfe1f4f3e092d38f2cf3885339a5af171697",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "board",
+      "state": 1,
+      "label": "白板改人数",
+      "path": "arts/static/04/story-assets-v03/compositions/board-1.png",
+      "sha256": "bb3562a13278227814439b7a0119b68ed69fd4946ad0ae2d4b74387978cf6200",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "board",
+      "state": 2,
+      "label": "白板改人数",
+      "path": "arts/static/04/story-assets-v03/compositions/board-2.png",
+      "sha256": "4aeb7f7ee38b173d1327e6df81d325b04483fba8e792f16779e14937bd846b82",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "board",
+      "state": 3,
+      "label": "白板改人数",
+      "path": "arts/static/04/story-assets-v03/compositions/board-3.png",
+      "sha256": "7ca5c657536daec9ee5374e5188e894d1a2278ab374071687cedb173a544173b",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "hr",
+      "state": 0,
+      "label": "HR与招聘",
+      "path": "arts/static/04/story-assets-v03/compositions/hr-0.png",
+      "sha256": "4dd160c6e7df106eef0d2d8026b4e11c857b98f60a2c91f52a8a450057c32a89",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "hr",
+      "state": 1,
+      "label": "HR与招聘",
+      "path": "arts/static/04/story-assets-v03/compositions/hr-1.png",
+      "sha256": "ae7dff49db667b6f0165e447e4654065155543165909bc6e653e9ce66f15510e",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "hr",
+      "state": 2,
+      "label": "HR与招聘",
+      "path": "arts/static/04/story-assets-v03/compositions/hr-2.png",
+      "sha256": "d86041c65285f72cae259aea27102c9810ee1a6f777767b9bcd88665eb7ca206",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "hr",
+      "state": 3,
+      "label": "HR与招聘",
+      "path": "arts/static/04/story-assets-v03/compositions/hr-3.png",
+      "sha256": "9378fac4158ca3b4ec7794c008cf47f9f988ade3cc974b638ac44afeb901ab81",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "closing",
+      "state": 0,
+      "label": "标准接05",
+      "path": "arts/static/04/story-assets-v03/compositions/closing-0.png",
+      "sha256": "3c8075d785e4d56d3e311e78c7df1ab7c8e5b5807c68d114d56d538912048da8",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "generated": 20,
+  "derived": 1,
+  "reused": 4,
+  "newAnimation": false,
+  "newRuntimeCaptions": false,
+  "newFilmBuild": false
+}

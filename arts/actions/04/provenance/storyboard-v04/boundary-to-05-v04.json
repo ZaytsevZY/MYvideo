@@ -1,0 +1,63 @@
+{
+  "status": "draft-not-implemented",
+  "fromChapter": "04",
+  "toChapter": "05",
+  "versions": {
+    "from": "S04_STORYBOARD v0.4",
+    "toScript": "S05_STORY_LOGIC v0.1"
+  },
+  "timeline": {
+    "fps": 30,
+    "cutGlobalFrame": 5310,
+    "fromLastEncodedLocalFrame": 1649,
+    "toFrameCount": 1350,
+    "overlapFrames": 0,
+    "transitionOwnership": "existing-chapter-budgets"
+  },
+  "outgoingState": {
+    "scene": "hr-workstation-with-published-job-requirements",
+    "jobId": "S04-JOB-01",
+    "status": "published-with-raised-requirements",
+    "requirementRect": [
+      752,
+      360,
+      1100,
+      216
+    ],
+    "coordinateSpace": "1920x1080 screen pixels",
+    "requirements": [
+      "独立负责产品线",
+      "熟练调度多个Agent"
+    ],
+    "cvRecordsRetained": 4,
+    "routineMechanism": "opening-window-thumbnails→whiteboard-excerpt→existing-requirements",
+    "stableFromSeconds": 54.2,
+    "standaloneControlCard": false,
+    "retiredFromNewPlot": [
+      "S04-X",
+      "S03-D"
+    ],
+    "audioPresent": false
+  },
+  "incomingPlan": {
+    "shotId": "V05.1-E1",
+    "semanticMatch": "熟练调度多个Agent→实际调用多个Agent",
+    "rules": [
+      "组织要求与工具调用的语义衔接，不暗示HR直接布置这轮任务",
+      "CV不变成工具任务",
+      "05口播不改",
+      "不恢复独立标准控制卡"
+    ],
+    "requiredAdapter": "新04动态完成后，最小适配05的岗位要求／工作安排入口"
+  },
+  "evidence": {
+    "terminalComposition": "arts/static/04/story-assets-v03/compositions/hr-4.png",
+    "newVideoLastFrame": null,
+    "newSeamPreviewPath": null,
+    "verified": false
+  },
+  "openIssues": [
+    "当前为构图与脚本候选，05入口尚未实测",
+    "四份简历只在04岗位页面内保留，不跨章冒充新增任务"
+  ]
+}

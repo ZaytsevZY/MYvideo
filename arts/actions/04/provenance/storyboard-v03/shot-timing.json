@@ -1,0 +1,151 @@
+{
+  "version": "S04_STORYBOARD v0.3",
+  "status": "draft-not-implemented",
+  "fps": 30,
+  "durationFrames": 1650,
+  "durationSec": 55,
+  "globalStartFrame": 3660,
+  "globalEndFrameExclusive": 5310,
+  "shots": [
+    {
+      "id": "S04-01",
+      "parent": "V04.1",
+      "type": "L",
+      "title": "研究定位",
+      "startFrame": 0,
+      "endFrameExclusive": 108,
+      "startSec": 0.0,
+      "endSec": 3.6
+    },
+    {
+      "id": "S04-02",
+      "parent": "V04.1",
+      "type": "E",
+      "title": "午餐／会前／公司晚间三窗",
+      "startFrame": 108,
+      "endFrameExclusive": 369,
+      "startSec": 3.6,
+      "endSec": 12.3
+    },
+    {
+      "id": "S04-03",
+      "parent": "V04.2",
+      "type": "E",
+      "title": "Agent协作与传统编程",
+      "startFrame": 369,
+      "endFrameExclusive": 468,
+      "startSec": 12.3,
+      "endSec": 15.6
+    },
+    {
+      "id": "S04-04",
+      "parent": "V04.2",
+      "type": "E",
+      "title": "绩效A／M及表情",
+      "startFrame": 468,
+      "endFrameExclusive": 600,
+      "startSec": 15.6,
+      "endSec": 20.0
+    },
+    {
+      "id": "S04-05",
+      "parent": "V04.3",
+      "type": "L",
+      "title": "共同市场初态",
+      "startFrame": 600,
+      "endFrameExclusive": 690,
+      "startSec": 20.0,
+      "endSec": 23.0
+    },
+    {
+      "id": "S04-06",
+      "parent": "V04.3",
+      "type": "L",
+      "title": "甲先采用",
+      "startFrame": 690,
+      "endFrameExclusive": 780,
+      "startSec": 23.0,
+      "endSec": 26.0
+    },
+    {
+      "id": "S04-07",
+      "parent": "V04.3",
+      "type": "L",
+      "title": "乙丙普及",
+      "startFrame": 780,
+      "endFrameExclusive": 915,
+      "startSec": 26.0,
+      "endSec": 30.5
+    },
+    {
+      "id": "S04-08",
+      "parent": "V04.3",
+      "type": "L",
+      "title": "乙增加Agent再领先",
+      "startFrame": 915,
+      "endFrameExclusive": 1074,
+      "startSec": 30.5,
+      "endSec": 35.8
+    },
+    {
+      "id": "S04-09",
+      "parent": "V04.4",
+      "type": "E",
+      "title": "主管划掉3人",
+      "startFrame": 1074,
+      "endFrameExclusive": 1155,
+      "startSec": 35.8,
+      "endSec": 38.5
+    },
+    {
+      "id": "S04-10",
+      "parent": "V04.4",
+      "type": "E",
+      "title": "改为1人",
+      "startFrame": 1155,
+      "endFrameExclusive": 1236,
+      "startSec": 38.5,
+      "endSec": 41.2
+    },
+    {
+      "id": "S04-11",
+      "parent": "V04.4",
+      "type": "E",
+      "title": "HR改岗位要求",
+      "startFrame": 1236,
+      "endFrameExclusive": 1350,
+      "startSec": 41.2,
+      "endSec": 45.0
+    },
+    {
+      "id": "S04-12",
+      "parent": "V04.4",
+      "type": "E",
+      "title": "发布后简历增加",
+      "startFrame": 1350,
+      "endFrameExclusive": 1485,
+      "startSec": 45.0,
+      "endSec": 49.5
+    },
+    {
+      "id": "S04-13",
+      "parent": "V04.4",
+      "type": "E",
+      "title": "新要求已生效",
+      "startFrame": 1485,
+      "endFrameExclusive": 1545,
+      "startSec": 49.5,
+      "endSec": 51.5
+    },
+    {
+      "id": "S04-14",
+      "parent": "V04.4",
+      "type": "L",
+      "title": "周期／标准交05",
+      "startFrame": 1545,
+      "endFrameExclusive": 1650,
+      "startSec": 51.5,
+      "endSec": 55.0
+    }
+  ]
+}

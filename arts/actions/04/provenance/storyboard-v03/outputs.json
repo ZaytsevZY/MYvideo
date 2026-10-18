@@ -1,0 +1,62 @@
+[
+  {
+    "path": "arts/actions/04/README.md",
+    "sha256": "3e9d5b346e3d96a7ef740815b56d89640d63e9204c797b9cd5310f75c6c720bd"
+  },
+  {
+    "path": "arts/actions/04/provenance/storyboard-v03/04-user-before.md",
+    "sha256": "ad5cb278589b26abbf259e483e32e2409eeebfdd8c009f57c0cf990adea319bb"
+  },
+  {
+    "path": "arts/actions/04/provenance/storyboard-v03/boundary-from-03-v03.json",
+    "sha256": "4d0ec438087ab0442a3a1694b1b90856de0e5b3256cc87e1ad394a9de8c877e9"
+  },
+  {
+    "path": "arts/actions/04/provenance/storyboard-v03/boundary-to-05-v03.json",
+    "sha256": "39376193e32429e1027ce5e1e2027db1cb560779bc1c8467722bce79427ff733"
+  },
+  {
+    "path": "arts/actions/04/provenance/storyboard-v03/chapter-plan.md",
+    "sha256": "c44d4bc5e2aaa7ed8bf8dccadb5b351c6986623e4d7e490f547af4cd0cd8b98d"
+  },
+  {
+    "path": "arts/actions/04/provenance/storyboard-v03/inputs.json",
+    "sha256": "833ad3eb12e2b9defd3c9349d6436365fc46544063753d1448173c7466129beb"
+  },
+  {
+    "path": "arts/actions/04/provenance/storyboard-v03/narration-cues-draft.json",
+    "sha256": "1fe418110be6e307a6bf3eca13d62404d9cf1916211808ca1de62bd1422dd2cc"
+  },
+  {
+    "path": "arts/actions/04/provenance/storyboard-v03/prepare.py",
+    "sha256": "24b685cfa4f087484b2089fff88f68ebc7604cb9398806a449384f668a947a72"
+  },
+  {
+    "path": "arts/actions/04/provenance/storyboard-v03/shot-timing.json",
+    "sha256": "a086d1056489c5d4981e736f78ac9aa7bb5cff891b57076f97836762337d80d6"
+  },
+  {
+    "path": "arts/actions/04/provenance/storyboard-v03/verification.json",
+    "sha256": "f83ec4f437c8fe5c5be1168d3a121a217b37e832907358cdea1264ced0fd308d"
+  },
+  {
+    "path": "scripts/HANDOFF.md",
+    "sha256": "8d6f13f376528485862b0b5046c54074fc61329ef9a14e90accec56c9a0f83a0"
+  },
+  {
+    "path": "scripts/PROJECT_STATE.md",
+    "sha256": "262c4b74c7d11013827995c3315eb64db19d1bd305172758fd7f5ef86214514d"
+  },
+  {
+    "path": "scripts/doc/GENERATION_LOG.md",
+    "sha256": "6aff1698adc910999e99ad53b4bfae96e842ab3dcdecf65655e74043247df4a0"
+  },
+  {
+    "path": "scripts/final/shot/04.md",
+    "sha256": "22d1756fc08e7349a4877fcf1e808d3790409211b1974ef3212de69f1fe75e95"
+  },
+  {
+    "path": "scripts/final/shot/STORY_LOGIC_PLAN.md",
+    "sha256": "b3677d1f818c3aa8b7aef5e30a90e2efb18ad0bcd135e2fa5f057ecd2c83765d"
+  }
+]

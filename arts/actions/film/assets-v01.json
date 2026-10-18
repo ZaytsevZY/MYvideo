@@ -1,5 +1,5 @@
 {
-  "version": "FILM_PREVIEW v0.3",
+  "version": "FILM_PREVIEW v0.4",
   "assets": [
     {
       "path": "arts/backgrounds/01/workroom-reverse-night-v01.png",
@@ -53,13 +53,11 @@
       "path": "arts/backgrounds/01/workroom-day-v01.png",
       "ids": [
         "room-day",
-        "s02-room",
-        "room"
+        "s02-room"
       ],
       "chapters": [
         "01",
-        "02",
-        "04"
+        "02"
       ],
       "bytes": 1577652,
       "sha256": "45e33124784fffdfd755d27f6ee1b13d06d65261795087e83ec15c74392c50b3",
@@ -555,15 +553,13 @@
     {
       "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
       "ids": [
-        "avatar-programmer-neutral",
-        "human"
+        "avatar-programmer-neutral"
       ],
       "chapters": [
         "01",
         "02",
         "05",
-        "06",
-        "04"
+        "06"
       ],
       "bytes": 1103321,
       "sha256": "20a101697879a0e54da5861532080cede1db7d4cfd7dbbd9dbd7af820d9cfbaa",
@@ -598,15 +594,13 @@
       "path": "arts/items/01/workstation-painted-v02.png",
       "ids": [
         "workstation-painted",
-        "s02-desk",
-        "desk"
+        "s02-desk"
       ],
       "chapters": [
         "01",
         "02",
         "05",
-        "06",
-        "04"
+        "06"
       ],
       "bytes": 502454,
       "sha256": "c05a579cb7d6e3eeefac268c6d122495396b6fbe759d5efbc5cda4c1981a234a",
@@ -620,13 +614,15 @@
       "path": "arts/items/01/task-document-portrait-v01.png",
       "ids": [
         "document-portrait",
-        "s02-document"
+        "s02-document",
+        "document"
       ],
       "chapters": [
         "01",
         "02",
         "05",
-        "06"
+        "06",
+        "04"
       ],
       "bytes": 1390962,
       "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420",
@@ -640,7 +636,7 @@
       "path": "arts/items/01/task-document-landscape-v01.png",
       "ids": [
         "document-landscape",
-        "doc"
+        "documentWide"
       ],
       "chapters": [
         "01",
@@ -676,15 +672,13 @@
       "path": "arts/items/01/chair-back-rear-painted-v01.png",
       "ids": [
         "chair-back-painted",
-        "s02-chair",
-        "chair"
+        "s02-chair"
       ],
       "chapters": [
         "01",
         "02",
         "05",
-        "06",
-        "04"
+        "06"
       ],
       "bytes": 1213043,
       "sha256": "c8081c17e825a75dacb7b6f23f21e8d7ed6f76bdffe978eba4bd525aef6071c6",
@@ -713,15 +707,13 @@
     {
       "path": "arts/characters/portraits/01/programmer-focus-v01.png",
       "ids": [
-        "avatar-programmer-focus",
-        "focus"
+        "avatar-programmer-focus"
       ],
       "chapters": [
         "01",
         "02",
         "05",
-        "06",
-        "04"
+        "06"
       ],
       "bytes": 1094887,
       "sha256": "4e6f1beaf38dd2e02df9f6e3a1943d3815a73d6e0113f2b8531ea7ad6113fc1e",
@@ -734,15 +726,13 @@
     {
       "path": "arts/characters/portraits/01/agent-focus-v01.png",
       "ids": [
-        "avatar-agent-focus",
-        "agentFocus"
+        "avatar-agent-focus"
       ],
       "chapters": [
         "01",
         "02",
         "05",
-        "06",
-        "04"
+        "06"
       ],
       "bytes": 1449774,
       "sha256": "2db469f8afaae3bcbb54aa1ec4487f43c8a614bffcf56c85a77dbe15b3703f20",
@@ -788,15 +778,13 @@
       "path": "arts/characters/poses/01/agent-idle-v01.png",
       "ids": [
         "agent-idle",
-        "s02-agentIdle",
-        "agentIdle"
+        "s02-agentIdle"
       ],
       "chapters": [
         "01",
         "02",
         "05",
-        "06",
-        "04"
+        "06"
       ],
       "bytes": 1334286,
       "sha256": "fbcf2a3125182fc9d7834015378b786a6bdf6187b334bc3d6ecb996d62c6df4c",
@@ -911,12 +899,10 @@
     {
       "path": "arts/characters/poses/01/agent-report-v01.png",
       "ids": [
-        "agent-report",
-        "agentReport"
+        "agent-report"
       ],
       "chapters": [
-        "01",
-        "04"
+        "01"
       ],
       "bytes": 1363411,
       "sha256": "22198fc0ea7f38bc081ca8ce4d886d316913b1c3c9f658c2bae86f61459a5c1e",
@@ -930,15 +916,13 @@
       "path": "arts/characters/poses/01/programmer-input-v01.png",
       "ids": [
         "programmer-input",
-        "s02-input",
-        "input"
+        "s02-input"
       ],
       "chapters": [
         "01",
         "02",
         "05",
-        "06",
-        "04"
+        "06"
       ],
       "bytes": 1330055,
       "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373",
@@ -951,14 +935,12 @@
     {
       "path": "arts/characters/poses/01/programmer-lean-v01.png",
       "ids": [
-        "programmer-lean",
-        "lean"
+        "programmer-lean"
       ],
       "chapters": [
         "01",
         "05",
-        "06",
-        "04"
+        "06"
       ],
       "bytes": 1330624,
       "sha256": "470d0a4d34b3f4d8ac4fcceff2fb613c7573c4918319bce6e019100339ee89d2",
@@ -991,14 +973,12 @@
     {
       "path": "arts/characters/poses/01/programmer-rest-v01.png",
       "ids": [
-        "programmer-rest",
-        "rest"
+        "programmer-rest"
       ],
       "chapters": [
         "01",
         "05",
-        "06",
-        "04"
+        "06"
       ],
       "bytes": 1328086,
       "sha256": "2f7042e7620dc3f31d176036cd3f68246e4f37d595194b79c0d3431282b8bc85",
@@ -1457,10 +1437,12 @@
     {
       "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
       "ids": [
-        "front"
+        "front",
+        "entry03_front"
       ],
       "chapters": [
-        "03"
+        "03",
+        "04"
       ],
       "bytes": 1904714,
       "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac",
@@ -1473,10 +1455,12 @@
     {
       "path": "arts/backgrounds/03/programmer-front-desk-b-v05.png",
       "ids": [
-        "typeB"
+        "typeB",
+        "entry03_typeB"
       ],
       "chapters": [
-        "03"
+        "03",
+        "04"
       ],
       "bytes": 1904173,
       "sha256": "f51b573712a25eaaa9cf51336e9945bfbff36ecf7e19dfb68421e4772402f480",
@@ -1489,10 +1473,12 @@
     {
       "path": "arts/backgrounds/03/programmer-front-read-v05.png",
       "ids": [
-        "read"
+        "read",
+        "entry03_read"
       ],
       "chapters": [
-        "03"
+        "03",
+        "04"
       ],
       "bytes": 1908158,
       "sha256": "c64f14f432430a1a01b5de70a56f7c42e0d11d349b60d97a34304b4c0ae5fdab",
@@ -1505,10 +1491,12 @@
     {
       "path": "arts/backgrounds/03/programmer-front-look-v05.png",
       "ids": [
-        "look"
+        "look",
+        "entry03_look"
       ],
       "chapters": [
-        "03"
+        "03",
+        "04"
       ],
       "bytes": 1915981,
       "sha256": "f01bd7b141545ef5200721f1a7235c7b3ca47925f78ffd9d993660633dc6fff0",
@@ -1521,10 +1509,12 @@
     {
       "path": "arts/backgrounds/03/programmer-front-glance-v05.png",
       "ids": [
-        "gaze"
+        "gaze",
+        "entry03_gaze"
       ],
       "chapters": [
-        "03"
+        "03",
+        "04"
       ],
       "bytes": 1923768,
       "sha256": "6e1e16e67030837450616947f626583b02741a299eaee68183e5bcfa3245e46a",
@@ -1537,10 +1527,12 @@
     {
       "path": "arts/backgrounds/03/neighbor-work-a-v05.png",
       "ids": [
-        "neighbors"
+        "neighbors",
+        "entry03_neighbors"
       ],
       "chapters": [
-        "03"
+        "03",
+        "04"
       ],
       "bytes": 1951306,
       "sha256": "8a6fa3f0e97925dacfa825ea2a8545928e41d6d4899c55ff0dd1662f3da80a0c",
@@ -1553,10 +1545,12 @@
     {
       "path": "arts/backgrounds/03/neighbor-work-b-v05.png",
       "ids": [
-        "neighborsB"
+        "neighborsB",
+        "entry03_neighborsB"
       ],
       "chapters": [
-        "03"
+        "03",
+        "04"
       ],
       "bytes": 1872869,
       "sha256": "3532019deb04853dc9f64a1e1463ca8bc4be803b55ed87723c74d073bb49b9e6",
@@ -1569,7 +1563,9 @@
     {
       "path": "arts/characters/portraits/03/manager-neutral-v04.png",
       "ids": [
-        "manager"
+        "manager",
+        "managerPortrait",
+        "entry03_manager"
       ],
       "chapters": [
         "03",
@@ -1586,7 +1582,8 @@
     {
       "path": "arts/characters/portraits/03/coworker-a-v04.png",
       "ids": [
-        "coworkerA"
+        "coworkerA",
+        "entry03_coworkerA"
       ],
       "chapters": [
         "03",
@@ -1603,7 +1600,8 @@
     {
       "path": "arts/characters/portraits/03/coworker-b-v04.png",
       "ids": [
-        "coworkerB"
+        "coworkerB",
+        "entry03_coworkerB"
       ],
       "chapters": [
         "03",
@@ -1620,7 +1618,8 @@
     {
       "path": "arts/characters/portraits/03/programmer-front-v04.png",
       "ids": [
-        "portrait"
+        "portrait",
+        "entry03_portrait"
       ],
       "chapters": [
         "03",
@@ -1637,11 +1636,13 @@
     {
       "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
       "ids": [
-        "office"
+        "office",
+        "entry03_office"
       ],
       "chapters": [
         "03",
-        "04"
+        "04",
+        "05"
       ],
       "bytes": 1726481,
       "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11",
@@ -1650,6 +1651,379 @@
       "alpha": false,
       "format": "png",
       "kind": "背景"
+    },
+    {
+      "path": "arts/static/04/lunch-panel-v02.png",
+      "ids": [
+        "lunchBefore"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1718710,
+      "sha256": "7b22f7f4573b16440bdd5310b20a73814f46a04e0dd07ad08d6125d41e138854",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/backgrounds/04/lunch-eat-v03.png",
+      "ids": [
+        "lunchEat"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1729980,
+      "sha256": "b3a0dea4e8aacbbb3dfb378c1466760bd4416563ca8ab45d6c9b0015aa58f9ea",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/lunch-type-v03.png",
+      "ids": [
+        "lunchType"
+      ],
+      "chapters": [
+        "04",
+        "05"
+      ],
+      "bytes": 1733736,
+      "sha256": "76c22715ee2c1f55a0379b93d0ec10aee8b44839b42d78f2ca0357f89e20423d",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/premeeting-type-v03.png",
+      "ids": [
+        "meetingType"
+      ],
+      "chapters": [
+        "04",
+        "05"
+      ],
+      "bytes": 1690198,
+      "sha256": "436ef33361460775fb549cdfb2c65de1d79cac3d945e3e6fabe28a88d8654e59",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/premeeting-look-v03.png",
+      "ids": [
+        "meetingLook"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1656548,
+      "sha256": "098b6cdc0445744ec7a0624e8968e93611f21cd24ede69b4f4a2b242f67d7dc8",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/evening-pack-v03.png",
+      "ids": [
+        "eveningPack"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1846073,
+      "sha256": "d1dc9acac78a6e025989548534866cd0e5818b48cca80cde84c3efca3c8272b6",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/evening-reopen-v03.png",
+      "ids": [
+        "eveningReopen"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1926201,
+      "sha256": "4e7b41ce20e85760caf6ca6cc801e0b745451327816bef520a1646b7b979b77f",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/evening-type-v03.png",
+      "ids": [
+        "eveningType"
+      ],
+      "chapters": [
+        "04",
+        "05"
+      ],
+      "bytes": 1882235,
+      "sha256": "336864ce555670662eda5f0696aefeb1b9df4406dd08427a0c633b57f54c5c51",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/collaboration-review-v03.png",
+      "ids": [
+        "collab"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1975606,
+      "sha256": "c01cd90560ca7bad42fb469c070041f5b76bbe119a623d370471ced5194db6be",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/collaboration-relief-v03.png",
+      "ids": [
+        "collabRelief"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1968898,
+      "sha256": "e12ba87ea330e2d899b44bd244b88834542aea41ebbc4ae58a98f5700ffd3cd6",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/traditional-type-v03.png",
+      "ids": [
+        "traditional"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 2110467,
+      "sha256": "a43ae89da68997143906f51f4130f4de8bf9b834ebdcce5114be4ea7fce71bc7",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/traditional-disappointed-v03.png",
+      "ids": [
+        "traditionalLoss"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 2090965,
+      "sha256": "bec96443329051a9d8d7ea043ab29c1a21cdf0bd31b028f3ffc2c5daab4ed683",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/meeting-whiteboard-room-v03.png",
+      "ids": [
+        "room"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1523986,
+      "sha256": "89731a6310321cc34a9cbe4a7b229caec5dde3eb06cbeb3963ecdb41479d05b8",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/characters/poses/04/manager-ready-v03.png",
+      "ids": [
+        "managerReady"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1376701,
+      "sha256": "b96793b65b44a77777ede2e1a9a84a0fcbad6720b47a5861eff0308b00e1b6ac",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/04/manager-strike-v03.png",
+      "ids": [
+        "managerStrike"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1306173,
+      "sha256": "6a9bf6b1665ce125cf0fbea0a65ef870a824bbe42e9cc736c54c330baf653aad",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/04/manager-write-v03.png",
+      "ids": [
+        "managerWrite"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1321024,
+      "sha256": "5fbdd9407facee33f46043445f49ee488f3244a43379e218ffa44b70d07fe628",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/backgrounds/04/hr-edit-v03.png",
+      "ids": [
+        "hrEdit"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 2043887,
+      "sha256": "917e7fd3c38cf3bf51dad5743966551fcce91fe279ae4da237fb4ebde1cd132b",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/hr-review-v03.png",
+      "ids": [
+        "hrReview"
+      ],
+      "chapters": [
+        "04",
+        "05"
+      ],
+      "bytes": 2029659,
+      "sha256": "b271516fa0d8a9924733c0515c0fd17b3a0e9432337f29d3b6f38e7fa566dc79",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/characters/portraits/04/hr-neutral-v03.png",
+      "ids": [
+        "hrPortrait"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 538200,
+      "sha256": "d7c2d563d083410aa22dc8266bb089f886d9876f6f95caba7e93191705a8a4c1",
+      "width": 512,
+      "height": 512,
+      "alpha": false,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/items/04/company-a-v03.png",
+      "ids": [
+        "companyA"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1644100,
+      "sha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/04/company-b-v03.png",
+      "ids": [
+        "companyB"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1826338,
+      "sha256": "ad461fe80d1bae95f3e63750bc07c4ab85685f8b686a1107edb6db40abf098eb",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/04/company-c-v03.png",
+      "ids": [
+        "companyC"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1852849,
+      "sha256": "6b11cb4e739089d5394ff6ccdef3cd0d6029eddc108b95a76df0b3dc1df8dc74",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/static/04/story-assets-v03/compositions/board-detail-v04.png",
+      "ids": [
+        "boardExcerpt"
+      ],
+      "chapters": [
+        "04",
+        "05"
+      ],
+      "bytes": 119110,
+      "sha256": "914ac273a36eaee885af9a58a5070ffdea3705f28c20cf6ee41343c382ad754d",
+      "width": 600,
+      "height": 350,
+      "alpha": true,
+      "format": "png",
+      "kind": "图解与状态"
     }
   ],
   "note": "Original paths retained; shared references deduplicated by path. Composite stages are not new drawings."

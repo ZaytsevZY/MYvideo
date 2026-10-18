@@ -1,0 +1,54 @@
+{
+  "version": "S04_ART/STORYBOARD v0.4",
+  "passed": true,
+  "protectedFiles": 43,
+  "unchangedGeneratedPngs": 20,
+  "imagegenCallsThisRevision": 0,
+  "registeredAssets": 28,
+  "compositions": 20,
+  "shots": 14,
+  "continuousFrames": 1650,
+  "storyFrames": 963,
+  "logicFrames": 687,
+  "userNarrationBytePreserved": true,
+  "userStoryParagraphsBytePreserved": true,
+  "narrationCharacters": 185,
+  "zeroOnscreenProductionLabels": true,
+  "researchFootnoteOnlyInThreeWindows": true,
+  "standaloneResearchAndClosingRemoved": true,
+  "restoredMechanisms": [
+    "output-expectations-next-tasks inside unchanged performance workstations",
+    "same cycle/planning sheet from competition to whiteboard",
+    "opening/whiteboard thumbnails end at actual published requirements"
+  ],
+  "derivedBoardCropTraceable": true,
+  "marketsNormalized": true,
+  "subtitleSafe": true,
+  "browserChecked": true,
+  "browserChecks": [
+    "five-scene navigation",
+    "research footnote",
+    "performance embedded logic",
+    "competition planning order",
+    "HR ending and caption-safe overlay"
+  ],
+  "browserScreenshot": "arts/static/04/story-assets-v03/provenance/revision-v04/browser-preview.png",
+  "claude": {
+    "invocations": 1,
+    "model": "claude-opus-5-5",
+    "numTurns": 1,
+    "durationMs": 273276,
+    "scope": "text-only optimization, no pixel review",
+    "retry": false
+  },
+  "limits": [
+    "representative key states and script, not55s animation",
+    "formal04 captions and film remain old",
+    "new chapter seams unverified"
+  ],
+  "commands": [
+    "node arts/static/04/story-assets-v03/build.mjs",
+    "python3 arts/actions/04/provenance/storyboard-v04/finalize.py",
+    "node arts/static/04/story-assets-v03/provenance/revision-v04/audit.mjs"
+  ]
+}

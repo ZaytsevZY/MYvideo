@@ -1,5 +1,5 @@
 {
-  "version": "FILM_PREVIEW v0.3",
+  "version": "FILM_PREVIEW v0.4",
   "date": "2026-10-18",
   "fps": 30,
   "duration": 280,
@@ -1468,84 +1468,130 @@
       "globalFrame": 3531
     },
     {
-      "id": "04-A",
+      "id": "S04-01",
       "start": 0,
-      "end": 1.6,
-      "name": "排期承接",
+      "end": 12.3,
+      "type": "E",
+      "name": "三窗并行",
       "chapterId": "04",
       "globalFrame": 3660
     },
     {
-      "id": "04-B",
-      "start": 1.6,
-      "end": 6.8,
-      "name": "研究方法",
+      "id": "S04-02",
+      "start": 12.3,
+      "end": 14.6,
+      "type": "E",
+      "name": "成果交接",
       "chapterId": "04",
-      "globalFrame": 3708
+      "globalFrame": 4029
     },
     {
-      "id": "04-C",
-      "start": 6.8,
-      "end": 15,
-      "name": "研究观察",
+      "id": "S04-03",
+      "start": 14.6,
+      "end": 17.3,
+      "type": "E",
+      "name": "绩效与反应",
       "chapterId": "04",
-      "globalFrame": 3864
+      "globalFrame": 4098
     },
     {
-      "id": "04-D",
-      "start": 15,
-      "end": 20.3,
-      "name": "反馈关系",
+      "id": "S04-04",
+      "start": 17.3,
+      "end": 20,
+      "type": "L",
+      "name": "产出与组织预期",
       "chapterId": "04",
-      "globalFrame": 4110
+      "globalFrame": 4179
     },
     {
-      "id": "04-E",
-      "start": 20.3,
-      "end": 27,
-      "name": "组织安排",
+      "id": "S04-05",
+      "start": 20,
+      "end": 21.8,
+      "type": "L",
+      "name": "共同市场",
       "chapterId": "04",
-      "globalFrame": 4269
+      "globalFrame": 4260
     },
     {
-      "id": "04-F",
-      "start": 27,
-      "end": 35.5,
-      "name": "竞争机制",
+      "id": "S04-06",
+      "start": 21.8,
+      "end": 24.6,
+      "type": "L",
+      "name": "率先采用",
       "chapterId": "04",
-      "globalFrame": 4470
+      "globalFrame": 4314
     },
     {
-      "id": "04-G",
-      "start": 35.5,
-      "end": 42,
-      "name": "团队标准",
+      "id": "S04-07",
+      "start": 24.6,
+      "end": 29.6,
+      "type": "L",
+      "name": "方法普及",
       "chapterId": "04",
-      "globalFrame": 4725
+      "globalFrame": 4398
     },
     {
-      "id": "04-H",
-      "start": 42,
-      "end": 46,
-      "name": "自选补充",
+      "id": "S04-08",
+      "start": 29.6,
+      "end": 32.6,
+      "type": "L",
+      "name": "再压缩周期",
       "chapterId": "04",
-      "globalFrame": 4920
+      "globalFrame": 4548
     },
     {
-      "id": "04-I",
-      "start": 46,
-      "end": 50,
-      "name": "下一轮计划",
+      "id": "S04-09",
+      "start": 32.6,
+      "end": 35.8,
+      "type": "L",
+      "name": "进入排期考核",
       "chapterId": "04",
-      "globalFrame": 5040
+      "globalFrame": 4638
     },
     {
-      "id": "04-J",
-      "start": 50,
+      "id": "S04-10",
+      "start": 35.8,
+      "end": 39,
+      "type": "E",
+      "name": "划去原人数",
+      "chapterId": "04",
+      "globalFrame": 4734
+    },
+    {
+      "id": "S04-11",
+      "start": 39,
+      "end": 42.2,
+      "type": "E",
+      "name": "重写产品线安排",
+      "chapterId": "04",
+      "globalFrame": 4830
+    },
+    {
+      "id": "S04-12",
+      "start": 42.2,
+      "end": 45.6,
+      "type": "E",
+      "name": "提高招聘要求",
+      "chapterId": "04",
+      "globalFrame": 4926
+    },
+    {
+      "id": "S04-13",
+      "start": 45.6,
+      "end": 50.6,
+      "type": "E",
+      "name": "发布与简历增加",
+      "chapterId": "04",
+      "globalFrame": 5028
+    },
+    {
+      "id": "S04-14",
+      "start": 50.6,
       "end": 55,
-      "name": "常规验收",
+      "type": "L",
+      "name": "额外贡献成为常规要求",
       "chapterId": "04",
-      "globalFrame": 5160
+      "globalFrame": 5178
     },
     {
       "id": "S05-01",

@@ -1,0 +1,24 @@
+{
+  "phase": "integrated-compositions",
+  "imagegenCallsThisRevision": 0,
+  "previouslyGeneratedPngs": 20,
+  "derivedAssets": 2,
+  "reusedAssets": 6,
+  "registeredAssets": 28,
+  "compositions": 20,
+  "protectedFilesBytePreserved": 43,
+  "sourceCopiesByteIdentical": true,
+  "genuineAlphaOnSixIsolatedAssets": true,
+  "marketStatesNormalized": true,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "nominalChapterFrames": 1650,
+  "browserChecked": false,
+  "visualReview": "pending-compositions",
+  "newVideo": false,
+  "newAudio": false,
+  "newRuntime": false,
+  "command": "node arts/static/04/story-assets-v03/build.mjs"
+}

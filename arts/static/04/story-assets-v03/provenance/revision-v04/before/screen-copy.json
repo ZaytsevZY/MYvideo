@@ -1,0 +1,21 @@
+{
+  "version": "S04_ART v0.3",
+  "scope": "画面组件用字；不写入口播／正式字幕。JD具体措辞沿已记录分镜提案。",
+  "parallel": ["午餐", "会前", "晚间"],
+  "performance": ["绩效 A", "绩效 M"],
+  "companies": ["企业甲", "企业乙", "企业丙"],
+  "cycleLabel": "生产周期",
+  "cycles": ["1年", "3个月", "1个月"],
+  "marketLabel": "共同市场",
+  "board": {"before": "3人负责产品线", "after": "1人负责产品线"},
+  "job": {
+    "id": "S04-JOB-01",
+    "title": "软件工程师",
+    "before": ["参与产品线开发"],
+    "after": ["独立负责产品线", "熟练调度多个Agent"],
+    "section": "任职要求",
+    "applications": "收到的简历"
+  },
+  "closing": {"before": "我能多做", "after": "我必须做到", "control": "交付周期 · 验收标准"},
+  "evidence": {"study": "单一公司观察 · H1", "performance": "考核情境", "competition": "竞争机制 · 假设情境", "organization": "组织情境"}
+}

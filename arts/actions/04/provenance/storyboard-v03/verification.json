@@ -1,0 +1,24 @@
+{
+  "stage": "text-only",
+  "checks": {
+    "userNarrationBytePreserved": true,
+    "fourUserStoryParagraphsBytePreserved": true,
+    "existingReferencesPreserved": true,
+    "narrationCharacters": 185,
+    "runtimeCaptionCharacters": 171,
+    "draftCaptionsMatchNarration": true,
+    "shots": 14,
+    "continuousFrames": 1650,
+    "storyFrames": 963,
+    "logicFrames": 687,
+    "protectedFilesUnchanged": 15,
+    "referenceFilesRegistered": 15,
+    "newBoundariesVerified": false,
+    "mediaOrBrowserQAApplicable": false
+  },
+  "command": "python3 arts/actions/04/provenance/storyboard-v03/prepare.py",
+  "limitations": [
+    "No new images, runtime, film build, voice, or video",
+    "Draft subtitle timing requires voiced timing later"
+  ]
+}

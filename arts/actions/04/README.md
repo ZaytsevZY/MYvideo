@@ -1,5 +1,39 @@
 # 04 · 额外贡献怎样成为正常要求？
 
+**当前动态采用：S04_STORY v0.5 · 55秒／1650帧／14镜，已接入FILM_PREVIEW v0.4。**
+
+[全片从04开始](http://127.0.0.1:8765/actions/film/preview.html?frame=3660) · [04独立时间轴](http://127.0.0.1:8765/actions/04/full-preview.html) · [代表帧联系表](provenance/story-v05/contact-v05.png) · [制作单](provenance/story-v05/chapter-plan.md) · [验证记录](provenance/story-v05/verification.json)。开发入口preview.html也已切到新版。
+
+当前v0.4分镜与美术已进入实际动态：三个人物的午餐／会前／晚间三窗同屏，依次发生用餐转操作、抬眼看会场、重新打开电脑；成果交接与A／M评价、表情反应先后触发，反馈关系带在原工位下部展开。企业甲／乙／丙依次采用Agent，生产周期先缩短，再改变同一个市场饼图；图表冻结后负责人接收同一“排期与考核／1个月”纸页，进入白板改人数。HR实际选中／改写要求、发布岗位，四份简历逐次出现；末镜在原页面内回扣额外贡献、下轮排期和常规要求，54.2秒起稳定。
+
+研究资料只作三窗脚注，无独立研究页、制作分类角标或结尾标准卡。人物／工位仍为完整PNG，不拆肢体或叠化身体；已有完整姿态不足以连续描绘长距离书写，因此笔尖接触后用板面插入特写，再回到同轴主管全景，不拖动立绘假写字。人物动作属于有限关键帧演出，非逐帧重绘的人物动画。
+
+新正式运行字幕为[04-narration-v05.json](captions/04-narration-v05.json)／[SRT](captions/04-narration-v05.srt)，13条、185个非空白字符，与当前口播逐字一致；无配音，时间仍为语义暂排。六章脚本、旧scene及旧171字符字幕原文件均保持字节，脚本内“尚未接入”说明属于上阶段记录，以本入口为当前制作状态。
+
+03→04在04预算内保留03实际终态0.4秒，再切独立研究说明；S03-C仍处理中。04→05在05预算内保留已发布JD0.4秒，接原05工具调用，HR不变成直接主管，简历不变成工具任务。仅05入点适配，不代表05新故事已制作。当前两份[边界契约](provenance/story-v05/boundary-from-03-v05.json)／[04→05契约](provenance/story-v05/boundary-to-05-v05.json)由本轮实际框架和编码接缝验证。
+
+本轮复用美术，无新生图、Claude或其他外部模型调用；无声音。17项测试、全片8400帧接口检查、42张代表帧与两个4秒120帧编码接缝见验证记录。本次交付可播放动态框架及接缝短片，未导出新版04全章MP4或全片MP4。旧exports中的v0.2不代表新版。
+
+复现（项目根目录）：
+
+```sh
+node arts/actions/film/build.mjs
+node --test arts/actions/04/story-v05.test.mjs arts/actions/03/story-v05.test.mjs arts/actions/film/framework.test.mjs
+node arts/actions/04/qa-story-v05.mjs
+```
+
+`--frames-only`只输出代表帧，`--seams-only`只重算两侧接缝；依赖本机已有sharp与FFmpeg，不安装新工具。全片仍280秒／8400帧／68字幕，69段跳转、120项按路径去重库存。原生SVG／JavaScript逐帧合成，未迁移Remotion。
+
+## 历史制作记录（以下状态不代表当前采用）
+
+
+**当前分镜与构图：** S04_STORYBOARD／S04_ART v0.4。[14镜制作单](provenance/storyboard-v04/chapter-plan.md)／[素材检查页](http://127.0.0.1:8765/static/04/story-assets-v03/preview.html)／[素材说明](../../static/04/story-assets-v03/README.md)。研究信息并入三窗脚注，移除画内制作分类角标与两个独立页面；保留旧04反馈、竞争组织传导和常规化解释，与新人物演出结合。结尾停在HR和已发布任职要求。
+
+本机Claude Opus 5.5完成一次英文prompt优化，已采用A／M反应时长、因果延迟、同物衔接和稳定版面；[采用记录](provenance/storyboard-v04/optimization-resolutions.md)。保持14镜／55秒，复用20张生成PNG，无新生图；28项资源、20个构图关键态。原185字符口播与四段故事保留，正式字幕及04／film运行文件尚未更新。新跨章契约仍未实测。
+
+以下为**旧运行版本及历史镜头表**；若与新制作单冲突，以新制作单为后续制作入口。
+
+
 **2026-10-18接点更新：** 全片FILM_PREVIEW v0.3的04入口由entry-from-03-v05.mjs承接新版03树图，沿原1.6秒预算切入研究；03-C报告仍处理中，不再在适配状态继承旧S03-D。双方引用[03→04当前契约](../03/provenance/story-v05/boundary-to-04-v05.json)。04原scene主体、口播、55秒与旧视频不改，午餐／会前／晚间新故事演出尚待制作。
 
 
@@ -14,7 +48,7 @@ S04_SILENT_VIDEO v0.2 · 55秒 · 1920×1080 · 30fps · 1650帧 · 13段字幕 
 - 渲染：`node arts/actions/04/produce-v02.mjs`；代表构图：追加`--qa`；生成离线单文件预览：`node arts/actions/04/make-preview.mjs`。
 - 本机依赖路径和版本见exports/04-manifest-v02.json；代码使用既有sharp与FFmpeg，不新装模型或工具。导出器拒绝覆盖既有MP4。
 
-## 唯一镜头细化表
+## 旧基础版镜头表（历史实现）
 
 |镜头／父段|本地秒|句子与来源|起点→动作→终点|机位／接续|
 |---|---|---|---|---|
