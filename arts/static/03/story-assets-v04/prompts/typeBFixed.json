@@ -1,0 +1,8 @@
+{
+  "prompt": "Edit the reference image into a registered whole-frame animation keyframe. Preserve the exact portrait aspect, seated camera, protagonist identity, clothes/lanyard, keyboard, desk, chair, background and lighting. The desktop keyboard stays flat on desk in full view; do not add any laptop or screen in the foreground. Change only the specified action. No text, symbols, arrows, blur or decorative marks. Alternate typing contact: right index finger presses a key, left middle finger lifts a little for its next keystroke. Keep palms and wrists at same location and forearms resting on desk. Mild focused downward gaze, no head turn.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/03/programmer-front-desk-a-v05.png"
+  ],
+  "transparent_background": false,
+  "destination": "arts/backgrounds/03/programmer-front-desk-b-v05.png"
+}

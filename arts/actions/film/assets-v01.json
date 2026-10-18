@@ -1,5 +1,5 @@
 {
-  "version": "FILM_PREVIEW v0.2",
+  "version": "FILM_PREVIEW v0.3",
   "assets": [
     {
       "path": "arts/backgrounds/01/workroom-reverse-night-v01.png",
@@ -59,7 +59,6 @@
       "chapters": [
         "01",
         "02",
-        "03",
         "04"
       ],
       "bytes": 1577652,
@@ -564,7 +563,6 @@
         "02",
         "05",
         "06",
-        "03",
         "04"
       ],
       "bytes": 1103321,
@@ -586,7 +584,6 @@
         "02",
         "05",
         "06",
-        "03",
         "04"
       ],
       "bytes": 1422938,
@@ -609,7 +606,6 @@
         "02",
         "05",
         "06",
-        "03",
         "04"
       ],
       "bytes": 502454,
@@ -649,7 +645,6 @@
       "chapters": [
         "01",
         "02",
-        "03",
         "04"
       ],
       "bytes": 1533106,
@@ -689,7 +684,6 @@
         "02",
         "05",
         "06",
-        "03",
         "04"
       ],
       "bytes": 1213043,
@@ -727,7 +721,6 @@
         "02",
         "05",
         "06",
-        "03",
         "04"
       ],
       "bytes": 1094887,
@@ -749,7 +742,6 @@
         "02",
         "05",
         "06",
-        "03",
         "04"
       ],
       "bytes": 1449774,
@@ -804,7 +796,6 @@
         "02",
         "05",
         "06",
-        "03",
         "04"
       ],
       "bytes": 1334286,
@@ -925,7 +916,6 @@
       ],
       "chapters": [
         "01",
-        "03",
         "04"
       ],
       "bytes": 1363411,
@@ -948,7 +938,6 @@
         "02",
         "05",
         "06",
-        "03",
         "04"
       ],
       "bytes": 1330055,
@@ -969,7 +958,6 @@
         "01",
         "05",
         "06",
-        "03",
         "04"
       ],
       "bytes": 1330624,
@@ -1010,7 +998,6 @@
         "01",
         "05",
         "06",
-        "03",
         "04"
       ],
       "bytes": 1328086,
@@ -1466,6 +1453,203 @@
       "alpha": false,
       "format": "png",
       "kind": "合成底图"
+    },
+    {
+      "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+      "ids": [
+        "front"
+      ],
+      "chapters": [
+        "03"
+      ],
+      "bytes": 1904714,
+      "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac",
+      "width": 1086,
+      "height": 1448,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/03/programmer-front-desk-b-v05.png",
+      "ids": [
+        "typeB"
+      ],
+      "chapters": [
+        "03"
+      ],
+      "bytes": 1904173,
+      "sha256": "f51b573712a25eaaa9cf51336e9945bfbff36ecf7e19dfb68421e4772402f480",
+      "width": 1086,
+      "height": 1448,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/03/programmer-front-read-v05.png",
+      "ids": [
+        "read"
+      ],
+      "chapters": [
+        "03"
+      ],
+      "bytes": 1908158,
+      "sha256": "c64f14f432430a1a01b5de70a56f7c42e0d11d349b60d97a34304b4c0ae5fdab",
+      "width": 1086,
+      "height": 1448,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/03/programmer-front-look-v05.png",
+      "ids": [
+        "look"
+      ],
+      "chapters": [
+        "03"
+      ],
+      "bytes": 1915981,
+      "sha256": "f01bd7b141545ef5200721f1a7235c7b3ca47925f78ffd9d993660633dc6fff0",
+      "width": 1086,
+      "height": 1448,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/03/programmer-front-glance-v05.png",
+      "ids": [
+        "gaze"
+      ],
+      "chapters": [
+        "03"
+      ],
+      "bytes": 1923768,
+      "sha256": "6e1e16e67030837450616947f626583b02741a299eaee68183e5bcfa3245e46a",
+      "width": 1086,
+      "height": 1448,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/03/neighbor-work-a-v05.png",
+      "ids": [
+        "neighbors"
+      ],
+      "chapters": [
+        "03"
+      ],
+      "bytes": 1951306,
+      "sha256": "8a6fa3f0e97925dacfa825ea2a8545928e41d6d4899c55ff0dd1662f3da80a0c",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/03/neighbor-work-b-v05.png",
+      "ids": [
+        "neighborsB"
+      ],
+      "chapters": [
+        "03"
+      ],
+      "bytes": 1872869,
+      "sha256": "3532019deb04853dc9f64a1e1463ca8bc4be803b55ed87723c74d073bb49b9e6",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/characters/portraits/03/manager-neutral-v04.png",
+      "ids": [
+        "manager"
+      ],
+      "chapters": [
+        "03",
+        "04"
+      ],
+      "bytes": 1626674,
+      "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/characters/portraits/03/coworker-a-v04.png",
+      "ids": [
+        "coworkerA"
+      ],
+      "chapters": [
+        "03",
+        "04"
+      ],
+      "bytes": 449474,
+      "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5",
+      "width": 512,
+      "height": 512,
+      "alpha": false,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/characters/portraits/03/coworker-b-v04.png",
+      "ids": [
+        "coworkerB"
+      ],
+      "chapters": [
+        "03",
+        "04"
+      ],
+      "bytes": 513362,
+      "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5",
+      "width": 512,
+      "height": 512,
+      "alpha": false,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/characters/portraits/03/programmer-front-v04.png",
+      "ids": [
+        "portrait"
+      ],
+      "chapters": [
+        "03",
+        "04"
+      ],
+      "bytes": 516674,
+      "sha256": "ff8cef460bf150f730b2cc651b84e58ed9f92d3e09b74866be7724e919ff8d9d",
+      "width": 512,
+      "height": 512,
+      "alpha": false,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+      "ids": [
+        "office"
+      ],
+      "chapters": [
+        "03",
+        "04"
+      ],
+      "bytes": 1726481,
+      "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
     }
   ],
   "note": "Original paths retained; shared references deduplicated by path. Composite stages are not new drawings."

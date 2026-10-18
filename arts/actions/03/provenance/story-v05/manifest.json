@@ -1,0 +1,407 @@
+{
+  "config": {
+    "version": "S03_STORY v0.5",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 39,
+    "frames": 1170,
+    "audio": false
+  },
+  "beats": [
+    {
+      "id": "S03-01",
+      "start": 0,
+      "end": 4.4,
+      "type": "L",
+      "name": "薪水与雇佣关系"
+    },
+    {
+      "id": "S03-02",
+      "start": 4.4,
+      "end": 9.1,
+      "type": "L",
+      "name": "约定时间内的劳动力使用"
+    },
+    {
+      "id": "S03-03",
+      "start": 9.1,
+      "end": 11.1,
+      "type": "E",
+      "name": "查看已完成清单"
+    },
+    {
+      "id": "S03-04",
+      "start": 11.1,
+      "end": 13,
+      "type": "E",
+      "name": "14:00发送完成消息"
+    },
+    {
+      "id": "S03-05",
+      "start": 13,
+      "end": 17.6,
+      "type": "E",
+      "name": "14:01追加会议报告"
+    },
+    {
+      "id": "S03-06",
+      "start": 17.6,
+      "end": 20,
+      "type": "E",
+      "name": "读消息时间并侧看"
+    },
+    {
+      "id": "S03-07",
+      "start": 20,
+      "end": 23,
+      "type": "E",
+      "name": "邻桌仍在工作"
+    },
+    {
+      "id": "S03-08",
+      "start": 23,
+      "end": 25.7,
+      "type": "E",
+      "name": "看回屏幕并继续"
+    },
+    {
+      "id": "S03-09",
+      "start": 25.7,
+      "end": 30.5,
+      "type": "E",
+      "name": "整理会议报告"
+    },
+    {
+      "id": "S03-10",
+      "start": 30.5,
+      "end": 34.7,
+      "type": "L",
+      "name": "企业安排与雇员"
+    },
+    {
+      "id": "S03-11",
+      "start": 34.7,
+      "end": 39,
+      "type": "L",
+      "name": "执行更快与时间决定权"
+    }
+  ],
+  "captions": [
+    {
+      "text": "在以工时组织的雇佣劳动中，",
+      "startMs": 0,
+      "endMs": 4400,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "劳动者让渡的是一定期限内的劳动力使用权。",
+      "startMs": 4400,
+      "endMs": 9100,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "清单提前清空，约定工时不会因此自动结束。",
+      "startMs": 9100,
+      "endMs": 13000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "企业仍能在约定时段分配其他任务。",
+      "startMs": 13000,
+      "endMs": 17600,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "工作能否真正结束，还受响应要求、",
+      "startMs": 17600,
+      "endMs": 21500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "任务标准和工时界限的约束。",
+      "startMs": 21500,
+      "endMs": 25700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "技术缩短了执行过程，",
+      "startMs": 25700,
+      "endMs": 30500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "劳动者对劳动时间的决定权",
+      "startMs": 30500,
+      "endMs": 34700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "未必同步扩大。",
+      "startMs": 34700,
+      "endMs": 39000,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "frame": 0,
+      "path": "arts/actions/03/provenance/story-v05/frame-0000.png",
+      "sha256": "d258af67e6147eccad5e8715a423f8a803f90a40c47d0544f5419c171dfd1688"
+    },
+    {
+      "time": 1.6,
+      "frame": 48,
+      "path": "arts/actions/03/provenance/story-v05/frame-0048.png",
+      "sha256": "272bae8f7f78f9fdccb1d5c49bce381c69bc62cc3565aa346c6b5fbabcf1a7d5"
+    },
+    {
+      "time": 4.433333333333334,
+      "frame": 133,
+      "path": "arts/actions/03/provenance/story-v05/frame-0133.png",
+      "sha256": "871b90ead4d484819f497111ba4a4e172da0ba3f5afb3714c242f37856160d6c"
+    },
+    {
+      "time": 8.6,
+      "frame": 258,
+      "path": "arts/actions/03/provenance/story-v05/frame-0258.png",
+      "sha256": "6f7bf45f4ef95b1e261f8314620a31bdba7aae72a6dec02ff5f8b4b316cbd292"
+    },
+    {
+      "time": 9.6,
+      "frame": 288,
+      "path": "arts/actions/03/provenance/story-v05/frame-0288.png",
+      "sha256": "6e5ecee88ae68fa4a481bc8c4d2b3a10945400846ceace0d9d801edfe6e28aae"
+    },
+    {
+      "time": 10.6,
+      "frame": 318,
+      "path": "arts/actions/03/provenance/story-v05/frame-0318.png",
+      "sha256": "409ce1fbde8e806ddbbbbac3e0a78a4477dfe6edfb024307a6f4a10db8273c47"
+    },
+    {
+      "time": 11.3,
+      "frame": 339,
+      "path": "arts/actions/03/provenance/story-v05/frame-0339.png",
+      "sha256": "7f6811b36838e7c56ed4741beec5addc0091bef9a7f2a7dcc2c83362a70ff3e0"
+    },
+    {
+      "time": 11.9,
+      "frame": 357,
+      "path": "arts/actions/03/provenance/story-v05/frame-0357.png",
+      "sha256": "18ea9fc445b9b5f5be01492b1fe3bec00b8b8b156ffbae87d3cb6f075f499fd3"
+    },
+    {
+      "time": 13.2,
+      "frame": 396,
+      "path": "arts/actions/03/provenance/story-v05/frame-0396.png",
+      "sha256": "1095eff38ab18f249d18cc25ff8a869bb9b58db891f4ce6bb4de79b4d2162798"
+    },
+    {
+      "time": 13.8,
+      "frame": 414,
+      "path": "arts/actions/03/provenance/story-v05/frame-0414.png",
+      "sha256": "27924cf9cfeda82f83f549fa57eed36e68e161d6267b85a33fc178acd965d397"
+    },
+    {
+      "time": 17.9,
+      "frame": 537,
+      "path": "arts/actions/03/provenance/story-v05/frame-0537.png",
+      "sha256": "15f1aee70bcef5628cfc9beb7518ca708f036dc4da19dee1aeb8ad6438c76b51"
+    },
+    {
+      "time": 19.3,
+      "frame": 579,
+      "path": "arts/actions/03/provenance/story-v05/frame-0579.png",
+      "sha256": "7f471a875fdd38af253f222e23421e415cada4aee9428a66db29a0ccf698624d"
+    },
+    {
+      "time": 19.8,
+      "frame": 594,
+      "path": "arts/actions/03/provenance/story-v05/frame-0594.png",
+      "sha256": "3ee843525eca529ac448b0ea8a72c7758fcbabbb87fea972e442fa8f2a758cf8"
+    },
+    {
+      "time": 20.6,
+      "frame": 618,
+      "path": "arts/actions/03/provenance/story-v05/frame-0618.png",
+      "sha256": "742cf4bd216b473b7463c2ddac574cacc4f27193906d1ed9835be18df3c2e730"
+    },
+    {
+      "time": 22.4,
+      "frame": 672,
+      "path": "arts/actions/03/provenance/story-v05/frame-0672.png",
+      "sha256": "776a5b4259f55f8ca2a26d018511d80a7fd8582a5530f29fa2b98762abd8c7c7"
+    },
+    {
+      "time": 23.2,
+      "frame": 696,
+      "path": "arts/actions/03/provenance/story-v05/frame-0696.png",
+      "sha256": "0b56a198897e50eaaaec552f94e398b243e28c90e1b89053b544f8f5d7d994ca"
+    },
+    {
+      "time": 24.3,
+      "frame": 729,
+      "path": "arts/actions/03/provenance/story-v05/frame-0729.png",
+      "sha256": "a9990bfca94a7e8a69128b986897cb84104329e2b28989ca2dd500ae67620aae"
+    },
+    {
+      "time": 26.8,
+      "frame": 804,
+      "path": "arts/actions/03/provenance/story-v05/frame-0804.png",
+      "sha256": "f53e01b8e3d26c1f0faef4c7995094cdc25b81862b0e519686684b66665edd8d"
+    },
+    {
+      "time": 28.8,
+      "frame": 864,
+      "path": "arts/actions/03/provenance/story-v05/frame-0864.png",
+      "sha256": "7b10fef2b2d332be8c641659c50f7a6f90ce58d7c7004c39774bead220c0b62d"
+    },
+    {
+      "time": 30.4,
+      "frame": 912,
+      "path": "arts/actions/03/provenance/story-v05/frame-0912.png",
+      "sha256": "713c42caa61e9e34f9930d98a54d4a03e2e347bd8084cf9e25ff66c5f1758e4e"
+    },
+    {
+      "time": 30.8,
+      "frame": 924,
+      "path": "arts/actions/03/provenance/story-v05/frame-0924.png",
+      "sha256": "04b14fce595a68756060628d7fdc636b585648fb9e73d94d4c5229cb25f0d73c"
+    },
+    {
+      "time": 32.4,
+      "frame": 972,
+      "path": "arts/actions/03/provenance/story-v05/frame-0972.png",
+      "sha256": "1dc88f48ef6e0caddb85a6024998c3e8887571f9be8014cd8f0a643c0c305cd3"
+    },
+    {
+      "time": 33.8,
+      "frame": 1014,
+      "path": "arts/actions/03/provenance/story-v05/frame-1014.png",
+      "sha256": "99d7b653099f0961e8b34a535a1132485dd340005f5517af1d80a690ee6d76e6"
+    },
+    {
+      "time": 35.7,
+      "frame": 1071,
+      "path": "arts/actions/03/provenance/story-v05/frame-1071.png",
+      "sha256": "be49568eb832154d353afee6a314ee853e8ff7f00af516ed85cd2b183bc0df8f"
+    },
+    {
+      "time": 38.96666666666667,
+      "frame": 1169,
+      "path": "arts/actions/03/provenance/story-v05/frame-1169.png",
+      "sha256": "be49568eb832154d353afee6a314ee853e8ff7f00af516ed85cd2b183bc0df8f"
+    }
+  ],
+  "assets": [
+    {
+      "id": "front",
+      "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+      "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac"
+    },
+    {
+      "id": "typeB",
+      "path": "arts/backgrounds/03/programmer-front-desk-b-v05.png",
+      "sha256": "f51b573712a25eaaa9cf51336e9945bfbff36ecf7e19dfb68421e4772402f480"
+    },
+    {
+      "id": "read",
+      "path": "arts/backgrounds/03/programmer-front-read-v05.png",
+      "sha256": "c64f14f432430a1a01b5de70a56f7c42e0d11d349b60d97a34304b4c0ae5fdab"
+    },
+    {
+      "id": "look",
+      "path": "arts/backgrounds/03/programmer-front-look-v05.png",
+      "sha256": "f01bd7b141545ef5200721f1a7235c7b3ca47925f78ffd9d993660633dc6fff0"
+    },
+    {
+      "id": "gaze",
+      "path": "arts/backgrounds/03/programmer-front-glance-v05.png",
+      "sha256": "6e1e16e67030837450616947f626583b02741a299eaee68183e5bcfa3245e46a"
+    },
+    {
+      "id": "neighbors",
+      "path": "arts/backgrounds/03/neighbor-work-a-v05.png",
+      "sha256": "8a6fa3f0e97925dacfa825ea2a8545928e41d6d4899c55ff0dd1662f3da80a0c"
+    },
+    {
+      "id": "neighborsB",
+      "path": "arts/backgrounds/03/neighbor-work-b-v05.png",
+      "sha256": "3532019deb04853dc9f64a1e1463ca8bc4be803b55ed87723c74d073bb49b9e6"
+    },
+    {
+      "id": "manager",
+      "path": "arts/characters/portraits/03/manager-neutral-v04.png",
+      "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370"
+    },
+    {
+      "id": "coworkerA",
+      "path": "arts/characters/portraits/03/coworker-a-v04.png",
+      "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5"
+    },
+    {
+      "id": "coworkerB",
+      "path": "arts/characters/portraits/03/coworker-b-v04.png",
+      "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5"
+    },
+    {
+      "id": "portrait",
+      "path": "arts/characters/portraits/03/programmer-front-v04.png",
+      "sha256": "ff8cef460bf150f730b2cc651b84e58ed9f92d3e09b74866be7724e919ff8d9d"
+    },
+    {
+      "id": "office",
+      "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+      "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11"
+    }
+  ],
+  "sources": [
+    {
+      "path": "scripts/final/shot/03.md",
+      "sha256": "8f2388ec19eb7a6709d35121453a60ad51ef0df49890dcdfd8df7f480b7f2368"
+    },
+    {
+      "path": "arts/actions/03/story-scene-v05.mjs",
+      "sha256": "d5b9bc9be725af408f7dfe9a5f288facc175d7cb9b5b01fe0c78af5a4d4caa6c"
+    },
+    {
+      "path": "arts/actions/03/story-player-v05.mjs",
+      "sha256": "0fe5266bef79a5192fe4f3d309c782819db1da8b3f659e62155be16c4153edcf"
+    },
+    {
+      "path": "arts/actions/03/build-story-v05.mjs",
+      "sha256": "fc1b4fc58b1c110376a6f0ac1822bb68444726d2e7e2175f64eb01bbf25bc3c2"
+    },
+    {
+      "path": "arts/actions/03/story-v05.test.mjs",
+      "sha256": "e23618d6ab0dfa407677f728312a57cb8b0a1f7f0b751a6fd386a91cfb2edd45"
+    },
+    {
+      "path": "arts/actions/04/entry-from-03-v05.mjs",
+      "sha256": "dbc6a24f1355a7f73705ab8313a41ca4a60cd8131b845ca5392fbfc1af4183a2"
+    },
+    {
+      "path": "arts/static/03/story-assets-v04/assets.mjs",
+      "sha256": "266eaacd131acc4fe4add07b7b772c677336b25f4924fcfdef1316ff6774a0e0"
+    },
+    {
+      "path": "arts/static/03/story-assets-v04/screen-copy.json",
+      "sha256": "adc27c252a94b5b43ca8efab1205b5bdd151915c0595ce7a550b020ad68c5c2c"
+    }
+  ],
+  "imageGenerationCalls": 0,
+  "externalModelCalls": 0,
+  "audio": false,
+  "scope": "39-second frame-driven live framework; no full chapter MP4 export"
+}

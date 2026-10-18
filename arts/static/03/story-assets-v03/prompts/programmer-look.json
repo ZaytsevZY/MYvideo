@@ -1,0 +1,9 @@
+{
+  "id": "programmer-look",
+  "dest": "arts/characters/poses/03/programmer-office-look-right-v01.png",
+  "refs": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/programmer-office-type-v01.png"
+  ],
+  "transparent": true,
+  "prompt": "Edit the supplied whole character-and-chair cutout. Preserve exact 1024x1536 canvas, camera, character identity, blue-grey sweatshirt, lanyard, pants, shoes, lighting, chair shape and position, feet and hip anchors. No reframing or resizing. Keep TRUE transparent background with no halo, room, desk, keyboard, mouse, text, watermark or shadow. Fine cel-anime lines identical to original. Change ONLY head/neck direction and resting hands: turn his head to look over his RIGHT shoulder toward neighboring colleagues offscreen right, so the viewer can read a clear side profile, grey eye, slightly tense brow and closed mouth. Keep shoulders, torso, hips and chair fixed in the original seated orientation. Hands stop typing and rest near their original keyboard-height positions. Do not rotate the whole chair or body. The change should be a visible attentive head turn, no exaggerated expression."
+}

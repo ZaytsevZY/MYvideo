@@ -1,0 +1,381 @@
+{
+  "version": "S03_ART v0.4",
+  "provider": "built-in imagegen",
+  "model": "underlying model not exposed",
+  "calls": [
+    {
+      "key": "front",
+      "prompt": "arts/static/03/story-assets-v04/prompts/front.json",
+      "destination": "arts/backgrounds/03/programmer-front-desk-a-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-aad2c3a7-41ac-4414-a550-3168fddc1284.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表",
+      "promptSha256": "f94df67118e5f80ba61db01d462a44b0138818c0208ea8cf3f7f8edec05673c4",
+      "references": [
+        {
+          "path": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+          "sha256": "f3862cc0ea51085524d03d2d9d3a704b756f892533d258a9c05ea598fea00ddf"
+        },
+        {
+          "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+          "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11"
+        }
+      ],
+      "sha256": "d166c6b78f8ce0694db245d75e6d143713e2279b2599328617b84864a76847cd",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "key": "neighbors",
+      "prompt": "arts/static/03/story-assets-v04/prompts/neighbors.json",
+      "destination": "arts/backgrounds/03/neighbor-work-a-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-c6eb5eb7-6e2a-48c3-a7fc-e1b2a72e3ac1.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表",
+      "promptSha256": "c092bdcb6879f5c054da33a56a1c1c039564402d60424a4115e7dc5fdc722a70",
+      "references": [
+        {
+          "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+          "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11"
+        }
+      ],
+      "sha256": "a841efa30af99d7ec3f3f9cd0e419566d2a76682e1f00c05a771744565625229",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "key": "read",
+      "prompt": "arts/static/03/story-assets-v04/prompts/read.json",
+      "destination": "arts/backgrounds/03/programmer-front-read-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-b0c235c9-7208-43dc-ae51-76d5e5c9a156.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表",
+      "promptSha256": "7a624d8d659c4da6d90e741ad86b45c4d69e36694274fb140ea9593769beba94",
+      "references": [
+        {
+          "path": "arts/backgrounds/03/programmer-front-desk-a-v04.png",
+          "sha256": "d166c6b78f8ce0694db245d75e6d143713e2279b2599328617b84864a76847cd"
+        }
+      ],
+      "sha256": "b70c9d2846df49b03a1d47d28f20e19877cc0630698fbb2674ff7eb1db119c3a",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "key": "look",
+      "prompt": "arts/static/03/story-assets-v04/prompts/look.json",
+      "destination": "arts/backgrounds/03/programmer-front-look-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-3b2be959-79bb-49ac-b5dc-c2f918e2a008.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表",
+      "promptSha256": "60a80ec3fc790340fa2ac9a25dd004dd8d579d5a478748f3271368dbd639af60",
+      "references": [
+        {
+          "path": "arts/backgrounds/03/programmer-front-desk-a-v04.png",
+          "sha256": "d166c6b78f8ce0694db245d75e6d143713e2279b2599328617b84864a76847cd"
+        }
+      ],
+      "sha256": "454115a3b62e50adc46e57305f17303b985db0fd53d395acde351422652e57a1",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "key": "typeB",
+      "prompt": "arts/static/03/story-assets-v04/prompts/typeB.json",
+      "destination": "arts/backgrounds/03/programmer-front-desk-b-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-c560127c-edc4-4c6d-8bf0-2f78a35cb624.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表",
+      "promptSha256": "157c486ff1e4545a49574748a71801637272b353b66ce13ef62b770034b097d6",
+      "references": [
+        {
+          "path": "arts/backgrounds/03/programmer-front-desk-a-v04.png",
+          "sha256": "d166c6b78f8ce0694db245d75e6d143713e2279b2599328617b84864a76847cd"
+        }
+      ],
+      "sha256": "26274ffc93a789c93e1fb146e1a7931ecaa184ab3f607b9c0442029edc71cd24",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "key": "neighborsB",
+      "prompt": "arts/static/03/story-assets-v04/prompts/neighborsB.json",
+      "destination": "arts/backgrounds/03/neighbor-work-b-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-22cb07e2-0438-4d83-95a0-b80df8bb9593.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表",
+      "promptSha256": "ff4757f439840d0354228fec6f4bdd22e557a59433b515cc75f677e9201afa78",
+      "references": [
+        {
+          "path": "arts/backgrounds/03/neighbor-work-a-v04.png",
+          "sha256": "a841efa30af99d7ec3f3f9cd0e419566d2a76682e1f00c05a771744565625229"
+        }
+      ],
+      "sha256": "4b8d0001777755366ad555a425e48c40a05e84fcf4d79093e1ad25cfbcf9693d",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "key": "manager",
+      "prompt": "arts/static/03/story-assets-v04/prompts/manager.json",
+      "destination": "arts/characters/portraits/03/manager-neutral-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-3944d0d5-1a8e-4428-abc5-dc4a718b0ce1.png",
+      "adopted": true,
+      "reason": null,
+      "promptSha256": "aded4a8755ea3eb8021be08a2236936872bb034060a95447c6e3c34bd79ba1c4",
+      "references": [
+        {
+          "path": "arts/characters/manager-model-sheet-v01.png",
+          "sha256": "13c0d3a291c355a01e2bfda55194c3e9626e5a31abbbf12ae26dc2076108c693"
+        }
+      ],
+      "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "key": "mid",
+      "prompt": "arts/static/03/story-assets-v04/prompts/mid.json",
+      "destination": "arts/static/03/story-assets-v04/provenance/turn-mid-not-adopted.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-daa0fefa-53f2-40eb-85c0-3be2a4242ecf.png",
+      "adopted": false,
+      "reason": "转头幅度太接近终态，未作为中间态采用",
+      "promptSha256": "bc7784e2dc4601635bf5b4abdd443d4a5942dc86a302b8e47a24f5a45e0d9552",
+      "references": [
+        {
+          "path": "arts/backgrounds/03/programmer-front-desk-a-v04.png",
+          "sha256": "d166c6b78f8ce0694db245d75e6d143713e2279b2599328617b84864a76847cd"
+        },
+        {
+          "path": "arts/backgrounds/03/programmer-front-look-v04.png",
+          "sha256": "454115a3b62e50adc46e57305f17303b985db0fd53d395acde351422652e57a1"
+        }
+      ],
+      "sha256": "4c22ec9457a54124a1fabcf55d4411f74fc0f9dd123c78cf247c37a2bc767a7d",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "key": "gaze",
+      "prompt": "arts/static/03/story-assets-v04/prompts/gaze.json",
+      "destination": "arts/backgrounds/03/programmer-front-glance-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-554cde47-4598-42a5-aa57-9298d1fb322c.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表",
+      "promptSha256": "5bff6be1deb1d3ca7ec3cafda1cd47ad8d938cd9fffddbc6d2fb876b9ccbc222",
+      "references": [
+        {
+          "path": "arts/backgrounds/03/programmer-front-desk-a-v04.png",
+          "sha256": "d166c6b78f8ce0694db245d75e6d143713e2279b2599328617b84864a76847cd"
+        }
+      ],
+      "sha256": "d440a08c4ffc76bda6ee8c4d60e123547c4890d3228642bb971643e1fec5d9b2",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "key": "frontFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/frontFixed.json",
+      "destination": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-02ef7930-d87a-4008-8e86-4463f7f4b686.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态",
+      "promptSha256": "37c529c36d4af4805e4bd5fa0c0bc21e93bbd751685af63661ae93f0ddea5a97",
+      "references": [
+        {
+          "path": "arts/backgrounds/03/programmer-front-desk-a-v04.png",
+          "sha256": "d166c6b78f8ce0694db245d75e6d143713e2279b2599328617b84864a76847cd"
+        }
+      ],
+      "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "key": "neighborsFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/neighborsFixed.json",
+      "destination": "arts/backgrounds/03/neighbor-work-a-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-4b1d12cb-93e9-4085-80da-7ed25ea59579.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态",
+      "promptSha256": "10b563a14276cb7e0048dd95a8507633d5def017d0ba1ece780ba7bf58983952",
+      "references": [
+        {
+          "path": "arts/backgrounds/03/neighbor-work-a-v04.png",
+          "sha256": "a841efa30af99d7ec3f3f9cd0e419566d2a76682e1f00c05a771744565625229"
+        }
+      ],
+      "sha256": "8a6fa3f0e97925dacfa825ea2a8545928e41d6d4899c55ff0dd1662f3da80a0c",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "key": "readFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/readFixed.json",
+      "destination": "arts/backgrounds/03/programmer-front-read-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-ce1a9112-b7a2-4b55-a1ce-be73a4c27668.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态",
+      "promptSha256": "3461d16fa0b2abc2f7a2a800e4e465df2f1b0c1af5714425a90c13d73ce485c6",
+      "references": [
+        {
+          "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+          "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac"
+        }
+      ],
+      "sha256": "c64f14f432430a1a01b5de70a56f7c42e0d11d349b60d97a34304b4c0ae5fdab",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "key": "lookFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/lookFixed.json",
+      "destination": "arts/backgrounds/03/programmer-front-look-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-beba59bb-e73a-4609-ab8d-a81951f1ed37.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态",
+      "promptSha256": "553cfa54bfa043d5e80a8ff224e16aa1a43f18e93273b3334ca2a67eb95ba322",
+      "references": [
+        {
+          "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+          "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac"
+        }
+      ],
+      "sha256": "f01bd7b141545ef5200721f1a7235c7b3ca47925f78ffd9d993660633dc6fff0",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "key": "gazeFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/gazeFixed.json",
+      "destination": "arts/backgrounds/03/programmer-front-glance-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-a47bedf7-9a26-4171-8cec-74cb726a8ef7.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态",
+      "promptSha256": "8ff74e4e0016b79c064a9c6832572afe55a1f0e28978243780fb67c0db01230e",
+      "references": [
+        {
+          "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+          "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac"
+        }
+      ],
+      "sha256": "6e1e16e67030837450616947f626583b02741a299eaee68183e5bcfa3245e46a",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "key": "typeBFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/typeBFixed.json",
+      "destination": "arts/backgrounds/03/programmer-front-desk-b-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-ecf53d2b-ee6b-4a5d-91b9-776683a8eced.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态",
+      "promptSha256": "70f7d9afd6027816391708aaa541e283c3fbcc6cf4b9e6c7163e532db5dc539e",
+      "references": [
+        {
+          "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+          "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac"
+        }
+      ],
+      "sha256": "f51b573712a25eaaa9cf51336e9945bfbff36ecf7e19dfb68421e4772402f480",
+      "dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "key": "neighborsBFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/neighborsBFixed.json",
+      "destination": "arts/backgrounds/03/neighbor-work-b-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-97bb28d0-c0d1-42d5-b700-fc40fe17bc98.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态",
+      "promptSha256": "dc02c587e7d2b64149380ad71695a403fd9f55765b7c5e33335688de3b6098e4",
+      "references": [
+        {
+          "path": "arts/backgrounds/03/neighbor-work-a-v05.png",
+          "sha256": "8a6fa3f0e97925dacfa825ea2a8545928e41d6d4899c55ff0dd1662f3da80a0c"
+        }
+      ],
+      "sha256": "3532019deb04853dc9f64a1e1463ca8bc4be803b55ed87723c74d073bb49b9e6",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "adoptedCount": 8,
+  "rejectedCount": 8,
+  "derivedPortraits": [
+    {
+      "path": "arts/characters/portraits/03/programmer-front-v04.png",
+      "source": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+      "crop": [
+        235,
+        35,
+        620,
+        620
+      ],
+      "output": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "arts/characters/portraits/03/coworker-a-v04.png",
+      "source": "arts/backgrounds/03/neighbor-work-a-v05.png",
+      "crop": [
+        318,
+        116,
+        300,
+        300
+      ],
+      "output": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "arts/characters/portraits/03/coworker-b-v04.png",
+      "source": "arts/backgrounds/03/neighbor-work-a-v05.png",
+      "crop": [
+        1085,
+        208,
+        320,
+        320
+      ],
+      "output": [
+        512,
+        512
+      ]
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "version": "S03_STORY v0.5",
+  "chapterFrames": 1170,
+  "stateSamples": 1171,
+  "globalFramesChecked": 8400,
+  "unchangedInputs": 21,
+  "scriptAndCaptionBytesUnchanged": true,
+  "originalChapterSceneModulesUnchanged": true,
+  "sources": [
+    {
+      "frame": 2489,
+      "path": "arts/actions/film/provenance/integration-v03/frame-2489.png",
+      "sha256": "24b40bc93db3685a8d3fafb88117899b95434039ecc8d57667e83df4865cb752"
+    },
+    {
+      "frame": 2490,
+      "path": "arts/actions/film/provenance/integration-v03/frame-2490.png",
+      "sha256": "85e907bcf152b54a8bd1752bc8bbd2a77c30127e3aeb4062fb756d7a99ab798c"
+    },
+    {
+      "frame": 3659,
+      "path": "arts/actions/film/provenance/integration-v03/frame-3659.png",
+      "sha256": "8b18488f19024dec9ec0e422802328c0e86d9da40875de38eafb1886036fcc5f"
+    },
+    {
+      "frame": 3660,
+      "path": "arts/actions/film/provenance/integration-v03/frame-3660.png",
+      "sha256": "4ebb8ea42e68c6e502180dcd947ac5267ee67838f558b528f4d58d936d0c0896"
+    },
+    {
+      "frame": 3672,
+      "path": "arts/actions/film/provenance/integration-v03/frame-3672.png",
+      "sha256": "4ebb8ea42e68c6e502180dcd947ac5267ee67838f558b528f4d58d936d0c0896"
+    },
+    {
+      "frame": 3690,
+      "path": "arts/actions/film/provenance/integration-v03/frame-3690.png",
+      "sha256": "a726321bd2e851697bd5b329c6b53acf534586510c958c8882d20b47ae56c7c9"
+    },
+    {
+      "frame": 3708,
+      "path": "arts/actions/film/provenance/integration-v03/frame-3708.png",
+      "sha256": "c61b2ffc770d4b9464b8731cfcbb4b61de3812428db027f6817cae1f3a14d94a"
+    },
+    {
+      "frame": 3719,
+      "path": "arts/actions/film/provenance/integration-v03/frame-3719.png",
+      "sha256": "0d648dd262abcbba657880fcc9449f7f45641782c9129555106d8bba97772e19"
+    }
+  ],
+  "seams": [
+    {
+      "name": "02-to-03",
+      "path": "arts/actions/film/provenance/integration-v03/02-to-03-source-v03.mp4",
+      "frames": 120,
+      "duration": 4,
+      "fps": 30,
+      "size": [
+        960,
+        540
+      ],
+      "audio": false,
+      "source": "current framework render; not historical MP4 concatenation",
+      "decodePassed": true,
+      "sha256": "16787f3658103db51009efe1b0069912414ab8b90781311a49139f9bdc3960e8",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-f",
+        "rawvideo",
+        "-pixel_format",
+        "rgb24",
+        "-video_size",
+        "960x540",
+        "-framerate",
+        "30",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "veryfast",
+        "-crf",
+        "20",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/alan671/Documents/MYvideo/arts/actions/film/provenance/integration-v03/02-to-03-source-v03.mp4"
+      ]
+    },
+    {
+      "name": "03-to-04",
+      "path": "arts/actions/film/provenance/integration-v03/03-to-04-source-v03.mp4",
+      "frames": 120,
+      "duration": 4,
+      "fps": 30,
+      "size": [
+        960,
+        540
+      ],
+      "audio": false,
+      "source": "current framework render; not historical MP4 concatenation",
+      "decodePassed": true,
+      "sha256": "f9641375931bac3d271a9e16ad304d9afed27507c4c03813443daeec2927884c",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-f",
+        "rawvideo",
+        "-pixel_format",
+        "rgb24",
+        "-video_size",
+        "960x540",
+        "-framerate",
+        "30",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "veryfast",
+        "-crf",
+        "20",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/alan671/Documents/MYvideo/arts/actions/film/provenance/integration-v03/03-to-04-source-v03.mp4"
+      ]
+    }
+  ],
+  "imageGenerationCalls": 0,
+  "externalModelCalls": 0,
+  "audio": false,
+  "fullChapterMp4Exported": false,
+  "visualReview": "Representative raster frames, decoded seam frames and both browser seam previews checked; finite whole-frame poses; not user art freeze",
+  "boundaryFrom02": {
+    "out": {
+      "t": 37.96666666666667,
+      "beat": "S02-E4",
+      "layer": {
+        "t": 24.96666666666667,
+        "enter": 1,
+        "bubble": 0,
+        "expand": 1,
+        "pulse": 0,
+        "eatPose": "eatScoop",
+        "personPose": "input",
+        "agentPose": "agent",
+        "work": 0.9666666666666686,
+        "meal": 0.9666666666666686,
+        "pose": "choose",
+        "rightFront": true,
+        "chart": 1
+      },
+      "caption": {
+        "text": "总劳动投入仍取决于任务规模。",
+        "startMs": 30900,
+        "endMs": 38000,
+        "timestampMs": null,
+        "confidence": null
+      },
+      "tasks": {
+        "T00": "accepted",
+        "T01": "accepted",
+        "T01-R": "merged",
+        "test": "scheduled",
+        "interface": "scheduled",
+        "feature": "scheduled",
+        "docs": "scheduled",
+        "perf": "scheduled",
+        "compat": "scheduled",
+        "migrate": "scheduled",
+        "feedback": "candidate",
+        "N02-A": "candidate",
+        "N02-B": "candidate"
+      },
+      "choice": "expand-output",
+      "alternatives": "mutually-exclusive",
+      "savingToken": {
+        "id": "saving-02",
+        "owner": "allocated-to-B"
+      },
+      "hypothetical": {
+        "distinctFromInheritedTasks": true,
+        "extraTasks": [
+          {
+            "id": "H02-new1",
+            "status": "reviewing"
+          },
+          {
+            "id": "H02-new2",
+            "status": "queued"
+          }
+        ]
+      },
+      "reviewPose": "reviewNext",
+      "currentReview": "H02-new1",
+      "unitWidth": 110,
+      "humanAccepted": [],
+      "source": "S02_STORY_LOGIC v0.4"
+    },
+    "incoming": {
+      "t": 0,
+      "beatId": "S03-01",
+      "type": "L",
+      "phase": "employment-exchange",
+      "pose": "front",
+      "chatCount": 4,
+      "completionSent": false,
+      "assignmentArrived": false,
+      "assignmentRead": false,
+      "neighborPose": "neighbors",
+      "reportProgress": 0,
+      "taskStates": {
+        "S03-A": "submitted",
+        "S03-B": "submitted",
+        "S03-C": "not-introduced"
+      },
+      "humanOperation": "none",
+      "workdayEnded": false,
+      "deadline": "17:00",
+      "completionTime": "14:00",
+      "assignmentTime": "14:01",
+      "taskSet": "distinct-S03-scenario",
+      "audio": false
+    },
+    "mode": "distinct employment explanation; H02 tasks not cleared"
+  },
+  "boundaryTo04": {
+    "out": {
+      "t": 38.96666666666667,
+      "beatId": "S03-11",
+      "type": "L",
+      "phase": "organization-tree",
+      "pose": "front",
+      "chatCount": 6,
+      "completionSent": true,
+      "assignmentArrived": true,
+      "assignmentRead": true,
+      "neighborPose": "neighbors",
+      "reportProgress": 1,
+      "taskStates": {
+        "S03-A": "completed",
+        "S03-B": "completed",
+        "S03-C": "in-progress"
+      },
+      "humanOperation": "none",
+      "workdayEnded": false,
+      "deadline": "17:00",
+      "completionTime": "14:00",
+      "assignmentTime": "14:01",
+      "taskSet": "distinct-S03-scenario",
+      "audio": false
+    },
+    "incoming": {
+      "t": 0,
+      "phase": "handoff",
+      "evidenceType": "single-company-qualitative-study",
+      "active": false,
+      "humanOperation": "none",
+      "companyAAdopted": false,
+      "companyBAdopted": false,
+      "taskId": null,
+      "extraTaskState": null,
+      "decisionOrigin": "human-or-organization",
+      "inheritedTasks": {},
+      "audio": false,
+      "previousScenarioTasks": {
+        "S03-A": "completed",
+        "S03-B": "completed",
+        "S03-C": "in-progress"
+      },
+      "scenarioRelation": "distinct-research-scenario",
+      "entryVersion": "S03_STORY v0.5 → S04 v0.2"
+    },
+    "mode": "exact terminal graphic held in04 entry, then distinct research scene; no S03-C/S03-D substitution"
+  },
+  "finalSeamRasterMatches": 8,
+  "testSuitesPassed": 10,
+  "sourcesFinal": [
+    {
+      "path": "scripts/final/shot/03.md",
+      "sha256": "8f2388ec19eb7a6709d35121453a60ad51ef0df49890dcdfd8df7f480b7f2368"
+    },
+    {
+      "path": "arts/actions/03/story-scene-v05.mjs",
+      "sha256": "d5b9bc9be725af408f7dfe9a5f288facc175d7cb9b5b01fe0c78af5a4d4caa6c"
+    },
+    {
+      "path": "arts/actions/03/story-player-v05.mjs",
+      "sha256": "0fe5266bef79a5192fe4f3d309c782819db1da8b3f659e62155be16c4153edcf"
+    },
+    {
+      "path": "arts/actions/03/build-story-v05.mjs",
+      "sha256": "fc1b4fc58b1c110376a6f0ac1822bb68444726d2e7e2175f64eb01bbf25bc3c2"
+    },
+    {
+      "path": "arts/actions/03/story-v05.test.mjs",
+      "sha256": "e23618d6ab0dfa407677f728312a57cb8b0a1f7f0b751a6fd386a91cfb2edd45"
+    },
+    {
+      "path": "arts/actions/04/entry-from-03-v05.mjs",
+      "sha256": "dbc6a24f1355a7f73705ab8313a41ca4a60cd8131b845ca5392fbfc1af4183a2"
+    },
+    {
+      "path": "arts/static/03/story-assets-v04/assets.mjs",
+      "sha256": "266eaacd131acc4fe4add07b7b772c677336b25f4924fcfdef1316ff6774a0e0"
+    },
+    {
+      "path": "arts/static/03/story-assets-v04/screen-copy.json",
+      "sha256": "adc27c252a94b5b43ca8efab1205b5bdd151915c0595ce7a550b020ad68c5c2c"
+    }
+  ],
+  "rasterAssetCopies": [
+    {
+      "id": "front",
+      "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+      "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac"
+    },
+    {
+      "id": "typeB",
+      "path": "arts/backgrounds/03/programmer-front-desk-b-v05.png",
+      "sha256": "f51b573712a25eaaa9cf51336e9945bfbff36ecf7e19dfb68421e4772402f480"
+    },
+    {
+      "id": "read",
+      "path": "arts/backgrounds/03/programmer-front-read-v05.png",
+      "sha256": "c64f14f432430a1a01b5de70a56f7c42e0d11d349b60d97a34304b4c0ae5fdab"
+    },
+    {
+      "id": "look",
+      "path": "arts/backgrounds/03/programmer-front-look-v05.png",
+      "sha256": "f01bd7b141545ef5200721f1a7235c7b3ca47925f78ffd9d993660633dc6fff0"
+    },
+    {
+      "id": "gaze",
+      "path": "arts/backgrounds/03/programmer-front-glance-v05.png",
+      "sha256": "6e1e16e67030837450616947f626583b02741a299eaee68183e5bcfa3245e46a"
+    },
+    {
+      "id": "neighbors",
+      "path": "arts/backgrounds/03/neighbor-work-a-v05.png",
+      "sha256": "8a6fa3f0e97925dacfa825ea2a8545928e41d6d4899c55ff0dd1662f3da80a0c"
+    },
+    {
+      "id": "neighborsB",
+      "path": "arts/backgrounds/03/neighbor-work-b-v05.png",
+      "sha256": "3532019deb04853dc9f64a1e1463ca8bc4be803b55ed87723c74d073bb49b9e6"
+    },
+    {
+      "id": "manager",
+      "path": "arts/characters/portraits/03/manager-neutral-v04.png",
+      "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370"
+    },
+    {
+      "id": "coworkerA",
+      "path": "arts/characters/portraits/03/coworker-a-v04.png",
+      "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5"
+    },
+    {
+      "id": "coworkerB",
+      "path": "arts/characters/portraits/03/coworker-b-v04.png",
+      "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5"
+    },
+    {
+      "id": "portrait",
+      "path": "arts/characters/portraits/03/programmer-front-v04.png",
+      "sha256": "ff8cef460bf150f730b2cc651b84e58ed9f92d3e09b74866be7724e919ff8d9d"
+    },
+    {
+      "id": "office",
+      "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+      "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11"
+    }
+  ],
+  "browser": {
+    "chapter": "browser-chapter.png",
+    "film": "browser-film.png",
+    "checks": [
+      "97 film assets loaded",
+      "11 authored shot jumps",
+      "original subtitle visible",
+      "report draft and pending state",
+      "continuous film playback",
+      "02→03 and03→04 seam controls auto-stop at incoming2s"
+    ],
+    "userArtFrozen": false
+  }
+}

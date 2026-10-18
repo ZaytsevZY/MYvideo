@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1",
+  "status": "implemented-and-checked",
+  "verified": true,
+  "fps": 30,
+  "size": [
+    1920,
+    1080
+  ],
+  "overlapFrames": 0,
+  "audioPresent": false,
+  "fromChapter": "02",
+  "toChapter": "03",
+  "globalCutFrame": 2490,
+  "fromFrameCount": 1140,
+  "toFrameCount": 1170,
+  "source": "S03_STORY v0.5 / FILM_PREVIEW v0.3",
+  "outgoing": {
+    "t": 37.96666666666667,
+    "beat": "S02-E4",
+    "layer": {
+      "t": 24.96666666666667,
+      "enter": 1,
+      "bubble": 0,
+      "expand": 1,
+      "pulse": 0,
+      "eatPose": "eatScoop",
+      "personPose": "input",
+      "agentPose": "agent",
+      "work": 0.9666666666666686,
+      "meal": 0.9666666666666686,
+      "pose": "choose",
+      "rightFront": true,
+      "chart": 1
+    },
+    "caption": {
+      "text": "总劳动投入仍取决于任务规模。",
+      "startMs": 30900,
+      "endMs": 38000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    "tasks": {
+      "T00": "accepted",
+      "T01": "accepted",
+      "T01-R": "merged",
+      "test": "scheduled",
+      "interface": "scheduled",
+      "feature": "scheduled",
+      "docs": "scheduled",
+      "perf": "scheduled",
+      "compat": "scheduled",
+      "migrate": "scheduled",
+      "feedback": "candidate",
+      "N02-A": "candidate",
+      "N02-B": "candidate"
+    },
+    "choice": "expand-output",
+    "alternatives": "mutually-exclusive",
+    "savingToken": {
+      "id": "saving-02",
+      "owner": "allocated-to-B"
+    },
+    "hypothetical": {
+      "distinctFromInheritedTasks": true,
+      "extraTasks": [
+        {
+          "id": "H02-new1",
+          "status": "reviewing"
+        },
+        {
+          "id": "H02-new2",
+          "status": "queued"
+        }
+      ]
+    },
+    "reviewPose": "reviewNext",
+    "currentReview": "H02-new1",
+    "unitWidth": 110,
+    "humanAccepted": [],
+    "source": "S02_STORY_LOGIC v0.4"
+  },
+  "incoming": {
+    "t": 0,
+    "beatId": "S03-01",
+    "type": "L",
+    "phase": "employment-exchange",
+    "pose": "front",
+    "chatCount": 4,
+    "completionSent": false,
+    "assignmentArrived": false,
+    "assignmentRead": false,
+    "neighborPose": "neighbors",
+    "reportProgress": 0,
+    "taskStates": {
+      "S03-A": "submitted",
+      "S03-B": "submitted",
+      "S03-C": "not-introduced"
+    },
+    "humanOperation": "none",
+    "workdayEnded": false,
+    "deadline": "17:00",
+    "completionTime": "14:00",
+    "assignmentTime": "14:01",
+    "taskSet": "distinct-S03-scenario",
+    "audio": false
+  },
+  "method": "distinct employment explanation; H02 tasks not cleared",
+  "seamPreviewPath": "arts/actions/film/provenance/integration-v03/02-to-03-source-v03.mp4",
+  "seamPreviewFrames": 120,
+  "validation": [
+    "current source-frame hashes",
+    "encoded frame inspection",
+    "full decode",
+    "browser seam preview"
+  ],
+  "userArtFrozen": false,
+  "limitations": [
+    "distinct task collections; no claim of task identity across the cut"
+  ]
+}

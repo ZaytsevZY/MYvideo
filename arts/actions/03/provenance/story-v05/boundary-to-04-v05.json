@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1",
+  "status": "implemented-and-checked",
+  "verified": true,
+  "fps": 30,
+  "size": [
+    1920,
+    1080
+  ],
+  "overlapFrames": 0,
+  "audioPresent": false,
+  "fromChapter": "03",
+  "toChapter": "04",
+  "globalCutFrame": 3660,
+  "fromFrameCount": 1170,
+  "toFrameCount": 1650,
+  "source": "S03_STORY v0.5 / FILM_PREVIEW v0.3",
+  "outgoing": {
+    "t": 38.96666666666667,
+    "beatId": "S03-11",
+    "type": "L",
+    "phase": "organization-tree",
+    "pose": "front",
+    "chatCount": 6,
+    "completionSent": true,
+    "assignmentArrived": true,
+    "assignmentRead": true,
+    "neighborPose": "neighbors",
+    "reportProgress": 1,
+    "taskStates": {
+      "S03-A": "completed",
+      "S03-B": "completed",
+      "S03-C": "in-progress"
+    },
+    "humanOperation": "none",
+    "workdayEnded": false,
+    "deadline": "17:00",
+    "completionTime": "14:00",
+    "assignmentTime": "14:01",
+    "taskSet": "distinct-S03-scenario",
+    "audio": false
+  },
+  "incoming": {
+    "t": 0,
+    "phase": "handoff",
+    "evidenceType": "single-company-qualitative-study",
+    "active": false,
+    "humanOperation": "none",
+    "companyAAdopted": false,
+    "companyBAdopted": false,
+    "taskId": null,
+    "extraTaskState": null,
+    "decisionOrigin": "human-or-organization",
+    "inheritedTasks": {},
+    "audio": false,
+    "previousScenarioTasks": {
+      "S03-A": "completed",
+      "S03-B": "completed",
+      "S03-C": "in-progress"
+    },
+    "scenarioRelation": "distinct-research-scenario",
+    "entryVersion": "S03_STORY v0.5 → S04 v0.2"
+  },
+  "method": "exact terminal graphic held in04 entry, then distinct research scene; no S03-C/S03-D substitution",
+  "seamPreviewPath": "arts/actions/film/provenance/integration-v03/03-to-04-source-v03.mp4",
+  "seamPreviewFrames": 120,
+  "validation": [
+    "current source-frame hashes",
+    "encoded frame inspection",
+    "full decode",
+    "browser seam preview"
+  ],
+  "userArtFrozen": false,
+  "limitations": [
+    "04 original study body remains basic version; new parallel story scenes are not implemented"
+  ]
+}

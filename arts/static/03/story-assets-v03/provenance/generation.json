@@ -1,0 +1,262 @@
+{
+  "tool": "image_gen.imagegen",
+  "actualModel": "not exposed by built-in tool",
+  "calls": 11,
+  "adopted": 10,
+  "assets": [
+    {
+      "id": "office-main",
+      "dest": "arts/backgrounds/03/office-main-over-shoulder-v01.png",
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/backgrounds/shared/office-workstations-day-v01.png"
+      ],
+      "transparent": false,
+      "prompt": "Create a NEW camera plate of this same company office for a layered animation. Match the reference polished hand-painted cel-anime style: fine coherent dark outlines, soft cel shading, warm wooden furniture, muted blue-grey/cream palette, gentle afternoon window light, consistent perspective. No writing, letters, logos or watermark. Landscape 16:9. Camera is behind and to the left of an EMPTY near workstation, slightly elevated, looking diagonally toward its monitor on the right. The absent seated person will occupy the left third. Main warm wood desk spans x=35% to 90% of frame at y=65%-76%. The keyboard sits around (49%,66%) and mouse at (58%,67%). A large monitor with a flat blank dark screen occupies roughly x=47%-72%, y=30%-58%, its front screen clearly facing the camera enough to overlay UI. Leave clear space at x=20%-42%, y=28%-88% for an independently composited seated person and chair. No chair at the main workstation. Windows, blue sky, bookshelf left, plants and distant office desks provide space consistent with reference. Right upper quarter has quiet background for a floating message window. No people, no clock numerals, no desk lamp blocking the hands. Single coherent perspective; do not draw duplicate desks.",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-e405029b-2a84-429f-99af-ffeca27ae81c.png",
+      "adopted": true,
+      "reason": "Adopted for current03 art package.",
+      "currentPath": "arts/backgrounds/03/office-main-over-shoulder-v01.png",
+      "outputSha256": "185f17b42f6ab5558fb82f5c9ceaa8d0bb20ab52338660069b908e6d53c83eb2",
+      "references": [
+        {
+          "actualInputPath": "/Users/alan671/Documents/MYvideo/arts/backgrounds/shared/office-workstations-day-v01.png",
+          "retainedPath": "/Users/alan671/Documents/MYvideo/arts/backgrounds/shared/office-workstations-day-v01.png",
+          "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11"
+        }
+      ],
+      "pixelEditing": false
+    },
+    {
+      "id": "programmer-type",
+      "dest": "arts/characters/poses/03/programmer-office-type-v01.png",
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-input-v01.png",
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png"
+      ],
+      "transparent": true,
+      "prompt": "Create a complete character-and-office-chair cutout for a layered cel-anime animation. Preserve the programmer identity in the references: short tousled black hair, grey eyes, blue-grey sweatshirt, dark charcoal pants, white sneakers and teal lanyard/white badge. NEW view from behind and to his LEFT, about 30 degrees off the rear axis, slightly elevated, so a small part of his left cheek is visible. He sits upright in a simple charcoal ergonomic swivel chair, facing diagonally UPPER RIGHT of the image. Both forearms reach forward-right at keyboard height and fingers are poised typing on an IMAGINARY keyboard. Include the whole seated body, hands, chair back, chair wheels and shoes with transparent margins. No keyboard, mouse, desk, computer, background, text, halo or shadow. The chair belongs to this complete cutout so its overlap with his lower back is physically correct. Calm working pose, shoulders stable, natural anatomy. Portrait 1024x1536 composition. Match the reference polished hand-painted cel-anime style: fine coherent dark outlines, soft cel shading, warm wooden furniture, muted blue-grey/cream palette, gentle afternoon window light, consistent perspective. No writing, letters, logos or watermark.",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-7f0f5836-70e5-4fe5-a744-38471ec9b3b8.png",
+      "adopted": false,
+      "reason": "Replaced by v02 after keyboard contact review.",
+      "currentPath": "arts/static/03/story-assets-v03/provenance/replaced/programmer-office-type-v01.png",
+      "outputSha256": "4663163a13b0d44f86c537e81fcaf38e35cfca033332e96b715094a41498c1c2",
+      "references": [
+        {
+          "actualInputPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-input-v01.png",
+          "retainedPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-input-v01.png",
+          "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373"
+        },
+        {
+          "actualInputPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png",
+          "retainedPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png",
+          "sha256": "f3862cc0ea51085524d03d2d9d3a704b756f892533d258a9c05ea598fea00ddf"
+        }
+      ],
+      "pixelEditing": false
+    },
+    {
+      "id": "office-neighbors",
+      "dest": "arts/backgrounds/03/office-neighbor-desks-v01.png",
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/backgrounds/shared/office-workstations-day-v01.png"
+      ],
+      "transparent": false,
+      "prompt": "Create a matching 16:9 cel-anime background plate of the RIGHT-HAND neighboring desks in the same company office as reference. Perspective is from an adjacent employee seated to the left, looking right across two occupied-in-future workstations. Currently EMPTY: no people or chairs. Two distinct wooden desks recede along one coherent diagonal, windows and city skyline behind, warm wood and muted blue-grey, fine clean anime lines and soft afternoon light. Near desk: reserve seating position in the left third; keyboard around x=40%,y=69%; monitor on its right around x=49%,y=43%, with a visible blank dark front screen. Far desk: reserve seating position around x=68%,y=45%; keyboard around x=76%,y=48%; monitor just to its right around x=86%,y=31%. Leave space above desks for seated upper bodies and arms, and below for chair cutouts. No desk lamp, no papers, no text, no UI, no watermark. A slim near monitor edge at far left may frame the view but must not cover the workers. This is an environment layer for independently composited whole seated people, not a full scene with figures.",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-b00e6651-acf9-423e-af92-e0298d9b5ca9.png",
+      "adopted": true,
+      "reason": "Adopted for current03 art package.",
+      "currentPath": "arts/backgrounds/03/office-neighbor-desks-v01.png",
+      "outputSha256": "6237dd3392786ca1e8a9fa8e81953dcd7c63d4c09acc0083627e98c712965db5",
+      "references": [
+        {
+          "actualInputPath": "/Users/alan671/Documents/MYvideo/arts/backgrounds/shared/office-workstations-day-v01.png",
+          "retainedPath": "/Users/alan671/Documents/MYvideo/arts/backgrounds/shared/office-workstations-day-v01.png",
+          "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11"
+        }
+      ],
+      "pixelEditing": false
+    },
+    {
+      "id": "coworker-type-a",
+      "dest": "arts/characters/poses/03/coworker-type-a-v01.png",
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/shared/coworker-discuss-right-v01.png"
+      ],
+      "transparent": true,
+      "prompt": "Create a whole seated coworker and chair cutout on TRUE TRANSPARENT background in the exact reference cel-anime design. Same short brown hair, simplified blank face WITHOUT eyes/nose/mouth, grey-green sweatshirt, charcoal trousers, white sneakers. Camera behind-left at about 30 degrees off rear, slightly elevated, worker facing diagonally upper RIGHT. Sitting in a charcoal ergonomic office swivel chair; forearms extend forward-right at keyboard height, fingers typing on an IMAGINARY keyboard. Show complete seated body, both hands, chair back, wheels and feet within portrait 1024x1536 canvas with comfortable margin. No keyboard, mouse, desk, computer, paper or room. Fine dark outlines, soft cel shading, warm daylight from right, muted palette matching the reference. Natural arm anatomy, stable relaxed shoulders. No text, logo, halo, drop shadow or extra people. Chair is part of the complete cutout, not a separate limb rig.",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-a4b67b46-4e7e-43d8-80f2-08700a2523a3.png",
+      "adopted": true,
+      "reason": "Adopted for current03 art package.",
+      "currentPath": "arts/characters/poses/03/coworker-type-a-v01.png",
+      "outputSha256": "7436641b5d2702411cee27bab209c1e4e6e42710dd8d3eb4c6cc85cdc928666d",
+      "references": [
+        {
+          "actualInputPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/shared/coworker-discuss-right-v01.png",
+          "retainedPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/shared/coworker-discuss-right-v01.png",
+          "sha256": "8546cefcd379acb8104de47b9da5e0dcbf804a6c510d32cf502c9bb340f21752"
+        }
+      ],
+      "pixelEditing": false
+    },
+    {
+      "id": "coworker-paper-a",
+      "dest": "arts/characters/poses/03/coworker-paper-a-v01.png",
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/shared/coworker-discuss-right-v01.png"
+      ],
+      "transparent": true,
+      "prompt": "Create a SECOND distinct office coworker as a complete seated person-and-chair transparent cutout in the same clean cel-anime style as reference. This coworker has short neat dark-brown hair with a side part, a simplified blank face WITHOUT eyes/nose/mouth, muted sand-beige long-sleeve sweatshirt, navy-grey trousers and offwhite sneakers. Camera behind-left at about 30 degrees off rear, slightly elevated; body faces diagonally upper RIGHT. He is seated on a charcoal ergonomic swivel chair and carefully reading ONE plain offwhite sheet held with both hands in front of his upper chest, paper angled toward his face. No writing on paper. Show complete body, chair back, wheels, hands and shoes on portrait 1024x1536 canvas, generous transparent margin. Soft daylight, fine consistent outlines, muted grey/wood office palette. No room, desk, computer, keyboard, text, logo, halo, shadow or second person. Preserve correct contact between hands and paper; chair belongs to the whole cutout.",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-95a6f607-7752-40f4-b4bc-a4421f39996c.png",
+      "adopted": true,
+      "reason": "Adopted for current03 art package.",
+      "currentPath": "arts/characters/poses/03/coworker-paper-a-v01.png",
+      "outputSha256": "4a006cc9a210bd80785c870be74440d834b606ae5e74ce9c1c5cb12417ecfc6b",
+      "references": [
+        {
+          "actualInputPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/shared/coworker-discuss-right-v01.png",
+          "retainedPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/shared/coworker-discuss-right-v01.png",
+          "sha256": "8546cefcd379acb8104de47b9da5e0dcbf804a6c510d32cf502c9bb340f21752"
+        }
+      ],
+      "pixelEditing": false
+    },
+    {
+      "id": "programmer-click",
+      "dest": "arts/characters/poses/03/programmer-office-click-v01.png",
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/programmer-office-type-v01.png"
+      ],
+      "transparent": true,
+      "prompt": "Edit the supplied whole character-and-chair cutout. Preserve exact 1024x1536 canvas, camera, character identity, blue-grey sweatshirt, lanyard, pants, shoes, lighting, chair shape and position, feet and hip anchors. No reframing or resizing. Keep TRUE transparent background with no halo, room, desk, keyboard, mouse, text, watermark or shadow. Fine cel-anime lines identical to original. Change ONLY his right forearm and hand to reach about 10 percent farther right and slightly down onto an IMAGINARY mouse at desk height, index finger resting as if clicking. Keep left hand at the original keyboard position. Head still looks at the screen upper right. Keep all five fingers anatomically correct and hand fully inside frame. This is a restrained confirmation/send gesture.",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-11eb4802-a67d-4e46-8689-0936a6a54b89.png",
+      "adopted": true,
+      "reason": "Adopted for current03 art package.",
+      "currentPath": "arts/characters/poses/03/programmer-office-click-v01.png",
+      "outputSha256": "a68602e8523e3a19df9c0adbdcc7cde6c72d83d52025dcc9da331c15005bd11a",
+      "references": [
+        {
+          "actualInputPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/programmer-office-type-v01.png",
+          "retainedPath": "arts/static/03/story-assets-v03/provenance/replaced/programmer-office-type-v01.png",
+          "sha256": "4663163a13b0d44f86c537e81fcaf38e35cfca033332e96b715094a41498c1c2"
+        }
+      ],
+      "pixelEditing": false
+    },
+    {
+      "id": "programmer-read",
+      "dest": "arts/characters/poses/03/programmer-office-read-v01.png",
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/programmer-office-type-v01.png"
+      ],
+      "transparent": true,
+      "prompt": "Edit the supplied whole character-and-chair cutout. Preserve exact 1024x1536 canvas, camera, character identity, blue-grey sweatshirt, lanyard, pants, shoes, lighting, chair shape and position, feet and hip anchors. No reframing or resizing. Keep TRUE transparent background with no halo, room, desk, keyboard, mouse, text, watermark or shadow. Fine cel-anime lines identical to original. Change his hands from active typing to a clear paused state: both wrists draw back slightly toward him and fingers relax, elbows stay near original positions. Lift his chin slightly to read a message on the upper-right monitor, shoulders relax a little. Show a small visible left-side profile with neutral grey eye and closed mouth, matching the programmer. Whole body and chair remain anchored. No additional props.",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-7ea51e7b-f909-48f5-ab62-1aa8e8fb3041.png",
+      "adopted": true,
+      "reason": "Adopted for current03 art package.",
+      "currentPath": "arts/characters/poses/03/programmer-office-read-v01.png",
+      "outputSha256": "6f538675dad4ea1ce793db39bf2bb5d663572525ff426b13e282e1b8e5f618be",
+      "references": [
+        {
+          "actualInputPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/programmer-office-type-v01.png",
+          "retainedPath": "arts/static/03/story-assets-v03/provenance/replaced/programmer-office-type-v01.png",
+          "sha256": "4663163a13b0d44f86c537e81fcaf38e35cfca033332e96b715094a41498c1c2"
+        }
+      ],
+      "pixelEditing": false
+    },
+    {
+      "id": "programmer-look",
+      "dest": "arts/characters/poses/03/programmer-office-look-right-v01.png",
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/programmer-office-type-v01.png"
+      ],
+      "transparent": true,
+      "prompt": "Edit the supplied whole character-and-chair cutout. Preserve exact 1024x1536 canvas, camera, character identity, blue-grey sweatshirt, lanyard, pants, shoes, lighting, chair shape and position, feet and hip anchors. No reframing or resizing. Keep TRUE transparent background with no halo, room, desk, keyboard, mouse, text, watermark or shadow. Fine cel-anime lines identical to original. Change ONLY head/neck direction and resting hands: turn his head to look over his RIGHT shoulder toward neighboring colleagues offscreen right, so the viewer can read a clear side profile, grey eye, slightly tense brow and closed mouth. Keep shoulders, torso, hips and chair fixed in the original seated orientation. Hands stop typing and rest near their original keyboard-height positions. Do not rotate the whole chair or body. The change should be a visible attentive head turn, no exaggerated expression.",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-d8284462-9ab5-4d94-8bdc-32b01dd26f5e.png",
+      "adopted": true,
+      "reason": "Adopted for current03 art package.",
+      "currentPath": "arts/characters/poses/03/programmer-office-look-right-v01.png",
+      "outputSha256": "595c1b9ba72f466b0a8446244bf695a2478dd03c8c883333e7f3f11904dbda07",
+      "references": [
+        {
+          "actualInputPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/programmer-office-type-v01.png",
+          "retainedPath": "arts/static/03/story-assets-v03/provenance/replaced/programmer-office-type-v01.png",
+          "sha256": "4663163a13b0d44f86c537e81fcaf38e35cfca033332e96b715094a41498c1c2"
+        }
+      ],
+      "pixelEditing": false
+    },
+    {
+      "id": "coworker-type-b",
+      "dest": "arts/characters/poses/03/coworker-type-b-v01.png",
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/coworker-type-a-v01.png"
+      ],
+      "transparent": true,
+      "prompt": "Edit the reference complete seated coworker-and-chair cutout. Preserve exact portrait 1024x1536 canvas, camera, silhouette scale, chair shape and position, hips, feet, clothing, hairstyle, simplified blank face, fine cel-anime lines and lighting. True transparent background. No room, desk, computer, keyboard, text, logo, halo or shadow. No reframing, resizing, duplicated body or separate limbs. Change only the typing action: lower the right wrist slightly and press fingers down, while lifting the left fingertips a little off the imaginary keyboard. Forearms remain at the same desk height and reach. Slight attentive chin lift toward the monitor on upper right. Keep shoulders fixed. This is the second restrained typing keyframe, not a rest pose.",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-f410e4c2-26b6-4cd4-96f4-339efdc55b17.png",
+      "adopted": true,
+      "reason": "Adopted for current03 art package.",
+      "currentPath": "arts/characters/poses/03/coworker-type-b-v01.png",
+      "outputSha256": "ff99077eae9d73a371c4179ba010c28a4126e705c560c6b3676f88d0b26cd70c",
+      "references": [
+        {
+          "actualInputPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/coworker-type-a-v01.png",
+          "retainedPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/coworker-type-a-v01.png",
+          "sha256": "7436641b5d2702411cee27bab209c1e4e6e42710dd8d3eb4c6cc85cdc928666d"
+        }
+      ],
+      "pixelEditing": false
+    },
+    {
+      "id": "coworker-paper-b",
+      "dest": "arts/characters/poses/03/coworker-paper-b-v01.png",
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/coworker-paper-a-v01.png"
+      ],
+      "transparent": true,
+      "prompt": "Edit the reference complete seated coworker-and-chair cutout. Preserve exact portrait 1024x1536 canvas, camera, silhouette scale, chair shape and position, hips, feet, clothing, hairstyle, simplified blank face, fine cel-anime lines and lighting. True transparent background. No room, desk, computer, keyboard, text, logo, halo or shadow. No reframing, resizing, duplicated body or separate limbs. Change only the work action: lower the SAME single offwhite page a little toward lap/chest while keeping it in both hands; lift and turn the head slightly toward a monitor offscreen upper right as if cross-checking the page with the computer. Keep torso and chair fixed, no new props. Page stays clearly visible, held correctly, no writing. This is the next full-body keyframe after reading the page.",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-f6f83b51-531e-4c99-8e77-9f68e254d28b.png",
+      "adopted": true,
+      "reason": "Adopted for current03 art package.",
+      "currentPath": "arts/characters/poses/03/coworker-paper-b-v01.png",
+      "outputSha256": "2ab578a40ad73587ac7aa682c42d42fe4ea1b7e9caeeccc58c6f8553c0fbf3a3",
+      "references": [
+        {
+          "actualInputPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/coworker-paper-a-v01.png",
+          "retainedPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/coworker-paper-a-v01.png",
+          "sha256": "4a006cc9a210bd80785c870be74440d834b606ae5e74ce9c1c5cb12417ecfc6b"
+        }
+      ],
+      "pixelEditing": false
+    },
+    {
+      "id": "programmer-type-v02",
+      "dest": "arts/characters/poses/03/programmer-office-type-v02.png",
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/programmer-office-type-v01.png",
+        "/private/tmp/s03-type.png"
+      ],
+      "transparent": true,
+      "prompt": "Edit reference 1, the TRANSPARENT character cutout, to correct keyboard contact seen in reference 2 (layout context ONLY). Keep exact 1024x1536 canvas, character head, torso, hips, chair, clothes, shoes, lighting and scale pixel-aligned to reference 1. Move ONLY the forearms/hands: lower both fingertips by about 90 pixels on this portrait canvas, and bring the right hand slightly left, so the hands are lower and closer together at keyboard height. Approximate left fingertip target (790,600), right fingertip target (905,650). Wrists are nearly level with fingertips, natural elbows, fingers gently pressing an imaginary horizontal keyboard, not floating high near the monitor stand. Preserve full chair and body exactly. No real keyboard, desk, computer, room, halo or shadow in the output. True transparent background, fine cel-anime lines. Reference 2 is NOT an output scene; output ONLY the same complete character-and-chair cutout.",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-7184400c-57e0-4070-82bc-dd0c026c5d03.png",
+      "adopted": true,
+      "reason": "Adopted after correcting keyboard contact against the layered layout reference.",
+      "currentPath": "arts/characters/poses/03/programmer-office-type-v02.png",
+      "outputSha256": "bc5e8a4d7efe1f9c01833e3fa5edf18e9cbde4c818c081dad3de2ccda791aeb0",
+      "references": [
+        {
+          "actualInputPath": "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/programmer-office-type-v01.png",
+          "retainedPath": "arts/static/03/story-assets-v03/provenance/replaced/programmer-office-type-v01.png",
+          "sha256": "4663163a13b0d44f86c537e81fcaf38e35cfca033332e96b715094a41498c1c2"
+        },
+        {
+          "actualInputPath": "/private/tmp/s03-type.png",
+          "retainedPath": "arts/static/03/story-assets-v03/provenance/type-contact-before.png",
+          "sha256": "b326e7ba5d248df9a7c178aca2cfa7049da6dbc59de72faaf7756ee673a7caeb"
+        }
+      ],
+      "pixelEditing": false
+    }
+  ]
+}

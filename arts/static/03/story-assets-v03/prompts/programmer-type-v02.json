@@ -1,0 +1,10 @@
+{
+  "id": "programmer-type-v02",
+  "dest": "arts/characters/poses/03/programmer-office-type-v02.png",
+  "refs": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/programmer-office-type-v01.png",
+    "/private/tmp/s03-type.png"
+  ],
+  "transparent": true,
+  "prompt": "Edit reference 1, the TRANSPARENT character cutout, to correct keyboard contact seen in reference 2 (layout context ONLY). Keep exact 1024x1536 canvas, character head, torso, hips, chair, clothes, shoes, lighting and scale pixel-aligned to reference 1. Move ONLY the forearms/hands: lower both fingertips by about 90 pixels on this portrait canvas, and bring the right hand slightly left, so the hands are lower and closer together at keyboard height. Approximate left fingertip target (790,600), right fingertip target (905,650). Wrists are nearly level with fingertips, natural elbows, fingers gently pressing an imaginary horizontal keyboard, not floating high near the monitor stand. Preserve full chair and body exactly. No real keyboard, desk, computer, room, halo or shadow in the output. True transparent background, fine cel-anime lines. Reference 2 is NOT an output scene; output ONLY the same complete character-and-chair cutout."
+}

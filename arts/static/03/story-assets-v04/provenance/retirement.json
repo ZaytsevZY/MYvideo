@@ -1,0 +1,12 @@
+{
+  "version": "S03_ART v0.4",
+  "active": "../layout.json",
+  "inactive": [
+    {"package":"story-assets-v03","reason":"后侧人物、留白、小关系图、简略消息与邻桌拼贴被本轮替代；历史重建引用保留"},
+    {"component":"arts/items/03/clock-v03.svg","reason":"改用聊天14:00／14:01传递时间信息，当前不引用"},
+    {"files":"programmer-front-*-v04.png / neighbor-work-*-v04.png","reason":"本轮审核前状态，保留prompt准确输入与原输出SHA；当前采用场景文件后缀v05"},
+    {"file":"turn-mid-not-adopted.png","reason":"转头幅度接近终态，未作为中间态采用；当前改用视线预备"}
+  ],
+  "deleted": [],
+  "reasonForRetention":"保留既有源码、prompt与原始输入的可重建性；不以文件仍在磁盘推断其已采用。"
+}

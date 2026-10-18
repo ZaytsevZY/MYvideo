@@ -1,0 +1,8 @@
+{
+  "prompt": "Use case: illustration-story. Create a PORTRAIT 3:4 cinematic anime frame for the left-hand 40% of a 16:9 educational video. Reference 1 is the exact protagonist identity; reference 2 is the existing office style only. Same young adult black messy short hair, grey eyes, blue-grey sweatshirt, teal lanyard and white ID badge. Camera directly in front of the seated programmer at seated eye level, medium close-up, face clearly front-facing and lowered slightly toward laptop. He occupies nearly the entire image, head near upper quarter, torso and BOTH hands visible, fingers resting naturally on a laptop keyboard on a real oak desk in the foreground. A thin dark laptop screen back at bottom edge, not obscuring hands or face. Chair back behind him, blurred company workstations/windows in background, warm afternoon daylight, restrained detailed cel-shaded anime drawing matching reference. Physically coherent whole scene: hands on keyboard, forearms above desk, body seated behind desk; no collage or detached limbs. Attentive mildly tired expression. Solid nontransparent full illustration. No text, no UI, no clocks, no diagrams, no arrows, no decorative motion marks. Do not leave empty space at left. No photographic people. Single image.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png",
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/shared/office-workstations-day-v01.png"
+  ],
+  "transparent_background": false
+}

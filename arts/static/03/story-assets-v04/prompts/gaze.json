@@ -1,0 +1,7 @@
+{
+  "prompt": "Edit target: reference. Make a precise minimal eye-movement anticipation frame. The programmer's HEAD MUST REMAIN FACING DIRECTLY FORWARD exactly as in the reference: nose stays on the vertical centerline, both ears and both cheeks keep same visibility. DO NOT ROTATE OR TILT HIS HEAD. Change only eye pupils to look toward SCREEN RIGHT and lift eyelids slightly; a subtle questioning brow. Keep all body, hands, clothes, desk, laptop, chair, background pixels and image composition visually unchanged. Same portrait aspect. No text, no symbols, no extra objects. This is the eye glance BEFORE he turns his head.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/03/programmer-front-desk-a-v04.png"
+  ],
+  "transparent_background": false
+}

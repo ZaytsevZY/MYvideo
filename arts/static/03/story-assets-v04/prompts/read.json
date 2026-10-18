@@ -1,0 +1,8 @@
+{
+  "prompt": "Edit target: reference image. Produce a registered animation keyframe of EXACTLY the same scene and person, same portrait aspect ratio, camera, hair silhouette, clothes, lanyard, chair, desk, laptop and office background. Change ONLY the expression/gaze and hand resting state: he has just stopped typing to read a newly arrived work message, eyes lift slightly toward screen, mild worried eyebrow tension, lips closed, fingers relax on keyboard. Keep head position and shoulders fixed. No new objects, no text, no arrows, no effects. Preserve artwork closely; do not repaint layout. This is a whole-frame variant, not a split sheet.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/03/programmer-front-desk-a-v04.png"
+  ],
+  "transparent_background": false,
+  "destination": "arts/backgrounds/03/programmer-front-read-v04.png"
+}

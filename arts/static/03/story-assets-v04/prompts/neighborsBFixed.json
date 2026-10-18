@@ -1,0 +1,8 @@
+{
+  "prompt": "Edit reference into a registered second work keyframe. Preserve EXACT same 16:9 camera, bodies, chair backs, desk plane, monitors, office and lighting. Male coworker in grey-green at left makes a different typing finger contact. Female in beige at right lowers paper slightly, its bottom remains over folder/desk and her forearms continue resting on the tabletop, eyes glance toward her monitor at screen right. Keep heads/body scale fixed. Do not show legs, seats, floor or chair casters. No text, overlays, symbols, effects, no collage. Same coherent anime drawing.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/03/neighbor-work-a-v05.png"
+  ],
+  "transparent_background": false,
+  "destination": "arts/backgrounds/03/neighbor-work-b-v05.png"
+}

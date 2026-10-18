@@ -1,0 +1,9 @@
+{
+  "id": "programmer-click",
+  "dest": "arts/characters/poses/03/programmer-office-click-v01.png",
+  "refs": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/programmer-office-type-v01.png"
+  ],
+  "transparent": true,
+  "prompt": "Edit the supplied whole character-and-chair cutout. Preserve exact 1024x1536 canvas, camera, character identity, blue-grey sweatshirt, lanyard, pants, shoes, lighting, chair shape and position, feet and hip anchors. No reframing or resizing. Keep TRUE transparent background with no halo, room, desk, keyboard, mouse, text, watermark or shadow. Fine cel-anime lines identical to original. Change ONLY his right forearm and hand to reach about 10 percent farther right and slightly down onto an IMAGINARY mouse at desk height, index finger resting as if clicking. Keep left hand at the original keyboard position. Head still looks at the screen upper right. Keep all five fingers anatomically correct and hand fully inside frame. This is a restrained confirmation/send gesture."
+}

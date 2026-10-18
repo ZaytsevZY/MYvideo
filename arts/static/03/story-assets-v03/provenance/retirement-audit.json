@@ -1,0 +1,31 @@
+{
+  "archivedSupersededFirstDraft": "arts/static/03/story-assets-v03/provenance/replaced/programmer-office-type-v01.png",
+  "deletedSourceAssets": [],
+  "retiredFromCurrentSelection": {
+    "arts/static/03/programmer-asleep-main-v01.png": {
+      "adoptedForCurrent03": false,
+      "action": "retain at original path; historical references exist",
+      "references": [
+        "arts/static/story-assets-v01/layout-v01.json",
+        "arts/static/story-assets-v01/manifest-v01.json",
+        "arts/static/story-assets-v01/README.md",
+        "arts/static/story-assets-v01/build.mjs",
+        "arts/static/story-assets-v01/provenance/copies-02.json",
+        "arts/static/story-assets-v01/prompts/batch-03.json",
+        "arts/static/story-assets-v01/prompts/batch-02.json"
+      ]
+    },
+    "arts/static/03/programmer-awake-main-v01.png": {
+      "adoptedForCurrent03": false,
+      "action": "retain at original path; historical references exist",
+      "references": [
+        "arts/static/story-assets-v01/layout-v01.json",
+        "arts/static/story-assets-v01/manifest-v01.json",
+        "arts/static/story-assets-v01/README.md",
+        "arts/static/story-assets-v01/build.mjs",
+        "arts/static/story-assets-v01/provenance/copies-03.json",
+        "arts/static/story-assets-v01/prompts/batch-03.json"
+      ]
+    }
+  }
+}

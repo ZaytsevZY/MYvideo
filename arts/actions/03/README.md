@@ -1,4 +1,33 @@
-# 第03章 · S03_SILENT_VIDEO v0.1
+# 第03章 · 当前分镜与基础版历史
+
+**当前动态：S03_STORY v0.5 · 2026-10-18。** 已按新脚本完成11镜／39秒／1170帧完整动态框架，并接入FILM_PREVIEW v0.3。[独立播放](http://127.0.0.1:8765/actions/03/full-preview.html) · [全片中的03](http://127.0.0.1:8765/actions/film/preview.html?frame=2490) · [执行记录](provenance/story-v05/chapter-plan.md) · [代表联系表](provenance/story-v05/contact.png)。
+
+雇佣关系分层显现，正面查看清单→14:00发送→14:01追加→人物停手阅读→侧看邻桌→回到报告草稿→树图，动作与消息有明确触发；使用已采用整幅PNG，未新增生图。原127字符口播／9段字幕和素材原字节保留，无声音。下面各美术／旧视频记录为历史阶段；其中“尚未接入”不再描述当前03。
+
+03在全片仍为83–122秒，11镜导航、原字幕offset同步更新。全片仍280秒／8400帧／68字幕，65段跳转、97项去重资源。03/preview.html及full-preview.html均指向新版，旧入口归preview-basic-v01.html；scene.mjs与旧成片继续作为历史实现。03新renderer为story-scene-v05.mjs，播放器使用统一film适配器，任意帧可倒拖。
+
+02→03按新的说明情境硬切；03→04用新树图接研究入口，新增04 entry-from-03-v05只适配原1.6秒过渡，不重写04主体。原04 scene.mjs保持原字节。两处4秒源码重绘接缝、编码后抽帧与全程解码见[验证](provenance/story-v05/verification.json)；11镜与8400帧接口检查通过。有限完整姿态不等于高帧率角色作画；本轮交付动态框架，未bake全章新MP4。 旧produce.mjs仍对应基础版；后续新bake应使用story-scene-v05或统一renderer，避免误导出旧剧情。
+
+```sh
+node arts/actions/film/build.mjs
+node --test arts/actions/03/story-v05.test.mjs arts/actions/film/framework.test.mjs
+node arts/actions/03/build-story-v05.mjs
+node arts/actions/03/qa-story-v05.mjs
+```
+
+
+**当前美术：S03_ART v0.4（2026-10-18）：** [新版检查页](http://127.0.0.1:8765/static/03/story-assets-v04/preview.html)／[素材与审核返工说明](../../static/03/story-assets-v04/README.md)。近全屏雇佣关系、左侧正面演出、右侧当天多轮聊天，14:00／14:01替代时钟；邻桌摄影参考后整幅重绘，原图透视及键盘接触问题经过Claude只读审核后返工。共8张采用生图、三张派生肖像及8个代表构图，提供39秒有限关键态预演；原脚本／口播／字幕不变，整章新动画和全片尚未接入。下方v0.3为已替代记录。
+
+**03新脚本美术已补齐（2026-10-18）：** [S03_ART v0.3检查页](http://127.0.0.1:8765/static/03/story-assets-v03/preview.html)／[素材与构图说明](../../static/03/story-assets-v03/README.md)。新增采用2张公司机位＋8张完整动作PNG，9套可编辑UI／关系组件及7张代表构图；旧睡眠／醒来不再用于当前03。新39秒动画尚未接入，以下旧视频仍为基础版。
+
+
+**当前分镜：S03_STORYBOARD v0.3 · 2026-10-18。** 已按用户手写的“雇佣关系→完成／发消息／追加／看时间与同事／继续工作→树状关系”细化为11镜，共39秒。唯一制作表见[新分镜](provenance/storyboard-v03/chapter-plan.md)，含机位、动作、图层、文字、素材缺口和02→03→04接法；手写三段、127字符口播、references及原字幕正文保留。
+
+新分镜为4镜逻辑17.6秒、7镜故事21.4秒；消息与人物并行，17:00是报告截止点。睡眠／醒来、集中验收及转次日收工均不再采用。公司图与站立同事已核对，坐姿工作、新机位和动作前后态仍须准备；不将已有站姿登记为工作动作就绪。
+
+本轮仅分镜文本，未生图、改动画／字幕、重建film或导出视频；当前浏览器仍为下方S03 v0.1基础演出。旧8镜表只解释历史视频，不覆盖新11镜。来源及核对见同目录inputs／verification，两个draft边界契约尚未动态实测。
+
+## S03_SILENT_VIDEO v0.1历史制作
 
 **全片统一入口：** [01–06动态框架](../film/README.md) · [连续播放](http://127.0.0.1:8765/actions/film/preview.html)。原章入口与历史制作记录继续保留。
 
@@ -6,7 +35,7 @@
 
 入口：preview.html（通过本地HTTP服务播放）；导出 exports/03-captioned-silent-v01.mp4；同名SRT／VTT。渲染：`node arts/actions/03/produce.mjs`；代表构图：追加 `--qa`。导出器拒绝覆盖既有MP4。
 
-## 唯一镜头细化表
+## 基础版8镜表（历史）
 
 |镜头／父段|本地秒|口播|起点→动作→终点|视点、对象与接续|
 |---|---|---|---|---|

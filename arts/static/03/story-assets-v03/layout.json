@@ -1,0 +1,321 @@
+{
+  "version": "S03_ART v0.3",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "sourceCanvas": [
+    1672,
+    941
+  ],
+  "programmer": [
+    450,
+    170,
+    770,
+    1155
+  ],
+  "coworkerA": [
+    180,
+    235,
+    660,
+    990
+  ],
+  "coworkerB": [
+    1045,
+    245,
+    455,
+    682.5
+  ],
+  "chat": [
+    1120,
+    70,
+    660,
+    480
+  ],
+  "clock": [
+    1150,
+    140,
+    550,
+    350
+  ],
+  "subtitleSafe": [
+    24,
+    994,
+    1872,
+    68
+  ],
+  "screenQuad": [
+    [
+      883,
+      312
+    ],
+    [
+      1292,
+      320
+    ],
+    [
+      1280,
+      536
+    ],
+    [
+      872,
+      512
+    ]
+  ],
+  "layers": [
+    "room",
+    "screen-ui",
+    "complete-person-and-chair",
+    "message-or-clock",
+    "caption-safe"
+  ],
+  "scope": "asset and composition preparation only; current chapter03 animation unchanged",
+  "registry": [
+    {
+      "id": "room",
+      "path": "arts/backgrounds/03/office-main-over-shoulder-v01.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "sha256": "185f17b42f6ab5558fb82f5c9ceaa8d0bb20ab52338660069b908e6d53c83eb2",
+      "kind": "background"
+    },
+    {
+      "id": "neighbors",
+      "path": "arts/backgrounds/03/office-neighbor-desks-v01.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "sha256": "6237dd3392786ca1e8a9fa8e81953dcd7c63d4c09acc0083627e98c712965db5",
+      "kind": "background"
+    },
+    {
+      "id": "type",
+      "path": "arts/characters/poses/03/programmer-office-type-v02.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "sha256": "bc5e8a4d7efe1f9c01833e3fa5edf18e9cbde4c818c081dad3de2ccda791aeb0",
+      "kind": "complete-person-and-chair"
+    },
+    {
+      "id": "click",
+      "path": "arts/characters/poses/03/programmer-office-click-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "sha256": "a68602e8523e3a19df9c0adbdcc7cde6c72d83d52025dcc9da331c15005bd11a",
+      "kind": "complete-person-and-chair"
+    },
+    {
+      "id": "read",
+      "path": "arts/characters/poses/03/programmer-office-read-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "sha256": "6f538675dad4ea1ce793db39bf2bb5d663572525ff426b13e282e1b8e5f618be",
+      "kind": "complete-person-and-chair"
+    },
+    {
+      "id": "look",
+      "path": "arts/characters/poses/03/programmer-office-look-right-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "sha256": "595c1b9ba72f466b0a8446244bf695a2478dd03c8c883333e7f3f11904dbda07",
+      "kind": "complete-person-and-chair"
+    },
+    {
+      "id": "coworkerA",
+      "path": "arts/characters/poses/03/coworker-type-a-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "sha256": "7436641b5d2702411cee27bab209c1e4e6e42710dd8d3eb4c6cc85cdc928666d",
+      "kind": "complete-person-and-chair"
+    },
+    {
+      "id": "coworkerA2",
+      "path": "arts/characters/poses/03/coworker-type-b-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "sha256": "ff99077eae9d73a371c4179ba010c28a4126e705c560c6b3676f88d0b26cd70c",
+      "kind": "complete-person-and-chair"
+    },
+    {
+      "id": "coworkerB",
+      "path": "arts/characters/poses/03/coworker-paper-a-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "sha256": "4a006cc9a210bd80785c870be74440d834b606ae5e74ce9c1c5cb12417ecfc6b",
+      "kind": "complete-person-and-chair"
+    },
+    {
+      "id": "coworkerB2",
+      "path": "arts/characters/poses/03/coworker-paper-b-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "sha256": "2ab578a40ad73587ac7aa682c42d42fe4ea1b7e9caeeccc58c6f8553c0fbf3a3",
+      "kind": "complete-person-and-chair"
+    },
+    {
+      "id": "manager",
+      "path": "arts/characters/poses/shared/manager-assign-left-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "sha256": "69dbdbbea503b3ef9100ece87b42692013bcce03048e6edced267a9046dc39ba",
+      "kind": "reused-portrait"
+    },
+    {
+      "id": "portrait",
+      "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "sha256": "20a101697879a0e54da5861532080cede1db7d4cfd7dbbd9dbd7af820d9cfbaa",
+      "kind": "reused-portrait"
+    },
+    {
+      "id": "document",
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "width": 1086,
+      "height": 1448,
+      "alpha": true,
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420",
+      "kind": "reused-prop"
+    }
+  ],
+  "components": [
+    {
+      "name": "chatEmpty",
+      "path": "arts/items/03/chatEmpty-v03.svg",
+      "png": "arts/items/03/chatEmpty-v03.png",
+      "sha256": "b2433adf39627d6eea3bb776fa98ba99a033731e6816bc2f9634014710df6ffd",
+      "dimensions": [
+        660,
+        480
+      ]
+    },
+    {
+      "name": "chatSent",
+      "path": "arts/items/03/chatSent-v03.svg",
+      "png": "arts/items/03/chatSent-v03.png",
+      "sha256": "0e14717c194fe70167dcc769665e38b45c9fb5a25f8448a3c2b53cf77798ebe9",
+      "dimensions": [
+        660,
+        480
+      ]
+    },
+    {
+      "name": "chatReply",
+      "path": "arts/items/03/chatReply-v03.svg",
+      "png": "arts/items/03/chatReply-v03.png",
+      "sha256": "f626002fe74396766bb29f3a2c5f8910dc29052865cfceb73b7b2ab64ab230c2",
+      "dimensions": [
+        660,
+        480
+      ]
+    },
+    {
+      "name": "complete",
+      "path": "arts/items/03/complete-v03.svg",
+      "png": "arts/items/03/complete-v03.png",
+      "sha256": "3913d09006862ddb40a912db7a93a955b0ec4eb5c0d3c391df9ad4aec3b2b6c4",
+      "dimensions": [
+        960,
+        540
+      ]
+    },
+    {
+      "name": "report",
+      "path": "arts/items/03/report-v03.svg",
+      "png": "arts/items/03/report-v03.png",
+      "sha256": "c9009996883d4451ae80affa82f16b061710ad3c9a29e7b3537a038ffad74fc3",
+      "dimensions": [
+        960,
+        540
+      ]
+    },
+    {
+      "name": "working",
+      "path": "arts/items/03/working-v03.svg",
+      "png": "arts/items/03/working-v03.png",
+      "sha256": "c06f2a83fa3187e660e3bc11003733c77142861ecf55824af434b4f7ef918175",
+      "dimensions": [
+        960,
+        540
+      ]
+    },
+    {
+      "name": "clock",
+      "path": "arts/items/03/clock-v03.svg",
+      "png": "arts/items/03/clock-v03.png",
+      "sha256": "f76a74ac7f665c539b0375ed3d515f3541d01602ec412e17bd35636ee258d6eb",
+      "dimensions": [
+        550,
+        350
+      ]
+    },
+    {
+      "name": "exchange",
+      "path": "arts/items/03/exchange-v03.svg",
+      "png": "arts/items/03/exchange-v03.png",
+      "sha256": "da0f00800a5aba06e6c30594cba1a25689e6a2e53ef923e3d2b3ecee22ffc328",
+      "dimensions": [
+        1120,
+        650
+      ]
+    },
+    {
+      "name": "tree",
+      "path": "arts/items/03/tree-v03.svg",
+      "png": "arts/items/03/tree-v03.png",
+      "sha256": "885bd0451e4d285df6e23702f31707fed6215a30b6c97e81aef1fe3347bbbce9",
+      "dimensions": [
+        1120,
+        720
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "name": "completed",
+      "path": "arts/static/03/story-assets-v03/compositions/completed.png",
+      "sha256": "a630deb6f5fd4e08439770321bb14630b71b573500a01387eba3c75955c7dd70"
+    },
+    {
+      "name": "reply",
+      "path": "arts/static/03/story-assets-v03/compositions/reply.png",
+      "sha256": "587b5b19b02582eedf416c76bb3d679f5289e6ac19d55871681206aeefecffc3"
+    },
+    {
+      "name": "look",
+      "path": "arts/static/03/story-assets-v03/compositions/look.png",
+      "sha256": "cf50a5bbaa6f0357978867e52c719dfa3a434347321ae67104e263250424103a"
+    },
+    {
+      "name": "typing",
+      "path": "arts/static/03/story-assets-v03/compositions/typing.png",
+      "sha256": "951375224d1e9855f05965916542a74da5426ae7ebc69a46c57a31f595eec4d7"
+    },
+    {
+      "name": "neighbors",
+      "path": "arts/static/03/story-assets-v03/compositions/neighbors.png",
+      "sha256": "ade25a0b8957ac07f3b65090af5d32a9786072b15ec284684b5533637b147d91"
+    },
+    {
+      "name": "exchange",
+      "path": "arts/static/03/story-assets-v03/compositions/exchange.png",
+      "sha256": "3d01a3a5e27cc076d7ec6aab977058060c45c1a7abab70e828905f08abf18bc6"
+    },
+    {
+      "name": "tree",
+      "path": "arts/static/03/story-assets-v03/compositions/tree.png",
+      "sha256": "aca1389051778d58d6b2fc10ed25958de7f2a927436b5a54f2d79d0963dd8a26"
+    }
+  ]
+}

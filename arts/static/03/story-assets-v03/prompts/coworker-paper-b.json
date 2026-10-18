@@ -1,0 +1,9 @@
+{
+  "id": "coworker-paper-b",
+  "dest": "arts/characters/poses/03/coworker-paper-b-v01.png",
+  "refs": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/coworker-paper-a-v01.png"
+  ],
+  "transparent": true,
+  "prompt": "Edit the reference complete seated coworker-and-chair cutout. Preserve exact portrait 1024x1536 canvas, camera, silhouette scale, chair shape and position, hips, feet, clothing, hairstyle, simplified blank face, fine cel-anime lines and lighting. True transparent background. No room, desk, computer, keyboard, text, logo, halo or shadow. No reframing, resizing, duplicated body or separate limbs. Change only the work action: lower the SAME single offwhite page a little toward lap/chest while keeping it in both hands; lift and turn the head slightly toward a monitor offscreen upper right as if cross-checking the page with the computer. Keep torso and chair fixed, no new props. Page stays clearly visible, held correctly, no writing. This is the next full-body keyframe after reading the page."
+}

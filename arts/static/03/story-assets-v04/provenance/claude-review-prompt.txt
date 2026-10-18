@@ -1,0 +1,15 @@
+Act as a strict visual production reviewer. Read the following local PNG files with the Read tool, then inspect their matching screen-copy.json and assets.mjs. Do not edit files or run commands. One focused review only; do not use other agents or web research. Return concise critical findings with severity and exact scene names, distinguishing blocking defects from optional polish. Do not rubber-stamp.
+
+Workspace: /Users/alan671/Documents/MYvideo
+Images:
+arts/static/03/story-assets-v04/compositions/reply.png
+arts/static/03/story-assets-v04/compositions/exchange.png
+arts/static/03/story-assets-v04/compositions/neighbors.png
+arts/static/03/story-assets-v04/compositions/tree.png
+arts/static/03/story-assets-v04/compositions/look.png
+arts/static/03/story-assets-v04/screen-copy.json
+arts/static/03/story-assets-v04/assets.mjs
+
+User asks: coherent natural anime shots instead of decorative SVG explanations; front-facing programmer on LEFT occupying that side; large realistic enterprise chat on RIGHT showing multiple completed work rounds today; latest completion at 14:00 and assignment at 14:01, 17:00 is report deadline not end of workday; no standalone clock; natural glance toward busy colleagues. Neighboring employees must really sit in chairs behind desks with correct table occlusion, hand contact and feet/floor perspective. Employment exchange diagram should nearly fill screen and educate about salary versus time-limited use of labor power, without implying unlimited ownership of the person. Main narration is unchanged. Assets are finite whole-frame keyframes and layout review, NOT a finished fully animated video. Do not penalize absence of audio or a finished render. Check typography, odd spaces, cropping, reading hierarchy, factual scope, employer/employee distinctions and chair/desk geometry closely.
+
+Known prior issue corrected in source before you review: top salary arrow was absent because two segments shared one path; now two paths. Navigation labels now full Chinese words. Images may still show pre-rebuild version of those two tiny UI details. Report these as already addressed if noticed, rather than new blockers.

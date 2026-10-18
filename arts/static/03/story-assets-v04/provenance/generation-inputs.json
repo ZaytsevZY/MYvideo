@@ -1,0 +1,135 @@
+{
+  "version": "S03_ART v0.4",
+  "provider": "built-in imagegen",
+  "model": "underlying model not exposed",
+  "calls": [
+    {
+      "key": "front",
+      "prompt": "arts/static/03/story-assets-v04/prompts/front.json",
+      "destination": "arts/backgrounds/03/programmer-front-desk-a-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-aad2c3a7-41ac-4414-a550-3168fddc1284.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表"
+    },
+    {
+      "key": "neighbors",
+      "prompt": "arts/static/03/story-assets-v04/prompts/neighbors.json",
+      "destination": "arts/backgrounds/03/neighbor-work-a-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-c6eb5eb7-6e2a-48c3-a7fc-e1b2a72e3ac1.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表"
+    },
+    {
+      "key": "read",
+      "prompt": "arts/static/03/story-assets-v04/prompts/read.json",
+      "destination": "arts/backgrounds/03/programmer-front-read-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-b0c235c9-7208-43dc-ae51-76d5e5c9a156.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表"
+    },
+    {
+      "key": "look",
+      "prompt": "arts/static/03/story-assets-v04/prompts/look.json",
+      "destination": "arts/backgrounds/03/programmer-front-look-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-3b2be959-79bb-49ac-b5dc-c2f918e2a008.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表"
+    },
+    {
+      "key": "typeB",
+      "prompt": "arts/static/03/story-assets-v04/prompts/typeB.json",
+      "destination": "arts/backgrounds/03/programmer-front-desk-b-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-c560127c-edc4-4c6d-8bf0-2f78a35cb624.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表"
+    },
+    {
+      "key": "neighborsB",
+      "prompt": "arts/static/03/story-assets-v04/prompts/neighborsB.json",
+      "destination": "arts/backgrounds/03/neighbor-work-b-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-22cb07e2-0438-4d83-95a0-b80df8bb9593.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表"
+    },
+    {
+      "key": "manager",
+      "prompt": "arts/static/03/story-assets-v04/prompts/manager.json",
+      "destination": "arts/characters/portraits/03/manager-neutral-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-3944d0d5-1a8e-4428-abc5-dc4a718b0ce1.png",
+      "adopted": true,
+      "reason": null
+    },
+    {
+      "key": "mid",
+      "prompt": "arts/static/03/story-assets-v04/prompts/mid.json",
+      "destination": "arts/static/03/story-assets-v04/provenance/turn-mid-not-adopted.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-daa0fefa-53f2-40eb-85c0-3be2a4242ecf.png",
+      "adopted": false,
+      "reason": "转头幅度太接近终态，未作为中间态采用"
+    },
+    {
+      "key": "gaze",
+      "prompt": "arts/static/03/story-assets-v04/prompts/gaze.json",
+      "destination": "arts/backgrounds/03/programmer-front-glance-v04.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-554cde47-4598-42a5-aa57-9298d1fb322c.png",
+      "adopted": false,
+      "reason": "审核返工前状态；保留原路径用于prompt溯源，不进入当前注册表"
+    },
+    {
+      "key": "frontFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/frontFixed.json",
+      "destination": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-02ef7930-d87a-4008-8e86-4463f7f4b686.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+    },
+    {
+      "key": "neighborsFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/neighborsFixed.json",
+      "destination": "arts/backgrounds/03/neighbor-work-a-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-4b1d12cb-93e9-4085-80da-7ed25ea59579.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+    },
+    {
+      "key": "readFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/readFixed.json",
+      "destination": "arts/backgrounds/03/programmer-front-read-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-ce1a9112-b7a2-4b55-a1ce-be73a4c27668.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+    },
+    {
+      "key": "lookFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/lookFixed.json",
+      "destination": "arts/backgrounds/03/programmer-front-look-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-beba59bb-e73a-4609-ab8d-a81951f1ed37.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+    },
+    {
+      "key": "gazeFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/gazeFixed.json",
+      "destination": "arts/backgrounds/03/programmer-front-glance-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-a47bedf7-9a26-4171-8cec-74cb726a8ef7.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+    },
+    {
+      "key": "typeBFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/typeBFixed.json",
+      "destination": "arts/backgrounds/03/programmer-front-desk-b-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-ecf53d2b-ee6b-4a5d-91b9-776683a8eced.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+    },
+    {
+      "key": "neighborsBFixed",
+      "prompt": "arts/static/03/story-assets-v04/prompts/neighborsBFixed.json",
+      "destination": "arts/backgrounds/03/neighbor-work-b-v05.png",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-97bb28d0-c0d1-42d5-b700-fc40fe17bc98.png",
+      "adopted": true,
+      "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+    }
+  ]
+}

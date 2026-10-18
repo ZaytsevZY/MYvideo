@@ -1,0 +1,10 @@
+{
+  "id": "programmer-type",
+  "dest": "arts/characters/poses/03/programmer-office-type-v01.png",
+  "refs": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-input-v01.png",
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png"
+  ],
+  "transparent": true,
+  "prompt": "Create a complete character-and-office-chair cutout for a layered cel-anime animation. Preserve the programmer identity in the references: short tousled black hair, grey eyes, blue-grey sweatshirt, dark charcoal pants, white sneakers and teal lanyard/white badge. NEW view from behind and to his LEFT, about 30 degrees off the rear axis, slightly elevated, so a small part of his left cheek is visible. He sits upright in a simple charcoal ergonomic swivel chair, facing diagonally UPPER RIGHT of the image. Both forearms reach forward-right at keyboard height and fingers are poised typing on an IMAGINARY keyboard. Include the whole seated body, hands, chair back, chair wheels and shoes with transparent margins. No keyboard, mouse, desk, computer, background, text, halo or shadow. The chair belongs to this complete cutout so its overlap with his lower back is physically correct. Calm working pose, shoulders stable, natural anatomy. Portrait 1024x1536 composition. Match the reference polished hand-painted cel-anime style: fine coherent dark outlines, soft cel shading, warm wooden furniture, muted blue-grey/cream palette, gentle afternoon window light, consistent perspective. No writing, letters, logos or watermark."
+}

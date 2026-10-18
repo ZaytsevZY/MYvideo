@@ -1,0 +1,8 @@
+{
+  "prompt": "Edit target: reference image. Create a registered second typing animation keyframe, same portrait aspect and EXACT same stationary camera, office background, desk, laptop, chair, head location, body scale, clothing and lanyard. Only change hand/finger contact to alternate typing keystrokes: left middle finger slightly raised while right index finger presses keyboard; his eyes are slightly narrower with focused tired expression, shoulders lowered just subtly. Fingers must remain natural and partially hidden behind laptop edge. Do not move furniture, stretch body or change hair design. No text, no motion lines, no glow, no symbols. Whole scene keyframe.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/03/programmer-front-desk-a-v04.png"
+  ],
+  "transparent_background": false,
+  "destination": "arts/backgrounds/03/programmer-front-desk-b-v04.png"
+}

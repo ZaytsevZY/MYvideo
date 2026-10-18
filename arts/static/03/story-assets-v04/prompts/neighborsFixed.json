@@ -1,0 +1,8 @@
+{
+  "prompt": "Redraw the reference as a physically unambiguous MEDIUM-WIDE office shot, crop at waist/desktop rather than showing floor. Same anime palette, same brown-haired male grey-green sweatshirt at LEFT and brown-haired woman beige sweater at RIGHT. They sit side by side facing mostly toward camera across ONE continuous wooden desk, camera from opposite side of the desk at seated eye level, modest 3/4 angle. The broad desk top occupies the entire bottom third of frame, near edge crosses full width near bottom. Both torsos are BEHIND this desk. Chair BACKS clearly behind shoulders. All hips, chair seats, chair bases, table legs, knees and feet are OUT OF FRAME / hidden behind the opaque foreground desk. Do not show any floor or chair caster. This removes all desk-leg ambiguities. Male forearms and hands visibly rest on a flat separate keyboard on tabletop. His desktop monitor is offset to left edge, not covering hands. Female forearms lie on tabletop and she reads a paper resting at a low angle over an open folder, hands touch desk. Her monitor offset to far right. Focused neutral work expressions, not smiling at camera. Windows and office workstations behind them. Proper 50mm camera perspective, coherent tabletop plane and contact shadows. No floating hands, no sitting on table, no UI overlays, no text, no diagrams, no arrows. Single 16:9 illustration.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/03/neighbor-work-a-v04.png"
+  ],
+  "transparent_background": false,
+  "destination": "arts/backgrounds/03/neighbor-work-a-v05.png"
+}

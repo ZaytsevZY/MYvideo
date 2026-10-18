@@ -1,0 +1,9 @@
+{
+  "id": "office-main",
+  "dest": "arts/backgrounds/03/office-main-over-shoulder-v01.png",
+  "refs": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/shared/office-workstations-day-v01.png"
+  ],
+  "transparent": false,
+  "prompt": "Create a NEW camera plate of this same company office for a layered animation. Match the reference polished hand-painted cel-anime style: fine coherent dark outlines, soft cel shading, warm wooden furniture, muted blue-grey/cream palette, gentle afternoon window light, consistent perspective. No writing, letters, logos or watermark. Landscape 16:9. Camera is behind and to the left of an EMPTY near workstation, slightly elevated, looking diagonally toward its monitor on the right. The absent seated person will occupy the left third. Main warm wood desk spans x=35% to 90% of frame at y=65%-76%. The keyboard sits around (49%,66%) and mouse at (58%,67%). A large monitor with a flat blank dark screen occupies roughly x=47%-72%, y=30%-58%, its front screen clearly facing the camera enough to overlay UI. Leave clear space at x=20%-42%, y=28%-88% for an independently composited seated person and chair. No chair at the main workstation. Windows, blue sky, bookshelf left, plants and distant office desks provide space consistent with reference. Right upper quarter has quiet background for a floating message window. No people, no clock numerals, no desk lamp blocking the hands. Single coherent perspective; do not draw duplicate desks."
+}

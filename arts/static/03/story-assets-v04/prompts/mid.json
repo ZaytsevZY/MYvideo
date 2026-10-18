@@ -1,0 +1,8 @@
+{
+  "prompt": "Edit target: first image; second image is the final head-turn endpoint. Create one registered animation IN-BETWEEN image midway between these two: same portrait camera, body, hands, desk, laptop, chair and background remain stationary and unchanged. Rotate the young programmer's head only about 15 degrees toward SCREEN RIGHT (halfway to second reference), eyes first glancing that direction, with closed mouth and mild weary thoughtfulness. Head scale and neck connection anatomically consistent. Do not copy the full 35-degree endpoint; this is a smaller intermediate turn. No other changes, no text or added visual effects. Preserve exact aspect ratio and composition.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/03/programmer-front-desk-a-v04.png",
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/03/programmer-front-look-v04.png"
+  ],
+  "transparent_background": false
+}

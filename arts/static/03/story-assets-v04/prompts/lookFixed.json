@@ -1,0 +1,8 @@
+{
+  "prompt": "Edit the reference image into a registered whole-frame animation keyframe. Preserve the exact portrait aspect, seated camera, protagonist identity, clothes/lanyard, keyboard, desk, chair, background and lighting. The desktop keyboard stays flat on desk in full view; do not add any laptop or screen in the foreground. Change only the specified action. No text, symbols, arrows, blur or decorative marks. He turns his head about 30 degrees to SCREEN RIGHT toward neighboring coworkers while torso and both forearms remain exactly stationary. Eyes follow screen right, thoughtful mildly weary expression. Hands rest on keys. Anatomical neck/head connection and head scale unchanged.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/03/programmer-front-desk-a-v05.png"
+  ],
+  "transparent_background": false,
+  "destination": "arts/backgrounds/03/programmer-front-look-v05.png"
+}

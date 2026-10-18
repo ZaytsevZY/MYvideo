@@ -1,0 +1,58 @@
+[
+  {
+    "key": "frontFixed",
+    "prompt": "arts/static/03/story-assets-v04/prompts/frontFixed.json",
+    "destination": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+    "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-02ef7930-d87a-4008-8e86-4463f7f4b686.png",
+    "adopted": true,
+    "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+  },
+  {
+    "key": "neighborsFixed",
+    "prompt": "arts/static/03/story-assets-v04/prompts/neighborsFixed.json",
+    "destination": "arts/backgrounds/03/neighbor-work-a-v05.png",
+    "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-4b1d12cb-93e9-4085-80da-7ed25ea59579.png",
+    "adopted": true,
+    "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+  },
+  {
+    "key": "readFixed",
+    "prompt": "arts/static/03/story-assets-v04/prompts/readFixed.json",
+    "destination": "arts/backgrounds/03/programmer-front-read-v05.png",
+    "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-ce1a9112-b7a2-4b55-a1ce-be73a4c27668.png",
+    "adopted": true,
+    "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+  },
+  {
+    "key": "lookFixed",
+    "prompt": "arts/static/03/story-assets-v04/prompts/lookFixed.json",
+    "destination": "arts/backgrounds/03/programmer-front-look-v05.png",
+    "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-beba59bb-e73a-4609-ab8d-a81951f1ed37.png",
+    "adopted": true,
+    "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+  },
+  {
+    "key": "gazeFixed",
+    "prompt": "arts/static/03/story-assets-v04/prompts/gazeFixed.json",
+    "destination": "arts/backgrounds/03/programmer-front-glance-v05.png",
+    "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-a47bedf7-9a26-4171-8cec-74cb726a8ef7.png",
+    "adopted": true,
+    "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+  },
+  {
+    "key": "typeBFixed",
+    "prompt": "arts/static/03/story-assets-v04/prompts/typeBFixed.json",
+    "destination": "arts/backgrounds/03/programmer-front-desk-b-v05.png",
+    "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-ecf53d2b-ee6b-4a5d-91b9-776683a8eced.png",
+    "adopted": true,
+    "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+  },
+  {
+    "key": "neighborsBFixed",
+    "prompt": "arts/static/03/story-assets-v04/prompts/neighborsBFixed.json",
+    "destination": "arts/backgrounds/03/neighbor-work-b-v05.png",
+    "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-97bb28d0-c0d1-42d5-b700-fc40fe17bc98.png",
+    "adopted": true,
+    "reason": "Claude审核后采用：独立键盘接触／共桌中景及其完整动作态"
+  }
+]

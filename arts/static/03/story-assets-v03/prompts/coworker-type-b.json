@@ -1,0 +1,9 @@
+{
+  "id": "coworker-type-b",
+  "dest": "arts/characters/poses/03/coworker-type-b-v01.png",
+  "refs": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/coworker-type-a-v01.png"
+  ],
+  "transparent": true,
+  "prompt": "Edit the reference complete seated coworker-and-chair cutout. Preserve exact portrait 1024x1536 canvas, camera, silhouette scale, chair shape and position, hips, feet, clothing, hairstyle, simplified blank face, fine cel-anime lines and lighting. True transparent background. No room, desk, computer, keyboard, text, logo, halo or shadow. No reframing, resizing, duplicated body or separate limbs. Change only the typing action: lower the right wrist slightly and press fingers down, while lifting the left fingertips a little off the imaginary keyboard. Forearms remain at the same desk height and reach. Slight attentive chin lift toward the monitor on upper right. Keep shoulders fixed. This is the second restrained typing keyframe, not a rest pose."
+}

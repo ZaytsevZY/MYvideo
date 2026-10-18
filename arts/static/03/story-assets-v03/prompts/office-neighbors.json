@@ -1,0 +1,9 @@
+{
+  "id": "office-neighbors",
+  "dest": "arts/backgrounds/03/office-neighbor-desks-v01.png",
+  "refs": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/shared/office-workstations-day-v01.png"
+  ],
+  "transparent": false,
+  "prompt": "Create a matching 16:9 cel-anime background plate of the RIGHT-HAND neighboring desks in the same company office as reference. Perspective is from an adjacent employee seated to the left, looking right across two occupied-in-future workstations. Currently EMPTY: no people or chairs. Two distinct wooden desks recede along one coherent diagonal, windows and city skyline behind, warm wood and muted blue-grey, fine clean anime lines and soft afternoon light. Near desk: reserve seating position in the left third; keyboard around x=40%,y=69%; monitor on its right around x=49%,y=43%, with a visible blank dark front screen. Far desk: reserve seating position around x=68%,y=45%; keyboard around x=76%,y=48%; monitor just to its right around x=86%,y=31%. Leave space above desks for seated upper bodies and arms, and below for chair cutouts. No desk lamp, no papers, no text, no UI, no watermark. A slim near monitor edge at far left may frame the view but must not cover the workers. This is an environment layer for independently composited whole seated people, not a full scene with figures."
+}

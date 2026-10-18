@@ -1,0 +1,34 @@
+[
+  {
+    "path": "scripts/final/shot/03.md",
+    "sha256": "8f2388ec19eb7a6709d35121453a60ad51ef0df49890dcdfd8df7f480b7f2368"
+  },
+  {
+    "path": "scripts/final/shot/STORY_LOGIC_PLAN.md",
+    "sha256": "9042e63881a8583cae19d616145ca8737f84d76f3c16eb62034827c20ad766d2"
+  },
+  {
+    "path": "arts/actions/03/README.md",
+    "sha256": "54ff0a2fe8a83309dc34c4b47b4fa303c1e815f6c11cd239db353c83c2ee6566"
+  },
+  {
+    "path": "arts/actions/03/provenance/storyboard-v03/chapter-plan.md",
+    "sha256": "dc6e9c47eea449f0214c384e23ff3a71f8d97b8b9a55b6fd4e93d301fc37a6e2"
+  },
+  {
+    "path": "arts/actions/03/provenance/storyboard-v03/shot-timing.json",
+    "sha256": "28705393a420c9d55014475147a13012680bc2e8a9525abefa1ec2c881da5a7c"
+  },
+  {
+    "path": "arts/actions/03/provenance/storyboard-v03/boundary-from-02-v03.json",
+    "sha256": "b679844885ca401e84a54f73fef68ecfeff084f7ddeee1cc9cfe7c303ab21f96"
+  },
+  {
+    "path": "arts/actions/03/provenance/storyboard-v03/boundary-to-04-v03.json",
+    "sha256": "cb23855f15f85ddf4ea47e36f0198c9721a37bc5f3fb619317b9d03718022469"
+  },
+  {
+    "path": "arts/actions/03/provenance/storyboard-v03/verification.json",
+    "sha256": "3af46452793aa842b981f80ada310169c9fae2538ed48c856f0dfc1bdf57607f"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "version":"S03_ART v0.4",
+  "url":"http://127.0.0.1:8765/static/03/story-assets-v04/preview.html",
+  "checked":["新版正面人物／独立键盘实际加载","聊天六条消息及14:00／14:01／17:00读取","消息姓名／时间边界读取与间距复查","邻桌中景及局部动作预览切换","雇佣关系与工作安排近全屏","39秒构图预演从0.13推进至39.00并自动停止，终态报告处理中"],
+  "screenshots":["browser-final.png","browser-neighbors.png","browser-exchange.png","browser-tree.png"],
+  "scope":"browser composition/keyframe review, not final encoded video or user art approval",
+  "review":"Claude Opus 5.5 one focused review, followed by production corrections; no second Claude approval claimed"
+}

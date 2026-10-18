@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1",
+  "status": "draft",
+  "fps": 30,
+  "size": [
+    1920,
+    1080
+  ],
+  "overlapFrames": 0,
+  "verified": false,
+  "seamPreviewPath": null,
+  "source": "chapter-plan.md",
+  "audioPresent": false,
+  "fromChapter": "03",
+  "toChapter": "04",
+  "versions": {
+    "fromPlan": "S03_STORYBOARD v0.3",
+    "toRuntime": "S04 v0.2",
+    "toScript": "S04_STORY_LOGIC v0.2"
+  },
+  "timeline": {
+    "fromGlobalStartFrame": 2490,
+    "fromFrameCount": 1170,
+    "fromLastEncodedLocalFrame": 1169,
+    "toGlobalStartFrame": 3660,
+    "toFrameCount": 1650,
+    "transitionFrameOwnership": "03 final hold / 04 initial research entry; no added time"
+  },
+  "outgoingPlan": {
+    "shotId": "S03-11",
+    "scene": "local hierarchy over office; programmer continues report",
+    "objects": [
+      "S03-employer",
+      "S03-hours",
+      "S03-C"
+    ],
+    "taskStates": {
+      "S03-A": "completed",
+      "S03-B": "completed",
+      "S03-C": "in-progress"
+    },
+    "lastCaption": "未必同步扩大。"
+  },
+  "incomingPlan": {
+    "scene": "distinct research-context entry, then parallel lunch/premeeting/evening",
+    "handoff": "time-window outline to schedule/research layout, concept match only",
+    "carryTaskIdentity": false
+  },
+  "openIssues": [
+    "Current04 basic entry still inherits historical S03-D scheduled-next-workday. Update its minimal entry metadata/context when new03 is integrated, or explicitly separate scenarios.",
+    "Do not rename S03-C into S03-D or mark the report completed.",
+    "No new boundary animation or encoded seam yet."
+  ]
+}

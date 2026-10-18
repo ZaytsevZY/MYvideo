@@ -1,0 +1,192 @@
+{
+  "version": "S03_ART v0.3",
+  "passed": true,
+  "unchangedSourceInputs": 15,
+  "scriptCaptionAndRuntimeUnchanged": true,
+  "modelCalls": 11,
+  "adoptedGeneratedImages": 10,
+  "images": [
+    {
+      "id": "office-main",
+      "adopted": true,
+      "path": "arts/backgrounds/03/office-main-over-shoulder-v01.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "alphaRange": null,
+      "rawCopyVerified": true
+    },
+    {
+      "id": "programmer-type",
+      "adopted": false,
+      "path": "arts/static/03/story-assets-v03/provenance/replaced/programmer-office-type-v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "rawCopyVerified": true
+    },
+    {
+      "id": "office-neighbors",
+      "adopted": true,
+      "path": "arts/backgrounds/03/office-neighbor-desks-v01.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "alphaRange": null,
+      "rawCopyVerified": true
+    },
+    {
+      "id": "coworker-type-a",
+      "adopted": true,
+      "path": "arts/characters/poses/03/coworker-type-a-v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "rawCopyVerified": true
+    },
+    {
+      "id": "coworker-paper-a",
+      "adopted": true,
+      "path": "arts/characters/poses/03/coworker-paper-a-v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "rawCopyVerified": true
+    },
+    {
+      "id": "programmer-click",
+      "adopted": true,
+      "path": "arts/characters/poses/03/programmer-office-click-v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "rawCopyVerified": true
+    },
+    {
+      "id": "programmer-read",
+      "adopted": true,
+      "path": "arts/characters/poses/03/programmer-office-read-v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "rawCopyVerified": true
+    },
+    {
+      "id": "programmer-look",
+      "adopted": true,
+      "path": "arts/characters/poses/03/programmer-office-look-right-v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "rawCopyVerified": true
+    },
+    {
+      "id": "coworker-type-b",
+      "adopted": true,
+      "path": "arts/characters/poses/03/coworker-type-b-v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "rawCopyVerified": true
+    },
+    {
+      "id": "coworker-paper-b",
+      "adopted": true,
+      "path": "arts/characters/poses/03/coworker-paper-b-v01.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "rawCopyVerified": true
+    },
+    {
+      "id": "programmer-type-v02",
+      "adopted": true,
+      "path": "arts/characters/poses/03/programmer-office-type-v02.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "rawCopyVerified": true
+    }
+  ],
+  "editableComponents": 9,
+  "representativeCompositions": 7,
+  "neighborPoseChangedChannelFraction": 0.05182725694444444,
+  "chatTextPreserved": true,
+  "reviewStatus": "S03-A/B completed; S03-C in-progress",
+  "activeOldSleepAssets": 0,
+  "scope": "assets and static layered compositions; not a chapter animation or video export",
+  "sources": [
+    {
+      "path": "assets.mjs",
+      "sha256": "9ce955d0f502953dfe0888eb3c93d58972589a851288a3c62c4e89b80a9d625c"
+    },
+    {
+      "path": "player.mjs",
+      "sha256": "c0d1015b12d8ec7dfcb3db0ea27cb0a373adccb81f702ff043e39098c37a2968"
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "61892298ff2990d7d4d4df402799d0fd4d2eb847dff126f44158953f3e88abf7"
+    },
+    {
+      "path": "verify.mjs",
+      "sha256": "d034cccc24c146cc4e52c87eb7ece51ad8e62936a87f867813ded51f4e7e7c6c"
+    }
+  ],
+  "browserChecks": [
+    "main reply with exact text",
+    "neighbor work before/after state",
+    "independent person-and-chair toggle"
+  ],
+  "browserEvidence": [
+    "provenance/browser-final.png",
+    "provenance/browser-neighbors.png"
+  ]
+}

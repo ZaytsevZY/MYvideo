@@ -35,15 +35,17 @@ test('six adapters render every frame with resolvable assets and stable state',(
  for(const f of [0,1349,1350,2489,2490,3659,3660,5309,5310,6659,6660,8399])assert.equal(render(f).svg,render(f).svg);
 });
 test('scene jumps select authored shots and subtitle toggle only removes subtitles',()=>{
- assert.equal(GLOBAL_BEATS.length,62);
+ assert.equal(GLOBAL_BEATS.length,65);
  for(const b of GLOBAL_BEATS){assert.equal(locateFrame(b.globalFrame).chapter.id,b.chapterId);assert.equal(render(b.globalFrame).beat.id,b.id);}
  for(const c of CHAPTERS){const on=render(c.startFrame+30),off=render(c.startFrame+30,{captions:false});assert(!off.svg.includes('data-film-caption='));assert(on.svg.includes(off.svg.slice(0,-6)));}
 });
 test('cross chapter identity and evidence semantics stay in their original scenarios',()=>{
  assert.equal(stateAt('01',1349/30).taskStates['T01-R'],'merged');
  assert.equal(stateAt('02',0).tasks['T01-R'],'merged');assert.equal(stateAt('02',37).tasks.feedback,'candidate');
- assert.equal(stateAt('03',0).taskStates['S03-A'],'accepted');
- assert.equal(stateAt('04',0).inheritedTasks['S03-D'],'scheduled-next-workday');
+ assert.equal(stateAt('03',0).taskStates['S03-A'],'submitted');
+ assert.equal(stateAt('03',38.9).taskStates['S03-C'],'in-progress');
+ assert.deepEqual(stateAt('04',0).inheritedTasks,{});
+ assert.equal(stateAt('04',0).previousScenarioTasks['S03-C'],'in-progress');
  assert.equal(stateAt('04',54.9).extraTaskState,'routine-acceptance');
  assert.equal(stateAt('05',0).decisionOwner,'organization');
  const body=s=>s.replace(/<defs>[\s\S]*?<\/defs>/,'');

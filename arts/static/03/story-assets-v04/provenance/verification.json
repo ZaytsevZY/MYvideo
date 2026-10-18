@@ -1,0 +1,32 @@
+{
+  "version": "S03_ART v0.4",
+  "passed": true,
+  "rawCopies": 16,
+  "adoptedImagegen": 8,
+  "rejectedImagegen": 8,
+  "derivedPortraits": 3,
+  "preservedGuards": 15,
+  "representativeFrames": 8,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "checks": [
+    "raw byte copies",
+    "reference and prompt SHA",
+    "original script/caption/runtime guards",
+    "valid image references and dimensions",
+    "clean expanded chat copy",
+    "14:00 completion / 14:01 assignment / 17:00 deadline",
+    "no standalone clock",
+    "near fullscreen employment relation",
+    "subtitle area reserved",
+    "distinct complete action keyframes"
+  ],
+  "limits": [
+    "finite keyframes are not full character animation",
+    "no new 39s rendered video",
+    "film runtime remains old03",
+    "new chapter seams not yet validated"
+  ]
+}

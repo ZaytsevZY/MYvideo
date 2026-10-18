@@ -1,0 +1,8 @@
+{
+  "prompt": "Edit target: reference image. Create the next registered cinematic animation keyframe, same portrait aspect ratio and EXACT stationary camera, desk, laptop, chair, lighting and background. Same protagonist identity, sweatshirt and lanyard. He pauses typing and naturally turns his head about 35 degrees toward SCREEN RIGHT to glance at neighboring coworkers, pupils looking screen right, weary thoughtful expression. Torso stays seated fixed; both hands remain gently resting near keyboard. Anatomically plausible neck/head turn, retain head scale. No arrows, no clock, no text, no decorative marks. Whole coherent scene, not a collage. Only head, eyes and associated neck shadow change.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/03/programmer-front-desk-a-v04.png"
+  ],
+  "transparent_background": false,
+  "destination": "arts/backgrounds/03/programmer-front-look-v04.png"
+}

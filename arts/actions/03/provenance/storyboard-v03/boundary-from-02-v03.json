@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1",
+  "status": "draft",
+  "fps": 30,
+  "size": [
+    1920,
+    1080
+  ],
+  "overlapFrames": 0,
+  "verified": false,
+  "seamPreviewPath": null,
+  "source": "chapter-plan.md",
+  "audioPresent": false,
+  "fromChapter": "02",
+  "toChapter": "03",
+  "versions": {
+    "from": "S02_STORY v0.4",
+    "toPlan": "S03_STORYBOARD v0.3"
+  },
+  "timeline": {
+    "fromGlobalStartFrame": 1350,
+    "fromFrameCount": 1140,
+    "fromLastEncodedLocalFrame": 1139,
+    "toGlobalStartFrame": 2490,
+    "toFrameCount": 1170,
+    "transitionFrameOwnership": "03 start within existing budget"
+  },
+  "outgoingState": {
+    "camera": "rear review medium shot",
+    "taskStates": {
+      "feedback": "candidate",
+      "H02-new1": "reviewing",
+      "H02-new2": "queued"
+    },
+    "lastCaption": "总劳动投入仍取决于任务规模。",
+    "framePath": "arts/actions/film/provenance/integration-v02/frame-2489.png"
+  },
+  "incomingPlan": {
+    "shotId": "S03-01",
+    "type": "L",
+    "scene": "company workstation, separate S03 explanatory scenario",
+    "firstCaption": "在以工时组织的雇佣劳动中，",
+    "method": "match looking direction and work-object framing; introduce framed employer/employee relation",
+    "newTasks": {
+      "S03-A/B": "separate task set; completion occurs at 9.1-11.1 seconds"
+    },
+    "preservePriorTasks": true
+  },
+  "openIssues": [
+    "New company camera and complete poses not yet generated.",
+    "Current03 runtime remains v0.1; no new action-match seam has been rendered."
+  ]
+}

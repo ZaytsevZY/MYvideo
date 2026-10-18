@@ -1,0 +1,215 @@
+{
+  "version": "S03_ART v0.4",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "frontPlate": [
+    0,
+    0,
+    758,
+    1080
+  ],
+  "chat": [
+    778,
+    30,
+    1112,
+    936
+  ],
+  "relation": [
+    64,
+    60,
+    1792,
+    900
+  ],
+  "subtitleSafe": [
+    40,
+    995,
+    1840,
+    70
+  ],
+  "layers": [
+    "coherent-scene-plate",
+    "enterprise-chat-or-relation",
+    "subtitle-safe"
+  ],
+  "retired": [
+    "standalone-clock",
+    "rear-view-cutout",
+    "neighbor-person-on-desk-composite",
+    "decorative-motion-arrows"
+  ],
+  "registry": [
+    {
+      "id": "front",
+      "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac",
+      "kind": "imagegen-whole-frame"
+    },
+    {
+      "id": "typeB",
+      "path": "arts/backgrounds/03/programmer-front-desk-b-v05.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "f51b573712a25eaaa9cf51336e9945bfbff36ecf7e19dfb68421e4772402f480",
+      "kind": "imagegen-whole-frame"
+    },
+    {
+      "id": "read",
+      "path": "arts/backgrounds/03/programmer-front-read-v05.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "c64f14f432430a1a01b5de70a56f7c42e0d11d349b60d97a34304b4c0ae5fdab",
+      "kind": "imagegen-whole-frame"
+    },
+    {
+      "id": "look",
+      "path": "arts/backgrounds/03/programmer-front-look-v05.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "f01bd7b141545ef5200721f1a7235c7b3ca47925f78ffd9d993660633dc6fff0",
+      "kind": "imagegen-whole-frame"
+    },
+    {
+      "id": "gaze",
+      "path": "arts/backgrounds/03/programmer-front-glance-v05.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "6e1e16e67030837450616947f626583b02741a299eaee68183e5bcfa3245e46a",
+      "kind": "imagegen-whole-frame"
+    },
+    {
+      "id": "neighbors",
+      "path": "arts/backgrounds/03/neighbor-work-a-v05.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8a6fa3f0e97925dacfa825ea2a8545928e41d6d4899c55ff0dd1662f3da80a0c",
+      "kind": "imagegen-whole-frame"
+    },
+    {
+      "id": "neighborsB",
+      "path": "arts/backgrounds/03/neighbor-work-b-v05.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3532019deb04853dc9f64a1e1463ca8bc4be803b55ed87723c74d073bb49b9e6",
+      "kind": "imagegen-whole-frame"
+    },
+    {
+      "id": "manager",
+      "path": "arts/characters/portraits/03/manager-neutral-v04.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370",
+      "kind": "imagegen-whole-frame"
+    },
+    {
+      "id": "coworkerA",
+      "path": "arts/characters/portraits/03/coworker-a-v04.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5",
+      "kind": "derived-portrait-crop"
+    },
+    {
+      "id": "coworkerB",
+      "path": "arts/characters/portraits/03/coworker-b-v04.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5",
+      "kind": "derived-portrait-crop"
+    },
+    {
+      "id": "portrait",
+      "path": "arts/characters/portraits/03/programmer-front-v04.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "ff8cef460bf150f730b2cc651b84e58ed9f92d3e09b74866be7724e919ff8d9d",
+      "kind": "derived-portrait-crop"
+    },
+    {
+      "id": "office",
+      "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11",
+      "kind": "reused"
+    }
+  ],
+  "frames": [
+    {
+      "name": "exchange",
+      "path": "arts/static/03/story-assets-v04/compositions/exchange.png",
+      "sha256": "9d0896216c21c37dda9435c6aef2a54eaed0120dcfac6b8b8e551a9ec518dacd",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "completed",
+      "path": "arts/static/03/story-assets-v04/compositions/completed.png",
+      "sha256": "f590caa0a7f4ab3a76221ae0285c8a3a7c794754ead12fb7b49ede2861865d88",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "reply",
+      "path": "arts/static/03/story-assets-v04/compositions/reply.png",
+      "sha256": "bb7d4557bbac25243b972ba5da8f1153b601b003a016624db9ea87d63ff58dc2",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "turn",
+      "path": "arts/static/03/story-assets-v04/compositions/turn.png",
+      "sha256": "be9ab09e24ca6a97a0dbcaa66600abebb7ff92ca31223dfaa7524d17f1fe9e42",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "look",
+      "path": "arts/static/03/story-assets-v04/compositions/look.png",
+      "sha256": "9ea36d48a14c719b72e313083cd9edbc93ae4faaecd5b12222b2d76207539a81",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "neighbors",
+      "path": "arts/static/03/story-assets-v04/compositions/neighbors.png",
+      "sha256": "9aafcb827126d85bbbf4d5616c86e2ad9e1f93522bd3fedbcb3803133016c8f9",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "typing",
+      "path": "arts/static/03/story-assets-v04/compositions/typing.png",
+      "sha256": "3f9f7a046906eadd09524b2739a24cb52ffcd2a85d9ae546d778f1e91ba77a70",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "name": "tree",
+      "path": "arts/static/03/story-assets-v04/compositions/tree.png",
+      "sha256": "1e093c7e54f8c37ea56b79db0831329bcf9eb6535151667861857756263a2099",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "scope": "corrected art and composition with 39s keyframe review; not full film integration or rendered chapter"
+}

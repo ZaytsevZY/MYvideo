@@ -1,0 +1,43 @@
+{
+  "version": "S03_STORYBOARD v0.3",
+  "stage": "storyboard text only",
+  "userOutlineBytesPreserved": true,
+  "audioBytesPreserved": true,
+  "referenceBytesPreserved": true,
+  "audioNonWhitespaceCharacters": 127,
+  "captionFilesUnchanged": true,
+  "shots": 11,
+  "duration": 39,
+  "frames": 1170,
+  "storySeconds": 21.4,
+  "logicSeconds": 17.6,
+  "unchangedInputs": [
+    "scripts/final/shot/01.md",
+    "scripts/final/shot/02.md",
+    "scripts/final/shot/04.md",
+    "scripts/final/shot/05.md",
+    "scripts/final/shot/06.md",
+    "arts/actions/03/captions/03-narration-v01.json",
+    "arts/actions/03/scene.mjs",
+    "arts/actions/film/scenes.mjs",
+    "arts/actions/film/timeline.mjs"
+  ],
+  "runtimeAndFilmUnchanged": true,
+  "oldSleepPlotRemovedFromActivePlan": true,
+  "modelOrMediaGenerationCalls": 0,
+  "boundaryStatus": "draft; not rendered or verified",
+  "visualAssetReferences": [
+    {
+      "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+      "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11"
+    },
+    {
+      "path": "arts/characters/poses/shared/coworker-discuss-right-v01.png",
+      "sha256": "8546cefcd379acb8104de47b9da5e0dcbf804a6c510d32cf502c9bb340f21752"
+    },
+    {
+      "path": "arts/characters/poses/shared/manager-assign-left-v01.png",
+      "sha256": "69dbdbbea503b3ef9100ece87b42692013bcce03048e6edced267a9046dc39ba"
+    }
+  ]
+}

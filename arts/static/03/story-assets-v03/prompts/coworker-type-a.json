@@ -1,0 +1,9 @@
+{
+  "id": "coworker-type-a",
+  "dest": "arts/characters/poses/03/coworker-type-a-v01.png",
+  "refs": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/shared/coworker-discuss-right-v01.png"
+  ],
+  "transparent": true,
+  "prompt": "Create a whole seated coworker and chair cutout on TRUE TRANSPARENT background in the exact reference cel-anime design. Same short brown hair, simplified blank face WITHOUT eyes/nose/mouth, grey-green sweatshirt, charcoal trousers, white sneakers. Camera behind-left at about 30 degrees off rear, slightly elevated, worker facing diagonally upper RIGHT. Sitting in a charcoal ergonomic office swivel chair; forearms extend forward-right at keyboard height, fingers typing on an IMAGINARY keyboard. Show complete seated body, both hands, chair back, wheels and feet within portrait 1024x1536 canvas with comfortable margin. No keyboard, mouse, desk, computer, paper or room. Fine dark outlines, soft cel shading, warm daylight from right, muted palette matching the reference. Natural arm anatomy, stable relaxed shoulders. No text, logo, halo, drop shadow or extra people. Chair is part of the complete cutout, not a separate limb rig."
+}

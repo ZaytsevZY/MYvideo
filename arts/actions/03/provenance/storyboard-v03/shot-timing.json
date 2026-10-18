@@ -1,0 +1,121 @@
+{
+  "version": "S03_STORYBOARD v0.3",
+  "status": "text-plan-only",
+  "duration": 39,
+  "fps": 30,
+  "globalStartFrame": 2490,
+  "frameCount": 1170,
+  "source": "chapter-plan.md",
+  "shots": [
+    {
+      "id": "S03-01",
+      "type": "L",
+      "parent": "V03.1",
+      "start": 0.0,
+      "end": 4.4,
+      "startFrame": 0,
+      "endFrame": 132,
+      "narrationAnchor": "A01 在以工时组织的雇佣劳动中"
+    },
+    {
+      "id": "S03-02",
+      "type": "L",
+      "parent": "V03.1",
+      "start": 4.4,
+      "end": 9.1,
+      "startFrame": 132,
+      "endFrame": 273,
+      "narrationAnchor": "A02 一定期限内的劳动力使用权"
+    },
+    {
+      "id": "S03-03",
+      "type": "E",
+      "parent": "V03.1",
+      "start": 9.1,
+      "end": 11.1,
+      "startFrame": 273,
+      "endFrame": 333,
+      "narrationAnchor": "A03 清单提前清空"
+    },
+    {
+      "id": "S03-04",
+      "type": "E",
+      "parent": "V03.1",
+      "start": 11.1,
+      "end": 13.0,
+      "startFrame": 333,
+      "endFrame": 390,
+      "narrationAnchor": "A03 约定工时不会因此自动结束"
+    },
+    {
+      "id": "S03-05",
+      "type": "E",
+      "parent": "V03.2",
+      "start": 13.0,
+      "end": 17.6,
+      "startFrame": 390,
+      "endFrame": 528,
+      "narrationAnchor": "A04 企业仍能在约定时段分配其他任务"
+    },
+    {
+      "id": "S03-06",
+      "type": "E",
+      "parent": "V03.2",
+      "start": 17.6,
+      "end": 20.0,
+      "startFrame": 528,
+      "endFrame": 600,
+      "narrationAnchor": "A05 工作能否真正结束，还受响应要求"
+    },
+    {
+      "id": "S03-07",
+      "type": "E",
+      "parent": "V03.2",
+      "start": 20.0,
+      "end": 23.0,
+      "startFrame": 600,
+      "endFrame": 690,
+      "narrationAnchor": "A05–A06 任务标准和工时界限"
+    },
+    {
+      "id": "S03-08",
+      "type": "E",
+      "parent": "V03.2",
+      "start": 23.0,
+      "end": 25.7,
+      "startFrame": 690,
+      "endFrame": 771,
+      "narrationAnchor": "A06 约束"
+    },
+    {
+      "id": "S03-09",
+      "type": "E",
+      "parent": "V03.2→V03.3",
+      "start": 25.7,
+      "end": 30.5,
+      "startFrame": 771,
+      "endFrame": 915,
+      "narrationAnchor": "A07 技术缩短了执行过程"
+    },
+    {
+      "id": "S03-10",
+      "type": "L",
+      "parent": "V03.3",
+      "start": 30.5,
+      "end": 34.7,
+      "startFrame": 915,
+      "endFrame": 1041,
+      "narrationAnchor": "A08 劳动者对劳动时间的决定权"
+    },
+    {
+      "id": "S03-11",
+      "type": "L",
+      "parent": "V03.3",
+      "start": 34.7,
+      "end": 39.0,
+      "startFrame": 1041,
+      "endFrame": 1170,
+      "narrationAnchor": "A09 未必同步扩大"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "version": "FILM_PREVIEW v0.2",
+  "version": "FILM_PREVIEW v0.3",
   "date": "2026-10-18",
   "fps": 30,
   "duration": 280,
@@ -1160,9 +1160,9 @@
     },
     {
       "id": "03",
-      "title": "工作日与响应规则",
+      "title": "雇佣关系与工作时间",
       "duration": 39,
-      "version": "S03 v0.1",
+      "version": "S03_STORY v0.5",
       "frames": 1170,
       "startFrame": 2490,
       "endFrame": 3660,
@@ -1369,68 +1369,103 @@
       "globalFrame": 2310
     },
     {
-      "id": "03-A",
+      "id": "S03-01",
       "start": 0,
-      "end": 6,
-      "name": "清单完成",
+      "end": 4.4,
+      "type": "L",
+      "name": "薪水与雇佣关系",
       "chapterId": "03",
       "globalFrame": 2490
     },
     {
-      "id": "03-B",
-      "start": 6,
-      "end": 10.5,
-      "name": "约定时段",
+      "id": "S03-02",
+      "start": 4.4,
+      "end": 9.1,
+      "type": "L",
+      "name": "约定时间内的劳动力使用",
       "chapterId": "03",
-      "globalFrame": 2670
+      "globalFrame": 2622
     },
     {
-      "id": "03-C",
-      "start": 10.5,
+      "id": "S03-03",
+      "start": 9.1,
+      "end": 11.1,
+      "type": "E",
+      "name": "查看已完成清单",
+      "chapterId": "03",
+      "globalFrame": 2763
+    },
+    {
+      "id": "S03-04",
+      "start": 11.1,
       "end": 13,
-      "name": "新增排期",
+      "type": "E",
+      "name": "14:00发送完成消息",
       "chapterId": "03",
-      "globalFrame": 2805
+      "globalFrame": 2823
     },
     {
-      "id": "03-D",
+      "id": "S03-05",
       "start": 13,
-      "end": 17,
-      "name": "三种规则",
+      "end": 17.6,
+      "type": "E",
+      "name": "14:01追加会议报告",
       "chapterId": "03",
       "globalFrame": 2880
     },
     {
-      "id": "03-E",
-      "start": 17,
-      "end": 22,
-      "name": "即时响应",
+      "id": "S03-06",
+      "start": 17.6,
+      "end": 20,
+      "type": "E",
+      "name": "读消息时间并侧看",
       "chapterId": "03",
-      "globalFrame": 3000
+      "globalFrame": 3018
     },
     {
-      "id": "03-F",
-      "start": 22,
-      "end": 27,
-      "name": "集中验收",
+      "id": "S03-07",
+      "start": 20,
+      "end": 23,
+      "type": "E",
+      "name": "邻桌仍在工作",
       "chapterId": "03",
-      "globalFrame": 3150
+      "globalFrame": 3090
     },
     {
-      "id": "03-G",
-      "start": 27,
-      "end": 34,
-      "name": "工作日边界",
+      "id": "S03-08",
+      "start": 23,
+      "end": 25.7,
+      "type": "E",
+      "name": "看回屏幕并继续",
       "chapterId": "03",
-      "globalFrame": 3300
+      "globalFrame": 3180
     },
     {
-      "id": "03-H",
-      "start": 34,
+      "id": "S03-09",
+      "start": 25.7,
+      "end": 30.5,
+      "type": "E",
+      "name": "整理会议报告",
+      "chapterId": "03",
+      "globalFrame": 3261
+    },
+    {
+      "id": "S03-10",
+      "start": 30.5,
+      "end": 34.7,
+      "type": "L",
+      "name": "企业安排与雇员",
+      "chapterId": "03",
+      "globalFrame": 3405
+    },
+    {
+      "id": "S03-11",
+      "start": 34.7,
       "end": 39,
-      "name": "团队排期",
+      "type": "L",
+      "name": "执行更快与时间决定权",
       "chapterId": "03",
-      "globalFrame": 3510
+      "globalFrame": 3531
     },
     {
       "id": "04-A",

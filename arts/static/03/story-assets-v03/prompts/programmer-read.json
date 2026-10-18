@@ -1,0 +1,9 @@
+{
+  "id": "programmer-read",
+  "dest": "arts/characters/poses/03/programmer-office-read-v01.png",
+  "refs": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/03/programmer-office-type-v01.png"
+  ],
+  "transparent": true,
+  "prompt": "Edit the supplied whole character-and-chair cutout. Preserve exact 1024x1536 canvas, camera, character identity, blue-grey sweatshirt, lanyard, pants, shoes, lighting, chair shape and position, feet and hip anchors. No reframing or resizing. Keep TRUE transparent background with no halo, room, desk, keyboard, mouse, text, watermark or shadow. Fine cel-anime lines identical to original. Change his hands from active typing to a clear paused state: both wrists draw back slightly toward him and fingers relax, elbows stay near original positions. Lift his chin slightly to read a message on the upper-right monitor, shoulders relax a little. Show a small visible left-side profile with neutral grey eye and closed mouth, matching the programmer. Whole body and chair remain anchored. No additional props."
+}

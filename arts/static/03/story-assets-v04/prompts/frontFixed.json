@@ -1,0 +1,8 @@
+{
+  "prompt": "Edit reference image precisely. Keep the same protagonist face, hair, head position, bluegrey clothes, teal lanyard, chair, office background, portrait aspect and camera. Correct the LOWER THIRD: REMOVE the laptop completely. The computer monitor is entirely OUT OF FRAME below/beside the camera. Show a normal separate dark DESKTOP KEYBOARD lying FLAT ON THE OAK DESK in front of him, its entire top key plane clearly visible. Both forearms rest naturally on the desk, fingers clearly resting on keyboard keys. Show oak desk in the bottom 20 percent with keyboard and hands. No upright screen/lid or dark foreground barrier at all. Avoid laptop, screen, wrist collision or hands behind a vertical object. Camera just high enough to see keyboard's top plane while face stays frontal. Single coherent anime keyframe; no text, no icons, no effects. Make the keyboard-hand contact unambiguous.",
+  "referenced_image_paths": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/03/programmer-front-desk-a-v04.png"
+  ],
+  "transparent_background": false,
+  "destination": "arts/backgrounds/03/programmer-front-desk-a-v05.png"
+}
