@@ -1,0 +1,34 @@
+{
+  "version": "S02_LAYERED v0.3",
+  "date": "2026-10-18",
+  "passed": true,
+  "scope": "layered composition sample, not full chapter",
+  "sourceInputsUnchanged": 128,
+  "framesSampled": 361,
+  "occlusion": {
+    "leftChangedFraction": 0.9655619047619047,
+    "rightChangedFraction": 0
+  },
+  "motionFractions": {
+    "meal": 0.20660984848484848,
+    "work": 0.06876136363636363
+  },
+  "gifFrames": 48,
+  "panelAreaFraction": 0.738287037037037,
+  "guideArrows": false,
+  "kpiLabels": true,
+  "softBorderPulses": 2,
+  "scriptCheck": "Only visual directions changed; audio and references identical",
+  "artGenerationCalls": 4,
+  "visualReview": [
+    "Full source PNGs reused at native aspect.",
+    "Foreground obscures left dining action; right work action remains unobstructed.",
+    "Thought symbol moved below option title while remaining upper right of foreground actor.",
+    "Background blur and separate card shadows establish depth."
+  ],
+  "sources": {
+    "scene": "bc8af2d815a195b365e18d6b510a390b603a62afa1ea1a0f75db195291b645fa",
+    "player": "1e71f6f2f4e66507a02b7ef454ccc5cf665fc664ab642ef3de510cfd8fbe23b8",
+    "layout": "9b1f04b32789713afe754f1ec3d2fb5a2cd6988047576939a81b1692103ae231"
+  }
+}

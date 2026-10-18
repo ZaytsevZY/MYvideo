@@ -1,0 +1,531 @@
+{
+  "config": {
+    "version": "S02_STORY v0.4",
+    "duration": 38,
+    "fps": 30,
+    "frames": 1140,
+    "width": 1920,
+    "height": 1080,
+    "globalStartFrame": 1350,
+    "audio": false
+  },
+  "beats": [
+    {
+      "id": "S02-E1",
+      "start": 0,
+      "end": 5,
+      "name": "打开搁置需求"
+    },
+    {
+      "id": "S02-L1",
+      "start": 5,
+      "end": 13,
+      "name": "可行边界"
+    },
+    {
+      "id": "S02-E2",
+      "start": 13,
+      "end": 17,
+      "name": "休息与继续工作"
+    },
+    {
+      "id": "S02-L2",
+      "start": 17,
+      "end": 23,
+      "name": "同一份节约"
+    },
+    {
+      "id": "S02-E3",
+      "start": 23,
+      "end": 27,
+      "name": "KPI与选择"
+    },
+    {
+      "id": "S02-L3",
+      "start": 27,
+      "end": 32,
+      "name": "投入与任务规模"
+    },
+    {
+      "id": "S02-E4",
+      "start": 32,
+      "end": 38,
+      "name": "连续审核"
+    }
+  ],
+  "captions": [
+    {
+      "text": "工作量不是固定的存量。",
+      "startMs": 0,
+      "endMs": 2400,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "开发成本下降，",
+      "startMs": 2400,
+      "endMs": 5200,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "会改变项目的成本收益边界，",
+      "startMs": 5200,
+      "endMs": 8000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "使一部分原先不值得开展的需求",
+      "startMs": 8000,
+      "endMs": 10300,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "变得可行。",
+      "startMs": 10300,
+      "endMs": 13000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "效率收益既可用于减少劳动，",
+      "startMs": 13000,
+      "endMs": 16400,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "也可用于扩大产出。",
+      "startMs": 16400,
+      "endMs": 19200,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "以价值增殖为目的的生产，",
+      "startMs": 19200,
+      "endMs": 22700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "有将节约重新投入生产的动力。",
+      "startMs": 22700,
+      "endMs": 27000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "单项任务耗时缩短，",
+      "startMs": 27000,
+      "endMs": 30900,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "总劳动投入仍取决于任务规模。",
+      "startMs": 30900,
+      "endMs": 38000,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "frame": 0,
+      "path": "arts/actions/02/provenance/story-v04/frame-0000.png",
+      "sha256": "4ed31d6f69271515dae316b38b61153c4ebe738818e5ca8b6777703bbdac57fc"
+    },
+    {
+      "time": 0.7,
+      "frame": 21,
+      "path": "arts/actions/02/provenance/story-v04/frame-0021.png",
+      "sha256": "02b49e4c8d5fc46cb970a6dcfb8a3bf59bf0963c46c42f4c2770c13e9b89645a"
+    },
+    {
+      "time": 2.8,
+      "frame": 84,
+      "path": "arts/actions/02/provenance/story-v04/frame-0084.png",
+      "sha256": "ca28c0f0723514696f05d2bce8f043d20017c9594a0318e4f2a3b5b6694f3396"
+    },
+    {
+      "time": 4.7,
+      "frame": 141,
+      "path": "arts/actions/02/provenance/story-v04/frame-0141.png",
+      "sha256": "0382e8076db3572feb79fa09545ec9562f955e4e5f0daf346d85504a2241d810"
+    },
+    {
+      "time": 6,
+      "frame": 180,
+      "path": "arts/actions/02/provenance/story-v04/frame-0180.png",
+      "sha256": "f56fbbf5bfe60687cabe3d625e1ce68dd8449fe24c25513643188f49b977b266"
+    },
+    {
+      "time": 10.7,
+      "frame": 321,
+      "path": "arts/actions/02/provenance/story-v04/frame-0321.png",
+      "sha256": "ddbad90bdc25aea1c4c13f8293d7f340e9f81067666ac7dcb981e2023141ca97"
+    },
+    {
+      "time": 12.7,
+      "frame": 381,
+      "path": "arts/actions/02/provenance/story-v04/frame-0381.png",
+      "sha256": "19e12bf7159a488e7040076f76771b4b714cdb04f99cb7f6909bfb2ccc92cc5a"
+    },
+    {
+      "time": 13.1,
+      "frame": 393,
+      "path": "arts/actions/02/provenance/story-v04/frame-0393.png",
+      "sha256": "81024f3da43f0323e4aef98f2131426dcb91711a734e254bdc8e031073257cba"
+    },
+    {
+      "time": 16,
+      "frame": 480,
+      "path": "arts/actions/02/provenance/story-v04/frame-0480.png",
+      "sha256": "03f326801c5688b97d3d05e8bcb09e8d580d8e8a95036ecb99f8959d27a50f84"
+    },
+    {
+      "time": 18.3,
+      "frame": 549,
+      "path": "arts/actions/02/provenance/story-v04/frame-0549.png",
+      "sha256": "5a76eddb623b21ae3a038c2c15d2271263d4ef02aa3d1c687ef2cff925833100"
+    },
+    {
+      "time": 21.6,
+      "frame": 648,
+      "path": "arts/actions/02/provenance/story-v04/frame-0648.png",
+      "sha256": "2465922d13047b87e03cda7a85a6f6151931d4f0f03f0ae3a99a9b91c960ee61"
+    },
+    {
+      "time": 24.5,
+      "frame": 735,
+      "path": "arts/actions/02/provenance/story-v04/frame-0735.png",
+      "sha256": "a411e50209fc4ea823909b86eb16d93d3bab83e734b4dfadd510fdaca4265f0a"
+    },
+    {
+      "time": 25.7,
+      "frame": 771,
+      "path": "arts/actions/02/provenance/story-v04/frame-0771.png",
+      "sha256": "a6ac59a287fd194ab09c4f2566ff31aee536545c87b0418fe9dbb457ab5ec076"
+    },
+    {
+      "time": 26.6,
+      "frame": 798,
+      "path": "arts/actions/02/provenance/story-v04/frame-0798.png",
+      "sha256": "20e00347b6dc33cc9d13666fa23c4c32fed18af63a47efc444e1f032e9e48768"
+    },
+    {
+      "time": 27.5,
+      "frame": 825,
+      "path": "arts/actions/02/provenance/story-v04/frame-0825.png",
+      "sha256": "82969e7efffdd07fd99ba183febf1b1dc6be3c0fefffc65b16671e460ffcda2c"
+    },
+    {
+      "time": 30.7,
+      "frame": 921,
+      "path": "arts/actions/02/provenance/story-v04/frame-0921.png",
+      "sha256": "0babfeb1a11106ee64cdea351823895302a906d5709f1deb358be465c4525d04"
+    },
+    {
+      "time": 32.1,
+      "frame": 963,
+      "path": "arts/actions/02/provenance/story-v04/frame-0963.png",
+      "sha256": "e674d68312365e5609196b97ff1b7a89ffa75867c3d18273197b5a19074cc3ff"
+    },
+    {
+      "time": 34.6,
+      "frame": 1038,
+      "path": "arts/actions/02/provenance/story-v04/frame-1038.png",
+      "sha256": "32173adfaa3d4b151b1e736648e3d2959680fdfa71e12f7c613355b6abdb0865"
+    },
+    {
+      "time": 37.5,
+      "frame": 1125,
+      "path": "arts/actions/02/provenance/story-v04/frame-1125.png",
+      "sha256": "f172523ef7d587cdfba08f8f4ba28392911f447847619a740be072a224f53c37"
+    }
+  ],
+  "assets": [
+    {
+      "id": "document-portrait",
+      "dataUri": "../../items/01/task-document-portrait-v01.png",
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "width": 1086,
+      "height": 1448,
+      "preserveAspectRatio": "xMidYMid meet",
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420"
+    },
+    {
+      "id": "avatar-programmer-neutral",
+      "dataUri": "../../characters/portraits/01/programmer-neutral-v01.png",
+      "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet",
+      "sha256": "20a101697879a0e54da5861532080cede1db7d4cfd7dbbd9dbd7af820d9cfbaa"
+    },
+    {
+      "id": "avatar-programmer-focus",
+      "dataUri": "../../characters/portraits/01/programmer-focus-v01.png",
+      "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet",
+      "sha256": "4e6f1beaf38dd2e02df9f6e3a1943d3815a73d6e0113f2b8531ea7ad6113fc1e"
+    },
+    {
+      "id": "avatar-agent-neutral",
+      "dataUri": "../../characters/portraits/01/agent-neutral-v01.png",
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet",
+      "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828"
+    },
+    {
+      "id": "avatar-agent-focus",
+      "dataUri": "../../characters/portraits/01/agent-focus-v01.png",
+      "path": "arts/characters/portraits/01/agent-focus-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "preserveAspectRatio": "xMidYMid meet",
+      "sha256": "2db469f8afaae3bcbb54aa1ec4487f43c8a614bffcf56c85a77dbe15b3703f20"
+    },
+    {
+      "id": "cursor",
+      "dataUri": "../../static/01/cursor-v01.svg",
+      "path": "arts/static/01/cursor-v01.svg",
+      "width": 70,
+      "height": 90,
+      "sha256": "8644710ef890d036ffb200a10be9d55e67adc79c20ee18089129261f2a428b05"
+    },
+    {
+      "id": "stage",
+      "path": "arts/actions/02/provenance/opening-v02/stage-idle.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "bd40ce09b4584e1f55c35bffeaadd032bea3c3b8b4012695f728711e1ed6eac3"
+    },
+    {
+      "id": "stage-lean",
+      "path": "arts/actions/02/provenance/opening-v02/stage-lean.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1008c45f8c4b334f28cf5fbd754778963a7575b9b88da44d75c72ef20c32e923"
+    },
+    {
+      "id": "document-landscape",
+      "dataUri": "../../items/01/task-document-landscape-v01.png",
+      "path": "arts/items/01/task-document-landscape-v01.png",
+      "width": 1774,
+      "height": 887,
+      "preserveAspectRatio": "xMidYMid meet",
+      "sha256": "2c5ecf3f14465c3622b8d2e783c994e8240bebb063dbb8604414923d1cf7c225"
+    },
+    {
+      "id": "plan-tray",
+      "dataUri": "../../items/01/plan-tray-painted-v01.png",
+      "path": "arts/items/01/plan-tray-painted-v01.png",
+      "width": 1672,
+      "height": 941,
+      "preserveAspectRatio": "xMidYMid meet",
+      "viewBox": [
+        39,
+        237,
+        1595,
+        445
+      ],
+      "sha256": "5a9d24eb3d6eaf19cd9a7e2fad7f142c7650f2795ff36b8d52afb382fd27d1ca"
+    },
+    {
+      "id": "stage-rest",
+      "path": "arts/actions/02/provenance/full-v03/stage-rest.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2493e278870a0695e6de62357fbf2d2130c14957a22a4e03532aec0118d26e28"
+    },
+    {
+      "id": "s02-room",
+      "path": "arts/backgrounds/01/workroom-day-v01.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "45e33124784fffdfd755d27f6ee1b13d06d65261795087e83ec15c74392c50b3"
+    },
+    {
+      "id": "s02-desk",
+      "path": "arts/items/01/workstation-painted-v02.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c05a579cb7d6e3eeefac268c6d122495396b6fbe759d5efbc5cda4c1981a234a"
+    },
+    {
+      "id": "s02-chair",
+      "path": "arts/items/01/chair-back-rear-painted-v01.png",
+      "width": 1055,
+      "height": 1491,
+      "sha256": "c8081c17e825a75dacb7b6f23f21e8d7ed6f76bdffe978eba4bd525aef6071c6"
+    },
+    {
+      "id": "s02-input",
+      "path": "arts/characters/poses/01/programmer-input-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373"
+    },
+    {
+      "id": "s02-relax",
+      "path": "arts/characters/poses/02/programmer-relax-rear-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "6209ad47b82c7546cd229996692eca2d868a9fb00dd3d0b90c06253c07b8510d"
+    },
+    {
+      "id": "s02-think",
+      "path": "arts/characters/poses/02/programmer-think-up-right-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "4cbcc61130ae40457b9e1ae2d8648324a541970be64c9d4cc494fa22f5529d05"
+    },
+    {
+      "id": "s02-choose",
+      "path": "arts/characters/poses/02/programmer-choose-right-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "3df86a6589207df7491277c3197f7bb59d92fea6263d8c4f195776dda3513dbd"
+    },
+    {
+      "id": "s02-agent",
+      "path": "arts/characters/poses/01/agent-receive-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "dac6f4c336ca5dfeee79843776c8e3a60df740e611ad6c4ef45d364ed7fe15f5"
+    },
+    {
+      "id": "s02-mealRoom",
+      "path": "arts/backgrounds/02/breakroom-meal-day-v01.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b76192ef6fea2b5c4ac24d2d523ac0b8c633b88b4b1ea4ae926c5d7ffd7bd6a2"
+    },
+    {
+      "id": "s02-eatDown",
+      "path": "arts/characters/poses/02/programmer-eat-down-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "4eba5d2fc42d119cf060bd2fca59875696c7131a65dd9edf31e7446de2f7cffd"
+    },
+    {
+      "id": "s02-eatScoop",
+      "path": "arts/characters/poses/02/programmer-eat-scoop-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "4b32a5caf00c9176963214db7b7bcabbdde280f966b7c1137639974ba50c0f55"
+    },
+    {
+      "id": "s02-eatBite",
+      "path": "arts/characters/poses/02/programmer-eat-bite-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "f60339bf6f84c6d9684e5ba51af2452da37d689a9307ceeda5f2325ee77dee4d"
+    },
+    {
+      "id": "s02-release",
+      "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "6304e88141b54c50d2e87659315b26392d86123a2073cdd98068b38776a1312b"
+    },
+    {
+      "id": "s02-review",
+      "path": "arts/characters/poses/02/programmer-review-current-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "2a32a3e65351e725453c0ad2561a1f1370b281929a4f317a7ec3c03fa3ed2db8"
+    },
+    {
+      "id": "s02-agentIdle",
+      "path": "arts/characters/poses/01/agent-idle-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "fbcf2a3125182fc9d7834015378b786a6bdf6187b334bc3d6ecb996d62c6df4c"
+    },
+    {
+      "id": "s02-agentInspect",
+      "path": "arts/characters/poses/01/agent-inspect-file-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "1c61c9c353b92cc2efd8881a684854392056d057eeba2e569b608055f23a3a88"
+    },
+    {
+      "id": "s02-agentOffer",
+      "path": "arts/characters/poses/01/agent-offer-file-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "65c06a3902b13821725a64a8d9a25d8c18c8409186f46558409e3b05d3c9b235"
+    },
+    {
+      "id": "s02-document",
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420"
+    },
+    {
+      "id": "s02-backlogList",
+      "path": "arts/items/shared/backlog-list-v01.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "8933d89dc45a6b567348085427538861e392bda1115c34b417d53da23d70782d"
+    },
+    {
+      "id": "s02-backlogOpen",
+      "path": "arts/items/shared/backlog-open-v01.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "5333f4178763f5d514374aab72b46c8b577965acaa98ee02f1c485875eba0d6c"
+    },
+    {
+      "id": "s02-reviewNext",
+      "path": "arts/characters/poses/02/programmer-review-next-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "63820e630fd3b6bd02168873aab066e156b72c16ccdf51565d2faa1979fcb138"
+    }
+  ],
+  "sources": [
+    {
+      "path": "scripts/final/shot/02.md",
+      "sha256": "5b05a43abfca68d8823916764c8638085e9b2ec17f9fa0d5bdb974b562c7413b"
+    },
+    {
+      "path": "arts/actions/02/story-scene-v04.mjs",
+      "sha256": "438c21599082e6a0fdd5016b6d4bd654331ac033537b32127bb691ea936eb7f8"
+    },
+    {
+      "path": "arts/actions/02/story-player-v04.mjs",
+      "sha256": "370a50add3ae4a07bbf55a426590b52b634b894dc9b61ee7199ab3fd78d7bb82"
+    },
+    {
+      "path": "arts/static/02/story-assets-v01/scene-layered-v03.mjs",
+      "sha256": "e8f77557ed5034102bf3bad91d351219e27823932786f90b438e054dfcbc87be"
+    },
+    {
+      "path": "arts/actions/02/full-preview.html",
+      "sha256": "9b5bb79f7238ecfedb0f9cd237dbcf615df84ed6282264b34a0b9b22564dcec1"
+    },
+    {
+      "path": "arts/actions/02/story-v04.test.mjs",
+      "sha256": "2edd76d0ba1efba279bdc541368f5fccc5ae8e1c8d615ffb3524801723b9d670"
+    },
+    {
+      "path": "arts/actions/02/qa-story-v04.mjs",
+      "sha256": "e35b0e1520713081ce7d63b0f7711ea8ef3dcf2faca89fa2bdc4ec3ed37922a7"
+    }
+  ],
+  "imageGenerationCalls": 0,
+  "audio": false,
+  "scope": "38-second live framework; no chapter MP4 export"
+}

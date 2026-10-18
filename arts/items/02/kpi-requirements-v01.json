@@ -1,0 +1,11 @@
+{
+  "version": "S02_KPI_CONTENT v0.1",
+  "title": "KPI · 本轮要求",
+  "rows": [
+    "交付范围",
+    "验收标准",
+    "周期安排"
+  ],
+  "scope": "fictional prop labels; no numerical quota, penalty or measured data",
+  "managerSource": "arts/characters/poses/shared/manager-assign-left-v01.png"
+}

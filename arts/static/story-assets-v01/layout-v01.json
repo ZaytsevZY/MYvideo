@@ -1,0 +1,34 @@
+{
+  "version": "STORY_COMPOSITION v0.1",
+  "canvas": [1920, 1080],
+  "stage": "art-preparation; not chapter animation",
+  "subtitleSafeArea": [48, 950, 1824, 130],
+  "threePanelGroup": {
+    "chapter": "04", "block": "V04.1-E1", "localSeconds": [4, 15],
+    "mode": "concurrent story montage; not three successive cuts or three simultaneous moments in one day",
+    "panels": [
+      {"id": "A", "scene": "lunch", "rect": [28, 28, 604, 906], "source": "arts/static/04/lunch-panel-v02.png", "task": "S04-lunch", "action": "用餐的手停下，另一手派发补充测试"},
+      {"id": "B", "scene": "premeeting", "rect": [658, 28, 604, 906], "source": "arts/static/04/premeeting-panel-v02.png", "task": "S04-premeeting", "action": "等候时发任务，同事入场后抬头"},
+      {"id": "C", "scene": "evening", "rect": [1288, 28, 604, 906], "source": "arts/static/04/evening-panel-v02.png", "task": "S04-evening", "action": "本欲合上电脑，重新打开并继续输入"}
+    ],
+    "animationHandoff": "三窗从4秒同屏保留至15秒；动作重音可依次落在午餐/会前/晚间，其他窗仍在场；各窗任务小层独立启动。不是实时同时发生，不将其作为同一真实受访者一天的复原。现有每窗只有一张关键绘稿，正式动画另补动作前后状态。"
+  },
+  "notification": {
+    "chapter": "03", "block": "V03.2-E2", "localSeconds": [17, 22],
+    "main": [0, 0, 1920, 1080], "inset": [1184, 84, 672, 224],
+    "states": ["programmer-asleep-main-v01.png", "programmer-awake-main-v01.png"],
+    "trigger": "先休息，结果通知入场，然后人物醒来查看。通知不代替主画面反应；使用整幅关键状态切换，不将两个身体叠化。",
+    "context": "公司工位、工作日内短暂休息的说明情境；不将后台等待全计为劳动，不暗示普遍夜间随叫随到。"
+  },
+  "managerAssignment": {
+    "chapters": ["02", "03", "04", "05"], "inset": [1120, 460, 740, 416],
+    "source": "compositions/manager-task-window.svg",
+    "placeholderMain": "03醒来绘稿仅供构图示范；02正式接收动作另补。小窗任务文字按章替换，H02-new1/new2不改名为S03-C。",
+    "trigger": "负责人递交/排期先发生；程序员注意到、停下离席动作并接收；两层有短因果延迟，随后同屏保留。"
+  },
+  "ui": {
+    "screenNative": [1440, 900],
+    "mapping": "UI用PNG或SVG作为平面内容，按实际显示器四角透视映射；不直接贴在笔记本背盖。",
+    "taskIdentity": "feedback仍是candidate，打开不等于立项；01已验收/已合并/已排期状态不变。"
+  }
+}

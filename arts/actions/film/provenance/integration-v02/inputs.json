@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-18",
+  "chapters": [
+    {
+      "id": "01",
+      "title": "效率与任务边界",
+      "duration": 45,
+      "version": "S01_CAMERA v0.3",
+      "frames": 1350,
+      "startFrame": 0,
+      "endFrame": 1350,
+      "start": 0,
+      "end": 45
+    },
+    {
+      "id": "02",
+      "title": "成本下降与任务扩张",
+      "duration": 38,
+      "version": "S02_STORY v0.4",
+      "frames": 1140,
+      "startFrame": 1350,
+      "endFrame": 2490,
+      "start": 45,
+      "end": 83
+    },
+    {
+      "id": "03",
+      "title": "工作日与响应规则",
+      "duration": 39,
+      "version": "S03 v0.1",
+      "frames": 1170,
+      "startFrame": 2490,
+      "endFrame": 3660,
+      "start": 83,
+      "end": 122
+    },
+    {
+      "id": "04",
+      "title": "竞争与标准重设",
+      "duration": 55,
+      "version": "S04 v0.2",
+      "frames": 1650,
+      "startFrame": 3660,
+      "endFrame": 5310,
+      "start": 122,
+      "end": 177
+    },
+    {
+      "id": "05",
+      "title": "执行能力与决定权",
+      "duration": 45,
+      "version": "S05 v0.1",
+      "frames": 1350,
+      "startFrame": 5310,
+      "endFrame": 6660,
+      "start": 177,
+      "end": 222
+    },
+    {
+      "id": "06",
+      "title": "效率收益与人的自由",
+      "duration": 58,
+      "version": "S06 v0.1",
+      "frames": 1740,
+      "startFrame": 6660,
+      "endFrame": 8400,
+      "start": 222,
+      "end": 280
+    }
+  ],
+  "source": [
+    {
+      "path": "arts/actions/01/camera-motion.mjs",
+      "sha256": "434ec2191c05e357997f0390b363b8ab841a50717191f4dee08a41bdef8789db"
+    },
+    {
+      "path": "arts/actions/01/performance.mjs",
+      "sha256": "3405c27ceee06f6999d52a1854efb91a73f7d8e9f2bd118e93368a80b28f5a04"
+    },
+    {
+      "path": "arts/actions/01/keyframes.mjs",
+      "sha256": "b026c5bb7341787c9436718a6aa7dc1d6bfe4600d3c276955eac070db0be6451"
+    },
+    {
+      "path": "arts/actions/01/bundle-camera-v01.json",
+      "sha256": "4b6c8ef5834cd865479658ce9353a742636298aa750240fad2741ab26b804892"
+    },
+    {
+      "path": "arts/actions/01/captions/caption-data.mjs",
+      "sha256": "60deb7002e45b21409d5c3db69fe368f681cdc7b5271e522dfd7bb0604877b59"
+    },
+    {
+      "path": "arts/actions/02/full-scene.mjs",
+      "sha256": "c58c352a6f73f9bced8d1986dacc2e86c28f64fedb6e6721914b6585cd7fcbe5"
+    },
+    {
+      "path": "arts/actions/02/opening-revised.mjs",
+      "sha256": "930bfd52447780ceac05ca424b16b83a944206cf3fed11fefb03bbeef7c8e88b"
+    },
+    {
+      "path": "arts/actions/02/entry-v03.mjs",
+      "sha256": "f703c15a3b9a3b18c55f341d3bdd43fecb84895f2deff9f19f23199c3c3525af"
+    },
+    {
+      "path": "arts/actions/02/scene.mjs",
+      "sha256": "e433238148db2dc30cba49f81fb9e163a14f96172d052801222dd6fa9abb187a"
+    },
+    {
+      "path": "arts/actions/03/scene.mjs",
+      "sha256": "b552427143f4db96dab75fd047020fae2bdb2f207a3aaa2220f60671ed051ef8"
+    },
+    {
+      "path": "arts/actions/04/scene.mjs",
+      "sha256": "63d4b006e9a294cef05e5e2ccbe62a916a823f036dc2ceafbe5fb1be88fce771"
+    },
+    {
+      "path": "arts/actions/05/scene.mjs",
+      "sha256": "c2c1598797e950543788875d7c55b8f7cfa1c4594c63427c819ac7b0f0e85f39"
+    },
+    {
+      "path": "arts/actions/06/scene.mjs",
+      "sha256": "6441471b14334235b32f323fa3a2830cf50f6d6d992f738fef8fa633332e6dc6"
+    },
+    {
+      "path": "arts/actions/02/story-scene-v04.mjs",
+      "sha256": "438c21599082e6a0fdd5016b6d4bd654331ac033537b32127bb691ea936eb7f8"
+    },
+    {
+      "path": "arts/static/02/story-assets-v01/scene-layered-v03.mjs",
+      "sha256": "e8f77557ed5034102bf3bad91d351219e27823932786f90b438e054dfcbc87be"
+    }
+  ],
+  "framework": [
+    {
+      "path": "arts/actions/film/timeline.mjs",
+      "sha256": "b8044d46e29e89399257d5a2de6be80f03d842d5f12b1e828f862751177fd9f7"
+    },
+    {
+      "path": "arts/actions/film/scenes.mjs",
+      "sha256": "c13f4ebd962c3ab9f9a72d17d4d023168474d5ed61a894e11faaa1ac799b5684"
+    },
+    {
+      "path": "arts/actions/film/player.mjs",
+      "sha256": "5e1c0087be3e85bc8b4f4620ef419f12b63fcc70a36ea2efeda7f568fcdbf122"
+    },
+    {
+      "path": "arts/actions/film/player.css",
+      "sha256": "9f86719adbb71d7c292122e74a6fbe7f050b71731fd73dbd5300eaa31e9ca046"
+    },
+    {
+      "path": "arts/actions/film/preview.html",
+      "sha256": "7f574411cb581d774024b6ea56261bcabc70160b342fcdd7f0af1fba1571c3aa"
+    },
+    {
+      "path": "arts/actions/film/build.mjs",
+      "sha256": "3adc026ec4be2e54d920d867755602306be6139310aac942b8daf5552c591ba5"
+    },
+    {
+      "path": "arts/actions/film/qa.mjs",
+      "sha256": "504396f39bd843ae35bca52db04023eaa18175e13d8a2c352eda8032f555b60d"
+    },
+    {
+      "path": "arts/actions/film/framework.test.mjs",
+      "sha256": "960eec78203f869157261b62606b605976bc94806bf9413959e5617abaa69120"
+    }
+  ],
+  "audio": false,
+  "externalModelCalls": 0,
+  "updatedChapter": "02",
+  "otherChapterSourcesModified": false
+}

@@ -1,0 +1,124 @@
+{
+  "version": "S02_LAYERED v0.2",
+  "date": "2026-10-18",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "left": [
+    44,
+    68,
+    888,
+    862
+  ],
+  "right": [
+    984,
+    68,
+    888,
+    862
+  ],
+  "foreground": [
+    10,
+    184,
+    584,
+    876
+  ],
+  "thought": [
+    592,
+    170,
+    576,
+    310
+  ],
+  "subtitleSafe": [
+    24,
+    982,
+    1872,
+    80
+  ],
+  "layerOrder": [
+    "background",
+    "left-option",
+    "right-option",
+    "programmer",
+    "thought",
+    "selected-right-front"
+  ],
+  "duration": 10.2,
+  "scope": "composition study; no changes to full chapter animation",
+  "attention": "foreground occludes left; two soft right-border pulses; no guide arrow",
+  "kpi": "symbolic rising polyline; no labels, axes, numerical ticks or measured data",
+  "inputs": [
+    {
+      "id": "room",
+      "path": "arts/backgrounds/01/workroom-day-v01.png",
+      "sha256": "45e33124784fffdfd755d27f6ee1b13d06d65261795087e83ec15c74392c50b3"
+    },
+    {
+      "id": "desk",
+      "path": "arts/items/01/workstation-painted-v02.png",
+      "sha256": "c05a579cb7d6e3eeefac268c6d122495396b6fbe759d5efbc5cda4c1981a234a"
+    },
+    {
+      "id": "chair",
+      "path": "arts/items/01/chair-back-rear-painted-v01.png",
+      "sha256": "c8081c17e825a75dacb7b6f23f21e8d7ed6f76bdffe978eba4bd525aef6071c6"
+    },
+    {
+      "id": "input",
+      "path": "arts/characters/poses/01/programmer-input-v01.png",
+      "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373"
+    },
+    {
+      "id": "relax",
+      "path": "arts/characters/poses/02/programmer-relax-rear-v01.png",
+      "sha256": "6209ad47b82c7546cd229996692eca2d868a9fb00dd3d0b90c06253c07b8510d"
+    },
+    {
+      "id": "think",
+      "path": "arts/characters/poses/02/programmer-think-up-right-v01.png",
+      "sha256": "4cbcc61130ae40457b9e1ae2d8648324a541970be64c9d4cc494fa22f5529d05"
+    },
+    {
+      "id": "choose",
+      "path": "arts/characters/poses/02/programmer-choose-right-v01.png",
+      "sha256": "3df86a6589207df7491277c3197f7bb59d92fea6263d8c4f195776dda3513dbd"
+    },
+    {
+      "id": "agent",
+      "path": "arts/characters/poses/01/agent-receive-v01.png",
+      "sha256": "dac6f4c336ca5dfeee79843776c8e3a60df740e611ad6c4ef45d364ed7fe15f5"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "options",
+      "time": 0.7,
+      "path": "arts/static/02/story-assets-v01/compositions-v02/options.png",
+      "sha256": "cb62644b14bc182a01cc9c45588cd4569d4c5d07d79eb1796ac1304a345a16c9"
+    },
+    {
+      "name": "thought",
+      "time": 3.8,
+      "path": "arts/static/02/story-assets-v01/compositions-v02/thought.png",
+      "sha256": "a64ec5b5a58ff6c4b9559716251d635c991f408d98ec6e521f3476170445e7d8"
+    },
+    {
+      "name": "selected",
+      "time": 6.35,
+      "path": "arts/static/02/story-assets-v01/compositions-v02/selected.png",
+      "sha256": "e4af48f08d2c41b191e6f093b17d4ec70bba02ff58385c446b2cfac307aab67a"
+    },
+    {
+      "name": "expanding",
+      "time": 7.5,
+      "path": "arts/static/02/story-assets-v01/compositions-v02/expanding.png",
+      "sha256": "e49ed330c691232a41790c40d780a0aff4da7da9266d3bf1107608d8218f5df5"
+    },
+    {
+      "name": "full",
+      "time": 8.9,
+      "path": "arts/static/02/story-assets-v01/compositions-v02/full.png",
+      "sha256": "16b2f9f9810958da4bcb9cef69971db1cc05a0166aefe20038773ea6dfd25bf6"
+    }
+  ]
+}

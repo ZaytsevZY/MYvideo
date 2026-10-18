@@ -1,0 +1,29 @@
+[
+  {
+    "id": "office",
+    "dest": "arts/backgrounds/shared/office-workstations-day-v01.png",
+    "prompt": "Production illustration for an existing cel-anime educational animation. Match the attached reference's fine clean dark linework, restrained cel shading, warm ivory, desaturated blue grey and natural warm wood palette. Believable consistent perspective; no glossy 3D, no photorealism, no exaggerated lens distortion, no captions, no logos, no watermark. Reference image is STYLE REFERENCE only, not the room to copy. Create one 16:9 landscape empty company office background, eye-level medium-wide view. Quiet modern small software company: a coherent foreground desk at lower left with a monitor, keyboard and office chair, workstations further back right, large daylight windows, low dividers and a few plants. Clear walking/standing aisle in centre-right for compositing a full-body manager beside the desk. Frontal three-quarter camera with restrained depth, only one vanishing-point system. No people. No readable screen content, all screens dark neutral. Keep lower 12 percent visually quiet for subtitles.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/backgrounds/01/workroom-night-v01.png"
+    ],
+    "transparent_background": false
+  },
+  {
+    "id": "meeting",
+    "dest": "arts/backgrounds/shared/meeting-room-day-v01.png",
+    "prompt": "Production illustration for an existing cel-anime educational animation. Match the attached reference's fine clean dark linework, restrained cel shading, warm ivory, desaturated blue grey and natural warm wood palette. Believable consistent perspective; no glossy 3D, no photorealism, no exaggerated lens distortion, no captions, no logos, no watermark. Reference image is STYLE REFERENCE only. Create one 16:9 landscape empty company meeting room background. Eye-level medium-wide three-quarter view, small meeting table and four simple chairs occupying lower left and middle, daylight frosted glass wall at back, blank wall-mounted planning board on right. Leave unobstructed standing floor space at right beside board for a full-body manager. Doorway at far left, neat restrained detail, coherent table/chair perspective. No people, no text, no charts on blank board. Lower 12 percent quiet for subtitles.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/backgrounds/01/workroom-night-v01.png"
+    ],
+    "transparent_background": false
+  },
+  {
+    "id": "manager-assign",
+    "dest": "arts/characters/poses/shared/manager-assign-left-v01.png",
+    "prompt": "Production illustration for an existing cel-anime educational animation. Match the attached reference's fine clean dark linework, restrained cel shading, warm ivory, desaturated blue grey and natural warm wood palette. Believable consistent perspective; no glossy 3D, no photorealism, no exaggerated lens distortion, no captions, no logos, no watermark. Attached image is CHARACTER IDENTITY reference. Create ONE isolated full-body manager cutout in a new intact action pose, transparent background. Same adult male with side-part black hair, intentionally featureless blank face (NO eyes, nose, mouth), navy blazer, light grey crew-neck shirt, grey trousers, black shoes. Three-quarter body facing LEFT, extends an amber paper folder in leftward-outstretched hand at waist height, handing a new task to someone outside frame on left; other hand relaxed. Natural weight shift forward, both feet fully visible, clear hands and folder, crisp confident silhouette. Preserve proportions and clothing of reference. No model sheet, no duplicate figures, no ground plane, no shadow block, no text.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/manager-model-sheet-v01.png"
+    ],
+    "transparent_background": true
+  }
+]

@@ -1,0 +1,522 @@
+{
+  "date": "2026-10-18",
+  "purpose": "five chapter02 character poses and editable KPI layer",
+  "inputs": [
+    {
+      "path": "arts/characters/agent-model-sheet-v01.png",
+      "sha256": "988d3df0b3b8ceb0158cf65c315d2f436e1b85498a8a368a285a4e4a618c653e"
+    },
+    {
+      "path": "arts/characters/manager-model-sheet-v01.png",
+      "sha256": "13c0d3a291c355a01e2bfda55194c3e9626e5a31abbbf12ae26dc2076108c693"
+    },
+    {
+      "path": "arts/characters/programmer-model-sheet-v01.png",
+      "sha256": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0"
+    },
+    {
+      "path": "arts/characters/coworker-model-sheet-v01.png",
+      "sha256": "9a38c56153b054c2eb2a4981e6cc650f7b5cf356986cfb6711d8dbd5dfedce42"
+    },
+    {
+      "path": "arts/characters/rigs/agent/atlas-v01.png",
+      "sha256": "7d3c2b7ced2eed55e508ca085421d76d5d5d687ccb10200b38eb976ccf2ee265"
+    },
+    {
+      "path": "arts/characters/rigs/programmer/atlas-v01.png",
+      "sha256": "1bb7ec9eaa8e09d322158095b09d94f07aa940ec1e798dfff25638a9988431cd"
+    },
+    {
+      "path": "arts/characters/portraits/01/agent-focus-v01.png",
+      "sha256": "2db469f8afaae3bcbb54aa1ec4487f43c8a614bffcf56c85a77dbe15b3703f20"
+    },
+    {
+      "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+      "sha256": "20a101697879a0e54da5861532080cede1db7d4cfd7dbbd9dbd7af820d9cfbaa"
+    },
+    {
+      "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+      "sha256": "4e6f1beaf38dd2e02df9f6e3a1943d3815a73d6e0113f2b8531ea7ad6113fc1e"
+    },
+    {
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828"
+    },
+    {
+      "path": "arts/characters/poses/shared/manager-assign-left-v01.png",
+      "sha256": "69dbdbbea503b3ef9100ece87b42692013bcce03048e6edced267a9046dc39ba"
+    },
+    {
+      "path": "arts/characters/poses/shared/manager-point-left-v01.png",
+      "sha256": "fa0c0e138798266cc3744130c9f562a500649e3f7e83d6e4a463876c6c39de4d"
+    },
+    {
+      "path": "arts/characters/poses/shared/coworker-discuss-right-v01.png",
+      "sha256": "8546cefcd379acb8104de47b9da5e0dcbf804a6c510d32cf502c9bb340f21752"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-stand-v01.png",
+      "sha256": "47a0ff3b3a1c0d6aaa5039b0f4ca03bf692cb99cccef0842ab673f92094b9fb6"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-hold-file-v01.png",
+      "sha256": "b2462a68b37ef0ef2d0d15460f5044a097b79049b1350976e8db53ef86ea611e"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-input-v01.png",
+      "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-idle-v01.png",
+      "sha256": "fbcf2a3125182fc9d7834015378b786a6bdf6187b334bc3d6ecb996d62c6df4c"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rest-v01.png",
+      "sha256": "2f7042e7620dc3f31d176036cd3f68246e4f37d595194b79c0d3431282b8bc85"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-a-v01.png",
+      "sha256": "ee3d05ba41d87a7e4e928ab5596c0d58c76c7cf66e4af0879e4f7d7ca4200db8"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+      "sha256": "6304e88141b54c50d2e87659315b26392d86123a2073cdd98068b38776a1312b"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-front-dispatch-v01.png",
+      "sha256": "2884433d982fb66f6e8c506fd6b4bcef27dfc0cd4f5b75b6fc8693b6ffd22a3c"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rise-high-v01.png",
+      "sha256": "b3816159ee33b110bde7121f117d99bd076b12168e368446eb719fa6c5f34dc6"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-pull-file-v01.png",
+      "sha256": "0f5ccc2bf4d605efb024e610a3daa563fb409fd580f350d96302a7f0e6c70048"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-grasp-file-v01.png",
+      "sha256": "2e3f7a7e80edbf582dac5e621aeee09ee50e5ffcb0fdb85e19e9b6659fb25563"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-front-fatigue-v01.png",
+      "sha256": "bdec5ffc33566c2540c81bb27e45021242305af4b75237e183c8c6efcdae10ff"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+      "sha256": "f3862cc0ea51085524d03d2d9d3a704b756f892533d258a9c05ea598fea00ddf"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-report-v01.png",
+      "sha256": "22198fc0ea7f38bc081ca8ce4d886d316913b1c3c9f658c2bae86f61459a5c1e"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-recover-v01.png",
+      "sha256": "4e31a14ecf89a66483dc7c39764d1b049dce66d74bbdfb94e90eab3257ad04de"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rise-v01.png",
+      "sha256": "c03856bd6ccdea1a3690c388451327e50546d371150fa690a59a5a098149b70b"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-reach-half-v01.png",
+      "sha256": "7e6543230b7ef6c73d04d100fd1e8d09c6d9a150c8d16432fec2b7b983c396c7"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-pregrasp-v01.png",
+      "sha256": "1b544554be3ec80ac769785fce33b498de2ff9beaaecbfe3277e7807e45b1523"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-turn-left-v01.png",
+      "sha256": "ae6165c17cbb75f95a2b61ee722baa3802821225da50fffc855ea9eca2e9b308"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-lean-v01.png",
+      "sha256": "470d0a4d34b3f4d8ac4fcceff2fb613c7573c4918319bce6e019100339ee89d2"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-logic-stand-right-v01.png",
+      "sha256": "527c21130304764ec19156ae62d75b6909432a194b686072d67a7905087ea117"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-receive-v01.png",
+      "sha256": "dac6f4c336ca5dfeee79843776c8e3a60df740e611ad6c4ef45d364ed7fe15f5"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-pass-v01.png",
+      "sha256": "53b1f23d23d9b348856254d95aa1647eef9739f9efd54d9da22c33e8f0a58c18"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-offer-file-v01.png",
+      "sha256": "65c06a3902b13821725a64a8d9a25d8c18c8409186f46558409e3b05d3c9b235"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-inspect-file-v01.png",
+      "sha256": "1c61c9c353b92cc2efd8881a684854392056d057eeba2e569b608055f23a3a88"
+    },
+    {
+      "path": "arts/backgrounds/shared/meeting-room-day-v01.png",
+      "sha256": "6191a947317c3fa1220fce801a7fb252d7d34cff2fe5ce4a6bd4678431c966de"
+    },
+    {
+      "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+      "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11"
+    },
+    {
+      "path": "arts/backgrounds/01/workroom-day-v01.png",
+      "sha256": "45e33124784fffdfd755d27f6ee1b13d06d65261795087e83ec15c74392c50b3"
+    },
+    {
+      "path": "arts/backgrounds/01/workroom-night-v01.png",
+      "sha256": "062660817c9cc28f7acd52678e761b8f2c1d584dc6d57cd5b9165c6a124cd77c"
+    },
+    {
+      "path": "arts/backgrounds/01/workroom-reverse-night-v01.png",
+      "sha256": "28a1e268b5376a4680ef30d4ad631af2b142993d614a74f45d4a9540d1e60814"
+    },
+    {
+      "path": "arts/items/shared/notification-task-v01.png",
+      "sha256": "41d437fba616af4612de3c1e7eeb0aab32212309a49fafef3057e8caadfa05e4"
+    },
+    {
+      "path": "arts/items/shared/backlog-open-v01.png",
+      "sha256": "5333f4178763f5d514374aab72b46c8b577965acaa98ee02f1c485875eba0d6c"
+    },
+    {
+      "path": "arts/items/shared/notification-result-v01.png",
+      "sha256": "384385b4c93d8f3ba1b8616456dec88a6d6b1071a3668c57d1efff7278465b47"
+    },
+    {
+      "path": "arts/items/shared/backlog-list-v01.png",
+      "sha256": "8933d89dc45a6b567348085427538861e392bda1115c34b417d53da23d70782d"
+    },
+    {
+      "path": "arts/items/01/monitor-back-painted-v01.png",
+      "sha256": "4298b6cbd31160a749fa1b01fc36679a40774a7ddd70e85c41e54630eeb3f7bb"
+    },
+    {
+      "path": "arts/items/01/workstation-painted-v02.png",
+      "sha256": "c05a579cb7d6e3eeefac268c6d122495396b6fbe759d5efbc5cda4c1981a234a"
+    },
+    {
+      "path": "arts/items/01/plan-tray-painted-v01.png",
+      "sha256": "5a9d24eb3d6eaf19cd9a7e2fad7f142c7650f2795ff36b8d52afb382fd27d1ca"
+    },
+    {
+      "path": "arts/items/01/workstation-painted-v01.png",
+      "sha256": "9807962b33f7f12766cb3b4ed3c1ce2590bef683187ee5df56cab9f3045bf4ef"
+    },
+    {
+      "path": "arts/items/01/chair-back-rear-painted-v01.png",
+      "sha256": "c8081c17e825a75dacb7b6f23f21e8d7ed6f76bdffe978eba4bd525aef6071c6"
+    },
+    {
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420"
+    },
+    {
+      "path": "arts/items/01/task-document-landscape-v01.png",
+      "sha256": "2c5ecf3f14465c3622b8d2e783c994e8240bebb063dbb8604414923d1cf7c225"
+    },
+    {
+      "path": "arts/actions/03/scene.mjs",
+      "sha256": "b552427143f4db96dab75fd047020fae2bdb2f207a3aaa2220f60671ed051ef8"
+    },
+    {
+      "path": "arts/actions/03/produce.mjs",
+      "sha256": "595c6612edbfff992e1c2f204ffa21483ab4d14ddadcdf70b06bcb78cf691391"
+    },
+    {
+      "path": "arts/actions/04/make-preview.mjs",
+      "sha256": "4c304413e9881dc84b320fd9db16eaf769d6cd79a424d023e5e18e8a91a2247f"
+    },
+    {
+      "path": "arts/actions/04/scene.mjs",
+      "sha256": "63d4b006e9a294cef05e5e2ccbe62a916a823f036dc2ceafbe5fb1be88fce771"
+    },
+    {
+      "path": "arts/actions/04/produce.mjs",
+      "sha256": "72aca0b1b8edaecf6e5c48d20001981af21433a3d2b489158a21847c4befe60b"
+    },
+    {
+      "path": "arts/actions/04/produce-v02.mjs",
+      "sha256": "34c7c150060725e714dd25c9b92a676dc04a65fa2ee7743ea0643b919a673861"
+    },
+    {
+      "path": "arts/actions/05/scene.mjs",
+      "sha256": "c2c1598797e950543788875d7c55b8f7cfa1c4594c63427c819ac7b0f0e85f39"
+    },
+    {
+      "path": "arts/actions/05/build.mjs",
+      "sha256": "74d48a811d80b4297f5e931d9e5375a5b9fe8a181a6ea877ffcb749d0c2561b7"
+    },
+    {
+      "path": "arts/actions/02/full-scene.mjs",
+      "sha256": "c58c352a6f73f9bced8d1986dacc2e86c28f64fedb6e6721914b6585cd7fcbe5"
+    },
+    {
+      "path": "arts/actions/02/build-revision.mjs",
+      "sha256": "22d88de66bb322bab68d93ed1f4d65b9e965bb52901ff5d2401f48dd7c7f5824"
+    },
+    {
+      "path": "arts/actions/02/scene.mjs",
+      "sha256": "e433238148db2dc30cba49f81fb9e163a14f96172d052801222dd6fa9abb187a"
+    },
+    {
+      "path": "arts/actions/02/opening-revised.mjs",
+      "sha256": "930bfd52447780ceac05ca424b16b83a944206cf3fed11fefb03bbeef7c8e88b"
+    },
+    {
+      "path": "arts/actions/02/build.mjs",
+      "sha256": "e3805e669cdfda8ef924ecd5941aa9a6adbc2d0aa0e9642789bf88a772b1efa3"
+    },
+    {
+      "path": "arts/actions/02/build-full.mjs",
+      "sha256": "499659b53c9035e702495615431188221ccce45e7b006c3d3dc032088bced990"
+    },
+    {
+      "path": "arts/actions/02/entry-v03.mjs",
+      "sha256": "f703c15a3b9a3b18c55f341d3bdd43fecb84895f2deff9f19f23199c3c3525af"
+    },
+    {
+      "path": "arts/actions/film/qa.mjs",
+      "sha256": "504396f39bd843ae35bca52db04023eaa18175e13d8a2c352eda8032f555b60d"
+    },
+    {
+      "path": "arts/actions/film/timeline.mjs",
+      "sha256": "f0b976e07e54fd730f1f7745d04d157f605ab36c7791a0cea19ccba1e5fc7135"
+    },
+    {
+      "path": "arts/actions/film/player.mjs",
+      "sha256": "5e1c0087be3e85bc8b4f4620ef419f12b63fcc70a36ea2efeda7f568fcdbf122"
+    },
+    {
+      "path": "arts/actions/film/build.mjs",
+      "sha256": "808d89be4df2fa4640cd4e29732666ec4bc648b1602ba4dcd1b120f6111b6ce5"
+    },
+    {
+      "path": "arts/actions/film/framework.test.mjs",
+      "sha256": "3c5fc1b3b6a6cb7ff1a00c58b8a3631c0aac39463edbb71a44c86242acd70cdc"
+    },
+    {
+      "path": "arts/actions/film/scenes.mjs",
+      "sha256": "0f2e3527e22690fd60a8c87cc7fa2e6a61d95308a9fd8047eb1c62d55f2d4580"
+    },
+    {
+      "path": "arts/actions/01/keyframes.mjs",
+      "sha256": "b026c5bb7341787c9436718a6aa7dc1d6bfe4600d3c276955eac070db0be6451"
+    },
+    {
+      "path": "arts/actions/01/bake.mjs",
+      "sha256": "7a093a29d3fca314ee589e7c866c340c686f97c5623f1d4aedde3d957892c7b4"
+    },
+    {
+      "path": "arts/actions/01/bake-camera.mjs",
+      "sha256": "a5e2c988ad3fa1f8880f49e32ffad2571d24eabb36a7f495138a0dc738c10a1b"
+    },
+    {
+      "path": "arts/actions/01/motion.mjs",
+      "sha256": "1abc33cd008be7f65ef9e40db4fe33d2d2196a83019ca3dcaa26ce94e21db9d4"
+    },
+    {
+      "path": "arts/actions/01/performance.mjs",
+      "sha256": "3405c27ceee06f6999d52a1854efb91a73f7d8e9f2bd118e93368a80b28f5a04"
+    },
+    {
+      "path": "arts/actions/01/render-frame.mjs",
+      "sha256": "d674fc0d135339ed70c0853aa1d5531730ecc480095a3f6b53961d974666aa31"
+    },
+    {
+      "path": "arts/actions/01/camera-motion.mjs",
+      "sha256": "434ec2191c05e357997f0390b363b8ab841a50717191f4dee08a41bdef8789db"
+    },
+    {
+      "path": "arts/actions/01/camera-motion.test.mjs",
+      "sha256": "eaa2a72cf9d594073f6f6bc1f8bcda2b7f8e05425a1a9714fe5d7a13ba74242f"
+    },
+    {
+      "path": "arts/actions/01/whole-motion.mjs",
+      "sha256": "27fedc5b9e2b47c03aeafd30f8daec6a78fae5673af1606c913b6cd969b096d3"
+    },
+    {
+      "path": "arts/actions/01/bake-whole.mjs",
+      "sha256": "a1499ce17b2548bf9ad109a65eba38f972c94427b5d8511de54bae3bdcc30076"
+    },
+    {
+      "path": "arts/actions/01/bake-video.mjs",
+      "sha256": "b196881cf9e0c19a724c0d930d4c153d318051da1c78c18bd97966f3d52fffb1"
+    },
+    {
+      "path": "arts/actions/06/scene.mjs",
+      "sha256": "6441471b14334235b32f323fa3a2830cf50f6d6d992f738fef8fa633332e6dc6"
+    },
+    {
+      "path": "arts/actions/06/build.mjs",
+      "sha256": "dbbb9942392e0f01fb2b9ce6ae53bc92d21a62e17be054e445176e95cff97c55"
+    },
+    {
+      "path": "arts/actions/06/provenance/v01/source-snapshot/arts__actions__06__scene.mjs",
+      "sha256": "6441471b14334235b32f323fa3a2830cf50f6d6d992f738fef8fa633332e6dc6"
+    },
+    {
+      "path": "arts/actions/06/provenance/v01/source-snapshot/arts__actions__06__build.mjs",
+      "sha256": "dbbb9942392e0f01fb2b9ce6ae53bc92d21a62e17be054e445176e95cff97c55"
+    },
+    {
+      "path": "arts/actions/06/provenance/v01/source-snapshot/arts__actions__01__keyframes.mjs",
+      "sha256": "b026c5bb7341787c9436718a6aa7dc1d6bfe4600d3c276955eac070db0be6451"
+    },
+    {
+      "path": "arts/actions/01/captions/captions.test.mjs",
+      "sha256": "0e5405ccb18009116f705e135360e1e34fada7415b32181cea8a20e1ddea7acf"
+    },
+    {
+      "path": "arts/actions/01/captions/bake-captions.mjs",
+      "sha256": "71a18b26e86d5426bc01b44cae8cb433aef1160e0086ee738b149e96d71a543c"
+    },
+    {
+      "path": "arts/actions/01/captions/captions.mjs",
+      "sha256": "c4e5da6fd614b7ff9ef50f3a39a5960c4f68b0b3bf31449fd318c7722c581c0c"
+    },
+    {
+      "path": "arts/actions/01/captions/caption-data.mjs",
+      "sha256": "60deb7002e45b21409d5c3db69fe368f681cdc7b5271e522dfd7bb0604877b59"
+    },
+    {
+      "path": "arts/actions/01/provenance/camera-v01/camera-motion-original.mjs",
+      "sha256": "a2c5c1d2afa9c7f9612e81ceee8c85e2910bfe37994712b3b98a639838e94e62"
+    },
+    {
+      "path": "arts/actions/01/provenance/raster-v03/camera-before.mjs",
+      "sha256": "b7f082e50d99e30aab2b59257d5b6896c7cc3606f202d35eba42abdc9f1a155f"
+    },
+    {
+      "path": "arts/actions/01/provenance/raster-v03/performance-before.mjs",
+      "sha256": "857bb9f10b0855c940e56c2f4d115e6a8fef5beebfbdbb24f45a6e29631d221e"
+    },
+    {
+      "path": "arts/actions/01/provenance/subtitles-v01/camera-before.mjs",
+      "sha256": "362202baf0450002a1c953fdf2b27bd6f735f50b1b0e1ac530f7f3161f0fd86a"
+    },
+    {
+      "path": "arts/actions/01/provenance/performance-v02/performance-original.mjs",
+      "sha256": "e668e5bacaea84076219779be9f790b0a2747380863b9ddaa478a4ba59d901f1"
+    },
+    {
+      "path": "arts/actions/01/provenance/performance-v02/camera-motion-before.mjs",
+      "sha256": "a02a660b295dbaf2bda271fcbb43080840fbf31c6ebd1e0421b547119af1454b"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v02/source-snapshot/arts__actions__01__camera-motion.mjs",
+      "sha256": "434ec2191c05e357997f0390b363b8ab841a50717191f4dee08a41bdef8789db"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v02/source-snapshot/full-scene-before-revision.mjs",
+      "sha256": "1abd06c93479d558d4c26141de952cd8d5212ba705dd184cae49cd2a1add29e4"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v02/source-snapshot/arts__actions__02__build-full.mjs",
+      "sha256": "499659b53c9035e702495615431188221ccce45e7b006c3d3dc032088bced990"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v02/source-snapshot/arts__actions__01__performance.mjs",
+      "sha256": "3405c27ceee06f6999d52a1854efb91a73f7d8e9f2bd118e93368a80b28f5a04"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v02/source-snapshot/arts__actions__01__keyframes.mjs",
+      "sha256": "b026c5bb7341787c9436718a6aa7dc1d6bfe4600d3c276955eac070db0be6451"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v02/source-snapshot/arts__characters__rigs__runtime__rig.mjs",
+      "sha256": "ae98a0e315af66887e347471381f315c81cb7ac94c5d808147893246261fce8a"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v02/source-snapshot/arts__actions__02__scene.mjs",
+      "sha256": "e433238148db2dc30cba49f81fb9e163a14f96172d052801222dd6fa9abb187a"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v02/source-snapshot/arts__actions__02__full-scene.mjs",
+      "sha256": "1abd06c93479d558d4c26141de952cd8d5212ba705dd184cae49cd2a1add29e4"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__01__camera-motion.mjs",
+      "sha256": "434ec2191c05e357997f0390b363b8ab841a50717191f4dee08a41bdef8789db"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__02__entry-v03.mjs",
+      "sha256": "f703c15a3b9a3b18c55f341d3bdd43fecb84895f2deff9f19f23199c3c3525af"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__02__build-revision.mjs",
+      "sha256": "22d88de66bb322bab68d93ed1f4d65b9e965bb52901ff5d2401f48dd7c7f5824"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__01__performance.mjs",
+      "sha256": "3405c27ceee06f6999d52a1854efb91a73f7d8e9f2bd118e93368a80b28f5a04"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__01__keyframes.mjs",
+      "sha256": "b026c5bb7341787c9436718a6aa7dc1d6bfe4600d3c276955eac070db0be6451"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__02__opening-revised.mjs",
+      "sha256": "930bfd52447780ceac05ca424b16b83a944206cf3fed11fefb03bbeef7c8e88b"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v03/source-snapshot/arts__characters__rigs__runtime__rig.mjs",
+      "sha256": "ae98a0e315af66887e347471381f315c81cb7ac94c5d808147893246261fce8a"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__02__scene.mjs",
+      "sha256": "e433238148db2dc30cba49f81fb9e163a14f96172d052801222dd6fa9abb187a"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v03/source-snapshot/arts__actions__02__full-scene.mjs",
+      "sha256": "c58c352a6f73f9bced8d1986dacc2e86c28f64fedb6e6721914b6585cd7fcbe5"
+    },
+    {
+      "path": "arts/actions/05/provenance/v01/source-snapshot/arts__actions__05__build.mjs",
+      "sha256": "74d48a811d80b4297f5e931d9e5375a5b9fe8a181a6ea877ffcb749d0c2561b7"
+    },
+    {
+      "path": "arts/actions/05/provenance/v01/source-snapshot/arts__actions__06__scene.mjs",
+      "sha256": "6441471b14334235b32f323fa3a2830cf50f6d6d992f738fef8fa633332e6dc6"
+    },
+    {
+      "path": "arts/actions/05/provenance/v01/source-snapshot/arts__actions__05__scene.mjs",
+      "sha256": "c2c1598797e950543788875d7c55b8f7cfa1c4594c63427c819ac7b0f0e85f39"
+    },
+    {
+      "path": "arts/actions/05/provenance/v01/source-snapshot/arts__actions__01__keyframes.mjs",
+      "sha256": "b026c5bb7341787c9436718a6aa7dc1d6bfe4600d3c276955eac070db0be6451"
+    },
+    {
+      "path": "arts/actions/04/provenance/production-v01/scene-snapshot.mjs",
+      "sha256": "c139bce8ad50b7ee7ac113f62a62eec9846211c4aa32406382c58b18ee2642dd"
+    },
+    {
+      "path": "scripts/final/shot/01.md",
+      "sha256": "0bec30c0ba6e713660947041db930db1894633c90058a78584ca40f9966a85d9"
+    },
+    {
+      "path": "scripts/final/shot/02.md",
+      "sha256": "58fb0ee4ec9370806c84eec20b5b7cfbd5041b90e5bb4eb3b8b0a5d5a0aadc9c"
+    },
+    {
+      "path": "scripts/final/shot/03.md",
+      "sha256": "598642a5a2b30b6795f1cf4fbacde2422ba4f07f03143fa34df28c3300c276ad"
+    },
+    {
+      "path": "scripts/final/shot/04.md",
+      "sha256": "fd30a80d829ec14b8f925eccdef2cba6cf8c81ff24744c59d5a265f19a2e9c1f"
+    },
+    {
+      "path": "scripts/final/shot/05.md",
+      "sha256": "25ba327ad2546c34d131f269e3948bc3be59a8d75817a85aae481be7f65639d3"
+    },
+    {
+      "path": "scripts/final/shot/06.md",
+      "sha256": "79b18a04b49ba5481e6507be152f634ed162c127fb2999e26872c1652095778b"
+    }
+  ]
+}

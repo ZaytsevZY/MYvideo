@@ -1,0 +1,315 @@
+{
+  "version": "STORY_LOGIC_PLAN v0.1",
+  "date": "2026-10-18",
+  "derivedIndex": "Chapter Markdown is the narrative source; this JSON only indexes classification and timing.",
+  "implementedInAnimation": false,
+  "chapters": [
+    {
+      "chapter": "02",
+      "version": "S02_STORY_LOGIC v0.1",
+      "storySeconds": 19,
+      "logicSeconds": 19,
+      "totalSeconds": 38,
+      "orderedBlocks": [
+        {
+          "id": "V02.1-E1",
+          "type": "story",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "id": "V02.1-L1",
+          "type": "logic",
+          "start": 5,
+          "end": 13
+        },
+        {
+          "id": "V02.2-E1",
+          "type": "story",
+          "start": 13,
+          "end": 17
+        },
+        {
+          "id": "V02.2-L1",
+          "type": "logic",
+          "start": 17,
+          "end": 23
+        },
+        {
+          "id": "V02.2-E2",
+          "type": "story",
+          "start": 23,
+          "end": 27
+        },
+        {
+          "id": "V02.3-L1",
+          "type": "logic",
+          "start": 27,
+          "end": 32
+        },
+        {
+          "id": "V02.3-E1",
+          "type": "story",
+          "start": 32,
+          "end": 38
+        }
+      ],
+      "outputPath": "scripts/final/shot/02.md",
+      "sha256": "d6d3556ef41ab19bb71df88c20ab30bad29e397d1585acf8ec45d9e84008c653"
+    },
+    {
+      "chapter": "03",
+      "version": "S03_STORY_LOGIC v0.1",
+      "storySeconds": 25,
+      "logicSeconds": 14,
+      "totalSeconds": 39,
+      "orderedBlocks": [
+        {
+          "id": "V03.1-E1",
+          "type": "story",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "id": "V03.1-L1",
+          "type": "logic",
+          "start": 6,
+          "end": 13
+        },
+        {
+          "id": "V03.2-E1",
+          "type": "story",
+          "start": 13,
+          "end": 17
+        },
+        {
+          "id": "V03.2-E2",
+          "type": "story",
+          "start": 17,
+          "end": 22
+        },
+        {
+          "id": "V03.2-E3",
+          "type": "story",
+          "start": 22,
+          "end": 27
+        },
+        {
+          "id": "V03.3-L1",
+          "type": "logic",
+          "start": 27,
+          "end": 34
+        },
+        {
+          "id": "V03.3-E1",
+          "type": "story",
+          "start": 34,
+          "end": 39
+        }
+      ],
+      "outputPath": "scripts/final/shot/03.md",
+      "sha256": "807ee30391874fd11bc837b8eb71e38acebc35dee4cf4ec9bb5785fc3768a3b1"
+    },
+    {
+      "chapter": "04",
+      "version": "S04_STORY_LOGIC v0.1",
+      "storySeconds": 32.0,
+      "logicSeconds": 23,
+      "totalSeconds": 55.0,
+      "orderedBlocks": [
+        {
+          "id": "V04.1-L1",
+          "type": "logic",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "id": "V04.1-E1",
+          "type": "story",
+          "start": 4,
+          "end": 8
+        },
+        {
+          "id": "V04.1-E2",
+          "type": "story",
+          "start": 8,
+          "end": 11.5
+        },
+        {
+          "id": "V04.1-E3",
+          "type": "story",
+          "start": 11.5,
+          "end": 15
+        },
+        {
+          "id": "V04.2-L1",
+          "type": "logic",
+          "start": 15,
+          "end": 21
+        },
+        {
+          "id": "V04.2-E1",
+          "type": "story",
+          "start": 21,
+          "end": 27
+        },
+        {
+          "id": "V04.3-L1",
+          "type": "logic",
+          "start": 27,
+          "end": 35
+        },
+        {
+          "id": "V04.3-E1",
+          "type": "story",
+          "start": 35,
+          "end": 42
+        },
+        {
+          "id": "V04.4-E1",
+          "type": "story",
+          "start": 42,
+          "end": 45
+        },
+        {
+          "id": "V04.4-E2",
+          "type": "story",
+          "start": 45,
+          "end": 47.5
+        },
+        {
+          "id": "V04.4-E3",
+          "type": "story",
+          "start": 47.5,
+          "end": 50
+        },
+        {
+          "id": "V04.4-L1",
+          "type": "logic",
+          "start": 50,
+          "end": 55
+        }
+      ],
+      "outputPath": "scripts/final/shot/04.md",
+      "sha256": "17c0a8b99af5c401634173916be04b4d41011bbfbf7b651b44d396ab90caa160"
+    },
+    {
+      "chapter": "05",
+      "version": "S05_STORY_LOGIC v0.1",
+      "storySeconds": 23,
+      "logicSeconds": 22,
+      "totalSeconds": 45,
+      "orderedBlocks": [
+        {
+          "id": "V05.1-E1",
+          "type": "story",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "id": "V05.1-L1",
+          "type": "logic",
+          "start": 6,
+          "end": 14
+        },
+        {
+          "id": "V05.2-E1",
+          "type": "story",
+          "start": 14,
+          "end": 19
+        },
+        {
+          "id": "V05.2-L1",
+          "type": "logic",
+          "start": 19,
+          "end": 27
+        },
+        {
+          "id": "V05.2-E2",
+          "type": "story",
+          "start": 27,
+          "end": 31
+        },
+        {
+          "id": "V05.3-E1",
+          "type": "story",
+          "start": 31,
+          "end": 39
+        },
+        {
+          "id": "V05.3-L1",
+          "type": "logic",
+          "start": 39,
+          "end": 45
+        }
+      ],
+      "outputPath": "scripts/final/shot/05.md",
+      "sha256": "25ba327ad2546c34d131f269e3948bc3be59a8d75817a85aae481be7f65639d3"
+    },
+    {
+      "chapter": "06",
+      "version": "S06_STORY_LOGIC v0.1",
+      "storySeconds": 34,
+      "logicSeconds": 24,
+      "totalSeconds": 58,
+      "orderedBlocks": [
+        {
+          "id": "V06.1-E1",
+          "type": "story",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "id": "V06.1-L1",
+          "type": "logic",
+          "start": 4,
+          "end": 10
+        },
+        {
+          "id": "V06.1-E2",
+          "type": "story",
+          "start": 10,
+          "end": 16
+        },
+        {
+          "id": "V06.2-E1",
+          "type": "story",
+          "start": 16,
+          "end": 23
+        },
+        {
+          "id": "V06.2-L1",
+          "type": "logic",
+          "start": 23,
+          "end": 27
+        },
+        {
+          "id": "V06.2-E2",
+          "type": "story",
+          "start": 27,
+          "end": 31
+        },
+        {
+          "id": "V06.3-E1",
+          "type": "story",
+          "start": 31,
+          "end": 44
+        },
+        {
+          "id": "V06.4-L1",
+          "type": "logic",
+          "start": 44,
+          "end": 51
+        },
+        {
+          "id": "V06.5-L1",
+          "type": "logic",
+          "start": 51,
+          "end": 58
+        }
+      ],
+      "outputPath": "scripts/final/shot/06.md",
+      "sha256": "79b18a04b49ba5481e6507be152f634ed162c127fb2999e26872c1652095778b"
+    }
+  ]
+}

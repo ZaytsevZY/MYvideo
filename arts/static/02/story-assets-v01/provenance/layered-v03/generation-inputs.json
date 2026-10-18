@@ -1,0 +1,120 @@
+{
+  "tool": "image_gen.imagegen",
+  "actualModel": "not exposed by built-in tool",
+  "calls": 4,
+  "adopted": 4,
+  "assets": [
+    {
+      "name": "meal-room",
+      "dest": "arts/backgrounds/02/breakroom-meal-day-v01.png",
+      "transparent": false,
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/backgrounds/01/workroom-day-v01.png"
+      ],
+      "prompt": "Create a landscape 16:9 empty company break-room background for a layered cel-anime explainer animation. Match reference clean hand-painted anime linework, warm wood, desaturated blue-grey and cream palette, gentle daylight and coherent perspective. Frontal eye-level medium-wide view facing a simple dining table. Window and soft greenery behind, subtle kitchenette on the far right, no people. A warm wooden dining table spans the bottom of the frame, its straight back tabletop edge at approximately 64 percent of image height; tabletop and front apron occupy the bottom 36 percent. Empty central space above table reserved for a seated character shown from chest up. No food, dishes, computer, phone, letters, labels, logos or lettering. Background is a single illustration used behind independent character layers. Calm and welcoming, polished hand-drawn anime background, no vector aesthetic.",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-494fb77d-8b8e-4300-ae27-ab5b62f7c0c1.png",
+      "outputSha256": "b76192ef6fea2b5c4ac24d2d523ac0b8c633b88b4b1ea4ae926c5d7ffd7bd6a2",
+      "references": [
+        {
+          "path": "/Users/alan671/Documents/MYvideo/arts/backgrounds/01/workroom-day-v01.png",
+          "sha256": "45e33124784fffdfd755d27f6ee1b13d06d65261795087e83ec15c74392c50b3"
+        }
+      ],
+      "pixelEditing": false,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "hasAlpha": false
+    },
+    {
+      "name": "meal-scoop",
+      "dest": "arts/characters/poses/02/programmer-eat-scoop-v01.png",
+      "transparent": true,
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png",
+        "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+        "/Users/alan671/Documents/MYvideo/arts/static/04/lunch-panel-v02.png"
+      ],
+      "prompt": "Create one complete transparent-background character cutout for a cel-anime animation, matching precisely the young male programmer identity in references: short slightly messy black hair, grey eyes, muted blue-grey sweatshirt, teal employee lanyard and white badge. Frontal slightly three-quarter seated upper-body view, relaxed shoulders, calm pleasant expression, visibly taking a lunch break. No laptop or work objects. His left hand holds a small cream ceramic rice bowl securely at upper abdomen; his right hand holds a spoon just inside the bowl, scooping a bite of rice and vegetables. Both hands and spoon clearly readable with correct anatomy. Show full head, shoulders, both arms and torso down to hips, with comfortable transparent margins; no legs, chair, table, scenery or text. Bowl and spoon must be part of the complete character cutout. Same refined cel shading, fine dark outlines and warm soft lighting as references. Portrait canvas. This is the base pose of a fixed-camera eating animation; keep head upright, body symmetrical and stable.",
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-98c13b3e-1874-4305-b25f-dbae4cc5f1d9.png",
+      "outputSha256": "4b32a5caf00c9176963214db7b7bcabbdde280f966b7c1137639974ba50c0f55",
+      "references": [
+        {
+          "path": "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png",
+          "sha256": "f3862cc0ea51085524d03d2d9d3a704b756f892533d258a9c05ea598fea00ddf"
+        },
+        {
+          "path": "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+          "sha256": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0"
+        },
+        {
+          "path": "/Users/alan671/Documents/MYvideo/arts/static/04/lunch-panel-v02.png",
+          "sha256": "7b22f7f4573b16440bdd5310b20a73814f46a04e0dd07ad08d6125d41e138854"
+        }
+      ],
+      "pixelEditing": false,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "name": "meal-bite",
+      "dest": "arts/characters/poses/02/programmer-eat-bite-v01.png",
+      "prompt": "Edit the supplied complete character cutout into the next fixed-camera animation pose. Preserve the exact portrait canvas, identity, head position, silhouette scale, hairstyle, clothes, lanyard and lighting. Preserve the entire bowl, left hand and torso positions exactly. Move ONLY the right forearm and spoon upward so the spoonful is at his slightly open mouth, visibly taking a bite of lunch. His relaxed eyes look toward the spoon. Complete whole upper body character, natural hand anatomy. Transparent background with no scenery, drop shadow, halo, text or additional objects. Maintain cel-anime drawing and original framing; do not zoom, crop, shift head or move bowl.",
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/02/programmer-eat-scoop-v01.png"
+      ],
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-0cdb198b-eae2-46e8-9858-b0a9c4f3b203.png",
+      "outputSha256": "f60339bf6f84c6d9684e5ba51af2452da37d689a9307ceeda5f2325ee77dee4d",
+      "references": [
+        {
+          "path": "/Users/alan671/Documents/MYvideo/arts/characters/poses/02/programmer-eat-scoop-v01.png",
+          "sha256": "4b32a5caf00c9176963214db7b7bcabbdde280f966b7c1137639974ba50c0f55"
+        }
+      ],
+      "pixelEditing": false,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "name": "meal-down",
+      "dest": "arts/characters/poses/02/programmer-eat-down-v01.png",
+      "prompt": "Edit this exact character cutout into the lowered-spoon starting pose of an eating loop. Preserve exact canvas 1024x1536, identity, head position, face size, hair, clothes, lanyard, torso, silhouette and bowl position. Keep his left hand supporting the same rice bowl at the exact same position. Lower ONLY his right forearm and spoon until the spoon tip is inside the rice bowl, preparing to scoop; his right hand sits just above the left rim of the bowl, relaxed. Calm slightly closed-mouth content expression, eyes glance down toward food. Complete character cutout on true transparent background. Do not add a table, scenery, halo, shadow, text, laptop or props. Same fine cel-anime drawing and soft lighting. Do not zoom or reframe.",
+      "refs": [
+        "/Users/alan671/Documents/MYvideo/arts/characters/poses/02/programmer-eat-scoop-v01.png"
+      ],
+      "raw": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-174988f0-1a4c-45a5-b4d9-b3018c85a840.png",
+      "outputSha256": "4eba5d2fc42d119cf060bd2fca59875696c7131a65dd9edf31e7446de2f7cffd",
+      "references": [
+        {
+          "path": "/Users/alan671/Documents/MYvideo/arts/characters/poses/02/programmer-eat-scoop-v01.png",
+          "sha256": "4b32a5caf00c9176963214db7b7bcabbdde280f966b7c1137639974ba50c0f55"
+        }
+      ],
+      "pixelEditing": false,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        254
+      ]
+    }
+  ]
+}

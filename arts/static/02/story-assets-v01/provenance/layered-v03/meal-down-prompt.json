@@ -1,0 +1,5 @@
+{
+  "name": "meal-down",
+  "dest": "arts/characters/poses/02/programmer-eat-down-v01.png",
+  "prompt": "Edit this exact character cutout into the lowered-spoon starting pose of an eating loop. Preserve exact canvas 1024x1536, identity, head position, face size, hair, clothes, lanyard, torso, silhouette and bowl position. Keep his left hand supporting the same rice bowl at the exact same position. Lower ONLY his right forearm and spoon until the spoon tip is inside the rice bowl, preparing to scoop; his right hand sits just above the left rim of the bowl, relaxed. Calm slightly closed-mouth content expression, eyes glance down toward food. Complete character cutout on true transparent background. Do not add a table, scenery, halo, shadow, text, laptop or props. Same fine cel-anime drawing and soft lighting. Do not zoom or reframe."
+}

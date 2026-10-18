@@ -1,0 +1,20 @@
+[
+  {
+    "id": "choose",
+    "dest": "arts/characters/poses/02/programmer-choose-right-v01.png",
+    "prompt": "Use case: identity-preserve. EDIT TARGET is attached transparent programmer thinking pose. Create the next action keyframe, SAME portrait canvas size, same character scale, head position, waist baseline, torso silhouette, blue-grey sweatshirt, dark teal lanyard/badge, hair design, skin tones, clean fine cel-anime line style and neutral light. Change ONLY expression, gaze and arms: he has made his decision and is selecting a scene window to upper SCREEN RIGHT. His rightward arm extends diagonally upward toward screen right with index finger clearly pointing outward; hand and fingertip remain fully within transparent canvas with a small margin. Chin-supporting hand no longer touches chin. Other arm lowers naturally across lower torso. His eyes look at the same upper-right target, brows attentive, closed mouth neutral determination, no smile or anger. Keep a complete intact upper body to the exact same waist cutoff, no chopped hand, no extra arm, no motion effects, no UI. Genuinely transparent background, no haze, no white/black backdrop, no text. Do not redraw clothing design or add objects.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/poses/02/programmer-think-up-right-v01.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "review-next",
+    "dest": "arts/characters/poses/02/programmer-review-next-v01.png",
+    "prompt": "Use case: identity-preserve. EDIT TARGET is the attached full seated rear-view programmer reviewing a document. Make the NEXT action keyframe. Preserve exact portrait canvas, feet and seated hip positions, head scale, shoulder outline, slight turn toward screen RIGHT, face identity, hair, clothes, camera and lighting. Change only arms, head/gaze slightly and document positions: his screen-LEFT hand lowers the just-reviewed offwhite sheet toward lap on his LEFT side (visible outside body edge), while his screen-RIGHT arm extends outward to RIGHT, fingers grasping the left edge of a SECOND offwhite sheet just drawn in from the right. Right hand is visibly touching its page edge, natural wrist. Both sheets are visible and distinct, one lowered left and one raised right; each has only three subtle grey horizontal strokes, no text or ticks. Head/gaze tracks the new right-hand sheet. Keep all hands and both sheet edges inside canvas, all shoes visible. Do not add furniture, floating loose paper, third page, extra limb or effect. One intact full body with genuine transparent background, no glow or haze. No changes to the original scale, perspective or body placement.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/poses/02/programmer-review-current-v01.png"
+    ],
+    "transparent_background": true
+  }
+]

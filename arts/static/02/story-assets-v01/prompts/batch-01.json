@@ -1,0 +1,32 @@
+[
+  {
+    "id": "relax",
+    "dest": "arts/characters/poses/02/programmer-relax-rear-v01.png",
+    "prompt": "Use case: illustration-story. Production cutout for an existing cel-anime educational film. Match the references' clean fine dark outlines, restrained cel shading, muted blue-grey sweatshirt, charcoal trousers, offwhite sneakers, short messy black hair, grey eyes and dark teal badge lanyard when visible. ONE intact character, natural anatomy and hands. True transparent background, no opaque backdrop, no checkerboard drawing, no glow or surrounding haze, no text or logos, no duplicate figure, no diagram, no desk or chair. Reference 1 is the EDIT TARGET for same identity, seated proportions, rear camera, scale and feet position; reference 2 supports identity only. Change his pose into unmistakable RELAXATION AFTER FINISHING: remain seated facing away, lean torso comfortably slightly backwards, both elbows raised and spread naturally with both hands resting behind his head, shoulders loose, head tilted back very slightly. Not asleep and not typing. Keep knees bent and shoes fully visible in same lower part of portrait canvas as reference, generous clear margin around elbows. No chair drawn; existing chair back will be composited independently. Full seated body, portrait 2:3, neutral soft daylight.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-rest-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "think",
+    "dest": "arts/characters/poses/02/programmer-think-up-right-v01.png",
+    "prompt": "Use case: illustration-story. Production cutout for an existing cel-anime educational film. Match the references' clean fine dark outlines, restrained cel shading, muted blue-grey sweatshirt, charcoal trousers, offwhite sneakers, short messy black hair, grey eyes and dark teal badge lanyard when visible. ONE intact character, natural anatomy and hands. True transparent background, no opaque backdrop, no checkerboard drawing, no glow or surrounding haze, no text or logos, no duplicate figure, no diagram, no desk or chair. Reference 1 supplies exact character identity, clothing, badge and drawing style; reference 2 supports identity only. New portrait 2:3 canvas with ONE COMPLETE upper body from head through waist; hands and elbows entirely visible, comfortable margins, no body parts cropped except a straight waist cutoff. Front three-quarter view turned slightly toward SCREEN RIGHT. He is weighing employer requirements: chin supported by one hand in a thoughtful gesture, other forearm supporting that elbow, eyes looking up toward upper RIGHT outside the canvas, brows gently concerned, closed mouth, not exaggerated anxiety. Head near upper quarter, torso centred around lower middle, do not occupy far upper right with objects; thought bubble will be added separately. Keep badge visible and untouched. Neutral soft daylight.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "review",
+    "dest": "arts/characters/poses/02/programmer-review-current-v01.png",
+    "prompt": "Use case: illustration-story. Production cutout for an existing cel-anime educational film. Match the references' clean fine dark outlines, restrained cel shading, muted blue-grey sweatshirt, charcoal trousers, offwhite sneakers, short messy black hair, grey eyes and dark teal badge lanyard when visible. ONE intact character, natural anatomy and hands. True transparent background, no opaque backdrop, no checkerboard drawing, no glow or surrounding haze, no text or logos, no duplicate figure, no diagram, no desk or chair. Reference 1 supplies the rear seated camera, body scale and feet baseline. Reference 2 is identity reference. Create ONE intact full seated programmer, portrait 2:3. Same rear view with only a small natural turn of shoulders/head toward screen RIGHT, so a slight right cheek profile is visible while his back remains dominant. He is REVIEWING ONE physical offwhite document, holding it upright to the RIGHT of his torso at chest/shoulder height so the page and hand contacts are visible beyond the body silhouette. Both hands hold lower corners naturally; head and gaze turn toward page. Page has ONLY three subtle grey horizontal strokes, no text, no approval check. Keep hips, knees and shoes aligned to reference lower half, feet fully visible. No extra sheet, no floating paper, no chair/table; independent existing workstation will be behind him. Neutral soft daylight.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-input-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png"
+    ],
+    "transparent_background": true
+  }
+]

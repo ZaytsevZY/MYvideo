@@ -1,0 +1,15 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createRequire} from 'node:module';
+import {spawnSync} from 'node:child_process';
+import {ART,definitions,render,root} from './scene-layered-v03.mjs';
+const require=createRequire(import.meta.url),sharp=require('/Users/alan671/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const here=path.dirname(fileURLToPath(import.meta.url)),out=path.join(here,'compositions-v03'),frames=path.join(here,'provenance/layered-v03/gif-frames');
+await fs.mkdir(frames,{recursive:true});let hrefs={};
+for(const[k,p]of Object.entries(ART))hrefs[k]='data:image/png;base64,'+(await fs.readFile(path.resolve(here,p))).toString('base64');
+const defs=definitions(hrefs);
+for(let i=0;i<48;i++)await sharp(Buffer.from(root(render(i/10,{hidden:['programmer','thought']}),defs))).resize(960,540).png().toFile(path.join(frames,String(i).padStart(3,'0')+'.png'));
+const result=spawnSync('/opt/homebrew/bin/ffmpeg',['-hide_banner','-loglevel','error','-y','-framerate','10','-i',path.join(frames,'%03d.png'),'-filter_complex','split[a][b];[a]palettegen=max_colors=192[p];[b][p]paletteuse=dither=bayer:bayer_scale=3','-loop','0',path.join(out,'comparison.gif')],{encoding:'utf8'});
+if(result.status!==0)throw Error(result.stderr);
+console.log('comparison.gif: 4.8 seconds, 48 frames, 960×540; review export only.');

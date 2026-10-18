@@ -1,0 +1,89 @@
+{
+  "version": "S02_STORY_ASSETS v0.1",
+  "date": "2026-10-18",
+  "passed": true,
+  "scope": {
+    "generationCalls": 5,
+    "adoptedPng": 5,
+    "unchangedInputs": 129,
+    "userEdited02ScriptUnchanged": true,
+    "allSixScriptsUnchanged": true,
+    "existingAnimationUnchanged": true,
+    "pageImageReferences": 9,
+    "compositionPng": 5,
+    "editableKpiContentSets": 1,
+    "uiVariants": 2
+  },
+  "alpha": [
+    {
+      "path": "arts/characters/poses/02/programmer-relax-rear-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "min": 0,
+      "max": 254
+    },
+    {
+      "path": "arts/characters/poses/02/programmer-think-up-right-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "min": 0,
+      "max": 254
+    },
+    {
+      "path": "arts/characters/poses/02/programmer-review-current-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "min": 0,
+      "max": 254
+    },
+    {
+      "path": "arts/characters/poses/02/programmer-choose-right-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "min": 0,
+      "max": 254
+    },
+    {
+      "path": "arts/characters/poses/02/programmer-review-next-v01.png",
+      "width": 1024,
+      "height": 1536,
+      "min": 0,
+      "max": 254
+    }
+  ],
+  "composites": [
+    {
+      "path": "arts/static/02/story-assets-v01/compositions/parallel-choose-v01.png",
+      "sha256": "f27b2a3348380f0937cd7ba35d19e7af84dae5a57ac670014b69745eaaca872d"
+    },
+    {
+      "path": "arts/static/02/story-assets-v01/compositions/parallel-think-v01.png",
+      "sha256": "384f73720fbd36863a46aa90ef33bccd7e201e8ee2eccd4dc383fef5cfabaf76"
+    },
+    {
+      "path": "arts/static/02/story-assets-v01/compositions/review-current-v01.png",
+      "sha256": "684d28d8efa9fa0f3a30d3573f67e62d163b52638672cd6eca9de8d654f96f74"
+    },
+    {
+      "path": "arts/static/02/story-assets-v01/compositions/review-next-v01.png",
+      "sha256": "4123cf772dac314d988e51538d44c195cf8b0da083acc62468de805b5a7ad60d"
+    },
+    {
+      "path": "arts/static/02/story-assets-v01/compositions/work-window-native-v01.png",
+      "sha256": "72e46057fa20b9a1a925912503143cddce4dcafb46379f9ed4d2db13e969d81e"
+    }
+  ],
+  "visualReview": [
+    "Five native model outputs inspected.",
+    "All five complete poses inspected on warm ivory and dark blue backgrounds.",
+    "Parallel thought/selection states inspected at 1920x1080; face and hands clear, caption safe area respected.",
+    "Review page contacts and chair occlusion inspected; paper queue corrected to desk-plane perspective.",
+    "KPI uses raster manager portrait and editable short labels; no invented quota or penalty."
+  ],
+  "limitations": [
+    "Static key poses and composition candidates only; not chapter animation or a new video.",
+    "Limited complete-body states require timed cuts/anticipation/settle during later animation; no body crossfades.",
+    "Existing L1 sequencing conflict remains documented in audit; user-edited script preserved."
+  ],
+  "manifestSha256": "bab9fc7d64d94285aaa939606d26eee88d5ea1987900ff0360f8bcf7a86ac6e5"
+}

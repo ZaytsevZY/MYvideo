@@ -2,6 +2,8 @@
 
 **版本：** SHOT_TEXT v0.4 · 2026-10-15
 
+**当前画面修订：** [STORY_LOGIC_PLAN v0.2](STORY_LOGIC_PLAN.md)已将02–06分为故事场景E／逻辑展示L，正文分别位于各章video content，按时间交织并注明入出对象。口播保持SHOT_TEXT v0.4、全片840字符和280秒预算；首批[故事美术及并行构图](../../../arts/static/story-assets-v01/README.md)已准备，新章节演出尚未接入，现有[统一预览](../../../arts/actions/film/README.md)仍是基础版。以下制作补充为该基础版的历史记录。
+
 **01镜头补充：** 当前[01 / S01_CAMERA v0.3](01.md#video-content)为12镜／45秒：情境多机位，逻辑段以头像搬运文件和程序员操作小窗替代连续站立讲解，加入打字／思考／交接反馈及疲惫表情。已接入[动态预览v0.2](../../../arts/actions/01/CAMERA_PREVIEW.md)。六章口播、字符统计与全片时长预算继续沿用v0.4；声音与逐句校时待做。
 
 **02制作补充：** [S02_FULL v0.3](../../../arts/actions/02/README.md)已覆盖V02.1–V02.3，共12镜／38秒无声字幕候选；口播121字符不变，字幕待配音校时，03–06未制作。
@@ -43,6 +45,6 @@
 
 ## 制作衔接
 
-画面段落为 Remotion 代码动画的文字需求；颜色、字体等沿用 [STYLE_BIBLE](../../style/STYLE_BIBLE.md) 的候选状态。`description` 与 `generation style` 仅指向统一入口，不维护另一套镜头或风格规则。
+画面段落为当前时间驱动动画的文字需求；故事／逻辑分类后的正式子镜头以各章当前video content继续细化；颜色、字体等沿用 [STYLE_BIBLE](../../style/STYLE_BIBLE.md) 的候选状态。`description` 与 `generation style` 仅指向统一入口，不维护另一套镜头或风格规则。
 
 本轮按用户要求未在 `.tmp` 新建副本。早先归档仍属于历史记录，不作为当前音画稿输入。

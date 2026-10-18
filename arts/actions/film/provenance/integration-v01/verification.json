@@ -1,0 +1,631 @@
+{
+  "date": "2026-10-18",
+  "version": "FILM_PREVIEW v0.1",
+  "framesTested": 8400,
+  "sourceFrames": [
+    {
+      "frame": 0,
+      "chapter": "01",
+      "localTime": 0,
+      "path": "arts/actions/film/provenance/integration-v01/frame-0000.png",
+      "sha256": "2a3c0e0c5a86cb3e3c61b028a3feaee32edd08fd5853d2be407a438906a695e7"
+    },
+    {
+      "frame": 675,
+      "chapter": "01",
+      "localTime": 22.5,
+      "path": "arts/actions/film/provenance/integration-v01/frame-0675.png",
+      "sha256": "df5a1f390f9c0c9176173aa41dbb65dc28dfd7c9c11ad6c911453e7e53a6bc2f"
+    },
+    {
+      "frame": 1320,
+      "chapter": "01",
+      "localTime": 44,
+      "path": "arts/actions/film/provenance/integration-v01/frame-1320.png",
+      "sha256": "e141ec93e1d39e4f1c8e0b23e06c8c88c3e60fd6268d3a73400b93b0d06943d1"
+    },
+    {
+      "frame": 1349,
+      "chapter": "01",
+      "localTime": 44.96666666666667,
+      "path": "arts/actions/film/provenance/integration-v01/frame-1349.png",
+      "sha256": "c7df886bfceb2e873eb15e9dc7cce255a065fb283eea6663fc4cf6e0c1d27505"
+    },
+    {
+      "frame": 1350,
+      "chapter": "02",
+      "localTime": 0,
+      "path": "arts/actions/film/provenance/integration-v01/frame-1350.png",
+      "sha256": "1ee18e72ec891c5d7ebae7b9f83c5e19a56c2c15fc9fcb393208849872339a5d"
+    },
+    {
+      "frame": 1380,
+      "chapter": "02",
+      "localTime": 1,
+      "path": "arts/actions/film/provenance/integration-v01/frame-1380.png",
+      "sha256": "e71302e866e21ba31b90e64f38a33cde80d07c52fe8c4506f65173face772fa5"
+    },
+    {
+      "frame": 1920,
+      "chapter": "02",
+      "localTime": 19,
+      "path": "arts/actions/film/provenance/integration-v01/frame-1920.png",
+      "sha256": "059d16b8ba8113348cbd3309ca6a13a79a8fe478a794d39de68abf33d6cb827a"
+    },
+    {
+      "frame": 2460,
+      "chapter": "02",
+      "localTime": 37,
+      "path": "arts/actions/film/provenance/integration-v01/frame-2460.png",
+      "sha256": "6e542f94418e486fcf7eb99eb7c366af8fa4c197c769e3db5defe1e7abf48d65"
+    },
+    {
+      "frame": 2489,
+      "chapter": "02",
+      "localTime": 37.96666666666667,
+      "path": "arts/actions/film/provenance/integration-v01/frame-2489.png",
+      "sha256": "6e542f94418e486fcf7eb99eb7c366af8fa4c197c769e3db5defe1e7abf48d65"
+    },
+    {
+      "frame": 2490,
+      "chapter": "03",
+      "localTime": 0,
+      "path": "arts/actions/film/provenance/integration-v01/frame-2490.png",
+      "sha256": "f70f92129f00d44b901310ca5716ab2fab195df526058008a744fdd57fa01f22"
+    },
+    {
+      "frame": 2520,
+      "chapter": "03",
+      "localTime": 1,
+      "path": "arts/actions/film/provenance/integration-v01/frame-2520.png",
+      "sha256": "f70f92129f00d44b901310ca5716ab2fab195df526058008a744fdd57fa01f22"
+    },
+    {
+      "frame": 3075,
+      "chapter": "03",
+      "localTime": 19.5,
+      "path": "arts/actions/film/provenance/integration-v01/frame-3075.png",
+      "sha256": "4c4d9d15fc751b7e83ae834671f073dacdf4d379115625a1b9ba5775e2843b1c"
+    },
+    {
+      "frame": 3630,
+      "chapter": "03",
+      "localTime": 38,
+      "path": "arts/actions/film/provenance/integration-v01/frame-3630.png",
+      "sha256": "a9791d283d1191a34080a60ed313b95d9748cfd46408585258ea16ffdae3206b"
+    },
+    {
+      "frame": 3659,
+      "chapter": "03",
+      "localTime": 38.96666666666667,
+      "path": "arts/actions/film/provenance/integration-v01/frame-3659.png",
+      "sha256": "a9791d283d1191a34080a60ed313b95d9748cfd46408585258ea16ffdae3206b"
+    },
+    {
+      "frame": 3660,
+      "chapter": "04",
+      "localTime": 0,
+      "path": "arts/actions/film/provenance/integration-v01/frame-3660.png",
+      "sha256": "e9d362927a4367cd6c7970a09b53d38bdeca0e1a74668815690db750b8a43f4e"
+    },
+    {
+      "frame": 3690,
+      "chapter": "04",
+      "localTime": 1,
+      "path": "arts/actions/film/provenance/integration-v01/frame-3690.png",
+      "sha256": "e2ef4d3b679e08e7426f02e34e4ac1e3046099e33fca6cf4592d49643fb143e6"
+    },
+    {
+      "frame": 4485,
+      "chapter": "04",
+      "localTime": 27.5,
+      "path": "arts/actions/film/provenance/integration-v01/frame-4485.png",
+      "sha256": "c84dc9b84a671a2ffbc8d5f45b9c7e1aeb50576c114b73eced8494afe0298204"
+    },
+    {
+      "frame": 5280,
+      "chapter": "04",
+      "localTime": 54,
+      "path": "arts/actions/film/provenance/integration-v01/frame-5280.png",
+      "sha256": "95074ffd6537f7ffa5b8da9a75f30c554b603529453dbf4de2b1c45dd2dcf043"
+    },
+    {
+      "frame": 5309,
+      "chapter": "04",
+      "localTime": 54.96666666666667,
+      "path": "arts/actions/film/provenance/integration-v01/frame-5309.png",
+      "sha256": "95074ffd6537f7ffa5b8da9a75f30c554b603529453dbf4de2b1c45dd2dcf043"
+    },
+    {
+      "frame": 5310,
+      "chapter": "05",
+      "localTime": 0,
+      "path": "arts/actions/film/provenance/integration-v01/frame-5310.png",
+      "sha256": "492de448623c9aba3b893776a5670f815d7a21400a23c1633755514267cd6d20"
+    },
+    {
+      "frame": 5340,
+      "chapter": "05",
+      "localTime": 1,
+      "path": "arts/actions/film/provenance/integration-v01/frame-5340.png",
+      "sha256": "99d2a809037aba8a7fcbe5811a494b7ca04d446aaf64c2be68daa0bfd1231c92"
+    },
+    {
+      "frame": 5985,
+      "chapter": "05",
+      "localTime": 22.5,
+      "path": "arts/actions/film/provenance/integration-v01/frame-5985.png",
+      "sha256": "ef033c1a77673d728e2d081981cc965c49ef095ca4170b2105816f1f851b1edd"
+    },
+    {
+      "frame": 6630,
+      "chapter": "05",
+      "localTime": 44,
+      "path": "arts/actions/film/provenance/integration-v01/frame-6630.png",
+      "sha256": "2a0b4aeb1d5c282bfdda9aacdee622a84a2475504bef39fc119c81a8d18f0620"
+    },
+    {
+      "frame": 6659,
+      "chapter": "05",
+      "localTime": 44.96666666666667,
+      "path": "arts/actions/film/provenance/integration-v01/frame-6659.png",
+      "sha256": "2a0b4aeb1d5c282bfdda9aacdee622a84a2475504bef39fc119c81a8d18f0620"
+    },
+    {
+      "frame": 6660,
+      "chapter": "06",
+      "localTime": 0,
+      "path": "arts/actions/film/provenance/integration-v01/frame-6660.png",
+      "sha256": "891516e3f734fc1d0226162bc3652c59c45694a40b90847a1d54910ebeff2f92"
+    },
+    {
+      "frame": 6690,
+      "chapter": "06",
+      "localTime": 1,
+      "path": "arts/actions/film/provenance/integration-v01/frame-6690.png",
+      "sha256": "9e8dfcda4a64a0c32fc3e0889cb9fef6a6a13aa6ebc247952850a696f9287484"
+    },
+    {
+      "frame": 7530,
+      "chapter": "06",
+      "localTime": 29,
+      "path": "arts/actions/film/provenance/integration-v01/frame-7530.png",
+      "sha256": "f65d829a362eb9bae4c7e06a8f88352a30e40ab1d3a30e90c14c63e519e84545"
+    },
+    {
+      "frame": 8399,
+      "chapter": "06",
+      "localTime": 57.96666666666667,
+      "path": "arts/actions/film/provenance/integration-v01/frame-8399.png",
+      "sha256": "615cad224880821a42eeb5a4331ed050dac31018f0a9a14e9b9dcd965778bd4e"
+    }
+  ],
+  "boundaries": [
+    {
+      "from": "01",
+      "to": "02",
+      "startFrame": 1350,
+      "mode": "authored incoming scene; no frame overlap or added time",
+      "preview": "arts/actions/film/provenance/integration-v01/01-to-02-source-seam-v01.mp4",
+      "previewFrames": 60,
+      "previewSize": [
+        960,
+        540
+      ],
+      "source": "unified adapter render, not a concat of historical MP4s",
+      "stateBefore": {
+        "t": 44.96666666666667,
+        "beat": {
+          "id": "S01-12",
+          "start": 41,
+          "end": 45,
+          "name": "跟移终点",
+          "mode": "standing"
+        },
+        "mode": "standing",
+        "programmer": {
+          "id": "programmer-input",
+          "x": 263.5,
+          "baseline": 982.8,
+          "flip": false,
+          "scaleOverride": 0.1505
+        },
+        "agent": {
+          "id": "agent-idle",
+          "x": 545,
+          "baseline": 1000,
+          "rotation": 0,
+          "scaleOverride": 0.16
+        },
+        "interaction": null,
+        "day": 1,
+        "camera": {
+          "x": 560,
+          "y": 0,
+          "scale": 0.8,
+          "bgShift": 46,
+          "actorScale": 0.9,
+          "actorDx": -24
+        },
+        "taskStates": {
+          "T00": "accepted",
+          "T01": "accepted",
+          "T01-R": "merged",
+          "test": "scheduled",
+          "interface": "scheduled",
+          "feature": "scheduled",
+          "docs": "scheduled",
+          "perf": "scheduled",
+          "compat": "scheduled",
+          "migrate": "scheduled",
+          "feedback": "candidate"
+        },
+        "cursor": null,
+        "endpoint": 2560
+      },
+      "stateAfter": {
+        "t": 0,
+        "beat": "S02-01",
+        "caption": {
+          "text": "工作量不是固定的存量。",
+          "startMs": 0,
+          "endMs": 2400,
+          "timestampMs": null,
+          "confidence": null
+        },
+        "tasks": {
+          "T00": "accepted",
+          "T01": "accepted",
+          "T01-R": "merged",
+          "test": "scheduled",
+          "interface": "scheduled",
+          "feature": "scheduled",
+          "docs": "scheduled",
+          "perf": "scheduled",
+          "compat": "scheduled",
+          "migrate": "scheduled",
+          "feedback": "candidate",
+          "N02-A": "candidate",
+          "N02-B": "candidate"
+        },
+        "branch": "common",
+        "token": {
+          "id": "saving-02",
+          "owner": "common",
+          "fraction": 0
+        },
+        "hypothetical": {
+          "distinctFromInheritedTasks": true,
+          "choice": null,
+          "extraTasks": []
+        },
+        "comparison": {
+          "unitHuman": 180,
+          "baselineHuman": 360,
+          "taskWeights": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "totalHuman": 720,
+          "expanded": 0
+        },
+        "pose": "idle"
+      },
+      "semanticNote": null,
+      "visualReview": "source before/after contact inspected; existing authored cut retained",
+      "decodeExitCode": 0,
+      "decodeErrors": ""
+    },
+    {
+      "from": "02",
+      "to": "03",
+      "startFrame": 2490,
+      "mode": "authored incoming scene; no frame overlap or added time",
+      "preview": "arts/actions/film/provenance/integration-v01/02-to-03-source-seam-v01.mp4",
+      "previewFrames": 60,
+      "previewSize": [
+        960,
+        540
+      ],
+      "source": "unified adapter render, not a concat of historical MP4s",
+      "stateBefore": {
+        "t": 37.96666666666667,
+        "beat": "S02-12",
+        "caption": {
+          "text": "总劳动投入仍取决于任务规模。",
+          "startMs": 30900,
+          "endMs": 38000,
+          "timestampMs": null,
+          "confidence": null
+        },
+        "tasks": {
+          "T00": "accepted",
+          "T01": "accepted",
+          "T01-R": "merged",
+          "test": "scheduled",
+          "interface": "scheduled",
+          "feature": "scheduled",
+          "docs": "scheduled",
+          "perf": "scheduled",
+          "compat": "scheduled",
+          "migrate": "scheduled",
+          "feedback": "candidate",
+          "N02-A": "candidate",
+          "N02-B": "candidate"
+        },
+        "branch": "B",
+        "token": {
+          "id": "saving-02",
+          "owner": "B",
+          "fraction": 1
+        },
+        "hypothetical": {
+          "distinctFromInheritedTasks": true,
+          "choice": "expand-output",
+          "extraTasks": [
+            {
+              "id": "H02-new1",
+              "status": "scheduled"
+            },
+            {
+              "id": "H02-new2",
+              "status": "scheduled"
+            }
+          ]
+        },
+        "comparison": {
+          "unitHuman": 110,
+          "baselineHuman": 360,
+          "taskWeights": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "totalHuman": 440,
+          "expanded": 1
+        },
+        "pose": "idle"
+      },
+      "stateAfter": {
+        "t": 0,
+        "phase": "checklist",
+        "active": false,
+        "taskStates": {
+          "S03-A": "accepted",
+          "S03-B": "accepted",
+          "S03-C": "candidate",
+          "S03-D": "not-introduced"
+        },
+        "workdayEnded": false,
+        "lateTask": null,
+        "humanOperation": "review",
+        "audio": false
+      },
+      "semanticNote": "S03 tasks are a distinct explanatory scenario; inherited01/02 tasks are not reset",
+      "visualReview": "source before/after contact inspected; existing authored cut retained",
+      "decodeExitCode": 0,
+      "decodeErrors": "",
+      "limitation": "Existing different-scenario cut, not a newly authored continuous graphic morph."
+    },
+    {
+      "from": "03",
+      "to": "04",
+      "startFrame": 3660,
+      "mode": "authored incoming scene; no frame overlap or added time",
+      "preview": "arts/actions/film/provenance/integration-v01/03-to-04-source-seam-v01.mp4",
+      "previewFrames": 60,
+      "previewSize": [
+        960,
+        540
+      ],
+      "source": "unified adapter render, not a concat of historical MP4s",
+      "stateBefore": {
+        "t": 38.96666666666667,
+        "phase": "team-schedule",
+        "active": false,
+        "taskStates": {
+          "S03-A": "accepted",
+          "S03-B": "accepted",
+          "S03-C": "scheduled",
+          "S03-D": "scheduled-next-workday"
+        },
+        "workdayEnded": true,
+        "lateTask": "deferred-to-next-workday",
+        "humanOperation": "none",
+        "audio": false
+      },
+      "stateAfter": {
+        "t": 0,
+        "phase": "handoff",
+        "evidenceType": "single-company-qualitative-study",
+        "active": false,
+        "humanOperation": "none",
+        "companyAAdopted": false,
+        "companyBAdopted": false,
+        "taskId": null,
+        "extraTaskState": null,
+        "decisionOrigin": "human-or-organization",
+        "inheritedTasks": {
+          "S03-D": "scheduled-next-workday"
+        },
+        "audio": false
+      },
+      "semanticNote": null,
+      "visualReview": "source before/after contact inspected; existing authored cut retained",
+      "decodeExitCode": 0,
+      "decodeErrors": ""
+    },
+    {
+      "from": "04",
+      "to": "05",
+      "startFrame": 5310,
+      "mode": "authored incoming scene; no frame overlap or added time",
+      "preview": "arts/actions/film/provenance/integration-v01/04-to-05-source-seam-v01.mp4",
+      "previewFrames": 60,
+      "previewSize": [
+        960,
+        540
+      ],
+      "source": "unified adapter render, not a concat of historical MP4s",
+      "stateBefore": {
+        "t": 54.96666666666667,
+        "phase": "standards",
+        "evidenceType": "theoretical-application",
+        "active": false,
+        "humanOperation": "none",
+        "companyAAdopted": true,
+        "companyBAdopted": true,
+        "taskId": "S04-X",
+        "extraTaskState": "routine-acceptance",
+        "decisionOrigin": "human-or-organization",
+        "inheritedTasks": {
+          "S03-D": "scheduled-next-workday"
+        },
+        "audio": false
+      },
+      "stateAfter": {
+        "t": 0,
+        "phase": "tools",
+        "beat": "S05-01",
+        "caption": {
+          "text": "调度多个 Agent，",
+          "startMs": 0,
+          "endMs": 3000,
+          "timestampMs": null,
+          "confidence": null
+        },
+        "availableAgents": 1,
+        "decisionOwner": "organization",
+        "workerDecisionRights": "not_automatically_granted",
+        "workerParticipatesInDecision": false,
+        "feedbackOrigin": "organization-delivery-standard",
+        "agentIsEmployer": false,
+        "acceptedTaskCount": 0,
+        "illustrativeTasks": true,
+        "pose": "idle"
+      },
+      "semanticNote": "Organization standards continue as a concept; S04-X is not reclassified into05 tasks",
+      "visualReview": "source before/after contact inspected; existing authored cut retained",
+      "decodeExitCode": 0,
+      "decodeErrors": "",
+      "limitation": "Existing different-scenario cut, not a newly authored continuous graphic morph."
+    },
+    {
+      "from": "05",
+      "to": "06",
+      "startFrame": 6660,
+      "mode": "authored incoming scene; no frame overlap or added time",
+      "preview": "arts/actions/film/provenance/integration-v01/05-to-06-source-seam-v01.mp4",
+      "previewFrames": 60,
+      "previewSize": [
+        960,
+        540
+      ],
+      "source": "unified adapter render, not a concat of historical MP4s",
+      "stateBefore": {
+        "t": 44.96666666666667,
+        "phase": "match06",
+        "beat": "S05-13",
+        "caption": {
+          "text": "拒绝额外任务或分享效率收益的权力。",
+          "startMs": 40000,
+          "endMs": 45000,
+          "timestampMs": null,
+          "confidence": null
+        },
+        "availableAgents": 3,
+        "decisionOwner": "organization",
+        "workerDecisionRights": "not_automatically_granted",
+        "workerParticipatesInDecision": false,
+        "feedbackOrigin": "organization-delivery-standard",
+        "agentIsEmployer": false,
+        "acceptedTaskCount": 0,
+        "illustrativeTasks": true,
+        "pose": "idle"
+      },
+      "stateAfter": {
+        "t": 0,
+        "phase": "allocation",
+        "choice": "common",
+        "beat": "S06-01",
+        "caption": {
+          "text": "效率收益可以转化为更多交付，",
+          "startMs": 0,
+          "endMs": 4700,
+          "timestampMs": null,
+          "confidence": null
+        },
+        "saving": {
+          "id": "saving-06",
+          "owner": "common",
+          "fraction": 0
+        },
+        "control": {
+          "workerParticipates": false,
+          "scope": "conditional co-decision scenario"
+        },
+        "tasks": {
+          "D06-1": "illustrative",
+          "D06-2": "illustrative"
+        },
+        "boundary": false,
+        "personDeparted": false,
+        "requiresImmediateResponse": false,
+        "machineCountsAsHumanLabor": false
+      },
+      "semanticNote": null,
+      "visualReview": "source before/after contact inspected; existing authored cut retained",
+      "decodeExitCode": 0,
+      "decodeErrors": ""
+    }
+  ],
+  "allChapterSourcesPreserved": true,
+  "audio": false,
+  "externalModelCalls": 0,
+  "note": "Representative raster QA and five encoded source-rendered seam previews; not a full-film MP4.",
+  "checks": {
+    "automatedTests": 5,
+    "testsPassed": 5,
+    "all8400FrameOutputsChecked": true,
+    "sourceAssetPathsResolved": 74,
+    "globalCaptionCues": 68,
+    "fullFilmMP4Rendered": false,
+    "encodedSeamsDecoded": 5,
+    "subtitleAlignment": "provisional; no recorded speech",
+    "regressionTestsIncluding01": 21,
+    "regressionPassed": 21
+  },
+  "browserVerification": {
+    "url": "http://127.0.0.1:8765/actions/film/preview.html",
+    "all74ImagesPreloaded": true,
+    "chaptersVisited": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "continuousCrossingsObserved": [
+      "02→03",
+      "03→04",
+      "04→05",
+      "05→06"
+    ],
+    "seamPreviewAutoPausedAtGlobalFrame": 6720,
+    "seamPreviewClearsChapterLoop": true,
+    "chapter03AssetFilterCount": 13,
+    "captionsToggleChecked": true,
+    "lastFrameShowsNoCaption": true,
+    "lastFrameClock": "04:40 / 04:40",
+    "speedSelections": [
+      "2",
+      "1"
+    ],
+    "consoleErrors": [],
+    "screenshot": "arts/actions/film/provenance/integration-v01/browser-preview.png"
+  }
+}

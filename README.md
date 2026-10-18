@@ -19,11 +19,16 @@
 
 2026-10-16当前交接：[第03章39秒无声字幕](arts/actions/03/README.md)与[第04章55秒无声字幕v0.2](arts/actions/04/README.md)，均为1080p30，原口播保留。03→04有4秒编码接缝预览；02→03、04→05待核对。两段小体积MP4随源码上传，字幕仍待配音校时，02／05／06已有交付保留。
 
+**当前剧本修订：** [02–06故事／逻辑划分](scripts/final/shot/STORY_LOGIC_PLAN.md)已完成，原口播与时长不变；04午餐／会前／晚间采用三画幅并行。首批[故事美术与构图](arts/static/story-assets-v01/README.md)已备，含公司工位、会议室、负责人／同事姿态、睡眠／醒来与三联绘稿，以及搁置需求和通知UI；[构图检查页](http://127.0.0.1:8765/static/story-assets-v01/preview.html)。新章节动作尚未接入。
+
+**统一动态展示：** [01–06全片框架](arts/actions/film/README.md)已接入六章基础分镜，280秒／8400帧、68段字幕、74项注册素材；[本机播放](http://127.0.0.1:8765/actions/film/preview.html)。支持连续播放、章节／镜头跳转、逐帧、字幕开关与按章查看素材。当前无配音／音效，未导出280秒完整MP4。
+
 ## 工作文件
 
 | 入口 | 用途 |
 |---|---|
 | [分章动画制作skill](skills/chapter-video-production/SKILL.md) | 剧本、美术、演出、字幕、导出；含跨章衔接规则与制作／交接模板 |
+| [01–06动态展示](arts/actions/film/README.md) | 全片时间轴、共用素材索引、统一字幕和接缝预览 |
 | [PROJECT_STATE](scripts/PROJECT_STATE.md) | 主题、版本矩阵、时长与审批状态的唯一索引 |
 | [六章工作文本](scripts/final/shot/README.md) | SHOT_TEXT v0.4；每章含 audio content、video content 与音画尾注 |
 | [OUTLINE](scripts/final/OUTLINE.md) | 与六章正文对应的内容结构 |

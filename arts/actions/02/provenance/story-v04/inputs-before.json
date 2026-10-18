@@ -1,0 +1,86 @@
+[
+  {
+    "path": "scripts/final/shot/06.md",
+    "sha256": "79b18a04b49ba5481e6507be152f634ed162c127fb2999e26872c1652095778b"
+  },
+  {
+    "path": "scripts/final/shot/02.md",
+    "sha256": "5b05a43abfca68d8823916764c8638085e9b2ec17f9fa0d5bdb974b562c7413b"
+  },
+  {
+    "path": "scripts/final/shot/03.md",
+    "sha256": "598642a5a2b30b6795f1cf4fbacde2422ba4f07f03143fa34df28c3300c276ad"
+  },
+  {
+    "path": "scripts/final/shot/04.md",
+    "sha256": "fd30a80d829ec14b8f925eccdef2cba6cf8c81ff24744c59d5a265f19a2e9c1f"
+  },
+  {
+    "path": "scripts/final/shot/05.md",
+    "sha256": "25ba327ad2546c34d131f269e3948bc3be59a8d75817a85aae481be7f65639d3"
+  },
+  {
+    "path": "scripts/final/shot/01.md",
+    "sha256": "0bec30c0ba6e713660947041db930db1894633c90058a78584ca40f9966a85d9"
+  },
+  {
+    "path": "arts/actions/film/qa.mjs",
+    "sha256": "504396f39bd843ae35bca52db04023eaa18175e13d8a2c352eda8032f555b60d"
+  },
+  {
+    "path": "arts/actions/film/timeline.mjs",
+    "sha256": "f0b976e07e54fd730f1f7745d04d157f605ab36c7791a0cea19ccba1e5fc7135"
+  },
+  {
+    "path": "arts/actions/film/player.mjs",
+    "sha256": "5e1c0087be3e85bc8b4f4620ef419f12b63fcc70a36ea2efeda7f568fcdbf122"
+  },
+  {
+    "path": "arts/actions/film/build.mjs",
+    "sha256": "808d89be4df2fa4640cd4e29732666ec4bc648b1602ba4dcd1b120f6111b6ce5"
+  },
+  {
+    "path": "arts/actions/film/framework.test.mjs",
+    "sha256": "3c5fc1b3b6a6cb7ff1a00c58b8a3631c0aac39463edbb71a44c86242acd70cdc"
+  },
+  {
+    "path": "arts/actions/film/scenes.mjs",
+    "sha256": "0f2e3527e22690fd60a8c87cc7fa2e6a61d95308a9fd8047eb1c62d55f2d4580"
+  },
+  {
+    "path": "arts/actions/02/full-scene.mjs",
+    "sha256": "c58c352a6f73f9bced8d1986dacc2e86c28f64fedb6e6721914b6585cd7fcbe5"
+  },
+  {
+    "path": "arts/actions/02/build-revision.mjs",
+    "sha256": "22d88de66bb322bab68d93ed1f4d65b9e965bb52901ff5d2401f48dd7c7f5824"
+  },
+  {
+    "path": "arts/actions/02/scene.mjs",
+    "sha256": "e433238148db2dc30cba49f81fb9e163a14f96172d052801222dd6fa9abb187a"
+  },
+  {
+    "path": "arts/actions/02/opening-revised.mjs",
+    "sha256": "930bfd52447780ceac05ca424b16b83a944206cf3fed11fefb03bbeef7c8e88b"
+  },
+  {
+    "path": "arts/actions/02/build.mjs",
+    "sha256": "e3805e669cdfda8ef924ecd5941aa9a6adbc2d0aa0e9642789bf88a772b1efa3"
+  },
+  {
+    "path": "arts/actions/02/build-full.mjs",
+    "sha256": "499659b53c9035e702495615431188221ccce45e7b006c3d3dc032088bced990"
+  },
+  {
+    "path": "arts/actions/02/entry-v03.mjs",
+    "sha256": "f703c15a3b9a3b18c55f341d3bdd43fecb84895f2deff9f19f23199c3c3525af"
+  },
+  {
+    "path": "arts/actions/02/captions/02-complete-v03.json",
+    "sha256": "370c0d1f4e1792ad7690b6b2f65892927bb58493ea9d8ffab9fa404138ff7063"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/scene-layered-v03.mjs",
+    "sha256": "bc8af2d815a195b365e18d6b510a390b603a62afa1ea1a0f75db195291b645fa"
+  }
+]

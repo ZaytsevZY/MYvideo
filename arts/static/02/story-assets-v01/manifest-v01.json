@@ -1,0 +1,192 @@
+{
+  "version": "S02_STORY_ASSETS v0.1",
+  "date": "2026-10-18",
+  "stage": "prepared-art",
+  "generationCalls": 5,
+  "adoptedRaster": 5,
+  "chapterAnimationUpdated": false,
+  "outputs": [
+    {
+      "id": "relax",
+      "path": "arts/characters/poses/02/programmer-relax-rear-v01.png",
+      "shot": "V02.2-E1",
+      "status": "prepared",
+      "usedInChapterAnimation": false,
+      "sha256": "6209ad47b82c7546cd229996692eca2d868a9fb00dd3d0b90c06253c07b8510d",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-a2403deb-d940-428f-be67-98b8d37dadf1.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed",
+      "transparent_background": true,
+      "promptFile": "arts/static/02/story-assets-v01/prompts/batch-01.json",
+      "references": [
+        {
+          "path": "arts/characters/poses/01/programmer-rest-v01.png",
+          "sha256": "2f7042e7620dc3f31d176036cd3f68246e4f37d595194b79c0d3431282b8bc85"
+        },
+        {
+          "path": "arts/characters/programmer-model-sheet-v01.png",
+          "sha256": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0"
+        }
+      ]
+    },
+    {
+      "id": "think",
+      "path": "arts/characters/poses/02/programmer-think-up-right-v01.png",
+      "shot": "V02.2-E2",
+      "status": "prepared",
+      "usedInChapterAnimation": false,
+      "sha256": "4cbcc61130ae40457b9e1ae2d8648324a541970be64c9d4cc494fa22f5529d05",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-2f1449e8-35f5-4795-afbc-d92321265198.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed",
+      "transparent_background": true,
+      "promptFile": "arts/static/02/story-assets-v01/prompts/batch-01.json",
+      "references": [
+        {
+          "path": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+          "sha256": "f3862cc0ea51085524d03d2d9d3a704b756f892533d258a9c05ea598fea00ddf"
+        },
+        {
+          "path": "arts/characters/programmer-model-sheet-v01.png",
+          "sha256": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "path": "arts/characters/poses/02/programmer-review-current-v01.png",
+      "shot": "V02.3-E1",
+      "status": "prepared",
+      "usedInChapterAnimation": false,
+      "sha256": "2a32a3e65351e725453c0ad2561a1f1370b281929a4f317a7ec3c03fa3ed2db8",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-09697e3d-a24d-40b8-9a0f-a0bdf2bf199d.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed",
+      "transparent_background": true,
+      "promptFile": "arts/static/02/story-assets-v01/prompts/batch-01.json",
+      "references": [
+        {
+          "path": "arts/characters/poses/01/programmer-input-v01.png",
+          "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373"
+        },
+        {
+          "path": "arts/characters/programmer-model-sheet-v01.png",
+          "sha256": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0"
+        }
+      ]
+    },
+    {
+      "id": "choose",
+      "path": "arts/characters/poses/02/programmer-choose-right-v01.png",
+      "shot": "V02.2-E2",
+      "status": "prepared",
+      "usedInChapterAnimation": false,
+      "sha256": "3df86a6589207df7491277c3197f7bb59d92fea6263d8c4f195776dda3513dbd",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-1e885066-c24f-4e25-a622-d3daaef8cf09.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed",
+      "transparent_background": true,
+      "promptFile": "arts/static/02/story-assets-v01/prompts/batch-02.json",
+      "references": [
+        {
+          "path": "arts/characters/poses/02/programmer-think-up-right-v01.png",
+          "sha256": "4cbcc61130ae40457b9e1ae2d8648324a541970be64c9d4cc494fa22f5529d05"
+        }
+      ]
+    },
+    {
+      "id": "review-next",
+      "path": "arts/characters/poses/02/programmer-review-next-v01.png",
+      "shot": "V02.3-E1",
+      "status": "prepared",
+      "usedInChapterAnimation": false,
+      "sha256": "63820e630fd3b6bd02168873aab066e156b72c16ccdf51565d2faa1979fcb138",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-d8d7fa5c-bec2-43b9-ad4c-7aa385e7b260.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed",
+      "transparent_background": true,
+      "promptFile": "arts/static/02/story-assets-v01/prompts/batch-02.json",
+      "references": [
+        {
+          "path": "arts/characters/poses/02/programmer-review-current-v01.png",
+          "sha256": "2a32a3e65351e725453c0ad2561a1f1370b281929a4f317a7ec3c03fa3ed2db8"
+        }
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "path": "arts/items/02/kpi-requirements-v01.svg",
+      "sha256": "50892dc74d603af98d9259cf6612890a40202090215842291fde5e239856cef5",
+      "method": "editable vector UI with adopted raster manager portrait; not image generation"
+    },
+    {
+      "path": "arts/items/02/kpi-requirements-v01.png",
+      "sha256": "361a693f50a185a61bc785336ecbac48b09571ded5c8635bab459ff26b9f17fd",
+      "method": "editable vector UI with adopted raster manager portrait; not image generation"
+    },
+    {
+      "path": "arts/items/02/kpi-thought-bubble-v01.svg",
+      "sha256": "00f4ef4c8d9e32a36e232c878dbc1147f7db650fbc0730239d354b1cb83d2a4c",
+      "method": "editable vector UI with adopted raster manager portrait; not image generation"
+    },
+    {
+      "path": "arts/items/02/kpi-thought-bubble-v01.png",
+      "sha256": "21db5a557cc2f6de4bd5da438dbaa703497aca4a37de3c4e165dde50807c7bd8",
+      "method": "editable vector UI with adopted raster manager portrait; not image generation"
+    }
+  ],
+  "reused": [
+    {
+      "id": "room",
+      "path": "arts/backgrounds/01/workroom-day-v01.png",
+      "sha256": "45e33124784fffdfd755d27f6ee1b13d06d65261795087e83ec15c74392c50b3"
+    },
+    {
+      "id": "desk",
+      "path": "arts/items/01/workstation-painted-v02.png",
+      "sha256": "c05a579cb7d6e3eeefac268c6d122495396b6fbe759d5efbc5cda4c1981a234a"
+    },
+    {
+      "id": "chair",
+      "path": "arts/items/01/chair-back-rear-painted-v01.png",
+      "sha256": "c8081c17e825a75dacb7b6f23f21e8d7ed6f76bdffe978eba4bd525aef6071c6"
+    },
+    {
+      "id": "input",
+      "path": "arts/characters/poses/01/programmer-input-v01.png",
+      "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373"
+    },
+    {
+      "id": "agent",
+      "path": "arts/characters/poses/01/agent-receive-v01.png",
+      "sha256": "dac6f4c336ca5dfeee79843776c8e3a60df740e611ad6c4ef45d364ed7fe15f5"
+    },
+    {
+      "id": "manager",
+      "path": "arts/characters/poses/shared/manager-assign-left-v01.png",
+      "sha256": "69dbdbbea503b3ef9100ece87b42692013bcce03048e6edced267a9046dc39ba"
+    },
+    {
+      "id": "paper",
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420"
+    }
+  ],
+  "layout": "layout-v01.json"
+}

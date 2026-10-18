@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-18",
+  "stage": "resource-audit-only",
+  "scriptPreserved": true,
+  "generationCalls": 0,
+  "recommendedNewRaster": 5,
+  "newUiComponents": 1,
+  "inputs": [
+    {
+      "path": "scripts/final/shot/02.md",
+      "sha256": "58fb0ee4ec9370806c84eec20b5b7cfbd5041b90e5bb4eb3b8b0a5d5a0aadc9c"
+    },
+    {
+      "path": "skills/chapter-video-production/SKILL.md",
+      "sha256": "8a2dcad63c694f216308893308123f4abbac2eba208fc2d64c7d68d6e0780aa1"
+    },
+    {
+      "path": "arts/static/story-assets-v01/manifest-v01.json",
+      "sha256": "21634f70a991b749fb71e7eaf0e21aded98f949d01725a147aa3f502e58f729e"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rest-v01.png",
+      "sha256": "2f7042e7620dc3f31d176036cd3f68246e4f37d595194b79c0d3431282b8bc85"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-input-v01.png",
+      "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+      "sha256": "6304e88141b54c50d2e87659315b26392d86123a2073cdd98068b38776a1312b"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+      "sha256": "f3862cc0ea51085524d03d2d9d3a704b756f892533d258a9c05ea598fea00ddf"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-front-dispatch-v01.png",
+      "sha256": "2884433d982fb66f6e8c506fd6b4bcef27dfc0cd4f5b75b6fc8693b6ffd22a3c"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-lean-v01.png",
+      "sha256": "470d0a4d34b3f4d8ac4fcceff2fb613c7573c4918319bce6e019100339ee89d2"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-inspect-file-v01.png",
+      "sha256": "1c61c9c353b92cc2efd8881a684854392056d057eeba2e569b608055f23a3a88"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-receive-v01.png",
+      "sha256": "dac6f4c336ca5dfeee79843776c8e3a60df740e611ad6c4ef45d364ed7fe15f5"
+    },
+    {
+      "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+      "sha256": "4e6f1beaf38dd2e02df9f6e3a1943d3815a73d6e0113f2b8531ea7ad6113fc1e"
+    },
+    {
+      "path": "arts/items/01/workstation-painted-v02.png",
+      "sha256": "c05a579cb7d6e3eeefac268c6d122495396b6fbe759d5efbc5cda4c1981a234a"
+    },
+    {
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420"
+    },
+    {
+      "path": "arts/backgrounds/01/workroom-day-v01.png",
+      "sha256": "45e33124784fffdfd755d27f6ee1b13d06d65261795087e83ec15c74392c50b3"
+    },
+    {
+      "path": "arts/items/shared/backlog-list-v01.svg",
+      "sha256": "e48cecdfe0e04c25e6299258133a7e9a39033f317cb570b38545a71e8012766c"
+    },
+    {
+      "path": "arts/items/shared/backlog-open-v01.svg",
+      "sha256": "d309b1cbd2eccd9b55ec77ea565fd6c5815577318ce28544132583ac22d19fcc"
+    }
+  ]
+}

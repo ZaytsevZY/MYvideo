@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-18",
+  "url": "http://127.0.0.1:8765/static/02/story-assets-v01/preview.html",
+  "method": "CUA native accessibility controls and screenshot",
+  "checks": {
+    "pageTitle": "02 · 多图层演出构图",
+    "rightSelectedTime": 6.35,
+    "fullWorkTime": 8.9,
+    "foregroundToggle": "unchecked: rest figure becomes visible; checked: foreground covers left scene",
+    "play": "button changed to pause; clock advanced from 3.8 to 3.93",
+    "pauseAndRestore": "paused and restored to 3.8 seconds, all layers visible, inspector collapsed"
+  },
+  "screenshot": "browser-final.png",
+  "scope": "local 10.2-second composition study; no full chapter playback claim"
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "awake",
+    "dest": "arts/static/03/programmer-awake-main-v01.png",
+    "prompt": "Production illustration for an existing cel-anime educational animation. Match the attached reference's fine clean dark linework, restrained cel shading, warm ivory, desaturated blue grey and natural warm wood palette. Believable consistent perspective; no glossy 3D, no photorealism, no exaggerated lens distortion, no captions, no logos, no watermark. EDIT TARGET is first image: preserve EXACT landscape camera, room geometry, windows, chairs, desk objects, monitor position and light. Change ONLY the same programmer from sleeping to newly awake: head raised above folded arms, eyes half-open, tired slight surprise, gaze turns toward the computer on LEFT, right hand just beginning to reach forward toward mouse. Keep shoulders, clothing, badge design and character identity; body remains seated at same desk. No notification or extra UI. No split screen. Do not move furniture or camera.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/static/03/programmer-asleep-main-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png"
+    ],
+    "transparent_background": false
+  },
+  {
+    "id": "lunch",
+    "dest": "arts/static/04/lunch-panel-v01.png",
+    "prompt": "Production illustration for an existing cel-anime educational animation. Match the attached reference's fine clean dark linework, restrained cel shading, warm ivory, desaturated blue grey and natural warm wood palette. Believable consistent perspective; no glossy 3D, no photorealism, no exaggerated lens distortion, no captions, no logos, no watermark. Create ONE portrait 2:3 narrative scene panel, intended to be displayed alongside two other equally sized panels in a 16:9 video. Not a sheet, not a montage within this image. Medium shot, face and upper body and laptop and scene-specific props clearly legible at small display size. Same young black-haired male programmer, grey eyes, blue-grey sweatshirt. No captions, no heading, no frame, no lettering on screen; screen has simple dark blue/grey UI shapes, readable task text added separately later. Keep all essential activity inside central 80 percent width. First reference CHARACTER IDENTITY; second is style/palette only. Lunch at company break area, daylight. Programmer seated at a small wooden lunch table, a half-eaten meal in a bento tray clearly visible in foreground. One hand has just lowered a spoon beside lunch, other hand is actively pressing the laptop trackpad, eyes on laptop. Laptop screen angled visibly toward camera with reserved dark interface space. Pose makes interrupted meal and voluntary return to work visually obvious. Quiet breakroom windows and simple chair behind. Do not add a second person.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/backgrounds/shared/office-workstations-day-v01.png"
+    ],
+    "transparent_background": false
+  },
+  {
+    "id": "premeeting",
+    "dest": "arts/static/04/premeeting-panel-v01.png",
+    "prompt": "Production illustration for an existing cel-anime educational animation. Match the attached reference's fine clean dark linework, restrained cel shading, warm ivory, desaturated blue grey and natural warm wood palette. Believable consistent perspective; no glossy 3D, no photorealism, no exaggerated lens distortion, no captions, no logos, no watermark. Create ONE portrait 2:3 narrative scene panel, intended to be displayed alongside two other equally sized panels in a 16:9 video. Not a sheet, not a montage within this image. Medium shot, face and upper body and laptop and scene-specific props clearly legible at small display size. Same young black-haired male programmer, grey eyes, blue-grey sweatshirt. No captions, no heading, no frame, no lettering on screen; screen has simple dark blue/grey UI shapes, readable task text added separately later. Keep all essential activity inside central 80 percent width. First reference programmer identity, second meeting-room environment identity, third secondary coworker identity. A few minutes before meeting in this company meeting room, programmer seated near end of the table, working on an open laptop while waiting, one hand on trackpad. Empty chairs/table and frosted glass make the room recognisable. In background at doorway a small, softly simplified coworker from third reference enters holding papers (short brown hair, sage-grey sweatshirt, BLANK faceless face), providing waiting-to-meeting context. Main programmer remains dominant; no additional people. Use believable perspective and leave laptop screen unobscured.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/backgrounds/shared/meeting-room-day-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/characters/coworker-model-sheet-v01.png"
+    ],
+    "transparent_background": false
+  },
+  {
+    "id": "evening",
+    "dest": "arts/static/04/evening-panel-v01.png",
+    "prompt": "Production illustration for an existing cel-anime educational animation. Match the attached reference's fine clean dark linework, restrained cel shading, warm ivory, desaturated blue grey and natural warm wood palette. Believable consistent perspective; no glossy 3D, no photorealism, no exaggerated lens distortion, no captions, no logos, no watermark. Create ONE portrait 2:3 narrative scene panel, intended to be displayed alongside two other equally sized panels in a 16:9 video. Not a sheet, not a montage within this image. Medium shot, face and upper body and laptop and scene-specific props clearly legible at small display size. Same young black-haired male programmer, grey eyes, blue-grey sweatshirt. No captions, no heading, no frame, no lettering on screen; screen has simple dark blue/grey UI shapes, readable task text added separately later. Keep all essential activity inside central 80 percent width. First reference CHARACTER IDENTITY, second home workroom night STYLE and ENVIRONMENT reference. Evening at home desk: warm small desk lamp at left, cool blue city night window behind. Programmer had been ready to finish, but has reopened laptop: one hand holds the top screen edge fully open while other hand returns to keyboard; eyes focused but a little tired. Laptop screen visible at three-quarter angle with reserved dark interface space. Clear person-hand-computer contacts, medium shot face, shoulders and arms, one laptop only. No extra monitor, no notification, no clock numerals.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/backgrounds/01/workroom-night-v01.png"
+    ],
+    "transparent_background": false
+  }
+]

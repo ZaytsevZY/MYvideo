@@ -1,0 +1,30 @@
+[
+  {
+    "id": "manager-point",
+    "dest": "arts/characters/poses/shared/manager-point-left-v01.png",
+    "prompt": "Production illustration for an existing cel-anime educational animation. Match the attached reference's fine clean dark linework, restrained cel shading, warm ivory, desaturated blue grey and natural warm wood palette. Believable consistent perspective; no glossy 3D, no photorealism, no exaggerated lens distortion, no captions, no logos, no watermark. CHARACTER IDENTITY reference attached. ONE isolated full-body male manager on genuinely transparent background, same featureless blank face, side-part dark hair, navy blazer, light grey T shirt, grey trousers, black shoes. Three-quarter facing LEFT, raises open hand pointing to a schedule board OUTSIDE frame left, other hand holds amber folder close to torso. Both feet visible, natural intact anatomy, generous transparent margin. No board, no lettering, no surrounding glow or haze, no cast shadow, no duplicates.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/manager-model-sheet-v01.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "coworker-discuss",
+    "dest": "arts/characters/poses/shared/coworker-discuss-right-v01.png",
+    "prompt": "Production illustration for an existing cel-anime educational animation. Match the attached reference's fine clean dark linework, restrained cel shading, warm ivory, desaturated blue grey and natural warm wood palette. Believable consistent perspective; no glossy 3D, no photorealism, no exaggerated lens distortion, no captions, no logos, no watermark. CHARACTER IDENTITY reference attached. ONE isolated full-body coworker on genuinely transparent background. Same secondary male with intentionally featureless blank face (no eyes nose mouth), short brown hair, muted sage-grey sweatshirt, charcoal trousers, offwhite sneakers. Three-quarter facing RIGHT, holding a few offwhite documents at chest in one hand, other open hand gestures toward colleague to right. Gentle engaged weight shift, feet fully visible, intact natural arms and hands. No model sheet, no duplicates, no text, no glow or haze or cast shadow.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/coworker-model-sheet-v01.png"
+    ],
+    "transparent_background": true
+  },
+  {
+    "id": "asleep",
+    "dest": "arts/static/03/programmer-asleep-main-v01.png",
+    "prompt": "Production illustration for an existing cel-anime educational animation. Match the attached reference's fine clean dark linework, restrained cel shading, warm ivory, desaturated blue grey and natural warm wood palette. Believable consistent perspective; no glossy 3D, no photorealism, no exaggerated lens distortion, no captions, no logos, no watermark. Two references: first CHARACTER IDENTITY, second OFFICE ENVIRONMENT to preserve its style and room identity. Create ONE 16:9 landscape fully composed narrative keyframe, medium shot of the same young black-haired male programmer in blue-grey sweatshirt, dark lanyard, dozing briefly at his company desk in daytime. He is seated LEFT OF CENTRE, head resting on folded arms on desk, eyes closed and relaxed, computer monitor at far left facing him, keyboard and mouse physically coherent. Camera looks diagonally across desk at his face, upper body and arms clearly visible. Background repeats office's daylight windows, desaturated workstations/plants. Rightmost third is quieter softly focused office background reserved for a SEPARATE notification overlay; DO NOT draw notification, text or UI. No extra people, no split screen. Keep character hands resting naturally on desk, one consistent perspective; lower 12 percent reserved for subtitles.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+      "/Users/alan671/Documents/MYvideo/arts/backgrounds/shared/office-workstations-day-v01.png"
+    ],
+    "transparent_background": false
+  }
+]

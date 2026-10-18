@@ -1,0 +1,493 @@
+{
+  "version": "STORY_ASSETS v0.1",
+  "date": "2026-10-18",
+  "stage": "prepared-art-and-composition",
+  "implementedInChapterAnimation": false,
+  "generationCalls": 13,
+  "adoptedRasterCount": 10,
+  "outputs": [
+    {
+      "id": "office",
+      "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+      "status": "prepared-art",
+      "usedInCurrentFilm": false,
+      "chapters": [
+        "02",
+        "03",
+        "04",
+        "05"
+      ],
+      "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11",
+      "bytes": 1726481,
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-539523a3-3689-4d2c-81fb-97ababb927d4.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by built-in tool",
+      "transparent_background": false,
+      "promptFile": "arts/static/story-assets-v01/prompts/batch-01.json",
+      "references": [
+        {
+          "path": "arts/backgrounds/01/workroom-night-v01.png",
+          "sha256": "062660817c9cc28f7acd52678e761b8f2c1d584dc6d57cd5b9165c6a124cd77c",
+          "role": "identity / environment / style reference; see full prompt"
+        }
+      ]
+    },
+    {
+      "id": "meeting",
+      "path": "arts/backgrounds/shared/meeting-room-day-v01.png",
+      "status": "prepared-art",
+      "usedInCurrentFilm": false,
+      "chapters": [
+        "04",
+        "05",
+        "06"
+      ],
+      "sha256": "6191a947317c3fa1220fce801a7fb252d7d34cff2fe5ce4a6bd4678431c966de",
+      "bytes": 1688365,
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-d06e889a-c008-4cf2-b604-f79cca08a749.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by built-in tool",
+      "transparent_background": false,
+      "promptFile": "arts/static/story-assets-v01/prompts/batch-01.json",
+      "references": [
+        {
+          "path": "arts/backgrounds/01/workroom-night-v01.png",
+          "sha256": "062660817c9cc28f7acd52678e761b8f2c1d584dc6d57cd5b9165c6a124cd77c",
+          "role": "identity / environment / style reference; see full prompt"
+        }
+      ]
+    },
+    {
+      "id": "manager-assign",
+      "path": "arts/characters/poses/shared/manager-assign-left-v01.png",
+      "status": "prepared-art",
+      "usedInCurrentFilm": false,
+      "chapters": [
+        "02",
+        "03",
+        "04",
+        "05"
+      ],
+      "sha256": "69dbdbbea503b3ef9100ece87b42692013bcce03048e6edced267a9046dc39ba",
+      "bytes": 1251830,
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-98d3c767-23d4-49be-be9a-a5c2da955d6b.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by built-in tool",
+      "transparent_background": true,
+      "promptFile": "arts/static/story-assets-v01/prompts/batch-01.json",
+      "references": [
+        {
+          "path": "arts/characters/manager-model-sheet-v01.png",
+          "sha256": "13c0d3a291c355a01e2bfda55194c3e9626e5a31abbbf12ae26dc2076108c693",
+          "role": "identity / environment / style reference; see full prompt"
+        }
+      ]
+    },
+    {
+      "id": "manager-point",
+      "path": "arts/characters/poses/shared/manager-point-left-v01.png",
+      "status": "prepared-art",
+      "usedInCurrentFilm": false,
+      "chapters": [
+        "03",
+        "04",
+        "05",
+        "06"
+      ],
+      "sha256": "fa0c0e138798266cc3744130c9f562a500649e3f7e83d6e4a463876c6c39de4d",
+      "bytes": 1222618,
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-4b8866d8-bb6f-4d6e-a171-01c7c10200f6.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by built-in tool",
+      "transparent_background": true,
+      "promptFile": "arts/static/story-assets-v01/prompts/batch-02.json",
+      "references": [
+        {
+          "path": "arts/characters/manager-model-sheet-v01.png",
+          "sha256": "13c0d3a291c355a01e2bfda55194c3e9626e5a31abbbf12ae26dc2076108c693",
+          "role": "identity / environment / style reference; see full prompt"
+        }
+      ]
+    },
+    {
+      "id": "coworker-discuss",
+      "path": "arts/characters/poses/shared/coworker-discuss-right-v01.png",
+      "status": "prepared-art",
+      "usedInCurrentFilm": false,
+      "chapters": [
+        "04",
+        "05",
+        "06"
+      ],
+      "sha256": "8546cefcd379acb8104de47b9da5e0dcbf804a6c510d32cf502c9bb340f21752",
+      "bytes": 1237401,
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-b9dd4654-723b-4a4a-aa27-432657431a60.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by built-in tool",
+      "transparent_background": true,
+      "promptFile": "arts/static/story-assets-v01/prompts/batch-02.json",
+      "references": [
+        {
+          "path": "arts/characters/coworker-model-sheet-v01.png",
+          "sha256": "9a38c56153b054c2eb2a4981e6cc650f7b5cf356986cfb6711d8dbd5dfedce42",
+          "role": "identity / environment / style reference; see full prompt"
+        }
+      ]
+    },
+    {
+      "id": "asleep",
+      "path": "arts/static/03/programmer-asleep-main-v01.png",
+      "status": "prepared-art",
+      "usedInCurrentFilm": false,
+      "chapters": [
+        "03"
+      ],
+      "sha256": "ccd03a12b0a6a36baf48f5e0f9c05a0c57fb0c6b07931bd6bd2b1ef3e042b65d",
+      "bytes": 1683817,
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-20e72ef1-95af-4a56-817f-70cb64073aba.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by built-in tool",
+      "transparent_background": false,
+      "promptFile": "arts/static/story-assets-v01/prompts/batch-02.json",
+      "references": [
+        {
+          "path": "arts/characters/programmer-model-sheet-v01.png",
+          "sha256": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0",
+          "role": "identity / environment / style reference; see full prompt"
+        },
+        {
+          "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+          "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11",
+          "role": "identity / environment / style reference; see full prompt"
+        }
+      ]
+    },
+    {
+      "id": "awake",
+      "path": "arts/static/03/programmer-awake-main-v01.png",
+      "status": "prepared-art",
+      "usedInCurrentFilm": false,
+      "chapters": [
+        "03"
+      ],
+      "sha256": "405ab5c61ad92858198c7dcfbd12541d02878b47f9461bfee9c255a30879b36c",
+      "bytes": 1718115,
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-c800da5e-8b1c-468c-997c-9a900ff18725.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by built-in tool",
+      "transparent_background": false,
+      "promptFile": "arts/static/story-assets-v01/prompts/batch-03.json",
+      "references": [
+        {
+          "path": "arts/static/03/programmer-asleep-main-v01.png",
+          "sha256": "ccd03a12b0a6a36baf48f5e0f9c05a0c57fb0c6b07931bd6bd2b1ef3e042b65d",
+          "role": "edit target"
+        },
+        {
+          "path": "arts/characters/programmer-model-sheet-v01.png",
+          "sha256": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0",
+          "role": "identity / environment / style reference; see full prompt"
+        }
+      ]
+    },
+    {
+      "id": "lunch",
+      "path": "arts/static/04/lunch-panel-v01.png",
+      "status": "superseded-perspective-error",
+      "usedInCurrentFilm": false,
+      "chapters": [
+        "04"
+      ],
+      "sha256": "7798c02b876d6e1ad3066a5ca8e64c13a81b2f938b3bedb0663a64399f90ece5",
+      "bytes": 1681404,
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-d10e16ac-7c36-47ed-b77d-e1636f71dee7.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by built-in tool",
+      "transparent_background": false,
+      "promptFile": "arts/static/story-assets-v01/prompts/batch-03.json",
+      "references": [
+        {
+          "path": "arts/characters/programmer-model-sheet-v01.png",
+          "sha256": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0",
+          "role": "identity / environment / style reference; see full prompt"
+        },
+        {
+          "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+          "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11",
+          "role": "identity / environment / style reference; see full prompt"
+        }
+      ],
+      "supersededBy": "arts/static/04/lunch-panel-v02.png"
+    },
+    {
+      "id": "premeeting",
+      "path": "arts/static/04/premeeting-panel-v01.png",
+      "status": "superseded-perspective-error",
+      "usedInCurrentFilm": false,
+      "chapters": [
+        "04"
+      ],
+      "sha256": "9372db8016f6e47aa478d03030889f0577d0c43958eb1d195a7aecb1e8a21f63",
+      "bytes": 1750301,
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-fa8341de-2f4b-4bb9-8f7c-96dcadfbacfc.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by built-in tool",
+      "transparent_background": false,
+      "promptFile": "arts/static/story-assets-v01/prompts/batch-03.json",
+      "references": [
+        {
+          "path": "arts/characters/programmer-model-sheet-v01.png",
+          "sha256": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0",
+          "role": "identity / environment / style reference; see full prompt"
+        },
+        {
+          "path": "arts/backgrounds/shared/meeting-room-day-v01.png",
+          "sha256": "6191a947317c3fa1220fce801a7fb252d7d34cff2fe5ce4a6bd4678431c966de",
+          "role": "identity / environment / style reference; see full prompt"
+        },
+        {
+          "path": "arts/characters/coworker-model-sheet-v01.png",
+          "sha256": "9a38c56153b054c2eb2a4981e6cc650f7b5cf356986cfb6711d8dbd5dfedce42",
+          "role": "identity / environment / style reference; see full prompt"
+        }
+      ],
+      "supersededBy": "arts/static/04/premeeting-panel-v02.png"
+    },
+    {
+      "id": "evening",
+      "path": "arts/static/04/evening-panel-v01.png",
+      "status": "superseded-perspective-error",
+      "usedInCurrentFilm": false,
+      "chapters": [
+        "04"
+      ],
+      "sha256": "68aff69db00d22a88ce9b40e1f2c6b45071f78a10800f973352c871eb8d016be",
+      "bytes": 1645269,
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-fbe7833d-12ac-4145-b701-9c672d136ddb.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by built-in tool",
+      "transparent_background": false,
+      "promptFile": "arts/static/story-assets-v01/prompts/batch-03.json",
+      "references": [
+        {
+          "path": "arts/characters/programmer-model-sheet-v01.png",
+          "sha256": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0",
+          "role": "identity / environment / style reference; see full prompt"
+        },
+        {
+          "path": "arts/backgrounds/01/workroom-night-v01.png",
+          "sha256": "062660817c9cc28f7acd52678e761b8f2c1d584dc6d57cd5b9165c6a124cd77c",
+          "role": "identity / environment / style reference; see full prompt"
+        }
+      ],
+      "supersededBy": "arts/static/04/evening-panel-v02.png"
+    },
+    {
+      "id": "lunch-corrected",
+      "path": "arts/static/04/lunch-panel-v02.png",
+      "status": "prepared-art",
+      "usedInCurrentFilm": false,
+      "chapters": [
+        "04"
+      ],
+      "sha256": "7b22f7f4573b16440bdd5310b20a73814f46a04e0dd07ad08d6125d41e138854",
+      "bytes": 1718710,
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-b5316c1a-4ef0-43dc-8f5a-1319b4e4e74a.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by built-in tool",
+      "transparent_background": false,
+      "promptFile": "arts/static/story-assets-v01/prompts/batch-04-perspective-fix.json",
+      "references": [
+        {
+          "path": "arts/static/04/lunch-panel-v01.png",
+          "sha256": "7798c02b876d6e1ad3066a5ca8e64c13a81b2f938b3bedb0663a64399f90ece5",
+          "role": "edit target"
+        }
+      ]
+    },
+    {
+      "id": "premeeting-corrected",
+      "path": "arts/static/04/premeeting-panel-v02.png",
+      "status": "prepared-art",
+      "usedInCurrentFilm": false,
+      "chapters": [
+        "04"
+      ],
+      "sha256": "91ab9b9a78012b7b2f366e3965c8fa7ff90492ad54b1ec243edd7f6aa641fe9b",
+      "bytes": 1709708,
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-39d0bd50-ce17-4d84-a771-470071bea99e.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by built-in tool",
+      "transparent_background": false,
+      "promptFile": "arts/static/story-assets-v01/prompts/batch-04-perspective-fix.json",
+      "references": [
+        {
+          "path": "arts/static/04/premeeting-panel-v01.png",
+          "sha256": "9372db8016f6e47aa478d03030889f0577d0c43958eb1d195a7aecb1e8a21f63",
+          "role": "edit target"
+        }
+      ]
+    },
+    {
+      "id": "evening-corrected",
+      "path": "arts/static/04/evening-panel-v02.png",
+      "status": "prepared-art",
+      "usedInCurrentFilm": false,
+      "chapters": [
+        "04"
+      ],
+      "sha256": "c4361c2e3320b0959c183a856135c52b36f79057ca433fa20f467dce107b6071",
+      "bytes": 1670537,
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": false,
+      "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-594c38ca-c0fd-4f67-942c-a2a7241b89c0.png",
+      "tool": "image_gen.imagegen",
+      "model": "not exposed by built-in tool",
+      "transparent_background": false,
+      "promptFile": "arts/static/story-assets-v01/prompts/batch-04-perspective-fix.json",
+      "references": [
+        {
+          "path": "arts/static/04/evening-panel-v01.png",
+          "sha256": "68aff69db00d22a88ce9b40e1f2c6b45071f78a10800f973352c871eb8d016be",
+          "role": "edit target"
+        }
+      ]
+    }
+  ],
+  "editableUi": [
+    {
+      "path": "arts/items/shared/backlog-list-v01.svg",
+      "sha256": "e48cecdfe0e04c25e6299258133a7e9a39033f317cb570b38545a71e8012766c",
+      "method": "editable UI composition; raster character inserts",
+      "usedInCurrentFilm": false
+    },
+    {
+      "path": "arts/items/shared/backlog-list-v01.png",
+      "sha256": "8933d89dc45a6b567348085427538861e392bda1115c34b417d53da23d70782d",
+      "method": "editable UI composition; raster character inserts",
+      "usedInCurrentFilm": false
+    },
+    {
+      "path": "arts/items/shared/backlog-open-v01.svg",
+      "sha256": "d309b1cbd2eccd9b55ec77ea565fd6c5815577318ce28544132583ac22d19fcc",
+      "method": "editable UI composition; raster character inserts",
+      "usedInCurrentFilm": false
+    },
+    {
+      "path": "arts/items/shared/backlog-open-v01.png",
+      "sha256": "5333f4178763f5d514374aab72b46c8b577965acaa98ee02f1c485875eba0d6c",
+      "method": "editable UI composition; raster character inserts",
+      "usedInCurrentFilm": false
+    },
+    {
+      "path": "arts/items/shared/notification-task-v01.svg",
+      "sha256": "31b6ca40528a10c5ed4e18fd8729628475f73e2e6dce8887ea7617275a48beb2",
+      "method": "editable UI composition; raster character inserts",
+      "usedInCurrentFilm": false
+    },
+    {
+      "path": "arts/items/shared/notification-task-v01.png",
+      "sha256": "41d437fba616af4612de3c1e7eeb0aab32212309a49fafef3057e8caadfa05e4",
+      "method": "editable UI composition; raster character inserts",
+      "usedInCurrentFilm": false
+    },
+    {
+      "path": "arts/items/shared/notification-result-v01.svg",
+      "sha256": "0622c883f6b6dea9d50304e5937770aa56c115eea072ceda02bf0c05aac43ddd",
+      "method": "editable UI composition; raster character inserts",
+      "usedInCurrentFilm": false
+    },
+    {
+      "path": "arts/items/shared/notification-result-v01.png",
+      "sha256": "384385b4c93d8f3ba1b8616456dec88a6d6b1071a3668c57d1efff7278465b47",
+      "method": "editable UI composition; raster character inserts",
+      "usedInCurrentFilm": false
+    }
+  ],
+  "reused": [
+    {
+      "id": "agent",
+      "path": "arts/characters/portraits/01/agent-focus-v01.png",
+      "sha256": "2db469f8afaae3bcbb54aa1ec4487f43c8a614bffcf56c85a77dbe15b3703f20",
+      "chapters": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "06"
+      ]
+    },
+    {
+      "id": "programmer",
+      "path": "arts/characters/poses/01/programmer-stand-v01.png",
+      "sha256": "47a0ff3b3a1c0d6aaa5039b0f4ca03bf692cb99cccef0842ab673f92094b9fb6",
+      "chapters": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "06"
+      ]
+    },
+    {
+      "id": "coworkerModel",
+      "path": "arts/characters/coworker-model-sheet-v01.png",
+      "sha256": "9a38c56153b054c2eb2a4981e6cc650f7b5cf356986cfb6711d8dbd5dfedce42",
+      "chapters": [
+        "04",
+        "05",
+        "06"
+      ]
+    },
+    {
+      "id": "managerModel",
+      "path": "arts/characters/manager-model-sheet-v01.png",
+      "sha256": "13c0d3a291c355a01e2bfda55194c3e9626e5a31abbbf12ae26dc2076108c693",
+      "chapters": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "06"
+      ]
+    }
+  ],
+  "layout": "layout-v01.json"
+}

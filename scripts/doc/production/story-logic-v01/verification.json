@@ -1,0 +1,59 @@
+{
+  "version": "STORY_LOGIC_PLAN v0.1",
+  "date": "2026-10-18",
+  "chapterChecks": [
+    {
+      "chapter": "01",
+      "audioAndReferencesUnchanged": true,
+      "nonWhitespace": 155
+    },
+    {
+      "chapter": "02",
+      "audioAndReferencesUnchanged": true,
+      "nonWhitespace": 121
+    },
+    {
+      "chapter": "03",
+      "audioAndReferencesUnchanged": true,
+      "nonWhitespace": 127
+    },
+    {
+      "chapter": "04",
+      "audioAndReferencesUnchanged": true,
+      "nonWhitespace": 171
+    },
+    {
+      "chapter": "05",
+      "audioAndReferencesUnchanged": true,
+      "nonWhitespace": 156
+    },
+    {
+      "chapter": "06",
+      "audioAndReferencesUnchanged": true,
+      "nonWhitespace": 110
+    }
+  ],
+  "classificationBlocks": {
+    "story": 26,
+    "logic": 16
+  },
+  "seconds": {
+    "story": 133.0,
+    "logic": 102
+  },
+  "chapters02to06TotalSeconds": 235,
+  "fullFilmBudgetSeconds": 280,
+  "allBlocksContinuous": true,
+  "allBlocksInsideOriginalParentSegments": true,
+  "localLinksResolve": true,
+  "sourceAnimationAndFrameworkUnchanged": true,
+  "subtitleTimingsChanged": false,
+  "newArtworkGenerated": false,
+  "externalModelCalls": 0,
+  "implementedInAnimation": false,
+  "reviewNotes": [
+    "04 lunch/before-meeting/evening are full story scenes, not logic panels.",
+    "06 ending explicitly revisits the work-ending event; no new work interruption after personal time.",
+    "This verifies the written partition, not new visual implementation or voice alignment."
+  ]
+}

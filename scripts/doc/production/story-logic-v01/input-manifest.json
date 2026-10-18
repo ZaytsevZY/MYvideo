@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-18",
+  "scope": "02–06 story/logic script partition only",
+  "audioVersion": "SHOT_TEXT v0.4",
+  "chapters": [
+    {
+      "path": "scripts/final/shot/01.md",
+      "sha256Before": "0bec30c0ba6e713660947041db930db1894633c90058a78584ca40f9966a85d9",
+      "audioSHA256": "5ae8341392d69fabf24f2fbb6a23c46c7777699f3c1e11db588cc1774b733c13",
+      "audioNonWhitespace": 155,
+      "referencesSHA256": "fb0aced0590aec2b1dc17a71cb4435fc958a6bf33b190ca712b2f3d9ba78704f"
+    },
+    {
+      "path": "scripts/final/shot/02.md",
+      "sha256Before": "6d98701a7bc71cbbbe88f2bccead1fa8d6ca341499666830dfd8d55cbe5468b3",
+      "audioSHA256": "2e8e8a2ecb0905d7768bb51b977cd59b25541d2ad1978fdf443d464e686a7747",
+      "audioNonWhitespace": 121,
+      "referencesSHA256": "a8f1d8ef5c9e7a46158dfa32fffa57a3eea191801c9ed8fdcdbd023327c74547"
+    },
+    {
+      "path": "scripts/final/shot/03.md",
+      "sha256Before": "a36d50c53f26d31be4f35b5d62d28ae10a3e662fb8d3a63cd9833cd9c5246643",
+      "audioSHA256": "120c84bbcf7dfe84a841426a2a5cdf3d455d2fa70f5552c00df7d3645b16c96f",
+      "audioNonWhitespace": 127,
+      "referencesSHA256": "d7daee3ea459c362983e401ddc419c1d681b5dc532bedc941d3117f98841ab64"
+    },
+    {
+      "path": "scripts/final/shot/04.md",
+      "sha256Before": "fee1e173ad4362e393f441b97b112a7ea5a5dd2683bf54ab54a73aa116f51c08",
+      "audioSHA256": "f3896808a3d6484f1a0a0607de22ad2767b4d481f865a36c88dfe86e552b0778",
+      "audioNonWhitespace": 171,
+      "referencesSHA256": "267105544df111d7ef2c8452adffa7829e40e122a86c73964097571c63a426b5"
+    },
+    {
+      "path": "scripts/final/shot/05.md",
+      "sha256Before": "931a05f4bd890f407e829a4e3cef5ac07924b5542e149efccf8fc4515d582dd6",
+      "audioSHA256": "1579b5eea1b31b64333939f7950097b0476640d10af4accd54305ee657fc30aa",
+      "audioNonWhitespace": 156,
+      "referencesSHA256": "a00af8a1c8d6e8c4a27cb000e0854509f9f098056e0ba61fd201a6e0bfca7b8c"
+    },
+    {
+      "path": "scripts/final/shot/06.md",
+      "sha256Before": "6c61a7e5fe7ac870d73cd63d6e0bd47b5f0276ff2133860eddb95c069ae7cd10",
+      "audioSHA256": "f4a7364c286004b2a55021a8e6c5f6cde176958b0e356534cc474d95ffa95c75",
+      "audioNonWhitespace": 110,
+      "referencesSHA256": "17959e91b42f5530e5e13a6b26cdb3b3b880554c6d6f4145fa21d21c3007cb38"
+    }
+  ],
+  "externalModelCalls": 0,
+  "imageGenerationCalls": 0,
+  "audioGenerationCalls": 0,
+  "runtimeAnimationChanged": false
+}

@@ -1,0 +1,1982 @@
+[
+  {
+    "path": "arts/characters/agent-model-sheet-v01.png",
+    "sha256": "988d3df0b3b8ceb0158cf65c315d2f436e1b85498a8a368a285a4e4a618c653e"
+  },
+  {
+    "path": "arts/characters/manager-model-sheet-v01.png",
+    "sha256": "13c0d3a291c355a01e2bfda55194c3e9626e5a31abbbf12ae26dc2076108c693"
+  },
+  {
+    "path": "arts/characters/programmer-model-sheet-v01.png",
+    "sha256": "f65b1b11b9beab12bfc1a55a7e3ad5bc402ef658946f1269617367b19ef223d0"
+  },
+  {
+    "path": "arts/characters/coworker-model-sheet-v01.png",
+    "sha256": "9a38c56153b054c2eb2a4981e6cc650f7b5cf356986cfb6711d8dbd5dfedce42"
+  },
+  {
+    "path": "arts/characters/rigs/agent/atlas-v01.png",
+    "sha256": "7d3c2b7ced2eed55e508ca085421d76d5d5d687ccb10200b38eb976ccf2ee265"
+  },
+  {
+    "path": "arts/characters/rigs/programmer/atlas-v01.png",
+    "sha256": "1bb7ec9eaa8e09d322158095b09d94f07aa940ec1e798dfff25638a9988431cd"
+  },
+  {
+    "path": "arts/characters/portraits/01/agent-focus-v01.png",
+    "sha256": "2db469f8afaae3bcbb54aa1ec4487f43c8a614bffcf56c85a77dbe15b3703f20"
+  },
+  {
+    "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+    "sha256": "20a101697879a0e54da5861532080cede1db7d4cfd7dbbd9dbd7af820d9cfbaa"
+  },
+  {
+    "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+    "sha256": "4e6f1beaf38dd2e02df9f6e3a1943d3815a73d6e0113f2b8531ea7ad6113fc1e"
+  },
+  {
+    "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+    "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828"
+  },
+  {
+    "path": "arts/characters/poses/02/programmer-review-next-v01.png",
+    "sha256": "63820e630fd3b6bd02168873aab066e156b72c16ccdf51565d2faa1979fcb138"
+  },
+  {
+    "path": "arts/characters/poses/02/programmer-review-current-v01.png",
+    "sha256": "2a32a3e65351e725453c0ad2561a1f1370b281929a4f317a7ec3c03fa3ed2db8"
+  },
+  {
+    "path": "arts/characters/poses/02/programmer-relax-rear-v01.png",
+    "sha256": "6209ad47b82c7546cd229996692eca2d868a9fb00dd3d0b90c06253c07b8510d"
+  },
+  {
+    "path": "arts/characters/poses/02/programmer-choose-right-v01.png",
+    "sha256": "3df86a6589207df7491277c3197f7bb59d92fea6263d8c4f195776dda3513dbd"
+  },
+  {
+    "path": "arts/characters/poses/02/programmer-think-up-right-v01.png",
+    "sha256": "4cbcc61130ae40457b9e1ae2d8648324a541970be64c9d4cc494fa22f5529d05"
+  },
+  {
+    "path": "arts/characters/poses/shared/manager-assign-left-v01.png",
+    "sha256": "69dbdbbea503b3ef9100ece87b42692013bcce03048e6edced267a9046dc39ba"
+  },
+  {
+    "path": "arts/characters/poses/shared/manager-point-left-v01.png",
+    "sha256": "fa0c0e138798266cc3744130c9f562a500649e3f7e83d6e4a463876c6c39de4d"
+  },
+  {
+    "path": "arts/characters/poses/shared/coworker-discuss-right-v01.png",
+    "sha256": "8546cefcd379acb8104de47b9da5e0dcbf804a6c510d32cf502c9bb340f21752"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-stand-v01.png",
+    "sha256": "47a0ff3b3a1c0d6aaa5039b0f4ca03bf692cb99cccef0842ab673f92094b9fb6"
+  },
+  {
+    "path": "arts/characters/poses/01/agent-hold-file-v01.png",
+    "sha256": "b2462a68b37ef0ef2d0d15460f5044a097b79049b1350976e8db53ef86ea611e"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-input-v01.png",
+    "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373"
+  },
+  {
+    "path": "arts/characters/poses/01/agent-idle-v01.png",
+    "sha256": "fbcf2a3125182fc9d7834015378b786a6bdf6187b334bc3d6ecb996d62c6df4c"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-rest-v01.png",
+    "sha256": "2f7042e7620dc3f31d176036cd3f68246e4f37d595194b79c0d3431282b8bc85"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-walk-a-v01.png",
+    "sha256": "ee3d05ba41d87a7e4e928ab5596c0d58c76c7cf66e4af0879e4f7d7ca4200db8"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+    "sha256": "6304e88141b54c50d2e87659315b26392d86123a2073cdd98068b38776a1312b"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-front-dispatch-v01.png",
+    "sha256": "2884433d982fb66f6e8c506fd6b4bcef27dfc0cd4f5b75b6fc8693b6ffd22a3c"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-rise-high-v01.png",
+    "sha256": "b3816159ee33b110bde7121f117d99bd076b12168e368446eb719fa6c5f34dc6"
+  },
+  {
+    "path": "arts/characters/poses/01/agent-pull-file-v01.png",
+    "sha256": "0f5ccc2bf4d605efb024e610a3daa563fb409fd580f350d96302a7f0e6c70048"
+  },
+  {
+    "path": "arts/characters/poses/01/agent-grasp-file-v01.png",
+    "sha256": "2e3f7a7e80edbf582dac5e621aeee09ee50e5ffcb0fdb85e19e9b6659fb25563"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-front-fatigue-v01.png",
+    "sha256": "bdec5ffc33566c2540c81bb27e45021242305af4b75237e183c8c6efcdae10ff"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+    "sha256": "f3862cc0ea51085524d03d2d9d3a704b756f892533d258a9c05ea598fea00ddf"
+  },
+  {
+    "path": "arts/characters/poses/01/agent-report-v01.png",
+    "sha256": "22198fc0ea7f38bc081ca8ce4d886d316913b1c3c9f658c2bae86f61459a5c1e"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-walk-recover-v01.png",
+    "sha256": "4e31a14ecf89a66483dc7c39764d1b049dce66d74bbdfb94e90eab3257ad04de"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-rise-v01.png",
+    "sha256": "c03856bd6ccdea1a3690c388451327e50546d371150fa690a59a5a098149b70b"
+  },
+  {
+    "path": "arts/characters/poses/01/agent-reach-half-v01.png",
+    "sha256": "7e6543230b7ef6c73d04d100fd1e8d09c6d9a150c8d16432fec2b7b983c396c7"
+  },
+  {
+    "path": "arts/characters/poses/01/agent-pregrasp-v01.png",
+    "sha256": "1b544554be3ec80ac769785fce33b498de2ff9beaaecbfe3277e7807e45b1523"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-turn-left-v01.png",
+    "sha256": "ae6165c17cbb75f95a2b61ee722baa3802821225da50fffc855ea9eca2e9b308"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-lean-v01.png",
+    "sha256": "470d0a4d34b3f4d8ac4fcceff2fb613c7573c4918319bce6e019100339ee89d2"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-logic-stand-right-v01.png",
+    "sha256": "527c21130304764ec19156ae62d75b6909432a194b686072d67a7905087ea117"
+  },
+  {
+    "path": "arts/characters/poses/01/agent-receive-v01.png",
+    "sha256": "dac6f4c336ca5dfeee79843776c8e3a60df740e611ad6c4ef45d364ed7fe15f5"
+  },
+  {
+    "path": "arts/characters/poses/01/programmer-walk-pass-v01.png",
+    "sha256": "53b1f23d23d9b348856254d95aa1647eef9739f9efd54d9da22c33e8f0a58c18"
+  },
+  {
+    "path": "arts/characters/poses/01/agent-offer-file-v01.png",
+    "sha256": "65c06a3902b13821725a64a8d9a25d8c18c8409186f46558409e3b05d3c9b235"
+  },
+  {
+    "path": "arts/characters/poses/01/agent-inspect-file-v01.png",
+    "sha256": "1c61c9c353b92cc2efd8881a684854392056d057eeba2e569b608055f23a3a88"
+  },
+  {
+    "path": "arts/items/02/kpi-growth-symbol-v02.png",
+    "sha256": "ffdc2760307701e2c4f2dd2b5d29a9f47ac84effd66a75064ae667e900e39b9d"
+  },
+  {
+    "path": "arts/items/02/kpi-requirements-v01.png",
+    "sha256": "361a693f50a185a61bc785336ecbac48b09571ded5c8635bab459ff26b9f17fd"
+  },
+  {
+    "path": "arts/items/02/kpi-thought-bubble-v01.png",
+    "sha256": "21db5a557cc2f6de4bd5da438dbaa703497aca4a37de3c4e165dde50807c7bd8"
+  },
+  {
+    "path": "arts/items/shared/notification-task-v01.png",
+    "sha256": "41d437fba616af4612de3c1e7eeb0aab32212309a49fafef3057e8caadfa05e4"
+  },
+  {
+    "path": "arts/items/shared/backlog-open-v01.png",
+    "sha256": "5333f4178763f5d514374aab72b46c8b577965acaa98ee02f1c485875eba0d6c"
+  },
+  {
+    "path": "arts/items/shared/notification-result-v01.png",
+    "sha256": "384385b4c93d8f3ba1b8616456dec88a6d6b1071a3668c57d1efff7278465b47"
+  },
+  {
+    "path": "arts/items/shared/backlog-list-v01.png",
+    "sha256": "8933d89dc45a6b567348085427538861e392bda1115c34b417d53da23d70782d"
+  },
+  {
+    "path": "arts/items/01/monitor-back-painted-v01.png",
+    "sha256": "4298b6cbd31160a749fa1b01fc36679a40774a7ddd70e85c41e54630eeb3f7bb"
+  },
+  {
+    "path": "arts/items/01/workstation-painted-v02.png",
+    "sha256": "c05a579cb7d6e3eeefac268c6d122495396b6fbe759d5efbc5cda4c1981a234a"
+  },
+  {
+    "path": "arts/items/01/plan-tray-painted-v01.png",
+    "sha256": "5a9d24eb3d6eaf19cd9a7e2fad7f142c7650f2795ff36b8d52afb382fd27d1ca"
+  },
+  {
+    "path": "arts/items/01/workstation-painted-v01.png",
+    "sha256": "9807962b33f7f12766cb3b4ed3c1ce2590bef683187ee5df56cab9f3045bf4ef"
+  },
+  {
+    "path": "arts/items/01/chair-back-rear-painted-v01.png",
+    "sha256": "c8081c17e825a75dacb7b6f23f21e8d7ed6f76bdffe978eba4bd525aef6071c6"
+  },
+  {
+    "path": "arts/items/01/task-document-portrait-v01.png",
+    "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420"
+  },
+  {
+    "path": "arts/items/01/task-document-landscape-v01.png",
+    "sha256": "2c5ecf3f14465c3622b8d2e783c994e8240bebb063dbb8604414923d1cf7c225"
+  },
+  {
+    "path": "arts/actions/film/seams-v01.png",
+    "sha256": "e23a9601effccea8d42bbf2532dd868003418d652f2f5e52fbb84141774a6ba5"
+  },
+  {
+    "path": "arts/actions/film/contact-v01.png",
+    "sha256": "bb73dd7b5ce19d9420d6034fe8f6e8af948e26e31a725830d6c80fbf02342a06"
+  },
+  {
+    "path": "arts/actions/01/camera-contact-v01.png",
+    "sha256": "b78c14372697ade02d3a1202d5da449ca190a70e8ee988474dbcce1631e5c37d"
+  },
+  {
+    "path": "arts/actions/06/exports/06-contact-v01.png",
+    "sha256": "f36d0cc869c5dd4cdba8c2af2681def15d98788ed1742a4ccda9f8ddb2c36be6"
+  },
+  {
+    "path": "arts/actions/06/exports/06-encoded-contact-v01.png",
+    "sha256": "bd32358984487da3d01e08f57f940aa8043cff3987bc0a286e5907831c168265"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-22.png",
+    "sha256": "49eb068435da1badd415e34bfa5148a791eb25e0a91e8ffc4f55fa0b9decc89e"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-23.png",
+    "sha256": "33c99696c50fe2a9c09c314e85630996204af7f0a41da1e5c45250a889cb84b1"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-09.png",
+    "sha256": "188b65534ac1b019419a90fe0341d035ae1acccbdb3f72a0a236172a649d04f1"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-21.png",
+    "sha256": "3bea3065848e02f04c5ec8a8b52fac4f61c029f416367a6d00b8a66c8c5fcccb"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-20.png",
+    "sha256": "3b211eb2e4d9b04f82c7a4d1bbc8accefc41acbd7378dbaed351279128c8a9ba"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-08.png",
+    "sha256": "f6a98efcbf773008234a32c8e76eabde788ca3dfa0e9390c5df8a7a7917202af"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-24.png",
+    "sha256": "287f0311c1d2dc061768e0ae3f25b3a67329f068c6e3958e339b5d084963c39d"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-30.png",
+    "sha256": "f9e3aab5708a884de9ad453e15e47203a524b543f86c10a58284cb9b20c382e6"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-18.png",
+    "sha256": "0bb03346b4e6726a857d048569c207b4e0a80aae21bcf1727d7bfb13b5f16094"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-19.png",
+    "sha256": "58dba753a2cd56bd4c7b8530733e9cbd80a2fa2ef85fe127a34ea3741d2ce38b"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-31.png",
+    "sha256": "86b035797e015f4956394767924b7310ba51d026fbca0e49a0e04e3105c59c1f"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-25.png",
+    "sha256": "4df599950cc41b837da910480c46d6ff22547028701536e4bef0bb2c5779fb12"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-27.png",
+    "sha256": "6962ad24d8c25d9e93861c2786d14d97b544d6b643e05b8fc48d987ce4b4ba25"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-26.png",
+    "sha256": "0f29c3413374da1954357d33f66923a34b81a5f6b27504b474c0030de8121f2a"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-32.png",
+    "sha256": "86b035797e015f4956394767924b7310ba51d026fbca0e49a0e04e3105c59c1f"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-02.png",
+    "sha256": "d2bb649d8e29af9f6f97b116b31ec0e00bb491c145c9dc2f2edac0892b91a4dd"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-16.png",
+    "sha256": "09ffdafd0a608a768f0dc5f975a23ad8af665d6a77ef2165b9c30e97092a97a2"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-17.png",
+    "sha256": "86f1e940566d940e07f246fc89e0f1efd22b35c7fc5f5e9ad3416e2c29c434fa"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-03.png",
+    "sha256": "52e21b6840d854574d90a48659767f286528df110257420f8b3d7677260c3c27"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-29.png",
+    "sha256": "b6cf4335f09e8449ba22525573c06cb3d6dc28fe6b8ba9976bbf4220581fa035"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-15.png",
+    "sha256": "ddc14d7ce644c34f8cb8ddee2f3437055eeef7adb54949e739e35acb94529ccf"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-01.png",
+    "sha256": "81c2fa1646d0dec7df6d3b9858d8c36e79d487493b88b12d7ad740f6b7f08b65"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-00.png",
+    "sha256": "ad0b5c972a0e21472a8cf9b1d31ef7c70490f135b998c976a9cce5e535520a7b"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-14.png",
+    "sha256": "5ad7a916be0d60d53f0cba874e4fb68d0d1009c809110cf6e1ee814d2bf68c6f"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-28.png",
+    "sha256": "fa26f2699a188966959576acd27f902c5ee4ca6591a059ac6d58184825f1946c"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-10.png",
+    "sha256": "f54093b8fb32a487597422439123312f210c7a5a85c5a8c01ea1ae951b548d5b"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-04.png",
+    "sha256": "6bf140058ecb87c596c717c2ca54c2a5ea2a15b3fd657222a47d4dbe8dea1fa2"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-05.png",
+    "sha256": "3993701a782f4e397d5356be986600ca4db3ff8d4bfeb85b486eda580ab01a03"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-11.png",
+    "sha256": "4f9c2831820c255590762bdb0eb116418cf662f8cbf5260948310dce29dfac85"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-07.png",
+    "sha256": "3f138cc004858b13e310e981a536479fd2f5ee1746f4ab4bee3d55148c767291"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-13.png",
+    "sha256": "72a7f9b50ad4f7107345271bcb9e0fbf278cde6d2d26eb45c5b70584c607ce31"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-12.png",
+    "sha256": "56c9032f811ae69a010f458a638bcda18d21650b7726392b5d36fa0d76c7196a"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-06.png",
+    "sha256": "f706fa3eefd58c63760bc126727261dda5dcf983791f1c8f81c7fa2147775444"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-23.png",
+    "sha256": "9c0b45f2b796d37c8b7f17e308ed5fd626e13214252f676e418dfb0b37956a0c"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-22.png",
+    "sha256": "082e1c9ab0e89850653bce254381ba823ddb19636b78ca558158a091a80dc478"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-08.png",
+    "sha256": "691203d6c558cc2f42a527b7d717ecfa1894a01d1c63248fb99f9d5e3ed885ea"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-20.png",
+    "sha256": "67bcb599b3d52499d1958068f59d899693067cffdaf56969a37285e6d12f3b87"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-21.png",
+    "sha256": "66e6e4015251450adbcfc5610768d08d8053cbd29c737915ff15287cbf538770"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-09.png",
+    "sha256": "6517fbee7d5e13c129e496ecc61069b79eb14e10f6d81ca2ea1a8e0f3ea2463e"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-31.png",
+    "sha256": "3d75b0fa62072f7b0b2c94eb9cf24007be280be096b8a9688777268f06deeef8"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-25.png",
+    "sha256": "7dac225fa76c6bf38f59ee07dd9a82b5bfb0fb920ba1b21639c74b10537e3b82"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-19.png",
+    "sha256": "c75b2a021a2ff5e28ec4d8b04766f4dee6482bb0d1ad4c4b95603b610e6e8eb4"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-18.png",
+    "sha256": "bfbe0c33b1161b7b0ea520446c948ec2cb7e1f08d7b262cbbc2e99469fec78e5"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-24.png",
+    "sha256": "44d3b7df0c5083852a05a5263696617a3138b2668ac61fe6bd07905f912ef29c"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-30.png",
+    "sha256": "c715861748fa2d83e41b1b5168d84c545e3dc5b748044a7319f94b9c623bfdd1"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-26.png",
+    "sha256": "b24b183360f0013ffbbc11df717166acbe89b5518a7182d0f75e8f20d265697a"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-32.png",
+    "sha256": "5745ab9cd111abdf79338f6da24b159d7f4c317b7f0ae90a074f5c307a6ff225"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/encoded-27.png",
+    "sha256": "74170d9a744a5a674c3d9fa21185c4f947a2640569ae7d34585bc0d20ddb617e"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-17.png",
+    "sha256": "8ee2c84b04ef4f705cb120c730c2526f77b5bf7b4ca3e41e0c68954eafda308c"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-03.png",
+    "sha256": "eb0b56f305d3f2fda75084ba94e9b6eb9a9ea57348df383f6b103fcae8b3ba38"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-02.png",
+    "sha256": "7b4d5aeb286dba6e899a8efe3c9dbe770ff65524c79ae5de7a701e27d2af0801"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-16.png",
+    "sha256": "5d4f097af0856cdc3077c482feba3eb29841341f2539b630ba05c4b30fd90234"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-28.png",
+    "sha256": "0f1e9a7f56a431503bf8824205bf8418a2df28b3f95c732a752af8fc6c7024a1"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-00.png",
+    "sha256": "d538f78b598e8bed01f1be15c213f6c8ac4949439d03bf77d2c3d97c9ad6b539"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-14.png",
+    "sha256": "fe64c9fb94dd3d34afa92819e85a0da4120c1f7d66c99ac6c81cb703d236b8f6"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-15.png",
+    "sha256": "1f46341d491140b5499a424af8f62a49b0f7da46a5c5e1c07e2d60a7696b6a06"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-01.png",
+    "sha256": "f1da80b68e5a59d8ec21238dc9431a6e891effac47078011eae7199b79d1c6fc"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-29.png",
+    "sha256": "f9e3aab5708a884de9ad453e15e47203a524b543f86c10a58284cb9b20c382e6"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-05.png",
+    "sha256": "15b0621d7ddc7e4907aa6031b74a6d0148a8a6eb01ffeb070a90c3710fc2ba42"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-11.png",
+    "sha256": "46906ffc8136ab42739322207ecd3229ebb56ea15520dd77cb95799ce6c21ce0"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-10.png",
+    "sha256": "dc313075319a5173237031eee989e6ae59ab3e556769790eaff6b3aa24d2ce64"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-04.png",
+    "sha256": "122ea6727245245a7b21d35f1975d21a3911f6be6a456783cd992e8bb8151ada"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/stage-room.png",
+    "sha256": "b5fc2c3901b135d7f4ce148785def8bebc61a39a258662b5c28aadd8732dae83"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-12.png",
+    "sha256": "9338f966487b2937d189f2ad387d50aa0945b01b598b8a36389d1a840b30cfcc"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-06.png",
+    "sha256": "ce701f8e9d9f5aa84955062228f1d667302187e7861c85a1e35ed90a9203d232"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-07.png",
+    "sha256": "2ac5c27a234539699eda2f44ec9049720d0fdbe2e057f541134b12743231dd6a"
+  },
+  {
+    "path": "arts/actions/06/provenance/v01/frame-13.png",
+    "sha256": "de0172c245437f559b8c679611bd00f4207759e51202a4c6a3469b78f8c1a48e"
+  },
+  {
+    "path": "arts/actions/01/exports/01-captioned-silent-v01-frame-1349.png",
+    "sha256": "75d2a95e9c2e272bc8d758c8b4bf564cf1059d72e3d10b572f88f1ac65dad03c"
+  },
+  {
+    "path": "arts/actions/01/exports/01-captioned-silent-v01-frame-0420.png",
+    "sha256": "2f446575f94a45e7c21c6f008559d689e87f4c98862556618cc4106f91fa02c0"
+  },
+  {
+    "path": "arts/actions/01/exports/01-captioned-silent-v01-frame-0795.png",
+    "sha256": "80df0249f162736337956d6ae7e720a325ac5b1214b8a9f744b314199c705a2c"
+  },
+  {
+    "path": "arts/actions/01/exports/01-captioned-silent-v01-frame-0156.png",
+    "sha256": "b1118f1f9542de5c2a69460ff3a21e7c8c2eed51bd22fbfbfe595d4a47d28514"
+  },
+  {
+    "path": "arts/actions/01/exports/01-captioned-silent-v01-frame-0000.png",
+    "sha256": "e020435659e15056ca5fecdf8be7da5e5258ba75c668aea3861b29f0ced1828a"
+  },
+  {
+    "path": "arts/actions/01/camera-stills/S01-03-v01.png",
+    "sha256": "455498eb7bb6ccb43c62d0afca94c7b256599ea3846a18983b28e3f3636d4ec2"
+  },
+  {
+    "path": "arts/actions/01/camera-stills/S01-12-v01.png",
+    "sha256": "7e8ad48fae3ce4a170244a707ca5419a00f2e91ecc7316528fc92f46aaae9221"
+  },
+  {
+    "path": "arts/actions/01/camera-stills/S01-02-v01.png",
+    "sha256": "f0b04ee22074c3ac6d94b0545d353366b36a850ac0cabcc8bbd5db47b2d954e8"
+  },
+  {
+    "path": "arts/actions/01/camera-stills/S01-10-v01.png",
+    "sha256": "2e3b5bdbd26feea9b23e1ebeb5037da1f3f4e311631b76188d2c82a9a5bda1b3"
+  },
+  {
+    "path": "arts/actions/01/camera-stills/S01-09-v01.png",
+    "sha256": "fbc0f513a1926b0208eaf47dca16d68089e85a44f2bcff8dea14d7501f7868e4"
+  },
+  {
+    "path": "arts/actions/01/camera-stills/S01-08-v01.png",
+    "sha256": "169342f52e96abb8796e46ff66c0a08641ac8ccdb7fc033db0d67ea379e7cfde"
+  },
+  {
+    "path": "arts/actions/01/camera-stills/S01-11-v01.png",
+    "sha256": "998d06b55c5d93fbd8bf671f6af6fc180b90e0e2ae1b6792ce9923f3903002c7"
+  },
+  {
+    "path": "arts/actions/01/camera-stills/S01-01-v01.png",
+    "sha256": "cc3e1c4870009c363cbe4d5fb8101d565bfc5bbeb9e1377584dea0b504a734c0"
+  },
+  {
+    "path": "arts/actions/01/camera-stills/S01-04-v01.png",
+    "sha256": "f1afb29a4f64d4c2978ca4edeb17e73893a556cf8cebb306a0b11307ee39d453"
+  },
+  {
+    "path": "arts/actions/01/camera-stills/S01-05-v01.png",
+    "sha256": "1757ebf70421774fd59fce6052eca60bbe32bbfac5e68452742eb26238047da1"
+  },
+  {
+    "path": "arts/actions/01/camera-stills/S01-07-v01.png",
+    "sha256": "a11bcfef6365e9e34e9c65bf9b5e8830572f17c0bed93ffd85c8d56a474d1202"
+  },
+  {
+    "path": "arts/actions/01/camera-stills/S01-06-v01.png",
+    "sha256": "ce5c5e998a1f8d9b0a4bb2bc9afda9ab0e16c943c36dba903dd78d9fdaa7e9d5"
+  },
+  {
+    "path": "arts/actions/01/provenance/camera-v01/browser-ending-v01.png",
+    "sha256": "a5c4bbcd3e88032ed46b7b74d86794ca1afacb71ad5b62b8be448fb5b07617d6"
+  },
+  {
+    "path": "arts/actions/01/provenance/camera-v01/browser-standing-v01.png",
+    "sha256": "fda6373a4f0b12de4eebdde9b24a39babaa672c3aa7b438ef5387a64b71805df"
+  },
+  {
+    "path": "arts/actions/01/provenance/raster-v03/monitor-back-layout-guide.png",
+    "sha256": "826b9af55ea370cf4801cef18da0b20e366cefc19940a875975ec025c86c8500"
+  },
+  {
+    "path": "arts/actions/01/provenance/raster-v03/browser-portraits-v03.png",
+    "sha256": "54acac9dadf793470f0ce0655ded043aeb536eea8af1803292816397d369242c"
+  },
+  {
+    "path": "arts/actions/01/provenance/raster-v03/browser-ending-v03.png",
+    "sha256": "50010f28b1135cc753d81bc4f6a28088e66e5de20eeaf33f2613d1a624349a25"
+  },
+  {
+    "path": "arts/actions/01/provenance/raster-v03/browser-workstation-v03.png",
+    "sha256": "a852062c7f45d822991703ba1a4626556edbd23b5fa5633eb4b04812845b3432"
+  },
+  {
+    "path": "arts/actions/01/provenance/raster-v03/workstation-layout-guide.png",
+    "sha256": "3bd327f994baf7ec9dd0c7a3c143ceb12789efc54cb175fc5fac952100879c22"
+  },
+  {
+    "path": "arts/actions/01/provenance/raster-v03/chair-layout-guide.png",
+    "sha256": "eeeb66eb7f477e3955c2532f08d4f50976267db521a523839bfe68e3afbf05e0"
+  },
+  {
+    "path": "arts/actions/01/provenance/subtitles-v01/encoded-44.966667.png",
+    "sha256": "480dabe44b0f470782bd0ccd34d280cdbd36bfa589815398bfe9b2a213b82c55"
+  },
+  {
+    "path": "arts/actions/01/provenance/subtitles-v01/encoded-0.png",
+    "sha256": "a4535169ce881c080a0d78f8b388a0e8781e43eeeb92c1b43a0bccaee6db4664"
+  },
+  {
+    "path": "arts/actions/01/provenance/subtitles-v01/test-0.png",
+    "sha256": "e020435659e15056ca5fecdf8be7da5e5258ba75c668aea3861b29f0ced1828a"
+  },
+  {
+    "path": "arts/actions/01/provenance/subtitles-v01/test-795.png",
+    "sha256": "80df0249f162736337956d6ae7e720a325ac5b1214b8a9f744b314199c705a2c"
+  },
+  {
+    "path": "arts/actions/01/provenance/subtitles-v01/player-screenshot.png",
+    "sha256": "7806897541face635ffabd0f797991700302eeba1f1bcb2eedf8f0ae198e7283"
+  },
+  {
+    "path": "arts/actions/01/provenance/subtitles-v01/encoded-26.5.png",
+    "sha256": "173746cf3fc30c0b9bfdf3739de3e453e3ccb968f3d923e0787657a91fd5b0ed"
+  },
+  {
+    "path": "arts/actions/01/provenance/subtitles-v01/test-1349.png",
+    "sha256": "75d2a95e9c2e272bc8d758c8b4bf564cf1059d72e3d10b572f88f1ac65dad03c"
+  },
+  {
+    "path": "arts/actions/01/provenance/performance-v02/browser-before.png",
+    "sha256": "887a0925ff8e8565f1a53a7e0464465c96d9534759e6a40dca6d3c6a6d085274"
+  },
+  {
+    "path": "arts/actions/01/provenance/performance-v02/browser-ending-v02.png",
+    "sha256": "8c424551e60615c90d1aabfa139b44983026c9e747138f3dd892c8429b921075"
+  },
+  {
+    "path": "arts/actions/01/provenance/performance-v02/browser-thinking-v02.png",
+    "sha256": "8f93c21fba82c708f127c2b5bc9a6192cd9b67a17e1ac174b15bc1054f14ab3e"
+  },
+  {
+    "path": "arts/actions/01/provenance/performance-v02/browser-carry-v02.png",
+    "sha256": "9891d15bb0b83f8500c8c2655d765fc6a4e0f44bcd8d805b300053fcf85af5de"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-2520.png",
+    "sha256": "f70f92129f00d44b901310ca5716ab2fab195df526058008a744fdd57fa01f22"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-5310.png",
+    "sha256": "492de448623c9aba3b893776a5670f815d7a21400a23c1633755514267cd6d20"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-6630.png",
+    "sha256": "2a0b4aeb1d5c282bfdda9aacdee622a84a2475504bef39fc119c81a8d18f0620"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-1349.png",
+    "sha256": "c7df886bfceb2e873eb15e9dc7cce255a065fb283eea6663fc4cf6e0c1d27505"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-2490.png",
+    "sha256": "f70f92129f00d44b901310ca5716ab2fab195df526058008a744fdd57fa01f22"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-5985.png",
+    "sha256": "ef033c1a77673d728e2d081981cc965c49ef095ca4170b2105816f1f851b1edd"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-3660.png",
+    "sha256": "e9d362927a4367cd6c7970a09b53d38bdeca0e1a74668815690db750b8a43f4e"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-1920.png",
+    "sha256": "059d16b8ba8113348cbd3309ca6a13a79a8fe478a794d39de68abf33d6cb827a"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-6690.png",
+    "sha256": "9e8dfcda4a64a0c32fc3e0889cb9fef6a6a13aa6ebc247952850a696f9287484"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-3075.png",
+    "sha256": "4c4d9d15fc751b7e83ae834671f073dacdf4d379115625a1b9ba5775e2843b1c"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-4485.png",
+    "sha256": "c84dc9b84a671a2ffbc8d5f45b9c7e1aeb50576c114b73eced8494afe0298204"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-3659.png",
+    "sha256": "a9791d283d1191a34080a60ed313b95d9748cfd46408585258ea16ffdae3206b"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/browser-preview.png",
+    "sha256": "866656952ed768a016532f0ee8edd32d0ed3c55fd8fe8615b1e48524b79b55ce"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-6659.png",
+    "sha256": "2a0b4aeb1d5c282bfdda9aacdee622a84a2475504bef39fc119c81a8d18f0620"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-1320.png",
+    "sha256": "e141ec93e1d39e4f1c8e0b23e06c8c88c3e60fd6268d3a73400b93b0d06943d1"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-0000.png",
+    "sha256": "2a3c0e0c5a86cb3e3c61b028a3feaee32edd08fd5853d2be407a438906a695e7"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-3690.png",
+    "sha256": "e2ef4d3b679e08e7426f02e34e4ac1e3046099e33fca6cf4592d49643fb143e6"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-5340.png",
+    "sha256": "99d2a809037aba8a7fcbe5811a494b7ca04d446aaf64c2be68daa0bfd1231c92"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-6660.png",
+    "sha256": "891516e3f734fc1d0226162bc3652c59c45694a40b90847a1d54910ebeff2f92"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-8399.png",
+    "sha256": "615cad224880821a42eeb5a4331ed050dac31018f0a9a14e9b9dcd965778bd4e"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-2460.png",
+    "sha256": "6e542f94418e486fcf7eb99eb7c366af8fa4c197c769e3db5defe1e7abf48d65"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-7530.png",
+    "sha256": "f65d829a362eb9bae4c7e06a8f88352a30e40ab1d3a30e90c14c63e519e84545"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-1380.png",
+    "sha256": "e71302e866e21ba31b90e64f38a33cde80d07c52fe8c4506f65173face772fa5"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-2489.png",
+    "sha256": "6e542f94418e486fcf7eb99eb7c366af8fa4c197c769e3db5defe1e7abf48d65"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-1350.png",
+    "sha256": "1ee18e72ec891c5d7ebae7b9f83c5e19a56c2c15fc9fcb393208849872339a5d"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-0675.png",
+    "sha256": "df5a1f390f9c0c9176173aa41dbb65dc28dfd7c9c11ad6c911453e7e53a6bc2f"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-3630.png",
+    "sha256": "a9791d283d1191a34080a60ed313b95d9748cfd46408585258ea16ffdae3206b"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-5309.png",
+    "sha256": "95074ffd6537f7ffa5b8da9a75f30c554b603529453dbf4de2b1c45dd2dcf043"
+  },
+  {
+    "path": "arts/actions/film/provenance/integration-v01/frame-5280.png",
+    "sha256": "95074ffd6537f7ffa5b8da9a75f30c554b603529453dbf4de2b1c45dd2dcf043"
+  },
+  {
+    "path": "arts/actions/02/exports/02-complete-v01-contact.png",
+    "sha256": "e0d48b3b0651df0b480a76990e3b1bf23fe10da97abd00c162b470c16bf6f47c"
+  },
+  {
+    "path": "arts/actions/02/exports/02-complete-v02-contact.png",
+    "sha256": "e0d48b3b0651df0b480a76990e3b1bf23fe10da97abd00c162b470c16bf6f47c"
+  },
+  {
+    "path": "arts/actions/02/exports/02-opening-v01-contact.png",
+    "sha256": "1fd3022651b968dfc055f75e06d3c3a8833156b076bc019c3dbbfbd8301fc638"
+  },
+  {
+    "path": "arts/actions/02/exports/02-complete-v03-contact.png",
+    "sha256": "f402e766755ff957ce00b8b3b5e35557191f0f6e52aec9f0b3fa5e21fa442dbc"
+  },
+  {
+    "path": "arts/actions/02/exports/02-opening-v02-contact.png",
+    "sha256": "37403134bf2facfcc25d228ed2db154c581adcfee94901965d08c09c49c9c317"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-09.png",
+    "sha256": "e4a7b0748bbe764cd0a822d3a70dfa7894a009b02d8904b7232c2494966553c5"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-08.png",
+    "sha256": "db2f2b7dd60ca9f2e7d3df0067bbe2a82d179671a1f66c14313fdf58c3be1c30"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/encoded-02.png",
+    "sha256": "184789864205884f00c6e43dcff7382a28d98538825f3d15d49a876262bb7a4a"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/encoded-03.png",
+    "sha256": "170dff16213f511acce9d77702a5f386e2730cc412d5878fb9c3fbe2a99314f9"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/encoded-01.png",
+    "sha256": "c656baa77dd85aef22182b420dca8a53c03cbc3d638b8499b762d65353c35a6c"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/encoded-00.png",
+    "sha256": "c7f026602c4585119afdc3eabd302793aecc855def661899cc3c34d6a35c6f59"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/encoded-10.png",
+    "sha256": "19327d20ec5dbc71f9424378c0713394bf7213361bf217e0da600d9419dc1acd"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/encoded-04.png",
+    "sha256": "c0cf5d532b0160aac7390ea2ead8e8d8bd47c59a27d21e84a10894287f9eab98"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/encoded-05.png",
+    "sha256": "47050002e9f80c62e7f1f08f7eeb653a669a42be1984bc0dfe72836f3b95fdac"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/encoded-07.png",
+    "sha256": "234e16b540ad93395c7e3cf5e47442c01701e64534fd239cd73232052352882c"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/encoded-06.png",
+    "sha256": "6b2fd6cffb1f091b89c21eed0a64531befa09c23930e4698ba356f718b2da300"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/stage-rest.png",
+    "sha256": "2493e278870a0695e6de62357fbf2d2130c14957a22a4e03532aec0118d26e28"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/encoded-08.png",
+    "sha256": "1de85c60679b80d8074868b542b72760e3adae3112436655abf6fed60c2647d6"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/encoded-09.png",
+    "sha256": "66870681e82483f8067a339d45ae1e627061dbe93c4f38c271cc3ed910805e10"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-03.png",
+    "sha256": "5fd4b44f78bcbb91f50d407589e997e35faeed381f65ee431334dbdc439d2c9d"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-02.png",
+    "sha256": "6aa8f5c44ffc99f53ff56749f25d9db0fb85d5d930fb9e547dab1113df1b9436"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-00.png",
+    "sha256": "e4aa73de1053d7fb9fd7e775e505205e8fa1a32d8acf9f23bdcad65eb8c9ad0f"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-01.png",
+    "sha256": "93cfa3eb330eef23d41fb3b8f537c9cc368e8a317acee876509ceddb68a27d64"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-05.png",
+    "sha256": "45b8c6c62cdaa5edb8f8cd3b66692c3a67f5054d30670ef2785b3be3c059074e"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-11.png",
+    "sha256": "61acce2e9f5b816fd6f8809296339c77bba5068c2b8c52475a3b8b432ab96099"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-10.png",
+    "sha256": "c0de341f38edfba4682d70d515a9b84ab7f42d4e9756f56884bf2898d9ffc183"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-04.png",
+    "sha256": "06231ff5f5f47a78101fdd49122723f45ae30513025fd00d3e25853a75962ad8"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-12.png",
+    "sha256": "82c8c0b9bbeee9e448967bb0a3f77d126b47439acb6159066a0b3bb42dfc564f"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-06.png",
+    "sha256": "019d4d17b7a700b8c7ce6e0596bbed99f0f11a5965950c859dcbd82881c85c17"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-07.png",
+    "sha256": "829deb2a00ebb8c3f0c0afa85091df1a938f216ed7a82e23df351f2bc44800b4"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v01/frame-13.png",
+    "sha256": "82c8c0b9bbeee9e448967bb0a3f77d126b47439acb6159066a0b3bb42dfc564f"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v01/encoded-start.png",
+    "sha256": "c7f026602c4585119afdc3eabd302793aecc855def661899cc3c34d6a35c6f59"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v01/stage-lean.png",
+    "sha256": "1008c45f8c4b334f28cf5fbd754778963a7575b9b88da44d75c72ef20c32e923"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v01/encoded-end.png",
+    "sha256": "78318880c4cf3ce59ec0728bb17772b2e5b06a555ffa567ccb1aa5665f050fd1"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v01/encoded-crossing.png",
+    "sha256": "669e9e1a40dc3bb40d7fb03f81c234a3ceed7043ec99fb3c7e02db98b0cfb5bc"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v01/frame-03.png",
+    "sha256": "308e2c6f56355a39f84fc9b1e5ba6767d620b14a48db93af7cf8192399938cf1"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v01/frame-02.png",
+    "sha256": "576bde2e6aaddab31e2b01116a5816ea230886e2d3f1e9d50e3a486d255a5071"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v01/frame-00.png",
+    "sha256": "bb25d318ee991eb25be3d326c718178a30bd2b54dda903fc49e9adf774f0f338"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v01/frame-01.png",
+    "sha256": "c7de367b88e9a5332dfc5daf0b314591ef151c6bdfb1a6b6b46298ddb92d170c"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v01/stage-idle.png",
+    "sha256": "bd40ce09b4584e1f55c35bffeaadd032bea3c3b8b4012695f728711e1ed6eac3"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v01/frame-05.png",
+    "sha256": "66f2510de177888af4a8b4fbed2adac976ba7aef1ab4569771ccb481924da21d"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v01/frame-04.png",
+    "sha256": "5977fd025b597b3a1735ad117897bee2455741aa5234db9ab55a9619208f7e6f"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v01/frame-06.png",
+    "sha256": "66f2510de177888af4a8b4fbed2adac976ba7aef1ab4569771ccb481924da21d"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-22.png",
+    "sha256": "c42b4775301ded50a07eb98a478fd4d15ea8d7d9bec139fa1669be3c22da370d"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-23.png",
+    "sha256": "7d3daf0ff72e914683e20d2885dca404bb2d5b57b0bb434e20255be9eadc8976"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-09.png",
+    "sha256": "5263a23a1293c2ce552f18209d003eee597e212e63a4a2f2bc612d1627d9a61e"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-21.png",
+    "sha256": "8cf8be2648356ec2a3e7273ccec9c0d63dd27a181d450a1e6a6df90077905b5b"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-20.png",
+    "sha256": "0b5dcf0562db63429e3da19ecb735c09ae31cfd580448b2a67521fa207f44c75"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-08.png",
+    "sha256": "6225738dd03a486efa811192b8f01c1fab48a982db7c63ac592c396f493f8123"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-24.png",
+    "sha256": "07373ab2da9ca020d672f0eca03997512fefee9015c8e80615ffc45b1d3e2ddf"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-30.png",
+    "sha256": "f1c2ec5a5a48eceeda35074031605911576188dbe0e160de1ef16953b14fecda"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-18.png",
+    "sha256": "394e4b5814031a68f9f0dcd87e0cfe6bd1a81afa50c96d80abefc299b5f6d0ae"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-19.png",
+    "sha256": "0b5dcf0562db63429e3da19ecb735c09ae31cfd580448b2a67521fa207f44c75"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-25.png",
+    "sha256": "786842b696477fee73450501ddf4c7b89c03c1a0669780ff0e97d231f57146d5"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-27.png",
+    "sha256": "a098861f464c78add9b3450b2c7e4d66bc4f3cd6f51cc2bf1f9b67499673d4fc"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-26.png",
+    "sha256": "234a062620d4bb31cd762c52288ff1c0b2fa567d3e8071a5204fc68a4e490dfb"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-02.png",
+    "sha256": "607ef54073a086dde04c17782f7f1e0d797ff0f8573cdb31f8f6335fccf01f03"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-16.png",
+    "sha256": "8de139a5f16b95674ed60f8f1bda6aab8fecfc04b1002fa615c824a0e062d589"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-17.png",
+    "sha256": "3c232883cf52d27dbb250d26e1d76cda3d674d2e102643c164f9e20513bb281e"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-03.png",
+    "sha256": "70a481f0affe7af00dd2abb37e99fd7bd9bc2951cd240052570db30b8dfc71fe"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-29.png",
+    "sha256": "d0627deb44c705b2ed7bd653a43ae21c369903209fe3aad28b499efb910665bc"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-15.png",
+    "sha256": "d92cb5c16672f8615cb54b4fc4fd5c4f8a9bd9530cb5b073a1a58039184de276"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-01.png",
+    "sha256": "59dacbb3da0ba9f126ff1115a0ff8bcaa055a4547917ea1f17cc70f8de88d6bc"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-00.png",
+    "sha256": "87d7c42fb66130659c809995172e0ddf50d2d01c0cf4be9254f68b766503a76b"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-14.png",
+    "sha256": "e2135dd45a7787cd8c459bd32aa4d0e285548547c5b30a0667bd78acf677e466"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-28.png",
+    "sha256": "7c97d4827e5632919d21bcba970c49a156d3d6b64acf49704ee01cde999dec41"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-10.png",
+    "sha256": "12a6142c93c08094ad774251e1fbc7fe78fb4f8d61ca79ad063a4f3266a4a4d6"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-04.png",
+    "sha256": "dae54a0bb8cf2aa502c69375c344951a6902084bb1aad3bfa9c641fc5d6c8d50"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-05.png",
+    "sha256": "eea54db1467422e9b9d27eabab1374087251b82287e668b20c3176e65d6f1ed4"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-11.png",
+    "sha256": "f15066a7d7abcc39e443e48efbdc9563224c29c602c1af61eb2eba0c26868ef6"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-07.png",
+    "sha256": "5cab0143cbda4ecf17aa14a51a2ca36fd3a5fdaaeb84148256b527fffb45d87a"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-13.png",
+    "sha256": "68ed35ba95211d6adddff3361949f7acff32d456b4f50a1c721353d75978dcc1"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-12.png",
+    "sha256": "af1c3db9104f938514cb4675d054d1f624e0e9a7b153bd809a94a15695e496f7"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-06.png",
+    "sha256": "0151685dd5559c9182f23ab888586d2cec98ecd5c2ed2c44a52db224c11918cc"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/stage-rest.png",
+    "sha256": "2493e278870a0695e6de62357fbf2d2130c14957a22a4e03532aec0118d26e28"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/seam-after.png",
+    "sha256": "cf544d66c1b18526626ea152f009d74b6862bcf7f7e3138facabc67e70728561"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-23.png",
+    "sha256": "1db95f5759a78fe3bf24333c4ef7434de2af540a1e1954a057afaf468a3ec4ce"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-22.png",
+    "sha256": "7f7235fcd578abaa2732e8e4f3662e9c26be9f6f5b17adedb6b7547d030826f0"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-08.png",
+    "sha256": "e71a4365c4b146ef4d17f5ed8dd482000e3a348defd54c93c5b9da53e752fd19"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-20.png",
+    "sha256": "84b66fe93a46e38933a0adb04495169b8157b7c1847376ecba9d294432b4eedb"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-21.png",
+    "sha256": "e7ff88b84af9feb9ed6b34e094cb6ba77e4f5d4d075db15e3382b7759c7dacbe"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-09.png",
+    "sha256": "80092b08f895e20a17b20b72eab1a9ad4e1ba2f2b3c244f6e7e37efe553041f0"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-25.png",
+    "sha256": "5dfd542b676310e129557bc43697bbe43579aec03e5f536efc3a66c510679890"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-19.png",
+    "sha256": "f9576495718b11f6657204fc172ee3ded4172853bad628380ab40ee8efac4f8a"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-18.png",
+    "sha256": "d246cee11beab4989353242b885346302661c8710a87a88ce518760886688456"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-24.png",
+    "sha256": "a094f62bf7b7ac08dbeb5292f360d7337cb028f72e5a57d4b5f572509acb37a2"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-30.png",
+    "sha256": "576fd15ba774d1d29845e233a4a809da0d7db279d1985534b013eee0aacc31a6"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-26.png",
+    "sha256": "07e729fd053e6633a40d47d2e146d25021fd3e08dc756f05650bc4421744155a"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/encoded-27.png",
+    "sha256": "c4a247b7a58f10f88c9bd3f9a75d7080403f0f35c5d0a56822901c3a16e54496"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-17.png",
+    "sha256": "84659661519e0c2ab3c43688ea5a8dd7a64b0352ae1e0dda7192b933f267d112"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-03.png",
+    "sha256": "dce23e26ba4c10a54070c2cee51303fa80af247e739fccde138fb447248208fd"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-02.png",
+    "sha256": "99f646f5aa4b4569d62d65525426481ff71db11290428f0c4b66d7a610e537ac"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-16.png",
+    "sha256": "e1392a29586300b9d26501905a570b947fe06582adf7cc22063b5b6afaafcbbd"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-28.png",
+    "sha256": "aa0f9c97d002fbd6835a299361a1a1f43363c7a0b990238a69e40dd7647e2904"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-00.png",
+    "sha256": "b0287a9d215da9cf2c1bbd8f48a024007192b6283bce6a30a2f14cf4cf1effec"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-14.png",
+    "sha256": "bc2508ab5c977cded2203d98ad9e53a32c2e95850fcdf85315e935e995fbf60d"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-15.png",
+    "sha256": "1ecc41c4bbe50457e390c30a33b4962b78a129d625fe1daea1719895db54444d"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-01.png",
+    "sha256": "b0287a9d215da9cf2c1bbd8f48a024007192b6283bce6a30a2f14cf4cf1effec"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-29.png",
+    "sha256": "f1c2ec5a5a48eceeda35074031605911576188dbe0e160de1ef16953b14fecda"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-05.png",
+    "sha256": "0c0120df5e83164de001d2eb6d728fb67162e2983873a247ee09e01ad3a34af3"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-11.png",
+    "sha256": "cb08d8d9fe6b837713c442caf433f5822bfe5433474d691d915d28b6ea24543a"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-10.png",
+    "sha256": "70f9d6aae4ba8552b60781fc0e400b92e8f656cad16a85fce280eb5511465184"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-04.png",
+    "sha256": "425d0fab5fee3655b9b2f98758b8dfe6d97414212f3ba6b4317e68eec1813b33"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-12.png",
+    "sha256": "e15d2c08386a73418d180c20b56ff07fe0da195a476096afe91066d44339f192"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-06.png",
+    "sha256": "7c338ae97ec03209a5935e64dd09820b92dccbb52f4f6a1f1cea1e4d7d214e68"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-07.png",
+    "sha256": "090a1f8f24cd9f2fc8dcbd815285d4f7a1e7f42bb46c23e74524ffa8613559ee"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/frame-13.png",
+    "sha256": "f1347f3031a5bcdcf64811899352db1e776fda551e989402ed3d60c96513f6e8"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v03/seam-before.png",
+    "sha256": "5afb48a7957bf3735e3711881d6d3409b35079847765e32c53c5799cc6b8517c"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-09.png",
+    "sha256": "e4a7b0748bbe764cd0a822d3a70dfa7894a009b02d8904b7232c2494966553c5"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-08.png",
+    "sha256": "db2f2b7dd60ca9f2e7d3df0067bbe2a82d179671a1f66c14313fdf58c3be1c30"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/encoded-02.png",
+    "sha256": "184789864205884f00c6e43dcff7382a28d98538825f3d15d49a876262bb7a4a"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/encoded-03.png",
+    "sha256": "170dff16213f511acce9d77702a5f386e2730cc412d5878fb9c3fbe2a99314f9"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/encoded-01.png",
+    "sha256": "c656baa77dd85aef22182b420dca8a53c03cbc3d638b8499b762d65353c35a6c"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/encoded-00.png",
+    "sha256": "c7f026602c4585119afdc3eabd302793aecc855def661899cc3c34d6a35c6f59"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/encoded-10.png",
+    "sha256": "19327d20ec5dbc71f9424378c0713394bf7213361bf217e0da600d9419dc1acd"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/encoded-04.png",
+    "sha256": "c0cf5d532b0160aac7390ea2ead8e8d8bd47c59a27d21e84a10894287f9eab98"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/encoded-05.png",
+    "sha256": "47050002e9f80c62e7f1f08f7eeb653a669a42be1984bc0dfe72836f3b95fdac"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/encoded-07.png",
+    "sha256": "234e16b540ad93395c7e3cf5e47442c01701e64534fd239cd73232052352882c"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/encoded-06.png",
+    "sha256": "6b2fd6cffb1f091b89c21eed0a64531befa09c23930e4698ba356f718b2da300"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/stage-rest.png",
+    "sha256": "2493e278870a0695e6de62357fbf2d2130c14957a22a4e03532aec0118d26e28"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/encoded-08.png",
+    "sha256": "1de85c60679b80d8074868b542b72760e3adae3112436655abf6fed60c2647d6"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/encoded-09.png",
+    "sha256": "66870681e82483f8067a339d45ae1e627061dbe93c4f38c271cc3ed910805e10"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-03.png",
+    "sha256": "5fd4b44f78bcbb91f50d407589e997e35faeed381f65ee431334dbdc439d2c9d"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-02.png",
+    "sha256": "6aa8f5c44ffc99f53ff56749f25d9db0fb85d5d930fb9e547dab1113df1b9436"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-00.png",
+    "sha256": "e4aa73de1053d7fb9fd7e775e505205e8fa1a32d8acf9f23bdcad65eb8c9ad0f"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-01.png",
+    "sha256": "93cfa3eb330eef23d41fb3b8f537c9cc368e8a317acee876509ceddb68a27d64"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-05.png",
+    "sha256": "45b8c6c62cdaa5edb8f8cd3b66692c3a67f5054d30670ef2785b3be3c059074e"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-11.png",
+    "sha256": "61acce2e9f5b816fd6f8809296339c77bba5068c2b8c52475a3b8b432ab96099"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-10.png",
+    "sha256": "c0de341f38edfba4682d70d515a9b84ab7f42d4e9756f56884bf2898d9ffc183"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-04.png",
+    "sha256": "06231ff5f5f47a78101fdd49122723f45ae30513025fd00d3e25853a75962ad8"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-12.png",
+    "sha256": "82c8c0b9bbeee9e448967bb0a3f77d126b47439acb6159066a0b3bb42dfc564f"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-06.png",
+    "sha256": "019d4d17b7a700b8c7ce6e0596bbed99f0f11a5965950c859dcbd82881c85c17"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-07.png",
+    "sha256": "829deb2a00ebb8c3f0c0afa85091df1a938f216ed7a82e23df351f2bc44800b4"
+  },
+  {
+    "path": "arts/actions/02/provenance/full-v02/frame-13.png",
+    "sha256": "82c8c0b9bbeee9e448967bb0a3f77d126b47439acb6159066a0b3bb42dfc564f"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/seam-after.png",
+    "sha256": "2e79db645e38deddfa91ee4ca098dd97fc00ce8ccccec53b936c342d3c1dd5b8"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/encoded-start.png",
+    "sha256": "c7f026602c4585119afdc3eabd302793aecc855def661899cc3c34d6a35c6f59"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/stage-lean.png",
+    "sha256": "1008c45f8c4b334f28cf5fbd754778963a7575b9b88da44d75c72ef20c32e923"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/encoded-end.png",
+    "sha256": "c656baa77dd85aef22182b420dca8a53c03cbc3d638b8499b762d65353c35a6c"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/encoded-crossing.png",
+    "sha256": "d1f6d8b66d736185443829b257866a496cd7d64e277929085658893132e1bfd6"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/frame-03.png",
+    "sha256": "47d4f80019f179dfa5178a04695355db316638015bbd8ed0d805e68c2b490e5b"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/frame-02.png",
+    "sha256": "576bde2e6aaddab31e2b01116a5816ea230886e2d3f1e9d50e3a486d255a5071"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/frame-00.png",
+    "sha256": "bb25d318ee991eb25be3d326c718178a30bd2b54dda903fc49e9adf774f0f338"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/frame-01.png",
+    "sha256": "c7de367b88e9a5332dfc5daf0b314591ef151c6bdfb1a6b6b46298ddb92d170c"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/stage-idle.png",
+    "sha256": "bd40ce09b4584e1f55c35bffeaadd032bea3c3b8b4012695f728711e1ed6eac3"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/frame-05.png",
+    "sha256": "e20d46944ae63d146480455a72320e7affa834edad4bc8899fe9557e97e37e09"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/frame-04.png",
+    "sha256": "5977fd025b597b3a1735ad117897bee2455741aa5234db9ab55a9619208f7e6f"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/frame-06.png",
+    "sha256": "e20d46944ae63d146480455a72320e7affa834edad4bc8899fe9557e97e37e09"
+  },
+  {
+    "path": "arts/actions/02/provenance/opening-v02/seam-before.png",
+    "sha256": "d24bc4aa8bca9ea9e03c9de77af9cab28cbcf65d317c893e0f3bf03c3260ac07"
+  },
+  {
+    "path": "arts/actions/05/exports/05-contact-v01.png",
+    "sha256": "229bd3d3f65f33f8b585dba9625a653082b50cc5c65f328a3b082a9ecec27dfe"
+  },
+  {
+    "path": "arts/actions/05/exports/05-encoded-contact-v01.png",
+    "sha256": "04ee500378528d5c2f655d79641d468021c4684e4fa8df3492911d240dbf45db"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-22.png",
+    "sha256": "fd17de2c3dbc31ca8265ce6dbba02ddd31a48cf0766b7fe57cdc22bc95e6b2cb"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-23.png",
+    "sha256": "d62d05dd4ccbbf4d5d4c8c9bf2031013854baa4467c94390c3926babcf0f2a3f"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-09.png",
+    "sha256": "3c5b12b74eed722ca15d1e6fe3e2db40d876ad3bed18463f95bd8d1cdd313750"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-21.png",
+    "sha256": "ef072d966249e9d253c0eff916ff59a1b84bfeab2e8c3f6674f852aa94312817"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-20.png",
+    "sha256": "1a769c0f882ce4356f42eb5d1294fc5779a59e62c011e0e67777b2130fbd9e9a"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-08.png",
+    "sha256": "9e001e482907adc0ad7c044a8760ef895dfb43a3a7a91f3efad615585297c3c2"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-24.png",
+    "sha256": "2b22ba79676039328c6637e90aa55666c2910ea93699b85a186398a6d1e15d71"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-30.png",
+    "sha256": "712274b0d43da6d62565b7fd15e9d87a603adbcf84f760d342d427bdebdda165"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-18.png",
+    "sha256": "1fcd2fc62bc46db8ebcc1aeecb47b0eafbcec25c7446279a3732ea94ad0796a1"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-19.png",
+    "sha256": "1fcd2fc62bc46db8ebcc1aeecb47b0eafbcec25c7446279a3732ea94ad0796a1"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-31.png",
+    "sha256": "584403002b2d940d0af0eb6234753dfaeaec32c09e96290beed4f7394702b874"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-25.png",
+    "sha256": "bcc5668e2f48f4ebdc83e493e447f1f3e64c25564b486b71696def9ca67bd57a"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-33.png",
+    "sha256": "584403002b2d940d0af0eb6234753dfaeaec32c09e96290beed4f7394702b874"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-27.png",
+    "sha256": "79a4a47968d9f99d636ad9f3b44ec16ee40d4f45bc44e49547c541bdb43e59d1"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-26.png",
+    "sha256": "5eb2494261739b00d309f07e563cd8f6ffef9b2290cab7d37338bb6c14685330"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-32.png",
+    "sha256": "584403002b2d940d0af0eb6234753dfaeaec32c09e96290beed4f7394702b874"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-02.png",
+    "sha256": "9829e4cd7a59aa8d680923c49619811472416aafcb3e239774563d96be94a33f"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-16.png",
+    "sha256": "3315e0c404e37a08a2c51b032ccc685c236b1c56921db18e854208f105795b2d"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-17.png",
+    "sha256": "f9a7cfc6b4451b1fdeb05f86316b6383f6aa19a5476fea3cc0cdd53557b76cc4"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-03.png",
+    "sha256": "5c908a38a2e45c174c9a9a0a56aa10e5981347c405f7479265670fc25a75ea38"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-29.png",
+    "sha256": "1513d715052aae006eec49d9cb83cee2595c30f5b48d053723b44600538b0bd7"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-15.png",
+    "sha256": "34c06ed2ca34eb41c08d09bedda30600305599d8f686cb44380f18dfcec31ac6"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-01.png",
+    "sha256": "8af72f3e0195ccec1ff8e34df12625ee69b9a1b97927d6f01f2386e27be86f4c"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-00.png",
+    "sha256": "cca78eb1a814cc795de5a2cf2ff78e6d528bab7a3aff1594d71d308eb4325746"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-14.png",
+    "sha256": "4d4b8c5ae039005348dcfaf12fb3e1965acb9375e7f1e9e94075c8916dfd05ce"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-28.png",
+    "sha256": "92f5756c2e01c1885ced9bd5d4a8eed854a5bc762130c2cca95b79a63a4340e9"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-10.png",
+    "sha256": "c3f4996c3cba4c032483242fd9a0cece6ad25147884ed2e240e2f266380b3afd"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-04.png",
+    "sha256": "9e3cffe5318302442cc5d1d27b763808a88fd48fb1e6db1b42e163a2f278250b"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-05.png",
+    "sha256": "c53a470bbd9e7e0cc999f0038a10c4cf02ca552de49d9a1b8c8241225d36cd4b"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-11.png",
+    "sha256": "dcec55acc172d9974e00551335f9d93532c2362a2a2dc3693bc5501639cc724a"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-07.png",
+    "sha256": "406b1f189a1841b880bca8a7812e690e27148c6f9c697b15a8840e5834498a33"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-13.png",
+    "sha256": "7bac9e368ed007aeb8c5760f31b975bac4759d46a601fe40ffbd0df81c88737e"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-12.png",
+    "sha256": "b5c53ac6131e30b3a0ac3bdfe90a6c99d4c0188f3a041f8231803dfefb380f7a"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-06.png",
+    "sha256": "373db6e015e92422a48f9422bcb0e0647b416f0dca84cdd39bfb5df26b5b801a"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/seam-after.png",
+    "sha256": "04f3786f6a02e76fe43792904e312e1a1fd40e7318877eb6974ff076442d76f9"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-23.png",
+    "sha256": "6043aab84429f57d075cfa21b076b89ef0433499aeac916ebcea40ec71c3a78a"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-22.png",
+    "sha256": "292b87de33b712503694351785c670d9697d2e8ace77fa8d83baddec5687b3b7"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-08.png",
+    "sha256": "5356ed43de5d22183439e7b045d7056a99d952b274b715aa6d61a63610303c51"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-20.png",
+    "sha256": "e08ffda7ff0cfe161f67f1ce413a72240e4d441c1331133c930634b311fceb98"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-21.png",
+    "sha256": "67845bfcc5eabcab9c0c7365af8bb8f124d89c53e6f03eed6548758846a067fd"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-09.png",
+    "sha256": "0f715a3d72598e631a72e7b7508bae4ad30df8662aaace1f6c6899284a7af83a"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-31.png",
+    "sha256": "9987e19497af95a19a2d075975ba54cdad01e6dbc63300e11a1d680efa25c73b"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-25.png",
+    "sha256": "b788fc18686ed5506abab2aa402e89f2fba553a7da65e79c13e4074d59c88fb2"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-19.png",
+    "sha256": "da1112e9ccd76b228ec8043a9bb77a226bf0d88a6e16657eca6d0b5272eebbd5"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-18.png",
+    "sha256": "6b438e3108bda24b13e9c364f8a827faf83487d275e728b946169d297d3ee251"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-24.png",
+    "sha256": "1bde77c35796a0f70a5e55dd715caa222892ea70be3267618e05687052b503d9"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-30.png",
+    "sha256": "0ead4205b4c49057454dc783871cd52e6fc8a6467bd216486dbe9cd1f580d49d"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-26.png",
+    "sha256": "315d741c24cb1ec403483f068ef075b38fa581b550778811a583dd481b4f5153"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-32.png",
+    "sha256": "c40d55d39b4369c9e0684ed69b68a65f9de1a7ca106c26249522f20527a0ccdc"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-33.png",
+    "sha256": "d1523220e690b5f5f68c535faf88ea4d74609f416df1e01b3a98323530835c72"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/encoded-27.png",
+    "sha256": "87951b0e7f3aaf6d3d78589c1834634feac224f779189142f060a77d610b7981"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-17.png",
+    "sha256": "90d3a018518b08890ebc7ce1375874acd0e9d3c46b85b6f43fce8d6d0783341e"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-03.png",
+    "sha256": "4a0871f100b9e00cb402c5e8b246c7e3b8b240fb4d52be9ae0a53b6822adc90b"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-02.png",
+    "sha256": "a3c506b4aa1d559544b955ee71f2491dcf2035b1c7cda44de112c8351342895e"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-16.png",
+    "sha256": "5a1b28b4c2ad1522f515eb418a432affc2a5b1954aa0e12c5112a76a42e5891a"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-28.png",
+    "sha256": "d5da9987d2315a8be836d4ab388f69625bc35276036f4b0a5ac5bfe0aa9210f5"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-00.png",
+    "sha256": "051ee8d378e44bbd18ae287b9ed91114def3d83a51476811b0c275852f1d149c"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-14.png",
+    "sha256": "42877c9713ada6e2be1f90e2299a2aa5a3d3f53417da305c851c303830420e38"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-15.png",
+    "sha256": "5a1b28b4c2ad1522f515eb418a432affc2a5b1954aa0e12c5112a76a42e5891a"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-01.png",
+    "sha256": "31fa8174e43f5b1b486bade944f4866266339e11b48761993da56c84ba0e50eb"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-29.png",
+    "sha256": "712274b0d43da6d62565b7fd15e9d87a603adbcf84f760d342d427bdebdda165"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-05.png",
+    "sha256": "b03603c4e6aed66861e5c787c9edf9e2930572fd81afaf1a2bb9d3850f7b5484"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-11.png",
+    "sha256": "31423d096f3c92424fe42361ac4802d67fdc79d70fcfef9792e2665c6266ba6b"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-10.png",
+    "sha256": "035170433588fee5dd8431e56a461af1307b382d8c958c16c33f87f9d043ae7f"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-04.png",
+    "sha256": "ed9ef47b97c5bd1780833227e281cee4b4cf72aec7436ae85822223ee0d1e645"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/stage-room.png",
+    "sha256": "b5fc2c3901b135d7f4ce148785def8bebc61a39a258662b5c28aadd8732dae83"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-12.png",
+    "sha256": "597287b37ecfb7dfee06e980b9b44a7211ade63f7c20566022d4ecd0717ba2a4"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-06.png",
+    "sha256": "15d7af10cfb2b32bdc72d892b5578539444e02b737d2a5d84a296984dfa62ea9"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-07.png",
+    "sha256": "9e001e482907adc0ad7c044a8760ef895dfb43a3a7a91f3efad615585297c3c2"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/frame-13.png",
+    "sha256": "a04452aa872bf3914364e7884fdf218ab10ddb03be825a036a1de14218f84f86"
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/seam-before.png",
+    "sha256": "be17f7cfa018d5a6780d174f0ed5d94de2d2b78f0bd01e1a4e17f6737ae2c722"
+  },
+  {
+    "path": "arts/actions/04/provenance/production-v02/encoded-23.70.png",
+    "sha256": "87150a4d06df2f1b5ba2fbdf818c0c0a2505a5fb6064b9e5bb09a3204b5d39cb"
+  },
+  {
+    "path": "arts/actions/04/provenance/production-v02/encoded-7.60.png",
+    "sha256": "565b8d5027f334336bfd49df80ed85811996306f94f724c4dc1fc23c6491734e"
+  },
+  {
+    "path": "arts/actions/04/provenance/production-v02/seam-contact-sheet.png",
+    "sha256": "9b4ef6efc1231aeb1eb5dc0d779b404c00aafa39d0be4697505eb6bec7f371ea"
+  },
+  {
+    "path": "arts/actions/04/provenance/production-v02/encoded-34.20.png",
+    "sha256": "eb774e0e6bbff7958ffee1be348b94413054aa51e727c29d0615c611a786b37c"
+  },
+  {
+    "path": "arts/actions/04/provenance/production-v02/encoded-54.97.png",
+    "sha256": "8a136aae3809daa70fd7c94ef498370bfe061b9f57f52301b6e1b9be5fa40fba"
+  },
+  {
+    "path": "arts/actions/04/provenance/production-v02/encoded-48.40.png",
+    "sha256": "ba74be6b05a6f275286c5789a119ec697c359fe3860746f43d60cfe1a3892ab0"
+  },
+  {
+    "path": "arts/actions/04/provenance/production-v02/contact-sheet.png",
+    "sha256": "69bbd65d4ddaaabc55748eda08067a4a922a25743f07b1a4826492e309fd459d"
+  },
+  {
+    "path": "arts/actions/04/provenance/production-v02/encoded-0.00.png",
+    "sha256": "b03f9f0144e49cafb26b0267c35e011ea5cdbeace698053817489dc981471a3b"
+  },
+  {
+    "path": "arts/actions/03/provenance/production-v01/encoded-36.80.png",
+    "sha256": "56eed2b9e298ce07dbf996cc9d19e868d31bb078718944649fd04660fccb0021"
+  },
+  {
+    "path": "arts/actions/03/provenance/production-v01/encoded-38.97.png",
+    "sha256": "ed966b76d697bffd49afe7c496068548a0aaaf7fd7c032a9ab3264dd61bb8d62"
+  },
+  {
+    "path": "arts/actions/03/provenance/production-v01/encoded-24.50.png",
+    "sha256": "97e1af859aa1cef3b9f014cf693eb6200e49dadb3834d0eabb4cb2b7747b16d1"
+  },
+  {
+    "path": "arts/actions/03/provenance/production-v01/encoded-18.30.png",
+    "sha256": "d459eaa695db213f3ab6b996e943f6fd64d195ab21c812e87c3adeda4232d371"
+  },
+  {
+    "path": "arts/actions/03/provenance/production-v01/encoded-11.80.png",
+    "sha256": "833d27f6510550a40f373e07025d13ea0b633bf10c25995b9e11d90713861a55"
+  },
+  {
+    "path": "arts/actions/03/provenance/production-v01/contact-sheet.png",
+    "sha256": "2dfe6e4baba1c7de0bfe11ed0a18e41172e7ef15d9857ed7ab817677f6deddf9"
+  },
+  {
+    "path": "arts/actions/03/provenance/production-v01/encoded-0.00.png",
+    "sha256": "32257c0a83e884982d02c01da1fe5d20adfbbbc7156afdc42d5364e9ba52d818"
+  },
+  {
+    "path": "arts/static/03/programmer-asleep-main-v01.png",
+    "sha256": "ccd03a12b0a6a36baf48f5e0f9c05a0c57fb0c6b07931bd6bd2b1ef3e042b65d"
+  },
+  {
+    "path": "arts/static/03/programmer-awake-main-v01.png",
+    "sha256": "405ab5c61ad92858198c7dcfbd12541d02878b47f9461bfee9c255a30879b36c"
+  },
+  {
+    "path": "arts/static/04/premeeting-panel-v01.png",
+    "sha256": "9372db8016f6e47aa478d03030889f0577d0c43958eb1d195a7aecb1e8a21f63"
+  },
+  {
+    "path": "arts/static/04/evening-panel-v02.png",
+    "sha256": "c4361c2e3320b0959c183a856135c52b36f79057ca433fa20f467dce107b6071"
+  },
+  {
+    "path": "arts/static/04/premeeting-panel-v02.png",
+    "sha256": "91ab9b9a78012b7b2f366e3965c8fa7ff90492ad54b1ec243edd7f6aa641fe9b"
+  },
+  {
+    "path": "arts/static/04/evening-panel-v01.png",
+    "sha256": "68aff69db00d22a88ce9b40e1f2c6b45071f78a10800f973352c871eb8d016be"
+  },
+  {
+    "path": "arts/static/04/lunch-panel-v02.png",
+    "sha256": "7b22f7f4573b16440bdd5310b20a73814f46a04e0dd07ad08d6125d41e138854"
+  },
+  {
+    "path": "arts/static/04/lunch-panel-v01.png",
+    "sha256": "7798c02b876d6e1ad3066a5ca8e64c13a81b2f938b3bedb0663a64399f90ece5"
+  },
+  {
+    "path": "arts/static/story-assets-v01/manager-alpha-check.png",
+    "sha256": "5a37aca91c9ea9b1261445dce5e6822f17ec4090093cf49ef8bc535948567cbc"
+  },
+  {
+    "path": "arts/static/story-assets-v01/contact-v01.png",
+    "sha256": "36a1857b83c337c4acce40b266fa9de88409da2a2692937047fecc0cd03afd5b"
+  },
+  {
+    "path": "arts/static/01/camera-front-dispatch-v01.png",
+    "sha256": "85684bded8f936bd7a47deda93ac8ae04656a4121d75d4eee2e808415b60c856"
+  },
+  {
+    "path": "arts/static/01/camera-front-neutral-v01.png",
+    "sha256": "fe322a4d895de8cb9f792855f0890fc7723cb43c6a551b2ab5a6ecefd70cc41c"
+  },
+  {
+    "path": "arts/static/01/camera-standing-layout-v01.png",
+    "sha256": "74625f84cc8c6abdf1f5d41959b24c966f367e67d26ca84a19c123177f24f59c"
+  },
+  {
+    "path": "arts/static/story-assets-v01/compositions/02-manager-parallel.png",
+    "sha256": "8c4a706190f84ec8b3d4fd0846975898d0b8d436d1e2ddf3b0fee2c98ae14dc9"
+  },
+  {
+    "path": "arts/static/story-assets-v01/compositions/meeting-characters.png",
+    "sha256": "1d2f52393c142d92eea476054875b8e9217f7d9f33423e844da35811ac9ee253"
+  },
+  {
+    "path": "arts/static/story-assets-v01/compositions/03-asleep-notification.png",
+    "sha256": "f6aa94168476a60ae6a673944737a7f795aef140d22aac2d3335eeaeaf28f25d"
+  },
+  {
+    "path": "arts/static/story-assets-v01/compositions/03-awake-notification.png",
+    "sha256": "93ec5a53ef056ecdcf03b3c7433ead0386d8d8b6300b7a5c39b37a893d58e85a"
+  },
+  {
+    "path": "arts/static/story-assets-v01/compositions/manager-task-window.png",
+    "sha256": "928d1ff99d86294facfeaad1a5ee762f270f5ffba43cc3f1bbd35d65cc31781a"
+  },
+  {
+    "path": "arts/static/story-assets-v01/compositions/04-three-parallel.png",
+    "sha256": "ba4ca7cc47d6fb31be5b03ca3bf932b709e377c123cd6a570d11a8125323009c"
+  },
+  {
+    "path": "arts/static/story-assets-v01/provenance/poses-light-dark.png",
+    "sha256": "5d6d2dce21b1b35db217dcc7d282cf6e5cd87321bbbd9b144226afdf42622409"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/contact-v01.png",
+    "sha256": "72f993dc1b5931e5f7b337784251d2ac33e39dce6795e34d0160251e75db323c"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/compositions/review-current-v01.png",
+    "sha256": "684d28d8efa9fa0f3a30d3573f67e62d163b52638672cd6eca9de8d654f96f74"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/compositions/review-next-v01.png",
+    "sha256": "4123cf772dac314d988e51538d44c195cf8b0da083acc62468de805b5a7ad60d"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/compositions/parallel-choose-v01.png",
+    "sha256": "f27b2a3348380f0937cd7ba35d19e7af84dae5a57ac670014b69745eaaca872d"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/compositions/work-window-native-v01.png",
+    "sha256": "72e46057fa20b9a1a925912503143cddce4dcafb46379f9ed4d2db13e969d81e"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/compositions/parallel-think-v01.png",
+    "sha256": "384f73720fbd36863a46aa90ef33bccd7e201e8ee2eccd4dc383fef5cfabaf76"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/compositions-v02/thought.png",
+    "sha256": "a64ec5b5a58ff6c4b9559716251d635c991f408d98ec6e521f3476170445e7d8"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/compositions-v02/selected.png",
+    "sha256": "e4af48f08d2c41b191e6f093b17d4ec70bba02ff58385c446b2cfac307aab67a"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/compositions-v02/options.png",
+    "sha256": "cb62644b14bc182a01cc9c45588cd4569d4c5d07d79eb1796ac1304a345a16c9"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/compositions-v02/full.png",
+    "sha256": "16b2f9f9810958da4bcb9cef69971db1cc05a0166aefe20038773ea6dfd25bf6"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/compositions-v02/expanding.png",
+    "sha256": "e49ed330c691232a41790c40d780a0aff4da7da9266d3bf1107608d8218f5df5"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/provenance/poses-light-dark.png",
+    "sha256": "02ddcb544899184d90ca1e510f19c2261354367bf5cbb687ce1bde6a68883bde"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/provenance/layered-v02/occlusion-visible.png",
+    "sha256": "f5009e36e65e18f645c47e5532ac5ed9def70ce9990e9519974fa192f1d1f7d0"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/provenance/layered-v02/browser-final.png",
+    "sha256": "0c654f80ef2046b5522b709ed61cd7875c81369aff19cd3652eb7fa48417ea36"
+  },
+  {
+    "path": "arts/static/02/story-assets-v01/provenance/layered-v02/occlusion-hidden.png",
+    "sha256": "a925e93999b263be9cabeba3234353b8f6ecc644f3c04c060e4271ab045d33d2"
+  },
+  {
+    "path": "arts/backgrounds/shared/meeting-room-day-v01.png",
+    "sha256": "6191a947317c3fa1220fce801a7fb252d7d34cff2fe5ce4a6bd4678431c966de"
+  },
+  {
+    "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+    "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11"
+  },
+  {
+    "path": "arts/backgrounds/01/workroom-day-v01.png",
+    "sha256": "45e33124784fffdfd755d27f6ee1b13d06d65261795087e83ec15c74392c50b3"
+  },
+  {
+    "path": "arts/backgrounds/01/workroom-night-v01.png",
+    "sha256": "062660817c9cc28f7acd52678e761b8f2c1d584dc6d57cd5b9165c6a124cd77c"
+  },
+  {
+    "path": "arts/backgrounds/01/workroom-reverse-night-v01.png",
+    "sha256": "28a1e268b5376a4680ef30d4ad631af2b142993d614a74f45d4a9540d1e60814"
+  },
+  {
+    "path": "scripts/PROJECT_STATE.md",
+    "sha256": "ad1a93ee42eea00e6599cb05bc20841bcbcc5c54b92c20f69eac3ea0d845a23f"
+  },
+  {
+    "path": "scripts/HANDOFF.md",
+    "sha256": "b20bbc30ab6f096541df526d40e42320fc16204ef2dab8054dd01b4340e8f107"
+  },
+  {
+    "path": "scripts/style/PRODUCTION_BLUEPRINT.md",
+    "sha256": "37978b1f18e9d837aaa6727acf3607e5fe16fc5a7d94829c1f2d3ff1dcbaccdd"
+  },
+  {
+    "path": "scripts/style/CREATIVE_BRIEF.md",
+    "sha256": "14753a9a015e8b8ab006b6b9262e0c0b22ea1a6fbe8570c72e2aeb13e81a276d"
+  },
+  {
+    "path": "scripts/style/STYLE_BIBLE.md",
+    "sha256": "c0e8914bdbd32cd4d90ec9998856c1b207daf5ad946530fca225c33c710446e7"
+  },
+  {
+    "path": "scripts/style/ART_DIRECTION.md",
+    "sha256": "ee30a30494935c1e00953db8ac99b936d71173330512a8c1143430addece4bcd"
+  },
+  {
+    "path": "scripts/style/STYLE_REFERENCES.md",
+    "sha256": "1abfa2068f302b58d0eb84e21d0673bce896dd56cd44141836ae2c2c42606af2"
+  },
+  {
+    "path": "scripts/style/PRODUCTION_PROTOCOL.md",
+    "sha256": "adedebd1c6e5374fa57d02e4ec3abccb0ffbff6fc683ea24d30b8ff0977eccce"
+  },
+  {
+    "path": "scripts/doc/GENERATION_LOG.md",
+    "sha256": "237feda46641dc616e0fec710bb9a9507e6182efc99b43d7b65617d310627bee"
+  },
+  {
+    "path": "scripts/doc/SOURCES.md",
+    "sha256": "874847adedcb99f4ad292d28f3e7a6954c4f087e9d7d7d2e0429a1131fb6f409"
+  },
+  {
+    "path": "scripts/doc/RESEARCH.md",
+    "sha256": "a1f11c8cfc8a261d4dd6c31303c8f3c6d09bcc489abe46eb7f664972f1321250"
+  },
+  {
+    "path": "scripts/doc/01_CAMERA_WORKLOAD.md",
+    "sha256": "8a5776221a1ce3b201d7f6e742d8c09428b1477ccb6a04aafc40826477487235"
+  },
+  {
+    "path": "scripts/doc/FACT_CHECK.md",
+    "sha256": "8bb6aee052711a8aefd06f524672c2207117ae56eb7b50fee9074761016bc106"
+  },
+  {
+    "path": "scripts/final/OUTLINE.md",
+    "sha256": "bdf407d972c785f654aa2179019f85e919ecb739f55a2dc64f0d93159c93c30e"
+  },
+  {
+    "path": "scripts/final/shot/STORY_LOGIC_PLAN.md",
+    "sha256": "7a90a76bd1676a4f71958312535323e6212cd2b7ceea03f457ea4707b3d54ad0"
+  },
+  {
+    "path": "scripts/final/shot/06.md",
+    "sha256": "79b18a04b49ba5481e6507be152f634ed162c127fb2999e26872c1652095778b"
+  },
+  {
+    "path": "scripts/final/shot/02.md",
+    "sha256": "8b666cd43f5ab83321cb86a7a924e582febf43f9db0d0fc99158c27e179ec442"
+  },
+  {
+    "path": "scripts/final/shot/03.md",
+    "sha256": "598642a5a2b30b6795f1cf4fbacde2422ba4f07f03143fa34df28c3300c276ad"
+  },
+  {
+    "path": "scripts/final/shot/README.md",
+    "sha256": "223b4d4e56f5bb5f65b4c3444a319902bafa0886ef0eef599d4788d4c991e130"
+  },
+  {
+    "path": "scripts/final/shot/04.md",
+    "sha256": "fd30a80d829ec14b8f925eccdef2cba6cf8c81ff24744c59d5a265f19a2e9c1f"
+  },
+  {
+    "path": "scripts/final/shot/05.md",
+    "sha256": "25ba327ad2546c34d131f269e3948bc3be59a8d75817a85aae481be7f65639d3"
+  },
+  {
+    "path": "scripts/final/shot/01.md",
+    "sha256": "0bec30c0ba6e713660947041db930db1894633c90058a78584ca40f9966a85d9"
+  },
+  {
+    "path": "scripts/doc/production/01-camera-v02/adopted-video-content.md",
+    "sha256": "e05604f5082632fbed43db7e5d5e1b0a202c97059ad6a327215878c6f6456ffd"
+  },
+  {
+    "path": "scripts/doc/production/01-camera-v02/claude-storyboard.md",
+    "sha256": "8f86f8ebf11fbd3c65f32fdc3d68f5ad5ad5ade2f48c4a35c903f29be04bd170"
+  },
+  {
+    "path": "scripts/doc/production/01-camera-v02/review.md",
+    "sha256": "9e126a58e42d948942741d83a9d7e43aecdcc093032b91e445f5be338837c1df"
+  }
+]

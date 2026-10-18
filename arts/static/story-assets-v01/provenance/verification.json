@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-18",
+  "stage": "art-and-static-composition",
+  "passed": true,
+  "scope": {
+    "generationCalls": 13,
+    "adoptedRasterPng": 10,
+    "superseded": 3,
+    "editableUiTypes": 4,
+    "uiFiles": 8,
+    "existingPngUnchanged": 48,
+    "existingRuntimeUnchanged": 69,
+    "audioChars": 840,
+    "sourceReferencesUnchanged": 6,
+    "partitionBlocks": 40,
+    "storySeconds": 133,
+    "logicSeconds": 102,
+    "fullFilmSeconds": 280,
+    "pageImageReferences": 10
+  },
+  "alpha": [
+    {
+      "path": "arts/characters/poses/shared/manager-assign-left-v01.png",
+      "min": 0,
+      "max": 254
+    },
+    {
+      "path": "arts/characters/poses/shared/manager-point-left-v01.png",
+      "min": 0,
+      "max": 254
+    },
+    {
+      "path": "arts/characters/poses/shared/coworker-discuss-right-v01.png",
+      "min": 0,
+      "max": 254
+    }
+  ],
+  "visualReview": [
+    "All generated outputs inspected; three laptop back covers corrected with imagegen v02.",
+    "Transparent manager inspected on warm white background.",
+    "Full-resolution three-panel, awake notification, manager inset, room characters, backlog UI inspected.",
+    "Three panels fit above subtitle safe area; actor remains clear of notification."
+  ],
+  "limitations": [
+    "Static art preparation; existing chapter animation and captions unchanged.",
+    "Three story panels have one adopted key illustration each, not a full action cycle.",
+    "Manager parallel demo temporarily uses chapter03 awake plate; chapter02 reaction pose still needed.",
+    "Sleep/awake room geometry is visually consistent but image edits are not pixel-identical background layers."
+  ],
+  "outputs": {
+    "manifestSha256": "21634f70a991b749fb71e7eaf0e21aded98f949d01725a147aa3f502e58f729e",
+    "layoutSha256": "3c47a846896681c26c137b443401386e0197557532c12d091023d7a862da08f4"
+  }
+}

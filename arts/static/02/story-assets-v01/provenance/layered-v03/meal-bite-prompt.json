@@ -1,0 +1,5 @@
+{
+  "name": "meal-bite",
+  "dest": "arts/characters/poses/02/programmer-eat-bite-v01.png",
+  "prompt": "Edit the supplied complete character cutout into the next fixed-camera animation pose. Preserve the exact portrait canvas, identity, head position, silhouette scale, hairstyle, clothes, lanyard and lighting. Preserve the entire bowl, left hand and torso positions exactly. Move ONLY the right forearm and spoon upward so the spoonful is at his slightly open mouth, visibly taking a bite of lunch. His relaxed eyes look toward the spoon. Complete whole upper body character, natural hand anatomy. Transparent background with no scenery, drop shadow, halo, text or additional objects. Maintain cel-anime drawing and original framing; do not zoom, crop, shift head or move bowl."
+}

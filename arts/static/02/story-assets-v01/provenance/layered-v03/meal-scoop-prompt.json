@@ -1,0 +1,11 @@
+{
+  "name": "meal-scoop",
+  "dest": "arts/characters/poses/02/programmer-eat-scoop-v01.png",
+  "transparent": true,
+  "refs": [
+    "/Users/alan671/Documents/MYvideo/arts/characters/poses/01/programmer-front-neutral-v01.png",
+    "/Users/alan671/Documents/MYvideo/arts/characters/programmer-model-sheet-v01.png",
+    "/Users/alan671/Documents/MYvideo/arts/static/04/lunch-panel-v02.png"
+  ],
+  "prompt": "Create one complete transparent-background character cutout for a cel-anime animation, matching precisely the young male programmer identity in references: short slightly messy black hair, grey eyes, muted blue-grey sweatshirt, teal employee lanyard and white badge. Frontal slightly three-quarter seated upper-body view, relaxed shoulders, calm pleasant expression, visibly taking a lunch break. No laptop or work objects. His left hand holds a small cream ceramic rice bowl securely at upper abdomen; his right hand holds a spoon just inside the bowl, scooping a bite of rice and vegetables. Both hands and spoon clearly readable with correct anatomy. Show full head, shoulders, both arms and torso down to hips, with comfortable transparent margins; no legs, chair, table, scenery or text. Bowl and spoon must be part of the complete character cutout. Same refined cel shading, fine dark outlines and warm soft lighting as references. Portrait canvas. This is the base pose of a fixed-camera eating animation; keep head upright, body symmetrical and stable."
+}

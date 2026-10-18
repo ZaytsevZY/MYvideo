@@ -1,0 +1,9 @@
+{
+  "name": "meal-room",
+  "dest": "arts/backgrounds/02/breakroom-meal-day-v01.png",
+  "transparent": false,
+  "refs": [
+    "/Users/alan671/Documents/MYvideo/arts/backgrounds/01/workroom-day-v01.png"
+  ],
+  "prompt": "Create a landscape 16:9 empty company break-room background for a layered cel-anime explainer animation. Match reference clean hand-painted anime linework, warm wood, desaturated blue-grey and cream palette, gentle daylight and coherent perspective. Frontal eye-level medium-wide view facing a simple dining table. Window and soft greenery behind, subtle kitchenette on the far right, no people. A warm wooden dining table spans the bottom of the frame, its straight back tabletop edge at approximately 64 percent of image height; tabletop and front apron occupy the bottom 36 percent. Empty central space above table reserved for a seated character shown from chest up. No food, dishes, computer, phone, letters, labels, logos or lettering. Background is a single illustration used behind independent character layers. Calm and welcoming, polished hand-drawn anime background, no vector aesthetic."
+}

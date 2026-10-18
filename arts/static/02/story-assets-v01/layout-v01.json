@@ -1,0 +1,88 @@
+{
+  "version": "S02_STORY_ASSETS v0.1",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "stage": "static art and layout only",
+  "subtitleSafe": [
+    32,
+    980,
+    1856,
+    100
+  ],
+  "parallel": {
+    "panels": [
+      {
+        "id": "A",
+        "rect": [
+          480,
+          70,
+          650,
+          366
+        ],
+        "label": "休息",
+        "key": "relax"
+      },
+      {
+        "id": "B",
+        "rect": [
+          1176,
+          70,
+          650,
+          366
+        ],
+        "label": "继续工作",
+        "key": "input"
+      }
+    ],
+    "foreground": [
+      44,
+      420,
+      360,
+      540
+    ],
+    "kpi": [
+      432,
+      493,
+      738,
+      396
+    ],
+    "mutuallyExclusive": true
+  },
+  "rear": {
+    "workstation": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "actor": {
+      "centerX": 610,
+      "scale": 0.43,
+      "sourceCenterX": 512,
+      "footBaseline": 1008,
+      "sourceBottom": 1480
+    },
+    "chair": [
+      483,
+      663,
+      265,
+      296
+    ],
+    "layerOrder": [
+      "room",
+      "workstation",
+      "screen UI",
+      "whole programmer with held pages",
+      "chair back",
+      "Agent or task queue"
+    ]
+  },
+  "handoff": {
+    "bodyStates": "discrete whole illustrations; no limb assembly, body stretch or body crossfade",
+    "rightWindow": "same native vector/layer scene at small viewBox and full canvas; do not enlarge a flattened thumbnail",
+    "paperIdentity": "review-current holds current sheet; review-next lowers that sheet on left and grasps a different next sheet on right. Held pages are already in character PNG; independent moving page exits at contact.",
+    "notes": "Two-panel framing is a static composition candidate, not final timing. Existing L1 sequencing and user script remain untouched."
+  }
+}

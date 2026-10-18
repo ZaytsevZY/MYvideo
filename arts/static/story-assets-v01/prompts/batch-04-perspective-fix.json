@@ -1,0 +1,29 @@
+[
+  {
+    "id": "lunch-corrected",
+    "dest": "arts/static/04/lunch-panel-v02.png",
+    "prompt": "LOCAL EDIT ONLY. The attached portrait narrative illustration is the EDIT TARGET. Preserve the same aspect ratio, composition, character, face, hair, exact outfit, hands, fingers, food/room/night environment, colours, lighting and ALL camera geometry. Correct the single laptop perspective error: the large upright outer lid faces the camera while the keyboard faces the programmer. This visible outer lid must be a PLAIN matte dark blue-grey metal BACK COVER, not a screen. Remove every UI rectangle, every screen border and every light UI mark from the visible outer lid. Keep the same trapezoid silhouette, hinge, thickness, hand contacts and laptop placement. Add only a restrained edge highlight consistent with the original illustration. NO logo, no lettering, no stickers, no display on the back. The actual screen faces the programmer and is hidden from camera. No other change.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/static/04/lunch-panel-v01.png"
+    ],
+    "transparent_background": false
+  },
+  {
+    "id": "premeeting-corrected",
+    "dest": "arts/static/04/premeeting-panel-v02.png",
+    "prompt": "LOCAL EDIT ONLY. The attached portrait narrative illustration is the EDIT TARGET. Preserve the same aspect ratio, composition, character, face, hair, exact outfit, hands, fingers, food/room/night environment, colours, lighting and ALL camera geometry. Correct the single laptop perspective error: the large upright outer lid faces the camera while the keyboard faces the programmer. This visible outer lid must be a PLAIN matte dark blue-grey metal BACK COVER, not a screen. Remove every UI rectangle, every screen border and every light UI mark from the visible outer lid. Keep the same trapezoid silhouette, hinge, thickness, hand contacts and laptop placement. Add only a restrained edge highlight consistent with the original illustration. NO logo, no lettering, no stickers, no display on the back. The actual screen faces the programmer and is hidden from camera. No other change.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/static/04/premeeting-panel-v01.png"
+    ],
+    "transparent_background": false
+  },
+  {
+    "id": "evening-corrected",
+    "dest": "arts/static/04/evening-panel-v02.png",
+    "prompt": "LOCAL EDIT ONLY. The attached portrait narrative illustration is the EDIT TARGET. Preserve the same aspect ratio, composition, character, face, hair, exact outfit, hands, fingers, food/room/night environment, colours, lighting and ALL camera geometry. Correct the single laptop perspective error: the large upright outer lid faces the camera while the keyboard faces the programmer. This visible outer lid must be a PLAIN matte dark blue-grey metal BACK COVER, not a screen. Remove every UI rectangle, every screen border and every light UI mark from the visible outer lid. Keep the same trapezoid silhouette, hinge, thickness, hand contacts and laptop placement. Add only a restrained edge highlight consistent with the original illustration. NO logo, no lettering, no stickers, no display on the back. The actual screen faces the programmer and is hidden from camera. No other change.",
+    "referenced_image_paths": [
+      "/Users/alan671/Documents/MYvideo/arts/static/04/evening-panel-v01.png"
+    ],
+    "transparent_background": false
+  }
+]

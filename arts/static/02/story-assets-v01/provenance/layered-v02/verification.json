@@ -1,0 +1,29 @@
+{
+  "version": "S02_LAYERED v0.2",
+  "date": "2026-10-18",
+  "passed": true,
+  "scope": "layered composition sample, not full chapter",
+  "sourceInputsUnchanged": 128,
+  "framesSampled": 307,
+  "occlusion": {
+    "leftChangedFraction": 0.9700857142857143,
+    "rightChangedFraction": 0
+  },
+  "panelAreaFraction": 0.738287037037037,
+  "guideArrows": false,
+  "kpiLabels": false,
+  "softBorderPulses": 2,
+  "scriptCheck": "Only visual directions changed; audio and references identical",
+  "artGenerationCalls": 0,
+  "visualReview": [
+    "Full source PNGs reused at native aspect.",
+    "Foreground obscures left rest actor; right work action remains unobstructed.",
+    "Thought symbol moved below option title while remaining upper right of foreground actor.",
+    "Background blur and separate card shadows establish depth."
+  ],
+  "sources": {
+    "scene": "309c75c6f2478a633e32b47ddd5df4fc676ddcd6bfd8dc67d180093c14e8578f",
+    "player": "7d34ff52fcfde47a0c10527f5466e3228dddc9865439b5c1c7f0a2e86217a6a1",
+    "layout": "982a4c5017c3c0b633ae4a0fc0507e80197f1d3759584f34a23b2da2a414fd7c"
+  }
+}

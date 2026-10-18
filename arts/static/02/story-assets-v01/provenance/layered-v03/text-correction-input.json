@@ -1,0 +1,9 @@
+{
+  "script": "scripts/final/shot/02.md",
+  "sha256": "5b05a43abfca68d8823916764c8638085e9b2ec17f9fa0d5bdb974b562c7413b",
+  "change": "Restore screen label to 休息; retain eating visuals. Script text unchanged.",
+  "date": "2026-10-18",
+  "scriptUnchanged": true,
+  "label": "休息",
+  "visualAction": "用餐三态循环"
+}

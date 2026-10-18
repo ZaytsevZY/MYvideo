@@ -1,5 +1,7 @@
 # 第03章 · S03_SILENT_VIDEO v0.1
 
+**全片统一入口：** [01–06动态框架](../film/README.md) · [连续播放](http://127.0.0.1:8765/actions/film/preview.html)。原章入口与历史制作记录继续保留。
+
 39秒／1920×1080／30fps，原口播127字符，9段暂排字幕，无音频轨。沿用 SHOT_TEXT v0.4 和 STYLE_BIBLE v0.11，复用01采用版PNG，不修改共用素材。
 
 入口：preview.html（通过本地HTTP服务播放）；导出 exports/03-captioned-silent-v01.mp4；同名SRT／VTT。渲染：`node arts/actions/03/produce.mjs`；代表构图：追加 `--qa`。导出器拒绝覆盖既有MP4。

@@ -1,0 +1,152 @@
+{
+  "version": "S02_STORY v0.4",
+  "chapterFrames": 1140,
+  "stateSamples": 1141,
+  "globalFramesChecked": 8400,
+  "scriptAndCaptionBytesUnchanged": true,
+  "originalChapter02ModulesUnchanged": true,
+  "unchangedInputs": 14,
+  "sources": [
+    {
+      "frame": 1349,
+      "path": "arts/actions/film/provenance/integration-v02/frame-1349.png",
+      "sha256": "9c72d236fbd23169f10a76ecc60bcbd4f7cc077151b4b8976a4f8f777f608dc8"
+    },
+    {
+      "frame": 1350,
+      "path": "arts/actions/film/provenance/integration-v02/frame-1350.png",
+      "sha256": "670a8cfcaf958c7d752946f9a77382c6cd36916c96894274fb0a5e2668f17e6e"
+    },
+    {
+      "frame": 2489,
+      "path": "arts/actions/film/provenance/integration-v02/frame-2489.png",
+      "sha256": "24b40bc93db3685a8d3fafb88117899b95434039ecc8d57667e83df4865cb752"
+    },
+    {
+      "frame": 2490,
+      "path": "arts/actions/film/provenance/integration-v02/frame-2490.png",
+      "sha256": "e508bef41543c2d3caa6c92e6a429677620a7e93d27f959e1fd025e908c76b28"
+    }
+  ],
+  "seams": [
+    {
+      "name": "01-to-02",
+      "path": "arts/actions/film/provenance/integration-v02/01-to-02-source-v02.mp4",
+      "source": "new framework source render, not historical MP4 concat",
+      "frames": 60,
+      "duration": 2,
+      "fps": 30,
+      "audio": false,
+      "decodePassed": true
+    },
+    {
+      "name": "02-to-03",
+      "path": "arts/actions/film/provenance/integration-v02/02-to-03-source-v02.mp4",
+      "source": "new framework source render, not historical MP4 concat",
+      "frames": 60,
+      "duration": 2,
+      "fps": 30,
+      "audio": false,
+      "decodePassed": true
+    }
+  ],
+  "boundaryFrom01": {
+    "object": "feedback",
+    "state": "candidate",
+    "inheritedReturn": "T01-R remains merged",
+    "method": "reuse original chapter02 entry graphic for 0.3 seconds, match candidate paper into native workstation"
+  },
+  "boundaryTo03": {
+    "out": {
+      "t": 37.96666666666667,
+      "beat": "S02-E4",
+      "layer": {
+        "t": 24.96666666666667,
+        "enter": 1,
+        "bubble": 0,
+        "expand": 1,
+        "pulse": 0,
+        "eatPose": "eatScoop",
+        "personPose": "input",
+        "agentPose": "agent",
+        "work": 0.9666666666666686,
+        "meal": 0.9666666666666686,
+        "pose": "choose",
+        "rightFront": true,
+        "chart": 1
+      },
+      "caption": {
+        "text": "总劳动投入仍取决于任务规模。",
+        "startMs": 30900,
+        "endMs": 38000,
+        "timestampMs": null,
+        "confidence": null
+      },
+      "tasks": {
+        "T00": "accepted",
+        "T01": "accepted",
+        "T01-R": "merged",
+        "test": "scheduled",
+        "interface": "scheduled",
+        "feature": "scheduled",
+        "docs": "scheduled",
+        "perf": "scheduled",
+        "compat": "scheduled",
+        "migrate": "scheduled",
+        "feedback": "candidate",
+        "N02-A": "candidate",
+        "N02-B": "candidate"
+      },
+      "choice": "expand-output",
+      "alternatives": "mutually-exclusive",
+      "savingToken": {
+        "id": "saving-02",
+        "owner": "allocated-to-B"
+      },
+      "hypothetical": {
+        "distinctFromInheritedTasks": true,
+        "extraTasks": [
+          {
+            "id": "H02-new1",
+            "status": "reviewing"
+          },
+          {
+            "id": "H02-new2",
+            "status": "queued"
+          }
+        ]
+      },
+      "reviewPose": "reviewNext",
+      "currentReview": "H02-new1",
+      "unitWidth": 110,
+      "humanAccepted": [],
+      "source": "S02_STORY_LOGIC v0.4"
+    },
+    "incoming": {
+      "t": 0,
+      "phase": "checklist",
+      "active": false,
+      "taskStates": {
+        "S03-A": "accepted",
+        "S03-B": "accepted",
+        "S03-C": "candidate",
+        "S03-D": "not-introduced"
+      },
+      "workdayEnded": false,
+      "lateTask": null,
+      "humanOperation": "review",
+      "audio": false
+    },
+    "method": "cut to distinct S03 explanatory scenario; chapter03 remains basic version, no claim of new action-match camera"
+  },
+  "imageGenerationCalls": 0,
+  "audio": false,
+  "fullChapterMp4Exported": false,
+  "visualReview": "representative frames and browser checked; finite whole-pose animation",
+  "defaultCompositionPixelRegressionPassed": true,
+  "chapterTests": 5,
+  "filmTests": 5,
+  "browserChapter": "arts/actions/02/provenance/story-v04/browser-chapter.png",
+  "browserFilm": "arts/actions/film/provenance/integration-v02/browser-02.png",
+  "historicalStaticFrozenInputCheck": "not applicable after authorized film timeline change; original baseline retained"
+}
