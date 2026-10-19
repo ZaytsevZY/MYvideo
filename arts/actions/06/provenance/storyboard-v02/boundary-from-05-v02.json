@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1",
+  "status": "draft-not-implemented",
+  "verified": false,
+  "fromChapter": "05",
+  "toChapter": "06",
+  "versions": {
+    "from": "S05_STORY v0.3",
+    "plannedTarget": "S06_STORYBOARD v0.2"
+  },
+  "timeline": {
+    "fps": 30,
+    "cutGlobalFrame": 6660,
+    "totalFilmFrames": 8400,
+    "incomingHoldFrames": 12,
+    "addedFrames": 0,
+    "overlapFrames": 0
+  },
+  "plannedTransition": "05 actual pending plan page held0.4s, same paper unfolds into two conditional comparison windows, then real group discussion at16s",
+  "captionPolicy": "current110-character narration retained; caption offset only once",
+  "anchor": {
+    "id": "S05-PLAN-01",
+    "sourceAssetRect": [
+      1155,
+      416,
+      600,
+      350
+    ],
+    "proposal": "S05-PROP-01 pending-discussion"
+  },
+  "stateRules": {
+    "S05-T01": "human-accepted-history-preserved",
+    "S05-T02": "background-running-history-preserved",
+    "T06-final": "new agreed deliverable, human acceptance precedes leaving; never resetT01",
+    "agentIsEmployer": false,
+    "twoAlternativesAreCumulative": false,
+    "lifeInterruptedAfter31s": false
+  },
+  "evidence": {
+    "previousActualRuntimeContract": "arts/actions/05/provenance/story-v03/boundary-to-06-v03.json",
+    "newSeamPreviewPath": null,
+    "newTerminalFramePath": null,
+    "verified": false
+  },
+  "limitations": [
+    "Only text and timing prepared; new poses, real frames and encoded seam not yet available.",
+    "Previous05→06 seam proof covers only old06 basic adapter, not this proposed story."
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1",
+  "status": "draft-not-implemented",
+  "verified": false,
+  "fromChapter": "04",
+  "toChapter": "05",
+  "versions": {
+    "from": "S04_STORY v0.5",
+    "to": "S05_STORYBOARD v0.2"
+  },
+  "timeline": {
+    "fps": 30,
+    "cutGlobalFrame": 5310,
+    "fromLastEncodedLocalFrame": 1649,
+    "toFrameCount": 1350,
+    "overlapFrames": 0,
+    "addedFrames": 0,
+    "transitionOwnership": "incoming05 first12frames hold actual04 terminal"
+  },
+  "actualOutgoing": {
+    "t": 54.96666666666667,
+    "beat": "S04-14",
+    "type": "L",
+    "phase": "hr",
+    "inheritedTasks": {},
+    "previousScenarioTasks": null,
+    "scenarioRelation": "distinct-research-scenario",
+    "poses": {
+      "lunch": "lunchType",
+      "meeting": "meetingType",
+      "evening": "eveningType",
+      "collaboration": "collabRelief",
+      "traditional": "traditionalLoss"
+    },
+    "appraisal": {
+      "author": "manager",
+      "left": "A",
+      "right": "M"
+    },
+    "feedbackNodes": 4,
+    "agents": [
+      1,
+      3,
+      1
+    ],
+    "cycles": [
+      "3个月",
+      "1个月",
+      "3个月"
+    ],
+    "marketWeights": [
+      0.28,
+      0.49,
+      0.23
+    ],
+    "marketIsMeasured": false,
+    "marketFrozen": true,
+    "planningOrder": "S04-PLAN-01",
+    "planCycle": "1个月",
+    "board": {
+      "strike": 1,
+      "writing": 1,
+      "before": "3人负责产品线",
+      "after": "1人负责产品线",
+      "insert": false
+    },
+    "job": {
+      "id": "S04-JOB-01",
+      "independentResponsibility": true,
+      "multipleAgents": true,
+      "published": true,
+      "cvCount": 4,
+      "requirements": [
+        "独立负责产品线",
+        "熟练调度多个Agent"
+      ]
+    },
+    "routine": {
+      "extra": 1,
+      "plan": 1,
+      "required": 1
+    },
+    "terminalHeld": true,
+    "caption": {
+      "id": "S04-A13",
+      "text": "从我能多做，到我必须做到。",
+      "startMs": 50500,
+      "endMs": 55000,
+      "sourceNote": "04-3"
+    }
+  },
+  "plannedIncoming": {
+    "firstHoldSec": 0.4,
+    "nextShot": "S05-01",
+    "type": "L",
+    "subject": "employee-to-Agents versus enterprise-to-employees",
+    "matchText": "熟练调度多个Agent",
+    "inheritedTasks": {},
+    "hrIsDirectSupervisor": false,
+    "cvIsToolTask": false,
+    "captionStartMs": 400
+  },
+  "evidence": {
+    "priorRuntimeContract": "arts/actions/04/provenance/story-v05/boundary-to-05-v05.json",
+    "priorRuntimeContractVerified": true,
+    "newSeamPreviewPath": null,
+    "newEncodedFramesChecked": false
+  },
+  "limitations": [
+    "旧接缝通过仅适用于旧05主体，不继承为新双侧关系图已验收",
+    "S04-JOB-01保持已发布，不将CV、S03报告或市场周期自动移作新任务"
+  ]
+}

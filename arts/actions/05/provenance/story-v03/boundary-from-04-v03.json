@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "1",
+  "status": "verified-current-runtime-adapter",
+  "verified": true,
+  "fromChapter": "04",
+  "toChapter": "05",
+  "versions": {
+    "from": "S04_STORY v0.5",
+    "to": "S05_STORY v0.3"
+  },
+  "timeline": {
+    "fps": 30,
+    "cutGlobalFrame": 5310,
+    "lastOutgoingLocalFrame": 1649,
+    "incomingHoldFrames": 12,
+    "overlapFrames": 0,
+    "addedFrames": 0
+  },
+  "transition": "published-JD-to-two-relations",
+  "captionPolicy": "one global caption;05 starts at0.4s;06 starts at its0s",
+  "evidence": {
+    "sourceSVGExactMatch": true,
+    "seamPath": "arts/actions/film/provenance/integration-v05/04-to-05-source-v05.mp4",
+    "clipDuration": 4,
+    "clipFrames": 120,
+    "clipSize": [
+      960,
+      540
+    ],
+    "fps": 30,
+    "audio": false,
+    "decodePassed": true,
+    "encodedVisualReviewPassed": true
+  },
+  "roleRules": {
+    "agentIsEmployer": false,
+    "cvIsToolTask": false,
+    "unfinished03ReportInherited": false,
+    "proposalAutomaticallyApproved": false
+  },
+  "outgoingState": {
+    "t": 54.96666666666667,
+    "beat": "S04-14",
+    "type": "L",
+    "phase": "hr",
+    "inheritedTasks": {},
+    "previousScenarioTasks": null,
+    "scenarioRelation": "distinct-research-scenario",
+    "poses": {
+      "lunch": "lunchType",
+      "meeting": "meetingType",
+      "evening": "eveningType",
+      "collaboration": "collabRelief",
+      "traditional": "traditionalLoss"
+    },
+    "appraisal": {
+      "author": "manager",
+      "left": "A",
+      "right": "M"
+    },
+    "feedbackNodes": 4,
+    "agents": [
+      1,
+      3,
+      1
+    ],
+    "cycles": [
+      "3个月",
+      "1个月",
+      "3个月"
+    ],
+    "marketWeights": [
+      0.28,
+      0.49,
+      0.23
+    ],
+    "marketIsMeasured": false,
+    "marketFrozen": true,
+    "planningOrder": "S04-PLAN-01",
+    "planCycle": "1个月",
+    "board": {
+      "strike": 1,
+      "writing": 1,
+      "before": "3人负责产品线",
+      "after": "1人负责产品线",
+      "insert": false
+    },
+    "job": {
+      "id": "S04-JOB-01",
+      "independentResponsibility": true,
+      "multipleAgents": true,
+      "published": true,
+      "cvCount": 4,
+      "requirements": [
+        "独立负责产品线",
+        "熟练调度多个Agent"
+      ]
+    },
+    "routine": {
+      "extra": 1,
+      "plan": 1,
+      "required": 1
+    },
+    "terminalHeld": true,
+    "caption": {
+      "id": "S04-A13",
+      "text": "从我能多做，到我必须做到。",
+      "startMs": 50500,
+      "endMs": 55000,
+      "sourceNote": "04-3"
+    }
+  },
+  "incomingState": {
+    "t": 0,
+    "beat": "S05-01",
+    "phase": "entry",
+    "decisionOwner": "organization",
+    "instructionOwner": "employee",
+    "agentIsEmployer": false,
+    "cvIsToolTask": false,
+    "hrIsDirectSupervisor": false,
+    "inheritedTasks": {},
+    "entryRequirement": {
+      "jobId": "S04-JOB-01",
+      "text": "熟练调度多个Agent",
+      "relation": "organization-requirement-to-actual-tool-use"
+    },
+    "caption": null,
+    "activeAgents": 1,
+    "goals": [
+      false,
+      false,
+      false
+    ],
+    "proposal": {
+      "id": "S05-PROP-01",
+      "origin": "employee",
+      "destination": "organization",
+      "status": "not-introduced"
+    },
+    "plan": {
+      "id": "S05-PLAN-01",
+      "owner": "organization",
+      "workerCoDecision": false
+    },
+    "tasks": {
+      "S05-T01": "executing",
+      "S05-T02": "not-introduced"
+    },
+    "humanAccepted": false,
+    "requestVisible": false,
+    "reactionVisible": false,
+    "pose": "delivery",
+    "terminalHold": false
+  }
+}

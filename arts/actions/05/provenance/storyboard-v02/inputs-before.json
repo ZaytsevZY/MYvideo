@@ -1,0 +1,132 @@
+[
+  {
+    "path": "scripts/final/shot/01.md",
+    "sha256": "0bec30c0ba6e713660947041db930db1894633c90058a78584ca40f9966a85d9",
+    "bytes": 8758
+  },
+  {
+    "path": "scripts/final/shot/02.md",
+    "sha256": "5b05a43abfca68d8823916764c8638085e9b2ec17f9fa0d5bdb974b562c7413b",
+    "bytes": 7899
+  },
+  {
+    "path": "scripts/final/shot/03.md",
+    "sha256": "8f2388ec19eb7a6709d35121453a60ad51ef0df49890dcdfd8df7f480b7f2368",
+    "bytes": 5666
+  },
+  {
+    "path": "scripts/final/shot/04.md",
+    "sha256": "9a0199359b0ee68c3b3ed0f61d3fa6c25598d10b6fe7b30fb6c39f7770c0a072",
+    "bytes": 9093
+  },
+  {
+    "path": "scripts/final/shot/05.md",
+    "sha256": "4f3c1f73c2f4378564ee8741780a13e17805932900c8681c949802f6f4ced2b5",
+    "bytes": 6776
+  },
+  {
+    "path": "scripts/final/shot/06.md",
+    "sha256": "79b18a04b49ba5481e6507be152f634ed162c127fb2999e26872c1652095778b",
+    "bytes": 7940
+  },
+  {
+    "path": "scripts/final/shot/STORY_LOGIC_PLAN.md",
+    "sha256": "df00dfccc25e1749c6aafc42be3ebd743a4646683ecab89a3a27a8857c6fe4cf",
+    "bytes": 7353
+  },
+  {
+    "path": "scripts/style/STYLE_BIBLE.md",
+    "sha256": "bfcac748fef00e4cea7493973d17b3ae19901c1ed6b3c167dd588b6ddd0d63a5",
+    "bytes": 12912
+  },
+  {
+    "path": "scripts/style/ART_DIRECTION.md",
+    "sha256": "ee30a30494935c1e00953db8ac99b936d71173330512a8c1143430addece4bcd",
+    "bytes": 17903
+  },
+  {
+    "path": "scripts/doc/SOURCES.md",
+    "sha256": "874847adedcb99f4ad292d28f3e7a6954c4f087e9d7d7d2e0429a1131fb6f409",
+    "bytes": 10600
+  },
+  {
+    "path": "assets/references/ads.png",
+    "sha256": "ffd1f53298db28bc3e800ecde0703e57372f736f28ab3ad0c93ed05195c6e0cf",
+    "bytes": 160313
+  },
+  {
+    "path": "arts/actions/04/story-scene-v05.mjs",
+    "sha256": "5ed38d51a4d5c07c5f11d2428f209b8081f4396d71bfd75b0e62cd5cdb0880f4",
+    "bytes": 15372
+  },
+  {
+    "path": "arts/actions/05/scene.mjs",
+    "sha256": "c2c1598797e950543788875d7c55b8f7cfa1c4594c63427c819ac7b0f0e85f39",
+    "bytes": 8817
+  },
+  {
+    "path": "arts/actions/05/entry-from-04-v05.mjs",
+    "sha256": "3f2608caefdea4fbe1837e7685c5878dabff80519672f7493b5d37602580da6a",
+    "bytes": 694
+  },
+  {
+    "path": "arts/actions/06/scene.mjs",
+    "sha256": "6441471b14334235b32f323fa3a2830cf50f6d6d992f738fef8fa633332e6dc6",
+    "bytes": 13374
+  },
+  {
+    "path": "arts/actions/film/scenes.mjs",
+    "sha256": "7ffb48174ed0fb2c34a03a9239cc4a575b62dd2d1d3383b306b134d07db6ef0b",
+    "bytes": 4905
+  },
+  {
+    "path": "arts/actions/film/build.mjs",
+    "sha256": "a4a7708ee6b5db9988bca36f5a7eecca81f3f249a31462d4b176e364319b3684",
+    "bytes": 5350
+  },
+  {
+    "path": "arts/actions/film/bundle-v01.json",
+    "sha256": "22b39cd7691984c33db95395945a9b9ace18b254d0686ee27eda6dfef6ee1a31",
+    "bytes": 47928
+  },
+  {
+    "path": "arts/actions/film/assets-v01.json",
+    "sha256": "8ef59ab0b96e4248a961d75f9fa48777f5dcf8223fe29810d627ac48fe6ae5c6",
+    "bytes": 48068
+  },
+  {
+    "path": "arts/actions/film/captions-v01.json",
+    "sha256": "acfde6201406deda7ae090e6de33f13f2bed68671b250d68c2fc6945f01b9c1f",
+    "bytes": 11963
+  },
+  {
+    "path": "arts/actions/film/captions-v01.srt",
+    "sha256": "e9db5ffa1f9053cb7402b5d343e391fd6a1dc96a4532d1a10f89adae7769f91c",
+    "bytes": 4903
+  },
+  {
+    "path": "arts/actions/05/captions/05-v01.json",
+    "sha256": "1dec59eea6390464fcdf3a4a3c1d5b117a2a30c236be99889e88b6c1ba8b5da0",
+    "bytes": 1832
+  },
+  {
+    "path": "arts/actions/05/captions/05-v01.srt",
+    "sha256": "ba8a3ed0fe23de421df6f4b1f89e0e93045b8a5ae2104a1321865d68d28e72fb",
+    "bytes": 869
+  },
+  {
+    "path": "arts/actions/05/captions/05-v01.vtt",
+    "sha256": "49fc5657d7aaf5f944e5def54c8a9f4bafe04bf78a7ee073d6a68461ec1c7e13",
+    "bytes": 850
+  },
+  {
+    "path": "arts/actions/04/provenance/story-v05/boundary-to-05-v05.json",
+    "sha256": "0ae6d822271ecfc528e01a2c48b91de926252ff9add91b946babc5a29bc558d7",
+    "bytes": 3487
+  },
+  {
+    "path": "arts/actions/05/provenance/v01/boundary-to-06-v01.json",
+    "sha256": "4bf607ed899f4f595dffa64edcdd088486d756985889160626c7c24f3793e74e",
+    "bytes": 2680
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "path": "arts/actions/01/bake-camera.mjs",
+    "sha256": "a5e2c988ad3fa1f8880f49e32ffad2571d24eabb36a7f495138a0dc738c10a1b"
+  },
+  {
+    "path": "arts/actions/01/bake-video.mjs",
+    "sha256": "b196881cf9e0c19a724c0d930d4c153d318051da1c78c18bd97966f3d52fffb1"
+  },
+  {
+    "path": "arts/actions/01/bake-whole.mjs",
+    "sha256": "a1499ce17b2548bf9ad109a65eba38f972c94427b5d8511de54bae3bdcc30076"
+  },
+  {
+    "path": "arts/actions/01/bake.mjs",
+    "sha256": "7a093a29d3fca314ee589e7c866c340c686f97c5623f1d4aedde3d957892c7b4"
+  },
+  {
+    "path": "arts/actions/01/camera-motion.mjs",
+    "sha256": "434ec2191c05e357997f0390b363b8ab841a50717191f4dee08a41bdef8789db"
+  },
+  {
+    "path": "arts/actions/01/keyframes.mjs",
+    "sha256": "b026c5bb7341787c9436718a6aa7dc1d6bfe4600d3c276955eac070db0be6451"
+  },
+  {
+    "path": "arts/actions/01/motion.mjs",
+    "sha256": "1abc33cd008be7f65ef9e40db4fe33d2d2196a83019ca3dcaa26ce94e21db9d4"
+  },
+  {
+    "path": "arts/actions/01/performance.mjs",
+    "sha256": "3405c27ceee06f6999d52a1854efb91a73f7d8e9f2bd118e93368a80b28f5a04"
+  },
+  {
+    "path": "arts/actions/01/render-frame.mjs",
+    "sha256": "d674fc0d135339ed70c0853aa1d5531730ecc480095a3f6b53961d974666aa31"
+  },
+  {
+    "path": "arts/actions/01/whole-motion.mjs",
+    "sha256": "27fedc5b9e2b47c03aeafd30f8daec6a78fae5673af1606c913b6cd969b096d3"
+  },
+  {
+    "path": "arts/actions/02/entry-v03.mjs",
+    "sha256": "f703c15a3b9a3b18c55f341d3bdd43fecb84895f2deff9f19f23199c3c3525af"
+  },
+  {
+    "path": "arts/actions/02/full-scene.mjs",
+    "sha256": "c58c352a6f73f9bced8d1986dacc2e86c28f64fedb6e6721914b6585cd7fcbe5"
+  },
+  {
+    "path": "arts/actions/02/opening-revised.mjs",
+    "sha256": "930bfd52447780ceac05ca424b16b83a944206cf3fed11fefb03bbeef7c8e88b"
+  },
+  {
+    "path": "arts/actions/02/scene.mjs",
+    "sha256": "e433238148db2dc30cba49f81fb9e163a14f96172d052801222dd6fa9abb187a"
+  },
+  {
+    "path": "arts/actions/02/story-player-v04.mjs",
+    "sha256": "370a50add3ae4a07bbf55a426590b52b634b894dc9b61ee7199ab3fd78d7bb82"
+  },
+  {
+    "path": "arts/actions/02/story-scene-v04.mjs",
+    "sha256": "438c21599082e6a0fdd5016b6d4bd654331ac033537b32127bb691ea936eb7f8"
+  },
+  {
+    "path": "arts/actions/03/produce.mjs",
+    "sha256": "595c6612edbfff992e1c2f204ffa21483ab4d14ddadcdf70b06bcb78cf691391"
+  },
+  {
+    "path": "arts/actions/03/scene.mjs",
+    "sha256": "b552427143f4db96dab75fd047020fae2bdb2f207a3aaa2220f60671ed051ef8"
+  },
+  {
+    "path": "arts/actions/03/story-player-v05.mjs",
+    "sha256": "0fe5266bef79a5192fe4f3d309c782819db1da8b3f659e62155be16c4153edcf"
+  },
+  {
+    "path": "arts/actions/03/story-scene-v05.mjs",
+    "sha256": "d5b9bc9be725af408f7dfe9a5f288facc175d7cb9b5b01fe0c78af5a4d4caa6c"
+  },
+  {
+    "path": "arts/actions/04/entry-from-03-v05.mjs",
+    "sha256": "dbc6a24f1355a7f73705ab8313a41ca4a60cd8131b845ca5392fbfc1af4183a2"
+  },
+  {
+    "path": "arts/actions/04/make-preview.mjs",
+    "sha256": "4c304413e9881dc84b320fd9db16eaf769d6cd79a424d023e5e18e8a91a2247f"
+  },
+  {
+    "path": "arts/actions/04/produce-v02.mjs",
+    "sha256": "34c7c150060725e714dd25c9b92a676dc04a65fa2ee7743ea0643b919a673861"
+  },
+  {
+    "path": "arts/actions/04/produce.mjs",
+    "sha256": "72aca0b1b8edaecf6e5c48d20001981af21433a3d2b489158a21847c4befe60b"
+  },
+  {
+    "path": "arts/actions/04/scene.mjs",
+    "sha256": "63d4b006e9a294cef05e5e2ccbe62a916a823f036dc2ceafbe5fb1be88fce771"
+  },
+  {
+    "path": "arts/actions/04/story-player-v05.mjs",
+    "sha256": "397c2b152e6dba3e72912842d2375087a9dfc2ecb76f4036365c9e0da3430b92"
+  },
+  {
+    "path": "arts/actions/04/story-scene-v05.mjs",
+    "sha256": "5ed38d51a4d5c07c5f11d2428f209b8081f4396d71bfd75b0e62cd5cdb0880f4"
+  },
+  {
+    "path": "arts/actions/05/entry-from-04-v05.mjs",
+    "sha256": "3f2608caefdea4fbe1837e7685c5878dabff80519672f7493b5d37602580da6a"
+  },
+  {
+    "path": "arts/actions/05/scene.mjs",
+    "sha256": "c2c1598797e950543788875d7c55b8f7cfa1c4594c63427c819ac7b0f0e85f39"
+  },
+  {
+    "path": "arts/actions/06/scene.mjs",
+    "sha256": "6441471b14334235b32f323fa3a2830cf50f6d6d992f738fef8fa633332e6dc6"
+  },
+  {
+    "path": "arts/backgrounds/05/office-agent-wait-v02.png",
+    "sha256": "cb5e5a386e127f109c3ce4298f595e11f162c3be5f772cd48078de1722d1c3bb"
+  },
+  {
+    "path": "arts/backgrounds/05/office-delivery-cleared-v02.png",
+    "sha256": "eda3bf9e0c9944dfb4e063e53c71bc848d00cdfe86ec45d2b20a070e2658f710"
+  },
+  {
+    "path": "arts/backgrounds/05/office-delivery-contact-v02.png",
+    "sha256": "58da9006af994b210d85127247cb075828e2fa78a3ddb2f2b57b4ccf906783d9"
+  },
+  {
+    "path": "arts/backgrounds/05/office-signage-insert-v02.png",
+    "sha256": "7a73814ead739a2190cce8de256070803c17abbc2ddc106c41987e8df1fcb22d"
+  },
+  {
+    "path": "arts/backgrounds/05/programmer-pause-close-v02.png",
+    "sha256": "7720a6d09f58d0c88d7b0498aac0cd343054bb081eb2491215381028652ae78b"
+  },
+  {
+    "path": "arts/backgrounds/05/programmer-resume-close-v02.png",
+    "sha256": "c871fb5abeabe515612ebf291810b34cd7ea801fcf6f9e4cc137b6c7d07a56de"
+  },
+  {
+    "path": "arts/static/05/story-assets-v02/README.md",
+    "sha256": "5e20cbba01573ef6ac9d531e4e7d94c631c086548c85f8eab16eade6d57bb003"
+  },
+  {
+    "path": "arts/static/05/story-assets-v02/assets.mjs",
+    "sha256": "b3245bb33ee3176d03d12877a37694be6dace46163460d7de953b2b1cff6c866"
+  },
+  {
+    "path": "arts/static/05/story-assets-v02/build.mjs",
+    "sha256": "af1d13bb61380456dfe8c72965ce6265851cbd80914d63fe9063471759ea5bcd"
+  },
+  {
+    "path": "arts/static/05/story-assets-v02/layout.json",
+    "sha256": "96f07f0e99a9045dc0f8c08c6e81da4cb105c1878f14efb39fa13862d7c8e220"
+  },
+  {
+    "path": "arts/static/05/story-assets-v02/player.mjs",
+    "sha256": "5ed4175dd5c73d18d9191df136b2cd5e14d72e098b9e535fe25ba56d7d4513ba"
+  },
+  {
+    "path": "arts/static/05/story-assets-v02/preview.html",
+    "sha256": "57002e85a033249043d2f15a294a7413ed90bf0364eabade2c1f1995f9a49f6e"
+  },
+  {
+    "path": "arts/static/05/story-assets-v02/screen-copy.json",
+    "sha256": "1bf1f171a97a9eccc94030fe08ceaed205216b461042a1e8d6aa0268f63c8934"
+  },
+  {
+    "path": "scripts/final/shot/01.md",
+    "sha256": "0bec30c0ba6e713660947041db930db1894633c90058a78584ca40f9966a85d9"
+  },
+  {
+    "path": "scripts/final/shot/02.md",
+    "sha256": "5b05a43abfca68d8823916764c8638085e9b2ec17f9fa0d5bdb974b562c7413b"
+  },
+  {
+    "path": "scripts/final/shot/03.md",
+    "sha256": "8f2388ec19eb7a6709d35121453a60ad51ef0df49890dcdfd8df7f480b7f2368"
+  },
+  {
+    "path": "scripts/final/shot/04.md",
+    "sha256": "9a0199359b0ee68c3b3ed0f61d3fa6c25598d10b6fe7b30fb6c39f7770c0a072"
+  },
+  {
+    "path": "scripts/final/shot/05.md",
+    "sha256": "4641f53b3ad24706062296f90c9497985507f1cae3e42e59b33fe53d90a1f293"
+  },
+  {
+    "path": "scripts/final/shot/06.md",
+    "sha256": "79b18a04b49ba5481e6507be152f634ed162c127fb2999e26872c1652095778b"
+  }
+]

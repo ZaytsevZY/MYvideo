@@ -1,0 +1,93 @@
+[
+  {
+    "id": "S05-A01",
+    "text": "调度多个 Agent，",
+    "startMs": 400,
+    "endMs": 3000,
+    "sourceNote": "05-1"
+  },
+  {
+    "id": "S05-A02",
+    "text": "扩大的是执行能力，",
+    "startMs": 3000,
+    "endMs": 6000,
+    "sourceNote": "05-1"
+  },
+  {
+    "id": "S05-A03",
+    "text": "未必会改变产品目标、",
+    "startMs": 6000,
+    "endMs": 9400,
+    "sourceNote": "05-1"
+  },
+  {
+    "id": "S05-A04",
+    "text": "交付周期和成果分配的决定权，",
+    "startMs": 9400,
+    "endMs": 12900,
+    "sourceNote": "05-1"
+  },
+  {
+    "id": "S05-A05",
+    "text": "也不会使员工自动获得修改排期、",
+    "startMs": 12900,
+    "endMs": 16300,
+    "sourceNote": "05-1"
+  },
+  {
+    "id": "S05-A06",
+    "text": "拒绝额外任务",
+    "startMs": 16300,
+    "endMs": 19000,
+    "sourceNote": "05-1"
+  },
+  {
+    "id": "S05-A07",
+    "text": "或分享效率收益的权力。",
+    "startMs": 19000,
+    "endMs": 21800,
+    "sourceNote": "05-1"
+  },
+  {
+    "id": "S05-A08",
+    "text": "社会劳动创造的生产力，",
+    "startMs": 21800,
+    "endMs": 25600,
+    "sourceNote": "05-2"
+  },
+  {
+    "id": "S05-A09",
+    "text": "在特定的占有和组织关系中，",
+    "startMs": 25600,
+    "endMs": 29400,
+    "sourceNote": "05-2"
+  },
+  {
+    "id": "S05-A10",
+    "text": "反而会成为约束劳动者的外在力量。",
+    "startMs": 29400,
+    "endMs": 33800,
+    "sourceNote": "05-2"
+  },
+  {
+    "id": "S05-A11",
+    "text": "这是劳动异化的一个侧面：",
+    "startMs": 33800,
+    "endMs": 37400,
+    "sourceNote": "05-3"
+  },
+  {
+    "id": "S05-A12",
+    "text": "具体的指令由人发出，",
+    "startMs": 37400,
+    "endMs": 40600,
+    "sourceNote": "05-3"
+  },
+  {
+    "id": "S05-A13",
+    "text": "而劳动的目的与尺度仍可能由他人设定。",
+    "startMs": 40600,
+    "endMs": 45000,
+    "sourceNote": "05-3"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "version": "S05_ART v0.2",
+  "phase": "materials-only",
+  "incoming": {
+    "draftContract": "arts/actions/05/provenance/storyboard-v02/boundary-from-04-v02.json",
+    "entryLogicComposition": "arts/static/05/story-assets-v02/compositions/relations-0.png",
+    "previousHrHoldSec": 0.4,
+    "runtimeImplementedThisStage": false
+  },
+  "outgoing": {
+    "draftContract": "arts/actions/05/provenance/storyboard-v02/boundary-to-06-v02.json",
+    "exitComposition": "arts/static/05/story-assets-v02/compositions/feedback-1.png",
+    "pageObject": "S05-PLAN-01",
+    "imageRect": [
+      1155,
+      416,
+      600,
+      350
+    ],
+    "visiblePaperApproxRect": [
+      1177,
+      476,
+      559,
+      230
+    ],
+    "copyInsidePaperBaselines": [
+      545,
+      612,
+      674
+    ],
+    "coordinateSpace": "1920x1080 composition pixels",
+    "proposalState": "awaiting-discussion",
+    "runtimeImplementedThisStage": false
+  },
+  "newSeamsVerified": false,
+  "note": "art geometry for later05 and06 entry construction; historical storyboard proposals preserved"
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-19",
+  "sources": [
+    {
+      "id": "C8",
+      "url": "https://www.marxists.org/chinese/marx-engels/25/049.htm",
+      "read": true,
+      "location": "第Ⅲ节，讨论必然王国／自由王国和共同控制的段落末",
+      "adoptedQuote": "工作日的缩短是根本条件",
+      "scope": "保留共同控制与人的发展语境；缩时不是消除一切异化的充分条件"
+    },
+    {
+      "id": "I1",
+      "url": "https://www.ilo.org/resource/what-collective-bargaining",
+      "read": true,
+      "published": "2014-05-24",
+      "location": "Official quotation of Convention154, Article2",
+      "adoptedParaphrase": "劳动者组织与雇主可就工作条件和雇佣条件开展协商",
+      "scope": "工会参与／集体协商资料例；非特定国家法律意见，不把普通项目会议当正式集体谈判"
+    },
+    {
+      "id": "I1-normlex",
+      "url": "https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB%3A12100%3A0%3A%3ANO%3A%3AP12100_ILO_CODE%3AC154",
+      "read": false,
+      "error": "Redirect loop; used readable official ILO definition quoting Article2 instead"
+    }
+  ],
+  "userOrigin": [
+    "双窗继续工作／提前下班与企业／员工倾向来自用户人工提示，仅作该说明情境人物选择，不是调查统计",
+    "31–44秒消费／文化娱乐取代旧回看工位，来自用户人工提示"
+  ],
+  "newAudioClaims": false,
+  "modelCalls": 0
+}

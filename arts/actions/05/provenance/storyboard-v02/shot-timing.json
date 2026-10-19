@@ -1,0 +1,143 @@
+{
+  "version": "S05_STORYBOARD v0.2",
+  "status": "storyboard-not-runtime",
+  "fps": 30,
+  "durationSec": 45,
+  "durationFrames": 1350,
+  "globalStartFrame": 5310,
+  "globalEndFrameExclusive": 6660,
+  "storyFrames": 360,
+  "logicFrames": 990,
+  "shots": [
+    {
+      "id": "S05-01",
+      "startSec": 0,
+      "endSec": 3,
+      "startFrame": 0,
+      "endFrameExclusive": 90,
+      "type": "L",
+      "parent": "V05.1",
+      "name": "岗位要求接入"
+    },
+    {
+      "id": "S05-02",
+      "startSec": 3,
+      "endSec": 6,
+      "startFrame": 90,
+      "endFrameExclusive": 180,
+      "type": "L",
+      "parent": "V05.1",
+      "name": "员工调度多个Agent"
+    },
+    {
+      "id": "S05-03",
+      "startSec": 6,
+      "endSec": 9.4,
+      "startFrame": 180,
+      "endFrameExclusive": 282,
+      "type": "L",
+      "parent": "V05.1",
+      "name": "企业与员工关系"
+    },
+    {
+      "id": "S05-04",
+      "startSec": 9.4,
+      "endSec": 13.3,
+      "startFrame": 282,
+      "endFrameExclusive": 399,
+      "type": "L",
+      "parent": "V05.1",
+      "name": "目标周期与分配"
+    },
+    {
+      "id": "S05-05",
+      "startSec": 13.3,
+      "endSec": 17.3,
+      "startFrame": 399,
+      "endFrameExclusive": 519,
+      "type": "L",
+      "parent": "V05.1",
+      "name": "调整排期的另一通道"
+    },
+    {
+      "id": "S05-06",
+      "startSec": 17.3,
+      "endSec": 21.8,
+      "startFrame": 519,
+      "endFrameExclusive": 654,
+      "type": "L",
+      "parent": "V05.1",
+      "name": "额外任务与收益安排"
+    },
+    {
+      "id": "S05-07",
+      "startSec": 21.8,
+      "endSec": 25.6,
+      "startFrame": 654,
+      "endFrameExclusive": 768,
+      "type": "E",
+      "parent": "V05.2",
+      "name": "成果交付与人工验收"
+    },
+    {
+      "id": "S05-08",
+      "startSec": 25.6,
+      "endSec": 29.4,
+      "startFrame": 768,
+      "endFrameExclusive": 882,
+      "type": "E",
+      "parent": "V05.2",
+      "name": "完成之后仍等新指令"
+    },
+    {
+      "id": "S05-09",
+      "startSec": 29.4,
+      "endSec": 33.8,
+      "startFrame": 882,
+      "endFrameExclusive": 1014,
+      "type": "E",
+      "parent": "V05.2",
+      "name": "广告标语与工位反应"
+    },
+    {
+      "id": "S05-10",
+      "startSec": 33.8,
+      "endSec": 37.4,
+      "startFrame": 1014,
+      "endFrameExclusive": 1122,
+      "type": "L",
+      "parent": "V05.3",
+      "name": "从场景抽出规则反馈"
+    },
+    {
+      "id": "S05-11",
+      "startSec": 37.4,
+      "endSec": 40.6,
+      "startFrame": 1122,
+      "endFrameExclusive": 1218,
+      "type": "L",
+      "parent": "V05.3",
+      "name": "具体指令仍由人发出"
+    },
+    {
+      "id": "S05-12",
+      "startSec": 40.6,
+      "endSec": 43,
+      "startFrame": 1218,
+      "endFrameExclusive": 1290,
+      "type": "L",
+      "parent": "V05.3",
+      "name": "目的尺度另有来源"
+    },
+    {
+      "id": "S05-13",
+      "startSec": 43,
+      "endSec": 45,
+      "startFrame": 1290,
+      "endFrameExclusive": 1350,
+      "type": "L",
+      "parent": "V05.3",
+      "name": "同一排期页留给06"
+    }
+  ]
+}

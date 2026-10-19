@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1",
+  "status": "verified-current-runtime-adapter",
+  "verified": true,
+  "fromChapter": "05",
+  "toChapter": "06",
+  "versions": {
+    "from": "S05_STORY v0.3",
+    "to": "S06 v0.1 + entry-from-05-v03"
+  },
+  "timeline": {
+    "fps": 30,
+    "cutGlobalFrame": 6660,
+    "lastOutgoingLocalFrame": 1349,
+    "incomingHoldFrames": 12,
+    "overlapFrames": 0,
+    "addedFrames": 0
+  },
+  "transition": "pending-plan-page-to-existing06-allocation",
+  "captionPolicy": "one global caption;05 starts at0.4s;06 starts at its0s",
+  "evidence": {
+    "sourceSVGExactMatch": true,
+    "seamPath": "arts/actions/film/provenance/integration-v05/05-to-06-source-v05.mp4",
+    "clipDuration": 4,
+    "clipFrames": 120,
+    "clipSize": [
+      960,
+      540
+    ],
+    "fps": 30,
+    "audio": false,
+    "decodePassed": true,
+    "encodedVisualReviewPassed": true
+  },
+  "roleRules": {
+    "agentIsEmployer": false,
+    "cvIsToolTask": false,
+    "unfinished03ReportInherited": false,
+    "proposalAutomaticallyApproved": false
+  },
+  "outgoingState": {
+    "t": 44.96666666666667,
+    "beat": "S05-13",
+    "phase": "feedback",
+    "decisionOwner": "organization",
+    "instructionOwner": "employee",
+    "agentIsEmployer": false,
+    "cvIsToolTask": false,
+    "hrIsDirectSupervisor": false,
+    "inheritedTasks": {},
+    "entryRequirement": {
+      "jobId": "S04-JOB-01",
+      "text": "熟练调度多个Agent",
+      "relation": "organization-requirement-to-actual-tool-use"
+    },
+    "caption": {
+      "id": "S05-A13",
+      "text": "而劳动的目的与尺度仍可能由他人设定。",
+      "startMs": 40600,
+      "endMs": 45000,
+      "sourceNote": "05-3"
+    },
+    "activeAgents": 3,
+    "goals": [
+      true,
+      true,
+      true
+    ],
+    "proposal": {
+      "id": "S05-PROP-01",
+      "origin": "employee",
+      "destination": "organization",
+      "status": "pending-discussion"
+    },
+    "plan": {
+      "id": "S05-PLAN-01",
+      "owner": "organization",
+      "workerCoDecision": false
+    },
+    "tasks": {
+      "S05-T01": "human-accepted",
+      "S05-T02": "running"
+    },
+    "humanAccepted": true,
+    "requestVisible": false,
+    "reactionVisible": false,
+    "pose": "resume",
+    "terminalHold": true
+  },
+  "incomingState": {
+    "t": 0,
+    "phase": "allocation",
+    "choice": "common",
+    "beat": "S06-01",
+    "caption": {
+      "text": "效率收益可以转化为更多交付，",
+      "startMs": 0,
+      "endMs": 4700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    "saving": {
+      "id": "saving-06",
+      "owner": "common",
+      "fraction": 0
+    },
+    "control": {
+      "workerParticipates": false,
+      "scope": "conditional co-decision scenario"
+    },
+    "tasks": {
+      "D06-1": "illustrative",
+      "D06-2": "illustrative"
+    },
+    "boundary": false,
+    "personDeparted": false,
+    "requiresImmediateResponse": false,
+    "machineCountsAsHumanLabor": false,
+    "entryPlan": {
+      "id": "S05-PLAN-01",
+      "proposalId": "S05-PROP-01",
+      "status": "pending-discussion"
+    },
+    "previousTasks": {
+      "S05-T01": "human-accepted",
+      "S05-T02": "running"
+    },
+    "newStoryImplementation": false
+  },
+  "anchor": {
+    "id": "S05-PLAN-01",
+    "assetRect": [
+      1155,
+      416,
+      600,
+      350
+    ],
+    "text": "排期与收益配置",
+    "proposalId": "S05-PROP-01",
+    "proposalState": "pending-discussion",
+    "stableFrom": 43.8
+  },
+  "limitations": [
+    "06 current body is the old basic preview; new06 real shared-discussion story is not implemented.",
+    "Adapter verification does not approve the pending proposal or automatically allocate savings."
+  ]
+}

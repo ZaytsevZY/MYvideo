@@ -1,0 +1,143 @@
+{
+  "status": "planned-reuse-no-asset-mutation",
+  "items": [
+    {
+      "path": "arts/characters/portraits/03/programmer-front-v04.png",
+      "sha256": "ff8cef460bf150f730b2cc651b84e58ed9f92d3e09b74866be7724e919ff8d9d",
+      "bytes": 516674,
+      "width": 512,
+      "height": 512,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/characters/portraits/03/coworker-a-v04.png",
+      "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5",
+      "bytes": 449474,
+      "width": 512,
+      "height": 512,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/characters/portraits/03/coworker-b-v04.png",
+      "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5",
+      "bytes": 513362,
+      "width": 512,
+      "height": 512,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/characters/portraits/03/manager-neutral-v04.png",
+      "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370",
+      "bytes": 1626674,
+      "width": 1254,
+      "height": 1254,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828",
+      "bytes": 1422938,
+      "width": 1254,
+      "height": 1254,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/characters/portraits/01/agent-focus-v01.png",
+      "sha256": "2db469f8afaae3bcbb54aa1ec4487f43c8a614bffcf56c85a77dbe15b3703f20",
+      "bytes": 1449774,
+      "width": 1254,
+      "height": 1254,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/items/04/company-a-v03.png",
+      "sha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247",
+      "bytes": 1644100,
+      "width": 1254,
+      "height": 1254,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420",
+      "bytes": 1390962,
+      "width": 1086,
+      "height": 1448,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/items/01/task-document-landscape-v01.png",
+      "sha256": "2c5ecf3f14465c3622b8d2e783c994e8240bebb063dbb8604414923d1cf7c225",
+      "bytes": 1533106,
+      "width": 1774,
+      "height": 887,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+      "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11",
+      "bytes": 1726481,
+      "width": 1672,
+      "height": 941,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/backgrounds/03/neighbor-work-a-v05.png",
+      "sha256": "8a6fa3f0e97925dacfa825ea2a8545928e41d6d4899c55ff0dd1662f3da80a0c",
+      "bytes": 1951306,
+      "width": 1672,
+      "height": 941,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/backgrounds/04/collaboration-review-v03.png",
+      "sha256": "c01cd90560ca7bad42fb469c070041f5b76bbe119a623d370471ced5194db6be",
+      "bytes": 1975606,
+      "width": 1254,
+      "height": 1254,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-offer-file-v01.png",
+      "sha256": "65c06a3902b13821725a64a8d9a25d8c18c8409186f46558409e3b05d3c9b235",
+      "bytes": 1377114,
+      "width": 1024,
+      "height": 1536,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-receive-v01.png",
+      "sha256": "dac6f4c336ca5dfeee79843776c8e3a60df740e611ad6c4ef45d364ed7fe15f5",
+      "bytes": 1364706,
+      "width": 1024,
+      "height": 1536,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/characters/poses/shared/manager-point-left-v01.png",
+      "sha256": "fa0c0e138798266cc3744130c9f562a500649e3f7e83d6e4a463876c6c39de4d",
+      "bytes": 1222618,
+      "width": 1024,
+      "height": 1536,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "arts/characters/poses/shared/coworker-discuss-right-v01.png",
+      "sha256": "8546cefcd379acb8104de47b9da5e0dcbf804a6c510d32cf502c9bb340f21752",
+      "bytes": 1237401,
+      "width": 1024,
+      "height": 1536,
+      "use": "existing asset or visual reference; not a new generation"
+    },
+    {
+      "path": "assets/references/ads.png",
+      "sha256": "ffd1f53298db28bc3e800ecde0703e57372f736f28ab3ad0c93ed05195c6e0cf",
+      "bytes": 160313,
+      "width": 1218,
+      "height": 326,
+      "use": "existing asset or visual reference; not a new generation"
+    }
+  ],
+  "plannedNewRasterStates": 6,
+  "newRasterStatesGenerated": 0
+}

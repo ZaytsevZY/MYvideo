@@ -1,5 +1,5 @@
 {
-  "version": "FILM_PREVIEW v0.4",
+  "version": "FILM_PREVIEW v0.5",
   "assets": [
     {
       "path": "arts/backgrounds/01/workroom-reverse-night-v01.png",
@@ -615,7 +615,8 @@
       "ids": [
         "document-portrait",
         "s02-document",
-        "document"
+        "document",
+        "entry04_document"
       ],
       "chapters": [
         "01",
@@ -641,7 +642,9 @@
       "chapters": [
         "01",
         "02",
-        "04"
+        "04",
+        "05",
+        "06"
       ],
       "bytes": 1533106,
       "sha256": "2c5ecf3f14465c3622b8d2e783c994e8240bebb063dbb8604414923d1cf7c225",
@@ -726,7 +729,8 @@
     {
       "path": "arts/characters/portraits/01/agent-focus-v01.png",
       "ids": [
-        "avatar-agent-focus"
+        "avatar-agent-focus",
+        "agentFocus"
       ],
       "chapters": [
         "01",
@@ -1569,7 +1573,9 @@
       ],
       "chapters": [
         "03",
-        "04"
+        "04",
+        "05",
+        "06"
       ],
       "bytes": 1626674,
       "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370",
@@ -1587,7 +1593,9 @@
       ],
       "chapters": [
         "03",
-        "04"
+        "04",
+        "05",
+        "06"
       ],
       "bytes": 449474,
       "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5",
@@ -1605,7 +1613,9 @@
       ],
       "chapters": [
         "03",
-        "04"
+        "04",
+        "05",
+        "06"
       ],
       "bytes": 513362,
       "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5",
@@ -1619,11 +1629,14 @@
       "path": "arts/characters/portraits/03/programmer-front-v04.png",
       "ids": [
         "portrait",
-        "entry03_portrait"
+        "entry03_portrait",
+        "programmer"
       ],
       "chapters": [
         "03",
-        "04"
+        "04",
+        "05",
+        "06"
       ],
       "bytes": 516674,
       "sha256": "ff8cef460bf150f730b2cc651b84e58ed9f92d3e09b74866be7724e919ff8d9d",
@@ -1637,12 +1650,14 @@
       "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
       "ids": [
         "office",
-        "entry03_office"
+        "entry03_office",
+        "entry04_office"
       ],
       "chapters": [
         "03",
         "04",
-        "05"
+        "05",
+        "06"
       ],
       "bytes": 1726481,
       "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11",
@@ -1687,7 +1702,8 @@
     {
       "path": "arts/backgrounds/04/lunch-type-v03.png",
       "ids": [
-        "lunchType"
+        "lunchType",
+        "entry04_lunchType"
       ],
       "chapters": [
         "04",
@@ -1704,7 +1720,8 @@
     {
       "path": "arts/backgrounds/04/premeeting-type-v03.png",
       "ids": [
-        "meetingType"
+        "meetingType",
+        "entry04_meetingType"
       ],
       "chapters": [
         "04",
@@ -1769,7 +1786,8 @@
     {
       "path": "arts/backgrounds/04/evening-type-v03.png",
       "ids": [
-        "eveningType"
+        "eveningType",
+        "entry04_eveningType"
       ],
       "chapters": [
         "04",
@@ -1930,7 +1948,8 @@
     {
       "path": "arts/backgrounds/04/hr-review-v03.png",
       "ids": [
-        "hrReview"
+        "hrReview",
+        "entry04_hrReview"
       ],
       "chapters": [
         "04",
@@ -1963,10 +1982,13 @@
     {
       "path": "arts/items/04/company-a-v03.png",
       "ids": [
-        "companyA"
+        "companyA",
+        "company"
       ],
       "chapters": [
-        "04"
+        "04",
+        "05",
+        "06"
       ],
       "bytes": 1644100,
       "sha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247",
@@ -2011,7 +2033,8 @@
     {
       "path": "arts/static/04/story-assets-v03/compositions/board-detail-v04.png",
       "ids": [
-        "boardExcerpt"
+        "boardExcerpt",
+        "entry04_boardExcerpt"
       ],
       "chapters": [
         "04",
@@ -2024,6 +2047,102 @@
       "alpha": true,
       "format": "png",
       "kind": "图解与状态"
+    },
+    {
+      "path": "arts/backgrounds/05/office-delivery-contact-v02.png",
+      "ids": [
+        "delivery"
+      ],
+      "chapters": [
+        "05"
+      ],
+      "bytes": 2000862,
+      "sha256": "58da9006af994b210d85127247cb075828e2fa78a3ddb2f2b57b4ccf906783d9",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/05/office-delivery-cleared-v02.png",
+      "ids": [
+        "review"
+      ],
+      "chapters": [
+        "05"
+      ],
+      "bytes": 1961323,
+      "sha256": "eda3bf9e0c9944dfb4e063e53c71bc848d00cdfe86ec45d2b20a070e2658f710",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/05/office-agent-wait-v02.png",
+      "ids": [
+        "waiting"
+      ],
+      "chapters": [
+        "05"
+      ],
+      "bytes": 1952248,
+      "sha256": "cb5e5a386e127f109c3ce4298f595e11f162c3be5f772cd48078de1722d1c3bb",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/05/programmer-pause-close-v02.png",
+      "ids": [
+        "pause"
+      ],
+      "chapters": [
+        "05"
+      ],
+      "bytes": 1965737,
+      "sha256": "7720a6d09f58d0c88d7b0498aac0cd343054bb081eb2491215381028652ae78b",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/05/office-signage-insert-v02.png",
+      "ids": [
+        "signage"
+      ],
+      "chapters": [
+        "05"
+      ],
+      "bytes": 1598306,
+      "sha256": "7a73814ead739a2190cce8de256070803c17abbc2ddc106c41987e8df1fcb22d",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/05/programmer-resume-close-v02.png",
+      "ids": [
+        "resume"
+      ],
+      "chapters": [
+        "05"
+      ],
+      "bytes": 1931635,
+      "sha256": "c871fb5abeabe515612ebf291810b34cd7ea801fcf6f9e4cc137b6c7d07a56de",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
     }
   ],
   "note": "Original paths retained; shared references deduplicated by path. Composite stages are not new drawings."

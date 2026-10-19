@@ -1,0 +1,53 @@
+{
+  "version": "S05_ART v0.2",
+  "protectedInputsBytePreserved": 38,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "adoptedGenerated": 6,
+  "imagegenCalls": 7,
+  "superseded": 1,
+  "registeredAssets": 16,
+  "compositions": 12,
+  "externalCodeModelCalls": 0,
+  "actualImageModel": "not exposed",
+  "originalPngCopiesByteIdentical": true,
+  "buildCommand": "node arts/static/05/story-assets-v02/build.mjs",
+  "browserChecked": true,
+  "visualReview": "passed-six-raster-plates-and-twelve-compositions",
+  "runtimeUpdated": false,
+  "audio": false,
+  "video": false,
+  "xmlCompositionsChecked": 12,
+  "localSvgAssetReferencesResolved": true,
+  "noDuplicateSvgIds": true,
+  "adCopyVerbatim": true,
+  "scriptAndHandwrittenNotesBytePreserved": true,
+  "narrationCharacters": 155,
+  "browserControlsChecked": [
+    "delivery-state-change",
+    "waiting-state-change",
+    "physical-signage-toggle",
+    "action-feedback-toggle",
+    "subtitle-safe-toggle",
+    "final-feedback-paper-layout-after-reload"
+  ],
+  "browserConsoleErrors": [],
+  "browserProof": "arts/static/05/story-assets-v02/provenance/browser-waiting.png",
+  "reviewDocument": "arts/static/05/story-assets-v02/provenance/review.md",
+  "localServer": {
+    "bind": "127.0.0.1",
+    "port": 8765,
+    "root": "arts",
+    "httpStatus": 200
+  },
+  "newRuntimeSeamsVerified": false,
+  "finalBrowserState": {
+    "scene": "waiting",
+    "state": 1,
+    "signs": true,
+    "feedback": true,
+    "safeOverlay": false
+  }
+}

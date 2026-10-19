@@ -21,7 +21,8 @@ test('03 narration, captions, original chapter sources and raster inputs are byt
  const root=new URL('../../../',import.meta.url),guards=JSON.parse(fs.readFileSync(new URL('./provenance/story-v05/inputs-before.json',import.meta.url)));
  //04 was manually rewritten after this03 snapshot. Preserve the historical manifest and check04 against its current stage input guard.
  const current04=JSON.parse(fs.readFileSync(new URL('../04/provenance/story-v05/inputs-before.json',import.meta.url))).find(g=>g.path==='scripts/final/shot/04.md');
- for(const g of guards){const hash=crypto.createHash('sha256').update(fs.readFileSync(new URL(g.path,root))).digest('hex');assert.equal(hash,g.path==='scripts/final/shot/04.md'?current04.sha256:g.sha256,g.path);}
+ const current05=JSON.parse(fs.readFileSync(new URL('../05/provenance/story-v03/inputs-before.json',import.meta.url))).find(g=>g.path==='scripts/final/shot/05.md');
+ for(const g of guards){const hash=crypto.createHash('sha256').update(fs.readFileSync(new URL(g.path,root))).digest('hex');assert.equal(hash,g.path==='scripts/final/shot/04.md'?current04.sha256:g.path==='scripts/final/shot/05.md'?current05.sha256:g.sha256,g.path);}
  const caption=JSON.parse(fs.readFileSync(new URL('./captions/03-narration-v01.json',import.meta.url)));assert.deepEqual(CUES,caption);
  const inventory=JSON.parse(fs.readFileSync(new URL('../../static/03/story-assets-v04/layout.json',import.meta.url))).registry;
  for(const p of Object.values(ASSETS)){const expected=inventory.find(a=>a.path===p);assert(expected,p);assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(p,root))).digest('hex'),expected.sha256,p);}

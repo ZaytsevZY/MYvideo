@@ -5,8 +5,9 @@ import {rootSvg} from '../../characters/rigs/runtime/rig.mjs';
 import * as c02 from '../02/story-scene-v04.mjs';
 import * as c03 from '../03/story-scene-v05.mjs';
 import * as c04 from '../04/story-scene-v05.mjs';
-import * as entry05 from '../05/entry-from-04-v05.mjs';
-import * as c05 from '../05/scene.mjs';
+import * as entry06 from '../06/entry-from-05-v03.mjs';
+import * as legacy05 from '../05/scene.mjs';
+import * as c05 from '../05/story-scene-v03.mjs';
 import * as c06 from '../06/scene.mjs';
 import {CHAPTERS,FPS,locateFrame} from './timeline.mjs';
 export const CUES={'01':CAPTIONS,'02':c02.CUES,'03':c03.CUES,'04':c04.CUES,'05':c05.CUES,'06':c06.CUES};
@@ -14,8 +15,8 @@ export const BEATS={'01':c01.CAMERA_BEATS,'02':c02.BEATS,
  '03':c03.BEATS,
  '04':c04.BEATS,
  '05':c05.BEATS,'06':c06.BEATS};
-export const DIRECT_ASSETS_BY_CHAPTER={'03':c03.ASSETS,'04':c04.ASSETS,'05':entry05.ASSETS};
-export function stateAt(id,t){return id==='01'?c01.sampleCameraScene(t):id==='02'?c02.sample(t):id==='03'?c03.sample(t):id==='04'?c04.sample(t):id==='05'?entry05.sample(t):c06.sample(t);}
+export const DIRECT_ASSETS_BY_CHAPTER={'03':c03.ASSETS,'04':c04.ASSETS,'05':c05.ASSETS,'06':entry06.ASSETS};
+export function stateAt(id,t){return id==='01'?c01.sampleCameraScene(t):id==='02'?c02.sample(t):id==='03'?c03.sample(t):id==='04'?c04.sample(t):id==='05'?c05.sample(t):entry06.sample(t);}
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
 export function captionSvg(cue){
  if(!cue)return '';
@@ -42,11 +43,12 @@ export function createRenderer(data,resolve){
    if(!cache01.has(key)){cache01.set(key,c01.cameraDefinitions({...bundle,assets:Object.fromEntries(assets.map(key=>[key,bundle.assets[key]])),poses:Object.fromEntries(poses.map(key=>[key,bundle.poses[key]]))}));if(cache01.size>12)cache01.delete(cache01.keys().next().value);}
    image=rootSvg(content,cache01.get(key),1920,1080,'当效率成为义务 · 01');
   }
-  else if(id==='02'){const content=c05.withoutCaptions(c02.draw(c02.sample(t)));image=c02.svg(content,defsFor(id,content));}
+  else if(id==='02'){const content=legacy05.withoutCaptions(c02.draw(c02.sample(t)));image=c02.svg(content,defsFor(id,content));}
   else if(id==='03')image=c03.svg(t,refs['03'],{caption:false});
   else if(id==='04')image=c04.svg(t,refs['04'],{caption:false});
-  else if(id==='05'&&t<.4)image=entry05.entrySvg(t,refs['05']);
-  else {const content=c05.withoutCaptions((id==='05'?c05:c06).draw((id==='05'?c05:c06).sample(t)));image=c06.svg(content,defsFor(id,content));}
+  else if(id==='05')image=c05.svg(t,refs['05'],{caption:false});
+  else if(id==='06'&&t<.4)image=entry06.entrySvg(t,refs['06']);
+  else {const content=legacy05.withoutCaptions(c06.draw(c06.sample(t)));image=c06.svg(content,defsFor(id,content));}
   // Insert after the complete root content, never into chapter04's nested prior SVG.
   const at=image.lastIndexOf('</svg>');
   image=image.slice(0,at)+(captions?captionSvg(cue):'')+image.slice(at);

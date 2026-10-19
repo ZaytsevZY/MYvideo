@@ -376,99 +376,107 @@
     "chapterId": "04"
   },
   {
+    "id": "S05-A01",
     "text": "调度多个 Agent，",
-    "startMs": 177000,
+    "startMs": 177400,
     "endMs": 180000,
-    "timestampMs": null,
-    "confidence": null,
+    "sourceNote": "05-1",
     "chapterId": "05"
   },
   {
+    "id": "S05-A02",
     "text": "扩大的是执行能力，",
     "startMs": 180000,
-    "endMs": 183500,
-    "timestampMs": null,
-    "confidence": null,
+    "endMs": 183000,
+    "sourceNote": "05-1",
     "chapterId": "05"
   },
   {
-    "text": "未必改变产品目标、",
-    "startMs": 183500,
-    "endMs": 186800,
-    "timestampMs": null,
-    "confidence": null,
+    "id": "S05-A03",
+    "text": "未必会改变产品目标、",
+    "startMs": 183000,
+    "endMs": 186400,
+    "sourceNote": "05-1",
     "chapterId": "05"
   },
   {
-    "text": "交付周期和成果分配的决定权。",
-    "startMs": 186800,
-    "endMs": 191000,
-    "timestampMs": null,
-    "confidence": null,
+    "id": "S05-A04",
+    "text": "交付周期和成果分配的决定权，",
+    "startMs": 186400,
+    "endMs": 189900,
+    "sourceNote": "05-1",
     "chapterId": "05"
   },
   {
-    "text": "社会劳动创造的生产力量，",
-    "startMs": 191000,
-    "endMs": 195000,
-    "timestampMs": null,
-    "confidence": null,
+    "id": "S05-A05",
+    "text": "也不会使员工自动获得修改排期、",
+    "startMs": 189900,
+    "endMs": 193300,
+    "sourceNote": "05-1",
     "chapterId": "05"
   },
   {
+    "id": "S05-A06",
+    "text": "拒绝额外任务",
+    "startMs": 193300,
+    "endMs": 196000,
+    "sourceNote": "05-1",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A07",
+    "text": "或分享效率收益的权力。",
+    "startMs": 196000,
+    "endMs": 198800,
+    "sourceNote": "05-1",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A08",
+    "text": "社会劳动创造的生产力，",
+    "startMs": 198800,
+    "endMs": 202600,
+    "sourceNote": "05-2",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A09",
     "text": "在特定的占有和组织关系中，",
-    "startMs": 195000,
-    "endMs": 199000,
-    "timestampMs": null,
-    "confidence": null,
+    "startMs": 202600,
+    "endMs": 206400,
+    "sourceNote": "05-2",
     "chapterId": "05"
   },
   {
-    "text": "反过来成为约束劳动者的外在力量。",
-    "startMs": 199000,
-    "endMs": 203000,
-    "timestampMs": null,
-    "confidence": null,
+    "id": "S05-A10",
+    "text": "反而会成为约束劳动者的外在力量。",
+    "startMs": 206400,
+    "endMs": 210800,
+    "sourceNote": "05-2",
     "chapterId": "05"
   },
   {
-    "text": "这是劳动异化的一个切口：",
-    "startMs": 203000,
-    "endMs": 205500,
-    "timestampMs": null,
-    "confidence": null,
+    "id": "S05-A11",
+    "text": "这是劳动异化的一个侧面：",
+    "startMs": 210800,
+    "endMs": 214400,
+    "sourceNote": "05-3",
     "chapterId": "05"
   },
   {
-    "text": "指令由人发出，劳动的目的与尺度仍可能由他人设定。",
-    "startMs": 205500,
-    "endMs": 211000,
-    "timestampMs": null,
-    "confidence": null,
+    "id": "S05-A12",
+    "text": "具体的指令由人发出，",
+    "startMs": 214400,
+    "endMs": 217600,
+    "sourceNote": "05-3",
     "chapterId": "05"
   },
   {
-    "text": "拥有工具调用权限，",
-    "startMs": 211000,
-    "endMs": 214000,
-    "timestampMs": null,
-    "confidence": null,
-    "chapterId": "05"
-  },
-  {
-    "text": "不会自动获得修改排期、",
-    "startMs": 214000,
-    "endMs": 217000,
-    "timestampMs": null,
-    "confidence": null,
-    "chapterId": "05"
-  },
-  {
-    "text": "拒绝额外任务或分享效率收益的权力。",
-    "startMs": 217000,
+    "id": "S05-A13",
+    "text": "而劳动的目的与尺度仍可能由他人设定。",
+    "startMs": 217600,
     "endMs": 222000,
-    "timestampMs": null,
-    "confidence": null,
+    "sourceNote": "05-3",
     "chapterId": "05"
   },
   {

@@ -1,0 +1,455 @@
+{
+  "version": "S05_ART v0.2",
+  "status": "material-keyframe-preparation",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "subtitleSafe": [
+    40,
+    994,
+    1840,
+    70
+  ],
+  "relationPanel": [
+    64,
+    40,
+    1792,
+    920
+  ],
+  "relationAnchors": {
+    "employee": [
+      480,
+      280
+    ],
+    "company": [
+      1430,
+      280
+    ],
+    "agents": [
+      [
+        224,
+        570
+      ],
+      [
+        480,
+        570
+      ],
+      [
+        736,
+        570
+      ]
+    ],
+    "employees": [
+      [
+        1174,
+        570
+      ],
+      [
+        1430,
+        570
+      ],
+      [
+        1686,
+        570
+      ]
+    ]
+  },
+  "signage": {
+    "wide": {
+      "board": {
+        "quad": [
+          [
+            1070,
+            83
+          ],
+          [
+            1520,
+            65
+          ],
+          [
+            1520,
+            318
+          ],
+          [
+            1070,
+            337
+          ]
+        ],
+        "localSize": [
+          450,
+          254
+        ]
+      },
+      "ad": {
+        "quad": [
+          [
+            1597,
+            76
+          ],
+          [
+            1824,
+            68
+          ],
+          [
+            1824,
+            267
+          ],
+          [
+            1597,
+            275
+          ]
+        ],
+        "localSize": [
+          227,
+          199
+        ]
+      }
+    },
+    "insert": {
+      "board": {
+        "quad": [
+          [
+            260,
+            163
+          ],
+          [
+            1250,
+            124
+          ],
+          [
+            1250,
+            763
+          ],
+          [
+            260,
+            783
+          ]
+        ],
+        "localSize": [
+          990,
+          620
+        ]
+      },
+      "ad": {
+        "quad": [
+          [
+            1350,
+            112
+          ],
+          [
+            1814,
+            91
+          ],
+          [
+            1814,
+            787
+          ],
+          [
+            1350,
+            801
+          ]
+        ],
+        "localSize": [
+          464,
+          689
+        ]
+      }
+    }
+  },
+  "storyLayers": [
+    "coherent-raster-scene",
+    "physical-board-text-safe-mask",
+    "physical-ad-copy-and-raster-portrait",
+    "local-action-feedback",
+    "subtitle-safe-check-only"
+  ],
+  "feedbackLayers": [
+    "office-background",
+    "warm-diagram-paper",
+    "raster-participants-and-documents",
+    "organization-rule-links",
+    "editable-control-page"
+  ],
+  "notes": [
+    "宽景标牌文字避开头部遮挡；近景不重复贴背景字",
+    "同人双视图非新增雇员",
+    "纸张已放在键盘右侧，沿采用图保持",
+    "有限关键态素材检查，不是45秒新动态"
+  ],
+  "registry": [
+    {
+      "id": "delivery",
+      "path": "arts/backgrounds/05/office-delivery-contact-v02.png",
+      "sha256": "58da9006af994b210d85127247cb075828e2fa78a3ddb2f2b57b4ccf906783d9",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "kind": "imagegen"
+    },
+    {
+      "id": "review",
+      "path": "arts/backgrounds/05/office-delivery-cleared-v02.png",
+      "sha256": "eda3bf9e0c9944dfb4e063e53c71bc848d00cdfe86ec45d2b20a070e2658f710",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "kind": "imagegen"
+    },
+    {
+      "id": "waiting",
+      "path": "arts/backgrounds/05/office-agent-wait-v02.png",
+      "sha256": "cb5e5a386e127f109c3ce4298f595e11f162c3be5f772cd48078de1722d1c3bb",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "kind": "imagegen"
+    },
+    {
+      "id": "pause",
+      "path": "arts/backgrounds/05/programmer-pause-close-v02.png",
+      "sha256": "7720a6d09f58d0c88d7b0498aac0cd343054bb081eb2491215381028652ae78b",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "kind": "imagegen"
+    },
+    {
+      "id": "signage",
+      "path": "arts/backgrounds/05/office-signage-insert-v02.png",
+      "sha256": "7a73814ead739a2190cce8de256070803c17abbc2ddc106c41987e8df1fcb22d",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "kind": "imagegen"
+    },
+    {
+      "id": "resume",
+      "path": "arts/backgrounds/05/programmer-resume-close-v02.png",
+      "sha256": "c871fb5abeabe515612ebf291810b34cd7ea801fcf6f9e4cc137b6c7d07a56de",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "kind": "imagegen"
+    },
+    {
+      "id": "programmer",
+      "path": "arts/characters/portraits/03/programmer-front-v04.png",
+      "sha256": "ff8cef460bf150f730b2cc651b84e58ed9f92d3e09b74866be7724e919ff8d9d",
+      "width": 512,
+      "height": 512,
+      "hasAlpha": false,
+      "kind": "reused"
+    },
+    {
+      "id": "coworkerA",
+      "path": "arts/characters/portraits/03/coworker-a-v04.png",
+      "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5",
+      "width": 512,
+      "height": 512,
+      "hasAlpha": false,
+      "kind": "reused"
+    },
+    {
+      "id": "coworkerB",
+      "path": "arts/characters/portraits/03/coworker-b-v04.png",
+      "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5",
+      "width": 512,
+      "height": 512,
+      "hasAlpha": false,
+      "kind": "reused"
+    },
+    {
+      "id": "manager",
+      "path": "arts/characters/portraits/03/manager-neutral-v04.png",
+      "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": false,
+      "kind": "reused"
+    },
+    {
+      "id": "agent",
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "kind": "reused"
+    },
+    {
+      "id": "agentFocus",
+      "path": "arts/characters/portraits/01/agent-focus-v01.png",
+      "sha256": "2db469f8afaae3bcbb54aa1ec4487f43c8a614bffcf56c85a77dbe15b3703f20",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "kind": "reused"
+    },
+    {
+      "id": "company",
+      "path": "arts/items/04/company-a-v03.png",
+      "sha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "kind": "reused"
+    },
+    {
+      "id": "document",
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420",
+      "width": 1086,
+      "height": 1448,
+      "hasAlpha": true,
+      "kind": "reused"
+    },
+    {
+      "id": "documentWide",
+      "path": "arts/items/01/task-document-landscape-v01.png",
+      "sha256": "2c5ecf3f14465c3622b8d2e783c994e8240bebb063dbb8604414923d1cf7c225",
+      "width": 1774,
+      "height": 887,
+      "hasAlpha": true,
+      "kind": "reused"
+    },
+    {
+      "id": "office",
+      "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+      "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "kind": "reused"
+    }
+  ],
+  "frames": [
+    {
+      "scene": "relations",
+      "state": 0,
+      "path": "arts/static/05/story-assets-v02/compositions/relations-0.png",
+      "sha256": "e225dbe3d1e13d40703d34587e2bd2e964fdf38d86125b3c84ed10f5b18dc8bd",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": "relations",
+      "state": 1,
+      "path": "arts/static/05/story-assets-v02/compositions/relations-1.png",
+      "sha256": "a1ff2003414dc30d136cef0b52bdac953d466f685c7e2700b2eb2c6e42f5c571",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": "relations",
+      "state": 2,
+      "path": "arts/static/05/story-assets-v02/compositions/relations-2.png",
+      "sha256": "f27a55312985531026f5ec28b21b7108fe2d43df6b1d67fdf498f83aa3ed216b",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": "delivery",
+      "state": 0,
+      "path": "arts/static/05/story-assets-v02/compositions/delivery-0.png",
+      "sha256": "4a5bc69fadb01cbd9784ad34c62a0a43e2c223c3f593e69ee9b7dcb848ace361",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": "delivery",
+      "state": 1,
+      "path": "arts/static/05/story-assets-v02/compositions/delivery-1.png",
+      "sha256": "cdb32c2ad571462da54b9a1a0e123716a08e21adcb24a17ee3ebfefb3ebbaeea",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": "waiting",
+      "state": 0,
+      "path": "arts/static/05/story-assets-v02/compositions/waiting-0.png",
+      "sha256": "befa2b3acec106f490ab5bb80bdedca8ff9b859afd5b6a38e6fd28c1c6a5119d",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": "waiting",
+      "state": 1,
+      "path": "arts/static/05/story-assets-v02/compositions/waiting-1.png",
+      "sha256": "68287f95e84c06002908116dc3ec1328fbd48bda0d8f0fd371e9aed6f96392e7",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": "reaction",
+      "state": 0,
+      "path": "arts/static/05/story-assets-v02/compositions/reaction-0.png",
+      "sha256": "6c3e351eee531c6f22f9ba546af78a03c115911c22fc4035b9b2e10db6c6f70a",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": "reaction",
+      "state": 1,
+      "path": "arts/static/05/story-assets-v02/compositions/reaction-1.png",
+      "sha256": "861b1374a9e8fe63c20bb6441a1264926cdf646868d54f8097ddbb88f38ab8fe",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": "signage",
+      "state": 0,
+      "path": "arts/static/05/story-assets-v02/compositions/signage-0.png",
+      "sha256": "762d08a6d5f23aa58bfeba580f2965d064e4ce61ea01462a151afb5274bec04f",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": "feedback",
+      "state": 0,
+      "path": "arts/static/05/story-assets-v02/compositions/feedback-0.png",
+      "sha256": "c4c52bc406b866bd822765f05a2e4dfff3cc49fd7e65da750e64b9f43a05de4f",
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "scene": "feedback",
+      "state": 1,
+      "path": "arts/static/05/story-assets-v02/compositions/feedback-1.png",
+      "sha256": "935b827531680e582b18ec6c8b49f91847028806477cc642c3e4b426fb2a72cc",
+      "size": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "newGeneratedPngs": 6,
+  "imagegenCalls": 7,
+  "superseded": 1,
+  "newRuntime": false,
+  "newCaptions": false,
+  "newAudio": false,
+  "newVideo": false
+}

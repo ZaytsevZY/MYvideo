@@ -1,0 +1,203 @@
+{
+  "status": "inventory-not-visual-approval",
+  "assets": [
+    {
+      "path": "arts/backgrounds/shared/meeting-room-day-v01.png",
+      "sha256": "6191a947317c3fa1220fce801a7fb252d7d34cff2fe5ce4a6bd4678431c966de",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/backgrounds/05/office-agent-wait-v02.png",
+      "sha256": "cb5e5a386e127f109c3ce4298f595e11f162c3be5f772cd48078de1722d1c3bb",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/backgrounds/05/programmer-resume-close-v02.png",
+      "sha256": "c871fb5abeabe515612ebf291810b34cd7ea801fcf6f9e4cc137b6c7d07a56de",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/portraits/03/programmer-front-v04.png",
+      "sha256": "ff8cef460bf150f730b2cc651b84e58ed9f92d3e09b74866be7724e919ff8d9d",
+      "dimensions": [
+        512,
+        512
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/portraits/03/coworker-a-v04.png",
+      "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5",
+      "dimensions": [
+        512,
+        512
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/portraits/03/coworker-b-v04.png",
+      "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5",
+      "dimensions": [
+        512,
+        512
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/portraits/03/manager-neutral-v04.png",
+      "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/items/04/company-a-v03.png",
+      "sha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/items/01/task-document-landscape-v01.png",
+      "sha256": "2c5ecf3f14465c3622b8d2e783c994e8240bebb063dbb8604414923d1cf7c225",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/items/01/workstation-painted-v02.png",
+      "sha256": "c05a579cb7d6e3eeefac268c6d122495396b6fbe759d5efbc5cda4c1981a234a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/poses/shared/manager-point-left-v01.png",
+      "sha256": "fa0c0e138798266cc3744130c9f562a500649e3f7e83d6e4a463876c6c39de4d",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/poses/shared/coworker-discuss-right-v01.png",
+      "sha256": "8546cefcd379acb8104de47b9da5e0dcbf804a6c510d32cf502c9bb340f21752",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/poses/04/manager-write-v03.png",
+      "sha256": "5fbdd9407facee33f46043445f49ee488f3244a43379e218ffa44b70d07fe628",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-input-v01.png",
+      "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-lean-v01.png",
+      "sha256": "470d0a4d34b3f4d8ac4fcceff2fb613c7573c4918319bce6e019100339ee89d2",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rise-v01.png",
+      "sha256": "c03856bd6ccdea1a3690c388451327e50546d371150fa690a59a5a098149b70b",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rise-high-v01.png",
+      "sha256": "b3816159ee33b110bde7121f117d99bd076b12168e368446eb719fa6c5f34dc6",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-a-v01.png",
+      "sha256": "ee3d05ba41d87a7e4e928ab5596c0d58c76c7cf66e4af0879e4f7d7ca4200db8",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-pass-v01.png",
+      "sha256": "53b1f23d23d9b348856254d95aa1647eef9739f9efd54d9da22c33e8f0a58c18",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-recover-v01.png",
+      "sha256": "4e31a14ecf89a66483dc7c39764d1b049dce66d74bbdfb94e90eab3257ad04de",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "use": "identity/action/camera reference; must validate actual06 composition before visual adoption"
+    }
+  ]
+}

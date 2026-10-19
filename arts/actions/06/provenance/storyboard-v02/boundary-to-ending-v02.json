@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1",
+  "status": "draft-not-implemented",
+  "verified": false,
+  "fromChapter": "06",
+  "toChapter": "ending-in-chapter06",
+  "versions": {
+    "from": "S06_STORYBOARD v0.2",
+    "plannedTarget": "V06.4/V06.5 references"
+  },
+  "timeline": {
+    "fps": 30,
+    "cutGlobalFrame": 7980,
+    "totalFilmFrames": 8400,
+    "incomingHoldFrames": 0,
+    "addedFrames": 0,
+    "overlapFrames": 0
+  },
+  "plannedTransition": "life-book page white match cuts to independent reference page at44s; two7s cards; last encoded frame1739",
+  "captionPolicy": "Narration ends44s; references44–58s have no narration captions",
+  "anchor": {
+    "id": "LIFE-BOOK-01",
+    "sourceRect": null,
+    "match": "paper tone only, references do not become storybook content"
+  },
+  "stateRules": {
+    "S05-T01": "human-accepted-history-preserved",
+    "S05-T02": "background-running-history-preserved",
+    "T06-final": "new agreed deliverable, human acceptance precedes leaving; never resetT01",
+    "agentIsEmployer": false,
+    "twoAlternativesAreCumulative": false,
+    "lifeInterruptedAfter31s": false
+  },
+  "evidence": {
+    "previousActualRuntimeContract": null,
+    "newSeamPreviewPath": null,
+    "newTerminalFramePath": null,
+    "verified": false
+  },
+  "limitations": [
+    "Only text and timing prepared; new poses, real frames and encoded seam not yet available.",
+    "Previous05→06 seam proof covers only old06 basic adapter, not this proposed story."
+  ]
+}

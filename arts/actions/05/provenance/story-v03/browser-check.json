@@ -1,0 +1,11 @@
+{
+  "filmUrl": "http://127.0.0.1:8765/actions/film/preview.html?frame=6114",
+  "singleUrl": "http://127.0.0.1:8765/actions/05/preview.html?t=23.2",
+  "readyAssets": 126,
+  "shotOptions": 13,
+  "playClockAdvanced": true,
+  "captionTogglePassed": true,
+  "chapter06EntryPageObserved": true,
+  "singleShotJumpPassed": true,
+  "errorsAndWarnings": []
+}

@@ -1,6 +1,6 @@
 {
-  "version": "FILM_PREVIEW v0.4",
-  "date": "2026-10-18",
+  "version": "FILM_PREVIEW v0.5",
+  "date": "2026-10-19",
   "fps": 30,
   "duration": 280,
   "frames": 8400,
@@ -1595,94 +1595,120 @@
     },
     {
       "id": "S05-01",
+      "name": "岗位要求接入",
       "start": 0,
-      "end": 1.6,
+      "end": 3,
+      "type": "L",
       "chapterId": "05",
       "globalFrame": 5310
     },
     {
       "id": "S05-02",
-      "start": 1.6,
-      "end": 4.3,
+      "name": "员工调度多个Agent",
+      "start": 3,
+      "end": 6,
+      "type": "L",
       "chapterId": "05",
-      "globalFrame": 5358
+      "globalFrame": 5400
     },
     {
       "id": "S05-03",
-      "start": 4.3,
-      "end": 6.8,
+      "name": "企业与员工关系",
+      "start": 6,
+      "end": 9.4,
+      "type": "L",
       "chapterId": "05",
-      "globalFrame": 5439
+      "globalFrame": 5490
     },
     {
       "id": "S05-04",
-      "start": 6.8,
-      "end": 10,
+      "name": "目标周期与分配",
+      "start": 9.4,
+      "end": 13.3,
+      "type": "L",
       "chapterId": "05",
-      "globalFrame": 5514
+      "globalFrame": 5592
     },
     {
       "id": "S05-05",
-      "start": 10,
-      "end": 14,
+      "name": "调整排期的另一通道",
+      "start": 13.3,
+      "end": 17.3,
+      "type": "L",
       "chapterId": "05",
-      "globalFrame": 5610
+      "globalFrame": 5709
     },
     {
       "id": "S05-06",
-      "start": 14,
-      "end": 18.5,
+      "name": "额外任务与收益安排",
+      "start": 17.3,
+      "end": 21.8,
+      "type": "L",
       "chapterId": "05",
-      "globalFrame": 5730
+      "globalFrame": 5829
     },
     {
       "id": "S05-07",
-      "start": 18.5,
-      "end": 22,
+      "name": "成果交付与人工验收",
+      "start": 21.8,
+      "end": 25.6,
+      "type": "E",
       "chapterId": "05",
-      "globalFrame": 5865
+      "globalFrame": 5964
     },
     {
       "id": "S05-08",
-      "start": 22,
-      "end": 26,
+      "name": "完成之后仍等新指令",
+      "start": 25.6,
+      "end": 29.4,
+      "type": "E",
       "chapterId": "05",
-      "globalFrame": 5970
+      "globalFrame": 6078
     },
     {
       "id": "S05-09",
-      "start": 26,
-      "end": 31,
+      "name": "广告标语与工位反应",
+      "start": 29.4,
+      "end": 33.8,
+      "type": "E",
       "chapterId": "05",
-      "globalFrame": 6090
+      "globalFrame": 6192
     },
     {
       "id": "S05-10",
-      "start": 31,
-      "end": 35,
+      "name": "从场景抽出规则反馈",
+      "start": 33.8,
+      "end": 37.4,
+      "type": "L",
       "chapterId": "05",
-      "globalFrame": 6240
+      "globalFrame": 6324
     },
     {
       "id": "S05-11",
-      "start": 35,
-      "end": 40,
+      "name": "具体指令仍由人发出",
+      "start": 37.4,
+      "end": 40.6,
+      "type": "L",
       "chapterId": "05",
-      "globalFrame": 6360
+      "globalFrame": 6432
     },
     {
       "id": "S05-12",
-      "start": 40,
-      "end": 42,
+      "name": "目的尺度另有来源",
+      "start": 40.6,
+      "end": 43,
+      "type": "L",
       "chapterId": "05",
-      "globalFrame": 6510
+      "globalFrame": 6528
     },
     {
       "id": "S05-13",
-      "start": 42,
+      "name": "同一排期页留给06",
+      "start": 43,
       "end": 45,
+      "type": "L",
       "chapterId": "05",
-      "globalFrame": 6570
+      "globalFrame": 6600
     },
     {
       "id": "S06-01",

@@ -2,7 +2,16 @@
   "name": "myvideo-chapter-05",
   "private": true,
   "type": "module",
-  "engines": {"node": ">=22"},
-  "scripts": {"stills": "node build.mjs", "render": "node build.mjs --video"},
-  "dependencies": {"sharp": "0.35.5"}
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build:preview": "node ../film/build.mjs",
+    "stills": "node qa-story-v03.mjs --frames-only",
+    "test": "node --test story-v03.test.mjs",
+    "qa:seams": "node qa-story-v03.mjs --seams-only"
+  },
+  "dependencies": {
+    "sharp": "0.35.5"
+  }
 }

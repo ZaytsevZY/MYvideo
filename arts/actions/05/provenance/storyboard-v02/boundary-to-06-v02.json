@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1",
+  "status": "draft-not-implemented",
+  "verified": false,
+  "fromChapter": "05",
+  "toChapter": "06",
+  "versions": {
+    "from": "S05_STORYBOARD v0.2",
+    "toScript": "S06_STORY_LOGIC v0.1",
+    "toRuntime": "S06 v0.1"
+  },
+  "timeline": {
+    "fps": 30,
+    "cutGlobalFrame": 6660,
+    "fromLastEncodedLocalFrame": 1349,
+    "toFrameCount": 1740,
+    "overlapFrames": 0,
+    "addedFrames": 0,
+    "transitionOwnership": "existing-chapter-budgets"
+  },
+  "plannedOutgoing": {
+    "scene": "organization-goals-and-work-requirements-diagram",
+    "anchorId": "S05-PLAN-01",
+    "anchorText": "排期与收益配置",
+    "anchorRect": [
+      1100,
+      440,
+      650,
+      300
+    ],
+    "coordinateSpace": "provisional1920x1080 screen pixels, verify after composition",
+    "stableFromSec": 43.8,
+    "proposal": {
+      "id": "S05-PROP-01",
+      "state": "awaiting-discussion"
+    },
+    "taskStates": {
+      "S05-T01": "accepted",
+      "S05-T02": "running"
+    },
+    "concreteInstructionSender": "worker",
+    "organizationGoalsOwner": "organization",
+    "employeeDecisionRights": "not-automatically-changed-by-tool-call",
+    "agentIsEmployer": false
+  },
+  "plannedIncoming": {
+    "shot": "V06.1-E1",
+    "subject": "programmer,coworkers,manager discuss the same planning and benefit-allocation page",
+    "semanticMatch": "organization-arrangement-to-joint-discussion",
+    "requiredAdapter": "new06 story entry or minimal06 entry adapter after new05 render exists",
+    "noApprovalBeforeDiscussion": true,
+    "noDoubleCountedTimeSaving": true
+  },
+  "evidence": {
+    "historicalRuntimeContract": "arts/actions/05/provenance/v01/boundary-to-06-v01.json",
+    "newVideoLastFrame": null,
+    "newSeamPreviewPath": null,
+    "verified": false
+  },
+  "limitations": [
+    "旧05最终3秒复制旧06首图的方案不再作为新出点",
+    "06当前真实人物讨论尚未制作；不修改06正文、代码、字幕或宣称接缝通过"
+  ]
+}

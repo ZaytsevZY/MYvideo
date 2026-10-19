@@ -1,0 +1,97 @@
+{
+  "version": "S05_STORYBOARD v0.2",
+  "method": "Codex direct text editing; no external model calls",
+  "date": "2026-10-19",
+  "files": [
+    {
+      "path": "arts/actions/05/README.md",
+      "sha256": "837a0b35b09e9e37c883fa0f47a84375e795164005303558e0e89283b31ff0da",
+      "bytes": 5646
+    },
+    {
+      "path": "arts/actions/05/provenance/storyboard-v02/05-before.md",
+      "sha256": "4f3c1f73c2f4378564ee8741780a13e17805932900c8681c949802f6f4ced2b5",
+      "bytes": 6776
+    },
+    {
+      "path": "arts/actions/05/provenance/storyboard-v02/asset-plan.md",
+      "sha256": "bb7055bce40668aa7f3dcebcfd7c64063cf736dafec4d2786d825f558bd10a97",
+      "bytes": 7563
+    },
+    {
+      "path": "arts/actions/05/provenance/storyboard-v02/boundary-from-04-v02.json",
+      "sha256": "c0a0a1abcffbb4ea05a0789f9945e6f983441117815a6300ce73f4e6cd5a68a7",
+      "bytes": 2758
+    },
+    {
+      "path": "arts/actions/05/provenance/storyboard-v02/boundary-to-06-v02.json",
+      "sha256": "dd11428f6aaaee62bb21256ea9de20df24f2f276010fd70b5d64f70375b5d128",
+      "bytes": 1988
+    },
+    {
+      "path": "arts/actions/05/provenance/storyboard-v02/chapter-plan.md",
+      "sha256": "ee35c302497433ef329b6bb03352b387114a888ee30f0e05a6a805c867cb6b16",
+      "bytes": 11538
+    },
+    {
+      "path": "arts/actions/05/provenance/storyboard-v02/inputs-before.json",
+      "sha256": "8b15def1d070487faaba725405ca1af5d57aeec61aaeb16ec756388e649507a3",
+      "bytes": 4079
+    },
+    {
+      "path": "arts/actions/05/provenance/storyboard-v02/narration-cues-draft.json",
+      "sha256": "c7a68ed9675cd40d980725d5207c32267ff971d7ad3695670a8fd19f7d1f5e14",
+      "bytes": 2463
+    },
+    {
+      "path": "arts/actions/05/provenance/storyboard-v02/reuse-inventory.json",
+      "sha256": "7ac3ea992e683c11612eb2ea6e0d9159552fe5b48c66eb5d4b63cd85ef202750",
+      "bytes": 5232
+    },
+    {
+      "path": "arts/actions/05/provenance/storyboard-v02/shot-timing.json",
+      "sha256": "810aa739453af22d735a618ab2516ef1cb63f1510a19ed222c4be418924b5a0f",
+      "bytes": 3149
+    },
+    {
+      "path": "arts/actions/05/provenance/storyboard-v02/user-visual-notes.txt",
+      "sha256": "db34cc7934a3d02bec130cd025a82c626dfada8bc0519671f2af78a92b5f8340",
+      "bytes": 1053
+    },
+    {
+      "path": "arts/actions/05/provenance/storyboard-v02/verification.json",
+      "sha256": "848bde794c3b54831bb84b5b74919bf0bae381f2fb7c1174f1897a51bda276d4",
+      "bytes": 2277
+    },
+    {
+      "path": "scripts/HANDOFF.md",
+      "sha256": "b51c932cb1a018e5d867a42da88f7b1068db441196f4ccf6d0da412cecb461b7",
+      "bytes": 29894
+    },
+    {
+      "path": "scripts/PROJECT_STATE.md",
+      "sha256": "a4aaf2baf5247d68f5653d8e054e6299775f6083a0c0da71f612184eeb57071f",
+      "bytes": 42726
+    },
+    {
+      "path": "scripts/doc/GENERATION_LOG.md",
+      "sha256": "2ec5035e6a9acc31091a3bf04a42281b1675e8f84565fdf46603750e98bf2463",
+      "bytes": 51860
+    },
+    {
+      "path": "scripts/final/shot/05.md",
+      "sha256": "4641f53b3ad24706062296f90c9497985507f1cae3e42e59b33fe53d90a1f293",
+      "bytes": 10887
+    },
+    {
+      "path": "scripts/final/shot/README.md",
+      "sha256": "11a00bc46691cf07cc725621656c7690d58697628da9d1617196453652497672",
+      "bytes": 5046
+    },
+    {
+      "path": "scripts/final/shot/STORY_LOGIC_PLAN.md",
+      "sha256": "fc82f8d0f4935a769b9dea0c5b21704aafdf6f00d74b99325fe17619540da6e4",
+      "bytes": 7761
+    }
+  ]
+}

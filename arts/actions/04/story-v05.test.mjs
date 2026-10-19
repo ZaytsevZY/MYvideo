@@ -32,13 +32,15 @@ test('all frames deterministic and bounded; no body blends, production badges or
  for(let f=0;f<=1650;f++){const t=f/30,s=sample(t),a=svg(t,refs,{caption:false});assert(a.startsWith('<svg'));assert(a.endsWith('</svg>'));assert(!/NaN|Infinity|undefined/.test(a));assert.equal(a,svg(t,refs,{caption:false}));assert(!a.includes('data-chapter-caption='));assert(!forbidden.test(a));assert.equal(s.inheritedTasks['S03-C'],undefined);if(t>=35.8&&t<42.2)assert((a.match(/data-whole-manager=/g)||[]).length<=1);}
  assert.throws(()=>sample(NaN));assert.equal(sample(-1).t,0);assert.equal(sample(70).t,55);
 });
-test('six scripts, historical chapters and all adopted art input bytes remain unchanged',()=>{
+test('04 inputs stay byte preserved; authorized05 script follows its current stage snapshot',()=>{
  const root=new URL('../../../',import.meta.url),guards=JSON.parse(fs.readFileSync(new URL('./provenance/story-v05/inputs-before.json',import.meta.url)));
- for(const g of guards)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(g.path,root))).digest('hex'),g.sha256,g.path);
+ //05 narration was manually revised after this04 snapshot; verify against the05 runtime input snapshot.
+ const current05=JSON.parse(fs.readFileSync(new URL('../05/provenance/story-v03/inputs-before.json',import.meta.url))).find(g=>g.path==='scripts/final/shot/05.md');
+ for(const g of guards)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(g.path,root))).digest('hex'),g.path==='scripts/final/shot/05.md'?current05.sha256:g.sha256,g.path);
 });
 test('actual film holds exact outgoing scene on both sides; report, CV and tool tasks do not change identity',()=>{
  const render=createRenderer(JSON.parse(fs.readFileSync(new URL('../film/bundle-v01.json',import.meta.url))),p=>'/'+p);
  assert.equal(render(3659,{captions:false}).svg,render(3660,{captions:false}).svg);assert.equal(render(5309,{captions:false}).svg,render(5310,{captions:false}).svg);
  assert.equal(stateAt('04',0).previousScenarioTasks['S03-C'],'in-progress');assert.equal(stateAt('05',0).entryRequirement.jobId,'S04-JOB-01');assert.equal(stateAt('05',0).cvIsToolTask,false);assert.equal(stateAt('05',0).hrIsDirectSupervisor,false);
- assert(!render(5322).svg.includes('data-job-id='));assert.equal((render(5310).svg.match(/data-film-caption=/g)||[]).length,1);
+ assert(!render(5322).svg.includes('data-job-id='));assert.equal((render(5310).svg.match(/data-film-caption=/g)||[]).length,0);
 });

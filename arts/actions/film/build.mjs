@@ -11,7 +11,7 @@ const read=p=>fs.readFileSync(path.join(ROOT,p)),json=p=>JSON.parse(read(p)),sha
 const registries={'02':json('arts/actions/02/provenance/full-v03/input-manifest.json').registry,'05':json('arts/actions/05/provenance/v01/input-manifest.json').registry,'06':json('arts/actions/06/provenance/v01/input-manifest.json').registry};
 Object.assign(registries['02'],STORY02);
 const bundle01=json('arts/actions/01/bundle-camera-v01.json');
-const data={version:'FILM_PREVIEW v0.4',date:'2026-10-18',fps:FPS,duration:DURATION,frames:TOTAL_FRAMES,width:1920,height:1080,audio:false,bundle01,registries,chapters:CHAPTERS,beats:GLOBAL_BEATS};
+const data={version:'FILM_PREVIEW v0.5',date:'2026-10-19',fps:FPS,duration:DURATION,frames:TOTAL_FRAMES,width:1920,height:1080,audio:false,bundle01,registries,chapters:CHAPTERS,beats:GLOBAL_BEATS};
 const sources=['arts/actions/01/camera-motion.mjs','arts/actions/01/performance.mjs','arts/actions/01/keyframes.mjs','arts/actions/01/bundle-camera-v01.json','arts/actions/01/captions/caption-data.mjs','arts/actions/02/full-scene.mjs','arts/actions/02/opening-revised.mjs','arts/actions/02/entry-v03.mjs','arts/actions/02/scene.mjs','arts/actions/03/scene.mjs','arts/actions/04/scene.mjs','arts/actions/05/scene.mjs','arts/actions/06/scene.mjs'];
 const inventory=new Map();
 function add(id,a,chapter){
@@ -42,6 +42,7 @@ fs.writeFileSync(path.join(DIR,'captions-v01.srt'),GLOBAL_CUES.map((c,i)=>`${i+1
 sources.push('arts/actions/02/story-scene-v04.mjs','arts/static/02/story-assets-v01/scene-layered-v03.mjs');
 sources.push('arts/actions/03/story-scene-v05.mjs','arts/actions/04/entry-from-03-v05.mjs','arts/static/03/story-assets-v04/assets.mjs','arts/static/03/story-assets-v04/screen-copy.json');
 sources.push('arts/actions/04/story-scene-v05.mjs','arts/actions/04/captions/04-narration-v05.json','arts/static/04/story-assets-v03/assets.mjs','arts/static/04/story-assets-v03/screen-copy.json','arts/actions/05/entry-from-04-v05.mjs');
-fs.mkdirSync(path.join(DIR,'provenance/integration-v04'),{recursive:true});
-save('provenance/integration-v04/inputs.json',{date:data.date,chapters:CHAPTERS,source:sources.map(p=>({path:p,sha256:sha(p)})),framework:['timeline.mjs','scenes.mjs','player.mjs','player.css','preview.html','build.mjs','qa.mjs','framework.test.mjs'].map(p=>({path:'arts/actions/film/'+p,sha256:sha('arts/actions/film/'+p)})),audio:false,externalModelCalls:0,updatedChapter:'04',entryAdapter:'03 exact terminal held for0.4s in04;04 published job page held for0.4s in05; chapter05 body preserved'});
+sources.push('arts/actions/05/story-scene-v03.mjs','arts/actions/05/captions/05-narration-v03.json','arts/static/05/story-assets-v02/assets.mjs','arts/static/05/story-assets-v02/screen-copy.json','arts/actions/06/entry-from-05-v03.mjs');
+fs.mkdirSync(path.join(DIR,'provenance/integration-v05'),{recursive:true});
+save('provenance/integration-v05/inputs.json',{date:data.date,chapters:CHAPTERS,source:sources.map(p=>({path:p,sha256:sha(p)})),framework:['timeline.mjs','scenes.mjs','player.mjs','player.css','preview.html','build.mjs','qa.mjs','framework.test.mjs'].map(p=>({path:'arts/actions/film/'+p,sha256:sha('arts/actions/film/'+p)})),audio:false,externalModelCalls:0,updatedChapter:'05',entryAdapter:'04 published JD held for0.4s in05; new05 pending plan page held for0.4s in06;06 body remains S06 v0.1'});
 console.log(JSON.stringify({chapters:CHAPTERS.length,duration:DURATION,frames:TOTAL_FRAMES,captions:GLOBAL_CUES.length,uniqueAssetPaths:inventory.size}));

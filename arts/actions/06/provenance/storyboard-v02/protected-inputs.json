@@ -1,0 +1,94 @@
+[
+  {
+    "path": "scripts/final/shot/01.md",
+    "sha256": "0bec30c0ba6e713660947041db930db1894633c90058a78584ca40f9966a85d9"
+  },
+  {
+    "path": "scripts/final/shot/02.md",
+    "sha256": "5b05a43abfca68d8823916764c8638085e9b2ec17f9fa0d5bdb974b562c7413b"
+  },
+  {
+    "path": "scripts/final/shot/03.md",
+    "sha256": "8f2388ec19eb7a6709d35121453a60ad51ef0df49890dcdfd8df7f480b7f2368"
+  },
+  {
+    "path": "scripts/final/shot/04.md",
+    "sha256": "9a0199359b0ee68c3b3ed0f61d3fa6c25598d10b6fe7b30fb6c39f7770c0a072"
+  },
+  {
+    "path": "scripts/final/shot/05.md",
+    "sha256": "4641f53b3ad24706062296f90c9497985507f1cae3e42e59b33fe53d90a1f293"
+  },
+  {
+    "path": "arts/actions/05/story-scene-v03.mjs",
+    "sha256": "7049b79eb96784d291299c314769f4f87bbcf4d26a6234101c9d3ad41c17dc1e"
+  },
+  {
+    "path": "arts/actions/05/captions/05-narration-v03.json",
+    "sha256": "c99b22e665dbf63c406e90e5fee4f28b2c008514de28e978ef0be9d408fda3b9"
+  },
+  {
+    "path": "arts/actions/06/scene.mjs",
+    "sha256": "6441471b14334235b32f323fa3a2830cf50f6d6d992f738fef8fa633332e6dc6"
+  },
+  {
+    "path": "arts/actions/06/build.mjs",
+    "sha256": "dbbb9942392e0f01fb2b9ce6ae53bc92d21a62e17be054e445176e95cff97c55"
+  },
+  {
+    "path": "arts/actions/06/preview.html",
+    "sha256": "a78ed535030e3235107da10a5bd24f2e9816b3820f7075249ab1b07e4475f5ef"
+  },
+  {
+    "path": "arts/actions/06/entry-from-05-v03.mjs",
+    "sha256": "48e3d2903a15f6bec5f051f77e1ca11e651b2b461037066596b6f44319e4293d"
+  },
+  {
+    "path": "arts/actions/05/provenance/story-v03/boundary-to-06-v03.json",
+    "sha256": "8077d3fe2ebe2798a0529d97f1d65a6a2325682457498b75a5c2bda2ca3324ee"
+  },
+  {
+    "path": "arts/actions/film/scenes.mjs",
+    "sha256": "05bc6efe3fb6d572c0cc4fa3ff6be656f704cb4f768394c0f56d6b48bb193ee6"
+  },
+  {
+    "path": "arts/actions/film/build.mjs",
+    "sha256": "fe2765287a2aa2db1309a47878d936b1b89e18fc989593a1085d953523c4804f"
+  },
+  {
+    "path": "arts/actions/film/bundle-v01.json",
+    "sha256": "d699f147d175a66ddba1740bfb692e339048d2b4526018cbc76abaac8588e019"
+  },
+  {
+    "path": "arts/actions/film/assets-v01.json",
+    "sha256": "a7ce5661a9d289faeb2b42d59e52490c0e8b297622174653f7dd8593a41595c8"
+  },
+  {
+    "path": "arts/actions/film/captions-v01.json",
+    "sha256": "94fce77f64e415e317ead685832a67151821581d1262f8fcc5340e07697298f0"
+  },
+  {
+    "path": "arts/actions/film/captions-v01.srt",
+    "sha256": "60aa64f0d26ce42bd78086ade8a184770e5e3f4596ef8fe1614f7514938c9b05"
+  },
+  {
+    "path": "scripts/style/STYLE_BIBLE.md",
+    "sha256": "bfcac748fef00e4cea7493973d17b3ae19901c1ed6b3c167dd588b6ddd0d63a5"
+  },
+  {
+    "path": "scripts/style/ART_DIRECTION.md",
+    "sha256": "ee30a30494935c1e00953db8ac99b936d71173330512a8c1143430addece4bcd"
+  },
+  {
+    "path": "arts/actions/06/captions/06-v01.json",
+    "sha256": "2f98c4f563ebeb40da36cdb8a5d9027c7547b8d9a41f54dadc29a5b4446328f9"
+  },
+  {
+    "path": "arts/actions/06/captions/06-v01.srt",
+    "sha256": "bf1542ae51b1ac5f5fe3b892413b76c627ab2f80ae9896436bbb63381839fb05"
+  },
+  {
+    "path": "arts/actions/06/captions/06-v01.vtt",
+    "sha256": "dbce388378f25a7264e1893bcdac7f3341a2573a922b0f9f544bbc5d0c7cddf2"
+  }
+]

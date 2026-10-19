@@ -1,0 +1,212 @@
+[
+  {
+    "id": "S05-R01",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-20b976a2-600f-426f-83a0-1ac2dcbeb6b9.png",
+    "target": "arts/backgrounds/05/office-delivery-contact-v02.png",
+    "prompt": "Use case: illustration-story. Asset S05-R01, a single finished animation scene plate for a 16:9 1920x1080 educational film. Landscape 16:9, NOT a collage.\nReference image1 defines EXACT identity and 2D cel illustration style of the dark-haired blue-grey shirt programmer and the orange-bob-haired female Agent with star hair ornament, white jacket and black inner shirt. Image2 defines the two coworkers (brown-haired grey-green male and low-bun brown-haired cream-sweater woman) and coherent office/desk perspective. Image3 refines programmer face, blue-grey clothing, teal lanyard. Preserve these identities.\nNew composition: a warm daytime open-plan office, eye-level frontal THREE-QUARTER wide view. A single continuous wooden workbench occupies the lower third. Programmer is seated behind its LEFT half in his proper chair, visible face at about x27%, y48%, keyboard in front. The Agent STANDS ON THE FLOOR in the aisle behind the workbench, BETWEEN the two seated main workers, head higher than their heads, centered around x51%. She calmly hands ONE paper to the programmer; his right hand meets the left edge of this sheet, her hand grips the opposite edge, clear plausible fingers and paper ownership. The tabletop naturally occludes their lower bodies, no person on tabletop. Coworker man sits behind the RIGHT half with his own keyboard and screen, and the coworker woman is at a further back workstation, small but recognizable. At most these four characters.\nOffice space: warm tall windows with distant blue city on LEFT and left rear, plants, organized shelves, visible solid BACK WALL on the RIGHT. On this back wall, fully visible ABOVE the workers' heads, two adjacent existing signage surfaces: a large BLANK landscape whiteboard (roughly x57%-79%, y7%-31%), and a BLANK portrait cream framed advertisement (roughly x82%-96%, y7%-34%). Whiteboard and poster are front-facing planar rectangles with only a slight natural perspective; no head hides their printable areas. They are environment fixtures, not graphic overlays. Keep both surfaces completely blank, no writing, no lines or icons. This wall position will remain invariant in later images.\nMonitors at outer edges leave handoff contact and all faces clear; keyboards sit flat on desks with believable hands. Correct chair seats below table plane, common vanishing points and stable lighting. Restrained friendly work expression, no comedy villain or exaggerated stress. Detailed clean ink outlines, warm natural cel shading, same aesthetic as references. No text anywhere, no logo, no watermark, no floating UI, no subtitles, no split panels. Maintain clear lower margin for later subtitle composition.",
+    "refs": [
+      "arts/backgrounds/04/collaboration-review-v03.png",
+      "arts/backgrounds/03/neighbor-work-a-v05.png",
+      "arts/backgrounds/03/programmer-front-desk-a-v05.png"
+    ],
+    "transparent": false,
+    "status": "adopted",
+    "sha256": "58da9006af994b210d85127247cb075828e2fa78a3ddb2f2b57b4ccf906783d9",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/04/collaboration-review-v03.png",
+        "sha256": "c01cd90560ca7bad42fb469c070041f5b76bbe119a623d370471ced5194db6be"
+      },
+      {
+        "path": "arts/backgrounds/03/neighbor-work-a-v05.png",
+        "sha256": "8a6fa3f0e97925dacfa825ea2a8545928e41d6d4899c55ff0dd1662f3da80a0c"
+      },
+      {
+        "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+        "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac"
+      }
+    ],
+    "dimensions": [
+      1672,
+      941
+    ],
+    "hasAlpha": false,
+    "originalSha256": "58da9006af994b210d85127247cb075828e2fa78a3ddb2f2b57b4ccf906783d9",
+    "originalPresent": true
+  },
+  {
+    "id": "S05-R02-draft",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-88b7f08c-196e-4fb7-ab44-cac2319e4046.png",
+    "target": "arts/static/05/story-assets-v02/provenance/process/office-delivery-cleared-first.png",
+    "prompt": "Use case: identity-preserve. Asset S05-R02, next keyframe after this exact reference image S05-R01.\nEdit this scene while preserving the exact 16:9 wide camera, resolution/aspect, all furniture, monitor and keyboard positions, office background architecture, daylight, blank whiteboard and blank advertisement frames and character identities.\nChange only the handoff result and restrained gaze: the left seated blue-grey-shirt programmer now securely holds the SAME ONE paper in BOTH hands centered over his own keyboard, reading/checking it with a small relaxed look. His two hands grip opposite outer paper edges, plausible wrists and fingers. The orange-haired Agent has released the paper and fully withdrawn BOTH hands to her own side, her nearest hand relaxed near her waist, not touching the document and not palm-open requesting yet. Keep her standing in exactly the same floor position between workers, lower body behind the tabletop, no scale change. Right coworker stays seated at his keyboard and now looks back to his screen; far coworker continues at rear workstation. Do not move chairs, do not change faces, do not add people. Empty space between Agent hand and paper must clearly show ownership has passed. No text, logos, subtitles, UI, symbols or speech bubbles. All signage surfaces remain completely blank. No alternate camera, no split screen, no duplicate limbs. Preserve coherent hand-to-paper/table perspective. Same clean warm 2D cel illustration and line weight as source.",
+    "refs": [
+      "arts/backgrounds/05/office-delivery-contact-v02.png"
+    ],
+    "transparent": false,
+    "status": "superseded",
+    "review": "Paper/contact and environment correct; inner black top became cropped. Fix shirt length before adoption.",
+    "sha256": "76931b56c1c3c8874fc5193e10cfd1956bbc88ad01de314a5762e1448888daa5",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/05/office-delivery-contact-v02.png",
+        "sha256": "58da9006af994b210d85127247cb075828e2fa78a3ddb2f2b57b4ccf906783d9"
+      }
+    ],
+    "dimensions": [
+      1672,
+      941
+    ],
+    "hasAlpha": false,
+    "originalSha256": "76931b56c1c3c8874fc5193e10cfd1956bbc88ad01de314a5762e1448888daa5",
+    "originalPresent": true
+  },
+  {
+    "id": "S05-R02",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-3c69ac81-22cb-4f0e-8b1d-59873fe23f7b.png",
+    "target": "arts/backgrounds/05/office-delivery-cleared-v02.png",
+    "prompt": "Use case: precise-object-edit. Correct ONE clothing continuity defect in this exact image, retaining every other pixel-level composition feature. The orange-haired Agent's black sleeveless high-neck inner top must extend ALL THE WAY DOWN to her trouser waistband, covering her abdomen completely, as one continuous black fabric garment. Remove the exposed skin strip at her waist by extending the black shirt, not by raising her pants. Keep her white jacket, orange insignia, face, hands and current pose unchanged. Keep the programmer holding the paper with both hands, both coworkers, all furniture, all camera geometry and blank signage exactly unchanged. No other edits, no text or UI. Output same single landscape scene, no collage.",
+    "refs": [
+      "arts/static/05/story-assets-v02/provenance/process/office-delivery-cleared-first.png"
+    ],
+    "transparent": false,
+    "status": "adopted",
+    "review": "Black inner-top length corrected; same paper securely in programmer hands, Agent released.",
+    "sha256": "eda3bf9e0c9944dfb4e063e53c71bc848d00cdfe86ec45d2b20a070e2658f710",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/static/05/story-assets-v02/provenance/process/office-delivery-cleared-first.png",
+        "sha256": "76931b56c1c3c8874fc5193e10cfd1956bbc88ad01de314a5762e1448888daa5"
+      }
+    ],
+    "dimensions": [
+      1672,
+      941
+    ],
+    "hasAlpha": false,
+    "originalSha256": "eda3bf9e0c9944dfb4e063e53c71bc848d00cdfe86ec45d2b20a070e2658f710",
+    "originalPresent": true
+  },
+  {
+    "id": "S05-R03",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-d5fc44af-4d41-4576-be58-402e79ac6d5e.png",
+    "target": "arts/backgrounds/05/office-agent-wait-v02.png",
+    "prompt": "Use case: identity-preserve. Asset S05-R03. Edit the next animation keyframe in this SAME scene, preserving exact 16:9 camera and every office/furniture/signage/monitor/keyboard location, face identity, body scale, lighting and style.\nNew action: the previously delivered paper has been laid flat on the wooden desk to the programmer's left, so there is ONE visible delivered sheet at rest, not two and not hovering. The programmer is seated in the same left chair with BOTH hands off the keyboard resting flat on the desk on either side of it; he pauses and turns his eyes up-right toward the Agent, lips closed, restrained slightly tired surprise.\nThe Agent stands at the same spot on the FLOOR behind the table. She has no paper. Her right forearm bends naturally at elbow, ONE open palm gently up at waist-to-chest height, indicating she is waiting for the next instruction; her other hand rests naturally at her side. Inviting expectant expression, not commanding or angry. Her black high-neck sleeveless inner shirt MUST cover the entire abdomen down to her black trouser waistband, no bare midriff. White jacket, orange symbol and star ornament exactly unchanged.\nThe right coworker has stopped typing, hands relaxed resting just before the keyboard, eyes turned left toward the interaction, restrained puzzled expression. The rear low-bun woman remains at her own rear desk, also glances up, no new person.\nNo text, no UI, no speech balloons or symbols; blank whiteboard and ad remain completely unchanged and blank. No split panels, no camera motion or redesigned room, no stretched arms, extra fingers, duplicate bodies or cartoon anger. Clear physical occlusion by the existing desk.",
+    "refs": [
+      "arts/backgrounds/05/office-delivery-cleared-v02.png"
+    ],
+    "transparent": false,
+    "status": "adopted",
+    "review": "Same office and camera; Agent empty palm, staff look up; one delivered paper rests between keyboard and Agent.",
+    "sha256": "cb5e5a386e127f109c3ce4298f595e11f162c3be5f772cd48078de1722d1c3bb",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/05/office-delivery-cleared-v02.png",
+        "sha256": "eda3bf9e0c9944dfb4e063e53c71bc848d00cdfe86ec45d2b20a070e2658f710"
+      }
+    ],
+    "dimensions": [
+      1672,
+      941
+    ],
+    "hasAlpha": false,
+    "originalSha256": "cb5e5a386e127f109c3ce4298f595e11f162c3be5f772cd48078de1722d1c3bb",
+    "originalPresent": true
+  },
+  {
+    "id": "S05-R04",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-69d8dca9-fbf6-4036-b0b4-4b949b6e85b2.png",
+    "target": "arts/backgrounds/05/programmer-pause-close-v02.png",
+    "prompt": "Use case: illustration-story, identity-preserve. Asset S05-R04: a closer character-reaction shot in the exact office of image1; image2 is programmer facial identity reference only, not its room layout.\nMake one landscape16:9 frame. Move camera closer along the SAME front three-quarter side of the desk, no reverse shot. The programmer occupies left-to-center, his full head, chest, lanyard and BOTH hands visible with the same chair and the same left keyboard along lower edge. His hands rest beside the keyboard, fingers relaxed, clearly NOT typing. He pauses, lips closed, eyes lift toward the back-wall signage to CAMERA RIGHT beyond the Agent, eyebrows slightly concerned/thoughtful. Not rage, not melodrama. The delivered single paper is lying on the table to the RIGHT of his keyboard, continuing image1.\nAt the right edge retain part of the SAME standing orange-haired Agent, enough head/upper body and her relaxed open-palm waiting gesture to identify her; she stays in her existing aisle behind table, no extra person, no hand crossing programmer. Black inner top fully covers abdomen, white jacket and star ornament unchanged. Physical desk stays between audience and characters.\nBackground remains the recognizable same sunny windows to left, shelves and back-wall blank whiteboard/ad farther to right, naturally more defocused than the sharp face and hands. Keep blank surfaces blank, no invented signage elsewhere. The reaction can clearly connect to a following signage insert.\nMatch exact face/hair/color style and restrained warm cel shading of references. Correct seated torso height and table occlusion. No text, speech bubble, HUD, clocks, logos, subtitles, line icons, split panels, duplicated hands or cutout collage. Single coherent drawn viewpoint.",
+    "refs": [
+      "arts/backgrounds/05/office-agent-wait-v02.png",
+      "arts/backgrounds/03/programmer-front-desk-a-v05.png"
+    ],
+    "transparent": false,
+    "status": "adopted",
+    "review": "Front3/4 close shot, same paper rests to keyboard right; restrained pause and camera-right eyeline; Agent at right.",
+    "sha256": "7720a6d09f58d0c88d7b0498aac0cd343054bb081eb2491215381028652ae78b",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/05/office-agent-wait-v02.png",
+        "sha256": "cb5e5a386e127f109c3ce4298f595e11f162c3be5f772cd48078de1722d1c3bb"
+      },
+      {
+        "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+        "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac"
+      }
+    ],
+    "dimensions": [
+      1672,
+      941
+    ],
+    "hasAlpha": false,
+    "originalSha256": "7720a6d09f58d0c88d7b0498aac0cd343054bb081eb2491215381028652ae78b",
+    "originalPresent": true
+  },
+  {
+    "id": "S05-R05",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-1f1349d6-3090-421d-b5a4-14ebb01752ed.png",
+    "target": "arts/backgrounds/05/office-signage-insert-v02.png",
+    "prompt": "Use case: illustration-story. Asset S05-R05: motivated physical signage insert in the office shown in reference. One single landscape16:9 frame, not a graphic slide or collage.\nFrame a CLOSE VIEW of the SAME two fixtures on the solid back wall of the reference office, from the same front camera side with only slight natural perspective. The existing large blank aluminum-framed WHITEBOARD occupies roughly x5%-63%, y12%-79%. Preserve its white/light-grey glossy surface, rounded metal frame and small marker tray. The existing CREAM POSTER inside its warm wooden portrait frame occupies roughly x68%-96%, y12%-79%, preserving its tall portrait ratio. These are wall-mounted signs, not digital windows. Keep the office's daylight and warm diagonal sunlight consistent with reference; show a narrow edge of the window/plant at far left and a softly out-of-focus desk edge or monitor corner along bottom10% linking the view to the working office. No person required. Whiteboard and poster must be large, clean and unobstructed so later Chinese copy will be legible, no shadows crossing the central text areas.\nBOTH surfaces completely BLANK: NO text, NO letters, NO numbers, NO icon, NO logo, NO printed character. No promotional brand marks, no robot. Typography and imagery will be composed later using native layers. Preserve the exact physical fixtures, wall color and reference illustration style, not a different meeting room. Same clean warm 2D anime/cel shading. No visible arrow graphics, no explanatory caption, no HUD or split panels.",
+    "refs": [
+      "arts/backgrounds/05/office-delivery-contact-v02.png"
+    ],
+    "transparent": false,
+    "status": "adopted",
+    "review": "Same two wall fixtures in motivated close insert; blank clean planar surfaces, monitor foreground links office.",
+    "sha256": "7a73814ead739a2190cce8de256070803c17abbc2ddc106c41987e8df1fcb22d",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/05/office-delivery-contact-v02.png",
+        "sha256": "58da9006af994b210d85127247cb075828e2fa78a3ddb2f2b57b4ccf906783d9"
+      }
+    ],
+    "dimensions": [
+      1672,
+      941
+    ],
+    "hasAlpha": false,
+    "originalSha256": "7a73814ead739a2190cce8de256070803c17abbc2ddc106c41987e8df1fcb22d",
+    "originalPresent": true
+  },
+  {
+    "id": "S05-R06",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-88a633df-0641-4a2e-b2d7-5fcbf4c1f732.png",
+    "target": "arts/backgrounds/05/programmer-resume-close-v02.png",
+    "prompt": "Use case: identity-preserve. Asset S05-R06, final whole-frame action keyframe matching image S05-R04.\nKeep this EXACT 16:9 close camera, room, chair, faces, clothing, desk, keyboard, monitor, paper position and blank background signs. Change ONLY the working action and its natural gaze.\nThe same programmer now returns his gaze down-left to his real monitor, his face slightly more frontal and focused, both hands placed naturally on the EXISTING keyboard in a plausible typing position, separate wrists, fingers making light key contact. His blue-grey shirt, teal lanyard and blank badge are unchanged. Do not move or alter the keyboard and do not make new keys beneath fingers. The ONE delivered sheet remains flat on the desk to the RIGHT of his keyboard, exactly where it was. He is sending a new instruction, not posing at camera.\nThe same orange-haired Agent on the right has lowered her previously open asking hand to a relaxed position by her own side or near her waist, clearly withdrawn away from the programmer, and now attends to his monitor with a composed waiting/receiving expression, mouth gently closed. Black high-neck inner top covers her full torso to the trouser waistband, no exposed abdomen. Keep her entire body scale and standing floor position unchanged. No extra hands, floating arm, tray or second paper.\nClean cel-shaded drawn anatomy and same lighting. No letters, no text, no UI, no speech balloon, no decorative action lines, no split screen. This must match-cut naturally from the source paused pose to resuming work.",
+    "refs": [
+      "arts/backgrounds/05/programmer-pause-close-v02.png"
+    ],
+    "transparent": false,
+    "status": "adopted",
+    "review": "Close camera, keyboard, desk and paper preserved; programmer resumes typing, Agent withdraws asking hand.",
+    "sha256": "c871fb5abeabe515612ebf291810b34cd7ea801fcf6f9e4cc137b6c7d07a56de",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/05/programmer-pause-close-v02.png",
+        "sha256": "7720a6d09f58d0c88d7b0498aac0cd343054bb081eb2491215381028652ae78b"
+      }
+    ],
+    "dimensions": [
+      1672,
+      941
+    ],
+    "hasAlpha": false,
+    "originalSha256": "c871fb5abeabe515612ebf291810b34cd7ea801fcf6f9e4cc137b6c7d07a56de",
+    "originalPresent": true
+  }
+]
