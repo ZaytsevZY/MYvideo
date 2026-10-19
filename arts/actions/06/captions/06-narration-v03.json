@@ -1,0 +1,83 @@
+[
+  {
+    "text": "效率收益可以转化为更多交付，",
+    "startMs": 0,
+    "endMs": 4700,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A01",
+    "sourceNote": "06-1"
+  },
+  {
+    "text": "也可以转化为更短工时。",
+    "startMs": 4700,
+    "endMs": 8800,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A02",
+    "sourceNote": "06-1"
+  },
+  {
+    "text": "区别在于谁决定生产规模，",
+    "startMs": 8800,
+    "endMs": 12400,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A03",
+    "sourceNote": "06-1"
+  },
+  {
+    "text": "谁分配节约的时间。",
+    "startMs": 12400,
+    "endMs": 16000,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A04",
+    "sourceNote": "06-1"
+  },
+  {
+    "text": "让劳动者参与确定任务边界，",
+    "startMs": 16000,
+    "endMs": 21300,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A05",
+    "sourceNote": "06-2"
+  },
+  {
+    "text": "并获得实际可支配的时间，",
+    "startMs": 21300,
+    "endMs": 26000,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A06",
+    "sourceNote": "06-2"
+  },
+  {
+    "text": "技术进步才有机会转化为人的自由。",
+    "startMs": 26000,
+    "endMs": 31000,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A07",
+    "sourceNote": "06-2"
+  },
+  {
+    "text": "效率何时成为义务，",
+    "startMs": 31000,
+    "endMs": 35700,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A08",
+    "sourceNote": "06-3"
+  },
+  {
+    "text": "取决于谁有权为工作画上句号。",
+    "startMs": 35700,
+    "endMs": 44000,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A09",
+    "sourceNote": "06-3"
+  }
+]

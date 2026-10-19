@@ -1,3 +1,4 @@
+import {normalizeCues,captionSvg} from './captions.mjs';
 // Adapters only: the adopted chapter sources and PNGs remain unchanged.
 import * as c01 from '../01/camera-motion.mjs';
 import {CAPTIONS} from '../01/captions/caption-data.mjs';
@@ -5,24 +6,20 @@ import {rootSvg} from '../../characters/rigs/runtime/rig.mjs';
 import * as c02 from '../02/story-scene-v04.mjs';
 import * as c03 from '../03/story-scene-v05.mjs';
 import * as c04 from '../04/story-scene-v05.mjs';
-import * as entry06 from '../06/entry-from-05-v03.mjs';
 import * as legacy05 from '../05/scene.mjs';
 import * as c05 from '../05/story-scene-v03.mjs';
-import * as c06 from '../06/scene.mjs';
+import * as c06 from '../06/story-scene-v03.mjs';
 import {CHAPTERS,FPS,locateFrame} from './timeline.mjs';
-export const CUES={'01':CAPTIONS,'02':c02.CUES,'03':c03.CUES,'04':c04.CUES,'05':c05.CUES,'06':c06.CUES};
+export const RAW_CUES={'01':CAPTIONS,'02':c02.CUES,'03':c03.CUES,'04':c04.CUES,'05':c05.CUES,'06':c06.CUES};
+export const CUES=Object.fromEntries(Object.entries(RAW_CUES).map(([id,cues])=>[id,normalizeCues(id,cues)]));
 export const BEATS={'01':c01.CAMERA_BEATS,'02':c02.BEATS,
  '03':c03.BEATS,
  '04':c04.BEATS,
  '05':c05.BEATS,'06':c06.BEATS};
-export const DIRECT_ASSETS_BY_CHAPTER={'03':c03.ASSETS,'04':c04.ASSETS,'05':c05.ASSETS,'06':entry06.ASSETS};
-export function stateAt(id,t){return id==='01'?c01.sampleCameraScene(t):id==='02'?c02.sample(t):id==='03'?c03.sample(t):id==='04'?c04.sample(t):id==='05'?c05.sample(t):entry06.sample(t);}
+export const DIRECT_ASSETS_BY_CHAPTER={'03':c03.ASSETS,'04':c04.ASSETS,'05':c05.ASSETS,'06':c06.ASSETS};
+export function stateAt(id,t){return id==='01'?c01.sampleCameraScene(t):id==='02'?c02.sample(t):id==='03'?c03.sample(t):id==='04'?c04.sample(t):id==='05'?c05.sample(t):c06.sample(t);}
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
-export function captionSvg(cue){
- if(!cue)return '';
- const units=[...cue.text].reduce((n,ch)=>n+(/[\x00-\x7f]/.test(ch)?.56:1),0),w=Math.ceil(units*44+68);
- return `<g data-film-caption="${cue.startMs}" aria-label="${esc(cue.text)}"><rect x="${960-w/2}" y="994" width="${w}" height="68" rx="12" fill="#101923" fill-opacity=".78"/><text x="960" y="1028" text-anchor="middle" dominant-baseline="central" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="44" font-weight="500" fill="#FFFDF8">${esc(cue.text)}</text></g>`;
-}
+export {captionSvg} from './captions.mjs';
 export function activeCue(id,t){return CUES[id].find(c=>c.startMs<=t*1000&&t*1000<c.endMs)||null;}
 function symbol(id,a,resolve){
  const vb=a.viewBox||[0,0,a.width,a.height];
@@ -47,8 +44,7 @@ export function createRenderer(data,resolve){
   else if(id==='03')image=c03.svg(t,refs['03'],{caption:false});
   else if(id==='04')image=c04.svg(t,refs['04'],{caption:false});
   else if(id==='05')image=c05.svg(t,refs['05'],{caption:false});
-  else if(id==='06'&&t<.4)image=entry06.entrySvg(t,refs['06']);
-  else {const content=legacy05.withoutCaptions(c06.draw(c06.sample(t)));image=c06.svg(content,defsFor(id,content));}
+  else image=c06.svg(t,refs['06'],{caption:false});
   // Insert after the complete root content, never into chapter04's nested prior SVG.
   const at=image.lastIndexOf('</svg>');
   image=image.slice(0,at)+(captions?captionSvg(cue):'')+image.slice(at);

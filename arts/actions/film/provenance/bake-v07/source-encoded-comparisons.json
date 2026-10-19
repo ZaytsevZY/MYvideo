@@ -1,0 +1,38 @@
+[
+  {
+    "chapter": "01",
+    "frame": 78,
+    "rgbMeanAbsoluteError": 1.6226356738683128,
+    "captionRegionMeanAbsoluteError": 1.7680111434108527
+  },
+  {
+    "chapter": "02",
+    "frame": 1386,
+    "rgbMeanAbsoluteError": 1.8612753986625514,
+    "captionRegionMeanAbsoluteError": 2.021517684108527
+  },
+  {
+    "chapter": "03",
+    "frame": 2556,
+    "rgbMeanAbsoluteError": 1.2726294045781894,
+    "captionRegionMeanAbsoluteError": 1.563826308139535
+  },
+  {
+    "chapter": "04",
+    "frame": 3733,
+    "rgbMeanAbsoluteError": 1.9479235789609053,
+    "captionRegionMeanAbsoluteError": 1.652529473514212
+  },
+  {
+    "chapter": "05",
+    "frame": 5406,
+    "rgbMeanAbsoluteError": 1.3378454539609053,
+    "captionRegionMeanAbsoluteError": 1.796687257751938
+  },
+  {
+    "chapter": "06",
+    "frame": 6730,
+    "rgbMeanAbsoluteError": 2.036492573302469,
+    "captionRegionMeanAbsoluteError": 1.8357578326873385
+  }
+]

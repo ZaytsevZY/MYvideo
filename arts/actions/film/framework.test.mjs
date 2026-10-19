@@ -14,7 +14,7 @@ test('one global frame clock covers six chapters without duplicate endpoint fram
  assert.equal(frameAtTime(280).frame,8399);assert.equal(locateFrame(-1).frame,0);assert.throws(()=>locateFrame(NaN));
 });
 test('all original narration appears once with a single global subtitle offset',()=>{
- assert.equal(GLOBAL_CUES.length,69);
+ assert.equal(GLOBAL_CUES.length,55);
  let last=0;
  for(const c of CHAPTERS){
   const raw=fs.readFileSync(new URL(`../../../scripts/final/shot/${c.id}.md`,import.meta.url),'utf8').split('<start>')[1].split('<end>')[0].replace(/\s/g,'');
@@ -35,7 +35,7 @@ test('six adapters render every frame with resolvable assets and stable state',(
  for(const f of [0,1349,1350,2489,2490,3659,3660,5309,5310,6659,6660,8399])assert.equal(render(f).svg,render(f).svg);
 });
 test('scene jumps select authored shots and subtitle toggle only removes subtitles',()=>{
- assert.equal(GLOBAL_BEATS.length,69);
+ assert.equal(GLOBAL_BEATS.length,72);
  for(const b of GLOBAL_BEATS){assert.equal(locateFrame(b.globalFrame).chapter.id,b.chapterId);assert.equal(render(b.globalFrame).beat.id,b.id);}
  for(const c of CHAPTERS){const on=render(c.startFrame+30),off=render(c.startFrame+30,{captions:false});assert(!off.svg.includes('data-film-caption='));assert(on.svg.includes(off.svg.slice(0,-6)));}
 });

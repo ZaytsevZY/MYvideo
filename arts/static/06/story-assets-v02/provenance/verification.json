@@ -1,0 +1,52 @@
+{
+  "version": "S06_ART v0.2",
+  "protectedInputs": 35,
+  "allProtectedInputBytesUnchanged": true,
+  "scriptBytesUnchanged": true,
+  "oldRuntimeAndCaptionsUnchanged": true,
+  "imageGenerationCalls": 18,
+  "adoptedNewRasters": 16,
+  "supersededRasters": 2,
+  "registryAssets": 25,
+  "referencePngHashesChecked": 25,
+  "compositionStates": 24,
+  "xmlAndReferences": "passed24 SVGs, no duplicate IDs, all embedded PNG references resolve",
+  "visualReview": "passed generated originals,24-state contact, full-size conditions page, browser meeting/choices/home",
+  "newRuntimeProduced": false,
+  "audioProduced": false,
+  "videoProduced": false,
+  "model": "not exposed by built-in image_gen",
+  "codeModelCalls": 0,
+  "browser": {
+    "materialPageReady": true,
+    "assets": 25,
+    "sceneGroups": 10,
+    "keyStates": 24,
+    "groupSwitchPassed": true,
+    "stateSwitchPassed": true,
+    "captionTogglePassed": true,
+    "meetingPaperAndCaptionChecked": true,
+    "choiceDifferenceChecked": true,
+    "homeBookPageAndBagsChecked": true,
+    "errorsAndWarnings": [],
+    "new58SecondRuntime": false
+  },
+  "allRequiredAssetGroupsCovered": true,
+  "fullAnimationProduced": false,
+  "actualSourceSizes": {
+    "square": [
+      1254,
+      1254
+    ],
+    "landscape": [
+      1672,
+      941
+    ]
+  },
+  "alphaPolicy": "Opaque coherent scene keyframes, no transparency requested; existing PNG alpha retained",
+  "commands": [
+    "node arts/static/06/story-assets-v02/build.mjs",
+    "python3 arts/static/06/story-assets-v02/provenance/verify.py"
+  ],
+  "newChapterSeamsVerified": false
+}

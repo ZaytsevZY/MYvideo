@@ -1,0 +1,599 @@
+{
+  "version": "S06_ART v0.2",
+  "status": "material-keyframes-not58s-runtime",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "subtitleSafe": [
+    40,
+    994,
+    1840,
+    70
+  ],
+  "choices": {
+    "source": [
+      64,
+      180,
+      430,
+      750
+    ],
+    "left": [
+      560,
+      250,
+      615,
+      650
+    ],
+    "right": [
+      1220,
+      250,
+      615,
+      650
+    ],
+    "companyNode": [
+      855,
+      104
+    ],
+    "employeeNode": [
+      1528,
+      104
+    ]
+  },
+  "meeting": {
+    "paperQuad": [
+      [
+        631,
+        810
+      ],
+      [
+        1412,
+        808
+      ],
+      [
+        1555,
+        954
+      ],
+      [
+        500,
+        954
+      ]
+    ],
+    "labels": [
+      [
+        745,
+        910
+      ],
+      [
+        1045,
+        910
+      ],
+      [
+        1340,
+        910
+      ]
+    ],
+    "penContact": [
+      960,
+      808
+    ],
+    "feedback": [
+      1530,
+      865,
+      280,
+      64
+    ]
+  },
+  "work": {
+    "raster": [
+      24,
+      24,
+      950,
+      950
+    ],
+    "resultWindow": [
+      1028,
+      150,
+      828,
+      730
+    ]
+  },
+  "conditions": {
+    "plan": [
+      566,
+      30,
+      788,
+      220
+    ],
+    "quote": [
+      75,
+      245,
+      850,
+      660
+    ],
+    "institution": [
+      995,
+      245,
+      850,
+      660
+    ]
+  },
+  "layers": [
+    "coherent-raster-scene",
+    "physical-paper-editable-copy",
+    "task-or-participation-contents",
+    "action-feedback",
+    "optional-caption-safe-check"
+  ],
+  "notes": [
+    "首段两窗为互斥逻辑对照，同人双视图不计两个人",
+    "人物／道具／座椅同透视绘稿，不拆肢体",
+    "纸张文字避开食指及笔尖；角色画面无烘焙事实文字",
+    "standing/departed同时复用于分支和真实履约离席",
+    "生活书／纸袋／双扣工作包保持，书页只作片尾视觉匹配",
+    "本文件仅24个素材构图关键态，非58秒新动态"
+  ],
+  "registry": [
+    {
+      "id": "settled",
+      "path": "arts/backgrounds/06/office-choice-settled-v02.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "sha256": "90e21b2b57e32e9ce3e0de18fada196e83dd707be0b461193a3572922a6a7d20",
+      "bytes": 2003813,
+      "adoptedRaster": true
+    },
+    {
+      "id": "extra",
+      "path": "arts/backgrounds/06/office-choice-extra-work-v02.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "sha256": "4436690b5896931a25c9be4405c829f7aaa44185a632f2f17f956a209065f16a",
+      "bytes": 2036260,
+      "adoptedRaster": true
+    },
+    {
+      "id": "standing",
+      "path": "arts/backgrounds/06/office-standing-with-bag-v02.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "sha256": "1a0ce439edcb958bd521aa76e40e31dd7ef2528b8901dcb684375a5c05b8fb31",
+      "bytes": 2128149,
+      "adoptedRaster": true
+    },
+    {
+      "id": "departed",
+      "path": "arts/backgrounds/06/office-leave-doorway-v02.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "sha256": "4ddb6436608fbf82dbca5f6c759246a33981cf7781ee0252a8486c074a4c314f",
+      "bytes": 2112656,
+      "adoptedRaster": true
+    },
+    {
+      "id": "developer",
+      "path": "arts/backgrounds/06/meeting-developer-scope-v02.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "sha256": "2e261c82e0db490eebd02c92da4ba22a8d18537bba9ea49ab6e36252d01fe6e2",
+      "bytes": 2080275,
+      "adoptedRaster": true
+    },
+    {
+      "id": "tester",
+      "path": "arts/backgrounds/06/meeting-tester-needs-v02.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "sha256": "ae82f9001a866e846e6bfc1d407c459c456fb88a26cb4700d68933cee84f3ece",
+      "bytes": 2090874,
+      "adoptedRaster": true
+    },
+    {
+      "id": "writing",
+      "path": "arts/backgrounds/06/meeting-manager-write-v02.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "sha256": "bf9ae5b483fa4c5914b743a116c8c9ef9ea551ea3a46821020c89dc727237eb8",
+      "bytes": 2092826,
+      "adoptedRaster": true
+    },
+    {
+      "id": "agreed",
+      "path": "arts/backgrounds/06/meeting-joint-confirm-v02.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "sha256": "9897d7cfda1acce193227bd4c5fecc18aa97999d0887291f798176a21c980fd4",
+      "bytes": 2089027,
+      "adoptedRaster": true
+    },
+    {
+      "id": "review",
+      "path": "arts/backgrounds/06/office-review-deliverable-v02.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "sha256": "bdff4eb9a3999812817db23c9a6017c08f198104c724b09eaf56770b485ac1b5",
+      "bytes": 2004220,
+      "adoptedRaster": true
+    },
+    {
+      "id": "accepted",
+      "path": "arts/backgrounds/06/office-accept-deliverable-v02.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "sha256": "65a13d68e41c806a03e3856fd7c70fa3d579a43014b6e05d5700c08becf293d5",
+      "bytes": 2008953,
+      "adoptedRaster": true
+    },
+    {
+      "id": "bookSelect",
+      "path": "arts/backgrounds/06/bookshop-select-v02.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "sha256": "d70ac251158b57c1bcfb71e434a3d71b1ad5156b14f5ff05917255b8606c642c",
+      "bytes": 1995754,
+      "adoptedRaster": true
+    },
+    {
+      "id": "bookBuy",
+      "path": "arts/backgrounds/06/bookshop-purchase-v02.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "sha256": "5582c23502ac9bf7976df8e3f8caa69cd898975b053961431a28aac92f15fd78",
+      "bytes": 2123594,
+      "adoptedRaster": true
+    },
+    {
+      "id": "theatreSettle",
+      "path": "arts/backgrounds/06/theatre-settle-v02.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "sha256": "ce5c82c7377601e8944ee107d297ddc8ba18556052c479760716a3bb2403a0e3",
+      "bytes": 1856366,
+      "adoptedRaster": true
+    },
+    {
+      "id": "theatreEnjoy",
+      "path": "arts/backgrounds/06/theatre-enjoy-v02.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "sha256": "31860295ce9d83c0058f3784dc85eaedcf78146ddc56451aee76da3e2424ce0a",
+      "bytes": 1849037,
+      "adoptedRaster": true
+    },
+    {
+      "id": "homeRead",
+      "path": "arts/backgrounds/06/home-reading-v02.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "sha256": "4df7821face266b5b7ac288eba16aa254232fcb9a9d4ead23d8f079a96a53df4",
+      "bytes": 2250474,
+      "adoptedRaster": true
+    },
+    {
+      "id": "homeTurn",
+      "path": "arts/backgrounds/06/home-page-turn-v02.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "sha256": "d78583357f31bb850f6eaf8d6b16f8b4775df0d8e2de130f30220d9b96845555",
+      "bytes": 2180587,
+      "adoptedRaster": true
+    },
+    {
+      "id": "programmer",
+      "path": "arts/characters/portraits/03/programmer-front-v04.png",
+      "width": 512,
+      "height": 512,
+      "alpha": false,
+      "sha256": "ff8cef460bf150f730b2cc651b84e58ed9f92d3e09b74866be7724e919ff8d9d",
+      "bytes": 516674,
+      "adoptedRaster": true
+    },
+    {
+      "id": "coworkerA",
+      "path": "arts/characters/portraits/03/coworker-a-v04.png",
+      "width": 512,
+      "height": 512,
+      "alpha": false,
+      "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5",
+      "bytes": 449474,
+      "adoptedRaster": true
+    },
+    {
+      "id": "coworkerB",
+      "path": "arts/characters/portraits/03/coworker-b-v04.png",
+      "width": 512,
+      "height": 512,
+      "alpha": false,
+      "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5",
+      "bytes": 513362,
+      "adoptedRaster": true
+    },
+    {
+      "id": "manager",
+      "path": "arts/characters/portraits/03/manager-neutral-v04.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370",
+      "bytes": 1626674,
+      "adoptedRaster": true
+    },
+    {
+      "id": "agent",
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828",
+      "bytes": 1422938,
+      "adoptedRaster": true
+    },
+    {
+      "id": "company",
+      "path": "arts/items/04/company-a-v03.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "sha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247",
+      "bytes": 1644100,
+      "adoptedRaster": true
+    },
+    {
+      "id": "document",
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "width": 1086,
+      "height": 1448,
+      "alpha": true,
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420",
+      "bytes": 1390962,
+      "adoptedRaster": true
+    },
+    {
+      "id": "documentWide",
+      "path": "arts/items/01/task-document-landscape-v01.png",
+      "width": 1774,
+      "height": 887,
+      "alpha": true,
+      "sha256": "2c5ecf3f14465c3622b8d2e783c994e8240bebb063dbb8604414923d1cf7c225",
+      "bytes": 1533106,
+      "adoptedRaster": true
+    },
+    {
+      "id": "office",
+      "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11",
+      "bytes": 1726481,
+      "adoptedRaster": true
+    }
+  ],
+  "states": [
+    {
+      "scene": "entry",
+      "state": 0,
+      "label": "05末态接续",
+      "path": "arts/static/06/story-assets-v02/compositions/entry-0.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/entry-0.svg"
+    },
+    {
+      "scene": "choices",
+      "state": 0,
+      "label": "双窗配置与偏好",
+      "path": "arts/static/06/story-assets-v02/compositions/choices-0.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/choices-0.svg"
+    },
+    {
+      "scene": "choices",
+      "state": 1,
+      "label": "双窗配置与偏好",
+      "path": "arts/static/06/story-assets-v02/compositions/choices-1.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/choices-1.svg"
+    },
+    {
+      "scene": "choices",
+      "state": 2,
+      "label": "双窗配置与偏好",
+      "path": "arts/static/06/story-assets-v02/compositions/choices-2.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/choices-2.svg"
+    },
+    {
+      "scene": "choices",
+      "state": 3,
+      "label": "双窗配置与偏好",
+      "path": "arts/static/06/story-assets-v02/compositions/choices-3.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/choices-3.svg"
+    },
+    {
+      "scene": "choices",
+      "state": 4,
+      "label": "双窗配置与偏好",
+      "path": "arts/static/06/story-assets-v02/compositions/choices-4.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/choices-4.svg"
+    },
+    {
+      "scene": "meeting",
+      "state": 0,
+      "label": "开发／测试／记录／核对",
+      "path": "arts/static/06/story-assets-v02/compositions/meeting-0.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/meeting-0.svg"
+    },
+    {
+      "scene": "meeting",
+      "state": 1,
+      "label": "开发／测试／记录／核对",
+      "path": "arts/static/06/story-assets-v02/compositions/meeting-1.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/meeting-1.svg"
+    },
+    {
+      "scene": "meeting",
+      "state": 2,
+      "label": "开发／测试／记录／核对",
+      "path": "arts/static/06/story-assets-v02/compositions/meeting-2.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/meeting-2.svg"
+    },
+    {
+      "scene": "meeting",
+      "state": 3,
+      "label": "开发／测试／记录／核对",
+      "path": "arts/static/06/story-assets-v02/compositions/meeting-3.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/meeting-3.svg"
+    },
+    {
+      "scene": "conditions",
+      "state": 0,
+      "label": "共同控制与参与资料",
+      "path": "arts/static/06/story-assets-v02/compositions/conditions-0.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/conditions-0.svg"
+    },
+    {
+      "scene": "conditions",
+      "state": 1,
+      "label": "共同控制与参与资料",
+      "path": "arts/static/06/story-assets-v02/compositions/conditions-1.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/conditions-1.svg"
+    },
+    {
+      "scene": "work",
+      "state": 0,
+      "label": "查看与人工验收",
+      "path": "arts/static/06/story-assets-v02/compositions/work-0.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/work-0.svg"
+    },
+    {
+      "scene": "work",
+      "state": 1,
+      "label": "查看与人工验收",
+      "path": "arts/static/06/story-assets-v02/compositions/work-1.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/work-1.svg"
+    },
+    {
+      "scene": "leave",
+      "state": 0,
+      "label": "持包起身与离开",
+      "path": "arts/static/06/story-assets-v02/compositions/leave-0.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/leave-0.svg"
+    },
+    {
+      "scene": "leave",
+      "state": 1,
+      "label": "持包起身与离开",
+      "path": "arts/static/06/story-assets-v02/compositions/leave-1.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/leave-1.svg"
+    },
+    {
+      "scene": "bookshop",
+      "state": 0,
+      "label": "选书与购买",
+      "path": "arts/static/06/story-assets-v02/compositions/bookshop-0.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/bookshop-0.svg"
+    },
+    {
+      "scene": "bookshop",
+      "state": 1,
+      "label": "选书与购买",
+      "path": "arts/static/06/story-assets-v02/compositions/bookshop-1.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/bookshop-1.svg"
+    },
+    {
+      "scene": "theatre",
+      "state": 0,
+      "label": "入座与观看演出",
+      "path": "arts/static/06/story-assets-v02/compositions/theatre-0.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/theatre-0.svg"
+    },
+    {
+      "scene": "theatre",
+      "state": 1,
+      "label": "入座与观看演出",
+      "path": "arts/static/06/story-assets-v02/compositions/theatre-1.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/theatre-1.svg"
+    },
+    {
+      "scene": "home",
+      "state": 0,
+      "label": "阅读与翻页",
+      "path": "arts/static/06/story-assets-v02/compositions/home-0.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/home-0.svg"
+    },
+    {
+      "scene": "home",
+      "state": 1,
+      "label": "阅读与翻页",
+      "path": "arts/static/06/story-assets-v02/compositions/home-1.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/home-1.svg"
+    },
+    {
+      "scene": "references",
+      "state": 0,
+      "label": "两张来源页",
+      "path": "arts/static/06/story-assets-v02/compositions/references-0.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/references-0.svg"
+    },
+    {
+      "scene": "references",
+      "state": 1,
+      "label": "两张来源页",
+      "path": "arts/static/06/story-assets-v02/compositions/references-1.png",
+      "svgPath": "arts/static/06/story-assets-v02/compositions/references-1.svg"
+    }
+  ],
+  "sceneGroups": {
+    "entry": {
+      "label": "05末态接续",
+      "states": 1
+    },
+    "choices": {
+      "label": "双窗配置与偏好",
+      "states": 5
+    },
+    "meeting": {
+      "label": "开发／测试／记录／核对",
+      "states": 4
+    },
+    "conditions": {
+      "label": "共同控制与参与资料",
+      "states": 2
+    },
+    "work": {
+      "label": "查看与人工验收",
+      "states": 2
+    },
+    "leave": {
+      "label": "持包起身与离开",
+      "states": 2
+    },
+    "bookshop": {
+      "label": "选书与购买",
+      "states": 2
+    },
+    "theatre": {
+      "label": "入座与观看演出",
+      "states": 2
+    },
+    "home": {
+      "label": "阅读与翻页",
+      "states": 2
+    },
+    "references": {
+      "label": "两张来源页",
+      "states": 2
+    }
+  }
+}

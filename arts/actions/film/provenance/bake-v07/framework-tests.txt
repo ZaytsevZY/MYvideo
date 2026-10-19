@@ -1,0 +1,13 @@
+✔ one global frame clock covers six chapters without duplicate endpoint frames (0.527792ms)
+✔ all original narration appears once with a single global subtitle offset (0.52675ms)
+✔ six adapters render every frame with resolvable assets and stable state (245.977708ms)
+✔ scene jumps select authored shots and subtitle toggle only removes subtitles (1.9815ms)
+✔ cross chapter identity and evidence semantics stay in their original scenarios (0.782375ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 306.324083

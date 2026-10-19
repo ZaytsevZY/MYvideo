@@ -1,0 +1,458 @@
+[
+  {
+    "frame": 1,
+    "total": 8400,
+    "chapter": "01",
+    "elapsedSeconds": 0.3,
+    "uniqueRasters": 15,
+    "cacheHits": 0
+  },
+  {
+    "frame": 151,
+    "total": 8400,
+    "chapter": "01",
+    "elapsedSeconds": 11.7,
+    "uniqueRasters": 129,
+    "cacheHits": 36
+  },
+  {
+    "frame": 301,
+    "total": 8400,
+    "chapter": "01",
+    "elapsedSeconds": 32.4,
+    "uniqueRasters": 279,
+    "cacheHits": 36
+  },
+  {
+    "frame": 451,
+    "total": 8400,
+    "chapter": "01",
+    "elapsedSeconds": 51.6,
+    "uniqueRasters": 407,
+    "cacheHits": 58
+  },
+  {
+    "frame": 601,
+    "total": 8400,
+    "chapter": "01",
+    "elapsedSeconds": 85.6,
+    "uniqueRasters": 550,
+    "cacheHits": 65
+  },
+  {
+    "frame": 751,
+    "total": 8400,
+    "chapter": "01",
+    "elapsedSeconds": 133.3,
+    "uniqueRasters": 672,
+    "cacheHits": 93
+  },
+  {
+    "frame": 901,
+    "total": 8400,
+    "chapter": "01",
+    "elapsedSeconds": 218.3,
+    "uniqueRasters": 809,
+    "cacheHits": 106
+  },
+  {
+    "frame": 1051,
+    "total": 8400,
+    "chapter": "01",
+    "elapsedSeconds": 307.2,
+    "uniqueRasters": 943,
+    "cacheHits": 122
+  },
+  {
+    "frame": 1201,
+    "total": 8400,
+    "chapter": "01",
+    "elapsedSeconds": 421,
+    "uniqueRasters": 1093,
+    "cacheHits": 122
+  },
+  {
+    "frame": 1351,
+    "total": 8400,
+    "chapter": "02",
+    "elapsedSeconds": 531.2,
+    "uniqueRasters": 1218,
+    "cacheHits": 147
+  },
+  {
+    "frame": 1501,
+    "total": 8400,
+    "chapter": "02",
+    "elapsedSeconds": 552.5,
+    "uniqueRasters": 1315,
+    "cacheHits": 200
+  },
+  {
+    "frame": 1651,
+    "total": 8400,
+    "chapter": "02",
+    "elapsedSeconds": 595.6,
+    "uniqueRasters": 1453,
+    "cacheHits": 212
+  },
+  {
+    "frame": 1801,
+    "total": 8400,
+    "chapter": "02",
+    "elapsedSeconds": 629.3,
+    "uniqueRasters": 1524,
+    "cacheHits": 291
+  },
+  {
+    "frame": 1951,
+    "total": 8400,
+    "chapter": "02",
+    "elapsedSeconds": 704.2,
+    "uniqueRasters": 1674,
+    "cacheHits": 291
+  },
+  {
+    "frame": 2101,
+    "total": 8400,
+    "chapter": "02",
+    "elapsedSeconds": 777.9,
+    "uniqueRasters": 1824,
+    "cacheHits": 291
+  },
+  {
+    "frame": 2251,
+    "total": 8400,
+    "chapter": "02",
+    "elapsedSeconds": 876.1,
+    "uniqueRasters": 1974,
+    "cacheHits": 291
+  },
+  {
+    "frame": 2401,
+    "total": 8400,
+    "chapter": "02",
+    "elapsedSeconds": 943.4,
+    "uniqueRasters": 2124,
+    "cacheHits": 291
+  },
+  {
+    "frame": 2551,
+    "total": 8400,
+    "chapter": "03",
+    "elapsedSeconds": 974.8,
+    "uniqueRasters": 2245,
+    "cacheHits": 320
+  },
+  {
+    "frame": 2701,
+    "total": 8400,
+    "chapter": "03",
+    "elapsedSeconds": 984.5,
+    "uniqueRasters": 2295,
+    "cacheHits": 420
+  },
+  {
+    "frame": 2851,
+    "total": 8400,
+    "chapter": "03",
+    "elapsedSeconds": 993.8,
+    "uniqueRasters": 2335,
+    "cacheHits": 530
+  },
+  {
+    "frame": 3001,
+    "total": 8400,
+    "chapter": "03",
+    "elapsedSeconds": 1001.5,
+    "uniqueRasters": 2362,
+    "cacheHits": 653
+  },
+  {
+    "frame": 3151,
+    "total": 8400,
+    "chapter": "03",
+    "elapsedSeconds": 1005.8,
+    "uniqueRasters": 2389,
+    "cacheHits": 776
+  },
+  {
+    "frame": 3301,
+    "total": 8400,
+    "chapter": "03",
+    "elapsedSeconds": 1016.8,
+    "uniqueRasters": 2426,
+    "cacheHits": 889
+  },
+  {
+    "frame": 3451,
+    "total": 8400,
+    "chapter": "03",
+    "elapsedSeconds": 1031,
+    "uniqueRasters": 2505,
+    "cacheHits": 960
+  },
+  {
+    "frame": 3601,
+    "total": 8400,
+    "chapter": "03",
+    "elapsedSeconds": 1040.7,
+    "uniqueRasters": 2550,
+    "cacheHits": 1065
+  },
+  {
+    "frame": 3751,
+    "total": 8400,
+    "chapter": "04",
+    "elapsedSeconds": 1059.5,
+    "uniqueRasters": 2615,
+    "cacheHits": 1150
+  },
+  {
+    "frame": 3901,
+    "total": 8400,
+    "chapter": "04",
+    "elapsedSeconds": 1096.5,
+    "uniqueRasters": 2765,
+    "cacheHits": 1150
+  },
+  {
+    "frame": 4051,
+    "total": 8400,
+    "chapter": "04",
+    "elapsedSeconds": 1128.6,
+    "uniqueRasters": 2892,
+    "cacheHits": 1173
+  },
+  {
+    "frame": 4201,
+    "total": 8400,
+    "chapter": "04",
+    "elapsedSeconds": 1142.6,
+    "uniqueRasters": 2937,
+    "cacheHits": 1278
+  },
+  {
+    "frame": 4351,
+    "total": 8400,
+    "chapter": "04",
+    "elapsedSeconds": 1157.8,
+    "uniqueRasters": 2975,
+    "cacheHits": 1390
+  },
+  {
+    "frame": 4501,
+    "total": 8400,
+    "chapter": "04",
+    "elapsedSeconds": 1181.8,
+    "uniqueRasters": 3047,
+    "cacheHits": 1468
+  },
+  {
+    "frame": 4651,
+    "total": 8400,
+    "chapter": "04",
+    "elapsedSeconds": 1205.3,
+    "uniqueRasters": 3105,
+    "cacheHits": 1560
+  },
+  {
+    "frame": 4801,
+    "total": 8400,
+    "chapter": "04",
+    "elapsedSeconds": 1229.1,
+    "uniqueRasters": 3169,
+    "cacheHits": 1646
+  },
+  {
+    "frame": 4951,
+    "total": 8400,
+    "chapter": "04",
+    "elapsedSeconds": 1241.2,
+    "uniqueRasters": 3234,
+    "cacheHits": 1731
+  },
+  {
+    "frame": 5101,
+    "total": 8400,
+    "chapter": "04",
+    "elapsedSeconds": 1258.8,
+    "uniqueRasters": 3332,
+    "cacheHits": 1783
+  },
+  {
+    "frame": 5251,
+    "total": 8400,
+    "chapter": "04",
+    "elapsedSeconds": 1284.3,
+    "uniqueRasters": 3405,
+    "cacheHits": 1860
+  },
+  {
+    "frame": 5401,
+    "total": 8400,
+    "chapter": "05",
+    "elapsedSeconds": 1308.6,
+    "uniqueRasters": 3465,
+    "cacheHits": 1950
+  },
+  {
+    "frame": 5551,
+    "total": 8400,
+    "chapter": "05",
+    "elapsedSeconds": 1348.7,
+    "uniqueRasters": 3571,
+    "cacheHits": 1994
+  },
+  {
+    "frame": 5701,
+    "total": 8400,
+    "chapter": "05",
+    "elapsedSeconds": 1360.7,
+    "uniqueRasters": 3604,
+    "cacheHits": 2111
+  },
+  {
+    "frame": 5851,
+    "total": 8400,
+    "chapter": "05",
+    "elapsedSeconds": 1389.5,
+    "uniqueRasters": 3673,
+    "cacheHits": 2192
+  },
+  {
+    "frame": 6001,
+    "total": 8400,
+    "chapter": "05",
+    "elapsedSeconds": 1402,
+    "uniqueRasters": 3734,
+    "cacheHits": 2281
+  },
+  {
+    "frame": 6151,
+    "total": 8400,
+    "chapter": "05",
+    "elapsedSeconds": 1410.7,
+    "uniqueRasters": 3802,
+    "cacheHits": 2363
+  },
+  {
+    "frame": 6301,
+    "total": 8400,
+    "chapter": "05",
+    "elapsedSeconds": 1413.9,
+    "uniqueRasters": 3819,
+    "cacheHits": 2496
+  },
+  {
+    "frame": 6451,
+    "total": 8400,
+    "chapter": "05",
+    "elapsedSeconds": 1456.3,
+    "uniqueRasters": 3938,
+    "cacheHits": 2527
+  },
+  {
+    "frame": 6601,
+    "total": 8400,
+    "chapter": "05",
+    "elapsedSeconds": 1489.5,
+    "uniqueRasters": 4011,
+    "cacheHits": 2604
+  },
+  {
+    "frame": 6751,
+    "total": 8400,
+    "chapter": "06",
+    "elapsedSeconds": 1507,
+    "uniqueRasters": 4051,
+    "cacheHits": 2714
+  },
+  {
+    "frame": 6901,
+    "total": 8400,
+    "chapter": "06",
+    "elapsedSeconds": 1528.7,
+    "uniqueRasters": 4096,
+    "cacheHits": 2819
+  },
+  {
+    "frame": 7051,
+    "total": 8400,
+    "chapter": "06",
+    "elapsedSeconds": 1541.5,
+    "uniqueRasters": 4118,
+    "cacheHits": 2947
+  },
+  {
+    "frame": 7201,
+    "total": 8400,
+    "chapter": "06",
+    "elapsedSeconds": 1549,
+    "uniqueRasters": 4162,
+    "cacheHits": 3053
+  },
+  {
+    "frame": 7351,
+    "total": 8400,
+    "chapter": "06",
+    "elapsedSeconds": 1555.8,
+    "uniqueRasters": 4237,
+    "cacheHits": 3128
+  },
+  {
+    "frame": 7501,
+    "total": 8400,
+    "chapter": "06",
+    "elapsedSeconds": 1563.9,
+    "uniqueRasters": 4262,
+    "cacheHits": 3253
+  },
+  {
+    "frame": 7651,
+    "total": 8400,
+    "chapter": "06",
+    "elapsedSeconds": 1572.5,
+    "uniqueRasters": 4337,
+    "cacheHits": 3328
+  },
+  {
+    "frame": 7801,
+    "total": 8400,
+    "chapter": "06",
+    "elapsedSeconds": 1577.7,
+    "uniqueRasters": 4375,
+    "cacheHits": 3440
+  },
+  {
+    "frame": 7951,
+    "total": 8400,
+    "chapter": "06",
+    "elapsedSeconds": 1584.4,
+    "uniqueRasters": 4460,
+    "cacheHits": 3505
+  },
+  {
+    "frame": 8101,
+    "total": 8400,
+    "chapter": "06",
+    "elapsedSeconds": 1589.4,
+    "uniqueRasters": 4483,
+    "cacheHits": 3632
+  },
+  {
+    "frame": 8251,
+    "total": 8400,
+    "chapter": "06",
+    "elapsedSeconds": 1590.5,
+    "uniqueRasters": 4484,
+    "cacheHits": 3781
+  },
+  {
+    "frame": 8400,
+    "total": 8400,
+    "chapter": "06",
+    "elapsedSeconds": 1591.6,
+    "uniqueRasters": 4484,
+    "cacheHits": 3928
+  }
+]

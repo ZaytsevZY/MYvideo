@@ -36,7 +36,8 @@ test('04 inputs stay byte preserved; authorized05 script follows its current sta
  const root=new URL('../../../',import.meta.url),guards=JSON.parse(fs.readFileSync(new URL('./provenance/story-v05/inputs-before.json',import.meta.url)));
  //05 narration was manually revised after this04 snapshot; verify against the05 runtime input snapshot.
  const current05=JSON.parse(fs.readFileSync(new URL('../05/provenance/story-v03/inputs-before.json',import.meta.url))).find(g=>g.path==='scripts/final/shot/05.md');
- for(const g of guards)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(g.path,root))).digest('hex'),g.path==='scripts/final/shot/05.md'?current05.sha256:g.sha256,g.path);
+ const current06=JSON.parse(fs.readFileSync(new URL('../06/provenance/story-v03/inputs-before.json',import.meta.url))).find(g=>g.path==='scripts/final/shot/06.md');
+ for(const g of guards)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(g.path,root))).digest('hex'),g.path==='scripts/final/shot/06.md'?current06.sha256:g.path==='scripts/final/shot/05.md'?current05.sha256:g.sha256,g.path);
 });
 test('actual film holds exact outgoing scene on both sides; report, CV and tool tasks do not change identity',()=>{
  const render=createRenderer(JSON.parse(fs.readFileSync(new URL('../film/bundle-v01.json',import.meta.url))),p=>'/'+p);

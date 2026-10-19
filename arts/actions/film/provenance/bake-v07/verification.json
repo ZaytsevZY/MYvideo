@@ -1,0 +1,157 @@
+{
+  "version": "FILM_BAKE v0.7",
+  "sourceVersion": "FILM_PREVIEW v0.7",
+  "media": {
+    "path": "arts/actions/film/exports/film-complete-captioned-silent-v07.mp4",
+    "bytes": 39751904,
+    "sha256": "10527c1b6c97f9f6b5ed3a494de03cf24f89f01fb0031738e9267bc26b896e25"
+  },
+  "duration": 280,
+  "frames": 8400,
+  "fps": 30,
+  "size": [
+    1920,
+    1080
+  ],
+  "audioStreams": 0,
+  "codec": "h264",
+  "pixelFormat": "yuv420p",
+  "continuousPresentationTimestamps": true,
+  "fullDecodePassed": true,
+  "blackFramesDetected": false,
+  "encodedQAFrames": 71,
+  "allCaptionsCovered": 55,
+  "captionStyle": {
+    "family": "Hiragino Sans GB",
+    "fallback": "sans-serif",
+    "size": 44,
+    "weight": 500,
+    "color": "#FFFDF8",
+    "background": "#101923",
+    "backgroundOpacity": 0.78,
+    "y": 994,
+    "height": 68,
+    "radius": 12,
+    "baseline": 1028,
+    "minCharacters": 10,
+    "maxWidth": 1800
+  },
+  "minCaptionCharacters": 10,
+  "minCaptionDurationSeconds": 2.4,
+  "charactersPreserved": 853,
+  "tests": {
+    "passed": 35,
+    "failed": 0,
+    "report": "arts/actions/film/provenance/bake-v07/tests.txt"
+  },
+  "sourceEncodedComparisons": [
+    {
+      "chapter": "01",
+      "frame": 78,
+      "rgbMeanAbsoluteError": 1.6226356738683128,
+      "captionRegionMeanAbsoluteError": 1.7680111434108527
+    },
+    {
+      "chapter": "02",
+      "frame": 1386,
+      "rgbMeanAbsoluteError": 1.8612753986625514,
+      "captionRegionMeanAbsoluteError": 2.021517684108527
+    },
+    {
+      "chapter": "03",
+      "frame": 2556,
+      "rgbMeanAbsoluteError": 1.2726294045781894,
+      "captionRegionMeanAbsoluteError": 1.563826308139535
+    },
+    {
+      "chapter": "04",
+      "frame": 3733,
+      "rgbMeanAbsoluteError": 1.9479235789609053,
+      "captionRegionMeanAbsoluteError": 1.652529473514212
+    },
+    {
+      "chapter": "05",
+      "frame": 5406,
+      "rgbMeanAbsoluteError": 1.3378454539609053,
+      "captionRegionMeanAbsoluteError": 1.796687257751938
+    },
+    {
+      "chapter": "06",
+      "frame": 6730,
+      "rgbMeanAbsoluteError": 2.036492573302469,
+      "captionRegionMeanAbsoluteError": 1.8357578326873385
+    }
+  ],
+  "manuscriptChapterAndArtInputsPreserved": 154,
+  "visualReview": "passed all55 encoded caption strips, five chapter seams, reading-to-sources and ending frames; final browser playback and seek checks passed",
+  "externalModelCalls": 0,
+  "limitations": [
+    "No voice recording; captions use semantic timing.",
+    "Character animation remains the adopted finite full-key-pose presentation.",
+    "Course-member information on the ending reference card remains unfilled."
+  ],
+  "browser": {
+    "currentTime": 38.798074,
+    "duration": 280,
+    "error": null,
+    "height": 1080,
+    "paused": false,
+    "seekable": [
+      [
+        0,
+        280
+      ]
+    ],
+    "width": 1920,
+    "seekTo06Passed": true,
+    "chapterSeekSeconds": 222,
+    "fullSeekableRange": [
+      0,
+      280
+    ],
+    "exactSeek244Passed": true,
+    "transport": "controls outside video, captions unobscured",
+    "localServerCompatibility": "load the same local MP4 as Blob because the existing static server has no HTTP Range support",
+    "url": "http://127.0.0.1:8765/actions/film/exports/index.html",
+    "screenshot": "arts/actions/film/provenance/bake-v07/browser-baked-video.png"
+  },
+  "browserCaptionFonts": [
+    {
+      "fontFamily": "\"Hiragino Sans GB\", sans-serif",
+      "fontSize": "44px",
+      "fontWeight": "500",
+      "text": "深夜，一位程序员把尚未完成的功能交给 Agent："
+    },
+    {
+      "fontFamily": "\"Hiragino Sans GB\", sans-serif",
+      "fontSize": "44px",
+      "fontWeight": "500",
+      "text": "开发成本下降，会改变项目的成本收益边界，"
+    },
+    {
+      "fontFamily": "\"Hiragino Sans GB\", sans-serif",
+      "fontSize": "44px",
+      "fontWeight": "500",
+      "text": "劳动者让渡的是一定期限内的劳动力使用权。"
+    },
+    {
+      "fontFamily": "\"Hiragino Sans GB\", sans-serif",
+      "fontSize": "44px",
+      "fontWeight": "500",
+      "text": "部分员工主动扩大任务范围，"
+    },
+    {
+      "fontFamily": "\"Hiragino Sans GB\", sans-serif",
+      "fontSize": "44px",
+      "fontWeight": "500",
+      "text": "交付周期和成果分配的决定权，"
+    },
+    {
+      "fontFamily": "\"Hiragino Sans GB\", sans-serif",
+      "fontSize": "44px",
+      "fontWeight": "500",
+      "text": "让劳动者参与确定任务边界，"
+    }
+  ],
+  "currentManuscriptAndArtBytesPreserved": true
+}

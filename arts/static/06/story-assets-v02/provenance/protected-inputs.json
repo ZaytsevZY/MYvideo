@@ -1,0 +1,142 @@
+[
+  {
+    "path": "scripts/final/shot/01.md",
+    "sha256": "0bec30c0ba6e713660947041db930db1894633c90058a78584ca40f9966a85d9"
+  },
+  {
+    "path": "scripts/final/shot/02.md",
+    "sha256": "5b05a43abfca68d8823916764c8638085e9b2ec17f9fa0d5bdb974b562c7413b"
+  },
+  {
+    "path": "scripts/final/shot/03.md",
+    "sha256": "8f2388ec19eb7a6709d35121453a60ad51ef0df49890dcdfd8df7f480b7f2368"
+  },
+  {
+    "path": "scripts/final/shot/04.md",
+    "sha256": "9a0199359b0ee68c3b3ed0f61d3fa6c25598d10b6fe7b30fb6c39f7770c0a072"
+  },
+  {
+    "path": "scripts/final/shot/05.md",
+    "sha256": "4641f53b3ad24706062296f90c9497985507f1cae3e42e59b33fe53d90a1f293"
+  },
+  {
+    "path": "scripts/final/shot/06.md",
+    "sha256": "9db19c52a7c7255cc522b316a636fe1742ec8ceefc12c01ce1ceb175e6f0b3c8"
+  },
+  {
+    "path": "arts/actions/06/scene.mjs",
+    "sha256": "6441471b14334235b32f323fa3a2830cf50f6d6d992f738fef8fa633332e6dc6"
+  },
+  {
+    "path": "arts/actions/06/entry-from-05-v03.mjs",
+    "sha256": "48e3d2903a15f6bec5f051f77e1ca11e651b2b461037066596b6f44319e4293d"
+  },
+  {
+    "path": "arts/actions/06/preview.html",
+    "sha256": "a78ed535030e3235107da10a5bd24f2e9816b3820f7075249ab1b07e4475f5ef"
+  },
+  {
+    "path": "arts/actions/06/captions/06-v01.json",
+    "sha256": "2f98c4f563ebeb40da36cdb8a5d9027c7547b8d9a41f54dadc29a5b4446328f9"
+  },
+  {
+    "path": "arts/actions/06/captions/06-v01.srt",
+    "sha256": "bf1542ae51b1ac5f5fe3b892413b76c627ab2f80ae9896436bbb63381839fb05"
+  },
+  {
+    "path": "arts/actions/06/captions/06-v01.vtt",
+    "sha256": "dbce388378f25a7264e1893bcdac7f3341a2573a922b0f9f544bbc5d0c7cddf2"
+  },
+  {
+    "path": "arts/actions/05/story-scene-v03.mjs",
+    "sha256": "7049b79eb96784d291299c314769f4f87bbcf4d26a6234101c9d3ad41c17dc1e"
+  },
+  {
+    "path": "arts/actions/film/scenes.mjs",
+    "sha256": "05bc6efe3fb6d572c0cc4fa3ff6be656f704cb4f768394c0f56d6b48bb193ee6"
+  },
+  {
+    "path": "arts/actions/film/build.mjs",
+    "sha256": "fe2765287a2aa2db1309a47878d936b1b89e18fc989593a1085d953523c4804f"
+  },
+  {
+    "path": "arts/actions/film/bundle-v01.json",
+    "sha256": "d699f147d175a66ddba1740bfb692e339048d2b4526018cbc76abaac8588e019"
+  },
+  {
+    "path": "arts/actions/film/assets-v01.json",
+    "sha256": "a7ce5661a9d289faeb2b42d59e52490c0e8b297622174653f7dd8593a41595c8"
+  },
+  {
+    "path": "arts/actions/film/captions-v01.json",
+    "sha256": "94fce77f64e415e317ead685832a67151821581d1262f8fcc5340e07697298f0"
+  },
+  {
+    "path": "arts/actions/film/captions-v01.srt",
+    "sha256": "60aa64f0d26ce42bd78086ade8a184770e5e3f4596ef8fe1614f7514938c9b05"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/shot-timing.json",
+    "sha256": "ef5b8ff14f807e5fad64430825050289cfe55b882d3446e513b1e457742f010d"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/verify-script.py",
+    "sha256": "6a23b139cbafbcfd6917d36288f98a1fbfc3dfbdcfb6e8e56c63fc0b8652702b"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/user-visual-notes.json",
+    "sha256": "abf5ff393267af5ec27180af2f9203561eafbd3806018b4fedde3f30fbc70649"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/narration-cues-draft.json",
+    "sha256": "e9c6dc70c42a9aa4db07cd99026ab69b37ea9c6a6d21069868dcaf190e169b02"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/chapter-plan.md",
+    "sha256": "39a1677778de9c8c88cdbd2cb71ca5dbfb9cf298434c2789a4029c8efa040b26"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/outputs.json",
+    "sha256": "21a25ffbbf4625c1a83f10158e60f2bac2868dcde928972dcb19b810abe35977"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/protected-inputs.json",
+    "sha256": "7d1477d85a6c4ff3dc3815aab25f39c0d535a93bce7cd84d0bcdff6d211d2720"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/asset-plan.md",
+    "sha256": "959c124840e55ee7d9b3474b7fbf9e373e6c969195de32d883434f98661aff44"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/inputs-before.json",
+    "sha256": "0429e5938895b5e039d8f26127d5d7808939e515982d574ec737be7e62e2112c"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/06-before.md",
+    "sha256": "40b9e58be361033108da8281b27cb3e14f3dd4bb4838245880f56ef797404b87"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/boundary-from-05-v02.json",
+    "sha256": "2aa626b8176cc72374a1ea01282b69d82eb32f761496477307a673ab5ed32b84"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/source-check.json",
+    "sha256": "5e0ba0997420e99a1da4c4db02847e700f579919eb6a0d58943a2aa2737bb72a"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/verification.json",
+    "sha256": "0a6265315a2b7d9e0636e826f15a2b15041f191236b6f04ff3406d9f3a00acc1"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/boundary-to-ending-v02.json",
+    "sha256": "a836d2226206853a220826a3b703660e45cde568087517fdc4dbe2b316e13fa3"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/review.md",
+    "sha256": "d72818ec3be2aec20f51faa4941e73b2639b5f484a055cfaaa51ee83475013ea"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/reuse-inventory.json",
+    "sha256": "b72e042019ab4fe96395656ea771538e05df9c71f1bb97b0f9e1a8bca068a2e5"
+  }
+]

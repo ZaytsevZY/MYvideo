@@ -1,5 +1,5 @@
 {
-  "version": "FILM_PREVIEW v0.5",
+  "version": "FILM_PREVIEW v0.7",
   "assets": [
     {
       "path": "arts/backgrounds/01/workroom-reverse-night-v01.png",
@@ -2138,6 +2138,262 @@
       ],
       "bytes": 1931635,
       "sha256": "c871fb5abeabe515612ebf291810b34cd7ea801fcf6f9e4cc137b6c7d07a56de",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/office-choice-settled-v02.png",
+      "ids": [
+        "settled"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2003813,
+      "sha256": "90e21b2b57e32e9ce3e0de18fada196e83dd707be0b461193a3572922a6a7d20",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/office-choice-extra-work-v02.png",
+      "ids": [
+        "extra"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2036260,
+      "sha256": "4436690b5896931a25c9be4405c829f7aaa44185a632f2f17f956a209065f16a",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/office-standing-with-bag-v02.png",
+      "ids": [
+        "standing"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2128149,
+      "sha256": "1a0ce439edcb958bd521aa76e40e31dd7ef2528b8901dcb684375a5c05b8fb31",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/office-leave-doorway-v02.png",
+      "ids": [
+        "departed"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2112656,
+      "sha256": "4ddb6436608fbf82dbca5f6c759246a33981cf7781ee0252a8486c074a4c314f",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/meeting-developer-scope-v02.png",
+      "ids": [
+        "developer"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2080275,
+      "sha256": "2e261c82e0db490eebd02c92da4ba22a8d18537bba9ea49ab6e36252d01fe6e2",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/meeting-tester-needs-v02.png",
+      "ids": [
+        "tester"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2090874,
+      "sha256": "ae82f9001a866e846e6bfc1d407c459c456fb88a26cb4700d68933cee84f3ece",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/meeting-manager-write-v02.png",
+      "ids": [
+        "writing"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2092826,
+      "sha256": "bf9ae5b483fa4c5914b743a116c8c9ef9ea551ea3a46821020c89dc727237eb8",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/meeting-joint-confirm-v02.png",
+      "ids": [
+        "agreed"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2089027,
+      "sha256": "9897d7cfda1acce193227bd4c5fecc18aa97999d0887291f798176a21c980fd4",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/office-review-deliverable-v02.png",
+      "ids": [
+        "review"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2004220,
+      "sha256": "bdff4eb9a3999812817db23c9a6017c08f198104c724b09eaf56770b485ac1b5",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/office-accept-deliverable-v02.png",
+      "ids": [
+        "accepted"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2008953,
+      "sha256": "65a13d68e41c806a03e3856fd7c70fa3d579a43014b6e05d5700c08becf293d5",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/bookshop-select-v02.png",
+      "ids": [
+        "bookSelect"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 1995754,
+      "sha256": "d70ac251158b57c1bcfb71e434a3d71b1ad5156b14f5ff05917255b8606c642c",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/bookshop-purchase-v02.png",
+      "ids": [
+        "bookBuy"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2123594,
+      "sha256": "5582c23502ac9bf7976df8e3f8caa69cd898975b053961431a28aac92f15fd78",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/theatre-settle-v02.png",
+      "ids": [
+        "theatreSettle"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 1856366,
+      "sha256": "ce5c82c7377601e8944ee107d297ddc8ba18556052c479760716a3bb2403a0e3",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/theatre-enjoy-v02.png",
+      "ids": [
+        "theatreEnjoy"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 1849037,
+      "sha256": "31860295ce9d83c0058f3784dc85eaedcf78146ddc56451aee76da3e2424ce0a",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/home-reading-v02.png",
+      "ids": [
+        "homeRead"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2250474,
+      "sha256": "4df7821face266b5b7ac288eba16aa254232fcb9a9d4ead23d8f079a96a53df4",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/home-page-turn-v02.png",
+      "ids": [
+        "homeTurn"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2180587,
+      "sha256": "d78583357f31bb850f6eaf8d6b16f8b4775df0d8e2de130f30220d9b96845555",
       "width": 1672,
       "height": 941,
       "alpha": false,

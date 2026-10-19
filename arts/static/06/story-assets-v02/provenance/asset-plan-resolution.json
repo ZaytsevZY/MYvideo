@@ -1,0 +1,96 @@
+{
+  "version": "S06_ART v0.2",
+  "sourcePlan": "arts/actions/06/provenance/storyboard-v02/asset-plan.md",
+  "plannedKeyStatesApproximate": 18,
+  "adoptedNewRasters": 16,
+  "imageGenerationCalls": 18,
+  "superseded": 2,
+  "completeForAssetPreparation": true,
+  "mapping": {
+    "BRANCH-A": [
+      "settled",
+      "extra"
+    ],
+    "BRANCH-B": [
+      "settled",
+      "standing",
+      "departed"
+    ],
+    "MEETING-GROUP": [
+      "developer",
+      "tester",
+      "writing",
+      "agreed"
+    ],
+    "MEETING-DEV": [
+      "developer"
+    ],
+    "MEETING-TEST": [
+      "tester"
+    ],
+    "MEETING-WRITE": [
+      "writing"
+    ],
+    "MEETING-AGREED": [
+      "agreed"
+    ],
+    "WORK-REVIEW": [
+      "review"
+    ],
+    "WORK-ACCEPT": [
+      "accepted"
+    ],
+    "WORK-LEAVE": [
+      "standing",
+      "departed"
+    ],
+    "LIFE-BOOK-SELECT": [
+      "bookSelect"
+    ],
+    "LIFE-BOOK-BUY": [
+      "bookBuy"
+    ],
+    "LIFE-THEATRE-SETTLE": [
+      "theatreSettle"
+    ],
+    "LIFE-THEATRE-ENJOY": [
+      "theatreEnjoy"
+    ],
+    "LIFE-READ": [
+      "homeRead"
+    ],
+    "LIFE-PAGE-TURN": [
+      "homeTurn"
+    ],
+    "PLAN-PAGE": [
+      "documentWide",
+      "editable physical plan layer"
+    ],
+    "RELATION-PNG": [
+      "programmer",
+      "agent",
+      "manager",
+      "coworkerA",
+      "coworkerB",
+      "company",
+      "document"
+    ],
+    "SOURCE-PAPER": [
+      "documentWide",
+      "editable C8 quote and I1 participation layer"
+    ],
+    "REFERENCE-PAGE-1": [
+      "references0"
+    ],
+    "REFERENCE-PAGE-2": [
+      "references1"
+    ]
+  },
+  "reuseDecision": "原计划独立WORK-LEAVE两态复用BRANCH-B的standing/departed，因此采用16张而非重复生成18张；R11/R12为复用用途不另生图",
+  "runtimeReady": false,
+  "remainingProductionWork": [
+    "从24代表状态接入15镜确定性58秒时间轴",
+    "安排人物反应延迟、同一对象迁移、收势与镜头变化",
+    "同步正式字幕并重建film之后实测新05→06与06→片尾接缝"
+  ]
+}

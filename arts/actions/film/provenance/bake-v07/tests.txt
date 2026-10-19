@@ -1,0 +1,43 @@
+✔ 39 seconds and eleven shots partition the authored E/L budget (1.416959ms)
+✔ check, completion send, employer assignment, reaction and unfinished report have causal order (1.141583ms)
+✔ all chapter frames are deterministic, bounded and use whole frame poses without clock or body blending (53.610166ms)
+✔ 03 narration, captions, original chapter sources and raster inputs are byte preserved;04 follows its authorized revision (36.437708ms)
+✔ film entry04 holds exact new03 end before introducing distinct research; no old S03-D task inheritance (8.877666ms)
+✔ 55 seconds and14 E/L shots partition1650 frames; captions are exactly the current185-character narration (1.029167ms)
+✔ three different people remain simultaneous; feedback follows manager evaluation, not automatic technical improvement (2.264875ms)
+✔ adoption precedes production cycle and market response; one market conserves total and freezes before planning (5.24075ms)
+✔ same board order leads to human editing, publish, four applications and requirements in the original HR page (0.7255ms)
+✔ all frames deterministic and bounded; no body blends, production badges or old S04-X storyline (87.462958ms)
+✔ 04 inputs stay byte preserved; authorized05 script follows its current stage snapshot (45.095ms)
+✔ actual film holds exact outgoing scene on both sides; report, CV and tool tasks do not change identity (3.182667ms)
+✔ 13 authored shots cover1350 frames; 12s story and33s logic;155-character narration promoted verbatim (0.903542ms)
+✔ two relations are simultaneous; employees propose adjustments through organization rather than through Agent (1.577417ms)
+✔ result generation, human acceptance, request, reaction and renewed input remain separate causes (0.835708ms)
+✔ physical slogans have a stable2.2-second insert; final pending page holds without a premature06 diagram (0.227583ms)
+✔ every chapter frame resolves references deterministically and preserves one coherent raster body state (64.6865ms)
+✔ current integration holds exact actual terminal images and independent object identities (2.73025ms)
+✔ six manuscript bytes, old runtimes and adopted drawing sources stay unchanged (54.386ms)
+✔ 15 authored shots cover1740frames; narration is the untouched110-character manuscript (1.703042ms)
+✔ same saving and both windows precede mutually exclusive allocation emphases (4.2465ms)
+✔ development and testing precede pen contact, withdrawn pen and joint confirmation (1.61225ms)
+✔ new later deliverable requires human acceptance; historical task states stay intact (0.470083ms)
+✔ life stays uninterrupted through purchase, theatre and page turn; credits stay still and caption-free (0.297875ms)
+✔ every chapter frame is deterministic, finite, free of duplicate story bodies and internal labels (46.886083ms)
+✔ 05 actual terminal holds exactly12frames within06 budget, then opens the two choices (2.978959ms)
+✔ six scripts, prior chapter implementations, adopted art and historical06 inputs retain their captured bytes (57.594917ms)
+✔ all55 cues meet10 Unicode characters and preserve all853 manuscript characters, punctuation and source spans (1.866ms)
+✔ inline caption style rasterizes identically under conflicting chapter text selectors (66.44175ms)
+✔ actual six chapter output keeps exactly the same inline caption style and leaves ending references clear (4.042916ms)
+✔ one global frame clock covers six chapters without duplicate endpoint frames (0.799208ms)
+✔ all original narration appears once with a single global subtitle offset (1.737958ms)
+✔ six adapters render every frame with resolvable assets and stable state (282.762208ms)
+✔ scene jumps select authored shots and subtitle toggle only removes subtitles (1.927208ms)
+✔ cross chapter identity and evidence semantics stay in their original scenarios (0.550708ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 410.580916

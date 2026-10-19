@@ -1,5 +1,33 @@
 # 01–06统一动态展示框架
 
+**当前采用：FILM_PREVIEW v0.7／FILM_BAKE v0.7（2026-10-19）。** [完整视频播放页](http://127.0.0.1:8765/actions/film/exports/index.html)／[MP4](exports/film-complete-captioned-silent-v07.mp4)／[SRT](exports/film-subtitles-v07.srt)。
+
+已从当前01–06源码完成FILM_BAKE v0.7完整视频：280秒／8400帧／1920×1080／30fps，H.264 medium CRF18、yuv420p、faststart，无配音／音效／配乐及音轨。文件39,751,904字节（约39.8MB）；原始分辨率美术直接逐帧合成，未拼接历史章节MP4。源框架同步FILM_PREVIEW v0.7，72段跳转、142项库存及原章节offset保持。
+
+字幕现统一Hiragino Sans GB冬青黑体、44px、500字重、白字／78%深色底框／68px高度及固定底部位置；独立inline样式修正章节全局text选择器覆盖字体。按语义合并14组，69条变55条；所有条目不少于10个非空白Unicode字符（含标点、拉丁字母逐个计数），最短显示2.4秒，六章853字符和原文标点完整保留。06末14秒文献页无字幕。仅全片派生字幕与样式调整，六章手稿、章内实现、历史字幕和原美术保持；154项输入SHA检查通过。
+
+35项测试、六章浏览器实际字体、8400连续PTS、规格／无音轨、全程解码和黑帧检查通过。71张编码后抽帧覆盖全部55条字幕、五个章节接点及片尾；已目视联系表，并对六章代表帧做源码RGB与编码帧比较（全画面平均绝对误差约1.27–2.04／255，字幕区约1.56–2.02／255）。本机播放页已验证播放推进、0–280秒可跳转、222秒章节跳转与244秒精确拖动；通过同源Blob兼容现有服务器不支持Range，控件置画面外避免遮字幕。MP4字节不因播放兼容处理变化。
+
+无外部生成模型、新美术或声音调用；本轮确已导出完整视频，非仅短接缝预览。字幕仍按语义排时、未作配音对齐；人物沿用有限完整关键姿态，片尾课程成员仍保留原稿“待填写”，未擅改text。
+
+[最终媒体清单](exports/film-complete-captioned-silent-v07-manifest.json)／[验证](provenance/bake-v07/verification.json)／[55条编码字幕联系表](provenance/bake-v07/encoded-caption-contact.png)／[章节接点](provenance/bake-v07/encoded-seams.png)／[片尾](provenance/bake-v07/encoded-ending.png)／[字幕合并映射](provenance/bake-v07/caption-policy.json)。完整视频SHA-256：`10527c1b6c97f9f6b5ed3a494de03cf24f89f01fb0031738e9267bc26b896e25`。
+
+当前复现命令：`node arts/actions/film/build.mjs`，`node --test arts/actions/film/captions.test.mjs arts/actions/film/framework.test.mjs`，`node arts/actions/film/bake.mjs`，`node arts/actions/film/review-bake.mjs`。bake拒绝覆盖现存最终文件和part；未来改稿须新建版本与阶段目录，保留本次bake-v07证据。播放器使用同源完整Blob兼容无Range的现有8765静态服务，不需新开端口；原MP4仍可直接下载和离线播放。
+
+下方v0.6及更早为历史记录，当前采用以本段为准。
+
+
+**当前采用：FILM_PREVIEW v0.6 · 06为S06_STORY v0.3（2026-10-19）。** [从新06开始](http://127.0.0.1:8765/actions/film/preview.html?frame=6660)／[06制作入口](../06/README.md)。
+
+06已完成S06_STORY v0.3：15镜／58秒／1740帧，故事24.4秒、逻辑33.6秒（含14秒来源）；复用已采用16张完整绘稿与9项库存，保持六章脚本、采用美术及01–05运行实现原字节。0–16秒双窗配置与偏好，16–23.4秒开发／测试／记录／核对，23.4秒共同确认后引出C8短引文及工会／集体协商资料，27秒切后来履约，28.3秒人工验收，29–31秒持包离开，31–44秒购书→剧场→阅读翻页，44–58秒独立文献页。110字符口播同步9条运行字幕，44秒结束。
+
+全片FILM_PREVIEW v0.6保持280秒／8400帧、69条字幕，现72段跳转、142项去重库存。05待讨论排期页在06预算内精确保留12帧，提议到23.4秒才在说明情境共同确认；T06-final另建，05两项历史状态保留。31秒后生活不被工作打断；阅读只以纸色接画外文献，不把小说改作《资本论》内容。
+
+32项测试与全片8400帧接口检查通过，46张全尺寸代表帧、两处各4秒120帧960×540／30fps H.264无音轨接缝已编码、完整解码和抽帧目视，浏览器142项加载／15镜跳转／播放／字幕开关／末页字幕退出通过。44项输入SHA保护通过。无新增图像或外部生成模型、声音；本轮未导出新版06全章或全片MP4。人物仍为有限完整关键姿态剪辑，字幕为无配音语义排时，课程成员信息待填写，尚未用户冻结。
+
+[当前验证](provenance/integration-v06/verification.json)／[编码接缝联系表](provenance/integration-v06/seams-encoded-v06.png)。bundle/assets/captions-v01为稳定文件名，内部版本v0.6。下方v0.5及更早说明保留历史。
+
+
 **当前采用：FILM_PREVIEW v0.5 · 05为S05_STORY v0.3（2026-10-19）。** [从新05开始](http://127.0.0.1:8765/actions/film/preview.html?frame=5310)／[05制作入口](../05/README.md)。13镜／45秒，首段双侧关系、中段完整工位交接与宣传反差、末段组织反馈已接入；155字符新口播同步13条运行字幕。全片280秒／8400帧、69条字幕、69段跳转、126项去重库存；稳定JSON文件名不变，内部版本v0.5。
 
 04→05保留04实际已发布JD0.4秒；05→06保留05实际待讨论排期页0.4秒。06只作入点适配，主体仍S06 v0.1，新06共同讨论故事尚未实现。无新增时间／黑场，不继承CV或清零旧任务。24项测试、38张05代表帧、全片逐帧接口、两侧各4秒120帧实际编码／完整解码／目视抽帧及浏览器检查通过。[当前验证](provenance/integration-v05/verification.json)／[编码接缝](provenance/integration-v05/seams-encoded-v05.png)。无新生图／外部模型／声音，本轮未导出新版05全章或全片MP4。下方v0.4及更早文字为历史记录；当前采用以本段和采用表为准。
@@ -38,7 +66,7 @@
 | 03 | story-scene-v05，S03_STORY v0.5 | 83–122 | 1170 |
 | 04 | story-scene-v05，S04_STORY v0.5 | 122–177 | 1650 |
 | 05 | story-scene-v03，S05_STORY v0.3 | 177–222 | 1350 |
-| 06 | scene.mjs，S06 v0.1＋entry-from-05-v03入点 | 222–280 | 1740 |
+| 06 | story-scene-v03.mjs，S06_STORY v0.3 | 222–280 | 1740 |
 
 章节与动画源码继续由各自目录维护。本框架不移动／修改源PNG，也不复制旧字幕到另一套手写时轴。68段原字幕只增加一次全片offset，统一绘制在屏幕底部；06的266–280秒文献卡无口播字幕。03、04镜头导航读取其制作README的8镜／10镜细化表，不把原7个／5个代码phase冒充完整镜头表。
 

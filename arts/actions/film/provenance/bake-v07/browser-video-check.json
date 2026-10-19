@@ -1,0 +1,25 @@
+{
+  "currentTime": 38.798074,
+  "duration": 280,
+  "error": null,
+  "height": 1080,
+  "paused": false,
+  "seekable": [
+    [
+      0,
+      280
+    ]
+  ],
+  "width": 1920,
+  "seekTo06Passed": true,
+  "chapterSeekSeconds": 222,
+  "fullSeekableRange": [
+    0,
+    280
+  ],
+  "exactSeek244Passed": true,
+  "transport": "controls outside video, captions unobscured",
+  "localServerCompatibility": "load the same local MP4 as Blob because the existing static server has no HTTP Range support",
+  "url": "http://127.0.0.1:8765/actions/film/exports/index.html",
+  "screenshot": "arts/actions/film/provenance/bake-v07/browser-baked-video.png"
+}

@@ -1,0 +1,14 @@
+{
+  "materialPageReady": true,
+  "assets": 25,
+  "sceneGroups": 10,
+  "keyStates": 24,
+  "groupSwitchPassed": true,
+  "stateSwitchPassed": true,
+  "captionTogglePassed": true,
+  "meetingPaperAndCaptionChecked": true,
+  "choiceDifferenceChecked": true,
+  "homeBookPageAndBagsChecked": true,
+  "errorsAndWarnings": [],
+  "new58SecondRuntime": false
+}

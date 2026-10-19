@@ -1,0 +1,62 @@
+[
+  {
+    "frame": 30,
+    "path": "arts/actions/film/provenance/bake-v07/source-0030.png",
+    "sha256": "0cfe5436db1831bf2b75d9ab0d3e5921a7d4f4a2df9f7d4ec2c3a83bce69912a"
+  },
+  {
+    "frame": 320,
+    "path": "arts/actions/film/provenance/bake-v07/source-0320.png",
+    "sha256": "e9b516f2a747bf72c96f77cc3f3aaf1ec5ec5752182d83c3fab1d7522fc1800c"
+  },
+  {
+    "frame": 1500,
+    "path": "arts/actions/film/provenance/bake-v07/source-1500.png",
+    "sha256": "21e92ef40667903059fc2a665105d5a475c072c197f8bb2e1dcebbe18407570d"
+  },
+  {
+    "frame": 2120,
+    "path": "arts/actions/film/provenance/bake-v07/source-2120.png",
+    "sha256": "42c7d5bc58e724066118def159e3fab12d6463551c00ccb617326a41b1f7f173"
+  },
+  {
+    "frame": 2680,
+    "path": "arts/actions/film/provenance/bake-v07/source-2680.png",
+    "sha256": "7de219ae126af8e734cd018be624903deb7bf53f43b901d506e27a73d815931d"
+  },
+  {
+    "frame": 3200,
+    "path": "arts/actions/film/provenance/bake-v07/source-3200.png",
+    "sha256": "1ed709e46fcf31658f747ebb58720acd588b85ce81a9b1467c13dfb3494c0b03"
+  },
+  {
+    "frame": 3800,
+    "path": "arts/actions/film/provenance/bake-v07/source-3800.png",
+    "sha256": "4fbef0eab3b486cccbe7fa23fff4c34443d90391565312d6d3f16e1dda39bef6"
+  },
+  {
+    "frame": 4820,
+    "path": "arts/actions/film/provenance/bake-v07/source-4820.png",
+    "sha256": "dbb92db49bc60a4310f8271049740ed825cb30d44da4949178ef87c8246578b4"
+  },
+  {
+    "frame": 5600,
+    "path": "arts/actions/film/provenance/bake-v07/source-5600.png",
+    "sha256": "0de7af9115d7ab5573114799e244f3f01bc68ed46b3c0c597653eefd9de168df"
+  },
+  {
+    "frame": 6280,
+    "path": "arts/actions/film/provenance/bake-v07/source-6280.png",
+    "sha256": "8835eb3380cfca4c5294c2615251d75bd958717a1c57a1041926d0064cc9ddc2"
+  },
+  {
+    "frame": 7200,
+    "path": "arts/actions/film/provenance/bake-v07/source-7200.png",
+    "sha256": "f0dbe0a67620ab5a8fcebda59944c3ef9e277f226ffe5bf2e70e6d0d0937f33d"
+  },
+  {
+    "frame": 7710,
+    "path": "arts/actions/film/provenance/bake-v07/source-7710.png",
+    "sha256": "946f24ce441176cf652fe86b8857aaa8b3f50c4149f64aaf8a42ad58da5b09b0"
+  }
+]

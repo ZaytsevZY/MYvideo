@@ -1,0 +1,316 @@
+{
+  "style": {
+    "family": "Hiragino Sans GB",
+    "fallback": "sans-serif",
+    "size": 44,
+    "weight": 500,
+    "color": "#FFFDF8",
+    "background": "#101923",
+    "backgroundOpacity": 0.78,
+    "y": 994,
+    "height": 68,
+    "radius": 12,
+    "baseline": 1028,
+    "minCharacters": 10,
+    "maxWidth": 1800
+  },
+  "counting": "Unicode code points excluding whitespace; punctuation included; Latin letters counted individually",
+  "sourceCount": 69,
+  "outputCount": 55,
+  "merges": [
+    {
+      "chapter": "01",
+      "startMs": 0,
+      "endMs": 5200,
+      "characters": 24,
+      "text": "深夜，一位程序员把尚未完成的功能交给 Agent：",
+      "mergedFrom": [
+        {
+          "startMs": 0,
+          "endMs": 2200,
+          "text": "深夜，一位程序员",
+          "id": null
+        },
+        {
+          "startMs": 2200,
+          "endMs": 5200,
+          "text": "把尚未完成的功能交给 Agent：",
+          "id": null
+        }
+      ]
+    },
+    {
+      "chapter": "01",
+      "startMs": 8400,
+      "endMs": 16000,
+      "characters": 17,
+      "text": "随后，他关掉屏幕，等到第二天验收。",
+      "mergedFrom": [
+        {
+          "startMs": 8400,
+          "endMs": 10200,
+          "text": "随后，他关掉屏幕，",
+          "id": null
+        },
+        {
+          "startMs": 10200,
+          "endMs": 16000,
+          "text": "等到第二天验收。",
+          "id": null
+        }
+      ]
+    },
+    {
+      "chapter": "01",
+      "startMs": 23000,
+      "endMs": 27400,
+      "characters": 20,
+      "text": "项目计划也开始改变：补齐测试、优化界面、",
+      "mergedFrom": [
+        {
+          "startMs": 23000,
+          "endMs": 25800,
+          "text": "项目计划也开始改变：补齐测试、",
+          "id": null
+        },
+        {
+          "startMs": 25800,
+          "endMs": 27400,
+          "text": "优化界面、",
+          "id": null
+        }
+      ]
+    },
+    {
+      "chapter": "01",
+      "startMs": 30000,
+      "endMs": 37000,
+      "characters": 18,
+      "text": "旧任务逐项完成，待办清单却继续延长。",
+      "mergedFrom": [
+        {
+          "startMs": 30000,
+          "endMs": 33600,
+          "text": "旧任务逐项完成，",
+          "id": null
+        },
+        {
+          "startMs": 33600,
+          "endMs": 37000,
+          "text": "待办清单却继续延长。",
+          "id": null
+        }
+      ]
+    },
+    {
+      "chapter": "02",
+      "startMs": 47400,
+      "endMs": 53000,
+      "characters": 20,
+      "text": "开发成本下降，会改变项目的成本收益边界，",
+      "mergedFrom": [
+        {
+          "startMs": 2400,
+          "endMs": 5200,
+          "text": "开发成本下降，",
+          "id": null
+        },
+        {
+          "startMs": 5200,
+          "endMs": 8000,
+          "text": "会改变项目的成本收益边界，",
+          "id": null
+        }
+      ]
+    },
+    {
+      "chapter": "02",
+      "startMs": 53000,
+      "endMs": 58000,
+      "characters": 19,
+      "text": "使一部分原先不值得开展的需求变得可行。",
+      "mergedFrom": [
+        {
+          "startMs": 8000,
+          "endMs": 10300,
+          "text": "使一部分原先不值得开展的需求",
+          "id": null
+        },
+        {
+          "startMs": 10300,
+          "endMs": 13000,
+          "text": "变得可行。",
+          "id": null
+        }
+      ]
+    },
+    {
+      "chapter": "02",
+      "startMs": 58000,
+      "endMs": 64200,
+      "characters": 22,
+      "text": "效率收益既可用于减少劳动，也可用于扩大产出。",
+      "mergedFrom": [
+        {
+          "startMs": 13000,
+          "endMs": 16400,
+          "text": "效率收益既可用于减少劳动，",
+          "id": null
+        },
+        {
+          "startMs": 16400,
+          "endMs": 19200,
+          "text": "也可用于扩大产出。",
+          "id": null
+        }
+      ]
+    },
+    {
+      "chapter": "02",
+      "startMs": 72000,
+      "endMs": 83000,
+      "characters": 23,
+      "text": "单项任务耗时缩短，总劳动投入仍取决于任务规模。",
+      "mergedFrom": [
+        {
+          "startMs": 27000,
+          "endMs": 30900,
+          "text": "单项任务耗时缩短，",
+          "id": null
+        },
+        {
+          "startMs": 30900,
+          "endMs": 38000,
+          "text": "总劳动投入仍取决于任务规模。",
+          "id": null
+        }
+      ]
+    },
+    {
+      "chapter": "03",
+      "startMs": 113500,
+      "endMs": 122000,
+      "characters": 19,
+      "text": "劳动者对劳动时间的决定权未必同步扩大。",
+      "mergedFrom": [
+        {
+          "startMs": 30500,
+          "endMs": 34700,
+          "text": "劳动者对劳动时间的决定权",
+          "id": null
+        },
+        {
+          "startMs": 34700,
+          "endMs": 39000,
+          "text": "未必同步扩大。",
+          "id": null
+        }
+      ]
+    },
+    {
+      "chapter": "04",
+      "startMs": 145500,
+      "endMs": 152500,
+      "characters": 19,
+      "text": "新方法普及后，原有的效率优势逐渐消退，",
+      "mergedFrom": [
+        {
+          "startMs": 23500,
+          "endMs": 27000,
+          "text": "新方法普及后，",
+          "id": "S04-A07"
+        },
+        {
+          "startMs": 27000,
+          "endMs": 30500,
+          "text": "原有的效率优势逐渐消退，",
+          "id": "S04-A08"
+        }
+      ]
+    },
+    {
+      "chapter": "05",
+      "startMs": 177400,
+      "endMs": 183000,
+      "characters": 19,
+      "text": "调度多个 Agent，扩大的是执行能力，",
+      "mergedFrom": [
+        {
+          "startMs": 400,
+          "endMs": 3000,
+          "text": "调度多个 Agent，",
+          "id": "S05-A01"
+        },
+        {
+          "startMs": 3000,
+          "endMs": 6000,
+          "text": "扩大的是执行能力，",
+          "id": "S05-A02"
+        }
+      ]
+    },
+    {
+      "chapter": "05",
+      "startMs": 193300,
+      "endMs": 198800,
+      "characters": 17,
+      "text": "拒绝额外任务或分享效率收益的权力。",
+      "mergedFrom": [
+        {
+          "startMs": 16300,
+          "endMs": 19000,
+          "text": "拒绝额外任务",
+          "id": "S05-A06"
+        },
+        {
+          "startMs": 19000,
+          "endMs": 21800,
+          "text": "或分享效率收益的权力。",
+          "id": "S05-A07"
+        }
+      ]
+    },
+    {
+      "chapter": "06",
+      "startMs": 230800,
+      "endMs": 238000,
+      "characters": 21,
+      "text": "区别在于谁决定生产规模，谁分配节约的时间。",
+      "mergedFrom": [
+        {
+          "startMs": 8800,
+          "endMs": 12400,
+          "text": "区别在于谁决定生产规模，",
+          "id": "S06-A03"
+        },
+        {
+          "startMs": 12400,
+          "endMs": 16000,
+          "text": "谁分配节约的时间。",
+          "id": "S06-A04"
+        }
+      ]
+    },
+    {
+      "chapter": "06",
+      "startMs": 253000,
+      "endMs": 266000,
+      "characters": 23,
+      "text": "效率何时成为义务，取决于谁有权为工作画上句号。",
+      "mergedFrom": [
+        {
+          "startMs": 31000,
+          "endMs": 35700,
+          "text": "效率何时成为义务，",
+          "id": "S06-A08"
+        },
+        {
+          "startMs": 35700,
+          "endMs": 44000,
+          "text": "取决于谁有权为工作画上句号。",
+          "id": "S06-A09"
+        }
+      ]
+    }
+  ]
+}

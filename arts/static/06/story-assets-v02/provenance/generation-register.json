@@ -1,0 +1,400 @@
+[
+  {
+    "id": "S06-R01-draft",
+    "target": "arts/static/06/story-assets-v02/provenance/process/office-choice-settled-bag-draft.png",
+    "refs": [
+      "arts/backgrounds/05/office-agent-wait-v02.png"
+    ],
+    "prompt": "Use case: illustration-story. Create ONE square animation keyframe, not a sheet or collage. Reference image supplies the established programmer and Agent identity, cel-shaded drawing style and warm office materials. New camera: an eye-level front three-quarter medium-wide office view composed for a tall 615x655 video window. Show the SAME dark-haired young adult programmer in blue-gray long-sleeve crewneck, white undershirt collar, teal lanyard and blank badge, seated correctly IN a black office chair behind a wooden workstation. Hands have just withdrawn slightly above the keyboard after finishing an agreed task, gaze on the monitor to screen-left, calm attentive expression. One blank cream sheet rests flat on the desk to the RIGHT of the keyboard. Keep monitor, real keyboard, wrists, chair and floor in one coherent perspective. To the rear-right a visible open office doorway and a charcoal shoulder bag already beside the chair provide an exit path. The orange-haired female Agent with white star hairclip, white jacket, full black high-neck top and black trousers stands quietly behind the right side of the desk, hands relaxed, not directing the worker. Large daylit windows left, office plants and shared workstations in depth. Show torso, chair and plausible lower-body placement; desk must not pass through his waist or legs. Foreground desk edge occludes naturally. Camera and layout must support later same-camera typing and standing-with-bag variants. No letters, numbers, logos, UI, text bubbles, arrows or borders. No additional foreground people, no exposed abdomen, no extra limbs. Fully painted clean anime raster, same detail and line weight as reference, square canvas.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-a722e131-031a-4228-af35-5f45f301faa1.png",
+    "transparent": false,
+    "status": "superseded",
+    "review": "Desk, body and doorway coherent; bag differs from adopted bookshop satchel, targeted bag correction required.",
+    "sha256": "67dc6fa84b5eb334d575b9d5921941a8e1a0f3cd3ec4ef149669a1e43492f3eb",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/05/office-agent-wait-v02.png",
+        "sha256": "cb5e5a386e127f109c3ce4298f595e11f162c3be5f772cd48078de1722d1c3bb"
+      }
+    ]
+  },
+  {
+    "id": "S06-R05",
+    "target": "arts/backgrounds/06/meeting-developer-scope-v02.png",
+    "refs": [
+      "arts/backgrounds/05/office-agent-wait-v02.png",
+      "arts/characters/portraits/03/manager-neutral-v04.png",
+      "arts/characters/portraits/03/coworker-a-v04.png"
+    ],
+    "prompt": "Use case: illustration-story. ONE coherent 16:9 landscape anime animation keyframe, no collage. References: image1 is programmer/coworker identity and office drawing style; image2 is the dark-haired manager in navy blazer over plain white shirt; image3 is the brown-haired tester in olive-gray crewneck. Scene: the SAME three adults seated around one real office discussion table in the same warm modern company, daylight from left. Programmer blue-gray shirt with teal lanyard seated screen-left, manager opposite center-back, tester olive crewneck seated screen-right. All three sit IN chairs at a plausible table height. Single large blank cream planning sheet lies in a clear central tabletop area, lower-middle of image, long edge horizontal with perspective, physically on the wood surface. Action: programmer extends ONE index finger to the left edge of the planning sheet to propose development scope. Tester attends to the indicated place; manager listens, holding a pen above his own side of the table, not writing yet. Programmer other hand near his own lap/table edge. Maintain natural hand anatomy, separate wrists, no arms crossing faces. Medium-wide front three-quarter composition, faces in upper half, paper and gesture in lower-middle, foreground table edge naturally occluding legs. Leave the middle and right zones of the planning sheet unobstructed for later editable content. A small blank dark monitor in deep background may represent tools but NO physical Agent joining the negotiation. Soft bookcase/plants/meeting-room windows, no office signage to read. Calm collaborative scene, not a lecture, no shaking hands or celebratory approval yet. No words, diagrams, labels, speech balloons, icons, numbers or branding. 16:9.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-e53a4952-381f-441f-9040-834e7eb31eab.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Three identities, paper/hand/table contact and pending listening state coherent.",
+    "sha256": "2e261c82e0db490eebd02c92da4ba22a8d18537bba9ea49ab6e36252d01fe6e2",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/05/office-agent-wait-v02.png",
+        "sha256": "cb5e5a386e127f109c3ce4298f595e11f162c3be5f772cd48078de1722d1c3bb"
+      },
+      {
+        "path": "arts/characters/portraits/03/manager-neutral-v04.png",
+        "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370"
+      },
+      {
+        "path": "arts/characters/portraits/03/coworker-a-v04.png",
+        "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5"
+      }
+    ]
+  },
+  {
+    "id": "S06-R13",
+    "target": "arts/backgrounds/06/bookshop-select-v02.png",
+    "refs": [
+      "arts/backgrounds/05/office-agent-wait-v02.png"
+    ],
+    "prompt": "Use case: illustration-story. ONE 16:9 landscape cel-shaded anime keyframe for the SAME dark-haired programmer from reference image, off duty in his blue-gray long-sleeve crewneck and dark trousers, white undershirt collar, now NO lanyard or badge. Keep same face, haircut, adult proportions, detailed but clean drawn hands and warm linework. Scene: a modest cozy neighborhood bookshop, wooden shelves and warm afternoon window light. Front three-quarter medium view: programmer left-center turns toward the shelf at screen-right, right hand taking a single plain warm-beige A5-size hardback book from the shelf, left hand ready to support the bottom. Natural deliberate book selection, eyes on the chosen book, slight relaxed curiosity. A charcoal shoulder bag is worn cross-body. Only this chosen book is prominent; background book spines have simple colored shapes, no readable writing. The beige book has completely blank cover, no marks or title. Show the real shelf depth and separate fingers contacting the book edge; no duplicated hands, floating volumes or bent geometry. One continuous composition, foreground shelf can softly frame, face and hand unobscured. No computer, Agent, work messages, logo, price, payment details or overlay graphics. Leave bottom roughly8percent clear of essential hands for video captions. No fake gibberish text. Same visual style as the reference office, new everyday-life location, 16:9.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-b2db5087-c583-44df-9505-4ff3b108cd3f.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Off-duty character, plain beige book, rightward selection and charcoal satchel established.",
+    "sha256": "d70ac251158b57c1bcfb71e434a3d71b1ad5156b14f5ff05917255b8606c642c",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/05/office-agent-wait-v02.png",
+        "sha256": "cb5e5a386e127f109c3ce4298f595e11f162c3be5f772cd48078de1722d1c3bb"
+      }
+    ]
+  },
+  {
+    "id": "S06-R01",
+    "target": "arts/backgrounds/06/office-choice-settled-v02.png",
+    "refs": [
+      "arts/static/06/story-assets-v02/provenance/process/office-choice-settled-bag-draft.png",
+      "arts/backgrounds/06/bookshop-select-v02.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Image1 is the edit target. Image2 supplies ONLY the charcoal messenger satchel design to match across the film. Keep image1 EXACTLY: square camera, seated programmer hands withdrawn, face, teal ID lanyard, blue shirt, Agent, desk/keyboard/paper, chair and doorway. Change ONLY the bag on the floor at lower-right: replace the tall backpack-like bag with the compact charcoal rectangular messenger satchel seen on the programmer's hip in image2, a front flap with TWO distinct dark buckles, one long cross-body shoulder strap and small carry handle. Place it upright naturally leaning beside the chair, same floor position, plausible A4-size messenger satchel, no backpack twin straps or tall zip front. The programmer is not wearing it yet. No new people, words or graphics. Preserve every other element, warm light and anatomy. One square keyframe.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-5a000074-0642-4a18-831b-653a5f99d703.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Targeted two-buckle satchel correction; desk, chair, hands, Agent and camera preserved.",
+    "sha256": "90e21b2b57e32e9ce3e0de18fada196e83dd707be0b461193a3572922a6a7d20",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/static/06/story-assets-v02/provenance/process/office-choice-settled-bag-draft.png",
+        "sha256": "67dc6fa84b5eb334d575b9d5921941a8e1a0f3cd3ec4ef149669a1e43492f3eb"
+      },
+      {
+        "path": "arts/backgrounds/06/bookshop-select-v02.png",
+        "sha256": "d70ac251158b57c1bcfb71e434a3d71b1ad5156b14f5ff05917255b8606c642c"
+      }
+    ]
+  },
+  {
+    "id": "S06-R06",
+    "target": "arts/backgrounds/06/meeting-tester-needs-v02.png",
+    "refs": [
+      "arts/backgrounds/06/meeting-developer-scope-v02.png"
+    ],
+    "prompt": "Use case: identity-preserve. Image1 is the exact scene to continue, ONE 16:9 animation keyframe. Keep camera, room, same three seated people and clothes, table and same single large blank planning sheet in precisely the same position. Change ONLY the action: programmer on left has withdrawn his pointing hand to rest near his side of the sheet, turns eyes toward tester and listens with closed mouth. Brown-haired olive-shirt tester on right now speaks calmly, his previously chin-resting hand lowered; he points ONE index finger at the RIGHT area of the same planning sheet, other hand near his own tabletop edge, representing testing and review needs. Manager center looks at the tester's indicated area, pen still held above table, not touching paper yet. Correct separated fingers and wrists; no duplicate arms or hands, no handshake. Keep the middle sheet clear for editable contents, no letters or marks. No text, logos, bubbles or arrows, no camera flip, no celebratory expression.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-04f1c32d-3e32-4ed6-8a9a-8fb1d5336bc5.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Tester points at right of same paper after programmer withdraws; manager listens.",
+    "sha256": "ae82f9001a866e846e6bfc1d407c459c456fb88a26cb4700d68933cee84f3ece",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/06/meeting-developer-scope-v02.png",
+        "sha256": "2e261c82e0db490eebd02c92da4ba22a8d18537bba9ea49ab6e36252d01fe6e2"
+      }
+    ]
+  },
+  {
+    "id": "S06-R14",
+    "target": "arts/backgrounds/06/bookshop-purchase-v02.png",
+    "refs": [
+      "arts/backgrounds/06/bookshop-select-v02.png"
+    ],
+    "prompt": "Use case: illustration-story. Reference is exact character, bookshop palette, beige book and charcoal TWO-buckle messenger satchel continuity. Create ONE16:9 coherent landscape keyframe at the same neighborhood bookshop COUNTER. Same dark-haired adult programmer in same blue-gray long-sleeve shirt, dark trousers, no lanyard, same cross-body satchel. He stands left of counter, one hand supporting the SAME plain warm-beige A5 hardback at its lower edge while the other guides it into ONE open tan kraft paper shopping bag sitting on the counter. Both handles of the shopping bag visible, no branding. A quiet adult shop clerk in plain apron on the far-right behind counter has just completed the sale, hands withdrawn near register, NOT passing a second book. Programmer looks down with relaxed attention. Shelf and warm daylight match reference. Bag and book make plausible physical contact, no fused fingers, transparent covers, duplicated objects or paper floating in air. This is the purchase finished, not payment UI: no phone or bank card, no prices, numbers, receipts or readable shop lettering. No Agent/work notifications. Hands and faces stay above bottom8percent caption zone. Clean cel-shaded drawn style same reference, no collage.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-32ed22ee-8fbe-44a3-bb4a-0cb40d338b3e.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Same beige book guides into one kraft bag at counter; hands plausible.",
+    "sha256": "5582c23502ac9bf7976df8e3f8caa69cd898975b053961431a28aac92f15fd78",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/06/bookshop-select-v02.png",
+        "sha256": "d70ac251158b57c1bcfb71e434a3d71b1ad5156b14f5ff05917255b8606c642c"
+      }
+    ]
+  },
+  {
+    "id": "S06-R15",
+    "target": "arts/backgrounds/06/theatre-settle-v02.png",
+    "refs": [
+      "arts/backgrounds/06/bookshop-select-v02.png",
+      "arts/characters/portraits/03/coworker-b-v04.png"
+    ],
+    "prompt": "Use case: illustration-story. Create ONE16:9 cel-shaded anime landscape keyframe, a warm modest neighborhood theatre, no branded performance. Image1 supplies exact off-duty dark-haired programmer, blue-gray long-sleeve shirt, dark trousers and charcoal TWO-buckle messenger satchel. Image2 supplies his friend: brown-haired adult woman with a low bun and side fringe, beige sweater, no lanyard. Both are seated correctly in adjacent upholstered dark-red theatre seats, viewed from side-front three-quarter at eye level, looking naturally toward the unseen stage at screen-left. Programmer slightly left of center, friend to his right; knees/hips aligned with seats, no person sitting on an armrest. His satchel rests against the outside of HIS seat and ONE tan kraft paper shopping bag with handles sits upright at his feet; the same beige book is inside, not duplicated in hands. Hands relaxed on lap, calm anticipatory attention. Show aisle/floor by their feet so bags remain visible above caption area. Soft warm stage light across faces, other audience distant and subdued, shallow focus foreground seat edges. No stage characters close up, no computer, Agent, badges, work message, text, logos, tickets with letters, or labels. Detailed coherent seat perspective and natural hands; not romantic posing at camera, not a poster or split screen.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-99b8df5f-22fe-4e2e-9c00-5feba7ae438d.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Two adults seated within chairs, satchel and kraft bag physically at feet.",
+    "sha256": "ce5c82c7377601e8944ee107d297ddc8ba18556052c479760716a3bb2403a0e3",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/06/bookshop-select-v02.png",
+        "sha256": "d70ac251158b57c1bcfb71e434a3d71b1ad5156b14f5ff05917255b8606c642c"
+      },
+      {
+        "path": "arts/characters/portraits/03/coworker-b-v04.png",
+        "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5"
+      }
+    ]
+  },
+  {
+    "id": "S06-R02",
+    "target": "arts/backgrounds/06/office-choice-extra-work-v02.png",
+    "refs": [
+      "arts/backgrounds/06/office-choice-settled-v02.png"
+    ],
+    "prompt": "Use case: identity-preserve. Continue image1 as ONE square keyframe. Preserve EXACT camera, desk, blank sheet on RIGHT of keyboard, chair, windows, open doorway and charcoal two-buckle messenger satchel at floor-right. Same programmer blue-gray top, teal lanyard/badge and same orange-haired Agent. Change ONLY programmer action: lean forward slightly and place both hands naturally ON the EXISTING keyboard, typing a new assignment while looking at the monitor left, focused rather than at camera. Wrists rest plausibly at desk edge, fingers separate and contacting existing keys; do not invent a second keyboard or make extra fingers. Agent quietly attends to his monitor, hands still relaxed. No words or UI, no new papers, no movement of bag or door, no cut-out collage or body blending.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-718ff0ea-c711-4ddf-85e7-1b9fb87282cb.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Hands naturally return to existing keyboard, common composition preserved.",
+    "sha256": "4436690b5896931a25c9be4405c829f7aaa44185a632f2f17f956a209065f16a",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/06/office-choice-settled-v02.png",
+        "sha256": "90e21b2b57e32e9ce3e0de18fada196e83dd707be0b461193a3572922a6a7d20"
+      }
+    ]
+  },
+  {
+    "id": "S06-R03-draft",
+    "target": "arts/static/06/story-assets-v02/provenance/process/office-standing-bag-draft.png",
+    "refs": [
+      "arts/backgrounds/06/office-choice-settled-v02.png"
+    ],
+    "prompt": "Use case: identity-preserve. ONE square continuation keyframe of image1. Keep same camera axis, office desk/keyboard/blank paper, chair, Agent, door and lighting. Show a plausible later physical action, whole coherent body: the SAME programmer has just stood up to the RIGHT of his black chair in the clear aisle toward the open doorway at rear-right. The chair is slightly pushed back and visibly EMPTY; his hips and legs must be clear of the table, never standing through a desk or sitting on its top. He holds the SAME charcoal rectangular two-buckle messenger satchel by its top handle in one hand at his side, the other hand settling its shoulder strap, ready to leave. The bag is no longer on the floor. He has removed his teal lanyard/badge and tucked it into the bag; blue-gray long-sleeve shirt and dark trousers unchanged, neutral relieved expression, looking toward doorway. Head visible, adult proportions, both feet planted on the visible aisle floor. Agent stays near her original standing position with her hands relaxed, does not block or command him. Keep physical desk in foreground occluding only where physically correct. No text, labels, arrows, ghosted seated body, extra limbs or second bag. Do not shrink him into a miniature to fit.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-ef24f65c-ef1d-4945-8028-101bb2d90030.png",
+    "transparent": false,
+    "status": "superseded",
+    "review": "Standing body and desk clearance work, but a second bag/strap silhouette appears; targeted correction needed.",
+    "sha256": "e70fb79b42e3b45f335b8676dd09afa8ca4c8d5ccfbd88412a725e805d75b0ef",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/06/office-choice-settled-v02.png",
+        "sha256": "90e21b2b57e32e9ce3e0de18fada196e83dd707be0b461193a3572922a6a7d20"
+      }
+    ]
+  },
+  {
+    "id": "S06-R07",
+    "target": "arts/backgrounds/06/meeting-manager-write-v02.png",
+    "refs": [
+      "arts/backgrounds/06/meeting-tester-needs-v02.png"
+    ],
+    "prompt": "Use case: identity-preserve. ONE16:9 continuation of this EXACT discussion shot. Preserve the three faces, positions and clothes, warm office, camera, table and same large blank planning sheet. Manager center has lowered his pen to the center-upper part of the actual planning sheet and is now writing, leaning just enough to reach naturally. His pen tip visibly contacts paper; right hand holds ONE pen, other hand lightly steadies his near edge of sheet. Programmer left and olive-shirt tester right have both withdrawn their pointing hands to their own side of table and watch the pen contact area; calm attentive expressions, mouths closed, no early celebration. Keep lower-middle and lower-right paper areas clean for editable contents. Do NOT render handwriting, text or symbols; all future marks added separately. Natural elbows, wrists and fingers on table, no arm through paper, no extra hands, no changes to chair seating or desk perspective. No graphic overlay or text.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-886400a9-a75d-445c-9cc1-edcea5e7616d.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Pen makes plausible contact on same sheet after both speakers withdraw.",
+    "sha256": "bf9ae5b483fa4c5914b743a116c8c9ef9ea551ea3a46821020c89dc727237eb8",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/06/meeting-tester-needs-v02.png",
+        "sha256": "ae82f9001a866e846e6bfc1d407c459c456fb88a26cb4700d68933cee84f3ece"
+      }
+    ]
+  },
+  {
+    "id": "S06-R17",
+    "target": "arts/backgrounds/06/home-reading-v02.png",
+    "refs": [
+      "arts/backgrounds/06/bookshop-purchase-v02.png"
+    ],
+    "prompt": "Use case: illustration-story. ONE16:9 landscape anime keyframe. Same off-duty dark-haired adult programmer from reference, exact blue-gray long-sleeve shirt and dark trousers, white undershirt collar, NO lanyard. After his outing he is at home in a modest warm reading corner, seated properly in a comfortable fabric armchair, torso relaxed, hips on cushion, feet on floor. He holds the SAME plain warm-beige A5 hardback open above his lap with BOTH hands supporting the lower outer corners, gazes down with quiet engaged attention, not at camera. Place the SAME tan kraft shopping bag upright beside his chair and the SAME charcoal TWO-buckle messenger satchel set down beside it; no bags still worn. Small side table, lamp, bookshelf and evening window light make a plausible lived-in interior, no work computer or office. Front three-quarter medium-wide camera at seated-eye level; book held high enough so fingers and pages visible above caption zone, blank cream pages with no legible words. Lighting and cel-shading detail match reference. Prepare this as a fixed camera base for a following page-turn keyframe: keep face, wrists, book spine and chair unoccluded. No Agent, notifications, words, brand, UI, collage or extra limbs.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-bc06e7c7-3b4e-4074-a552-739cfe310e20.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Same book, two-buckle satchel and kraft bag in a coherent home reading space, no work device.",
+    "sha256": "4df7821face266b5b7ac288eba16aa254232fcb9a9d4ead23d8f079a96a53df4",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/06/bookshop-purchase-v02.png",
+        "sha256": "5582c23502ac9bf7976df8e3f8caa69cd898975b053961431a28aac92f15fd78"
+      }
+    ]
+  },
+  {
+    "id": "S06-R03",
+    "target": "arts/backgrounds/06/office-standing-with-bag-v02.png",
+    "refs": [
+      "arts/static/06/story-assets-v02/provenance/process/office-standing-bag-draft.png"
+    ],
+    "prompt": "Use case: precise-object-edit. ONE square keyframe, image1 is edit target. Keep EXACT current standing pose, camera, face, blue shirt, dark trousers, feet, empty chair, desk/keyboard/paper, Agent and door. Fix ONLY duplicate bag anatomy: retain the ONE large charcoal TWO-buckle satchel currently held by its top handle in the programmer's LOWER hand in front of his thigh. Remove entirely the additional smaller bag silhouette at his OUTER RIGHT HIP near the doorway and remove the shoulder strap running from his upper hand across shoulder toward that duplicate. His upper hand should now rest naturally on his upper chest/shirt, relaxed fingers, holding nothing. The ONE retained satchel may have its long strap folded neatly against itself, but no strap worn across torso. One bag total, no second dark bag at hip, no floor bag. Preserve everything else including exact door and foreground desk occlusion, no lanyard, no letters or graphics.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-4156ebef-ffcb-4a70-8289-9e34ee3cb92b.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Duplicate hip bag removed; one held satchel, empty chair and clear aisle, lanyard off.",
+    "sha256": "1a0ce439edcb958bd521aa76e40e31dd7ef2528b8901dcb684375a5c05b8fb31",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/static/06/story-assets-v02/provenance/process/office-standing-bag-draft.png",
+        "sha256": "e70fb79b42e3b45f335b8676dd09afa8ca4c8d5ccfbd88412a725e805d75b0ef"
+      }
+    ]
+  },
+  {
+    "id": "S06-R08",
+    "target": "arts/backgrounds/06/meeting-joint-confirm-v02.png",
+    "refs": [
+      "arts/backgrounds/06/meeting-manager-write-v02.png"
+    ],
+    "prompt": "Use case: identity-preserve. ONE16:9 continuation of the EXACT three-person table scene. Keep camera, faces, clothing, table, chairs, large single blank sheet and office fixed. Manager has finished writing and withdrawn pen to his own near side of table, pen tip NO LONGER contacting sheet; other hand relaxed near sheet edge. Programmer left and tester right lean naturally a little toward SAME central sheet to inspect the recorded arrangement, both expressions composed and slightly reassured, subtle small nods, not looking at camera. All three gaze toward same paper rather than merely posing; hands remain in their own tabletop areas, no thumbs-up, handshake or folded arms obscuring paper. No new paper, tablet or work UI. Keep sheet blank for editable planning text. Preserve grounded bodies seated IN chairs, forearms on table, separate fingers. No typography, arrows, bubbles, logos or exaggerated celebration.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-a58cbdbe-42fe-41b4-b357-e887c350a186.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Three inspect same sheet, pen withdrawn, whole seated bodies stable.",
+    "sha256": "9897d7cfda1acce193227bd4c5fecc18aa97999d0887291f798176a21c980fd4",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/06/meeting-manager-write-v02.png",
+        "sha256": "bf9ae5b483fa4c5914b743a116c8c9ef9ea551ea3a46821020c89dc727237eb8"
+      }
+    ]
+  },
+  {
+    "id": "S06-R09",
+    "target": "arts/backgrounds/06/office-review-deliverable-v02.png",
+    "refs": [
+      "arts/backgrounds/06/office-choice-settled-v02.png"
+    ],
+    "prompt": "Use case: identity-preserve. ONE square continuation of image1. Keep EXACT camera, face identity, desk/keyboard/blank sheet on RIGHT, chair, two-buckle satchel on floor, Agent, door, room and light. Programmer still wears blue-gray shirt and teal lanyard. Action is careful review before acceptance: he leans slightly toward monitor at screen-left, eyes focused reading rather than typing, left hand resting calmly near the left keyboard edge, RIGHT hand resting on one normal charcoal computer mouse just to the RIGHT of keyboard, on the free tabletop gap above-left of the blank sheet. Add that single small mouse with coherent perspective; no mouse on the paper. Index finger resting, not clicking yet. His mouth closed, thoughtful neutral face. Agent stands quietly behind with hands relaxed, not pointing or approving. Do not move desk objects or add papers. No text, symbols, UI or checkmarks, no speech balloons. Anatomically plausible right hand and wrist on mouse with distinct fingers, no extra keyboard or hands.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-f6850127-b757-44e6-adfa-88013e310f53.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Review gaze with right hand on one coherent mouse, not clicking; blank result UI reserved for overlay.",
+    "sha256": "bdff4eb9a3999812817db23c9a6017c08f198104c724b09eaf56770b485ac1b5",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/06/office-choice-settled-v02.png",
+        "sha256": "90e21b2b57e32e9ce3e0de18fada196e83dd707be0b461193a3572922a6a7d20"
+      }
+    ]
+  },
+  {
+    "id": "S06-R16",
+    "target": "arts/backgrounds/06/theatre-enjoy-v02.png",
+    "refs": [
+      "arts/backgrounds/06/theatre-settle-v02.png"
+    ],
+    "prompt": "Use case: identity-preserve. ONE16:9 continuation of exact reference theatre shot. Keep camera, venue, same two seated adults, all chairs, lighting, blue shirt/beige sweater, ONE charcoal two-buckle satchel and ONE tan kraft bag at their exact floor positions, same beige book inside bag. Change ONLY expression and action: a performance has just finished and both naturally applaud while still seated, hands raised comfortably in front of their own chests, palms almost contacting, fingers clean and anatomically plausible, not duplicated or fused. They keep looking toward unseen stage at screen-left with engaged warm modest smiles, not at camera, no romantic pose. Proper knees and hips in seats, chair arms occlude naturally. No new bags, lanyards, phones, screens, text or logos. Keep whole raster composition fixed; no motion lines, sparkles, UI or collage.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-74f685bf-0d88-44fe-80bb-7fe2f945d968.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Natural seated applause, bags and seats unchanged, no work devices.",
+    "sha256": "31860295ce9d83c0058f3784dc85eaedcf78146ddc56451aee76da3e2424ce0a",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/06/theatre-settle-v02.png",
+        "sha256": "ce5c82c7377601e8944ee107d297ddc8ba18556052c479760716a3bb2403a0e3"
+      }
+    ]
+  },
+  {
+    "id": "S06-R18",
+    "target": "arts/backgrounds/06/home-page-turn-v02.png",
+    "refs": [
+      "arts/backgrounds/06/home-reading-v02.png"
+    ],
+    "prompt": "Use case: identity-preserve. ONE16:9 continuation of exact home-reading reference. Preserve camera, same seated programmer face/clothes/pose, armchair, room, lamp/window, ONE kraft shopping bag and ONE charcoal two-buckle messenger satchel, same plain beige book and its position above lap. Change only the page-turn action: his LEFT hand supports the book's lower-left edge while his RIGHT thumb and index finger naturally lift ONE thin cream page from right side and turn it toward left, a single gently curved page arching over the spine. His other fingers stay curled plausibly, separate wrists, no third hand, no giant floating page, no detached page or stretched book. Eyes calmly track the page. Blank cream pages, no lettering. Hands and book remain clearly above bottom caption zone. No camera zoom, no overlays, computer or Agent. This is an intermediate real page-turn pose for later motion matching, not a split screen or full-screen paper wipe.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-a5212639-9de5-4872-b365-db3ff48c2170.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "One lifted cream page, separate hands and supported spine; same room/book/bags.",
+    "sha256": "d78583357f31bb850f6eaf8d6b16f8b4775df0d8e2de130f30220d9b96845555",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/06/home-reading-v02.png",
+        "sha256": "4df7821face266b5b7ac288eba16aa254232fcb9a9d4ead23d8f079a96a53df4"
+      }
+    ]
+  },
+  {
+    "id": "S06-R04",
+    "target": "arts/backgrounds/06/office-leave-doorway-v02.png",
+    "refs": [
+      "arts/backgrounds/06/office-standing-with-bag-v02.png"
+    ],
+    "prompt": "Use case: identity-preserve. ONE square continuation keyframe of this exact office. Keep SAME room camera axis, foreground desk/keyboard/blank paper, empty black chair, plants/windows, floor, existing open doorway at rear-right, and Agent at her current standing place. Programmer now takes a natural stride AWAY from his desk through that actual open doorway to screen-right/rear, seen in three-quarter side-back with face partly visible, wearing same blue-gray shirt and dark trousers, NO lanyard. Both feet belong to him and contact hallway floor correctly, coherent perspective means slightly smaller as he is farther away, not a giant pasted on wall. He carries ONE and ONLY ONE charcoal rectangular TWO-buckle messenger satchel by its TOP HANDLE in his lowered hand; no second bag on hip, no bag on floor, no cross-body strap across shirt, no shopping bag yet. Free hand relaxed at side, looking where he walks. Agent quietly stays in office, not calling or touching him; no second programmer left in chair. No text, UI, motion lines, arrows or collage. Keep the desk and chair physically correct and visible to show actual departure, no body passing through furniture.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-ce2f7a13-3a0f-4a34-8913-cc39cdce8466.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Actual empty chair and stride through open doorway, one held satchel, no lanyard.",
+    "sha256": "4ddb6436608fbf82dbca5f6c759246a33981cf7781ee0252a8486c074a4c314f",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/06/office-standing-with-bag-v02.png",
+        "sha256": "1a0ce439edcb958bd521aa76e40e31dd7ef2528b8901dcb684375a5c05b8fb31"
+      }
+    ]
+  },
+  {
+    "id": "S06-R10",
+    "target": "arts/backgrounds/06/office-accept-deliverable-v02.png",
+    "refs": [
+      "arts/backgrounds/06/office-review-deliverable-v02.png"
+    ],
+    "prompt": "Use case: identity-preserve. ONE square later keyframe in EXACT reference office-review shot. Preserve camera, monitor, face identity, clothes/lanyard, chair, all desk objects including ONE mouse at keyboard-right and same blank sheet, floor satchel, Agent and doorway. Change only programmer action from careful reading to affirmative human acceptance: his RIGHT index finger has pressed the mouse button naturally, wrist stays planted on same mouse, his shoulders relax slightly and his head lifts a few degrees with a small satisfied closed-mouth expression, still looking at his monitor to screen-left. Left hand withdraws slightly away from keys, not typing. A subtle natural difference in gaze/head/hands is required, not a pasted check icon. Agent remains quietly hands relaxed, does NOT approve the result herself. No new props or papers, no text, checkmarks, speech bubbles or UI. Hands anatomically clean and in contact with real mouse. Keep entire scene and bag exactly aligned for a match cut.",
+    "source": "/Users/alan671/.codex/generated_images/01a14290-7c25-7220-9ba5-d9224a6f3de8/exec-f8abfe3d-58e0-4b73-b7e8-427d2fe20723.png",
+    "transparent": false,
+    "status": "adopted",
+    "review": "Human mouse acceptance pose and slight relief distinct from review; desk/scene alignment preserved.",
+    "sha256": "65a13d68e41c806a03e3856fd7c70fa3d579a43014b6e05d5700c08becf293d5",
+    "tool": "built-in image_gen",
+    "model": "not exposed",
+    "referenceHashes": [
+      {
+        "path": "arts/backgrounds/06/office-review-deliverable-v02.png",
+        "sha256": "bdff4eb9a3999812817db23c9a6017c08f198104c724b09eaf56770b485ac1b5"
+      }
+    ]
+  }
+]

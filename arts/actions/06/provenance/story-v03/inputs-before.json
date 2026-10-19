@@ -1,0 +1,178 @@
+[
+  {
+    "path": "scripts/final/shot/01.md",
+    "sha256": "0bec30c0ba6e713660947041db930db1894633c90058a78584ca40f9966a85d9"
+  },
+  {
+    "path": "scripts/final/shot/02.md",
+    "sha256": "5b05a43abfca68d8823916764c8638085e9b2ec17f9fa0d5bdb974b562c7413b"
+  },
+  {
+    "path": "scripts/final/shot/03.md",
+    "sha256": "8f2388ec19eb7a6709d35121453a60ad51ef0df49890dcdfd8df7f480b7f2368"
+  },
+  {
+    "path": "scripts/final/shot/04.md",
+    "sha256": "9a0199359b0ee68c3b3ed0f61d3fa6c25598d10b6fe7b30fb6c39f7770c0a072"
+  },
+  {
+    "path": "scripts/final/shot/05.md",
+    "sha256": "4641f53b3ad24706062296f90c9497985507f1cae3e42e59b33fe53d90a1f293"
+  },
+  {
+    "path": "scripts/final/shot/06.md",
+    "sha256": "9db19c52a7c7255cc522b316a636fe1742ec8ceefc12c01ce1ceb175e6f0b3c8"
+  },
+  {
+    "path": "arts/actions/01/camera-motion.mjs",
+    "sha256": "434ec2191c05e357997f0390b363b8ab841a50717191f4dee08a41bdef8789db"
+  },
+  {
+    "path": "arts/actions/02/story-scene-v04.mjs",
+    "sha256": "438c21599082e6a0fdd5016b6d4bd654331ac033537b32127bb691ea936eb7f8"
+  },
+  {
+    "path": "arts/actions/03/story-scene-v05.mjs",
+    "sha256": "d5b9bc9be725af408f7dfe9a5f288facc175d7cb9b5b01fe0c78af5a4d4caa6c"
+  },
+  {
+    "path": "arts/actions/04/story-scene-v05.mjs",
+    "sha256": "5ed38d51a4d5c07c5f11d2428f209b8081f4396d71bfd75b0e62cd5cdb0880f4"
+  },
+  {
+    "path": "arts/actions/05/story-scene-v03.mjs",
+    "sha256": "7049b79eb96784d291299c314769f4f87bbcf4d26a6234101c9d3ad41c17dc1e"
+  },
+  {
+    "path": "arts/actions/06/scene.mjs",
+    "sha256": "6441471b14334235b32f323fa3a2830cf50f6d6d992f738fef8fa633332e6dc6"
+  },
+  {
+    "path": "arts/actions/06/entry-from-05-v03.mjs",
+    "sha256": "48e3d2903a15f6bec5f051f77e1ca11e651b2b461037066596b6f44319e4293d"
+  },
+  {
+    "path": "arts/actions/06/captions/06-v01.json",
+    "sha256": "2f98c4f563ebeb40da36cdb8a5d9027c7547b8d9a41f54dadc29a5b4446328f9"
+  },
+  {
+    "path": "arts/actions/06/captions/06-v01.srt",
+    "sha256": "bf1542ae51b1ac5f5fe3b892413b76c627ab2f80ae9896436bbb63381839fb05"
+  },
+  {
+    "path": "arts/actions/06/provenance/storyboard-v02/shot-timing.json",
+    "sha256": "ef5b8ff14f807e5fad64430825050289cfe55b882d3446e513b1e457742f010d"
+  },
+  {
+    "path": "arts/backgrounds/06/office-choice-settled-v02.png",
+    "sha256": "90e21b2b57e32e9ce3e0de18fada196e83dd707be0b461193a3572922a6a7d20"
+  },
+  {
+    "path": "arts/backgrounds/06/office-choice-extra-work-v02.png",
+    "sha256": "4436690b5896931a25c9be4405c829f7aaa44185a632f2f17f956a209065f16a"
+  },
+  {
+    "path": "arts/backgrounds/06/office-standing-with-bag-v02.png",
+    "sha256": "1a0ce439edcb958bd521aa76e40e31dd7ef2528b8901dcb684375a5c05b8fb31"
+  },
+  {
+    "path": "arts/backgrounds/06/office-leave-doorway-v02.png",
+    "sha256": "4ddb6436608fbf82dbca5f6c759246a33981cf7781ee0252a8486c074a4c314f"
+  },
+  {
+    "path": "arts/backgrounds/06/meeting-developer-scope-v02.png",
+    "sha256": "2e261c82e0db490eebd02c92da4ba22a8d18537bba9ea49ab6e36252d01fe6e2"
+  },
+  {
+    "path": "arts/backgrounds/06/meeting-tester-needs-v02.png",
+    "sha256": "ae82f9001a866e846e6bfc1d407c459c456fb88a26cb4700d68933cee84f3ece"
+  },
+  {
+    "path": "arts/backgrounds/06/meeting-manager-write-v02.png",
+    "sha256": "bf9ae5b483fa4c5914b743a116c8c9ef9ea551ea3a46821020c89dc727237eb8"
+  },
+  {
+    "path": "arts/backgrounds/06/meeting-joint-confirm-v02.png",
+    "sha256": "9897d7cfda1acce193227bd4c5fecc18aa97999d0887291f798176a21c980fd4"
+  },
+  {
+    "path": "arts/backgrounds/06/office-review-deliverable-v02.png",
+    "sha256": "bdff4eb9a3999812817db23c9a6017c08f198104c724b09eaf56770b485ac1b5"
+  },
+  {
+    "path": "arts/backgrounds/06/office-accept-deliverable-v02.png",
+    "sha256": "65a13d68e41c806a03e3856fd7c70fa3d579a43014b6e05d5700c08becf293d5"
+  },
+  {
+    "path": "arts/backgrounds/06/bookshop-select-v02.png",
+    "sha256": "d70ac251158b57c1bcfb71e434a3d71b1ad5156b14f5ff05917255b8606c642c"
+  },
+  {
+    "path": "arts/backgrounds/06/bookshop-purchase-v02.png",
+    "sha256": "5582c23502ac9bf7976df8e3f8caa69cd898975b053961431a28aac92f15fd78"
+  },
+  {
+    "path": "arts/backgrounds/06/theatre-settle-v02.png",
+    "sha256": "ce5c82c7377601e8944ee107d297ddc8ba18556052c479760716a3bb2403a0e3"
+  },
+  {
+    "path": "arts/backgrounds/06/theatre-enjoy-v02.png",
+    "sha256": "31860295ce9d83c0058f3784dc85eaedcf78146ddc56451aee76da3e2424ce0a"
+  },
+  {
+    "path": "arts/backgrounds/06/home-reading-v02.png",
+    "sha256": "4df7821face266b5b7ac288eba16aa254232fcb9a9d4ead23d8f079a96a53df4"
+  },
+  {
+    "path": "arts/backgrounds/06/home-page-turn-v02.png",
+    "sha256": "d78583357f31bb850f6eaf8d6b16f8b4775df0d8e2de130f30220d9b96845555"
+  },
+  {
+    "path": "arts/characters/portraits/03/programmer-front-v04.png",
+    "sha256": "ff8cef460bf150f730b2cc651b84e58ed9f92d3e09b74866be7724e919ff8d9d"
+  },
+  {
+    "path": "arts/characters/portraits/03/coworker-a-v04.png",
+    "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5"
+  },
+  {
+    "path": "arts/characters/portraits/03/coworker-b-v04.png",
+    "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5"
+  },
+  {
+    "path": "arts/characters/portraits/03/manager-neutral-v04.png",
+    "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370"
+  },
+  {
+    "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+    "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828"
+  },
+  {
+    "path": "arts/items/04/company-a-v03.png",
+    "sha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247"
+  },
+  {
+    "path": "arts/items/01/task-document-portrait-v01.png",
+    "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420"
+  },
+  {
+    "path": "arts/items/01/task-document-landscape-v01.png",
+    "sha256": "2c5ecf3f14465c3622b8d2e783c994e8240bebb063dbb8604414923d1cf7c225"
+  },
+  {
+    "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+    "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11"
+  },
+  {
+    "path": "arts/static/06/story-assets-v02/assets.mjs",
+    "sha256": "762b46664943408b57362bc21066dfca6dc0376c217e5157b4d286dbd8df7de6"
+  },
+  {
+    "path": "arts/static/06/story-assets-v02/screen-copy.json",
+    "sha256": "63e2d1243b201f9a35d0c17205be52ab8955e72cd1b09d4d461e9631dfe8af10"
+  },
+  {
+    "path": "arts/static/06/story-assets-v02/layout.json",
+    "sha256": "eeab83c3122336793866f2f4a2904e6ed6148bd025fe2caa833462d7e9ffea60"
+  }
+]

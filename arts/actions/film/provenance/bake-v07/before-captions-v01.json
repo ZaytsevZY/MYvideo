@@ -1,0 +1,572 @@
+[
+  {
+    "text": "深夜，一位程序员",
+    "startMs": 0,
+    "endMs": 2200,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "把尚未完成的功能交给 Agent：",
+    "startMs": 2200,
+    "endMs": 5200,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "编写代码、运行测试、整理结果。",
+    "startMs": 5200,
+    "endMs": 8400,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "随后，他关掉屏幕，",
+    "startMs": 8400,
+    "endMs": 10200,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "等到第二天验收。",
+    "startMs": 10200,
+    "endMs": 16000,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "他从亲手执行转向派发与审核，",
+    "startMs": 16000,
+    "endMs": 20000,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "有机会更早离开电脑。",
+    "startMs": 20000,
+    "endMs": 23000,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "项目计划也开始改变：补齐测试、",
+    "startMs": 23000,
+    "endMs": 25800,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "优化界面、",
+    "startMs": 25800,
+    "endMs": 27400,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "重启上周搁置的需求。",
+    "startMs": 27400,
+    "endMs": 30000,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "旧任务逐项完成，",
+    "startMs": 30000,
+    "endMs": 33600,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "待办清单却继续延长。",
+    "startMs": 33600,
+    "endMs": 37000,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "工具替人完成了更多任务，",
+    "startMs": 37000,
+    "endMs": 41000,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "为什么工作的终点反而越来越远？",
+    "startMs": 41000,
+    "endMs": 45000,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "01"
+  },
+  {
+    "text": "工作量不是固定的存量。",
+    "startMs": 45000,
+    "endMs": 47400,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "02"
+  },
+  {
+    "text": "开发成本下降，",
+    "startMs": 47400,
+    "endMs": 50200,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "02"
+  },
+  {
+    "text": "会改变项目的成本收益边界，",
+    "startMs": 50200,
+    "endMs": 53000,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "02"
+  },
+  {
+    "text": "使一部分原先不值得开展的需求",
+    "startMs": 53000,
+    "endMs": 55300,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "02"
+  },
+  {
+    "text": "变得可行。",
+    "startMs": 55300,
+    "endMs": 58000,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "02"
+  },
+  {
+    "text": "效率收益既可用于减少劳动，",
+    "startMs": 58000,
+    "endMs": 61400,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "02"
+  },
+  {
+    "text": "也可用于扩大产出。",
+    "startMs": 61400,
+    "endMs": 64200,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "02"
+  },
+  {
+    "text": "以价值增殖为目的的生产，",
+    "startMs": 64200,
+    "endMs": 67700,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "02"
+  },
+  {
+    "text": "有将节约重新投入生产的动力。",
+    "startMs": 67700,
+    "endMs": 72000,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "02"
+  },
+  {
+    "text": "单项任务耗时缩短，",
+    "startMs": 72000,
+    "endMs": 75900,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "02"
+  },
+  {
+    "text": "总劳动投入仍取决于任务规模。",
+    "startMs": 75900,
+    "endMs": 83000,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "02"
+  },
+  {
+    "text": "在以工时组织的雇佣劳动中，",
+    "startMs": 83000,
+    "endMs": 87400,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "03"
+  },
+  {
+    "text": "劳动者让渡的是一定期限内的劳动力使用权。",
+    "startMs": 87400,
+    "endMs": 92100,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "03"
+  },
+  {
+    "text": "清单提前清空，约定工时不会因此自动结束。",
+    "startMs": 92100,
+    "endMs": 96000,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "03"
+  },
+  {
+    "text": "企业仍能在约定时段分配其他任务。",
+    "startMs": 96000,
+    "endMs": 100600,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "03"
+  },
+  {
+    "text": "工作能否真正结束，还受响应要求、",
+    "startMs": 100600,
+    "endMs": 104500,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "03"
+  },
+  {
+    "text": "任务标准和工时界限的约束。",
+    "startMs": 104500,
+    "endMs": 108700,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "03"
+  },
+  {
+    "text": "技术缩短了执行过程，",
+    "startMs": 108700,
+    "endMs": 113500,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "03"
+  },
+  {
+    "text": "劳动者对劳动时间的决定权",
+    "startMs": 113500,
+    "endMs": 117700,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "03"
+  },
+  {
+    "text": "未必同步扩大。",
+    "startMs": 117700,
+    "endMs": 122000,
+    "timestampMs": null,
+    "confidence": null,
+    "chapterId": "03"
+  },
+  {
+    "id": "S04-A01",
+    "text": "一家科技公司的田野研究记录到，",
+    "startMs": 122500,
+    "endMs": 126400,
+    "sourceNote": "04-1",
+    "chapterId": "04"
+  },
+  {
+    "id": "S04-A02",
+    "text": "部分员工主动扩大任务范围，",
+    "startMs": 126400,
+    "endMs": 129600,
+    "sourceNote": "04-1",
+    "chapterId": "04"
+  },
+  {
+    "id": "S04-A03",
+    "text": "将生成式 AI 工作延伸到午餐、会前和晚间。",
+    "startMs": 129600,
+    "endMs": 134300,
+    "sourceNote": "04-1",
+    "chapterId": "04"
+  },
+  {
+    "id": "S04-A04",
+    "text": "新增能力带来更多产出，",
+    "startMs": 134300,
+    "endMs": 138000,
+    "sourceNote": "04-1",
+    "chapterId": "04"
+  },
+  {
+    "id": "S04-A05",
+    "text": "组织预期也随之提高。",
+    "startMs": 138000,
+    "endMs": 142000,
+    "sourceNote": "04-1",
+    "chapterId": "04"
+  },
+  {
+    "id": "S04-A06",
+    "text": "竞争进一步强化这种压力：",
+    "startMs": 142000,
+    "endMs": 145500,
+    "sourceNote": "04-2",
+    "chapterId": "04"
+  },
+  {
+    "id": "S04-A07",
+    "text": "新方法普及后，",
+    "startMs": 145500,
+    "endMs": 149000,
+    "sourceNote": "04-2",
+    "chapterId": "04"
+  },
+  {
+    "id": "S04-A08",
+    "text": "原有的效率优势逐渐消退，",
+    "startMs": 149000,
+    "endMs": 152500,
+    "sourceNote": "04-2",
+    "chapterId": "04"
+  },
+  {
+    "id": "S04-A09",
+    "text": "企业仍有缩短周期、增加交付的动力。",
+    "startMs": 152500,
+    "endMs": 157800,
+    "sourceNote": "04-2",
+    "chapterId": "04"
+  },
+  {
+    "id": "S04-A10",
+    "text": "当更高产出进入排期和考核，",
+    "startMs": 157800,
+    "endMs": 162000,
+    "sourceNote": "04-3",
+    "chapterId": "04"
+  },
+  {
+    "id": "S04-A11",
+    "text": "额外贡献就可能转为岗位的新基准。",
+    "startMs": 162000,
+    "endMs": 166300,
+    "sourceNote": "04-3",
+    "chapterId": "04"
+  },
+  {
+    "id": "S04-A12",
+    "text": "Agent 带来的普遍生产力提升造成了工作标准的提升：",
+    "startMs": 166300,
+    "endMs": 172500,
+    "sourceNote": "04-3",
+    "chapterId": "04"
+  },
+  {
+    "id": "S04-A13",
+    "text": "从我能多做，到我必须做到。",
+    "startMs": 172500,
+    "endMs": 177000,
+    "sourceNote": "04-3",
+    "chapterId": "04"
+  },
+  {
+    "id": "S05-A01",
+    "text": "调度多个 Agent，",
+    "startMs": 177400,
+    "endMs": 180000,
+    "sourceNote": "05-1",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A02",
+    "text": "扩大的是执行能力，",
+    "startMs": 180000,
+    "endMs": 183000,
+    "sourceNote": "05-1",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A03",
+    "text": "未必会改变产品目标、",
+    "startMs": 183000,
+    "endMs": 186400,
+    "sourceNote": "05-1",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A04",
+    "text": "交付周期和成果分配的决定权，",
+    "startMs": 186400,
+    "endMs": 189900,
+    "sourceNote": "05-1",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A05",
+    "text": "也不会使员工自动获得修改排期、",
+    "startMs": 189900,
+    "endMs": 193300,
+    "sourceNote": "05-1",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A06",
+    "text": "拒绝额外任务",
+    "startMs": 193300,
+    "endMs": 196000,
+    "sourceNote": "05-1",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A07",
+    "text": "或分享效率收益的权力。",
+    "startMs": 196000,
+    "endMs": 198800,
+    "sourceNote": "05-1",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A08",
+    "text": "社会劳动创造的生产力，",
+    "startMs": 198800,
+    "endMs": 202600,
+    "sourceNote": "05-2",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A09",
+    "text": "在特定的占有和组织关系中，",
+    "startMs": 202600,
+    "endMs": 206400,
+    "sourceNote": "05-2",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A10",
+    "text": "反而会成为约束劳动者的外在力量。",
+    "startMs": 206400,
+    "endMs": 210800,
+    "sourceNote": "05-2",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A11",
+    "text": "这是劳动异化的一个侧面：",
+    "startMs": 210800,
+    "endMs": 214400,
+    "sourceNote": "05-3",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A12",
+    "text": "具体的指令由人发出，",
+    "startMs": 214400,
+    "endMs": 217600,
+    "sourceNote": "05-3",
+    "chapterId": "05"
+  },
+  {
+    "id": "S05-A13",
+    "text": "而劳动的目的与尺度仍可能由他人设定。",
+    "startMs": 217600,
+    "endMs": 222000,
+    "sourceNote": "05-3",
+    "chapterId": "05"
+  },
+  {
+    "text": "效率收益可以转化为更多交付，",
+    "startMs": 222000,
+    "endMs": 226700,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A01",
+    "sourceNote": "06-1",
+    "chapterId": "06"
+  },
+  {
+    "text": "也可以转化为更短工时。",
+    "startMs": 226700,
+    "endMs": 230800,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A02",
+    "sourceNote": "06-1",
+    "chapterId": "06"
+  },
+  {
+    "text": "区别在于谁决定生产规模，",
+    "startMs": 230800,
+    "endMs": 234400,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A03",
+    "sourceNote": "06-1",
+    "chapterId": "06"
+  },
+  {
+    "text": "谁分配节约的时间。",
+    "startMs": 234400,
+    "endMs": 238000,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A04",
+    "sourceNote": "06-1",
+    "chapterId": "06"
+  },
+  {
+    "text": "让劳动者参与确定任务边界，",
+    "startMs": 238000,
+    "endMs": 243300,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A05",
+    "sourceNote": "06-2",
+    "chapterId": "06"
+  },
+  {
+    "text": "并获得实际可支配的时间，",
+    "startMs": 243300,
+    "endMs": 248000,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A06",
+    "sourceNote": "06-2",
+    "chapterId": "06"
+  },
+  {
+    "text": "技术进步才有机会转化为人的自由。",
+    "startMs": 248000,
+    "endMs": 253000,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A07",
+    "sourceNote": "06-2",
+    "chapterId": "06"
+  },
+  {
+    "text": "效率何时成为义务，",
+    "startMs": 253000,
+    "endMs": 257700,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A08",
+    "sourceNote": "06-3",
+    "chapterId": "06"
+  },
+  {
+    "text": "取决于谁有权为工作画上句号。",
+    "startMs": 257700,
+    "endMs": 266000,
+    "timestampMs": null,
+    "confidence": null,
+    "id": "S06-A09",
+    "sourceNote": "06-3",
+    "chapterId": "06"
+  }
+]

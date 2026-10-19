@@ -1,5 +1,5 @@
 {
-  "version": "FILM_PREVIEW v0.5",
+  "version": "FILM_PREVIEW v0.7",
   "date": "2026-10-19",
   "fps": 30,
   "duration": 280,
@@ -1712,85 +1712,136 @@
     },
     {
       "id": "S06-01",
+      "name": "排期页展开为同起点的两种去向",
       "start": 0,
-      "end": 2,
+      "end": 2.5,
+      "type": "L",
       "chapterId": "06",
       "globalFrame": 6660
     },
     {
       "id": "S06-02",
-      "start": 2,
+      "name": "企业侧关注追加交付",
+      "start": 2.5,
       "end": 4.7,
+      "type": "L",
       "chapterId": "06",
-      "globalFrame": 6720
+      "globalFrame": 6735
     },
     {
       "id": "S06-03",
+      "name": "员工侧关注提前结束工作",
       "start": 4.7,
-      "end": 6,
+      "end": 8.8,
+      "type": "L",
       "chapterId": "06",
       "globalFrame": 6801
     },
     {
       "id": "S06-04",
-      "start": 6,
+      "name": "把分歧落回待讨论的同一页",
+      "start": 8.8,
       "end": 16,
+      "type": "L",
       "chapterId": "06",
-      "globalFrame": 6840
+      "globalFrame": 6924
     },
     {
       "id": "S06-05",
+      "name": "程序员提出开发可承担范围",
       "start": 16,
-      "end": 20.5,
+      "end": 18.8,
+      "type": "E",
       "chapterId": "06",
       "globalFrame": 7140
     },
     {
       "id": "S06-06",
-      "start": 20.5,
-      "end": 25,
+      "name": "同事补充测试需要",
+      "start": 18.8,
+      "end": 21.2,
+      "type": "E",
       "chapterId": "06",
-      "globalFrame": 7275
+      "globalFrame": 7224
     },
     {
       "id": "S06-07",
-      "start": 25,
-      "end": 31,
+      "name": "负责人记录、各方确认",
+      "start": 21.2,
+      "end": 23.4,
+      "type": "E",
       "chapterId": "06",
-      "globalFrame": 7410
+      "globalFrame": 7296
     },
     {
       "id": "S06-08",
+      "name": "同一确认页引出文献与参与形态",
+      "start": 23.4,
+      "end": 27,
+      "type": "L",
+      "chapterId": "06",
+      "globalFrame": 7362
+    },
+    {
+      "id": "S06-09",
+      "name": "约定交付经人验收",
+      "start": 27,
+      "end": 29,
+      "type": "E",
+      "chapterId": "06",
+      "globalFrame": 7470
+    },
+    {
+      "id": "S06-10",
+      "name": "按约定收工并走向生活",
+      "start": 29,
+      "end": 31,
+      "type": "E",
+      "chapterId": "06",
+      "globalFrame": 7530
+    },
+    {
+      "id": "S06-11",
+      "name": "日常消费：挑选并购买一本书",
       "start": 31,
-      "end": 35,
+      "end": 35.7,
+      "type": "E",
       "chapterId": "06",
       "globalFrame": 7590
     },
     {
-      "id": "S06-09",
-      "start": 35,
-      "end": 38.5,
+      "id": "S06-12",
+      "name": "文化娱乐：与朋友观看演出",
+      "start": 35.7,
+      "end": 40.3,
+      "type": "E",
       "chapterId": "06",
-      "globalFrame": 7710
+      "globalFrame": 7731
     },
     {
-      "id": "S06-10",
-      "start": 38.5,
+      "id": "S06-13",
+      "name": "生活收势：回家阅读，纸白接出处",
+      "start": 40.3,
       "end": 44,
+      "type": "E",
       "chapterId": "06",
-      "globalFrame": 7815
+      "globalFrame": 7869
     },
     {
-      "id": "S06-11",
+      "id": "S06-14",
+      "name": "来源页1：经典定位",
       "start": 44,
       "end": 51,
+      "type": "L",
       "chapterId": "06",
       "globalFrame": 7980
     },
     {
-      "id": "S06-12",
+      "id": "S06-15",
+      "name": "来源页2：研究、技术与参与资料",
       "start": 51,
       "end": 58,
+      "type": "L",
       "chapterId": "06",
       "globalFrame": 8190
     }

@@ -28,10 +28,12 @@ test('every chapter frame resolves references deterministically and preserves on
 test('current integration holds exact actual terminal images and independent object identities',()=>{
  const render=createRenderer(JSON.parse(fs.readFileSync(new URL('../film/bundle-v01.json',import.meta.url))),p=>'/'+p);
  for(const cut of [5310,6660]){assert.equal(render(cut-1,{captions:false}).svg,render(cut,{captions:false}).svg);assert.equal(render(cut,{captions:false}).svg,render(cut+11,{captions:false}).svg);assert.notEqual(render(cut+11,{captions:false}).svg,render(cut+12,{captions:false}).svg);}
- assert.equal(stateAt('05',0).cvIsToolTask,false);assert.deepEqual(stateAt('05',0).inheritedTasks,{});assert.equal(stateAt('06',0).entryPlan.status,'pending-discussion');assert.equal(stateAt('06',0).previousTasks['S05-T02'],'running');assert.equal(stateAt('06',0).newStoryImplementation,false);
+ assert.equal(stateAt('05',0).cvIsToolTask,false);assert.deepEqual(stateAt('05',0).inheritedTasks,{});assert.equal(stateAt('06',0).entryPlan.status,'pending-discussion');assert.equal(stateAt('06',0).previousTasks['S05-T02'],'running');assert.equal(stateAt('06',0).newStoryImplementation,true);
 });
 test('six manuscript bytes, old runtimes and adopted drawing sources stay unchanged',()=>{
- const guards=JSON.parse(fs.readFileSync(new URL('./provenance/story-v03/inputs-before.json',import.meta.url)));for(const g of guards)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(g.path,root))).digest('hex'),g.sha256,g.path);
+ const guards=JSON.parse(fs.readFileSync(new URL('./provenance/story-v03/inputs-before.json',import.meta.url)));
+ const current06=JSON.parse(fs.readFileSync(new URL('../06/provenance/story-v03/inputs-before.json',import.meta.url))).find(g=>g.path==='scripts/final/shot/06.md');
+ for(const g of guards)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(g.path,root))).digest('hex'),g.path==='scripts/final/shot/06.md'?current06.sha256:g.sha256,g.path);
  // Guard every directly adopted05 bitmap against the already-reviewed art inventory.
  const inventory=JSON.parse(fs.readFileSync(new URL('../../static/05/story-assets-v02/layout.json',import.meta.url))).registry;
  for(const [key,p] of Object.entries(ASSETS).filter(([k])=>!k.startsWith('entry04_'))){const g=inventory.find(a=>a.path===p);assert(g,key);assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL(p,root))).digest('hex'),g.sha256,p);}

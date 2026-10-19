@@ -1,0 +1,33 @@
+{
+  "version": "S06_ART v0.2",
+  "newRuntimeImplemented": false,
+  "newSeamsVerified": false,
+  "from05": {
+    "existingRuntimeContract": "arts/actions/05/provenance/story-v03/boundary-to-06-v03.json",
+    "planningContract": "arts/actions/06/provenance/storyboard-v02/boundary-from-05-v02.json",
+    "artEntryComposition": "arts/static/06/story-assets-v02/compositions/entry-0.png",
+    "anchor": "S05-PLAN-01",
+    "proposal": "S05-PROP-01 pending-discussion",
+    "candidate": "hold actual05 terminal for12frames, unfold same page to two alternatives then real group discussion"
+  },
+  "ending": {
+    "planningContract": "arts/actions/06/provenance/storyboard-v02/boundary-to-ending-v02.json",
+    "pageTurnAsset": "arts/backgrounds/06/home-page-turn-v02.png",
+    "candidate": "cream page tone matches independent reference page at44s; book content never becomes references",
+    "referenceFrames": [
+      1320,
+      1530,
+      1740
+    ],
+    "noAudioCaptionsAfterLocalSec": 44
+  },
+  "invariants": {
+    "T06-final": "human review then human acceptance, separate from01/05 history",
+    "S05-T01": "historical human-accepted",
+    "S05-T02": "historical background-running",
+    "agentIsEmployer": false,
+    "sameSavingCountedTwice": false,
+    "lifeInterruptedAfter31s": false
+  },
+  "limitations": "Only images, editable surfaces, static composites and browser material checks completed; previous encoded seam proof does not approve proposed new06 story."
+}
