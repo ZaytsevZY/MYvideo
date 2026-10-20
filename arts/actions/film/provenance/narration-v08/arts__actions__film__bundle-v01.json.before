@@ -1,0 +1,1849 @@
+{
+  "version": "FILM_PREVIEW v0.7",
+  "date": "2026-10-19",
+  "fps": 30,
+  "duration": 280,
+  "frames": 8400,
+  "width": 1920,
+  "height": 1080,
+  "audio": false,
+  "bundle01": {
+    "version": "S01_CAMERA_PREVIEW v0.4",
+    "script": "S01_CAMERA v0.3",
+    "poses": {
+      "agent-grasp-file": {
+        "dataUri": "../../characters/poses/01/agent-grasp-file-v01.png",
+        "path": "arts/characters/poses/01/agent-grasp-file-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "agent-hold-file": {
+        "dataUri": "../../characters/poses/01/agent-hold-file-v01.png",
+        "path": "arts/characters/poses/01/agent-hold-file-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "agent-idle": {
+        "dataUri": "../../characters/poses/01/agent-idle-v01.png",
+        "path": "arts/characters/poses/01/agent-idle-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "agent-inspect-file": {
+        "dataUri": "../../characters/poses/01/agent-inspect-file-v01.png",
+        "path": "arts/characters/poses/01/agent-inspect-file-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "agent-offer-file": {
+        "dataUri": "../../characters/poses/01/agent-offer-file-v01.png",
+        "path": "arts/characters/poses/01/agent-offer-file-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "agent-pregrasp": {
+        "dataUri": "../../characters/poses/01/agent-pregrasp-v01.png",
+        "path": "arts/characters/poses/01/agent-pregrasp-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "agent-pull-file": {
+        "dataUri": "../../characters/poses/01/agent-pull-file-v01.png",
+        "path": "arts/characters/poses/01/agent-pull-file-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "agent-reach-half": {
+        "dataUri": "../../characters/poses/01/agent-reach-half-v01.png",
+        "path": "arts/characters/poses/01/agent-reach-half-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "agent-receive": {
+        "dataUri": "../../characters/poses/01/agent-receive-v01.png",
+        "path": "arts/characters/poses/01/agent-receive-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "agent-report": {
+        "dataUri": "../../characters/poses/01/agent-report-v01.png",
+        "path": "arts/characters/poses/01/agent-report-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-input": {
+        "dataUri": "../../characters/poses/01/programmer-input-v01.png",
+        "path": "arts/characters/poses/01/programmer-input-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-lean": {
+        "dataUri": "../../characters/poses/01/programmer-lean-v01.png",
+        "path": "arts/characters/poses/01/programmer-lean-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-release-half": {
+        "dataUri": "../../characters/poses/01/programmer-release-half-v01.png",
+        "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-rest": {
+        "dataUri": "../../characters/poses/01/programmer-rest-v01.png",
+        "path": "arts/characters/poses/01/programmer-rest-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-rise-high": {
+        "dataUri": "../../characters/poses/01/programmer-rise-high-v01.png",
+        "path": "arts/characters/poses/01/programmer-rise-high-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-rise": {
+        "dataUri": "../../characters/poses/01/programmer-rise-v01.png",
+        "path": "arts/characters/poses/01/programmer-rise-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-stand": {
+        "dataUri": "../../characters/poses/01/programmer-stand-v01.png",
+        "path": "arts/characters/poses/01/programmer-stand-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-turn-left": {
+        "dataUri": "../../characters/poses/01/programmer-turn-left-v01.png",
+        "path": "arts/characters/poses/01/programmer-turn-left-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-walk-a": {
+        "dataUri": "../../characters/poses/01/programmer-walk-a-v01.png",
+        "path": "arts/characters/poses/01/programmer-walk-a-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-walk-pass": {
+        "dataUri": "../../characters/poses/01/programmer-walk-pass-v01.png",
+        "path": "arts/characters/poses/01/programmer-walk-pass-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-walk-recover": {
+        "dataUri": "../../characters/poses/01/programmer-walk-recover-v01.png",
+        "path": "arts/characters/poses/01/programmer-walk-recover-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-front-fatigue": {
+        "dataUri": "../../characters/poses/01/programmer-front-fatigue-v01.png",
+        "path": "arts/characters/poses/01/programmer-front-fatigue-v01.png",
+        "width": 1153,
+        "height": 1364
+      },
+      "programmer-front-neutral": {
+        "dataUri": "../../characters/poses/01/programmer-front-neutral-v01.png",
+        "path": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+        "width": 1153,
+        "height": 1364
+      },
+      "programmer-front-dispatch": {
+        "dataUri": "../../characters/poses/01/programmer-front-dispatch-v01.png",
+        "path": "arts/characters/poses/01/programmer-front-dispatch-v01.png",
+        "width": 1153,
+        "height": 1364
+      },
+      "programmer-logic-stand-right": {
+        "dataUri": "../../characters/poses/01/programmer-logic-stand-right-v01.png",
+        "path": "arts/characters/poses/01/programmer-logic-stand-right-v01.png",
+        "width": 1024,
+        "height": 1536
+      }
+    },
+    "assets": {
+      "room-reverse-night": {
+        "dataUri": "../../backgrounds/01/workroom-reverse-night-v01.png",
+        "path": "arts/backgrounds/01/workroom-reverse-night-v01.png",
+        "width": 1672,
+        "height": 941
+      },
+      "monitor-back": {
+        "dataUri": "../../items/01/monitor-back-v01.svg",
+        "path": "arts/items/01/monitor-back-v01.svg",
+        "width": 1280,
+        "height": 360
+      },
+      "room-night": {
+        "dataUri": "../../backgrounds/01/workroom-night-v01.png",
+        "path": "arts/backgrounds/01/workroom-night-v01.png",
+        "width": 1672,
+        "height": 941
+      },
+      "room-day": {
+        "dataUri": "../../backgrounds/01/workroom-day-v01.png",
+        "path": "arts/backgrounds/01/workroom-day-v01.png",
+        "width": 1672,
+        "height": 941
+      },
+      "desk-legs": {
+        "dataUri": "../../items/01/desk-legs-v01.svg",
+        "path": "arts/items/01/desk-legs-v01.svg",
+        "width": 1440,
+        "height": 400
+      },
+      "desk-surface": {
+        "dataUri": "../../items/01/desk-surface-v01.svg",
+        "path": "arts/items/01/desk-surface-v01.svg",
+        "width": 1440,
+        "height": 160
+      },
+      "chair-back": {
+        "dataUri": "../../items/01/chair-back-v01.svg",
+        "path": "arts/items/01/chair-back-v01.svg",
+        "width": 340,
+        "height": 480
+      },
+      "chair-seat": {
+        "dataUri": "../../items/01/chair-seat-v01.svg",
+        "path": "arts/items/01/chair-seat-v01.svg",
+        "width": 340,
+        "height": 310
+      },
+      "monitor-frame": {
+        "dataUri": "../../items/01/monitor-frame-v01.svg",
+        "path": "arts/items/01/monitor-frame-v01.svg",
+        "width": 640,
+        "height": 440
+      },
+      "computer-tower": {
+        "dataUri": "../../items/01/computer-tower-v01.svg",
+        "path": "arts/items/01/computer-tower-v01.svg",
+        "width": 260,
+        "height": 390
+      },
+      "keyboard": {
+        "dataUri": "../../items/01/keyboard-v01.svg",
+        "path": "arts/items/01/keyboard-v01.svg",
+        "width": 600,
+        "height": 180
+      },
+      "mouse": {
+        "dataUri": "../../items/01/mouse-v01.svg",
+        "path": "arts/items/01/mouse-v01.svg",
+        "width": 120,
+        "height": 160
+      },
+      "desk-lamp": {
+        "dataUri": "../../items/01/desk-lamp-v01.svg",
+        "path": "arts/items/01/desk-lamp-v01.svg",
+        "width": 280,
+        "height": 440
+      },
+      "lamp-glow": {
+        "dataUri": "../../items/01/lamp-glow-v01.svg",
+        "path": "arts/items/01/lamp-glow-v01.svg",
+        "width": 520,
+        "height": 440
+      },
+      "screen-off": {
+        "dataUri": "../../items/01/screen-off-v01.svg",
+        "path": "arts/items/01/screen-off-v01.svg",
+        "width": 576,
+        "height": 324
+      },
+      "screen-idle": {
+        "dataUri": "../../items/01/screen-idle-v01.svg",
+        "path": "arts/items/01/screen-idle-v01.svg",
+        "width": 576,
+        "height": 324
+      },
+      "screen-running": {
+        "dataUri": "../../items/01/screen-running-v01.svg",
+        "path": "arts/items/01/screen-running-v01.svg",
+        "width": 576,
+        "height": 324
+      },
+      "screen-review": {
+        "dataUri": "../../items/01/screen-review-v01.svg",
+        "path": "arts/items/01/screen-review-v01.svg",
+        "width": 576,
+        "height": 324
+      },
+      "time-tracks-base": {
+        "dataUri": "../../static/01/time-tracks-base-v01.svg",
+        "path": "arts/static/01/time-tracks-base-v01.svg",
+        "width": 1500,
+        "height": 350
+      },
+      "human-dispatch": {
+        "dataUri": "../../static/01/human-dispatch-v01.svg",
+        "path": "arts/static/01/human-dispatch-v01.svg",
+        "width": 170,
+        "height": 60
+      },
+      "human-review": {
+        "dataUri": "../../static/01/human-review-v01.svg",
+        "path": "arts/static/01/human-review-v01.svg",
+        "width": 170,
+        "height": 60
+      },
+      "machine-execution": {
+        "dataUri": "../../static/01/machine-execution-v01.svg",
+        "path": "arts/static/01/machine-execution-v01.svg",
+        "width": 760,
+        "height": 60
+      },
+      "lane-evaluation": {
+        "dataUri": "../../static/01/lane-evaluation-v01.svg",
+        "path": "arts/static/01/lane-evaluation-v01.svg",
+        "width": 410,
+        "height": 350
+      },
+      "lane-scheduled": {
+        "dataUri": "../../static/01/lane-scheduled-v01.svg",
+        "path": "arts/static/01/lane-scheduled-v01.svg",
+        "width": 410,
+        "height": 350
+      },
+      "lane-acceptance": {
+        "dataUri": "../../static/01/lane-acceptance-v01.svg",
+        "path": "arts/static/01/lane-acceptance-v01.svg",
+        "width": 410,
+        "height": 350
+      },
+      "task-test": {
+        "dataUri": "../../static/01/task-test-v01.svg",
+        "path": "arts/static/01/task-test-v01.svg",
+        "width": 320,
+        "height": 140
+      },
+      "task-interface": {
+        "dataUri": "../../static/01/task-interface-v01.svg",
+        "path": "arts/static/01/task-interface-v01.svg",
+        "width": 320,
+        "height": 140
+      },
+      "task-feature": {
+        "dataUri": "../../static/01/task-feature-v01.svg",
+        "path": "arts/static/01/task-feature-v01.svg",
+        "width": 320,
+        "height": 140
+      },
+      "connector-arrow": {
+        "dataUri": "../../static/01/connector-arrow-v01.svg",
+        "path": "arts/static/01/connector-arrow-v01.svg",
+        "width": 160,
+        "height": 54
+      },
+      "endpoint-marker": {
+        "dataUri": "../../static/01/endpoint-marker-v01.svg",
+        "path": "arts/static/01/endpoint-marker-v01.svg",
+        "width": 100,
+        "height": 210
+      },
+      "cursor": {
+        "dataUri": "../../static/01/cursor-v01.svg",
+        "path": "arts/static/01/cursor-v01.svg",
+        "width": 70,
+        "height": 90
+      },
+      "status-check": {
+        "dataUri": "../../static/01/status-check-v01.svg",
+        "path": "arts/static/01/status-check-v01.svg",
+        "width": 70,
+        "height": 70
+      },
+      "status-rework": {
+        "dataUri": "../../static/01/status-rework-v01.svg",
+        "path": "arts/static/01/status-rework-v01.svg",
+        "width": 70,
+        "height": 70
+      },
+      "chair-back-rear": {
+        "dataUri": "../../items/01/chair-back-rear-v02.svg",
+        "path": "arts/items/01/chair-back-rear-v02.svg",
+        "width": 340,
+        "height": 480
+      },
+      "avatar-programmer-neutral": {
+        "dataUri": "../../characters/portraits/01/programmer-neutral-v01.png",
+        "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-agent-neutral": {
+        "dataUri": "../../characters/portraits/01/agent-neutral-v01.png",
+        "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "workstation-painted": {
+        "dataUri": "../../items/01/workstation-painted-v02.png",
+        "path": "arts/items/01/workstation-painted-v02.png",
+        "width": 1672,
+        "height": 941,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "document-portrait": {
+        "dataUri": "../../items/01/task-document-portrait-v01.png",
+        "path": "arts/items/01/task-document-portrait-v01.png",
+        "width": 1086,
+        "height": 1448,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "document-landscape": {
+        "dataUri": "../../items/01/task-document-landscape-v01.png",
+        "path": "arts/items/01/task-document-landscape-v01.png",
+        "width": 1774,
+        "height": 887,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "plan-tray": {
+        "dataUri": "../../items/01/plan-tray-painted-v01.png",
+        "path": "arts/items/01/plan-tray-painted-v01.png",
+        "width": 1672,
+        "height": 941,
+        "preserveAspectRatio": "xMidYMid meet",
+        "viewBox": [
+          39,
+          237,
+          1595,
+          445
+        ]
+      },
+      "chair-back-painted": {
+        "dataUri": "../../items/01/chair-back-rear-painted-v01.png",
+        "path": "arts/items/01/chair-back-rear-painted-v01.png",
+        "width": 1055,
+        "height": 1491,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "monitor-back-painted": {
+        "dataUri": "../../items/01/monitor-back-painted-v01.png",
+        "path": "arts/items/01/monitor-back-painted-v01.png",
+        "width": 1983,
+        "height": 793,
+        "preserveAspectRatio": "xMidYMid meet",
+        "viewBox": [
+          10,
+          172,
+          1964,
+          504
+        ]
+      },
+      "avatar-programmer-focus": {
+        "dataUri": "../../characters/portraits/01/programmer-focus-v01.png",
+        "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-agent-focus": {
+        "dataUri": "../../characters/portraits/01/agent-focus-v01.png",
+        "path": "arts/characters/portraits/01/agent-focus-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      }
+    },
+    "layout": {
+      "version": "S01_CAMERA_PREVIEW v0.4",
+      "script": "S01_CAMERA v0.3",
+      "front": {
+        "room": [
+          -8,
+          -5,
+          1936,
+          1090
+        ],
+        "pose": [
+          510.33,
+          70,
+          899.34,
+          1063.92
+        ],
+        "monitorBack": [
+          360,
+          844,
+          1200,
+          337.5
+        ],
+        "push": 0.03
+      },
+      "rear": {
+        "desk": [
+          180,
+          620,
+          1110,
+          123
+        ],
+        "deskLegs": [
+          180,
+          659,
+          1110,
+          308
+        ],
+        "monitor": [
+          600,
+          320,
+          544,
+          374
+        ],
+        "screen": [
+          596,
+          343,
+          540,
+          268
+        ],
+        "keyboard": [
+          440,
+          649,
+          405,
+          67
+        ],
+        "mouse": [
+          875,
+          650,
+          43,
+          58
+        ],
+        "chairSeat": [
+          480,
+          813,
+          265,
+          205
+        ],
+        "chairRear": [
+          483,
+          663,
+          265,
+          296
+        ],
+        "review": [
+          740,
+          356,
+          366,
+          252
+        ],
+        "taskPanel": [
+          1170,
+          300,
+          250,
+          180
+        ],
+        "ots": {
+          "x": 165,
+          "y": 90,
+          "scale": 1.15
+        },
+        "wide": {
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        "agentCrop": {
+          "x": 1137.6923,
+          "y": 250,
+          "scale": 2.6
+        }
+      },
+      "standing": {
+        "programmer": [
+          84.8,
+          223.32,
+          532.48,
+          798.72
+        ],
+        "agent": [
+          1394,
+          281.28,
+          491.52,
+          737.28
+        ],
+        "floor": 1008,
+        "fill": "#F6F1E7",
+        "fillOpacity": 0.97,
+        "backdrop": {
+          "time": [
+            600,
+            65,
+            1120,
+            390
+          ],
+          "workflow": [
+            600,
+            65,
+            1120,
+            470
+          ],
+          "queue": [
+            600,
+            65,
+            2040,
+            360
+          ]
+        },
+        "textSafeRight": 1370,
+        "lanes": [
+          [
+            630,
+            "待评估"
+          ],
+          [
+            875,
+            "已排期"
+          ],
+          [
+            1120,
+            "验收"
+          ]
+        ]
+      },
+      "human": {
+        "reviewClicks": [
+          12.8,
+          13.3,
+          13.8
+        ],
+        "select": [
+          24.2,
+          25.8,
+          27.4
+        ],
+        "approveT01R": 31.6,
+        "checkT01R": 32,
+        "mergeT01R": [
+          32.6,
+          33.6
+        ]
+      },
+      "endpoint": {
+        "reference": 1015,
+        "referenceFrom": 35.5,
+        "final": 2560,
+        "move": [
+          41,
+          44.2
+        ]
+      },
+      "logic": {
+        "stage": "acting cartoon avatars + folded documents",
+        "vignette": [
+          106,
+          692,
+          510,
+          308
+        ],
+        "performanceModule": "performance.mjs"
+      },
+      "layerOrder": [
+        "room (blurred, own parallax)",
+        "local diagram backdrop",
+        "documents",
+        "acting avatars",
+        "screen-space workstation vignette + intact actors",
+        "action accents",
+        "debug only"
+      ],
+      "note": "Every pose drawn once at native aspect; front uses explicit rects, rear uses CALIBRATION baselines, logic uses compact workstation actor states. No limb assembly or body crossfades."
+    },
+    "diagramPanels": {
+      "version": "S01_DIAGRAM_PANELS v0.1",
+      "fill": "#F6F1E7",
+      "fillOpacity": 0.97,
+      "stroke": "#8D9CA6",
+      "strokeWidth": 2,
+      "radius": 20,
+      "transform": "translate(650 20) scale(.8)",
+      "bounds": {
+        "time": [
+          -24,
+          -12,
+          1548,
+          438
+        ],
+        "workflow": [
+          -24,
+          -12,
+          1548,
+          450
+        ],
+        "queue": [
+          -24,
+          -12,
+          1548,
+          430
+        ]
+      },
+      "layerPolicy": "diagram backdrop and content below foreground Agent; frame fits content, never full screen"
+    }
+  },
+  "registries": {
+    "02": {
+      "document-portrait": {
+        "dataUri": "../../items/01/task-document-portrait-v01.png",
+        "path": "arts/items/01/task-document-portrait-v01.png",
+        "width": 1086,
+        "height": 1448,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-programmer-neutral": {
+        "dataUri": "../../characters/portraits/01/programmer-neutral-v01.png",
+        "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-programmer-focus": {
+        "dataUri": "../../characters/portraits/01/programmer-focus-v01.png",
+        "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-agent-neutral": {
+        "dataUri": "../../characters/portraits/01/agent-neutral-v01.png",
+        "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-agent-focus": {
+        "dataUri": "../../characters/portraits/01/agent-focus-v01.png",
+        "path": "arts/characters/portraits/01/agent-focus-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "cursor": {
+        "dataUri": "../../static/01/cursor-v01.svg",
+        "path": "arts/static/01/cursor-v01.svg",
+        "width": 70,
+        "height": 90
+      },
+      "stage": {
+        "path": "arts/actions/02/provenance/opening-v02/stage-idle.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "stage-lean": {
+        "path": "arts/actions/02/provenance/opening-v02/stage-lean.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "document-landscape": {
+        "dataUri": "../../items/01/task-document-landscape-v01.png",
+        "path": "arts/items/01/task-document-landscape-v01.png",
+        "width": 1774,
+        "height": 887,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "plan-tray": {
+        "dataUri": "../../items/01/plan-tray-painted-v01.png",
+        "path": "arts/items/01/plan-tray-painted-v01.png",
+        "width": 1672,
+        "height": 941,
+        "preserveAspectRatio": "xMidYMid meet",
+        "viewBox": [
+          39,
+          237,
+          1595,
+          445
+        ]
+      },
+      "stage-rest": {
+        "path": "arts/actions/02/provenance/full-v03/stage-rest.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "s02-room": {
+        "path": "arts/backgrounds/01/workroom-day-v01.png",
+        "width": 1672,
+        "height": 941
+      },
+      "s02-desk": {
+        "path": "arts/items/01/workstation-painted-v02.png",
+        "width": 1672,
+        "height": 941
+      },
+      "s02-chair": {
+        "path": "arts/items/01/chair-back-rear-painted-v01.png",
+        "width": 1055,
+        "height": 1491
+      },
+      "s02-input": {
+        "path": "arts/characters/poses/01/programmer-input-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "s02-relax": {
+        "path": "arts/characters/poses/02/programmer-relax-rear-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "s02-think": {
+        "path": "arts/characters/poses/02/programmer-think-up-right-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "s02-choose": {
+        "path": "arts/characters/poses/02/programmer-choose-right-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "s02-agent": {
+        "path": "arts/characters/poses/01/agent-receive-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "s02-mealRoom": {
+        "path": "arts/backgrounds/02/breakroom-meal-day-v01.png",
+        "width": 1672,
+        "height": 941
+      },
+      "s02-eatDown": {
+        "path": "arts/characters/poses/02/programmer-eat-down-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "s02-eatScoop": {
+        "path": "arts/characters/poses/02/programmer-eat-scoop-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "s02-eatBite": {
+        "path": "arts/characters/poses/02/programmer-eat-bite-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "s02-release": {
+        "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "s02-review": {
+        "path": "arts/characters/poses/02/programmer-review-current-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "s02-agentIdle": {
+        "path": "arts/characters/poses/01/agent-idle-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "s02-agentInspect": {
+        "path": "arts/characters/poses/01/agent-inspect-file-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "s02-agentOffer": {
+        "path": "arts/characters/poses/01/agent-offer-file-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "s02-document": {
+        "path": "arts/items/01/task-document-portrait-v01.png",
+        "width": 1086,
+        "height": 1448
+      },
+      "s02-backlogList": {
+        "path": "arts/items/shared/backlog-list-v01.png",
+        "width": 1440,
+        "height": 900
+      },
+      "s02-backlogOpen": {
+        "path": "arts/items/shared/backlog-open-v01.png",
+        "width": 1440,
+        "height": 900
+      },
+      "s02-reviewNext": {
+        "path": "arts/characters/poses/02/programmer-review-next-v01.png",
+        "width": 1024,
+        "height": 1536
+      }
+    },
+    "05": {
+      "document-portrait": {
+        "dataUri": "../../items/01/task-document-portrait-v01.png",
+        "path": "arts/items/01/task-document-portrait-v01.png",
+        "width": 1086,
+        "height": 1448,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-programmer-neutral": {
+        "dataUri": "../../characters/portraits/01/programmer-neutral-v01.png",
+        "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-programmer-focus": {
+        "dataUri": "../../characters/portraits/01/programmer-focus-v01.png",
+        "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-agent-neutral": {
+        "dataUri": "../../characters/portraits/01/agent-neutral-v01.png",
+        "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-agent-focus": {
+        "dataUri": "../../characters/portraits/01/agent-focus-v01.png",
+        "path": "arts/characters/portraits/01/agent-focus-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "cursor": {
+        "dataUri": "../../static/01/cursor-v01.svg",
+        "path": "arts/static/01/cursor-v01.svg",
+        "width": 70,
+        "height": 90
+      },
+      "workstation-painted": {
+        "dataUri": "../../items/01/workstation-painted-v02.png",
+        "path": "arts/items/01/workstation-painted-v02.png",
+        "width": 1672,
+        "height": 941,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "chair-back-painted": {
+        "dataUri": "../../items/01/chair-back-rear-painted-v01.png",
+        "path": "arts/items/01/chair-back-rear-painted-v01.png",
+        "width": 1055,
+        "height": 1491,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "agent-idle": {
+        "dataUri": "../../characters/poses/01/agent-idle-v01.png",
+        "path": "arts/characters/poses/01/agent-idle-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-input": {
+        "dataUri": "../../characters/poses/01/programmer-input-v01.png",
+        "path": "arts/characters/poses/01/programmer-input-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-lean": {
+        "dataUri": "../../characters/poses/01/programmer-lean-v01.png",
+        "path": "arts/characters/poses/01/programmer-lean-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-release-half": {
+        "dataUri": "../../characters/poses/01/programmer-release-half-v01.png",
+        "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-rest": {
+        "dataUri": "../../characters/poses/01/programmer-rest-v01.png",
+        "path": "arts/characters/poses/01/programmer-rest-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-rise": {
+        "dataUri": "../../characters/poses/01/programmer-rise-v01.png",
+        "path": "arts/characters/poses/01/programmer-rise-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-rise-high": {
+        "dataUri": "../../characters/poses/01/programmer-rise-high-v01.png",
+        "path": "arts/characters/poses/01/programmer-rise-high-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-stand": {
+        "dataUri": "../../characters/poses/01/programmer-stand-v01.png",
+        "path": "arts/characters/poses/01/programmer-stand-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-turn-left": {
+        "dataUri": "../../characters/poses/01/programmer-turn-left-v01.png",
+        "path": "arts/characters/poses/01/programmer-turn-left-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-walk-a": {
+        "dataUri": "../../characters/poses/01/programmer-walk-a-v01.png",
+        "path": "arts/characters/poses/01/programmer-walk-a-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-walk-pass": {
+        "dataUri": "../../characters/poses/01/programmer-walk-pass-v01.png",
+        "path": "arts/characters/poses/01/programmer-walk-pass-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-walk-recover": {
+        "dataUri": "../../characters/poses/01/programmer-walk-recover-v01.png",
+        "path": "arts/characters/poses/01/programmer-walk-recover-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "stage-room": {
+        "path": "arts/actions/05/provenance/v01/stage-room.png",
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "06": {
+      "document-portrait": {
+        "dataUri": "../../items/01/task-document-portrait-v01.png",
+        "path": "arts/items/01/task-document-portrait-v01.png",
+        "width": 1086,
+        "height": 1448,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-programmer-neutral": {
+        "dataUri": "../../characters/portraits/01/programmer-neutral-v01.png",
+        "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-programmer-focus": {
+        "dataUri": "../../characters/portraits/01/programmer-focus-v01.png",
+        "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-agent-neutral": {
+        "dataUri": "../../characters/portraits/01/agent-neutral-v01.png",
+        "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "avatar-agent-focus": {
+        "dataUri": "../../characters/portraits/01/agent-focus-v01.png",
+        "path": "arts/characters/portraits/01/agent-focus-v01.png",
+        "width": 1254,
+        "height": 1254,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "cursor": {
+        "dataUri": "../../static/01/cursor-v01.svg",
+        "path": "arts/static/01/cursor-v01.svg",
+        "width": 70,
+        "height": 90
+      },
+      "workstation-painted": {
+        "dataUri": "../../items/01/workstation-painted-v02.png",
+        "path": "arts/items/01/workstation-painted-v02.png",
+        "width": 1672,
+        "height": 941,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "chair-back-painted": {
+        "dataUri": "../../items/01/chair-back-rear-painted-v01.png",
+        "path": "arts/items/01/chair-back-rear-painted-v01.png",
+        "width": 1055,
+        "height": 1491,
+        "preserveAspectRatio": "xMidYMid meet"
+      },
+      "agent-idle": {
+        "dataUri": "../../characters/poses/01/agent-idle-v01.png",
+        "path": "arts/characters/poses/01/agent-idle-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-input": {
+        "dataUri": "../../characters/poses/01/programmer-input-v01.png",
+        "path": "arts/characters/poses/01/programmer-input-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-lean": {
+        "dataUri": "../../characters/poses/01/programmer-lean-v01.png",
+        "path": "arts/characters/poses/01/programmer-lean-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-release-half": {
+        "dataUri": "../../characters/poses/01/programmer-release-half-v01.png",
+        "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-rest": {
+        "dataUri": "../../characters/poses/01/programmer-rest-v01.png",
+        "path": "arts/characters/poses/01/programmer-rest-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-rise": {
+        "dataUri": "../../characters/poses/01/programmer-rise-v01.png",
+        "path": "arts/characters/poses/01/programmer-rise-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-rise-high": {
+        "dataUri": "../../characters/poses/01/programmer-rise-high-v01.png",
+        "path": "arts/characters/poses/01/programmer-rise-high-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-stand": {
+        "dataUri": "../../characters/poses/01/programmer-stand-v01.png",
+        "path": "arts/characters/poses/01/programmer-stand-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-turn-left": {
+        "dataUri": "../../characters/poses/01/programmer-turn-left-v01.png",
+        "path": "arts/characters/poses/01/programmer-turn-left-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-walk-a": {
+        "dataUri": "../../characters/poses/01/programmer-walk-a-v01.png",
+        "path": "arts/characters/poses/01/programmer-walk-a-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-walk-pass": {
+        "dataUri": "../../characters/poses/01/programmer-walk-pass-v01.png",
+        "path": "arts/characters/poses/01/programmer-walk-pass-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "programmer-walk-recover": {
+        "dataUri": "../../characters/poses/01/programmer-walk-recover-v01.png",
+        "path": "arts/characters/poses/01/programmer-walk-recover-v01.png",
+        "width": 1024,
+        "height": 1536
+      },
+      "stage-room": {
+        "path": "arts/actions/06/provenance/v01/stage-room.png",
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  },
+  "chapters": [
+    {
+      "id": "01",
+      "title": "效率与任务边界",
+      "duration": 45,
+      "version": "S01_CAMERA v0.3",
+      "frames": 1350,
+      "startFrame": 0,
+      "endFrame": 1350,
+      "start": 0,
+      "end": 45
+    },
+    {
+      "id": "02",
+      "title": "成本下降与任务扩张",
+      "duration": 38,
+      "version": "S02_STORY v0.4",
+      "frames": 1140,
+      "startFrame": 1350,
+      "endFrame": 2490,
+      "start": 45,
+      "end": 83
+    },
+    {
+      "id": "03",
+      "title": "雇佣关系与工作时间",
+      "duration": 39,
+      "version": "S03_STORY v0.5",
+      "frames": 1170,
+      "startFrame": 2490,
+      "endFrame": 3660,
+      "start": 83,
+      "end": 122
+    },
+    {
+      "id": "04",
+      "title": "竞争与标准重设",
+      "duration": 55,
+      "version": "S04 v0.2",
+      "frames": 1650,
+      "startFrame": 3660,
+      "endFrame": 5310,
+      "start": 122,
+      "end": 177
+    },
+    {
+      "id": "05",
+      "title": "执行能力与决定权",
+      "duration": 45,
+      "version": "S05 v0.1",
+      "frames": 1350,
+      "startFrame": 5310,
+      "endFrame": 6660,
+      "start": 177,
+      "end": 222
+    },
+    {
+      "id": "06",
+      "title": "效率收益与人的自由",
+      "duration": 58,
+      "version": "S06 v0.1",
+      "frames": 1740,
+      "startFrame": 6660,
+      "endFrame": 8400,
+      "start": 222,
+      "end": 280
+    }
+  ],
+  "beats": [
+    {
+      "id": "S01-01",
+      "start": 0,
+      "end": 3,
+      "name": "正面近景·深夜",
+      "mode": "front",
+      "chapterId": "01",
+      "globalFrame": 0
+    },
+    {
+      "id": "S01-02",
+      "start": 3,
+      "end": 5,
+      "name": "决定派发",
+      "mode": "front",
+      "chapterId": "01",
+      "globalFrame": 90
+    },
+    {
+      "id": "S01-03",
+      "start": 5,
+      "end": 8,
+      "name": "越肩·T01交给Agent",
+      "mode": "rear",
+      "chapterId": "01",
+      "globalFrame": 150
+    },
+    {
+      "id": "S01-04",
+      "start": 8,
+      "end": 10,
+      "name": "关屏·起身",
+      "mode": "rear",
+      "chapterId": "01",
+      "globalFrame": 240
+    },
+    {
+      "id": "S01-05",
+      "start": 10,
+      "end": 12,
+      "name": "Agent近景·夜到昼",
+      "mode": "agent",
+      "chapterId": "01",
+      "globalFrame": 300
+    },
+    {
+      "id": "S01-06",
+      "start": 12,
+      "end": 16,
+      "name": "人工验收·T01-R退回",
+      "mode": "rear",
+      "chapterId": "01",
+      "globalFrame": 360
+    },
+    {
+      "id": "S01-07",
+      "start": 16,
+      "end": 20,
+      "name": "头像交接·派发与审核",
+      "mode": "standing",
+      "chapterId": "01",
+      "globalFrame": 480
+    },
+    {
+      "id": "S01-08",
+      "start": 20,
+      "end": 23,
+      "name": "离开电脑·执行继续",
+      "mode": "standing",
+      "chapterId": "01",
+      "globalFrame": 600
+    },
+    {
+      "id": "S01-09",
+      "start": 23,
+      "end": 30,
+      "name": "选择·搬运·进入计划",
+      "mode": "standing",
+      "chapterId": "01",
+      "globalFrame": 690
+    },
+    {
+      "id": "S01-10",
+      "start": 30,
+      "end": 37,
+      "name": "复核·再次查看·清单增长",
+      "mode": "standing",
+      "chapterId": "01",
+      "globalFrame": 900
+    },
+    {
+      "id": "S01-11",
+      "start": 37,
+      "end": 41,
+      "name": "拉远揭示清单",
+      "mode": "standing",
+      "chapterId": "01",
+      "globalFrame": 1110
+    },
+    {
+      "id": "S01-12",
+      "start": 41,
+      "end": 45,
+      "name": "跟移终点",
+      "mode": "standing",
+      "chapterId": "01",
+      "globalFrame": 1230
+    },
+    {
+      "id": "S02-E1",
+      "start": 0,
+      "end": 5,
+      "name": "打开搁置需求",
+      "chapterId": "02",
+      "globalFrame": 1350
+    },
+    {
+      "id": "S02-L1",
+      "start": 5,
+      "end": 13,
+      "name": "可行边界",
+      "chapterId": "02",
+      "globalFrame": 1500
+    },
+    {
+      "id": "S02-E2",
+      "start": 13,
+      "end": 17,
+      "name": "休息与继续工作",
+      "chapterId": "02",
+      "globalFrame": 1740
+    },
+    {
+      "id": "S02-L2",
+      "start": 17,
+      "end": 23,
+      "name": "同一份节约",
+      "chapterId": "02",
+      "globalFrame": 1860
+    },
+    {
+      "id": "S02-E3",
+      "start": 23,
+      "end": 27,
+      "name": "KPI与选择",
+      "chapterId": "02",
+      "globalFrame": 2040
+    },
+    {
+      "id": "S02-L3",
+      "start": 27,
+      "end": 32,
+      "name": "投入与任务规模",
+      "chapterId": "02",
+      "globalFrame": 2160
+    },
+    {
+      "id": "S02-E4",
+      "start": 32,
+      "end": 38,
+      "name": "连续审核",
+      "chapterId": "02",
+      "globalFrame": 2310
+    },
+    {
+      "id": "S03-01",
+      "start": 0,
+      "end": 4.4,
+      "type": "L",
+      "name": "薪水与雇佣关系",
+      "chapterId": "03",
+      "globalFrame": 2490
+    },
+    {
+      "id": "S03-02",
+      "start": 4.4,
+      "end": 9.1,
+      "type": "L",
+      "name": "约定时间内的劳动力使用",
+      "chapterId": "03",
+      "globalFrame": 2622
+    },
+    {
+      "id": "S03-03",
+      "start": 9.1,
+      "end": 11.1,
+      "type": "E",
+      "name": "查看已完成清单",
+      "chapterId": "03",
+      "globalFrame": 2763
+    },
+    {
+      "id": "S03-04",
+      "start": 11.1,
+      "end": 13,
+      "type": "E",
+      "name": "14:00发送完成消息",
+      "chapterId": "03",
+      "globalFrame": 2823
+    },
+    {
+      "id": "S03-05",
+      "start": 13,
+      "end": 17.6,
+      "type": "E",
+      "name": "14:01追加会议报告",
+      "chapterId": "03",
+      "globalFrame": 2880
+    },
+    {
+      "id": "S03-06",
+      "start": 17.6,
+      "end": 20,
+      "type": "E",
+      "name": "读消息时间并侧看",
+      "chapterId": "03",
+      "globalFrame": 3018
+    },
+    {
+      "id": "S03-07",
+      "start": 20,
+      "end": 23,
+      "type": "E",
+      "name": "邻桌仍在工作",
+      "chapterId": "03",
+      "globalFrame": 3090
+    },
+    {
+      "id": "S03-08",
+      "start": 23,
+      "end": 25.7,
+      "type": "E",
+      "name": "看回屏幕并继续",
+      "chapterId": "03",
+      "globalFrame": 3180
+    },
+    {
+      "id": "S03-09",
+      "start": 25.7,
+      "end": 30.5,
+      "type": "E",
+      "name": "整理会议报告",
+      "chapterId": "03",
+      "globalFrame": 3261
+    },
+    {
+      "id": "S03-10",
+      "start": 30.5,
+      "end": 34.7,
+      "type": "L",
+      "name": "企业安排与雇员",
+      "chapterId": "03",
+      "globalFrame": 3405
+    },
+    {
+      "id": "S03-11",
+      "start": 34.7,
+      "end": 39,
+      "type": "L",
+      "name": "执行更快与时间决定权",
+      "chapterId": "03",
+      "globalFrame": 3531
+    },
+    {
+      "id": "S04-01",
+      "start": 0,
+      "end": 12.3,
+      "type": "E",
+      "name": "三窗并行",
+      "chapterId": "04",
+      "globalFrame": 3660
+    },
+    {
+      "id": "S04-02",
+      "start": 12.3,
+      "end": 14.6,
+      "type": "E",
+      "name": "成果交接",
+      "chapterId": "04",
+      "globalFrame": 4029
+    },
+    {
+      "id": "S04-03",
+      "start": 14.6,
+      "end": 17.3,
+      "type": "E",
+      "name": "绩效与反应",
+      "chapterId": "04",
+      "globalFrame": 4098
+    },
+    {
+      "id": "S04-04",
+      "start": 17.3,
+      "end": 20,
+      "type": "L",
+      "name": "产出与组织预期",
+      "chapterId": "04",
+      "globalFrame": 4179
+    },
+    {
+      "id": "S04-05",
+      "start": 20,
+      "end": 21.8,
+      "type": "L",
+      "name": "共同市场",
+      "chapterId": "04",
+      "globalFrame": 4260
+    },
+    {
+      "id": "S04-06",
+      "start": 21.8,
+      "end": 24.6,
+      "type": "L",
+      "name": "率先采用",
+      "chapterId": "04",
+      "globalFrame": 4314
+    },
+    {
+      "id": "S04-07",
+      "start": 24.6,
+      "end": 29.6,
+      "type": "L",
+      "name": "方法普及",
+      "chapterId": "04",
+      "globalFrame": 4398
+    },
+    {
+      "id": "S04-08",
+      "start": 29.6,
+      "end": 32.6,
+      "type": "L",
+      "name": "再压缩周期",
+      "chapterId": "04",
+      "globalFrame": 4548
+    },
+    {
+      "id": "S04-09",
+      "start": 32.6,
+      "end": 35.8,
+      "type": "L",
+      "name": "进入排期考核",
+      "chapterId": "04",
+      "globalFrame": 4638
+    },
+    {
+      "id": "S04-10",
+      "start": 35.8,
+      "end": 39,
+      "type": "E",
+      "name": "划去原人数",
+      "chapterId": "04",
+      "globalFrame": 4734
+    },
+    {
+      "id": "S04-11",
+      "start": 39,
+      "end": 42.2,
+      "type": "E",
+      "name": "重写产品线安排",
+      "chapterId": "04",
+      "globalFrame": 4830
+    },
+    {
+      "id": "S04-12",
+      "start": 42.2,
+      "end": 45.6,
+      "type": "E",
+      "name": "提高招聘要求",
+      "chapterId": "04",
+      "globalFrame": 4926
+    },
+    {
+      "id": "S04-13",
+      "start": 45.6,
+      "end": 50.6,
+      "type": "E",
+      "name": "发布与简历增加",
+      "chapterId": "04",
+      "globalFrame": 5028
+    },
+    {
+      "id": "S04-14",
+      "start": 50.6,
+      "end": 55,
+      "type": "L",
+      "name": "额外贡献成为常规要求",
+      "chapterId": "04",
+      "globalFrame": 5178
+    },
+    {
+      "id": "S05-01",
+      "name": "岗位要求接入",
+      "start": 0,
+      "end": 3,
+      "type": "L",
+      "chapterId": "05",
+      "globalFrame": 5310
+    },
+    {
+      "id": "S05-02",
+      "name": "员工调度多个Agent",
+      "start": 3,
+      "end": 6,
+      "type": "L",
+      "chapterId": "05",
+      "globalFrame": 5400
+    },
+    {
+      "id": "S05-03",
+      "name": "企业与员工关系",
+      "start": 6,
+      "end": 9.4,
+      "type": "L",
+      "chapterId": "05",
+      "globalFrame": 5490
+    },
+    {
+      "id": "S05-04",
+      "name": "目标周期与分配",
+      "start": 9.4,
+      "end": 13.3,
+      "type": "L",
+      "chapterId": "05",
+      "globalFrame": 5592
+    },
+    {
+      "id": "S05-05",
+      "name": "调整排期的另一通道",
+      "start": 13.3,
+      "end": 17.3,
+      "type": "L",
+      "chapterId": "05",
+      "globalFrame": 5709
+    },
+    {
+      "id": "S05-06",
+      "name": "额外任务与收益安排",
+      "start": 17.3,
+      "end": 21.8,
+      "type": "L",
+      "chapterId": "05",
+      "globalFrame": 5829
+    },
+    {
+      "id": "S05-07",
+      "name": "成果交付与人工验收",
+      "start": 21.8,
+      "end": 25.6,
+      "type": "E",
+      "chapterId": "05",
+      "globalFrame": 5964
+    },
+    {
+      "id": "S05-08",
+      "name": "完成之后仍等新指令",
+      "start": 25.6,
+      "end": 29.4,
+      "type": "E",
+      "chapterId": "05",
+      "globalFrame": 6078
+    },
+    {
+      "id": "S05-09",
+      "name": "广告标语与工位反应",
+      "start": 29.4,
+      "end": 33.8,
+      "type": "E",
+      "chapterId": "05",
+      "globalFrame": 6192
+    },
+    {
+      "id": "S05-10",
+      "name": "从场景抽出规则反馈",
+      "start": 33.8,
+      "end": 37.4,
+      "type": "L",
+      "chapterId": "05",
+      "globalFrame": 6324
+    },
+    {
+      "id": "S05-11",
+      "name": "具体指令仍由人发出",
+      "start": 37.4,
+      "end": 40.6,
+      "type": "L",
+      "chapterId": "05",
+      "globalFrame": 6432
+    },
+    {
+      "id": "S05-12",
+      "name": "目的尺度另有来源",
+      "start": 40.6,
+      "end": 43,
+      "type": "L",
+      "chapterId": "05",
+      "globalFrame": 6528
+    },
+    {
+      "id": "S05-13",
+      "name": "同一排期页留给06",
+      "start": 43,
+      "end": 45,
+      "type": "L",
+      "chapterId": "05",
+      "globalFrame": 6600
+    },
+    {
+      "id": "S06-01",
+      "name": "排期页展开为同起点的两种去向",
+      "start": 0,
+      "end": 2.5,
+      "type": "L",
+      "chapterId": "06",
+      "globalFrame": 6660
+    },
+    {
+      "id": "S06-02",
+      "name": "企业侧关注追加交付",
+      "start": 2.5,
+      "end": 4.7,
+      "type": "L",
+      "chapterId": "06",
+      "globalFrame": 6735
+    },
+    {
+      "id": "S06-03",
+      "name": "员工侧关注提前结束工作",
+      "start": 4.7,
+      "end": 8.8,
+      "type": "L",
+      "chapterId": "06",
+      "globalFrame": 6801
+    },
+    {
+      "id": "S06-04",
+      "name": "把分歧落回待讨论的同一页",
+      "start": 8.8,
+      "end": 16,
+      "type": "L",
+      "chapterId": "06",
+      "globalFrame": 6924
+    },
+    {
+      "id": "S06-05",
+      "name": "程序员提出开发可承担范围",
+      "start": 16,
+      "end": 18.8,
+      "type": "E",
+      "chapterId": "06",
+      "globalFrame": 7140
+    },
+    {
+      "id": "S06-06",
+      "name": "同事补充测试需要",
+      "start": 18.8,
+      "end": 21.2,
+      "type": "E",
+      "chapterId": "06",
+      "globalFrame": 7224
+    },
+    {
+      "id": "S06-07",
+      "name": "负责人记录、各方确认",
+      "start": 21.2,
+      "end": 23.4,
+      "type": "E",
+      "chapterId": "06",
+      "globalFrame": 7296
+    },
+    {
+      "id": "S06-08",
+      "name": "同一确认页引出文献与参与形态",
+      "start": 23.4,
+      "end": 27,
+      "type": "L",
+      "chapterId": "06",
+      "globalFrame": 7362
+    },
+    {
+      "id": "S06-09",
+      "name": "约定交付经人验收",
+      "start": 27,
+      "end": 29,
+      "type": "E",
+      "chapterId": "06",
+      "globalFrame": 7470
+    },
+    {
+      "id": "S06-10",
+      "name": "按约定收工并走向生活",
+      "start": 29,
+      "end": 31,
+      "type": "E",
+      "chapterId": "06",
+      "globalFrame": 7530
+    },
+    {
+      "id": "S06-11",
+      "name": "日常消费：挑选并购买一本书",
+      "start": 31,
+      "end": 35.7,
+      "type": "E",
+      "chapterId": "06",
+      "globalFrame": 7590
+    },
+    {
+      "id": "S06-12",
+      "name": "文化娱乐：与朋友观看演出",
+      "start": 35.7,
+      "end": 40.3,
+      "type": "E",
+      "chapterId": "06",
+      "globalFrame": 7731
+    },
+    {
+      "id": "S06-13",
+      "name": "生活收势：回家阅读，纸白接出处",
+      "start": 40.3,
+      "end": 44,
+      "type": "E",
+      "chapterId": "06",
+      "globalFrame": 7869
+    },
+    {
+      "id": "S06-14",
+      "name": "来源页1：经典定位",
+      "start": 44,
+      "end": 51,
+      "type": "L",
+      "chapterId": "06",
+      "globalFrame": 7980
+    },
+    {
+      "id": "S06-15",
+      "name": "来源页2：研究、技术与参与资料",
+      "start": 51,
+      "end": 58,
+      "type": "L",
+      "chapterId": "06",
+      "globalFrame": 8190
+    }
+  ]
+}

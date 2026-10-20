@@ -1,0 +1,52 @@
+[
+  {
+    "path": "scripts/final/shot/05.md",
+    "sha256": "6a1118bf42badaff9ba00836027cbc3a3331fcd8aff39685288ae91c944a999a",
+    "snapshot": "scripts__final__shot__05.md.before"
+  },
+  {
+    "path": "arts/actions/film/scenes.mjs",
+    "sha256": "3e0c73727130b25685d9daa957b255ff07b73e61bbe0524b20a71eaf80333ee3",
+    "snapshot": "arts__actions__film__scenes.mjs.before"
+  },
+  {
+    "path": "arts/actions/film/build.mjs",
+    "sha256": "6f69180bd7d97dfe9e698ad6c379bb4a9a58dacbcadb9ddfb02ccf427fd894a5",
+    "snapshot": "arts__actions__film__build.mjs.before"
+  },
+  {
+    "path": "arts/actions/film/captions-v01.json",
+    "sha256": "1985eac0e4d4ebc8d27294bef7db1ecb06a915ddbb090eb84e2fef1803b12c09",
+    "snapshot": "arts__actions__film__captions-v01.json.before"
+  },
+  {
+    "path": "arts/actions/film/captions-v01.srt",
+    "sha256": "1019c72590dd1cf2ddca0e7116013048c8f708907f49747c508e8a07fc8f3991",
+    "snapshot": "arts__actions__film__captions-v01.srt.before"
+  },
+  {
+    "path": "arts/actions/film/captions.test.mjs",
+    "sha256": "3a073e76f5e4e79dd91cdfabbf82f4217b20e41e760f28ac29e9e26551054cc4",
+    "snapshot": "arts__actions__film__captions.test.mjs.before"
+  },
+  {
+    "path": "arts/actions/film/framework.test.mjs",
+    "sha256": "f2d84a5b4a11545d6b35c5f9e2fa566cffcf55fd55877b0146579dab06810301",
+    "snapshot": "arts__actions__film__framework.test.mjs.before"
+  },
+  {
+    "path": "arts/actions/film/bundle-v01.json",
+    "sha256": "5fe55d8a9f2f84b3a8a1a265e83ccbaa76caa5ecf43b426ab4d89d46ef891c41",
+    "snapshot": "arts__actions__film__bundle-v01.json.before"
+  },
+  {
+    "path": "arts/actions/film/assets-v01.json",
+    "sha256": "97bdd68301ab45d49154cf77eabcac355ecc4691e4eede0259e6666e94dc2237",
+    "snapshot": "arts__actions__film__assets-v01.json.before"
+  },
+  {
+    "path": "arts/actions/film/preview.html",
+    "sha256": "7fefc7b5f1a0182a28c9648ab2a207a3a41241da7a4da985225fb9f0b0e0c0fb",
+    "snapshot": "arts__actions__film__preview.html.before"
+  }
+]

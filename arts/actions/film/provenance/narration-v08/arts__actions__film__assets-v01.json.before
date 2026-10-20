@@ -1,0 +1,2405 @@
+{
+  "version": "FILM_PREVIEW v0.7",
+  "assets": [
+    {
+      "path": "arts/backgrounds/01/workroom-reverse-night-v01.png",
+      "ids": [
+        "room-reverse-night"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1471222,
+      "sha256": "28a1e268b5376a4680ef30d4ad631af2b142993d614a74f45d4a9540d1e60814",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/items/01/monitor-back-v01.svg",
+      "ids": [
+        "monitor-back"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1097,
+      "sha256": "04136d3b114a923c39fd795b654905975a612bd4f930b3ab11ffedc8db77cc44",
+      "width": 1280,
+      "height": 360,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/backgrounds/01/workroom-night-v01.png",
+      "ids": [
+        "room-night"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1456166,
+      "sha256": "062660817c9cc28f7acd52678e761b8f2c1d584dc6d57cd5b9165c6a124cd77c",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/01/workroom-day-v01.png",
+      "ids": [
+        "room-day",
+        "s02-room"
+      ],
+      "chapters": [
+        "01",
+        "02"
+      ],
+      "bytes": 1577652,
+      "sha256": "45e33124784fffdfd755d27f6ee1b13d06d65261795087e83ec15c74392c50b3",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/items/01/desk-legs-v01.svg",
+      "ids": [
+        "desk-legs"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 795,
+      "sha256": "fbbfa4e5e4389bd2bb42e19d75b6e7a4351d2686aff09a092cab4c5165b52f39",
+      "width": 1440,
+      "height": 400,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/desk-surface-v01.svg",
+      "ids": [
+        "desk-surface"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 860,
+      "sha256": "cd0f83b599154d7753ffe6653610b6645c58f66640bee56fea88902b1800818b",
+      "width": 1440,
+      "height": 160,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/chair-back-v01.svg",
+      "ids": [
+        "chair-back"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 642,
+      "sha256": "a1adf60ec121f3a0083d457a2bfb96015ad386dc43268b3a0669582070fcba19",
+      "width": 340,
+      "height": 480,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/chair-seat-v01.svg",
+      "ids": [
+        "chair-seat"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1002,
+      "sha256": "33fadca63d1cd895c085555bc8f8b6cdc42f47dadc125d02e182daf61616dbc2",
+      "width": 340,
+      "height": 310,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/monitor-frame-v01.svg",
+      "ids": [
+        "monitor-frame"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 946,
+      "sha256": "a2e5fef0185ba0585a7feaaf374965054e6fceafdbb4c806589c04c2d2449d5a",
+      "width": 640,
+      "height": 440,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/computer-tower-v01.svg",
+      "ids": [
+        "computer-tower"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 934,
+      "sha256": "86561951af241f22a4b7e717ec8448ac9291a251c5f8b05df4e24adfa83b3f21",
+      "width": 260,
+      "height": 390,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/keyboard-v01.svg",
+      "ids": [
+        "keyboard"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 5567,
+      "sha256": "27fb0840895faa80db0074be3254655956a1c8236c1393a070297568d2c7e8c5",
+      "width": 600,
+      "height": 180,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/mouse-v01.svg",
+      "ids": [
+        "mouse"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 722,
+      "sha256": "1a457d16ba87490f8e7446fd0703c83492c9ecda7e17ae2d37bc0bcc63ce189e",
+      "width": 120,
+      "height": 160,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/desk-lamp-v01.svg",
+      "ids": [
+        "desk-lamp"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1019,
+      "sha256": "af90a83e55af6b25c7805a636b579055340d96b313273ed974371a3d01ecdb21",
+      "width": 280,
+      "height": 440,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/lamp-glow-v01.svg",
+      "ids": [
+        "lamp-glow"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 564,
+      "sha256": "6854251b1bcd62669977c585b3c847d19532683f16c5df4165cb8aef0fe639d1",
+      "width": 520,
+      "height": 440,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/screen-off-v01.svg",
+      "ids": [
+        "screen-off"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 427,
+      "sha256": "7e336f4ab5045f97698a322a00e5e779df7d9a286fadadd7eb4959b0d9472cfc",
+      "width": 576,
+      "height": 324,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/screen-idle-v01.svg",
+      "ids": [
+        "screen-idle"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 862,
+      "sha256": "790677fd516595915e4d46ac9bc3bdda44d74f458713936ad3cd18356c6d8203",
+      "width": 576,
+      "height": 324,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/screen-running-v01.svg",
+      "ids": [
+        "screen-running"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1267,
+      "sha256": "dadbb8a9ac8bc4812ea03553f7112e4b2abc8ca764c1eea65850f195fcf95f8c",
+      "width": 576,
+      "height": 324,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/screen-review-v01.svg",
+      "ids": [
+        "screen-review"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1745,
+      "sha256": "4c0fee3c6abb9b3e25772aa25c709ddd28fb40919f81112001e9d23cfa547745",
+      "width": 576,
+      "height": 324,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/static/01/time-tracks-base-v01.svg",
+      "ids": [
+        "time-tracks-base"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1059,
+      "sha256": "ea544003f70c26b4905e2e4f471e9c220c6ec3769c1a32a794bce11c674107c7",
+      "width": 1500,
+      "height": 350,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/human-dispatch-v01.svg",
+      "ids": [
+        "human-dispatch"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 526,
+      "sha256": "005f5bc4ca442fc91680c9242e28a4a7b44e777c570cc13b55c26c3f22ad0589",
+      "width": 170,
+      "height": 60,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/human-review-v01.svg",
+      "ids": [
+        "human-review"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 526,
+      "sha256": "db29f627d3d1e98002e805d8462e1523e2d52a0d48da7ebd873cc6b5fe14bf50",
+      "width": 170,
+      "height": 60,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/machine-execution-v01.svg",
+      "ids": [
+        "machine-execution"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 545,
+      "sha256": "8d2b151989389ae26928de5a7fa3484ea132fea6b7b362635be3f8d3a9c640ad",
+      "width": 760,
+      "height": 60,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/lane-evaluation-v01.svg",
+      "ids": [
+        "lane-evaluation"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 623,
+      "sha256": "7e59d826eba66650106d353783b82ef9c6d941969521b36ff06baac2bf113d3e",
+      "width": 410,
+      "height": 350,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/lane-scheduled-v01.svg",
+      "ids": [
+        "lane-scheduled"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 632,
+      "sha256": "e77d28f5a0dcd6909963e2ba93f18c85f3f5e495ef05c8f4b7f0b4e73a9239ac",
+      "width": 410,
+      "height": 350,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/lane-acceptance-v01.svg",
+      "ids": [
+        "lane-acceptance"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 632,
+      "sha256": "df38f6793a7fe5fd0d6fcbb25361fc0b73471434150e132ff585a177997d7ed7",
+      "width": 410,
+      "height": 350,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/task-test-v01.svg",
+      "ids": [
+        "task-test"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 777,
+      "sha256": "eb8a41e5402c435528ac18f917625052bd779feaa0862e2e2c7a1c176dbfdc3b",
+      "width": 320,
+      "height": 140,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/task-interface-v01.svg",
+      "ids": [
+        "task-interface"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 836,
+      "sha256": "0084b36613aa18bb3683ae0da0163f07b3b104d6c1b5f0e52ac64b8fcc1753e7",
+      "width": 320,
+      "height": 140,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/task-feature-v01.svg",
+      "ids": [
+        "task-feature"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 744,
+      "sha256": "8594b65450fe97a2dee27c9a90e976236d5c298c2eb3c701b75e410e2dd7335d",
+      "width": 320,
+      "height": 140,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/connector-arrow-v01.svg",
+      "ids": [
+        "connector-arrow"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 475,
+      "sha256": "33ddd0b5cf77935f4294c8624449964e75e70469b857e19a0961c034b9bc07e6",
+      "width": 160,
+      "height": 54,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/endpoint-marker-v01.svg",
+      "ids": [
+        "endpoint-marker"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 585,
+      "sha256": "4cc8261c1e2f0651c68d145b8a0cfebffa56c9d06499d5a04886d2dda9c16cf4",
+      "width": 100,
+      "height": 210,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/cursor-v01.svg",
+      "ids": [
+        "cursor"
+      ],
+      "chapters": [
+        "01",
+        "02",
+        "05",
+        "06"
+      ],
+      "bytes": 476,
+      "sha256": "8644710ef890d036ffb200a10be9d55e67adc79c20ee18089129261f2a428b05",
+      "width": 70,
+      "height": 90,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/status-check-v01.svg",
+      "ids": [
+        "status-check"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 449,
+      "sha256": "96c7319669dcbd57d1da3902acd600b7c989617732833545fc20e21e68c592cb",
+      "width": 70,
+      "height": 70,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/static/01/status-rework-v01.svg",
+      "ids": [
+        "status-rework"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 484,
+      "sha256": "a76dd3b7c2d92f54516ccde34add4ef6d314b214f2c4087c0a949c716f81ea05",
+      "width": 70,
+      "height": 70,
+      "alpha": true,
+      "format": "svg",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/items/01/chair-back-rear-v02.svg",
+      "ids": [
+        "chair-back-rear"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 648,
+      "sha256": "7126fbd1b4fc9bb0c57ba527b2199804993167bdbf520b91ae7d67f366dd8c92",
+      "width": 340,
+      "height": 480,
+      "alpha": true,
+      "format": "svg",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/characters/portraits/01/programmer-neutral-v01.png",
+      "ids": [
+        "avatar-programmer-neutral"
+      ],
+      "chapters": [
+        "01",
+        "02",
+        "05",
+        "06"
+      ],
+      "bytes": 1103321,
+      "sha256": "20a101697879a0e54da5861532080cede1db7d4cfd7dbbd9dbd7af820d9cfbaa",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/characters/portraits/01/agent-neutral-v01.png",
+      "ids": [
+        "avatar-agent-neutral",
+        "agent"
+      ],
+      "chapters": [
+        "01",
+        "02",
+        "05",
+        "06",
+        "04"
+      ],
+      "bytes": 1422938,
+      "sha256": "fb427edf828cec4829e582148a52a29e7ff67a742e5ec1bacd6c59dd57b42828",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/items/01/workstation-painted-v02.png",
+      "ids": [
+        "workstation-painted",
+        "s02-desk"
+      ],
+      "chapters": [
+        "01",
+        "02",
+        "05",
+        "06"
+      ],
+      "bytes": 502454,
+      "sha256": "c05a579cb7d6e3eeefac268c6d122495396b6fbe759d5efbc5cda4c1981a234a",
+      "width": 1672,
+      "height": 941,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/task-document-portrait-v01.png",
+      "ids": [
+        "document-portrait",
+        "s02-document",
+        "document",
+        "entry04_document"
+      ],
+      "chapters": [
+        "01",
+        "02",
+        "05",
+        "06",
+        "04"
+      ],
+      "bytes": 1390962,
+      "sha256": "48ee80b1e16fb606d4b226b69aad87171626bc71f1a00a0c84b8d7b298bd7420",
+      "width": 1086,
+      "height": 1448,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/task-document-landscape-v01.png",
+      "ids": [
+        "document-landscape",
+        "documentWide"
+      ],
+      "chapters": [
+        "01",
+        "02",
+        "04",
+        "05",
+        "06"
+      ],
+      "bytes": 1533106,
+      "sha256": "2c5ecf3f14465c3622b8d2e783c994e8240bebb063dbb8604414923d1cf7c225",
+      "width": 1774,
+      "height": 887,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/plan-tray-painted-v01.png",
+      "ids": [
+        "plan-tray"
+      ],
+      "chapters": [
+        "01",
+        "02"
+      ],
+      "bytes": 814235,
+      "sha256": "5a9d24eb3d6eaf19cd9a7e2fad7f142c7650f2795ff36b8d52afb382fd27d1ca",
+      "width": 1672,
+      "height": 941,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/chair-back-rear-painted-v01.png",
+      "ids": [
+        "chair-back-painted",
+        "s02-chair"
+      ],
+      "chapters": [
+        "01",
+        "02",
+        "05",
+        "06"
+      ],
+      "bytes": 1213043,
+      "sha256": "c8081c17e825a75dacb7b6f23f21e8d7ed6f76bdffe978eba4bd525aef6071c6",
+      "width": 1055,
+      "height": 1491,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/01/monitor-back-painted-v01.png",
+      "ids": [
+        "monitor-back-painted"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1126878,
+      "sha256": "4298b6cbd31160a749fa1b01fc36679a40774a7ddd70e85c41e54630eeb3f7bb",
+      "width": 1983,
+      "height": 793,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/characters/portraits/01/programmer-focus-v01.png",
+      "ids": [
+        "avatar-programmer-focus"
+      ],
+      "chapters": [
+        "01",
+        "02",
+        "05",
+        "06"
+      ],
+      "bytes": 1094887,
+      "sha256": "4e6f1beaf38dd2e02df9f6e3a1943d3815a73d6e0113f2b8531ea7ad6113fc1e",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/characters/portraits/01/agent-focus-v01.png",
+      "ids": [
+        "avatar-agent-focus",
+        "agentFocus"
+      ],
+      "chapters": [
+        "01",
+        "02",
+        "05",
+        "06"
+      ],
+      "bytes": 1449774,
+      "sha256": "2db469f8afaae3bcbb54aa1ec4487f43c8a614bffcf56c85a77dbe15b3703f20",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-grasp-file-v01.png",
+      "ids": [
+        "agent-grasp-file"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1397278,
+      "sha256": "2e3f7a7e80edbf582dac5e621aeee09ee50e5ffcb0fdb85e19e9b6659fb25563",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-hold-file-v01.png",
+      "ids": [
+        "agent-hold-file"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1295202,
+      "sha256": "b2462a68b37ef0ef2d0d15460f5044a097b79049b1350976e8db53ef86ea611e",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-idle-v01.png",
+      "ids": [
+        "agent-idle",
+        "s02-agentIdle"
+      ],
+      "chapters": [
+        "01",
+        "02",
+        "05",
+        "06"
+      ],
+      "bytes": 1334286,
+      "sha256": "fbcf2a3125182fc9d7834015378b786a6bdf6187b334bc3d6ecb996d62c6df4c",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-inspect-file-v01.png",
+      "ids": [
+        "agent-inspect-file",
+        "s02-agentInspect"
+      ],
+      "chapters": [
+        "01",
+        "02"
+      ],
+      "bytes": 1293369,
+      "sha256": "1c61c9c353b92cc2efd8881a684854392056d057eeba2e569b608055f23a3a88",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-offer-file-v01.png",
+      "ids": [
+        "agent-offer-file",
+        "s02-agentOffer"
+      ],
+      "chapters": [
+        "01",
+        "02"
+      ],
+      "bytes": 1377114,
+      "sha256": "65c06a3902b13821725a64a8d9a25d8c18c8409186f46558409e3b05d3c9b235",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-pregrasp-v01.png",
+      "ids": [
+        "agent-pregrasp"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1396763,
+      "sha256": "1b544554be3ec80ac769785fce33b498de2ff9beaaecbfe3277e7807e45b1523",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-pull-file-v01.png",
+      "ids": [
+        "agent-pull-file"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1311770,
+      "sha256": "0f5ccc2bf4d605efb024e610a3daa563fb409fd580f350d96302a7f0e6c70048",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-reach-half-v01.png",
+      "ids": [
+        "agent-reach-half"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1340028,
+      "sha256": "7e6543230b7ef6c73d04d100fd1e8d09c6d9a150c8d16432fec2b7b983c396c7",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-receive-v01.png",
+      "ids": [
+        "agent-receive",
+        "s02-agent"
+      ],
+      "chapters": [
+        "01",
+        "02"
+      ],
+      "bytes": 1364706,
+      "sha256": "dac6f4c336ca5dfeee79843776c8e3a60df740e611ad6c4ef45d364ed7fe15f5",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/agent-report-v01.png",
+      "ids": [
+        "agent-report"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1363411,
+      "sha256": "22198fc0ea7f38bc081ca8ce4d886d316913b1c3c9f658c2bae86f61459a5c1e",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-input-v01.png",
+      "ids": [
+        "programmer-input",
+        "s02-input"
+      ],
+      "chapters": [
+        "01",
+        "02",
+        "05",
+        "06"
+      ],
+      "bytes": 1330055,
+      "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-lean-v01.png",
+      "ids": [
+        "programmer-lean"
+      ],
+      "chapters": [
+        "01",
+        "05",
+        "06"
+      ],
+      "bytes": 1330624,
+      "sha256": "470d0a4d34b3f4d8ac4fcceff2fb613c7573c4918319bce6e019100339ee89d2",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+      "ids": [
+        "programmer-release-half",
+        "s02-release"
+      ],
+      "chapters": [
+        "01",
+        "02",
+        "05",
+        "06"
+      ],
+      "bytes": 1333798,
+      "sha256": "6304e88141b54c50d2e87659315b26392d86123a2073cdd98068b38776a1312b",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rest-v01.png",
+      "ids": [
+        "programmer-rest"
+      ],
+      "chapters": [
+        "01",
+        "05",
+        "06"
+      ],
+      "bytes": 1328086,
+      "sha256": "2f7042e7620dc3f31d176036cd3f68246e4f37d595194b79c0d3431282b8bc85",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rise-high-v01.png",
+      "ids": [
+        "programmer-rise-high"
+      ],
+      "chapters": [
+        "01",
+        "05",
+        "06"
+      ],
+      "bytes": 1305921,
+      "sha256": "b3816159ee33b110bde7121f117d99bd076b12168e368446eb719fa6c5f34dc6",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-rise-v01.png",
+      "ids": [
+        "programmer-rise"
+      ],
+      "chapters": [
+        "01",
+        "05",
+        "06"
+      ],
+      "bytes": 1347382,
+      "sha256": "c03856bd6ccdea1a3690c388451327e50546d371150fa690a59a5a098149b70b",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-stand-v01.png",
+      "ids": [
+        "programmer-stand"
+      ],
+      "chapters": [
+        "01",
+        "05",
+        "06"
+      ],
+      "bytes": 1184689,
+      "sha256": "47a0ff3b3a1c0d6aaa5039b0f4ca03bf692cb99cccef0842ab673f92094b9fb6",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-turn-left-v01.png",
+      "ids": [
+        "programmer-turn-left"
+      ],
+      "chapters": [
+        "01",
+        "05",
+        "06"
+      ],
+      "bytes": 1186154,
+      "sha256": "ae6165c17cbb75f95a2b61ee722baa3802821225da50fffc855ea9eca2e9b308",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-a-v01.png",
+      "ids": [
+        "programmer-walk-a"
+      ],
+      "chapters": [
+        "01",
+        "05",
+        "06"
+      ],
+      "bytes": 1287485,
+      "sha256": "ee3d05ba41d87a7e4e928ab5596c0d58c76c7cf66e4af0879e4f7d7ca4200db8",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-pass-v01.png",
+      "ids": [
+        "programmer-walk-pass"
+      ],
+      "chapters": [
+        "01",
+        "05",
+        "06"
+      ],
+      "bytes": 1194821,
+      "sha256": "53b1f23d23d9b348856254d95aa1647eef9739f9efd54d9da22c33e8f0a58c18",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-walk-recover-v01.png",
+      "ids": [
+        "programmer-walk-recover"
+      ],
+      "chapters": [
+        "01",
+        "05",
+        "06"
+      ],
+      "bytes": 1227300,
+      "sha256": "4e31a14ecf89a66483dc7c39764d1b049dce66d74bbdfb94e90eab3257ad04de",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-front-fatigue-v01.png",
+      "ids": [
+        "programmer-front-fatigue"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1261844,
+      "sha256": "bdec5ffc33566c2540c81bb27e45021242305af4b75237e183c8c6efcdae10ff",
+      "width": 1153,
+      "height": 1364,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+      "ids": [
+        "programmer-front-neutral"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1298272,
+      "sha256": "f3862cc0ea51085524d03d2d9d3a704b756f892533d258a9c05ea598fea00ddf",
+      "width": 1153,
+      "height": 1364,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-front-dispatch-v01.png",
+      "ids": [
+        "programmer-front-dispatch"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1287035,
+      "sha256": "2884433d982fb66f6e8c506fd6b4bcef27dfc0cd4f5b75b6fc8693b6ffd22a3c",
+      "width": 1153,
+      "height": 1364,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/01/programmer-logic-stand-right-v01.png",
+      "ids": [
+        "programmer-logic-stand-right"
+      ],
+      "chapters": [
+        "01"
+      ],
+      "bytes": 1216402,
+      "sha256": "527c21130304764ec19156ae62d75b6909432a194b686072d67a7905087ea117",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/actions/02/provenance/opening-v02/stage-idle.png",
+      "ids": [
+        "stage"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1305416,
+      "sha256": "bd40ce09b4584e1f55c35bffeaadd032bea3c3b8b4012695f728711e1ed6eac3",
+      "width": 1920,
+      "height": 1080,
+      "alpha": true,
+      "format": "png",
+      "kind": "合成底图"
+    },
+    {
+      "path": "arts/actions/02/provenance/opening-v02/stage-lean.png",
+      "ids": [
+        "stage-lean"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1307412,
+      "sha256": "1008c45f8c4b334f28cf5fbd754778963a7575b9b88da44d75c72ef20c32e923",
+      "width": 1920,
+      "height": 1080,
+      "alpha": true,
+      "format": "png",
+      "kind": "合成底图"
+    },
+    {
+      "path": "arts/actions/02/provenance/full-v03/stage-rest.png",
+      "ids": [
+        "stage-rest"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1236314,
+      "sha256": "2493e278870a0695e6de62357fbf2d2130c14957a22a4e03532aec0118d26e28",
+      "width": 1920,
+      "height": 1080,
+      "alpha": false,
+      "format": "png",
+      "kind": "合成底图"
+    },
+    {
+      "path": "arts/characters/poses/02/programmer-relax-rear-v01.png",
+      "ids": [
+        "s02-relax"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1458333,
+      "sha256": "6209ad47b82c7546cd229996692eca2d868a9fb00dd3d0b90c06253c07b8510d",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/02/programmer-think-up-right-v01.png",
+      "ids": [
+        "s02-think"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1527483,
+      "sha256": "4cbcc61130ae40457b9e1ae2d8648324a541970be64c9d4cc494fa22f5529d05",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/02/programmer-choose-right-v01.png",
+      "ids": [
+        "s02-choose"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1621394,
+      "sha256": "3df86a6589207df7491277c3197f7bb59d92fea6263d8c4f195776dda3513dbd",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/backgrounds/02/breakroom-meal-day-v01.png",
+      "ids": [
+        "s02-mealRoom"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1578260,
+      "sha256": "b76192ef6fea2b5c4ac24d2d523ac0b8c633b88b4b1ea4ae926c5d7ffd7bd6a2",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/characters/poses/02/programmer-eat-down-v01.png",
+      "ids": [
+        "s02-eatDown"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1637766,
+      "sha256": "4eba5d2fc42d119cf060bd2fca59875696c7131a65dd9edf31e7446de2f7cffd",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/02/programmer-eat-scoop-v01.png",
+      "ids": [
+        "s02-eatScoop"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1712921,
+      "sha256": "4b32a5caf00c9176963214db7b7bcabbdde280f966b7c1137639974ba50c0f55",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/02/programmer-eat-bite-v01.png",
+      "ids": [
+        "s02-eatBite"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1638112,
+      "sha256": "f60339bf6f84c6d9684e5ba51af2452da37d689a9307ceeda5f2325ee77dee4d",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/02/programmer-review-current-v01.png",
+      "ids": [
+        "s02-review"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1412061,
+      "sha256": "2a32a3e65351e725453c0ad2561a1f1370b281929a4f317a7ec3c03fa3ed2db8",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/items/shared/backlog-list-v01.png",
+      "ids": [
+        "s02-backlogList"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 59093,
+      "sha256": "8933d89dc45a6b567348085427538861e392bda1115c34b417d53da23d70782d",
+      "width": 1440,
+      "height": 900,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/shared/backlog-open-v01.png",
+      "ids": [
+        "s02-backlogOpen"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 72860,
+      "sha256": "5333f4178763f5d514374aab72b46c8b577965acaa98ee02f1c485875eba0d6c",
+      "width": 1440,
+      "height": 900,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/characters/poses/02/programmer-review-next-v01.png",
+      "ids": [
+        "s02-reviewNext"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1455091,
+      "sha256": "63820e630fd3b6bd02168873aab066e156b72c16ccdf51565d2faa1979fcb138",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/actions/05/provenance/v01/stage-room.png",
+      "ids": [
+        "stage-room"
+      ],
+      "chapters": [
+        "05"
+      ],
+      "bytes": 1921698,
+      "sha256": "b5fc2c3901b135d7f4ce148785def8bebc61a39a258662b5c28aadd8732dae83",
+      "width": 1920,
+      "height": 1080,
+      "alpha": false,
+      "format": "png",
+      "kind": "合成底图"
+    },
+    {
+      "path": "arts/actions/06/provenance/v01/stage-room.png",
+      "ids": [
+        "stage-room"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 1921698,
+      "sha256": "b5fc2c3901b135d7f4ce148785def8bebc61a39a258662b5c28aadd8732dae83",
+      "width": 1920,
+      "height": 1080,
+      "alpha": false,
+      "format": "png",
+      "kind": "合成底图"
+    },
+    {
+      "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+      "ids": [
+        "front",
+        "entry03_front"
+      ],
+      "chapters": [
+        "03",
+        "04"
+      ],
+      "bytes": 1904714,
+      "sha256": "cf1a6f79a868dff4ca9e82a3c0a65289bcd95a545e7af144a1253703852ad1ac",
+      "width": 1086,
+      "height": 1448,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/03/programmer-front-desk-b-v05.png",
+      "ids": [
+        "typeB",
+        "entry03_typeB"
+      ],
+      "chapters": [
+        "03",
+        "04"
+      ],
+      "bytes": 1904173,
+      "sha256": "f51b573712a25eaaa9cf51336e9945bfbff36ecf7e19dfb68421e4772402f480",
+      "width": 1086,
+      "height": 1448,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/03/programmer-front-read-v05.png",
+      "ids": [
+        "read",
+        "entry03_read"
+      ],
+      "chapters": [
+        "03",
+        "04"
+      ],
+      "bytes": 1908158,
+      "sha256": "c64f14f432430a1a01b5de70a56f7c42e0d11d349b60d97a34304b4c0ae5fdab",
+      "width": 1086,
+      "height": 1448,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/03/programmer-front-look-v05.png",
+      "ids": [
+        "look",
+        "entry03_look"
+      ],
+      "chapters": [
+        "03",
+        "04"
+      ],
+      "bytes": 1915981,
+      "sha256": "f01bd7b141545ef5200721f1a7235c7b3ca47925f78ffd9d993660633dc6fff0",
+      "width": 1086,
+      "height": 1448,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/03/programmer-front-glance-v05.png",
+      "ids": [
+        "gaze",
+        "entry03_gaze"
+      ],
+      "chapters": [
+        "03",
+        "04"
+      ],
+      "bytes": 1923768,
+      "sha256": "6e1e16e67030837450616947f626583b02741a299eaee68183e5bcfa3245e46a",
+      "width": 1086,
+      "height": 1448,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/03/neighbor-work-a-v05.png",
+      "ids": [
+        "neighbors",
+        "entry03_neighbors"
+      ],
+      "chapters": [
+        "03",
+        "04"
+      ],
+      "bytes": 1951306,
+      "sha256": "8a6fa3f0e97925dacfa825ea2a8545928e41d6d4899c55ff0dd1662f3da80a0c",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/03/neighbor-work-b-v05.png",
+      "ids": [
+        "neighborsB",
+        "entry03_neighborsB"
+      ],
+      "chapters": [
+        "03",
+        "04"
+      ],
+      "bytes": 1872869,
+      "sha256": "3532019deb04853dc9f64a1e1463ca8bc4be803b55ed87723c74d073bb49b9e6",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/characters/portraits/03/manager-neutral-v04.png",
+      "ids": [
+        "manager",
+        "managerPortrait",
+        "entry03_manager"
+      ],
+      "chapters": [
+        "03",
+        "04",
+        "05",
+        "06"
+      ],
+      "bytes": 1626674,
+      "sha256": "de7f92ec6b098fc40f8a397aa5ea815fde30a13c07f96ffebf292531fd9eb370",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/characters/portraits/03/coworker-a-v04.png",
+      "ids": [
+        "coworkerA",
+        "entry03_coworkerA"
+      ],
+      "chapters": [
+        "03",
+        "04",
+        "05",
+        "06"
+      ],
+      "bytes": 449474,
+      "sha256": "9b081fb871c0e8e5580cf0cd6f23a7001877a68e249e066717715df552fbfbf5",
+      "width": 512,
+      "height": 512,
+      "alpha": false,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/characters/portraits/03/coworker-b-v04.png",
+      "ids": [
+        "coworkerB",
+        "entry03_coworkerB"
+      ],
+      "chapters": [
+        "03",
+        "04",
+        "05",
+        "06"
+      ],
+      "bytes": 513362,
+      "sha256": "d8e39cc4ebb824c942c65cfe26ccaf18e84b9b026f1b3c80369b3c6027b3feb5",
+      "width": 512,
+      "height": 512,
+      "alpha": false,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/characters/portraits/03/programmer-front-v04.png",
+      "ids": [
+        "portrait",
+        "entry03_portrait",
+        "programmer"
+      ],
+      "chapters": [
+        "03",
+        "04",
+        "05",
+        "06"
+      ],
+      "bytes": 516674,
+      "sha256": "ff8cef460bf150f730b2cc651b84e58ed9f92d3e09b74866be7724e919ff8d9d",
+      "width": 512,
+      "height": 512,
+      "alpha": false,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/backgrounds/shared/office-workstations-day-v01.png",
+      "ids": [
+        "office",
+        "entry03_office",
+        "entry04_office"
+      ],
+      "chapters": [
+        "03",
+        "04",
+        "05",
+        "06"
+      ],
+      "bytes": 1726481,
+      "sha256": "7918530cf025e0a7184d8d0c86827ab63424f6d5afb61a907b795d0098e25b11",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/static/04/lunch-panel-v02.png",
+      "ids": [
+        "lunchBefore"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1718710,
+      "sha256": "7b22f7f4573b16440bdd5310b20a73814f46a04e0dd07ad08d6125d41e138854",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/backgrounds/04/lunch-eat-v03.png",
+      "ids": [
+        "lunchEat"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1729980,
+      "sha256": "b3a0dea4e8aacbbb3dfb378c1466760bd4416563ca8ab45d6c9b0015aa58f9ea",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/lunch-type-v03.png",
+      "ids": [
+        "lunchType",
+        "entry04_lunchType"
+      ],
+      "chapters": [
+        "04",
+        "05"
+      ],
+      "bytes": 1733736,
+      "sha256": "76c22715ee2c1f55a0379b93d0ec10aee8b44839b42d78f2ca0357f89e20423d",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/premeeting-type-v03.png",
+      "ids": [
+        "meetingType",
+        "entry04_meetingType"
+      ],
+      "chapters": [
+        "04",
+        "05"
+      ],
+      "bytes": 1690198,
+      "sha256": "436ef33361460775fb549cdfb2c65de1d79cac3d945e3e6fabe28a88d8654e59",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/premeeting-look-v03.png",
+      "ids": [
+        "meetingLook"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1656548,
+      "sha256": "098b6cdc0445744ec7a0624e8968e93611f21cd24ede69b4f4a2b242f67d7dc8",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/evening-pack-v03.png",
+      "ids": [
+        "eveningPack"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1846073,
+      "sha256": "d1dc9acac78a6e025989548534866cd0e5818b48cca80cde84c3efca3c8272b6",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/evening-reopen-v03.png",
+      "ids": [
+        "eveningReopen"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1926201,
+      "sha256": "4e7b41ce20e85760caf6ca6cc801e0b745451327816bef520a1646b7b979b77f",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/evening-type-v03.png",
+      "ids": [
+        "eveningType",
+        "entry04_eveningType"
+      ],
+      "chapters": [
+        "04",
+        "05"
+      ],
+      "bytes": 1882235,
+      "sha256": "336864ce555670662eda5f0696aefeb1b9df4406dd08427a0c633b57f54c5c51",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/collaboration-review-v03.png",
+      "ids": [
+        "collab"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1975606,
+      "sha256": "c01cd90560ca7bad42fb469c070041f5b76bbe119a623d370471ced5194db6be",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/collaboration-relief-v03.png",
+      "ids": [
+        "collabRelief"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1968898,
+      "sha256": "e12ba87ea330e2d899b44bd244b88834542aea41ebbc4ae58a98f5700ffd3cd6",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/traditional-type-v03.png",
+      "ids": [
+        "traditional"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 2110467,
+      "sha256": "a43ae89da68997143906f51f4130f4de8bf9b834ebdcce5114be4ea7fce71bc7",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/traditional-disappointed-v03.png",
+      "ids": [
+        "traditionalLoss"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 2090965,
+      "sha256": "bec96443329051a9d8d7ea043ab29c1a21cdf0bd31b028f3ffc2c5daab4ed683",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/meeting-whiteboard-room-v03.png",
+      "ids": [
+        "room"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1523986,
+      "sha256": "89731a6310321cc34a9cbe4a7b229caec5dde3eb06cbeb3963ecdb41479d05b8",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/characters/poses/04/manager-ready-v03.png",
+      "ids": [
+        "managerReady"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1376701,
+      "sha256": "b96793b65b44a77777ede2e1a9a84a0fcbad6720b47a5861eff0308b00e1b6ac",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/04/manager-strike-v03.png",
+      "ids": [
+        "managerStrike"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1306173,
+      "sha256": "6a9bf6b1665ce125cf0fbea0a65ef870a824bbe42e9cc736c54c330baf653aad",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/characters/poses/04/manager-write-v03.png",
+      "ids": [
+        "managerWrite"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1321024,
+      "sha256": "5fbdd9407facee33f46043445f49ee488f3244a43379e218ffa44b70d07fe628",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整姿态"
+    },
+    {
+      "path": "arts/backgrounds/04/hr-edit-v03.png",
+      "ids": [
+        "hrEdit"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 2043887,
+      "sha256": "917e7fd3c38cf3bf51dad5743966551fcce91fe279ae4da237fb4ebde1cd132b",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/04/hr-review-v03.png",
+      "ids": [
+        "hrReview",
+        "entry04_hrReview"
+      ],
+      "chapters": [
+        "04",
+        "05"
+      ],
+      "bytes": 2029659,
+      "sha256": "b271516fa0d8a9924733c0515c0fd17b3a0e9432337f29d3b6f38e7fa566dc79",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/characters/portraits/04/hr-neutral-v03.png",
+      "ids": [
+        "hrPortrait"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 538200,
+      "sha256": "d7c2d563d083410aa22dc8266bb089f886d9876f6f95caba7e93191705a8a4c1",
+      "width": 512,
+      "height": 512,
+      "alpha": false,
+      "format": "png",
+      "kind": "头像"
+    },
+    {
+      "path": "arts/items/04/company-a-v03.png",
+      "ids": [
+        "companyA",
+        "company"
+      ],
+      "chapters": [
+        "04",
+        "05",
+        "06"
+      ],
+      "bytes": 1644100,
+      "sha256": "7e13f82bcd1064049762e389389c2dabf912f5eeb5607d77f36440f3d1514247",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/04/company-b-v03.png",
+      "ids": [
+        "companyB"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1826338,
+      "sha256": "ad461fe80d1bae95f3e63750bc07c4ab85685f8b686a1107edb6db40abf098eb",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/items/04/company-c-v03.png",
+      "ids": [
+        "companyC"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1852849,
+      "sha256": "6b11cb4e739089d5394ff6ccdef3cd0d6029eddc108b95a76df0b3dc1df8dc74",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "format": "png",
+      "kind": "道具"
+    },
+    {
+      "path": "arts/static/04/story-assets-v03/compositions/board-detail-v04.png",
+      "ids": [
+        "boardExcerpt",
+        "entry04_boardExcerpt"
+      ],
+      "chapters": [
+        "04",
+        "05"
+      ],
+      "bytes": 119110,
+      "sha256": "914ac273a36eaee885af9a58a5070ffdea3705f28c20cf6ee41343c382ad754d",
+      "width": 600,
+      "height": 350,
+      "alpha": true,
+      "format": "png",
+      "kind": "图解与状态"
+    },
+    {
+      "path": "arts/backgrounds/05/office-delivery-contact-v02.png",
+      "ids": [
+        "delivery"
+      ],
+      "chapters": [
+        "05"
+      ],
+      "bytes": 2000862,
+      "sha256": "58da9006af994b210d85127247cb075828e2fa78a3ddb2f2b57b4ccf906783d9",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/05/office-delivery-cleared-v02.png",
+      "ids": [
+        "review"
+      ],
+      "chapters": [
+        "05"
+      ],
+      "bytes": 1961323,
+      "sha256": "eda3bf9e0c9944dfb4e063e53c71bc848d00cdfe86ec45d2b20a070e2658f710",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/05/office-agent-wait-v02.png",
+      "ids": [
+        "waiting"
+      ],
+      "chapters": [
+        "05"
+      ],
+      "bytes": 1952248,
+      "sha256": "cb5e5a386e127f109c3ce4298f595e11f162c3be5f772cd48078de1722d1c3bb",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/05/programmer-pause-close-v02.png",
+      "ids": [
+        "pause"
+      ],
+      "chapters": [
+        "05"
+      ],
+      "bytes": 1965737,
+      "sha256": "7720a6d09f58d0c88d7b0498aac0cd343054bb081eb2491215381028652ae78b",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/05/office-signage-insert-v02.png",
+      "ids": [
+        "signage"
+      ],
+      "chapters": [
+        "05"
+      ],
+      "bytes": 1598306,
+      "sha256": "7a73814ead739a2190cce8de256070803c17abbc2ddc106c41987e8df1fcb22d",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/05/programmer-resume-close-v02.png",
+      "ids": [
+        "resume"
+      ],
+      "chapters": [
+        "05"
+      ],
+      "bytes": 1931635,
+      "sha256": "c871fb5abeabe515612ebf291810b34cd7ea801fcf6f9e4cc137b6c7d07a56de",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/office-choice-settled-v02.png",
+      "ids": [
+        "settled"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2003813,
+      "sha256": "90e21b2b57e32e9ce3e0de18fada196e83dd707be0b461193a3572922a6a7d20",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/office-choice-extra-work-v02.png",
+      "ids": [
+        "extra"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2036260,
+      "sha256": "4436690b5896931a25c9be4405c829f7aaa44185a632f2f17f956a209065f16a",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/office-standing-with-bag-v02.png",
+      "ids": [
+        "standing"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2128149,
+      "sha256": "1a0ce439edcb958bd521aa76e40e31dd7ef2528b8901dcb684375a5c05b8fb31",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/office-leave-doorway-v02.png",
+      "ids": [
+        "departed"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2112656,
+      "sha256": "4ddb6436608fbf82dbca5f6c759246a33981cf7781ee0252a8486c074a4c314f",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/meeting-developer-scope-v02.png",
+      "ids": [
+        "developer"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2080275,
+      "sha256": "2e261c82e0db490eebd02c92da4ba22a8d18537bba9ea49ab6e36252d01fe6e2",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/meeting-tester-needs-v02.png",
+      "ids": [
+        "tester"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2090874,
+      "sha256": "ae82f9001a866e846e6bfc1d407c459c456fb88a26cb4700d68933cee84f3ece",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/meeting-manager-write-v02.png",
+      "ids": [
+        "writing"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2092826,
+      "sha256": "bf9ae5b483fa4c5914b743a116c8c9ef9ea551ea3a46821020c89dc727237eb8",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/meeting-joint-confirm-v02.png",
+      "ids": [
+        "agreed"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2089027,
+      "sha256": "9897d7cfda1acce193227bd4c5fecc18aa97999d0887291f798176a21c980fd4",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/office-review-deliverable-v02.png",
+      "ids": [
+        "review"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2004220,
+      "sha256": "bdff4eb9a3999812817db23c9a6017c08f198104c724b09eaf56770b485ac1b5",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/office-accept-deliverable-v02.png",
+      "ids": [
+        "accepted"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2008953,
+      "sha256": "65a13d68e41c806a03e3856fd7c70fa3d579a43014b6e05d5700c08becf293d5",
+      "width": 1254,
+      "height": 1254,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/bookshop-select-v02.png",
+      "ids": [
+        "bookSelect"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 1995754,
+      "sha256": "d70ac251158b57c1bcfb71e434a3d71b1ad5156b14f5ff05917255b8606c642c",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/bookshop-purchase-v02.png",
+      "ids": [
+        "bookBuy"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2123594,
+      "sha256": "5582c23502ac9bf7976df8e3f8caa69cd898975b053961431a28aac92f15fd78",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/theatre-settle-v02.png",
+      "ids": [
+        "theatreSettle"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 1856366,
+      "sha256": "ce5c82c7377601e8944ee107d297ddc8ba18556052c479760716a3bb2403a0e3",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/theatre-enjoy-v02.png",
+      "ids": [
+        "theatreEnjoy"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 1849037,
+      "sha256": "31860295ce9d83c0058f3784dc85eaedcf78146ddc56451aee76da3e2424ce0a",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/home-reading-v02.png",
+      "ids": [
+        "homeRead"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2250474,
+      "sha256": "4df7821face266b5b7ac288eba16aa254232fcb9a9d4ead23d8f079a96a53df4",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    },
+    {
+      "path": "arts/backgrounds/06/home-page-turn-v02.png",
+      "ids": [
+        "homeTurn"
+      ],
+      "chapters": [
+        "06"
+      ],
+      "bytes": 2180587,
+      "sha256": "d78583357f31bb850f6eaf8d6b16f8b4775df0d8e2de130f30220d9b96845555",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "format": "png",
+      "kind": "背景"
+    }
+  ],
+  "note": "Original paths retained; shared references deduplicated by path. Composite stages are not new drawings."
+}

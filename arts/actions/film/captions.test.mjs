@@ -1,13 +1,13 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {createRequire} from 'node:module';
 import {CAPTION_STYLE,characterCount,captionSvg} from './captions.mjs';import {RAW_CUES,CUES,GLOBAL_CUES,createRenderer} from './scenes.mjs';
 const sharp=createRequire(import.meta.url)('/Users/alan671/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
-test('all55 cues meet10 Unicode characters and preserve all853 manuscript characters, punctuation and source spans',()=>{
- assert.equal(GLOBAL_CUES.length,55);assert.equal(Object.values(RAW_CUES).flat().length,69);let chars=0,merges=0;
+test('all54 reviewed cues meet10 Unicode characters and preserve all994 manuscript characters and punctuation',()=>{
+ assert.equal(GLOBAL_CUES.length,54);assert.equal(Object.values(RAW_CUES).flat().length,54);let chars=0,merges=0;
  for(const [id,cues]of Object.entries(CUES)){
   assert.equal(cues.map(c=>c.text).join(''),RAW_CUES[id].map(c=>c.text).join(''));let sources=[];
   for(const c of cues){assert(characterCount(c.text)>=10,c.text);assert(c.endMs>c.startMs);assert.equal(c.startMs,c.mergedFrom[0].startMs);assert.equal(c.endMs,c.mergedFrom.at(-1).endMs);sources.push(...c.mergedFrom);merges+=c.mergedFrom.length-1;chars+=characterCount(c.text);}
   assert.deepEqual(sources.map(({startMs,endMs,text})=>({startMs,endMs,text})),RAW_CUES[id].map(({startMs,endMs,text})=>({startMs,endMs,text})));
- }assert.equal(chars,853);assert.equal(merges,14);assert.equal(GLOBAL_CUES.at(-1).endMs,266000);
+ }assert.equal(chars,994);assert.equal(merges,0);assert.equal(GLOBAL_CUES.at(-1).endMs,266000);
 });
 test('inline caption style rasterizes identically under conflicting chapter text selectors',async()=>{
  const cue={startMs:0,text:'字幕统一字体与字号，保持整片一致。'},out=[];

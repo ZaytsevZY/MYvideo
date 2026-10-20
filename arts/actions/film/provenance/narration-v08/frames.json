@@ -1,0 +1,471 @@
+[
+  {
+    "frame": 69,
+    "chapter": "01",
+    "time": 2.3,
+    "caption": "深夜，一位程序员把尚未完成的功能交给 Agent：",
+    "file": "frame-0069.png"
+  },
+  {
+    "frame": 195,
+    "chapter": "01",
+    "time": 6.5,
+    "caption": "编写代码、运行测试、整理文档。",
+    "file": "frame-0195.png"
+  },
+  {
+    "frame": 366,
+    "chapter": "01",
+    "time": 12.2,
+    "caption": "随后关掉屏幕，等到第二天再进行验收。",
+    "file": "frame-0366.png"
+  },
+  {
+    "frame": 546,
+    "chapter": "01",
+    "time": 18.2,
+    "caption": "从逐行写代码转向简单的“发送”“接受”，",
+    "file": "frame-0546.png"
+  },
+  {
+    "frame": 666,
+    "chapter": "01",
+    "time": 22.2,
+    "caption": "他有机会更早合上电脑，下班回家。",
+    "file": "frame-0666.png"
+  },
+  {
+    "frame": 777,
+    "chapter": "01",
+    "time": 25.9,
+    "caption": "然而他总想着多做一件事，",
+    "file": "frame-0777.png"
+  },
+  {
+    "frame": 891,
+    "chapter": "01",
+    "time": 29.7,
+    "caption": "或许是补一个单元测试，重启搁置的需求。",
+    "file": "frame-0891.png"
+  },
+  {
+    "frame": 1035,
+    "chapter": "01",
+    "time": 34.5,
+    "caption": "他发现任务逐项完成，Todo list却不断延长。",
+    "file": "frame-1035.png"
+  },
+  {
+    "frame": 1236,
+    "chapter": "01",
+    "time": 41.2,
+    "caption": "为什么工具替人完成了更多任务，工作的终点反而越来越远？",
+    "file": "frame-1236.png"
+  },
+  {
+    "frame": 1349,
+    "chapter": "01",
+    "time": 44.96666666666667,
+    "caption": "为什么工具替人完成了更多任务，工作的终点反而越来越远？",
+    "file": "frame-1349.png"
+  },
+  {
+    "frame": 1350,
+    "chapter": "02",
+    "time": 0,
+    "caption": "在他的职业中，工作并非固定的存量。",
+    "file": "frame-1350.png"
+  },
+  {
+    "frame": 1426,
+    "chapter": "02",
+    "time": 2.533333333333333,
+    "caption": "在他的职业中，工作并非固定的存量。",
+    "file": "frame-1426.png"
+  },
+  {
+    "frame": 1578,
+    "chapter": "02",
+    "time": 7.6,
+    "caption": "开发成本下降，会使项目的“成本-收益”边界移动，",
+    "file": "frame-1578.png"
+  },
+  {
+    "frame": 1714,
+    "chapter": "02",
+    "time": 12.133333333333333,
+    "caption": "让部分需求的可行性逐渐提升。",
+    "file": "frame-1714.png"
+  },
+  {
+    "frame": 1882,
+    "chapter": "02",
+    "time": 17.733333333333334,
+    "caption": "对他而言，工具带来的效率收益既可用于减少劳动时长，也可用于扩大产出。",
+    "file": "frame-1882.png"
+  },
+  {
+    "frame": 2077,
+    "chapter": "02",
+    "time": 24.233333333333334,
+    "caption": "而价值增殖目的促使其将节约的成本重新投入生产。",
+    "file": "frame-2077.png"
+  },
+  {
+    "frame": 2245,
+    "chapter": "02",
+    "time": 29.833333333333332,
+    "caption": "因此随着成本降低，他倾向于安排更多的任务，",
+    "file": "frame-2245.png"
+  },
+  {
+    "frame": 2407,
+    "chapter": "02",
+    "time": 35.233333333333334,
+    "caption": "以维持总劳动投入的平衡。",
+    "file": "frame-2407.png"
+  },
+  {
+    "frame": 2489,
+    "chapter": "02",
+    "time": 37.96666666666667,
+    "caption": "以维持总劳动投入的平衡。",
+    "file": "frame-2489.png"
+  },
+  {
+    "frame": 2490,
+    "chapter": "03",
+    "time": 0,
+    "caption": "对企业而言，在以工时组织的雇佣劳动中，",
+    "file": "frame-2490.png"
+  },
+  {
+    "frame": 2560,
+    "chapter": "03",
+    "time": 2.3333333333333335,
+    "caption": "对企业而言，在以工时组织的雇佣劳动中，",
+    "file": "frame-2560.png"
+  },
+  {
+    "frame": 2704,
+    "chapter": "03",
+    "time": 7.133333333333334,
+    "caption": "劳动者让渡一定期限内的劳动力使用权以换取报酬。",
+    "file": "frame-2704.png"
+  },
+  {
+    "frame": 2833,
+    "chapter": "03",
+    "time": 11.433333333333334,
+    "caption": "即使他决定将清单提前清空，",
+    "file": "frame-2833.png"
+  },
+  {
+    "frame": 2944,
+    "chapter": "03",
+    "time": 15.133333333333333,
+    "caption": "在约定工时结束之前，",
+    "file": "frame-2944.png"
+  },
+  {
+    "frame": 3075,
+    "chapter": "03",
+    "time": 19.5,
+    "caption": "企业仍能在约定时段分配其他任务。",
+    "file": "frame-3075.png"
+  },
+  {
+    "frame": 3213,
+    "chapter": "03",
+    "time": 24.1,
+    "caption": "Agent 工具前所未有地缩短了执行过程，",
+    "file": "frame-3213.png"
+  },
+  {
+    "frame": 3340,
+    "chapter": "03",
+    "time": 28.333333333333332,
+    "caption": "却未必增大了劳动者对劳动时间的决定权。",
+    "file": "frame-3340.png"
+  },
+  {
+    "frame": 3474,
+    "chapter": "03",
+    "time": 32.8,
+    "caption": "在响应要求、任务标准和工时界限的约束下，",
+    "file": "frame-3474.png"
+  },
+  {
+    "frame": 3601,
+    "chapter": "03",
+    "time": 37.03333333333333,
+    "caption": "劳动者自然无法决定劳动是否结束。",
+    "file": "frame-3601.png"
+  },
+  {
+    "frame": 3659,
+    "chapter": "03",
+    "time": 38.96666666666667,
+    "caption": "劳动者自然无法决定劳动是否结束。",
+    "file": "frame-3659.png"
+  },
+  {
+    "frame": 3660,
+    "chapter": "04",
+    "time": 0,
+    "caption": "对一家科技公司的调查称，",
+    "file": "frame-3660.png"
+  },
+  {
+    "frame": 3724,
+    "chapter": "04",
+    "time": 2.1333333333333333,
+    "caption": "对一家科技公司的调查称，",
+    "file": "frame-3724.png"
+  },
+  {
+    "frame": 3850,
+    "chapter": "04",
+    "time": 6.333333333333333,
+    "caption": "部分员工会主动扩大任务范围，",
+    "file": "frame-3850.png"
+  },
+  {
+    "frame": 3996,
+    "chapter": "04",
+    "time": 11.2,
+    "caption": "在午餐、会前和晚间等非工作时段向 Agent 交付任务。",
+    "file": "frame-3996.png"
+  },
+  {
+    "frame": 4140,
+    "chapter": "04",
+    "time": 16,
+    "caption": "对于员工而言，新增能力带来更多产出，",
+    "file": "frame-4140.png"
+  },
+  {
+    "frame": 4252,
+    "chapter": "04",
+    "time": 19.733333333333334,
+    "caption": "组织预期也随之提高。",
+    "file": "frame-4252.png"
+  },
+  {
+    "frame": 4384,
+    "chapter": "04",
+    "time": 24.133333333333333,
+    "caption": "而在企业侧，竞争同样会强化采用新技术的压力：",
+    "file": "frame-4384.png"
+  },
+  {
+    "frame": 4539,
+    "chapter": "04",
+    "time": 29.3,
+    "caption": "Agent 普及后，原有的效率优势逐渐消退，",
+    "file": "frame-4539.png"
+  },
+  {
+    "frame": 4677,
+    "chapter": "04",
+    "time": 33.9,
+    "caption": "企业仍有缩短周期、增加交付的动力。",
+    "file": "frame-4677.png"
+  },
+  {
+    "frame": 4806,
+    "chapter": "04",
+    "time": 38.2,
+    "caption": "企业同样会促使更高产出进入排期和考核，",
+    "file": "frame-4806.png"
+  },
+  {
+    "frame": 4935,
+    "chapter": "04",
+    "time": 42.5,
+    "caption": "使原本的额外贡献转为新的基准。",
+    "file": "frame-4935.png"
+  },
+  {
+    "frame": 5088,
+    "chapter": "04",
+    "time": 47.6,
+    "caption": "因此：Agent 带来的普遍生产力提升造成了工作标准的提升，",
+    "file": "frame-5088.png"
+  },
+  {
+    "frame": 5244,
+    "chapter": "04",
+    "time": 52.8,
+    "caption": "从“能多做”，到“必须做”。",
+    "file": "frame-5244.png"
+  },
+  {
+    "frame": 5309,
+    "chapter": "04",
+    "time": 54.96666666666667,
+    "caption": "从“能多做”，到“必须做”。",
+    "file": "frame-5309.png"
+  },
+  {
+    "frame": 5310,
+    "chapter": "05",
+    "time": 0,
+    "caption": null,
+    "file": "frame-5310.png"
+  },
+  {
+    "frame": 5421,
+    "chapter": "05",
+    "time": 3.7,
+    "caption": "调度多个 Agent 可能会让员工产生指挥“虚拟员工”的错觉，",
+    "file": "frame-5421.png"
+  },
+  {
+    "frame": 5607,
+    "chapter": "05",
+    "time": 9.9,
+    "caption": "却未必会赋予任何雇主的决定权或分享额外收益的权力；",
+    "file": "frame-5607.png"
+  },
+  {
+    "frame": 5779,
+    "chapter": "05",
+    "time": 15.633333333333333,
+    "caption": "这些“虚拟员工”反而会要求员工付出更多的成本，",
+    "file": "frame-5779.png"
+  },
+  {
+    "frame": 5904,
+    "chapter": "05",
+    "time": 19.8,
+    "caption": "甚至是额外的时间和金钱，",
+    "file": "frame-5904.png"
+  },
+  {
+    "frame": 5913,
+    "chapter": "05",
+    "time": 20.1,
+    "caption": "甚至是额外的时间和金钱，",
+    "file": "frame-5913.png"
+  },
+  {
+    "frame": 6037,
+    "chapter": "05",
+    "time": 24.233333333333334,
+    "caption": "以维持自己作为“虚拟雇主”的生产力优势。",
+    "file": "frame-6037.png"
+  },
+  {
+    "frame": 6199,
+    "chapter": "05",
+    "time": 29.633333333333333,
+    "caption": "社会劳动创造的生产力，在特定的占有和组织关系中，",
+    "file": "frame-6199.png"
+  },
+  {
+    "frame": 6352,
+    "chapter": "05",
+    "time": 34.733333333333334,
+    "caption": "反而会成为约束劳动者的外在力量。",
+    "file": "frame-6352.png"
+  },
+  {
+    "frame": 6457,
+    "chapter": "05",
+    "time": 38.233333333333334,
+    "caption": "这是劳动异化的一个侧面：",
+    "file": "frame-6457.png"
+  },
+  {
+    "frame": 6532,
+    "chapter": "05",
+    "time": 40.733333333333334,
+    "caption": "具体的指令由劳动者发出，",
+    "file": "frame-6532.png"
+  },
+  {
+    "frame": 6615,
+    "chapter": "05",
+    "time": 43.5,
+    "caption": "而劳动的目的与尺度仍可能由他人设定。",
+    "file": "frame-6615.png"
+  },
+  {
+    "frame": 6659,
+    "chapter": "05",
+    "time": 44.96666666666667,
+    "caption": "而劳动的目的与尺度仍可能由他人设定。",
+    "file": "frame-6659.png"
+  },
+  {
+    "frame": 6660,
+    "chapter": "06",
+    "time": 0,
+    "caption": null,
+    "file": "frame-6660.png"
+  },
+  {
+    "frame": 6735,
+    "chapter": "06",
+    "time": 2.5,
+    "caption": "效率收益可以转化为更多交付，",
+    "file": "frame-6735.png"
+  },
+  {
+    "frame": 6861,
+    "chapter": "06",
+    "time": 6.7,
+    "caption": "也可以转化为更短工时。",
+    "file": "frame-6861.png"
+  },
+  {
+    "frame": 7032,
+    "chapter": "06",
+    "time": 12.4,
+    "caption": "区别在于谁决定生产规模，谁分配节约的时间。",
+    "file": "frame-7032.png"
+  },
+  {
+    "frame": 7222,
+    "chapter": "06",
+    "time": 18.733333333333334,
+    "caption": "让劳动者参与确定任务边界，",
+    "file": "frame-7222.png"
+  },
+  {
+    "frame": 7387,
+    "chapter": "06",
+    "time": 24.233333333333334,
+    "caption": "并获得实际可支配的时间，",
+    "file": "frame-7387.png"
+  },
+  {
+    "frame": 7530,
+    "chapter": "06",
+    "time": 29,
+    "caption": "技术进步才有机会转化为人的自由。",
+    "file": "frame-7530.png"
+  },
+  {
+    "frame": 7785,
+    "chapter": "06",
+    "time": 37.5,
+    "caption": "效率何时成为义务，取决于谁有权为工作画上句号。",
+    "file": "frame-7785.png"
+  },
+  {
+    "frame": 7980,
+    "chapter": "06",
+    "time": 44,
+    "caption": null,
+    "file": "frame-7980.png"
+  },
+  {
+    "frame": 8399,
+    "chapter": "06",
+    "time": 57.96666666666667,
+    "caption": null,
+    "file": "frame-8399.png"
+  }
+]

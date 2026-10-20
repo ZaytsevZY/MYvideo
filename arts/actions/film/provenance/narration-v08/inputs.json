@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-20",
+  "chapters": [
+    {
+      "id": "01",
+      "title": "效率与任务边界",
+      "duration": 45,
+      "version": "S01_CAMERA v0.3",
+      "frames": 1350,
+      "startFrame": 0,
+      "endFrame": 1350,
+      "start": 0,
+      "end": 45
+    },
+    {
+      "id": "02",
+      "title": "成本下降与任务扩张",
+      "duration": 38,
+      "version": "S02_STORY v0.4",
+      "frames": 1140,
+      "startFrame": 1350,
+      "endFrame": 2490,
+      "start": 45,
+      "end": 83
+    },
+    {
+      "id": "03",
+      "title": "雇佣关系与工作时间",
+      "duration": 39,
+      "version": "S03_STORY v0.5",
+      "frames": 1170,
+      "startFrame": 2490,
+      "endFrame": 3660,
+      "start": 83,
+      "end": 122
+    },
+    {
+      "id": "04",
+      "title": "竞争与标准重设",
+      "duration": 55,
+      "version": "S04_STORY v0.5",
+      "frames": 1650,
+      "startFrame": 3660,
+      "endFrame": 5310,
+      "start": 122,
+      "end": 177
+    },
+    {
+      "id": "05",
+      "title": "执行能力与决定权",
+      "duration": 45,
+      "version": "S05_STORY v0.3",
+      "frames": 1350,
+      "startFrame": 5310,
+      "endFrame": 6660,
+      "start": 177,
+      "end": 222
+    },
+    {
+      "id": "06",
+      "title": "效率收益与人的自由",
+      "duration": 58,
+      "version": "S06_STORY v0.3",
+      "frames": 1740,
+      "startFrame": 6660,
+      "endFrame": 8400,
+      "start": 222,
+      "end": 280
+    }
+  ],
+  "source": [
+    {
+      "path": "arts/actions/01/camera-motion.mjs",
+      "sha256": "434ec2191c05e357997f0390b363b8ab841a50717191f4dee08a41bdef8789db"
+    },
+    {
+      "path": "arts/actions/01/performance.mjs",
+      "sha256": "3405c27ceee06f6999d52a1854efb91a73f7d8e9f2bd118e93368a80b28f5a04"
+    },
+    {
+      "path": "arts/actions/01/keyframes.mjs",
+      "sha256": "b026c5bb7341787c9436718a6aa7dc1d6bfe4600d3c276955eac070db0be6451"
+    },
+    {
+      "path": "arts/actions/01/bundle-camera-v01.json",
+      "sha256": "4b6c8ef5834cd865479658ce9353a742636298aa750240fad2741ab26b804892"
+    },
+    {
+      "path": "arts/actions/01/captions/caption-data.mjs",
+      "sha256": "60deb7002e45b21409d5c3db69fe368f681cdc7b5271e522dfd7bb0604877b59"
+    },
+    {
+      "path": "arts/actions/02/full-scene.mjs",
+      "sha256": "c58c352a6f73f9bced8d1986dacc2e86c28f64fedb6e6721914b6585cd7fcbe5"
+    },
+    {
+      "path": "arts/actions/02/opening-revised.mjs",
+      "sha256": "930bfd52447780ceac05ca424b16b83a944206cf3fed11fefb03bbeef7c8e88b"
+    },
+    {
+      "path": "arts/actions/02/entry-v03.mjs",
+      "sha256": "f703c15a3b9a3b18c55f341d3bdd43fecb84895f2deff9f19f23199c3c3525af"
+    },
+    {
+      "path": "arts/actions/02/scene.mjs",
+      "sha256": "e433238148db2dc30cba49f81fb9e163a14f96172d052801222dd6fa9abb187a"
+    },
+    {
+      "path": "arts/actions/03/scene.mjs",
+      "sha256": "b552427143f4db96dab75fd047020fae2bdb2f207a3aaa2220f60671ed051ef8"
+    },
+    {
+      "path": "arts/actions/04/scene.mjs",
+      "sha256": "63d4b006e9a294cef05e5e2ccbe62a916a823f036dc2ceafbe5fb1be88fce771"
+    },
+    {
+      "path": "arts/actions/05/scene.mjs",
+      "sha256": "c2c1598797e950543788875d7c55b8f7cfa1c4594c63427c819ac7b0f0e85f39"
+    },
+    {
+      "path": "arts/actions/06/scene.mjs",
+      "sha256": "6441471b14334235b32f323fa3a2830cf50f6d6d992f738fef8fa633332e6dc6"
+    },
+    {
+      "path": "arts/actions/02/story-scene-v04.mjs",
+      "sha256": "438c21599082e6a0fdd5016b6d4bd654331ac033537b32127bb691ea936eb7f8"
+    },
+    {
+      "path": "arts/static/02/story-assets-v01/scene-layered-v03.mjs",
+      "sha256": "e8f77557ed5034102bf3bad91d351219e27823932786f90b438e054dfcbc87be"
+    },
+    {
+      "path": "arts/actions/03/story-scene-v05.mjs",
+      "sha256": "d5b9bc9be725af408f7dfe9a5f288facc175d7cb9b5b01fe0c78af5a4d4caa6c"
+    },
+    {
+      "path": "arts/actions/04/entry-from-03-v05.mjs",
+      "sha256": "dbc6a24f1355a7f73705ab8313a41ca4a60cd8131b845ca5392fbfc1af4183a2"
+    },
+    {
+      "path": "arts/static/03/story-assets-v04/assets.mjs",
+      "sha256": "266eaacd131acc4fe4add07b7b772c677336b25f4924fcfdef1316ff6774a0e0"
+    },
+    {
+      "path": "arts/static/03/story-assets-v04/screen-copy.json",
+      "sha256": "adc27c252a94b5b43ca8efab1205b5bdd151915c0595ce7a550b020ad68c5c2c"
+    },
+    {
+      "path": "arts/actions/04/story-scene-v05.mjs",
+      "sha256": "5ed38d51a4d5c07c5f11d2428f209b8081f4396d71bfd75b0e62cd5cdb0880f4"
+    },
+    {
+      "path": "arts/actions/04/captions/04-narration-v05.json",
+      "sha256": "63344d343bdedd8ca47c09e6ab0a95d137d0d570e0f948c05c9bf98b5bf6b118"
+    },
+    {
+      "path": "arts/static/04/story-assets-v03/assets.mjs",
+      "sha256": "33043b987ff960bab7b2c04430b9162763a8617d00eb1cd15b38e9357bd7bdd0"
+    },
+    {
+      "path": "arts/static/04/story-assets-v03/screen-copy.json",
+      "sha256": "d8fb3df17834a8150f59f861c04db3128f5637d5805cad49ed3df6c357fe3251"
+    },
+    {
+      "path": "arts/actions/05/entry-from-04-v05.mjs",
+      "sha256": "3f2608caefdea4fbe1837e7685c5878dabff80519672f7493b5d37602580da6a"
+    },
+    {
+      "path": "arts/actions/05/story-scene-v03.mjs",
+      "sha256": "7049b79eb96784d291299c314769f4f87bbcf4d26a6234101c9d3ad41c17dc1e"
+    },
+    {
+      "path": "arts/actions/05/captions/05-narration-v03.json",
+      "sha256": "c99b22e665dbf63c406e90e5fee4f28b2c008514de28e978ef0be9d408fda3b9"
+    },
+    {
+      "path": "arts/static/05/story-assets-v02/assets.mjs",
+      "sha256": "b3245bb33ee3176d03d12877a37694be6dace46163460d7de953b2b1cff6c866"
+    },
+    {
+      "path": "arts/static/05/story-assets-v02/screen-copy.json",
+      "sha256": "1bf1f171a97a9eccc94030fe08ceaed205216b461042a1e8d6aa0268f63c8934"
+    },
+    {
+      "path": "arts/actions/06/entry-from-05-v03.mjs",
+      "sha256": "48e3d2903a15f6bec5f051f77e1ca11e651b2b461037066596b6f44319e4293d"
+    },
+    {
+      "path": "arts/actions/06/story-scene-v03.mjs",
+      "sha256": "df6585c9b2d626bfefaaf11d8c36be52662d23b4dd80e0d2e7bb5697ec5ea11e"
+    },
+    {
+      "path": "arts/actions/06/captions/06-narration-v03.json",
+      "sha256": "7b3cded39c4504ab99f771db2a5e0440b43dfe964220a823704ed954abb0f9dc"
+    },
+    {
+      "path": "arts/static/06/story-assets-v02/assets.mjs",
+      "sha256": "762b46664943408b57362bc21066dfca6dc0376c217e5157b4d286dbd8df7de6"
+    },
+    {
+      "path": "arts/static/06/story-assets-v02/screen-copy.json",
+      "sha256": "63e2d1243b201f9a35d0c17205be52ab8955e72cd1b09d4d461e9631dfe8af10"
+    }
+  ],
+  "framework": [
+    {
+      "path": "arts/actions/film/timeline.mjs",
+      "sha256": "0f09bbc5b398ffae6f0f1954b3b966d847dc3b17b26e1db4e63d92b5c4ba8a61"
+    },
+    {
+      "path": "arts/actions/film/narration-v08.mjs",
+      "sha256": "4ad273c59f2e33f78eccc5d5ac8359cc04c4e953ffe757129947f74fd78a4886"
+    },
+    {
+      "path": "arts/actions/film/narration-v08.json",
+      "sha256": "a5ebee4d5c2d1a9d8e6bd9479a5c4cd75664d77e956b66555c8e784d8dbe7cb7"
+    },
+    {
+      "path": "arts/actions/film/captions.mjs",
+      "sha256": "2333e8f46c59c47e89a39afa31d8190da1613139e92ea58ebfcc88adcd4e46e0"
+    },
+    {
+      "path": "arts/actions/film/scenes.mjs",
+      "sha256": "7d43f7a8f85dd533c500c81b537b2d4a21891ac305877f27f5ac51c28d185efa"
+    },
+    {
+      "path": "arts/actions/film/player.mjs",
+      "sha256": "5e1c0087be3e85bc8b4f4620ef419f12b63fcc70a36ea2efeda7f568fcdbf122"
+    },
+    {
+      "path": "arts/actions/film/player.css",
+      "sha256": "9f86719adbb71d7c292122e74a6fbe7f050b71731fd73dbd5300eaa31e9ca046"
+    },
+    {
+      "path": "arts/actions/film/preview.html",
+      "sha256": "9f2ea262c64887bbc52061c6aa06d7ff263b5b2c3f2e69256fe1219113c2c8d6"
+    },
+    {
+      "path": "arts/actions/film/build.mjs",
+      "sha256": "759c2ab543ca678f5b5a33688c68f8ff6b225a8b1681edbb94e7424a9a8fffb1"
+    },
+    {
+      "path": "arts/actions/film/qa-narration-v08.mjs",
+      "sha256": "1fcbb2c330b68d7ed66e33f24b96eaf1df939a936bf21ede21e326784ff2fbc3"
+    },
+    {
+      "path": "arts/actions/film/captions.test.mjs",
+      "sha256": "1503713247e5ec1d65c0ab3d703715003269ae6dfcea3e96942e4b7b49b07869"
+    },
+    {
+      "path": "arts/actions/film/framework.test.mjs",
+      "sha256": "60cda7aa315964034995d2f829eb868516cc303e81f2194229081719af780bff"
+    },
+    {
+      "path": "arts/actions/film/narration-v08.test.mjs",
+      "sha256": "aeae0115cb1cef7f39e717af3bb204088cec21495f159764b501384836845675"
+    }
+  ],
+  "audio": false,
+  "externalModelCalls": 0,
+  "updatedChapter": "all-reviewed-narration-and-semantic-retiming",
+  "narrationSources": [
+    {
+      "chapter": "01",
+      "path": "scripts/final/shot/01.md",
+      "sha256": "751f18044ac27369f29dae98e9f85b85d46cb348104840777f581d49f78ebf88",
+      "audioSha256": "ee2e022a7d55f49f1b6167c5656f517d6d9c37eb44e5049a5b6771a21312547f",
+      "characters": 175
+    },
+    {
+      "chapter": "02",
+      "path": "scripts/final/shot/02.md",
+      "sha256": "6ef1c0f0d86f3ca07560ef7d1da06d1ebaba8a8d02ff2e52206653d3d818c38b",
+      "audioSha256": "93d5d5c58e682be1c6c0a3d211547d69159d192fcd0b67d12f304e93ff54fce4",
+      "characters": 145
+    },
+    {
+      "chapter": "03",
+      "path": "scripts/final/shot/03.md",
+      "sha256": "0ea709efee07fa1dc4f33c0a4fdac3a9634c283fbdef2edcd6a37a98b300e76e",
+      "audioSha256": "276c3035ed06f8429e44141163d9d1d1e71bdabca43395e34fadb703ef8e1595",
+      "characters": 156
+    },
+    {
+      "chapter": "04",
+      "path": "scripts/final/shot/04.md",
+      "sha256": "385e6a4b0f53aa1723647e64e028c05ac2106fa717752dd44e3a2d3daf6e5cf7",
+      "audioSha256": "f72e6b9b9d95831a0e75096baf271014abab207b289f1941f1b567095ea1f37b",
+      "characters": 217
+    },
+    {
+      "chapter": "05",
+      "path": "scripts/final/shot/05.md",
+      "sha256": "1916be1f64b48e2a87b3a613fab51e5554ff333f1e3a40b89d0553d1b5b6b7cc",
+      "audioSha256": "ed75b70c8cd7e837209e3d28b2bd9f8e503b4e9ec226b5e037c95920cd5a95c4",
+      "characters": 191
+    },
+    {
+      "chapter": "06",
+      "path": "scripts/final/shot/06.md",
+      "sha256": "9db19c52a7c7255cc522b316a636fe1742ec8ceefc12c01ce1ceb175e6f0b3c8",
+      "audioSha256": "f4a7364c286004b2a55021a8e6c5f6cde176958b0e356534cc474d95ffa95c75",
+      "characters": 110
+    }
+  ],
+  "entryAdapter": "new05 pending plan held for0.4s in06; new15-shot06 including joint confirmation, later acceptance, life and references"
+}

@@ -1,6 +1,7 @@
 {
-  "version": "FILM_PREVIEW v0.7",
-  "date": "2026-10-19",
+  "version": "FILM_PREVIEW v0.8",
+  "narrationVersion": "FILM_NARRATION v0.8",
+  "date": "2026-10-20",
   "fps": 30,
   "duration": 280,
   "frames": 8400,
@@ -1173,7 +1174,7 @@
       "id": "04",
       "title": "竞争与标准重设",
       "duration": 55,
-      "version": "S04 v0.2",
+      "version": "S04_STORY v0.5",
       "frames": 1650,
       "startFrame": 3660,
       "endFrame": 5310,
@@ -1184,7 +1185,7 @@
       "id": "05",
       "title": "执行能力与决定权",
       "duration": 45,
-      "version": "S05 v0.1",
+      "version": "S05_STORY v0.3",
       "frames": 1350,
       "startFrame": 5310,
       "endFrame": 6660,
@@ -1195,7 +1196,7 @@
       "id": "06",
       "title": "效率收益与人的自由",
       "duration": 58,
-      "version": "S06 v0.1",
+      "version": "S06_STORY v0.3",
       "frames": 1740,
       "startFrame": 6660,
       "endFrame": 8400,
@@ -1210,6 +1211,8 @@
       "end": 3,
       "name": "正面近景·深夜",
       "mode": "front",
+      "sourceStart": 0,
+      "sourceEnd": 3,
       "chapterId": "01",
       "globalFrame": 0
     },
@@ -1219,6 +1222,8 @@
       "end": 5,
       "name": "决定派发",
       "mode": "front",
+      "sourceStart": 3,
+      "sourceEnd": 5,
       "chapterId": "01",
       "globalFrame": 90
     },
@@ -1228,6 +1233,8 @@
       "end": 8,
       "name": "越肩·T01交给Agent",
       "mode": "rear",
+      "sourceStart": 5,
+      "sourceEnd": 8,
       "chapterId": "01",
       "globalFrame": 150
     },
@@ -1237,6 +1244,8 @@
       "end": 10,
       "name": "关屏·起身",
       "mode": "rear",
+      "sourceStart": 8,
+      "sourceEnd": 10,
       "chapterId": "01",
       "globalFrame": 240
     },
@@ -1246,6 +1255,8 @@
       "end": 12,
       "name": "Agent近景·夜到昼",
       "mode": "agent",
+      "sourceStart": 10,
+      "sourceEnd": 12,
       "chapterId": "01",
       "globalFrame": 300
     },
@@ -1255,460 +1266,564 @@
       "end": 16,
       "name": "人工验收·T01-R退回",
       "mode": "rear",
+      "sourceStart": 12,
+      "sourceEnd": 16,
       "chapterId": "01",
       "globalFrame": 360
     },
     {
       "id": "S01-07",
       "start": 16,
-      "end": 20,
+      "end": 20.6,
       "name": "头像交接·派发与审核",
       "mode": "standing",
+      "sourceStart": 16,
+      "sourceEnd": 20,
       "chapterId": "01",
       "globalFrame": 480
     },
     {
       "id": "S01-08",
-      "start": 20,
-      "end": 23,
+      "start": 20.6,
+      "end": 24,
       "name": "离开电脑·执行继续",
       "mode": "standing",
+      "sourceStart": 20,
+      "sourceEnd": 23,
       "chapterId": "01",
-      "globalFrame": 600
+      "globalFrame": 618
     },
     {
       "id": "S01-09",
-      "start": 23,
-      "end": 30,
+      "start": 24,
+      "end": 31.6,
       "name": "选择·搬运·进入计划",
       "mode": "standing",
+      "sourceStart": 23,
+      "sourceEnd": 30,
       "chapterId": "01",
-      "globalFrame": 690
+      "globalFrame": 720
     },
     {
       "id": "S01-10",
-      "start": 30,
-      "end": 37,
+      "start": 31.6,
+      "end": 37.4,
       "name": "复核·再次查看·清单增长",
       "mode": "standing",
+      "sourceStart": 30,
+      "sourceEnd": 37,
       "chapterId": "01",
-      "globalFrame": 900
+      "globalFrame": 948
     },
     {
       "id": "S01-11",
-      "start": 37,
-      "end": 41,
+      "start": 37.4,
+      "end": 41.2,
       "name": "拉远揭示清单",
       "mode": "standing",
+      "sourceStart": 37,
+      "sourceEnd": 41,
       "chapterId": "01",
-      "globalFrame": 1110
+      "globalFrame": 1122
     },
     {
       "id": "S01-12",
-      "start": 41,
+      "start": 41.2,
       "end": 45,
       "name": "跟移终点",
       "mode": "standing",
+      "sourceStart": 41,
+      "sourceEnd": 45,
       "chapterId": "01",
-      "globalFrame": 1230
+      "globalFrame": 1236
     },
     {
       "id": "S02-E1",
       "start": 0,
-      "end": 5,
+      "end": 5.1,
       "name": "打开搁置需求",
+      "sourceStart": 0,
+      "sourceEnd": 5,
       "chapterId": "02",
       "globalFrame": 1350
     },
     {
       "id": "S02-L1",
-      "start": 5,
-      "end": 13,
+      "start": 5.1,
+      "end": 14.2,
       "name": "可行边界",
+      "sourceStart": 5,
+      "sourceEnd": 13,
       "chapterId": "02",
-      "globalFrame": 1500
+      "globalFrame": 1503
     },
     {
       "id": "S02-E2",
-      "start": 13,
-      "end": 17,
+      "start": 14.2,
+      "end": 17.066666666666666,
       "name": "休息与继续工作",
+      "sourceStart": 13,
+      "sourceEnd": 17,
       "chapterId": "02",
-      "globalFrame": 1740
+      "globalFrame": 1776
     },
     {
       "id": "S02-L2",
-      "start": 17,
-      "end": 23,
+      "start": 17.066666666666666,
+      "end": 21.3,
       "name": "同一份节约",
+      "sourceStart": 17,
+      "sourceEnd": 23,
       "chapterId": "02",
-      "globalFrame": 1860
+      "globalFrame": 1862
     },
     {
       "id": "S02-E3",
-      "start": 23,
-      "end": 27,
+      "start": 21.3,
+      "end": 27.2,
       "name": "KPI与选择",
+      "sourceStart": 23,
+      "sourceEnd": 27,
       "chapterId": "02",
-      "globalFrame": 2040
+      "globalFrame": 1989
     },
     {
       "id": "S02-L3",
-      "start": 27,
-      "end": 32,
+      "start": 27.2,
+      "end": 32.5,
       "name": "投入与任务规模",
+      "sourceStart": 27,
+      "sourceEnd": 32,
       "chapterId": "02",
-      "globalFrame": 2160
+      "globalFrame": 2166
     },
     {
       "id": "S02-E4",
-      "start": 32,
+      "start": 32.5,
       "end": 38,
       "name": "连续审核",
+      "sourceStart": 32,
+      "sourceEnd": 38,
       "chapterId": "02",
-      "globalFrame": 2310
+      "globalFrame": 2325
     },
     {
       "id": "S03-01",
       "start": 0,
-      "end": 4.4,
+      "end": 4.666666666666667,
       "type": "L",
       "name": "薪水与雇佣关系",
+      "sourceStart": 0,
+      "sourceEnd": 4.4,
       "chapterId": "03",
       "globalFrame": 2490
     },
     {
       "id": "S03-02",
-      "start": 4.4,
-      "end": 9.1,
+      "start": 4.666666666666667,
+      "end": 9.6,
       "type": "L",
       "name": "约定时间内的劳动力使用",
+      "sourceStart": 4.4,
+      "sourceEnd": 9.1,
       "chapterId": "03",
-      "globalFrame": 2622
+      "globalFrame": 2630
     },
     {
       "id": "S03-03",
-      "start": 9.1,
-      "end": 11.1,
+      "start": 9.6,
+      "end": 11.6,
       "type": "E",
       "name": "查看已完成清单",
+      "sourceStart": 9.1,
+      "sourceEnd": 11.1,
       "chapterId": "03",
-      "globalFrame": 2763
+      "globalFrame": 2778
     },
     {
       "id": "S03-04",
-      "start": 11.1,
-      "end": 13,
+      "start": 11.6,
+      "end": 13.5,
       "type": "E",
       "name": "14:00发送完成消息",
+      "sourceStart": 11.1,
+      "sourceEnd": 13,
       "chapterId": "03",
-      "globalFrame": 2823
+      "globalFrame": 2838
     },
     {
       "id": "S03-05",
-      "start": 13,
-      "end": 17.6,
+      "start": 13.5,
+      "end": 17.033333333333335,
       "type": "E",
       "name": "14:01追加会议报告",
+      "sourceStart": 13,
+      "sourceEnd": 17.6,
       "chapterId": "03",
-      "globalFrame": 2880
+      "globalFrame": 2895
     },
     {
       "id": "S03-06",
-      "start": 17.6,
-      "end": 20,
+      "start": 17.033333333333335,
+      "end": 18.8,
       "type": "E",
       "name": "读消息时间并侧看",
+      "sourceStart": 17.6,
+      "sourceEnd": 20,
       "chapterId": "03",
-      "globalFrame": 3018
+      "globalFrame": 3001
     },
     {
       "id": "S03-07",
-      "start": 20,
-      "end": 23,
+      "start": 18.8,
+      "end": 21,
       "type": "E",
       "name": "邻桌仍在工作",
+      "sourceStart": 20,
+      "sourceEnd": 23,
       "chapterId": "03",
-      "globalFrame": 3090
+      "globalFrame": 3054
     },
     {
       "id": "S03-08",
-      "start": 23,
-      "end": 25.7,
+      "start": 21,
+      "end": 23,
       "type": "E",
       "name": "看回屏幕并继续",
+      "sourceStart": 23,
+      "sourceEnd": 25.7,
+      "chapterId": "03",
+      "globalFrame": 3120
+    },
+    {
+      "id": "S03-09",
+      "start": 23,
+      "end": 26.2,
+      "type": "E",
+      "name": "整理会议报告",
+      "sourceStart": 25.7,
+      "sourceEnd": 30.5,
       "chapterId": "03",
       "globalFrame": 3180
     },
     {
-      "id": "S03-09",
-      "start": 25.7,
-      "end": 30.5,
-      "type": "E",
-      "name": "整理会议报告",
-      "chapterId": "03",
-      "globalFrame": 3261
-    },
-    {
       "id": "S03-10",
-      "start": 30.5,
-      "end": 34.7,
+      "start": 26.2,
+      "end": 32.53333333333333,
       "type": "L",
       "name": "企业安排与雇员",
+      "sourceStart": 30.5,
+      "sourceEnd": 34.7,
       "chapterId": "03",
-      "globalFrame": 3405
+      "globalFrame": 3276
     },
     {
       "id": "S03-11",
-      "start": 34.7,
+      "start": 32.53333333333333,
       "end": 39,
       "type": "L",
       "name": "执行更快与时间决定权",
+      "sourceStart": 34.7,
+      "sourceEnd": 39,
       "chapterId": "03",
-      "globalFrame": 3531
+      "globalFrame": 3466
     },
     {
       "id": "S04-01",
       "start": 0,
-      "end": 12.3,
+      "end": 14,
       "type": "E",
       "name": "三窗并行",
+      "sourceStart": 0,
+      "sourceEnd": 12.3,
       "chapterId": "04",
       "globalFrame": 3660
     },
     {
       "id": "S04-02",
-      "start": 12.3,
-      "end": 14.6,
+      "start": 14,
+      "end": 16.266666666666666,
       "type": "E",
       "name": "成果交接",
+      "sourceStart": 12.3,
+      "sourceEnd": 14.6,
       "chapterId": "04",
-      "globalFrame": 4029
+      "globalFrame": 4080
     },
     {
       "id": "S04-03",
-      "start": 14.6,
-      "end": 17.3,
+      "start": 16.266666666666666,
+      "end": 18.9,
       "type": "E",
       "name": "绩效与反应",
+      "sourceStart": 14.6,
+      "sourceEnd": 17.3,
       "chapterId": "04",
-      "globalFrame": 4098
+      "globalFrame": 4148
     },
     {
       "id": "S04-04",
-      "start": 17.3,
-      "end": 20,
+      "start": 18.9,
+      "end": 21.5,
       "type": "L",
       "name": "产出与组织预期",
+      "sourceStart": 17.3,
+      "sourceEnd": 20,
       "chapterId": "04",
-      "globalFrame": 4179
+      "globalFrame": 4227
     },
     {
       "id": "S04-05",
-      "start": 20,
-      "end": 21.8,
+      "start": 21.5,
+      "end": 23.6,
       "type": "L",
       "name": "共同市场",
+      "sourceStart": 20,
+      "sourceEnd": 21.8,
       "chapterId": "04",
-      "globalFrame": 4260
+      "globalFrame": 4305
     },
     {
       "id": "S04-06",
-      "start": 21.8,
-      "end": 24.6,
+      "start": 23.6,
+      "end": 26.8,
       "type": "L",
       "name": "率先采用",
+      "sourceStart": 21.8,
+      "sourceEnd": 24.6,
       "chapterId": "04",
-      "globalFrame": 4314
+      "globalFrame": 4368
     },
     {
       "id": "S04-07",
-      "start": 24.6,
-      "end": 29.6,
+      "start": 26.8,
+      "end": 31.8,
       "type": "L",
       "name": "方法普及",
+      "sourceStart": 24.6,
+      "sourceEnd": 29.6,
       "chapterId": "04",
-      "globalFrame": 4398
+      "globalFrame": 4464
     },
     {
       "id": "S04-08",
-      "start": 29.6,
-      "end": 32.6,
+      "start": 31.8,
+      "end": 36,
       "type": "L",
       "name": "再压缩周期",
+      "sourceStart": 29.6,
+      "sourceEnd": 32.6,
       "chapterId": "04",
-      "globalFrame": 4548
+      "globalFrame": 4614
     },
     {
       "id": "S04-09",
-      "start": 32.6,
-      "end": 35.8,
+      "start": 36,
+      "end": 37.53333333333333,
       "type": "L",
       "name": "进入排期考核",
+      "sourceStart": 32.6,
+      "sourceEnd": 35.8,
       "chapterId": "04",
-      "globalFrame": 4638
+      "globalFrame": 4740
     },
     {
       "id": "S04-10",
-      "start": 35.8,
-      "end": 39,
+      "start": 37.53333333333333,
+      "end": 39.06666666666667,
       "type": "E",
       "name": "划去原人数",
+      "sourceStart": 35.8,
+      "sourceEnd": 39,
       "chapterId": "04",
-      "globalFrame": 4734
+      "globalFrame": 4786
     },
     {
       "id": "S04-11",
-      "start": 39,
-      "end": 42.2,
+      "start": 39.06666666666667,
+      "end": 40.6,
       "type": "E",
       "name": "重写产品线安排",
+      "sourceStart": 39,
+      "sourceEnd": 42.2,
       "chapterId": "04",
-      "globalFrame": 4830
+      "globalFrame": 4832
     },
     {
       "id": "S04-12",
-      "start": 42.2,
-      "end": 45.6,
+      "start": 40.6,
+      "end": 42.233333333333334,
       "type": "E",
       "name": "提高招聘要求",
+      "sourceStart": 42.2,
+      "sourceEnd": 45.6,
       "chapterId": "04",
-      "globalFrame": 4926
+      "globalFrame": 4878
     },
     {
       "id": "S04-13",
-      "start": 45.6,
-      "end": 50.6,
+      "start": 42.233333333333334,
+      "end": 44.6,
       "type": "E",
       "name": "发布与简历增加",
+      "sourceStart": 45.6,
+      "sourceEnd": 50.6,
       "chapterId": "04",
-      "globalFrame": 5028
+      "globalFrame": 4927
     },
     {
       "id": "S04-14",
-      "start": 50.6,
+      "start": 44.6,
       "end": 55,
       "type": "L",
       "name": "额外贡献成为常规要求",
+      "sourceStart": 50.6,
+      "sourceEnd": 55,
       "chapterId": "04",
-      "globalFrame": 5178
+      "globalFrame": 4998
     },
     {
       "id": "S05-01",
       "name": "岗位要求接入",
       "start": 0,
-      "end": 3,
+      "end": 3.466666666666667,
       "type": "L",
+      "sourceStart": 0,
+      "sourceEnd": 3,
       "chapterId": "05",
       "globalFrame": 5310
     },
     {
       "id": "S05-02",
       "name": "员工调度多个Agent",
-      "start": 3,
-      "end": 6,
+      "start": 3.466666666666667,
+      "end": 7,
       "type": "L",
+      "sourceStart": 3,
+      "sourceEnd": 6,
       "chapterId": "05",
-      "globalFrame": 5400
+      "globalFrame": 5414
     },
     {
       "id": "S05-03",
       "name": "企业与员工关系",
-      "start": 6,
-      "end": 9.4,
+      "start": 7,
+      "end": 8.766666666666667,
       "type": "L",
+      "sourceStart": 6,
+      "sourceEnd": 9.4,
       "chapterId": "05",
-      "globalFrame": 5490
+      "globalFrame": 5520
     },
     {
       "id": "S05-04",
       "name": "目标周期与分配",
-      "start": 9.4,
-      "end": 13.3,
+      "start": 8.766666666666667,
+      "end": 10.766666666666667,
       "type": "L",
+      "sourceStart": 9.4,
+      "sourceEnd": 13.3,
       "chapterId": "05",
-      "globalFrame": 5592
+      "globalFrame": 5573
     },
     {
       "id": "S05-05",
       "name": "调整排期的另一通道",
-      "start": 13.3,
-      "end": 17.3,
+      "start": 10.766666666666667,
+      "end": 12.8,
       "type": "L",
+      "sourceStart": 13.3,
+      "sourceEnd": 17.3,
       "chapterId": "05",
-      "globalFrame": 5709
+      "globalFrame": 5633
     },
     {
       "id": "S05-06",
       "name": "额外任务与收益安排",
-      "start": 17.3,
-      "end": 21.8,
+      "start": 12.8,
+      "end": 16,
       "type": "L",
+      "sourceStart": 17.3,
+      "sourceEnd": 21.8,
       "chapterId": "05",
-      "globalFrame": 5829
+      "globalFrame": 5694
     },
     {
       "id": "S05-07",
       "name": "成果交付与人工验收",
-      "start": 21.8,
-      "end": 25.6,
+      "start": 16,
+      "end": 19,
       "type": "E",
+      "sourceStart": 21.8,
+      "sourceEnd": 25.6,
       "chapterId": "05",
-      "globalFrame": 5964
+      "globalFrame": 5790
     },
     {
       "id": "S05-08",
       "name": "完成之后仍等新指令",
-      "start": 25.6,
-      "end": 29.4,
+      "start": 19,
+      "end": 21.7,
       "type": "E",
+      "sourceStart": 25.6,
+      "sourceEnd": 29.4,
       "chapterId": "05",
-      "globalFrame": 6078
+      "globalFrame": 5880
     },
     {
       "id": "S05-09",
       "name": "广告标语与工位反应",
-      "start": 29.4,
-      "end": 33.8,
+      "start": 21.7,
+      "end": 26.8,
       "type": "E",
+      "sourceStart": 29.4,
+      "sourceEnd": 33.8,
       "chapterId": "05",
-      "globalFrame": 6192
+      "globalFrame": 5961
     },
     {
       "id": "S05-10",
       "name": "从场景抽出规则反馈",
-      "start": 33.8,
-      "end": 37.4,
+      "start": 26.8,
+      "end": 39.5,
       "type": "L",
+      "sourceStart": 33.8,
+      "sourceEnd": 37.4,
       "chapterId": "05",
-      "globalFrame": 6324
+      "globalFrame": 6114
     },
     {
       "id": "S05-11",
       "name": "具体指令仍由人发出",
-      "start": 37.4,
-      "end": 40.6,
+      "start": 39.5,
+      "end": 42,
       "type": "L",
+      "sourceStart": 37.4,
+      "sourceEnd": 40.6,
       "chapterId": "05",
-      "globalFrame": 6432
+      "globalFrame": 6495
     },
     {
       "id": "S05-12",
       "name": "目的尺度另有来源",
-      "start": 40.6,
-      "end": 43,
+      "start": 42,
+      "end": 43.9,
       "type": "L",
+      "sourceStart": 40.6,
+      "sourceEnd": 43,
       "chapterId": "05",
-      "globalFrame": 6528
+      "globalFrame": 6570
     },
     {
       "id": "S05-13",
       "name": "同一排期页留给06",
-      "start": 43,
+      "start": 43.9,
       "end": 45,
       "type": "L",
+      "sourceStart": 43,
+      "sourceEnd": 45,
       "chapterId": "05",
-      "globalFrame": 6600
+      "globalFrame": 6627
     },
     {
       "id": "S06-01",
@@ -1716,6 +1831,8 @@
       "start": 0,
       "end": 2.5,
       "type": "L",
+      "sourceStart": 0,
+      "sourceEnd": 2.5,
       "chapterId": "06",
       "globalFrame": 6660
     },
@@ -1725,6 +1842,8 @@
       "start": 2.5,
       "end": 4.7,
       "type": "L",
+      "sourceStart": 2.5,
+      "sourceEnd": 4.7,
       "chapterId": "06",
       "globalFrame": 6735
     },
@@ -1734,6 +1853,8 @@
       "start": 4.7,
       "end": 8.8,
       "type": "L",
+      "sourceStart": 4.7,
+      "sourceEnd": 8.8,
       "chapterId": "06",
       "globalFrame": 6801
     },
@@ -1743,6 +1864,8 @@
       "start": 8.8,
       "end": 16,
       "type": "L",
+      "sourceStart": 8.8,
+      "sourceEnd": 16,
       "chapterId": "06",
       "globalFrame": 6924
     },
@@ -1752,6 +1875,8 @@
       "start": 16,
       "end": 18.8,
       "type": "E",
+      "sourceStart": 16,
+      "sourceEnd": 18.8,
       "chapterId": "06",
       "globalFrame": 7140
     },
@@ -1761,6 +1886,8 @@
       "start": 18.8,
       "end": 21.2,
       "type": "E",
+      "sourceStart": 18.8,
+      "sourceEnd": 21.2,
       "chapterId": "06",
       "globalFrame": 7224
     },
@@ -1770,6 +1897,8 @@
       "start": 21.2,
       "end": 23.4,
       "type": "E",
+      "sourceStart": 21.2,
+      "sourceEnd": 23.4,
       "chapterId": "06",
       "globalFrame": 7296
     },
@@ -1779,6 +1908,8 @@
       "start": 23.4,
       "end": 27,
       "type": "L",
+      "sourceStart": 23.4,
+      "sourceEnd": 27,
       "chapterId": "06",
       "globalFrame": 7362
     },
@@ -1788,6 +1919,8 @@
       "start": 27,
       "end": 29,
       "type": "E",
+      "sourceStart": 27,
+      "sourceEnd": 29,
       "chapterId": "06",
       "globalFrame": 7470
     },
@@ -1797,6 +1930,8 @@
       "start": 29,
       "end": 31,
       "type": "E",
+      "sourceStart": 29,
+      "sourceEnd": 31,
       "chapterId": "06",
       "globalFrame": 7530
     },
@@ -1806,6 +1941,8 @@
       "start": 31,
       "end": 35.7,
       "type": "E",
+      "sourceStart": 31,
+      "sourceEnd": 35.7,
       "chapterId": "06",
       "globalFrame": 7590
     },
@@ -1815,6 +1952,8 @@
       "start": 35.7,
       "end": 40.3,
       "type": "E",
+      "sourceStart": 35.7,
+      "sourceEnd": 40.3,
       "chapterId": "06",
       "globalFrame": 7731
     },
@@ -1824,6 +1963,8 @@
       "start": 40.3,
       "end": 44,
       "type": "E",
+      "sourceStart": 40.3,
+      "sourceEnd": 44,
       "chapterId": "06",
       "globalFrame": 7869
     },
@@ -1833,6 +1974,8 @@
       "start": 44,
       "end": 51,
       "type": "L",
+      "sourceStart": 44,
+      "sourceEnd": 51,
       "chapterId": "06",
       "globalFrame": 7980
     },
@@ -1842,6 +1985,8 @@
       "start": 51,
       "end": 58,
       "type": "L",
+      "sourceStart": 51,
+      "sourceEnd": 58,
       "chapterId": "06",
       "globalFrame": 8190
     }

@@ -1,0 +1,37 @@
+{
+  "stills": 67,
+  "clips": [
+    {
+      "file": "seam-2-to-03.mp4",
+      "frames": 45,
+      "duration": 1.5,
+      "decodePassed": true
+    },
+    {
+      "file": "seam-3-to-04.mp4",
+      "frames": 45,
+      "duration": 1.5,
+      "decodePassed": true
+    },
+    {
+      "file": "seam-4-to-05.mp4",
+      "frames": 45,
+      "duration": 1.5,
+      "decodePassed": true
+    },
+    {
+      "file": "seam-5-to-06.mp4",
+      "frames": 45,
+      "duration": 1.5,
+      "decodePassed": true
+    },
+    {
+      "file": "seam-1-to-02.mp4",
+      "frames": 45,
+      "duration": 1.5,
+      "decodePassed": true
+    }
+  ],
+  "fullVideoBaked": false,
+  "audio": false
+}

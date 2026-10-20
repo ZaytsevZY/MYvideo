@@ -1,5 +1,13 @@
 # 01–06统一动态展示框架
 
+**当前动态采用：FILM_PREVIEW v0.8／FILM_NARRATION v0.8 · 2026-10-20。** [审阅预览](http://127.0.0.1:8765/actions/film/preview.html)／[新版SRT](captions-v01.srt)／[逐镜同步表](narration-alignment-v08.md)。
+
+采用人工审核口播994字符／54条字幕，05“课程”按确认改为“可能”，其他audio原文保持。字幕统一44px冬青黑体、500字重，至少10字符、最短2.5秒；六章时长／offset不变，总计280秒／8400帧，最后14秒文献无字幕。72镜导航同步重新排时，142项原库存复用。03提前展开组织约束，04延长三窗并行，05压缩前段关系展示、加时间投入与调用续费反馈并提前进入共同成果图。
+
+当前为新版字幕及动态框架，未重制完整MP4；下方FILM_BAKE v0.7继续对应旧853字符视频。分章旧入口与历史字幕保留；当前排时见统一入口，后续不要用旧章builder覆盖。本轮无生成模型、新美术或声音。复现：`node arts/actions/film/build.mjs`；测试与检查命令见同步表。
+
+以下保留历史制作记录。
+
 **当前采用：FILM_PREVIEW v0.7／FILM_BAKE v0.7（2026-10-19）。** [完整视频播放页](http://127.0.0.1:8765/actions/film/exports/index.html)／[MP4](exports/film-complete-captioned-silent-v07.mp4)／[SRT](exports/film-subtitles-v07.srt)。
 
 已从当前01–06源码完成FILM_BAKE v0.7完整视频：280秒／8400帧／1920×1080／30fps，H.264 medium CRF18、yuv420p、faststart，无配音／音效／配乐及音轨。文件39,751,904字节（约39.8MB）；原始分辨率美术直接逐帧合成，未拼接历史章节MP4。源框架同步FILM_PREVIEW v0.7，72段跳转、142项库存及原章节offset保持。

@@ -14,7 +14,7 @@ test('one global frame clock covers six chapters without duplicate endpoint fram
  assert.equal(frameAtTime(280).frame,8399);assert.equal(locateFrame(-1).frame,0);assert.throws(()=>locateFrame(NaN));
 });
 test('all original narration appears once with a single global subtitle offset',()=>{
- assert.equal(GLOBAL_CUES.length,55);
+ assert.equal(GLOBAL_CUES.length,54);
  let last=0;
  for(const c of CHAPTERS){
   const raw=fs.readFileSync(new URL(`../../../scripts/final/shot/${c.id}.md`,import.meta.url),'utf8').split('<start>')[1].split('<end>')[0].replace(/\s/g,'');

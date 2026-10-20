@@ -1,0 +1,20 @@
+✔ all54 reviewed cues meet10 Unicode characters and preserve all994 manuscript characters and punctuation (0.884042ms)
+✔ inline caption style rasterizes identically under conflicting chapter text selectors (59.193417ms)
+✔ actual six chapter output keeps exactly the same inline caption style and leaves ending references clear (4.252541ms)
+✔ one global frame clock covers six chapters without duplicate endpoint frames (0.468125ms)
+✔ all original narration appears once with a single global subtitle offset (0.853625ms)
+✔ six adapters render every frame with resolvable assets and stable state (238.937833ms)
+✔ scene jumps select authored shots and subtitle toggle only removes subtitles (1.923875ms)
+✔ cross chapter identity and evidence semantics stay in their original scenarios (0.589916ms)
+✔ current audio blocks exactly match the human-reviewed snapshot including the authorized typo correction (0.955917ms)
+✔ all semantic cuts preserve chapter durations, minimum exposure and readable single-line widths (2.509ms)
+✔ key claims display their matching physical action or constraint diagram (1.6405ms)
+✔ editable screen-copy replacements and cost feedback remain valid rasterizable SVG (117.480583ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 293.39325

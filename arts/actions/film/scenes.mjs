@@ -1,4 +1,5 @@
-import {normalizeCues,captionSvg} from './captions.mjs';
+import {captionSvg} from './captions.mjs';
+import {AUTHORED_CUES,sourceTime,retimeBeats,alignScreenCopy,costFeedback} from './narration-v08.mjs';
 // Adapters only: the adopted chapter sources and PNGs remain unchanged.
 import * as c01 from '../01/camera-motion.mjs';
 import {CAPTIONS} from '../01/captions/caption-data.mjs';
@@ -10,14 +11,17 @@ import * as legacy05 from '../05/scene.mjs';
 import * as c05 from '../05/story-scene-v03.mjs';
 import * as c06 from '../06/story-scene-v03.mjs';
 import {CHAPTERS,FPS,locateFrame} from './timeline.mjs';
-export const RAW_CUES={'01':CAPTIONS,'02':c02.CUES,'03':c03.CUES,'04':c04.CUES,'05':c05.CUES,'06':c06.CUES};
-export const CUES=Object.fromEntries(Object.entries(RAW_CUES).map(([id,cues])=>[id,normalizeCues(id,cues)]));
-export const BEATS={'01':c01.CAMERA_BEATS,'02':c02.BEATS,
+export const LEGACY_CUES={'01':CAPTIONS,'02':c02.CUES,'03':c03.CUES,'04':c04.CUES,'05':c05.CUES,'06':c06.CUES};
+export const RAW_CUES=AUTHORED_CUES;
+export const CUES=AUTHORED_CUES;
+const SOURCE_BEATS={'01':c01.CAMERA_BEATS,'02':c02.BEATS,
  '03':c03.BEATS,
  '04':c04.BEATS,
  '05':c05.BEATS,'06':c06.BEATS};
+export const BEATS=Object.fromEntries(Object.entries(SOURCE_BEATS).map(([id,beats])=>[id,retimeBeats(id,beats)]));
 export const DIRECT_ASSETS_BY_CHAPTER={'03':c03.ASSETS,'04':c04.ASSETS,'05':c05.ASSETS,'06':c06.ASSETS};
-export function stateAt(id,t){return id==='01'?c01.sampleCameraScene(t):id==='02'?c02.sample(t):id==='03'?c03.sample(t):id==='04'?c04.sample(t):id==='05'?c05.sample(t):c06.sample(t);}
+function sourceStateAt(id,t){return id==='01'?c01.sampleCameraScene(t):id==='02'?c02.sample(t):id==='03'?c03.sample(t):id==='04'?c04.sample(t):id==='05'?c05.sample(t):c06.sample(t);}
+export function stateAt(id,t){return {...sourceStateAt(id,sourceTime(id,t)),sourceTime:sourceTime(id,t),timelineTime:t,caption:activeCue(id,t)};}
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
 export {captionSvg} from './captions.mjs';
 export function activeCue(id,t){return CUES[id].find(c=>c.startMs<=t*1000&&t*1000<c.endMs)||null;}
@@ -33,7 +37,7 @@ export function createRenderer(data,resolve){
  const defsFor=(id,content)=>used(content,'asset').map(key=>definitions[id][key]||(()=>{throw Error(`Unregistered ${id}/${key}`)})()).join('');
  const refs=Object.fromEntries(Object.entries(DIRECT_ASSETS_BY_CHAPTER).map(([chapter,items])=>[chapter,Object.fromEntries(Object.entries(items).map(([id,path])=>[id,resolve(path)]))]));
  return function render(frame,{captions=true}={}){
-  const point=locateFrame(frame),id=point.chapter.id,t=point.localTime,cue=activeCue(id,t);
+  const point=locateFrame(frame),id=point.chapter.id,t=sourceTime(id,point.localTime),cue=activeCue(id,point.localTime);
   let image;
   if(id==='01'){
    const content=c01.drawCameraScene(c01.sampleCameraScene(t),bundle,{captions:false}),assets=used(content,'asset'),poses=used(content,'pose'),key=assets.join(',')+'|'+poses.join(',');
@@ -46,9 +50,10 @@ export function createRenderer(data,resolve){
   else if(id==='05')image=c05.svg(t,refs['05'],{caption:false});
   else image=c06.svg(t,refs['06'],{caption:false});
   // Insert after the complete root content, never into chapter04's nested prior SVG.
+  image=alignScreenCopy(id,image,point.localTime);
   const at=image.lastIndexOf('</svg>');
-  image=image.slice(0,at)+(captions?captionSvg(cue):'')+image.slice(at);
-  return {...point,cue,svg:image,beat:BEATS[id].find(b=>t>=b.start&&t<b.end)||BEATS[id].at(-1)};
+  image=image.slice(0,at)+costFeedback(id,point.localTime,refs['05'].document)+(captions?captionSvg(cue):'')+image.slice(at);
+  return {...point,cue,svg:image,beat:BEATS[id].find(b=>point.localTime>=b.start&&point.localTime<b.end)||BEATS[id].at(-1)};
  };
 }
 export const GLOBAL_CUES=CHAPTERS.flatMap(c=>CUES[c.id].map(cue=>({...cue,chapterId:c.id,startMs:cue.startMs+c.start*1000,endMs:cue.endMs+c.start*1000})));

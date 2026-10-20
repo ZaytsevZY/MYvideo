@@ -1,0 +1,67 @@
+{
+  "version": "FILM_PREVIEW v0.8",
+  "date": "2026-10-20",
+  "duration": 280,
+  "frames": 8400,
+  "captions": 54,
+  "characters": 994,
+  "testsPassed": 12,
+  "fullFrameStructureValidated": 8400,
+  "visualReview": "67 representative stills and all five seams reviewed; browser playback, shot navigation, caption toggle and ending verified",
+  "preservedAssetPaths": 142,
+  "previousMP4Preserved": true,
+  "bakeV07ProvenancePreserved": true,
+  "fullVideoBaked": false,
+  "audio": false,
+  "externalModelCalls": 0,
+  "outputs": [
+    {
+      "path": "arts/actions/film/narration-v08.json",
+      "sha256": "a5ebee4d5c2d1a9d8e6bd9479a5c4cd75664d77e956b66555c8e784d8dbe7cb7"
+    },
+    {
+      "path": "arts/actions/film/narration-v08.mjs",
+      "sha256": "4ad273c59f2e33f78eccc5d5ac8359cc04c4e953ffe757129947f74fd78a4886"
+    },
+    {
+      "path": "arts/actions/film/scenes.mjs",
+      "sha256": "7d43f7a8f85dd533c500c81b537b2d4a21891ac305877f27f5ac51c28d185efa"
+    },
+    {
+      "path": "arts/actions/film/captions-v01.srt",
+      "sha256": "06693a2d0ae9735ec8d8ade7ac32137aef8d8489aef6d4cef8eb59c80453ebfe"
+    },
+    {
+      "path": "arts/actions/film/captions-v01.json",
+      "sha256": "ccc478b248f05b4deb6b5c0c8ec2ac5dd7043cba400490659113f1f4a3fca62c"
+    },
+    {
+      "path": "arts/actions/film/narration-alignment-v08.md",
+      "sha256": "3339e0fa7ca99c5c53fd840f81934c9060462f8076d5b6a428023b5015141bb6"
+    },
+    {
+      "path": "scripts/final/shot/01.md",
+      "sha256": "1db16960066831c48feb4952ded5ebe103490bd7951025c3a63be5ae5b3ec41f"
+    },
+    {
+      "path": "scripts/final/shot/02.md",
+      "sha256": "2bd73d5278d4651e1ca65dd0cfd7f7949f0b13573b88bc9d083dbb224758630c"
+    },
+    {
+      "path": "scripts/final/shot/03.md",
+      "sha256": "fe10d56ef720a3c2205216614c8b8aeae8cf0ef6ba9d9b876a66de50f969eb57"
+    },
+    {
+      "path": "scripts/final/shot/04.md",
+      "sha256": "d7b6cea835f044fa576244accda6692d72f3e81e7e53a421dd1b3b08be75d8e3"
+    },
+    {
+      "path": "scripts/final/shot/05.md",
+      "sha256": "0934045db8946db05b2594033d6a1b7dccc568fcdf74183dc1078a8c145ed3ad"
+    },
+    {
+      "path": "scripts/final/shot/06.md",
+      "sha256": "b51a7479e1a05294ded09ba2a1ae07f19812d016a86647150fe27c24dc603b47"
+    }
+  ]
+}

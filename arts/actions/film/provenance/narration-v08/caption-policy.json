@@ -1,0 +1,24 @@
+{
+  "style": {
+    "family": "Hiragino Sans GB",
+    "fallback": "sans-serif",
+    "size": 44,
+    "weight": 500,
+    "color": "#FFFDF8",
+    "background": "#101923",
+    "backgroundOpacity": 0.78,
+    "y": 994,
+    "height": 68,
+    "radius": 12,
+    "baseline": 1028,
+    "minCharacters": 10,
+    "maxWidth": 1800
+  },
+  "counting": "Unicode code points excluding whitespace; punctuation included; Latin letters counted individually",
+  "sourceCount": 54,
+  "mode": "human-reviewed semantic cuts; short fragments are included in neighboring sentences",
+  "minDisplayMs": 2500,
+  "characters": 994,
+  "outputCount": 54,
+  "merges": []
+}
