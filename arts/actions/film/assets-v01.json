@@ -1,5 +1,5 @@
 {
-  "version": "FILM_PREVIEW v0.8",
+  "version": "FILM_PREVIEW v0.10",
   "assets": [
     {
       "path": "arts/backgrounds/01/workroom-reverse-night-v01.png",
@@ -920,7 +920,8 @@
       "path": "arts/characters/poses/01/programmer-input-v01.png",
       "ids": [
         "programmer-input",
-        "s02-input"
+        "s02-input",
+        "lift-review"
       ],
       "chapters": [
         "01",
@@ -1249,7 +1250,8 @@
     {
       "path": "arts/characters/poses/02/programmer-think-up-right-v01.png",
       "ids": [
-        "s02-think"
+        "s02-think",
+        "choose"
       ],
       "chapters": [
         "02"
@@ -1265,7 +1267,8 @@
     {
       "path": "arts/characters/poses/02/programmer-choose-right-v01.png",
       "ids": [
-        "s02-choose"
+        "s02-choose",
+        "choose"
       ],
       "chapters": [
         "02"
@@ -1297,7 +1300,8 @@
     {
       "path": "arts/characters/poses/02/programmer-eat-down-v01.png",
       "ids": [
-        "s02-eatDown"
+        "s02-eatDown",
+        "meal"
       ],
       "chapters": [
         "02"
@@ -1313,7 +1317,8 @@
     {
       "path": "arts/characters/poses/02/programmer-eat-scoop-v01.png",
       "ids": [
-        "s02-eatScoop"
+        "s02-eatScoop",
+        "meal"
       ],
       "chapters": [
         "02"
@@ -1329,7 +1334,8 @@
     {
       "path": "arts/characters/poses/02/programmer-eat-bite-v01.png",
       "ids": [
-        "s02-eatBite"
+        "s02-eatBite",
+        "meal"
       ],
       "chapters": [
         "02"
@@ -1345,7 +1351,8 @@
     {
       "path": "arts/characters/poses/02/programmer-review-current-v01.png",
       "ids": [
-        "s02-review"
+        "s02-review",
+        "lift-review"
       ],
       "chapters": [
         "02"
@@ -1884,7 +1891,8 @@
     {
       "path": "arts/characters/poses/04/manager-ready-v03.png",
       "ids": [
-        "managerReady"
+        "managerReady",
+        "manager-reach"
       ],
       "chapters": [
         "04"
@@ -1900,7 +1908,8 @@
     {
       "path": "arts/characters/poses/04/manager-strike-v03.png",
       "ids": [
-        "managerStrike"
+        "managerStrike",
+        "manager-reach"
       ],
       "chapters": [
         "04"
@@ -2399,6 +2408,182 @@
       "alpha": false,
       "format": "png",
       "kind": "背景"
+    },
+    {
+      "path": "arts/characters/motion-v09/meal-25.png",
+      "ids": [
+        "meal"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1652985,
+      "sha256": "93f7d9ad4594e55b705c0e4a7c5e02834170780aa07c0b482cc01d7d68fb2453",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整补绘"
+    },
+    {
+      "path": "arts/characters/motion-v09/meal-75.png",
+      "ids": [
+        "meal"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1635486,
+      "sha256": "4e51031fb54e7636f1d7335fc5fbf518c5115b6318fa7fa50cc5d5449bed8c7a",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整补绘"
+    },
+    {
+      "path": "arts/characters/motion-v09/choose-25.png",
+      "ids": [
+        "choose"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1565538,
+      "sha256": "401e791ad5d4fa798d991269b7246032be0c29ef9d691ca7270086fc5b1c8219",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整补绘"
+    },
+    {
+      "path": "arts/characters/motion-v09/choose-50.png",
+      "ids": [
+        "choose"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1591179,
+      "sha256": "31e0d7090ad9cfb27f4bb846440ed003b5fcce216937b8205d7b88b6cd9882f7",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整补绘"
+    },
+    {
+      "path": "arts/characters/motion-v09/choose-75.png",
+      "ids": [
+        "choose"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1599015,
+      "sha256": "49f8863d828d92ecade9319fe93f7b44fdd5b70f51fdcea45ccf458640646287",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整补绘"
+    },
+    {
+      "path": "arts/characters/motion-v09/manager-reach-25.png",
+      "ids": [
+        "manager-reach"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1308475,
+      "sha256": "b905ddb8fc1ab68b7129b4a5ac84ce8a51b8bd9ee56575870f148f844ff0f3e4",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整补绘"
+    },
+    {
+      "path": "arts/characters/motion-v09/manager-reach-50.png",
+      "ids": [
+        "manager-reach"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1306873,
+      "sha256": "5a54e6293471e8da1252cdacf9f0750753d5acad60eeb257d46e9f2534027867",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整补绘"
+    },
+    {
+      "path": "arts/characters/motion-v09/manager-reach-75.png",
+      "ids": [
+        "manager-reach"
+      ],
+      "chapters": [
+        "04"
+      ],
+      "bytes": 1328894,
+      "sha256": "0fc7c69539384832c0e45cbbf917e3e3c60a450215f6e0cc0b0c134329fcca42",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整补绘"
+    },
+    {
+      "path": "arts/characters/motion-v09/lift-review-25.png",
+      "ids": [
+        "lift-review"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1397028,
+      "sha256": "f457ba44e28c774a5ffe790d74477dc6e7bd871e36fbc7a2952b652573b78f66",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整补绘"
+    },
+    {
+      "path": "arts/characters/motion-v09/lift-review-50.png",
+      "ids": [
+        "lift-review"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1393779,
+      "sha256": "5146cab4d55b251c91ef976ed0c7f3b4847a405c3a401b7e02100a5c4ba6bd00",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整补绘"
+    },
+    {
+      "path": "arts/characters/motion-v09/lift-review-75.png",
+      "ids": [
+        "lift-review"
+      ],
+      "chapters": [
+        "02"
+      ],
+      "bytes": 1400431,
+      "sha256": "0523f4c2d3085e0fa0d3746bcc25bbd0d1c2f21f3dc52ee74150c6e8cce45d0f",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "format": "png",
+      "kind": "完整补绘"
     }
   ],
   "note": "Original paths retained; shared references deduplicated by path. Composite stages are not new drawings."

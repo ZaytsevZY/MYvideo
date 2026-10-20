@@ -1,0 +1,4297 @@
+{
+  "version": "MOTION v0.9",
+  "date": "2026-10-20",
+  "minimumUniqueKeyframes": 5,
+  "groups": [
+    {
+      "id": "front-intent",
+      "chapters": [
+        "01"
+      ],
+      "name": "正面输入到发送",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+          "at": 0
+        },
+        {
+          "path": "arts/characters/poses/01/programmer-front-dispatch-v01.png",
+          "at": 1
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/front-intent/00.webp",
+          "at": 0.0,
+          "sha256": "3245488bcd68903363f6d430cabb09670748343e860419f9e1d55af73a9dfce8",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-intent/01.webp",
+          "at": 0.125,
+          "sha256": "6040f38830eb964c10744788764b817fa6460edb2f99d42b4af0c5ea51f0dfb3",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-intent/02.webp",
+          "at": 0.25,
+          "sha256": "aac0a7627c304232057c50ee26b81ae556bec8501470ce7d05a5ff9533c7eaa1",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-intent/03.webp",
+          "at": 0.375,
+          "sha256": "f1191e9ffa6f422b0ad7dda7ac2366ea4d235edcdc15f851716d9cfa8f0150cc",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-intent/04.webp",
+          "at": 0.5,
+          "sha256": "bc3772555e7db64b2f8ad90f82606e6f5942ec98044b481aac4f7e3d3d2fc7b4",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-intent/05.webp",
+          "at": 0.625,
+          "sha256": "33a72b90f813f313d72f043cac863474cd4843f4caf045a35094214a757a1ab1",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-intent/06.webp",
+          "at": 0.75,
+          "sha256": "00e2d75555383f4c6acfa125528fe832c7eab12cf6c35b528acfa4d1f7a79f9d",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-intent/07.webp",
+          "at": 0.875,
+          "sha256": "53075a1b8b5b323cea2ea6e4589a33c3082981a0c4ac256c8f3717fc03031191",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-intent/08.webp",
+          "at": 1.0,
+          "sha256": "cd64980b4aa776633b56ced33e9eb1a560fb7805711c9b3b6d0e1187cb94d347",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/programmer-front-dispatch-v01.png",
+          "width": 1153,
+          "height": 1364
+        }
+      ]
+    },
+    {
+      "id": "front-fatigue",
+      "chapters": [
+        "01"
+      ],
+      "name": "疲惫表情过渡",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+          "at": 0
+        },
+        {
+          "path": "arts/characters/poses/01/programmer-front-fatigue-v01.png",
+          "at": 1
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/front-fatigue/00.webp",
+          "at": 0.0,
+          "sha256": "3245488bcd68903363f6d430cabb09670748343e860419f9e1d55af73a9dfce8",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/programmer-front-neutral-v01.png",
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-fatigue/01.webp",
+          "at": 0.125,
+          "sha256": "68df0dc5b0ef6e2b76ce9839b47037d46989ae39b132d0eb617e8dad4339d9a6",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-fatigue/02.webp",
+          "at": 0.25,
+          "sha256": "f79ab53a21a1c7c982d89e5902f339f56988a3738b45f4bd2779ee71c916da16",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-fatigue/03.webp",
+          "at": 0.375,
+          "sha256": "7f6f5a9f0dc4cde8685007528409973693f3c33ae549d7a7d530f8aa55750990",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-fatigue/04.webp",
+          "at": 0.5,
+          "sha256": "51a86c69073e69e41e6997f2e0a3fec60ee798a43cecf6727ff97138b2131d5d",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-fatigue/05.webp",
+          "at": 0.625,
+          "sha256": "2b3e4f66b01f2e22749a00c7710405cc9f41af73de0b4ad22f4ebd5d0bf5b8de",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-fatigue/06.webp",
+          "at": 0.75,
+          "sha256": "52c21e5e521cb7b34937c949daa23dde1151c059eca13e73e2a7356e495678d7",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-fatigue/07.webp",
+          "at": 0.875,
+          "sha256": "a42cba14f4b6c4af99df49fc6d544d0219ae4f6a063cc2738dc887c17256d657",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1153,
+          "height": 1364
+        },
+        {
+          "path": "arts/characters/motion-v09/front-fatigue/08.webp",
+          "at": 1.0,
+          "sha256": "5a0ebcf343269032dfa7deb96f1c18bc243148e84771d440d65297356c5d01fa",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/programmer-front-fatigue-v01.png",
+          "width": 1153,
+          "height": 1364
+        }
+      ]
+    },
+    {
+      "id": "release",
+      "chapters": [
+        "01",
+        "02"
+      ],
+      "name": "离开键盘",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/01/programmer-input-v01.png",
+          "at": 0
+        },
+        {
+          "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/characters/poses/01/programmer-rest-v01.png",
+          "at": 1
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/release/00.webp",
+          "at": 0.0,
+          "sha256": "53a2ead2cfa7dd0d78d6ab8cda00f235affda487a5992d7fb86903e0bc972336",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/programmer-input-v01.png",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/release/01.webp",
+          "at": 0.125,
+          "sha256": "e1e77f7638087ba4d8c8cc2081f587cbffdeef5c2fd2b9bb67c3419206c183f9",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/release/02.webp",
+          "at": 0.25,
+          "sha256": "c680b45929d64a6222ed6822e81cb93b2a422e51f03e3e20169252ba86013b1d",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/release/03.webp",
+          "at": 0.375,
+          "sha256": "e34ac2b991f9efdb3b2429fe0354ea15d36700448733e0cd56c3910b61c4ce41",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/release/04.webp",
+          "at": 0.5,
+          "sha256": "e300f28681866ef8296f16368e8d3f61ca150fe8b932aed9ce3e25aaf947708e",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/programmer-release-half-v01.png",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/release/05.webp",
+          "at": 0.625,
+          "sha256": "b1be5d859e5772606de86a9b8d51de1082003ea6b2b9774624dd637aa4a88d0e",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/release/06.webp",
+          "at": 0.75,
+          "sha256": "38ab6f29722a5c07e8cc204f50e8178e9e9e88c2ad196254263e6d6c5b115003",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/release/07.webp",
+          "at": 0.875,
+          "sha256": "f79450d8a880130133884b492b4315993549070be98c2111a7f3afa20fab087c",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/release/08.webp",
+          "at": 1.0,
+          "sha256": "efc2b0917945653c481263adcafea01cbc4c867588bbf82fd16a175ffccee0c0",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/programmer-rest-v01.png",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "lean",
+      "chapters": [
+        "01"
+      ],
+      "name": "查看屏幕",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/01/programmer-input-v01.png",
+          "at": 0
+        },
+        {
+          "path": "arts/characters/poses/01/programmer-lean-v01.png",
+          "at": 1
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/lean/00.webp",
+          "at": 0.0,
+          "sha256": "53a2ead2cfa7dd0d78d6ab8cda00f235affda487a5992d7fb86903e0bc972336",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/programmer-input-v01.png",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/lean/01.webp",
+          "at": 0.125,
+          "sha256": "d9dac69129c3dbd6269b21875bebb55072f73c69b97c944780275af77eb478b3",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/lean/02.webp",
+          "at": 0.25,
+          "sha256": "458f80107a2907c62a221dfbb22fd935d0e594da2afd878ce81ee6c4c6f99d93",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/lean/03.webp",
+          "at": 0.375,
+          "sha256": "2baa43af80a2ca66448a1ab843ad88861a72d4f95a6341936f44157773f6bac7",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/lean/04.webp",
+          "at": 0.5,
+          "sha256": "d4783b320c7f214f6f7828df704f6e4218e33f20f6a412faaf6aaafd986b8484",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/lean/05.webp",
+          "at": 0.625,
+          "sha256": "3b662fd8f89ee1192a2de6d0203ebd8fefe4a17128d34f2d12005ce0a534d9e5",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/lean/06.webp",
+          "at": 0.75,
+          "sha256": "4ae9ff3134d8a3475074f88a9a9effaa58b015a6ac66dd60fbb1dfa53168ac94",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/lean/07.webp",
+          "at": 0.875,
+          "sha256": "2529b5e7545d4ae917b9fc6631679e664c2487b43604ea6207e57ae16565c829",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/lean/08.webp",
+          "at": 1.0,
+          "sha256": "b6faed1e41628116138634b60a5cbd766b56442fed1c1f6e156215a61a4f9d9f",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/programmer-lean-v01.png",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "agent-receive",
+      "chapters": [
+        "01",
+        "02"
+      ],
+      "name": "Agent接稳文件",
+      "kind": "alpha",
+      "keys": [
+        {
+          "at": 0,
+          "path": "arts/characters/poses/01/agent-idle-v01.png"
+        },
+        {
+          "at": 0.09523809523809525,
+          "path": "arts/characters/poses/01/agent-reach-half-v01.png"
+        },
+        {
+          "at": 0.2380952380952381,
+          "path": "arts/characters/poses/01/agent-receive-v01.png"
+        },
+        {
+          "at": 0.380952380952381,
+          "path": "arts/characters/poses/01/agent-pregrasp-v01.png"
+        },
+        {
+          "at": 0.6190476190476191,
+          "path": "arts/characters/poses/01/agent-grasp-file-v01.png"
+        },
+        {
+          "at": 0.7380952380952381,
+          "path": "arts/characters/poses/01/agent-pull-file-v01.png"
+        },
+        {
+          "at": 0.8809523809523809,
+          "path": "arts/characters/poses/01/agent-hold-file-v01.png"
+        },
+        {
+          "at": 1,
+          "path": "arts/characters/poses/01/agent-inspect-file-v01.png"
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/agent-receive/anchor-00.webp",
+          "at": 0,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-idle-v01.png",
+          "sha256": "36d84c9169422890c2bbd187df9133c917b1700e1b3aa872dee8c6995d9e1c2c",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-receive/anchor-01.webp",
+          "at": 0.09523809523809525,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-reach-half-v01.png",
+          "sha256": "abaea66a55372c636e858edc61a937ae3d39c26917270a69ba3b89592853d2e3",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-receive/anchor-02.webp",
+          "at": 0.2380952380952381,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-receive-v01.png",
+          "sha256": "79bd37c24b020e401c4bd1422d93b7605204589d90e60821c8073600b6739b01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-receive/anchor-03.webp",
+          "at": 0.380952380952381,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-pregrasp-v01.png",
+          "sha256": "dde7865f1b8c10764c85c932a15f56735899001cdcd227776a2bbf7517d7b152",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-receive/anchor-04.webp",
+          "at": 0.6190476190476191,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-grasp-file-v01.png",
+          "sha256": "248d25a3a5c4f0c128a2e1589a217ed63bb629e1ed2c738ea7ae7746bd3ed094",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-receive/anchor-05.webp",
+          "at": 0.7380952380952381,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-pull-file-v01.png",
+          "sha256": "f8c92b70c9887dece9c258a4eb6add98580b2fdf5de743a04d6f0c94aa9d5070",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-receive/anchor-06.webp",
+          "at": 0.8809523809523809,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-hold-file-v01.png",
+          "sha256": "0243df2d1e2548026a40b6f7febb1da3b30bc908beb5c0e1a54b29f77d9db1e0",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-receive/anchor-07.webp",
+          "at": 1,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-inspect-file-v01.png",
+          "sha256": "cfce8339f16d70fd4170f7c464f4d37b63f937bac1f58617b9231adec8fa5e81",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "agent-deliver",
+      "chapters": [
+        "01",
+        "02"
+      ],
+      "name": "Agent交回文件",
+      "kind": "alpha",
+      "keys": [
+        {
+          "at": 0,
+          "path": "arts/characters/poses/01/agent-inspect-file-v01.png"
+        },
+        {
+          "at": 0.12244897959183673,
+          "path": "arts/characters/poses/01/agent-hold-file-v01.png"
+        },
+        {
+          "at": 0.25510204081632654,
+          "path": "arts/characters/poses/01/agent-pull-file-v01.png"
+        },
+        {
+          "at": 0.40816326530612246,
+          "path": "arts/characters/poses/01/agent-grasp-file-v01.png"
+        },
+        {
+          "at": 0.5102040816326531,
+          "path": "arts/characters/poses/01/agent-offer-file-v01.png"
+        },
+        {
+          "at": 0.6734693877551021,
+          "path": "arts/characters/poses/01/agent-pregrasp-v01.png"
+        },
+        {
+          "at": 0.7959183673469388,
+          "path": "arts/characters/poses/01/agent-receive-v01.png"
+        },
+        {
+          "at": 0.8979591836734694,
+          "path": "arts/characters/poses/01/agent-reach-half-v01.png"
+        },
+        {
+          "at": 1,
+          "path": "arts/characters/poses/01/agent-idle-v01.png"
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/agent-deliver/anchor-00.webp",
+          "at": 0,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-inspect-file-v01.png",
+          "sha256": "cfce8339f16d70fd4170f7c464f4d37b63f937bac1f58617b9231adec8fa5e81",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-deliver/anchor-01.webp",
+          "at": 0.12244897959183673,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-hold-file-v01.png",
+          "sha256": "0243df2d1e2548026a40b6f7febb1da3b30bc908beb5c0e1a54b29f77d9db1e0",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-deliver/anchor-02.webp",
+          "at": 0.25510204081632654,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-pull-file-v01.png",
+          "sha256": "f8c92b70c9887dece9c258a4eb6add98580b2fdf5de743a04d6f0c94aa9d5070",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-deliver/anchor-03.webp",
+          "at": 0.40816326530612246,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-grasp-file-v01.png",
+          "sha256": "248d25a3a5c4f0c128a2e1589a217ed63bb629e1ed2c738ea7ae7746bd3ed094",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-deliver/anchor-04.webp",
+          "at": 0.5102040816326531,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-offer-file-v01.png",
+          "sha256": "377da000b036cc10bf27ef4e2aa8107d363f71ff94058dd666024284a43a9003",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-deliver/anchor-05.webp",
+          "at": 0.6734693877551021,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-pregrasp-v01.png",
+          "sha256": "dde7865f1b8c10764c85c932a15f56735899001cdcd227776a2bbf7517d7b152",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-deliver/anchor-06.webp",
+          "at": 0.7959183673469388,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-receive-v01.png",
+          "sha256": "79bd37c24b020e401c4bd1422d93b7605204589d90e60821c8073600b6739b01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-deliver/anchor-07.webp",
+          "at": 0.8979591836734694,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-reach-half-v01.png",
+          "sha256": "abaea66a55372c636e858edc61a937ae3d39c26917270a69ba3b89592853d2e3",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-deliver/anchor-08.webp",
+          "at": 1,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-idle-v01.png",
+          "sha256": "36d84c9169422890c2bbd187df9133c917b1700e1b3aa872dee8c6995d9e1c2c",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "agent-explain",
+      "chapters": [
+        "01",
+        "02"
+      ],
+      "name": "Agent抬手报告",
+      "kind": "alpha",
+      "keys": [
+        {
+          "at": 0,
+          "path": "arts/characters/poses/01/agent-idle-v01.png"
+        },
+        {
+          "at": 0.22222222222222224,
+          "path": "arts/characters/poses/01/agent-reach-half-v01.png"
+        },
+        {
+          "at": 0.4444444444444445,
+          "path": "arts/characters/poses/01/agent-receive-v01.png"
+        },
+        {
+          "at": 0.7222222222222223,
+          "path": "arts/characters/poses/01/agent-pregrasp-v01.png"
+        },
+        {
+          "at": 1,
+          "path": "arts/characters/poses/01/agent-report-v01.png"
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/agent-explain/anchor-00.webp",
+          "at": 0,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-idle-v01.png",
+          "sha256": "36d84c9169422890c2bbd187df9133c917b1700e1b3aa872dee8c6995d9e1c2c",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-explain/anchor-01.webp",
+          "at": 0.22222222222222224,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-reach-half-v01.png",
+          "sha256": "abaea66a55372c636e858edc61a937ae3d39c26917270a69ba3b89592853d2e3",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-explain/anchor-02.webp",
+          "at": 0.4444444444444445,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-receive-v01.png",
+          "sha256": "79bd37c24b020e401c4bd1422d93b7605204589d90e60821c8073600b6739b01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-explain/anchor-03.webp",
+          "at": 0.7222222222222223,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-pregrasp-v01.png",
+          "sha256": "dde7865f1b8c10764c85c932a15f56735899001cdcd227776a2bbf7517d7b152",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-explain/anchor-04.webp",
+          "at": 1,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-report-v01.png",
+          "sha256": "a2d790b422a8bb580e87a2b3b69ed72e063e618f24ffc531d81a4c6d44799101",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "agent-inspect",
+      "chapters": [
+        "01",
+        "02"
+      ],
+      "name": "Agent低头核对",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/01/agent-hold-file-v01.png",
+          "at": 0
+        },
+        {
+          "path": "arts/characters/poses/01/agent-inspect-file-v01.png",
+          "at": 1
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/agent-inspect/00.webp",
+          "at": 0.0,
+          "sha256": "0243df2d1e2548026a40b6f7febb1da3b30bc908beb5c0e1a54b29f77d9db1e0",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/agent-hold-file-v01.png",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-inspect/01.webp",
+          "at": 0.125,
+          "sha256": "c4bb95607413ae279be7c80a82bdd039374375023f1c27176b4b15d6b1b0c657",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-inspect/02.webp",
+          "at": 0.25,
+          "sha256": "457f21a586509e23c11bd9edd57945351f53e5560b29568b4f4fca8c3a71ad4f",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-inspect/03.webp",
+          "at": 0.375,
+          "sha256": "29450692ad4ff01a765fd05a0ae0cf3b8f57c88d415d669fe42a0fc5a06cc3fb",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-inspect/04.webp",
+          "at": 0.5,
+          "sha256": "bee5d0d2cd5652e276162039529480e342c4fc4fdaeaf70d63a7e4d01ee7e420",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-inspect/05.webp",
+          "at": 0.625,
+          "sha256": "40f92745a431fe47f1e6f93429f55e52470efc2fe3e25127a2f22671da71136a",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-inspect/06.webp",
+          "at": 0.75,
+          "sha256": "88a6bd663494720bc8df7ec33fce55fddbc6a9a10da53cb2458cdce200b6560e",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-inspect/07.webp",
+          "at": 0.875,
+          "sha256": "baec245d7b56ec3b8ee30602a70231c2cfffe2da4dd1899153286be73d81a216",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-inspect/08.webp",
+          "at": 1.0,
+          "sha256": "cfce8339f16d70fd4170f7c464f4d37b63f937bac1f58617b9231adec8fa5e81",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/agent-inspect-file-v01.png",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "meal",
+      "chapters": [
+        "02"
+      ],
+      "name": "舀取食物抬到嘴边",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/02/programmer-eat-down-v01.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/characters/poses/02/programmer-eat-scoop-v01.png",
+          "at": 0.25
+        },
+        {
+          "path": "arts/characters/motion-v09/meal-25.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/characters/motion-v09/meal-75.png",
+          "at": 0.75
+        },
+        {
+          "path": "arts/characters/poses/02/programmer-eat-bite-v01.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/meal/clean-anchor-00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/02/programmer-eat-down-v01.png",
+          "sha256": "7dba3055e8ae29e0936a0fedc3c6784b68600bbf22c77859a36a62755291a81e",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/meal/clean-anchor-02.webp",
+          "at": 0.25,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/02/programmer-eat-scoop-v01.png",
+          "sha256": "8c33afbf8c8bb58e86f9800b3ade3058a0f51a079469f486be2a315dd7bd4206",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/meal/clean-anchor-01.webp",
+          "at": 0.5,
+          "mode": "painted-anchor",
+          "source": "arts/characters/motion-v09/meal-25.png",
+          "sha256": "12f082cbbb44cb75017b397357a8a5d81069d3a4d4c51b1572985177d76ff3be",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/meal/clean-anchor-03.webp",
+          "at": 0.75,
+          "mode": "painted-anchor",
+          "source": "arts/characters/motion-v09/meal-75.png",
+          "sha256": "533a4b962c0637e104f26f3bf34f739e4692c9866569c3396e5d7fbe5bbe722c",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/meal/clean-anchor-04.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/02/programmer-eat-bite-v01.png",
+          "sha256": "8718f8b50bee6fa88a7efe19fa2e5437b8ee47fc4a9192ccdf2073e0ca4286d0",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "choose",
+      "chapters": [
+        "02"
+      ],
+      "name": "思考后抬手选择",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/02/programmer-think-up-right-v01.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/characters/motion-v09/choose-25.png",
+          "at": 0.25
+        },
+        {
+          "path": "arts/characters/motion-v09/choose-50.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/characters/motion-v09/choose-75.png",
+          "at": 0.75
+        },
+        {
+          "path": "arts/characters/poses/02/programmer-choose-right-v01.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/choose/anchor-00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/02/programmer-think-up-right-v01.png",
+          "sha256": "14e80541efc52b6e9f9fbf7c7c8447ebbe24c557a1a9dbcc1240f700ebed56d6",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/choose/anchor-01.webp",
+          "at": 0.25,
+          "mode": "painted-anchor",
+          "source": "arts/characters/motion-v09/choose-25.png",
+          "sha256": "f53e055ae571d9c7c18fc3b8a0e37f091f9c8de1b202b87bbeaf5d599c914c5c",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/choose/anchor-02.webp",
+          "at": 0.5,
+          "mode": "painted-anchor",
+          "source": "arts/characters/motion-v09/choose-50.png",
+          "sha256": "51e5550264b3aab40446927d49e76a5dfeb025d852401536d3b9967ad8b7feab",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/choose/anchor-03.webp",
+          "at": 0.75,
+          "mode": "painted-anchor",
+          "source": "arts/characters/motion-v09/choose-75.png",
+          "sha256": "15ab4bd4c12b04dc39018cb8d8ea59e26787c9ea2fad6ebbed8e2625f6821ab7",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/choose/anchor-04.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/02/programmer-choose-right-v01.png",
+          "sha256": "e35c453561a00a5c98317d500542d1cd3c7a526504b5ad63c5bd7b196a85bbd9",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "review-next",
+      "chapters": [
+        "02"
+      ],
+      "name": "从当前文件转向下一份",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/02/programmer-review-current-v01.png",
+          "at": 0
+        },
+        {
+          "path": "arts/characters/poses/02/programmer-review-next-v01.png",
+          "at": 1
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/review-next/00.webp",
+          "at": 0.0,
+          "sha256": "1a5be767978680598b6fb3216c8d8c6f6eddd035df7c1dc16643370338b50144",
+          "mode": "anchor",
+          "source": "arts/characters/poses/02/programmer-review-current-v01.png",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/review-next/01.webp",
+          "at": 0.125,
+          "sha256": "236d077f15390402f76023b30b3901e51e01e507d79fa00454de9c9d6134f7fa",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/review-next/02.webp",
+          "at": 0.25,
+          "sha256": "045c406bf15629d3bf7e2bb8e10648b041143b70586764253117a0020e9fbab9",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/review-next/03.webp",
+          "at": 0.375,
+          "sha256": "0275b7348f4b156602b8edbb75df941d27c91b73ed475608e9f0eaad178638fd",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/review-next/04.webp",
+          "at": 0.5,
+          "sha256": "c744cfa9605302fdd578094a45c4854aa11d9f15b1c009e717a43fc0b6140656",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/review-next/05.webp",
+          "at": 0.625,
+          "sha256": "2aa51940e9f085e720ba410bae568d0f21c2594c8109aedfd3070438267b0cc0",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/review-next/06.webp",
+          "at": 0.75,
+          "sha256": "8e56b2770695ff350ce8de3e8ecdafeb513a611849b7dce2f02100abd137793c",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/review-next/07.webp",
+          "at": 0.875,
+          "sha256": "940d77e4c37d611c5a835ad6226f8941e8242c311f52bfab0e622aa637b5ece9",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/review-next/08.webp",
+          "at": 1.0,
+          "sha256": "8197fc1d1bc04ac96e29f7791d21468bdf12d8cf60f19c0373a6223ec250e183",
+          "mode": "anchor",
+          "source": "arts/characters/poses/02/programmer-review-next-v01.png",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "typing-front",
+      "chapters": [
+        "03"
+      ],
+      "name": "正面敲键盘",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/03/programmer-front-desk-b-v05.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/typing-front/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+          "sha256": "5c5ed5feaceeea1c7055c2587d6f85cf9aecac1546d23aa9025c28d96848a8f8",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/typing-front/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000002.png",
+          "sha256": "0f2dcf9c9ec6ebcd25e016731f2ed055719888cad0b6a22159bd7b9b47269d0b",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/typing-front/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000003.png",
+          "sha256": "ae5ca3d5c7999604895ef983ab87d40850f91419707f1a99553477dea939fcf6",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/typing-front/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000004.png",
+          "sha256": "3e0f142ad22e8f9a382872cc1f8890f442cc46cd1292aa47ac240cfdd963a127",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/typing-front/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000005.png",
+          "sha256": "ca61ca938bc2b793b885267f091e39f53d65751021495d86a8512dcddee215ba",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/typing-front/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000006.png",
+          "sha256": "71f9364c2f2186f9061f362b61a992a1c4a0418adc68d9b3756764586016f6cf",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/typing-front/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000007.png",
+          "sha256": "91d11047cee2ec063be5a5eb29c87eb3929c757a1c5048b9df9e4c4ea92d1e65",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/typing-front/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000008.png",
+          "sha256": "84c46970dd3a1565057216c195ecd567f7a2fa2ed16db0afe2b61912b02b7b29",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/typing-front/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/03/programmer-front-desk-b-v05.png",
+          "sha256": "2f773d096cacc09cf2537b33278a51ca18c38d4789ac0260babbee03d7e3b5d1",
+          "width": 1086,
+          "height": 1448
+        }
+      ]
+    },
+    {
+      "id": "front-read",
+      "chapters": [
+        "03"
+      ],
+      "name": "停手阅读消息",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/03/programmer-front-read-v05.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/front-read/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/03/programmer-front-desk-a-v05.png",
+          "sha256": "5c5ed5feaceeea1c7055c2587d6f85cf9aecac1546d23aa9025c28d96848a8f8",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/front-read/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000018.png",
+          "sha256": "b2ab262fb31e1b61b21081d8213758df2e403fb1f9fb0cbc0ad850fe1d5d97f4",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/front-read/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000019.png",
+          "sha256": "8136ad048fa02b2e0b6b0a00aed9826e3c4d10728269f6de7c7c870b31cc4927",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/front-read/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000020.png",
+          "sha256": "0bd1a5fd881c9824ae21431ec06a94c6f4a636cf51e51a66ed2f3c6b7b7785d9",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/front-read/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000021.png",
+          "sha256": "96d7001f3818f8e44333458a17570c85ef834b91cae7bdc13881976bf23303c8",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/front-read/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000022.png",
+          "sha256": "5a5e917d56a6dd8cb22e2efd7912e5f7ad9594867a7bae11b55903acaee98fb0",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/front-read/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000023.png",
+          "sha256": "1d25f96824b92fbfdb05013cb3d64992eaf4fb62239f92db148066f94869a687",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/front-read/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000024.png",
+          "sha256": "5bdb7789b255714d4d1e37c911b274e626cb166c829d70f25992ffa021339ccb",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/front-read/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/03/programmer-front-read-v05.png",
+          "sha256": "2906a37f23706b083bb85e7dbf2618a7c390d8916973b13d4717a26b3bec976e",
+          "width": 1086,
+          "height": 1448
+        }
+      ]
+    },
+    {
+      "id": "look-aside",
+      "chapters": [
+        "03"
+      ],
+      "name": "抬眼侧看同事",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/03/programmer-front-read-v05.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/03/programmer-front-glance-v05.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/backgrounds/03/programmer-front-look-v05.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/look-aside/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/03/programmer-front-read-v05.png",
+          "sha256": "2906a37f23706b083bb85e7dbf2618a7c390d8916973b13d4717a26b3bec976e",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/look-aside/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000035.png",
+          "sha256": "3fb841f264fa90e9bde160fae864243065290aed1242d3d9bc9b02e27cc539f7",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/look-aside/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000037.png",
+          "sha256": "5a6ef12e3336264e5755245447c953bd6e710cfeb0fbd5d017f52813c6d9a2ad",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/look-aside/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000039.png",
+          "sha256": "e51cb08e2aae26ec36d8f6b6b4c8dd23a99f53a7201970737e12de5f78d24193",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/look-aside/04.webp",
+          "at": 0.5,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/03/programmer-front-glance-v05.png",
+          "sha256": "72a90e06e8ab2af214fc4dc1cc578374ad22588e4cc42abebf2a2793515320b7",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/look-aside/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000051.png",
+          "sha256": "4cd74c9dfb3b21ece0d6335035f8ba528fe2448852aac96886c32b4737a63c2e",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/look-aside/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000053.png",
+          "sha256": "555f3d465bae4f286bb0135c7364f1305029aad2b0b9394f7380bd51b6d9bce1",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/look-aside/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1086x1448/output/00000055.png",
+          "sha256": "2c913013d690205953561f57a6ec1c651f33decb7b5c3d7011b36f77e640e05b",
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/look-aside/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/03/programmer-front-look-v05.png",
+          "sha256": "dd2f4e65cff671b1a256def8c9e88462f5726a2797ab8d9e0ff96dc54a982cc2",
+          "width": 1086,
+          "height": 1448
+        }
+      ]
+    },
+    {
+      "id": "neighbor-work",
+      "chapters": [
+        "03"
+      ],
+      "name": "邻桌手部工作",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/03/neighbor-work-a-v05.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/03/neighbor-work-b-v05.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/neighbor-work/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/03/neighbor-work-a-v05.png",
+          "sha256": "255c43c1674dd14c173cd2e6f287e1378385b9346bbed1cb656875b39db5ef57",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/neighbor-work/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000002.png",
+          "sha256": "37d690fe8bc7ffc6db8e49e53737d4542e19aa4608c03b2e6f75526dd7a94ca2",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/neighbor-work/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000003.png",
+          "sha256": "cf61d9b9128c533c2292a30394377684b1a08821c5b1aa1272532a87a8c483bc",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/neighbor-work/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000004.png",
+          "sha256": "8fe989960463e76e20b71efef40c80353340662f83528f0ef38e6d27e9899b9a",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/neighbor-work/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000005.png",
+          "sha256": "647a3c871613958e6931b92703486acd5673ea05b2355bed05772e7b4b69ec13",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/neighbor-work/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000006.png",
+          "sha256": "ba841b61857c96859847388c16dc7d29fab8c76acdad8e1c9429c568fb8f6553",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/neighbor-work/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000007.png",
+          "sha256": "17f1a1e5c636b52ecc2aa81f97a567091f2c298c01b95494492e0f0b97e808f9",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/neighbor-work/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000008.png",
+          "sha256": "189e099830643d609e864e2fb685692af22d517841eeb608cb9748932ed7cc20",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/neighbor-work/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/03/neighbor-work-b-v05.png",
+          "sha256": "f5302ae01d8ef38b19455cda430ddc7824e1a0795bcc631dd17b59e07727af87",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "lunch-agent",
+      "chapters": [
+        "04"
+      ],
+      "name": "午餐中停勺再打开任务",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/04/lunch-eat-v03.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/static/04/lunch-panel-v02.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/backgrounds/04/lunch-type-v03.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/lunch-agent/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/04/lunch-eat-v03.png",
+          "sha256": "485ead511d8d3d0496fb49b15d76b52e663a2da327a4f7eb440f23552e4bd1c4",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/lunch-agent/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000003.png",
+          "sha256": "4e29efb82a9713991c8dd7772f14f082e0f9ad80e9e3c539f5ec682b07247465",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/lunch-agent/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000005.png",
+          "sha256": "1e33c213bc572f5bbe83f8b51ef58917c29a73fff9ad146c3e77a8f332b296f4",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/lunch-agent/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000007.png",
+          "sha256": "d67ef4a3a78d1fcf9f1c5467e26b2a89c6a27f847c85088f0367ed81bbeffeb7",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/lunch-agent/04.webp",
+          "at": 0.5,
+          "mode": "painted-anchor",
+          "source": "arts/static/04/lunch-panel-v02.png",
+          "sha256": "ae090b9579669486a3ebdc5a0c6760f8c300778b0aa1ce85f2b9f0472726fba9",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/lunch-agent/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000019.png",
+          "sha256": "efa16034ceb88d83561df242164e57f9bc6c301786ffbd61cc40e39a8dd34fbc",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/lunch-agent/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000021.png",
+          "sha256": "2190cff572f067cd11835aaf15d60d5d2fa0b1a631d125d7db563f5310b6b7c1",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/lunch-agent/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000023.png",
+          "sha256": "b4b7c387d886a5481b2b556760cfc98082dcfd5c9fddc63ceb14d410c07f454c",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/lunch-agent/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/04/lunch-type-v03.png",
+          "sha256": "e948b441ddb485fff417c4c02ac18a09df8aeaae8a17796fa44d2d7be6431c21",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "premeeting",
+      "chapters": [
+        "04"
+      ],
+      "name": "会前查看再继续输入",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/04/premeeting-type-v03.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/04/premeeting-look-v03.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/premeeting/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/04/premeeting-type-v03.png",
+          "sha256": "e25469200fa54bd245efd2ea6c4174493ae6fb74e3df3294f8e1f632b68d1d6b",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/premeeting/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000034.png",
+          "sha256": "b5053aae1fece37b64a98b746ef828c599c795130adad29a74c6424a5180877b",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/premeeting/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000035.png",
+          "sha256": "95d9a34dc99204ae2809c476f8808ba21478ace64dbc059bfe015ea8456c1bd3",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/premeeting/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000036.png",
+          "sha256": "de8684332b86895024a3f1b5c959889723a502f5d093688da302d1b23422b3d7",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/premeeting/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000037.png",
+          "sha256": "cad3528ea5856c80d2268dc95dbcc6fbd1f60e6806777e6343a272e9e27eb604",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/premeeting/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000038.png",
+          "sha256": "ad3239bbc35afe493e2b956b9328a7e7a354978597929565eed583441cebdae5",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/premeeting/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000039.png",
+          "sha256": "cb9fe927a2bdbbf945e14b150272e6896ff29342e43a1b562783da14505c6150",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/premeeting/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000040.png",
+          "sha256": "2e416987806867196b9de92ca0bc48d5ee9fe7ddb347a27bfdedfa4283f62897",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/premeeting/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/04/premeeting-look-v03.png",
+          "sha256": "30bd445aa84e5a3c1110a3a39374401d7feaa13574c7b2c820f7b76f090d335f",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "evening-reopen",
+      "chapters": [
+        "04"
+      ],
+      "name": "收拾后重新打开电脑",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/04/evening-pack-v03.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/04/evening-reopen-v03.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/backgrounds/04/evening-type-v03.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/evening-reopen/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/04/evening-pack-v03.png",
+          "sha256": "b6541354ca11b54d24763941f5c03e1d0ea97e5cf432edf0354681dcacede257",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/evening-reopen/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000051.png",
+          "sha256": "888b6c6aac922f3e3c3470e09c06ab2b058ed7d3596553fc42d285531aadcf96",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/evening-reopen/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000053.png",
+          "sha256": "3da39204f8d75b505af8d16f6b9e6e54203d79e64cd929dc922d1b906c3d6bca",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/evening-reopen/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000055.png",
+          "sha256": "7947b4a52bfb9692e9e2e46e20b20bed6b90c892253003e0ffc536ab5627ea81",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/evening-reopen/04.webp",
+          "at": 0.5,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/04/evening-reopen-v03.png",
+          "sha256": "6b9b19b0ffaa3a498479ee7f0b96569eac23dce8bc7b6a2115bb7e3fb8f19379",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/evening-reopen/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000067.png",
+          "sha256": "d9cf1e14c199009df1919bf100736842286ba8853e5c82e039daa08772ae69e7",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/evening-reopen/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000069.png",
+          "sha256": "30f020d0fa111fd2273cd2f8c6c30269be6551ae8ea7083ab2e4755cb425ca8a",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/evening-reopen/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000071.png",
+          "sha256": "ed1e035171bb7e1760d5cdc268af45d515beb8bb7986b9fe58642664071e4386",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/evening-reopen/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/04/evening-type-v03.png",
+          "sha256": "b4494212880a6b9febb0678158d87f8b06db2881ea24c87763db68a294f2e80d",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "collab-relief",
+      "chapters": [
+        "04"
+      ],
+      "name": "交付后放松表情",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/04/collaboration-review-v03.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/04/collaboration-relief-v03.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/collab-relief/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/04/collaboration-review-v03.png",
+          "sha256": "311b1fa8cc31381288a8f656d712ec87cb941a995151c88d3c3a60fe4ea75a60",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/collab-relief/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000002.png",
+          "sha256": "6de03dddd77d5c062007868c61326cc75143f2099cfc1cf8c83a0dd37c3ed12a",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/collab-relief/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000003.png",
+          "sha256": "8d07fa8d0abe56dc96c1adb16d0b7cb1a99ab309e15e95acde37627cd7e5e6a6",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/collab-relief/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000004.png",
+          "sha256": "ff419318b2f9f6b0ef0505275a206e506a0d54e55b0e27288c838354516af041",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/collab-relief/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000005.png",
+          "sha256": "99d82a2669e21937e725620238706319b93638021aa25b702225c15bbd7ea62f",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/collab-relief/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000006.png",
+          "sha256": "508757856247408b280efda4d7a7f455d0b401f96251e4a4de19e7228645a22d",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/collab-relief/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000007.png",
+          "sha256": "c914f249807d812e9a248c29d32cb34f5d1d013a9abedcd46034b2efa9c682db",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/collab-relief/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000008.png",
+          "sha256": "f66493776421dece5aea4fef5457c958488711a395ca187d6c827c69f9c4136c",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/collab-relief/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/04/collaboration-relief-v03.png",
+          "sha256": "a8defde43361725593ca8f789a60ded03e53a61cbb813eab6462a97711beeaea",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    },
+    {
+      "id": "appraisal-reaction",
+      "chapters": [
+        "04"
+      ],
+      "name": "同事停手失落",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/04/traditional-type-v03.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/04/traditional-disappointed-v03.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/appraisal-reaction/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/04/traditional-type-v03.png",
+          "sha256": "c0141d4eef35cc00316574687082765500c32cfdee07f23ea70fa1330e2f5d6e",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/appraisal-reaction/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000018.png",
+          "sha256": "e418c212d170e4d6675fba77e797cddfb2f6542c6ca9231cec5308390edbbdad",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/appraisal-reaction/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000019.png",
+          "sha256": "868e9639878d2799dc16fcd4534c79a6063501e3f976ad86d99e0e7216666e4a",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/appraisal-reaction/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000020.png",
+          "sha256": "57b10937a5320e0f8b7ba0c3de5417960440631aaf14f2f490a4e9a30d2ca868",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/appraisal-reaction/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000021.png",
+          "sha256": "5a11f2adc6746fef02184e0e02e0ddc746e9c9fa423b88b2dc09a20fc238f85e",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/appraisal-reaction/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000022.png",
+          "sha256": "bcf66c6ad0991a592e902950ca83d7e40b4f208bee3a256ca4fe5679fbefc12f",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/appraisal-reaction/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000023.png",
+          "sha256": "67ffd78c108a99e14b35cd20aa8a7dfe9d9a2b53aaf5b28d436dda49c2a9bf66",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/appraisal-reaction/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000024.png",
+          "sha256": "8ba912fd357adb681ae8fbb8748101ee8078a03ed335e12e3b13a5ac68aad8d9",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/appraisal-reaction/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/04/traditional-disappointed-v03.png",
+          "sha256": "eaae3e4654dd40301299eba97cf100ae124a58e3878a3ff7e801573f790d4df6",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    },
+    {
+      "id": "manager-reach",
+      "chapters": [
+        "04"
+      ],
+      "name": "负责人抬臂划线",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/04/manager-ready-v03.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-reach-25.png",
+          "at": 0.25
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-reach-50.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-reach-75.png",
+          "at": 0.75
+        },
+        {
+          "path": "arts/characters/poses/04/manager-strike-v03.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/manager-reach/anchor-00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/04/manager-ready-v03.png",
+          "sha256": "e6402f2189cb3d91874879fa3b1e7bcea54d217486037c718180aaa4289dc7ae",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-reach/anchor-01.webp",
+          "at": 0.25,
+          "mode": "painted-anchor",
+          "source": "arts/characters/motion-v09/manager-reach-25.png",
+          "sha256": "ad28c2c27ba3f664e271beb4ce423fd72dade65f7d2d0c40d61ca7592fecd39e",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-reach/anchor-02.webp",
+          "at": 0.5,
+          "mode": "painted-anchor",
+          "source": "arts/characters/motion-v09/manager-reach-50.png",
+          "sha256": "12ded3f092c47df9de8cf5728ffcd038b292412f0c542f89ca8ddc5813466c11",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-reach/anchor-03.webp",
+          "at": 0.75,
+          "mode": "painted-anchor",
+          "source": "arts/characters/motion-v09/manager-reach-75.png",
+          "sha256": "60a2a47b025f814bd9297bd12f0ce6c9893b6b99e9c59ddae8d9de28e1a9bfbd",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-reach/anchor-04.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/04/manager-strike-v03.png",
+          "sha256": "a695e80418dc14d1699ee0acb08baabbe463471bf5e4c7e7eaff31790d2981a2",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "manager-write",
+      "chapters": [
+        "04"
+      ],
+      "name": "负责人落笔改写",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/04/manager-ready-v03.png",
+          "at": 0
+        },
+        {
+          "path": "arts/characters/poses/04/manager-write-v03.png",
+          "at": 1
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/manager-write/00.webp",
+          "at": 0.0,
+          "sha256": "e6402f2189cb3d91874879fa3b1e7bcea54d217486037c718180aaa4289dc7ae",
+          "mode": "anchor",
+          "source": "arts/characters/poses/04/manager-ready-v03.png",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-write/01.webp",
+          "at": 0.125,
+          "sha256": "e0de2ecddb70468520a0395f8fa232f36b22f711e795ca6e2faa4042a2a85316",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-write/02.webp",
+          "at": 0.25,
+          "sha256": "02fb94b6e0f5c9cc7c3d37851d562cd25d36795cc0a35b9b5965c9452459b2ce",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-write/03.webp",
+          "at": 0.375,
+          "sha256": "2cf1e0986edb4973498b29e219a3d166b986710f3cb6475fe33f8a79413df56c",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-write/04.webp",
+          "at": 0.5,
+          "sha256": "0f8ac50c1968d2887479b001f0fc338fc553a435ac6e57ee149c66f4c68aa759",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-write/05.webp",
+          "at": 0.625,
+          "sha256": "66c9c79b41fead4a607e20ee299fefd0c13439d0422871436a8064f6aa9d3451",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-write/06.webp",
+          "at": 0.75,
+          "sha256": "bb2a5f547fef17987526843b209a4fcbc83c65553634b084953c41c13d707f2a",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-write/07.webp",
+          "at": 0.875,
+          "sha256": "d365718e81abc7e1b65a8190ed3845a1f7e685eeaa59cef1bf0a30a2cd44a175",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-write/08.webp",
+          "at": 1.0,
+          "sha256": "42eddc9c7bf1b8748fdeaefbf0693f3805541ed5f42ef1f5aa58746246642820",
+          "mode": "anchor",
+          "source": "arts/characters/poses/04/manager-write-v03.png",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "hr-review",
+      "chapters": [
+        "04"
+      ],
+      "name": "HR从编辑转向审阅",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/04/hr-edit-v03.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/04/hr-review-v03.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/hr-review/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/04/hr-edit-v03.png",
+          "sha256": "95fe4b034abd783cc2d88dc20e727375e1eb18302e3e60aa8bc5cf55af442064",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/hr-review/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000082.png",
+          "sha256": "f544ccfc5c11405164d21778a33766a2feb73a1a130e4c44ab6d39b9f4c7ca4b",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/hr-review/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000083.png",
+          "sha256": "7dea38404631bff20d13896f2652f5baefb17e409efa27a06268ffdf4fdf0836",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/hr-review/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000084.png",
+          "sha256": "3f361fb662433b01045764bf3c4253f26837735f080bbfcde809bb1a85a490ef",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/hr-review/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000085.png",
+          "sha256": "f6a3e2ef7b983b1d28bd5e5c5e3049fb3481fd6af45d964e55339a92bf832088",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/hr-review/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000086.png",
+          "sha256": "8c1c3b4b8f69f880bc5a839c639b176f5723fc102f5f70657c9726e37d0aeb81",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/hr-review/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000087.png",
+          "sha256": "81c47e19afa479b46c849f9584584281ea28c9e69b4026e9f7ce5fd472e2b9e9",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/hr-review/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1024x1536/output/00000088.png",
+          "sha256": "8ca365344f8c00ea033e405cb0b214d9210f81e97dad6765162d69728120db9a",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/hr-review/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/04/hr-review-v03.png",
+          "sha256": "ea1ed1c14cd09e6e6bc82d415d0ae3e6cc5a8b8ec462ba3050f2a3e79b86fe59",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "handover",
+      "chapters": [
+        "05"
+      ],
+      "name": "交接纸页并收回手",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/05/office-delivery-contact-v02.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/05/office-delivery-cleared-v02.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/handover/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/05/office-delivery-contact-v02.png",
+          "sha256": "f555864eab1ee85384d423089f4cb579153e5f754703b56dbf50bf8876a64c3b",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/handover/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000018.png",
+          "sha256": "cd014041dbad920d39799d20d273c64c28d08e1e09ee8d8575946a51af5f3875",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/handover/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000019.png",
+          "sha256": "3fcbddb98d8dbe68ee3b8588baba532cb5f4bdcbb6affbe53d56a5bf312dd92b",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/handover/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000020.png",
+          "sha256": "b7d8b40924092c2c4f33631dfe488bab610ffa32d95cc66dfaa7441ed0fe5903",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/handover/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000021.png",
+          "sha256": "7f6f1d2f8350642612c3affb89363a94c493a557c76b77d3680142b6c90ccfb8",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/handover/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000022.png",
+          "sha256": "9a940e4656a0b0a077dbad3ad4065a80bf0eba6169151f2f3a9dc92febbdf5af",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/handover/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000023.png",
+          "sha256": "29afea2f37db6c9c1c8e39a0b117b68df76b0045c3b31a205e1fcf45fab8732c",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/handover/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000024.png",
+          "sha256": "4633ddc18b77f1add262a45958ce39673b9a627bb02b6e169e7b72bbc7da5a62",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/handover/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/05/office-delivery-cleared-v02.png",
+          "sha256": "4d0f97eb2fc183a61e76f7188b135ce4ab98cab9486e913f6589a8f5360159b8",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "agent-wait",
+      "chapters": [
+        "05"
+      ],
+      "name": "Agent收手等待指令",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/05/office-delivery-cleared-v02.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/05/office-agent-wait-v02.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/agent-wait/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/05/office-delivery-cleared-v02.png",
+          "sha256": "4d0f97eb2fc183a61e76f7188b135ce4ab98cab9486e913f6589a8f5360159b8",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/agent-wait/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000034.png",
+          "sha256": "a465e77fd3c52c4a15cb1230935e64adcf0995f013407087c3fe21ae04c731f5",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/agent-wait/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000035.png",
+          "sha256": "0fc72f9c094b8999b970a0924b3250e9c4aa0048a5fe1f14b5cd9e7bc4c17569",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/agent-wait/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000036.png",
+          "sha256": "815c7905f11abafe7f16fc92957031446d859aa9e87cce8789b770d886683cd2",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/agent-wait/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000037.png",
+          "sha256": "465151b1710411127b26c2280774c302855512117001ee73c9b37c678e1f448c",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/agent-wait/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000038.png",
+          "sha256": "dd306e7c13279f4775bc03239fc6b98f09efe4a6cbdd02f2e747e35920448d71",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/agent-wait/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000039.png",
+          "sha256": "5f1c925ba6e1710c60ab0fc299f961ee82e04607e1180592f32cd8f474279715",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/agent-wait/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000040.png",
+          "sha256": "8ad41836eeb1078d45901b74fe225312f53995ca48b81bbc77f76411c0481c5b",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/agent-wait/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/05/office-agent-wait-v02.png",
+          "sha256": "0e1337bbd3879abc8fecef1c047f64166bfadfbfedfcbfc6946cf2f758a8df39",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "resume",
+      "chapters": [
+        "05"
+      ],
+      "name": "停顿后继续输入",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/05/programmer-pause-close-v02.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/05/programmer-resume-close-v02.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/resume/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/05/programmer-pause-close-v02.png",
+          "sha256": "ed5b7596f11566bef9ded99f7ca184ea0127523864bde8c9106a1335087836c5",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/resume/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000050.png",
+          "sha256": "c1d4277cc09635cd03cab02e395e13e5c77584f46ddaf8106ed3f34363ef87de",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/resume/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000051.png",
+          "sha256": "c6d7cd263203acdf3bf22d5a62dd30fc70e0bc4c4102debf2e887af3e1d2644f",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/resume/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000052.png",
+          "sha256": "9d46b17ea36f7fa3bf1670367378fc55815f1c91c3abb4c4252cacd0968eeab5",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/resume/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000053.png",
+          "sha256": "eeaaa67584ce0405ce1e68720fa7e6259188e4220fb791e8218c163e89c1cf35",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/resume/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000054.png",
+          "sha256": "1fa30c4be935ebd46efafc65d37815c193e6fc32e36e9b05a96f0b2a475cb687",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/resume/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000055.png",
+          "sha256": "b0b7c660b0d419e071f3f656376fda1fd4f7c4b81feec7a7333b2600457b06ba",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/resume/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000056.png",
+          "sha256": "9dea7ba2cd2c2bdd6815fba46e8affd04d6c2492314df3cf84f889a7ce885c4a",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/resume/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/05/programmer-resume-close-v02.png",
+          "sha256": "877e334f89cafb92472dd92825a9d85d725aff1c651df653073661d72b11c17c",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "extra-work",
+      "chapters": [
+        "06"
+      ],
+      "name": "停手后接受追加任务",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/06/office-choice-settled-v02.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/06/office-choice-extra-work-v02.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/extra-work/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/office-choice-settled-v02.png",
+          "sha256": "56b074c705caed7ef712b50d9331ff202460a82273ce9556c32c9170f087b790",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/extra-work/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000034.png",
+          "sha256": "c84893200cd97b45ba2ef838e106b20d8867ad6d601df43eb09a2520fea13481",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/extra-work/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000035.png",
+          "sha256": "a9ee5ad0a6c7bc6fe9c4ef06939846fbbc057666dc7ab33ac9667e862aa6c7fa",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/extra-work/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000036.png",
+          "sha256": "bedb05bb6c31ce3f5f202ac81b78a24333fbb5d118bb132f9436ad0f06f8eced",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/extra-work/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000037.png",
+          "sha256": "a22a6acf0e4d7e341c1590d81342433bab8d354900c4e8a40cab3f274b4db23d",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/extra-work/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000038.png",
+          "sha256": "9dff1a79a44548a8b9fe4134bcb151e688a4d59a1667e8a6a49bbb4f0307a5c1",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/extra-work/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000039.png",
+          "sha256": "261d6c926e2d22cc030fdfccc8e46e21c90d6b798212a6d871963afbc62937eb",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/extra-work/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000040.png",
+          "sha256": "df40c7d4fed20201c20e640b5c1c23d389033c2486c6d541fe00087e3a3de744",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/extra-work/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/office-choice-extra-work-v02.png",
+          "sha256": "41f3d6285b3a8ce4963e1653e6a4bcf85d4fc502e529e837631c49cb76eeb8c1",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    },
+    {
+      "id": "rise-with-bag",
+      "chapters": [
+        "06"
+      ],
+      "name": "支撑起身并提包",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/06/office-choice-settled-v02.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/s06-rise-33.png",
+          "at": 0.25
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/s06-rise-67.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/rise-85.png",
+          "at": 0.75
+        },
+        {
+          "path": "arts/backgrounds/06/office-standing-with-bag-v02.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/rise-with-bag/clean-anchor-00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/office-choice-settled-v02.png",
+          "sha256": "56b074c705caed7ef712b50d9331ff202460a82273ce9556c32c9170f087b790",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/rise-with-bag/clean-anchor-01.webp",
+          "at": 0.25,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/motion-v09/s06-rise-33.png",
+          "sha256": "0e85468c667ed586dc3b5288371699040bc91bba2d0dd2e89842094f31988ddb",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/rise-with-bag/clean-anchor-02.webp",
+          "at": 0.5,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/motion-v09/s06-rise-67.png",
+          "sha256": "d3e05b476e5116d13ca38852acc07f6a3f97a58e99ae38ce3cf409abfa7b5ada",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/rise-with-bag/clean-anchor-03.webp",
+          "at": 0.75,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/motion-v09/rise-85.png",
+          "sha256": "2bf5aefa26d7863d608e1942dba575e468f715ed60f08edbdb3ca89148989691",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/rise-with-bag/clean-anchor-04.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/office-standing-with-bag-v02.png",
+          "sha256": "a98db936ae6979a9730263b3cf1ddf034308f085ee01ae4e1860c4f622e11f96",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    },
+    {
+      "id": "depart",
+      "chapters": [
+        "06"
+      ],
+      "name": "转身并持包走向门口",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/06/office-standing-with-bag-v02.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/s06-depart-turn.png",
+          "at": 0.25
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/depart-50.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/s06-depart-67.png",
+          "at": 0.75
+        },
+        {
+          "path": "arts/backgrounds/06/office-leave-doorway-v02.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/depart/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/office-standing-with-bag-v02.png",
+          "sha256": "a98db936ae6979a9730263b3cf1ddf034308f085ee01ae4e1860c4f622e11f96",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/depart/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000117.png",
+          "sha256": "3a0376764b2018008ecf05e42b36901473a1eae0f6999740d5774a04b639279d",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/depart/02.webp",
+          "at": 0.25,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/motion-v09/s06-depart-turn.png",
+          "sha256": "8af311bb196e0d77b573933c9c01bc533a13b8d87474d68ed3c81b0da79b32f1",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/depart/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000133.png",
+          "sha256": "fcfc437dc20c71ed3f5c9a628483135d466659e2a29a20ff753e405e6531d3fb",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/depart/04.webp",
+          "at": 0.5,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/motion-v09/depart-50.png",
+          "sha256": "4f49d2a2990c8f12a358c29b5bb66988b4b31fae49885345ea4ac39a04312543",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/depart/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000149.png",
+          "sha256": "1d032f379860d7cefe79cb663660f94d8c1b10e623441c5eaf73b1663e7ef0a3",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/depart/06.webp",
+          "at": 0.75,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/motion-v09/s06-depart-67.png",
+          "sha256": "0613bd53e1ca225aede84bbb068b673b851b56676d614d0ea54aeb830481891c",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/depart/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000165.png",
+          "sha256": "1a044cf51f46ed97a8b27fa0d927750e1842cfce1fb8cce4ada9943d18889884",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/depart/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/office-leave-doorway-v02.png",
+          "sha256": "19dd597fa3427be251c6859cdee02e1f55d6fde73b9cdda7ddaf2dd240eb58f1",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    },
+    {
+      "id": "meeting-turn",
+      "chapters": [
+        "06"
+      ],
+      "name": "开发提出范围到同事补充",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/06/meeting-developer-scope-v02.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/06/meeting-tester-needs-v02.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-turn/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/meeting-developer-scope-v02.png",
+          "sha256": "273f516b590ee6509d7c34ca5b71b53e06159c3bd38aa7436e29a80229efdb99",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-turn/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000066.png",
+          "sha256": "9f1ac6551b2d72ab1e8e5a3e9238b0bc956ba7619a9ed87079aabfd74f7f7113",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-turn/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000067.png",
+          "sha256": "ad1bc0c97149f2d469e8278a4693e53ca822c60b81bfa732efdaa498b294fe06",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-turn/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000068.png",
+          "sha256": "55fac3f1686bd3b45fac4b60a33f64fb2efea51c4de36dd7c6528942a9797094",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-turn/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000069.png",
+          "sha256": "f798ba115080b30f44349d45468fed19526fdf6696beea55d7d47c22c72adfc7",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-turn/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000070.png",
+          "sha256": "7661bdc14111e3039a8e4f69cd9d3b59e394cd5b4d2e08873ae9c5c3f9f7e7d3",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-turn/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000071.png",
+          "sha256": "202a2254216362d47bd6b2e4fc84da854651218388a17616f1184f1484bedb22",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-turn/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000072.png",
+          "sha256": "e19dbd6084aa1703b521b838e59e4b4754786cbf51a7ebdc2b180244dbb2db75",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-turn/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/meeting-tester-needs-v02.png",
+          "sha256": "50d24b6f25636d5e5c0c6768ccaa331edc58acc24d4228afa4cc4472987ed5f0",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "meeting-record",
+      "chapters": [
+        "06"
+      ],
+      "name": "负责人提笔记录",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/06/meeting-tester-needs-v02.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/06/meeting-manager-write-v02.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-record/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/meeting-tester-needs-v02.png",
+          "sha256": "50d24b6f25636d5e5c0c6768ccaa331edc58acc24d4228afa4cc4472987ed5f0",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-record/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000082.png",
+          "sha256": "50f8d90d21c29278adb40cef7e829ec06520cb3969d6ee0452ff825a9ccbd8e7",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-record/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000083.png",
+          "sha256": "39cf26f430e784e0c6c6d10f053e8d17e191440acda855cde7a151d74bd37f6a",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-record/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000084.png",
+          "sha256": "c0ebb22b64feb894f973f07986bc7aa29fca30877e3204d481ba91b41dfdd3ca",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-record/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000085.png",
+          "sha256": "e6907da047a038ca7f16ef6a5d33ebdcbc623931ab2263c8b4faab40d754fb09",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-record/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000086.png",
+          "sha256": "c1ba6e9e8f00bed11a2ebced6887da5f9799ff22f0d08ba0f86864aec93c11c3",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-record/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000087.png",
+          "sha256": "71700da710ddfae71e258b30b5cb9071363341ca67ca2a84ef0eaf99d241272e",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-record/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000088.png",
+          "sha256": "e696129b8672f070655c7fe43bed6b65574a4764bb4e3e58be00f93b2ca02bc0",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-record/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/meeting-manager-write-v02.png",
+          "sha256": "1b0f9741bc53d0554a859221dca371bd54542ce689f56aa7687c63962d47468b",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "meeting-check",
+      "chapters": [
+        "06"
+      ],
+      "name": "放笔共同核对",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/06/meeting-manager-write-v02.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/06/meeting-joint-confirm-v02.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-check/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/meeting-manager-write-v02.png",
+          "sha256": "1b0f9741bc53d0554a859221dca371bd54542ce689f56aa7687c63962d47468b",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-check/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000098.png",
+          "sha256": "b7064bece4a3dcb704b1e8272dce12f8997773269198fdba781f027fd7f09211",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-check/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000099.png",
+          "sha256": "b779ff904f73294f9b3270ef66ce2233396fa6a412a511696e6a908828976e7a",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-check/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000100.png",
+          "sha256": "e7ce9d751483c4b01891faed9dd210c2af348efcedadbc47ee1ca405d9b31807",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-check/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000101.png",
+          "sha256": "925f9e9f7208e3c684063fa6b8c12f754e30576e962ba733c4a020c54f19d08e",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-check/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000102.png",
+          "sha256": "6ea06d498af7210aad47c9d1390d85fe9af3f29a69f68c62a0b54674fb5e64bc",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-check/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000103.png",
+          "sha256": "2622e9ae8c4cc528e646eb3f7b5979eab17107d6eb19d96c57d4e8d34484e9aa",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-check/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000104.png",
+          "sha256": "bb47ca348f5b2f1a41ff6e4fbbe339d3a1b04a6a480954e0485860ab5218869f",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/meeting-check/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/meeting-joint-confirm-v02.png",
+          "sha256": "2ea2170589b145c908b688091ca3bab04a96bfa7e8660d2246507bf63bbd8f65",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "accept-result",
+      "chapters": [
+        "06"
+      ],
+      "name": "查看并接受交付",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/06/office-review-deliverable-v02.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/06/office-accept-deliverable-v02.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/accept-result/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/office-review-deliverable-v02.png",
+          "sha256": "7b473ae3581becf9ea7b668505344ae01a4fc49309da8bed7f9cb09920e1a948",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/accept-result/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000178.png",
+          "sha256": "5b04fc2fb342d65472bd04c89fb4e45ca93ceae6c784fad54b4def35f2386c5f",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/accept-result/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000179.png",
+          "sha256": "5519883118b500d6cec2f85fbde682a16e44bb4b2c7a664bc497e6b42aef2b1d",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/accept-result/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000180.png",
+          "sha256": "ec580e4ea368820b32359ae124683e4ddf6e152376b341589150d3faf14cb03c",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/accept-result/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000181.png",
+          "sha256": "6f9d745f0011c5d0c3e0f4aaff99f39632a002ea110895c0e7d536c625068930",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/accept-result/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000182.png",
+          "sha256": "d9ac0aecd9d22f59eba4ca93b746050a8ce5e199d4e3852792cce44c25c1439f",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/accept-result/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000183.png",
+          "sha256": "114ab711dc13960ea48abc96b4e71577dc20d872395dcd8ed2c6ba9c19b2dbab",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/accept-result/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1254x1254/output/00000184.png",
+          "sha256": "fd6d7277ba5e85ce22762daacd1f401889506af627ec22227e5eb74646373561",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/accept-result/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/office-accept-deliverable-v02.png",
+          "sha256": "698e24f75bcd2d091374d2c60732680480eedbd879348c3e4e7fcbd9d9a17050",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    },
+    {
+      "id": "book-reach",
+      "chapters": [
+        "06"
+      ],
+      "name": "从书架抽出同一本书",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/06/bookshop-select-v02.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-reach-end.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/book-reach/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/bookshop-select-v02.png",
+          "sha256": "5bfc9c25b1485b2c0ebb911ade79b36fbc64fbe633c20bc2869dee765ab38ad6",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-reach/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000114.png",
+          "sha256": "03288f37ff93aafbea7a6f65f6f769bfa4ba297e299777f4601709ccffeca389",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-reach/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000115.png",
+          "sha256": "eb75cb4e0c938c049ce4a337b33270580eb12e21411a53fe64cbfb9a4b53b1c6",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-reach/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000116.png",
+          "sha256": "77eeb3b2273fb911c0bb847c8f6475bc6190ec325eb4258644641f04bf755538",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-reach/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000117.png",
+          "sha256": "0c157c893b290890e23f9a51181780c42be4208b59b905e6ba74bea359799286",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-reach/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000118.png",
+          "sha256": "8512ed054de38a9b9da649c31a44453ba1f8dcb56ea3069bb6803359aaa42cd1",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-reach/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000119.png",
+          "sha256": "506a016268a1f523ea3e15053979eff7123c6666d014c5d47124e56d632a620a",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-reach/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000120.png",
+          "sha256": "9e3dab57f8868ed7e016383411fbdfad3e9749bb98779e5b1da0257aba8f6c7d",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-reach/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/motion-v09/book-reach-end.png",
+          "sha256": "dde26903c9ec3becd4f7d02d8449a5842711b148af55a0f8ec57834c5e68d676",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "theatre-settle",
+      "chapters": [
+        "06"
+      ],
+      "name": "落座后转头观看",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/06/theatre-settle-v02.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/06/theatre-enjoy-v02.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/theatre-settle/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/theatre-settle-v02.png",
+          "sha256": "f9e139f383c3ed814506c53aa9aa1a388939a8f31e91459853c09b7114768b41",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/theatre-settle/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000130.png",
+          "sha256": "5bae697b15fb0f76b65811d2f0db94c21b6ebeca7238e214d6fad99a7c4e61de",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/theatre-settle/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000131.png",
+          "sha256": "387c9800da4a6c5b868741e76dddb91226d19e36c14d86b4f28cfd2c0e9e61cb",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/theatre-settle/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000132.png",
+          "sha256": "5fec0a83ed74a59a9d0415d589ad3aa5007f810ebe9130e82caaa22a33ef1a16",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/theatre-settle/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000133.png",
+          "sha256": "40a0733453e5e52341f8d87c761f186764490b23fb9cba1c9b6b600f745d5592",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/theatre-settle/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000134.png",
+          "sha256": "8cea6d047a405f151520ba5be523ecc49189d9630d120edd4a0b542a8a6b60df",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/theatre-settle/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000135.png",
+          "sha256": "d94126cdcd79c9fc2d444245dca6b82875e5ec251cc520bc70c9bf41f3ecce72",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/theatre-settle/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000136.png",
+          "sha256": "74551199359ce9ad19e2beec2a66995832746f1c038bff0133b0f5372b1bb296",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/theatre-settle/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/theatre-enjoy-v02.png",
+          "sha256": "e8cebf6605986e104bd4c68958483509ad65c084b87c9a664324ce800b9f09cf",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "page-turn",
+      "chapters": [
+        "06"
+      ],
+      "name": "阅读后翻页",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/06/home-reading-v02.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/backgrounds/06/home-page-turn-v02.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/page-turn/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/home-reading-v02.png",
+          "sha256": "cb5181fe54ce09930e3e7420fb61a56dc40afc63b5a6046d8c8d87ee0bf0f893",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/page-turn/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000146.png",
+          "sha256": "7a3c18f42f5f35bdc05bbf99269b6392ee709bfe22560eb846b2e6d241d7b801",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/page-turn/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000147.png",
+          "sha256": "18be1aa4d5842513abd1cc8d6560ed55c1cea4da7f983e82d9c01ca539279feb",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/page-turn/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000148.png",
+          "sha256": "81aaf701d832e54008ad394352b0dfcd84b60a90bbbf7b6ff6d60bb05fc98538",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/page-turn/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000149.png",
+          "sha256": "50f7d9efd280aaa1bd3d2e3e5eba617d082c586a3a00c767119658935ad0d448",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/page-turn/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000150.png",
+          "sha256": "fafd4ec698d71ddb2ffa33d2c7670877d895848979925fa6245594fde0c2bb92",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/page-turn/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000151.png",
+          "sha256": "fd9ca74564dbfb270e1fc90266489aaea06dd92b5a9e5a305c6dd3414a5bf969",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/page-turn/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000152.png",
+          "sha256": "801197bdf022b5f71ed9e4d7330d4675169817f325877e97ddbcfb82c5d1b666",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/page-turn/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/home-page-turn-v02.png",
+          "sha256": "fffb931dd034902f3c8584178f6de3f6c2004389e1094264884b80f06de2b62f",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "id": "typing-rear",
+      "chapters": [
+        "02"
+      ],
+      "name": "背面输入手腕动作",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/01/programmer-input-v01.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/characters/poses/01/programmer-release-half-v01.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/typing-rear/00.webp",
+          "at": 0.0,
+          "sha256": "53a2ead2cfa7dd0d78d6ab8cda00f235affda487a5992d7fb86903e0bc972336",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/programmer-input-v01.png",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/typing-rear/01.webp",
+          "at": 0.125,
+          "sha256": "2bd0af3c507bec51ee61e730209aef16dc911607765cc45aa07c06f43a1635f4",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/typing-rear/02.webp",
+          "at": 0.25,
+          "sha256": "e1e77f7638087ba4d8c8cc2081f587cbffdeef5c2fd2b9bb67c3419206c183f9",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/typing-rear/03.webp",
+          "at": 0.375,
+          "sha256": "0d91cca7f4dd3090b7d15160d850205601c1eb4501a406574901026b67f521d9",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/typing-rear/04.webp",
+          "at": 0.5,
+          "sha256": "c680b45929d64a6222ed6822e81cb93b2a422e51f03e3e20169252ba86013b1d",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/typing-rear/05.webp",
+          "at": 0.625,
+          "sha256": "cfbe3f2c6bf49b94baf6009fa10142ceb40bb17c853be6ae1bc68e5fa8c9493f",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/typing-rear/06.webp",
+          "at": 0.75,
+          "sha256": "e34ac2b991f9efdb3b2429fe0354ea15d36700448733e0cd56c3910b61c4ce41",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/typing-rear/07.webp",
+          "at": 0.875,
+          "sha256": "fdbccfcbf8070a9a00355930aa527583403b3f6cbf7efa1a103417c7f9b7eda0",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/typing-rear/08.webp",
+          "at": 1.0,
+          "sha256": "e300f28681866ef8296f16368e8d3f61ca150fe8b932aed9ce3e25aaf947708e",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/programmer-release-half-v01.png",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "lift-review",
+      "chapters": [
+        "02"
+      ],
+      "name": "抬手查看文件",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/01/programmer-input-v01.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/characters/motion-v09/lift-review-25.png",
+          "at": 0.25
+        },
+        {
+          "path": "arts/characters/motion-v09/lift-review-50.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/characters/motion-v09/lift-review-75.png",
+          "at": 0.75
+        },
+        {
+          "path": "arts/characters/poses/02/programmer-review-current-v01.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/lift-review/clean-anchor-00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/programmer-input-v01.png",
+          "sha256": "53a2ead2cfa7dd0d78d6ab8cda00f235affda487a5992d7fb86903e0bc972336",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/lift-review/clean-anchor-01.webp",
+          "at": 0.25,
+          "mode": "painted-anchor",
+          "source": "arts/characters/motion-v09/lift-review-25.png",
+          "sha256": "df66e0e674c9aea0a6a135e0f264541aa5c213a7d956b6cf27f6931164b96ea7",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/lift-review/clean-anchor-02.webp",
+          "at": 0.5,
+          "mode": "painted-anchor",
+          "source": "arts/characters/motion-v09/lift-review-50.png",
+          "sha256": "72a3f7afa12d800094d116ce019292857d8ab7aec166a1c25c550eab03c0af1e",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/lift-review/clean-anchor-03.webp",
+          "at": 0.75,
+          "mode": "painted-anchor",
+          "source": "arts/characters/motion-v09/lift-review-75.png",
+          "sha256": "8f6aca24d4494224f8ddcf580662adc301893116d4f31ff08d0f5f4427008b83",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/lift-review/clean-anchor-04.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/02/programmer-review-current-v01.png",
+          "sha256": "1a5be767978680598b6fb3216c8d8c6f6eddd035df7c1dc16643370338b50144",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "agent-cycle",
+      "chapters": [
+        "02"
+      ],
+      "name": "Agent接收核对并交回文件",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/01/agent-idle-v01.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/characters/poses/01/agent-reach-half-v01.png",
+          "at": 0.14285714285714285
+        },
+        {
+          "path": "arts/characters/poses/01/agent-receive-v01.png",
+          "at": 0.2857142857142857
+        },
+        {
+          "path": "arts/characters/poses/01/agent-grasp-file-v01.png",
+          "at": 0.42857142857142855
+        },
+        {
+          "path": "arts/characters/poses/01/agent-hold-file-v01.png",
+          "at": 0.5714285714285714
+        },
+        {
+          "path": "arts/characters/poses/01/agent-inspect-file-v01.png",
+          "at": 0.7142857142857143
+        },
+        {
+          "path": "arts/characters/poses/01/agent-offer-file-v01.png",
+          "at": 0.8571428571428571
+        },
+        {
+          "path": "arts/characters/poses/01/agent-idle-v01.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/agent-cycle/anchor-00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-idle-v01.png",
+          "sha256": "36d84c9169422890c2bbd187df9133c917b1700e1b3aa872dee8c6995d9e1c2c",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-cycle/anchor-01.webp",
+          "at": 0.14285714285714285,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-reach-half-v01.png",
+          "sha256": "abaea66a55372c636e858edc61a937ae3d39c26917270a69ba3b89592853d2e3",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-cycle/anchor-02.webp",
+          "at": 0.2857142857142857,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-receive-v01.png",
+          "sha256": "79bd37c24b020e401c4bd1422d93b7605204589d90e60821c8073600b6739b01",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-cycle/anchor-03.webp",
+          "at": 0.42857142857142855,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-grasp-file-v01.png",
+          "sha256": "248d25a3a5c4f0c128a2e1589a217ed63bb629e1ed2c738ea7ae7746bd3ed094",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-cycle/anchor-04.webp",
+          "at": 0.5714285714285714,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-hold-file-v01.png",
+          "sha256": "0243df2d1e2548026a40b6f7febb1da3b30bc908beb5c0e1a54b29f77d9db1e0",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-cycle/anchor-05.webp",
+          "at": 0.7142857142857143,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-inspect-file-v01.png",
+          "sha256": "cfce8339f16d70fd4170f7c464f4d37b63f937bac1f58617b9231adec8fa5e81",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-cycle/anchor-06.webp",
+          "at": 0.8571428571428571,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-offer-file-v01.png",
+          "sha256": "377da000b036cc10bf27ef4e2aa8107d363f71ff94058dd666024284a43a9003",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-cycle/anchor-07.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/characters/poses/01/agent-idle-v01.png",
+          "sha256": "36d84c9169422890c2bbd187df9133c917b1700e1b3aa872dee8c6995d9e1c2c",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "idle-inspect",
+      "chapters": [
+        "01"
+      ],
+      "name": "Agent从待命到核对",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/01/agent-idle-v01.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/characters/poses/01/agent-inspect-file-v01.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/idle-inspect/00.webp",
+          "at": 0.0,
+          "sha256": "36d84c9169422890c2bbd187df9133c917b1700e1b3aa872dee8c6995d9e1c2c",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/agent-idle-v01.png",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/idle-inspect/01.webp",
+          "at": 0.125,
+          "sha256": "e1ca6d330220df0fbc71a254ab8bad16e4bd34e7f6f76852e19f234e2d4ecdf7",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/idle-inspect/02.webp",
+          "at": 0.25,
+          "sha256": "e501805f5c34cd2b28093e1320cb30d3ac85af75de7e42bc5c2af076df56dec5",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/idle-inspect/03.webp",
+          "at": 0.375,
+          "sha256": "f072835c3b19799ec2eaf35047556db5d02849589aea444670520730e4afde94",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/idle-inspect/04.webp",
+          "at": 0.5,
+          "sha256": "804f84ea20a927609781e5058bb7887ca27d24cb9c17b1a45289a7f977b2cef6",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/idle-inspect/05.webp",
+          "at": 0.625,
+          "sha256": "d7ad25d5c2ac9153bcf027a0c8171ec076a9eca939fb80c068b3d169baac1ed3",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/idle-inspect/06.webp",
+          "at": 0.75,
+          "sha256": "b4ecdcf0d3f696b4ade1f8d695e83d55110fa53aa05e0721d69b3b2b60c102de",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/idle-inspect/07.webp",
+          "at": 0.875,
+          "sha256": "f71f7f6c8233193fdd8216e7baa0df4b769ff3fcab050733250dac7d5c4fe4f4",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/idle-inspect/08.webp",
+          "at": 1.0,
+          "sha256": "cfce8339f16d70fd4170f7c464f4d37b63f937bac1f58617b9231adec8fa5e81",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/agent-inspect-file-v01.png",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "agent-report",
+      "chapters": [
+        "01"
+      ],
+      "name": "Agent抬头报告",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/01/agent-inspect-file-v01.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/characters/poses/01/agent-report-v01.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/agent-report/00.webp",
+          "at": 0.0,
+          "sha256": "cfce8339f16d70fd4170f7c464f4d37b63f937bac1f58617b9231adec8fa5e81",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/agent-inspect-file-v01.png",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-report/01.webp",
+          "at": 0.125,
+          "sha256": "2a59d8ad267f3367063f4b6096378941901b790b34bc5fb94002d9dbaf525a78",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-report/02.webp",
+          "at": 0.25,
+          "sha256": "e76ee3620b0ffb8648f078db866250a5a7b09ae4fc6ac9fa5bbd799ca4c23a09",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-report/03.webp",
+          "at": 0.375,
+          "sha256": "72d8c0c58078813e3b474f378dda76f603565e3f227ad926c525cf442b164a68",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-report/04.webp",
+          "at": 0.5,
+          "sha256": "378c2a643e225c30431f3f2f27596272a38e1d65b35980fc0cff0adee12de9d6",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-report/05.webp",
+          "at": 0.625,
+          "sha256": "85f97d4929dcf88b9a57ce0b31824c3f7704a25b60b576f7a16c28ad9599a969",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-report/06.webp",
+          "at": 0.75,
+          "sha256": "b88b5dac0f418ab9edb5057a153ca18d59cb89577d9d575c7ca1634ac09804a0",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-report/07.webp",
+          "at": 0.875,
+          "sha256": "bcca4f5d6f1e31b092051b5b78efc9b9965d34cd52f0958dd24b9c8381bce213",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/agent-report/08.webp",
+          "at": 1.0,
+          "sha256": "a2d790b422a8bb580e87a2b3b69ed72e063e618f24ffc531d81a4c6d44799101",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/agent-report-v01.png",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "report-idle",
+      "chapters": [
+        "01"
+      ],
+      "name": "Agent放下报告手势",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/01/agent-report-v01.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/characters/poses/01/agent-idle-v01.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/motion-v09/report-idle/00.webp",
+          "at": 0.0,
+          "sha256": "a2d790b422a8bb580e87a2b3b69ed72e063e618f24ffc531d81a4c6d44799101",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/agent-report-v01.png",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/report-idle/01.webp",
+          "at": 0.125,
+          "sha256": "949e931d0185c36f5daeb039f627e7c324c50bba74991f9040af7f2be317cea8",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/report-idle/02.webp",
+          "at": 0.25,
+          "sha256": "e5834e0df5b1096f7b6b2eb5aed6c599550e0cc9b3c2dcca7a20062b234ac21d",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/report-idle/03.webp",
+          "at": 0.375,
+          "sha256": "5c2c0e29eae263044f7141f93459227edaa9485ca45358f78d08838b547034a1",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/report-idle/04.webp",
+          "at": 0.5,
+          "sha256": "8237d2a1d5470fff915339f1d7869b9ab29940ee93039319ccd2cd29f4e8f125",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/report-idle/05.webp",
+          "at": 0.625,
+          "sha256": "54bd1f27a490bb5df3729ad561e9b60aba6cb7c040726a0c803f7c96ceffdc39",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/report-idle/06.webp",
+          "at": 0.75,
+          "sha256": "3809846f5e7bd875a9ffb53910a471fb6f154e02a67eca0c41a228c4196a53b9",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/report-idle/07.webp",
+          "at": 0.875,
+          "sha256": "159aa3deffff46802359ebdbcde3799a26f34a553e94685b17cbfc3debf21560",
+          "mode": "bidirectional-optical-flow",
+          "source": null,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "arts/characters/motion-v09/report-idle/08.webp",
+          "at": 1.0,
+          "sha256": "36d84c9169422890c2bbd187df9133c917b1700e1b3aa872dee8c6995d9e1c2c",
+          "mode": "anchor",
+          "source": "arts/characters/poses/01/agent-idle-v01.png",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "id": "book-bag",
+      "chapters": [
+        "06"
+      ],
+      "name": "把同一本书放入纸袋",
+      "kind": "plate",
+      "keys": [
+        {
+          "path": "arts/backgrounds/06/bookshop-purchase-v02.png",
+          "at": 0
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-bag-end.png",
+          "at": 1
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/backgrounds/motion-v09/book-bag/00.webp",
+          "at": 0.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/06/bookshop-purchase-v02.png",
+          "sha256": "c25b60b4b8e627e1562456efada1e147a4599cdaf7b9681240426d8c9c31358d",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-bag/01.webp",
+          "at": 0.125,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000162.png",
+          "sha256": "fa9fb893db95b9f486e5716d5652ffce284df1df9d79a76bd5e20826a23110e3",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-bag/02.webp",
+          "at": 0.25,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000163.png",
+          "sha256": "4efb9ddbbe560df9448d429371d0d297043a552d75f815a6085b77f54afb8693",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-bag/03.webp",
+          "at": 0.375,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000164.png",
+          "sha256": "0127163b8afcc9e8cac9f9fcbf4fd9e62faccf3bd0c47ef224a8d450e0debf8a",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-bag/04.webp",
+          "at": 0.5,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000165.png",
+          "sha256": "909798fabcf23ffbb7330946ef69f903caee0bf249ba7145a783b4630deda34d",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-bag/05.webp",
+          "at": 0.625,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000166.png",
+          "sha256": "0360252480d6fe65b9627d36ff894b6c4918b72873dd67ec1167f10d717e9a18",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-bag/06.webp",
+          "at": 0.75,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000167.png",
+          "sha256": "e4ab8f404d4bcc5e777d1373d49e50d08ba05e1e880784748ee6c79ff5666c2d",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-bag/07.webp",
+          "at": 0.875,
+          "mode": "rife-v4.6",
+          "source": "arts/actions/film/provenance/motion-v09/rife-batches/1672x941/output/00000168.png",
+          "sha256": "43e7dbbfe018c4209eb0db5d7ca734a0fe4a6c32929ece6ab558d5de2c2c1834",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "path": "arts/backgrounds/motion-v09/book-bag/08.webp",
+          "at": 1.0,
+          "mode": "painted-anchor",
+          "source": "arts/backgrounds/motion-v09/book-bag-end.png",
+          "sha256": "0376da054b671adde81b911ddd94fc6f21a64e688c5719e94d93800606f0114f",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    }
+  ]
+}

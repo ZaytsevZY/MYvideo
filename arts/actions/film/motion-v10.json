@@ -1,0 +1,255 @@
+{
+  "version": "PAINTED_MOTION v0.10",
+  "date": "2026-10-20",
+  "policy": "Independent complete painted originals only; no optical flow, warping, blending or synthetic raster intermediate. Chapter06 restored to pre-flow renderer.",
+  "groups": [
+    {
+      "id": "meal",
+      "chapters": [
+        "02"
+      ],
+      "name": "舀取食物抬到嘴边",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/02/programmer-eat-down-v01.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/characters/poses/02/programmer-eat-scoop-v01.png",
+          "at": 0.25
+        },
+        {
+          "path": "arts/characters/motion-v09/meal-25.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/characters/motion-v09/meal-75.png",
+          "at": 0.75
+        },
+        {
+          "path": "arts/characters/poses/02/programmer-eat-bite-v01.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/poses/02/programmer-eat-down-v01.png",
+          "at": 0.0,
+          "mode": "painted-original",
+          "sha256": "4eba5d2fc42d119cf060bd2fca59875696c7131a65dd9edf31e7446de2f7cffd"
+        },
+        {
+          "path": "arts/characters/poses/02/programmer-eat-scoop-v01.png",
+          "at": 0.25,
+          "mode": "painted-original",
+          "sha256": "4b32a5caf00c9176963214db7b7bcabbdde280f966b7c1137639974ba50c0f55"
+        },
+        {
+          "path": "arts/characters/motion-v09/meal-25.png",
+          "at": 0.5,
+          "mode": "painted-original",
+          "sha256": "93f7d9ad4594e55b705c0e4a7c5e02834170780aa07c0b482cc01d7d68fb2453"
+        },
+        {
+          "path": "arts/characters/motion-v09/meal-75.png",
+          "at": 0.75,
+          "mode": "painted-original",
+          "sha256": "4e51031fb54e7636f1d7335fc5fbf518c5115b6318fa7fa50cc5d5449bed8c7a"
+        },
+        {
+          "path": "arts/characters/poses/02/programmer-eat-bite-v01.png",
+          "at": 1.0,
+          "mode": "painted-original",
+          "sha256": "f60339bf6f84c6d9684e5ba51af2452da37d689a9307ceeda5f2325ee77dee4d"
+        }
+      ]
+    },
+    {
+      "id": "choose",
+      "chapters": [
+        "02"
+      ],
+      "name": "思考后抬手选择",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/02/programmer-think-up-right-v01.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/characters/motion-v09/choose-25.png",
+          "at": 0.25
+        },
+        {
+          "path": "arts/characters/motion-v09/choose-50.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/characters/motion-v09/choose-75.png",
+          "at": 0.75
+        },
+        {
+          "path": "arts/characters/poses/02/programmer-choose-right-v01.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/poses/02/programmer-think-up-right-v01.png",
+          "at": 0.0,
+          "mode": "painted-original",
+          "sha256": "4cbcc61130ae40457b9e1ae2d8648324a541970be64c9d4cc494fa22f5529d05"
+        },
+        {
+          "path": "arts/characters/motion-v09/choose-25.png",
+          "at": 0.25,
+          "mode": "painted-original",
+          "sha256": "401e791ad5d4fa798d991269b7246032be0c29ef9d691ca7270086fc5b1c8219"
+        },
+        {
+          "path": "arts/characters/motion-v09/choose-50.png",
+          "at": 0.5,
+          "mode": "painted-original",
+          "sha256": "31e0d7090ad9cfb27f4bb846440ed003b5fcce216937b8205d7b88b6cd9882f7"
+        },
+        {
+          "path": "arts/characters/motion-v09/choose-75.png",
+          "at": 0.75,
+          "mode": "painted-original",
+          "sha256": "49f8863d828d92ecade9319fe93f7b44fdd5b70f51fdcea45ccf458640646287"
+        },
+        {
+          "path": "arts/characters/poses/02/programmer-choose-right-v01.png",
+          "at": 1.0,
+          "mode": "painted-original",
+          "sha256": "3df86a6589207df7491277c3197f7bb59d92fea6263d8c4f195776dda3513dbd"
+        }
+      ]
+    },
+    {
+      "id": "manager-reach",
+      "chapters": [
+        "04"
+      ],
+      "name": "负责人抬臂划线",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/04/manager-ready-v03.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-reach-25.png",
+          "at": 0.25
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-reach-50.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-reach-75.png",
+          "at": 0.75
+        },
+        {
+          "path": "arts/characters/poses/04/manager-strike-v03.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/poses/04/manager-ready-v03.png",
+          "at": 0.0,
+          "mode": "painted-original",
+          "sha256": "b96793b65b44a77777ede2e1a9a84a0fcbad6720b47a5861eff0308b00e1b6ac"
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-reach-25.png",
+          "at": 0.25,
+          "mode": "painted-original",
+          "sha256": "b905ddb8fc1ab68b7129b4a5ac84ce8a51b8bd9ee56575870f148f844ff0f3e4"
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-reach-50.png",
+          "at": 0.5,
+          "mode": "painted-original",
+          "sha256": "5a54e6293471e8da1252cdacf9f0750753d5acad60eeb257d46e9f2534027867"
+        },
+        {
+          "path": "arts/characters/motion-v09/manager-reach-75.png",
+          "at": 0.75,
+          "mode": "painted-original",
+          "sha256": "0fc7c69539384832c0e45cbbf917e3e3c60a450215f6e0cc0b0c134329fcca42"
+        },
+        {
+          "path": "arts/characters/poses/04/manager-strike-v03.png",
+          "at": 1.0,
+          "mode": "painted-original",
+          "sha256": "6a9bf6b1665ce125cf0fbea0a65ef870a824bbe42e9cc736c54c330baf653aad"
+        }
+      ]
+    },
+    {
+      "id": "lift-review",
+      "chapters": [
+        "02"
+      ],
+      "name": "抬手查看文件",
+      "kind": "alpha",
+      "keys": [
+        {
+          "path": "arts/characters/poses/01/programmer-input-v01.png",
+          "at": 0.0
+        },
+        {
+          "path": "arts/characters/motion-v09/lift-review-25.png",
+          "at": 0.25
+        },
+        {
+          "path": "arts/characters/motion-v09/lift-review-50.png",
+          "at": 0.5
+        },
+        {
+          "path": "arts/characters/motion-v09/lift-review-75.png",
+          "at": 0.75
+        },
+        {
+          "path": "arts/characters/poses/02/programmer-review-current-v01.png",
+          "at": 1.0
+        }
+      ],
+      "frames": [
+        {
+          "path": "arts/characters/poses/01/programmer-input-v01.png",
+          "at": 0.0,
+          "mode": "painted-original",
+          "sha256": "0851e02b89c0d56a17e4e982329c6c737d33e47eda8317026900e600b936a373"
+        },
+        {
+          "path": "arts/characters/motion-v09/lift-review-25.png",
+          "at": 0.25,
+          "mode": "painted-original",
+          "sha256": "f457ba44e28c774a5ffe790d74477dc6e7bd871e36fbc7a2952b652573b78f66"
+        },
+        {
+          "path": "arts/characters/motion-v09/lift-review-50.png",
+          "at": 0.5,
+          "mode": "painted-original",
+          "sha256": "5146cab4d55b251c91ef976ed0c7f3b4847a405c3a401b7e02100a5c4ba6bd00"
+        },
+        {
+          "path": "arts/characters/motion-v09/lift-review-75.png",
+          "at": 0.75,
+          "mode": "painted-original",
+          "sha256": "0523f4c2d3085e0fa0d3746bcc25bbd0d1c2f21f3dc52ee74150c6e8cce45d0f"
+        },
+        {
+          "path": "arts/characters/poses/02/programmer-review-current-v01.png",
+          "at": 1.0,
+          "mode": "painted-original",
+          "sha256": "2a32a3e65351e725453c0ad2561a1f1370b281929a4f317a7ec3c03fa3ed2db8"
+        }
+      ]
+    }
+  ]
+}

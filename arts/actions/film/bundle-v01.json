@@ -1,5 +1,6 @@
 {
-  "version": "FILM_PREVIEW v0.8",
+  "version": "FILM_PREVIEW v0.10",
+  "motionVersion": "PAINTED_MOTION v0.10",
   "narrationVersion": "FILM_NARRATION v0.8",
   "date": "2026-10-20",
   "fps": 30,

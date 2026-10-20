@@ -1,3 +1,4 @@
+import {applyMotion,motionAt} from './motion-v10.mjs';
 import {captionSvg} from './captions.mjs';
 import {AUTHORED_CUES,sourceTime,retimeBeats,alignScreenCopy,costFeedback} from './narration-v08.mjs';
 // Adapters only: the adopted chapter sources and PNGs remain unchanged.
@@ -50,10 +51,11 @@ export function createRenderer(data,resolve){
   else if(id==='05')image=c05.svg(t,refs['05'],{caption:false});
   else image=c06.svg(t,refs['06'],{caption:false});
   // Insert after the complete root content, never into chapter04's nested prior SVG.
+  image=applyMotion(image,id,t,resolve);
   image=alignScreenCopy(id,image,point.localTime);
   const at=image.lastIndexOf('</svg>');
   image=image.slice(0,at)+costFeedback(id,point.localTime,refs['05'].document)+(captions?captionSvg(cue):'')+image.slice(at);
-  return {...point,cue,svg:image,beat:BEATS[id].find(b=>point.localTime>=b.start&&point.localTime<b.end)||BEATS[id].at(-1)};
+  return {...point,cue,motion:motionAt(id,t).map(c=>({id:c.id,phase:c.frame.at})),svg:image,beat:BEATS[id].find(b=>point.localTime>=b.start&&point.localTime<b.end)||BEATS[id].at(-1)};
  };
 }
 export const GLOBAL_CUES=CHAPTERS.flatMap(c=>CUES[c.id].map(cue=>({...cue,chapterId:c.id,startMs:cue.startMs+c.start*1000,endMs:cue.endMs+c.start*1000})));

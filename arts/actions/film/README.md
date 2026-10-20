@@ -1,5 +1,29 @@
 # 01–06统一动态展示框架
 
+**当前成片：FILM_BAKE v0.10，纯补绘恢复版。** [播放](http://127.0.0.1:8765/actions/film/exports/index-v10.html)／[MP4](exports/film-complete-captioned-silent-v10.mp4)／[SRT](exports/film-subtitles-v10.srt)／[验证](provenance/bake-v10/verification.json)。
+
+已清除当前运行的全部光流帧，并将06整章恢复到光流前绘稿和演出；保留四组独立补绘，口播994字符／54字幕／280秒不变。完整视频39,586,611字节，1080p／30fps／H.264无声。16项检查、全程解码、连续PTS及93张编码抽帧通过。规则见[PAINTED_ONLY.md](PAINTED_ONLY.md)。下方v09已被用户撤回，历史文件不参与当前预览或导出。
+
+
+**当前预览：FILM_PREVIEW v0.10，纯补绘恢复版。** 用户撤回光流；153项素材、四组独立补绘，06全部恢复光流前1740帧。口播／54字幕／280秒保持。新版完整MP4已生成。当前规则见[PAINTED_ONLY.md](PAINTED_ONLY.md)。下方v09为已撤回的历史输出，不作为当前采用。
+
+
+**当前完整成片：FILM_BAKE v0.9 · 2026-10-20。** [播放补帧版](http://127.0.0.1:8765/actions/film/exports/index.html)／[MP4](exports/film-complete-captioned-silent-v09.mp4)／[字幕SRT](exports/film-subtitles-v09.srt)／[验证](provenance/bake-v09/verification.json)。
+
+已使用补帧框架重制280秒／8400帧、1080p／30fps完整视频，保留当前994字符／54条字幕及排时。42,390,944字节，H.264 medium CRF18，无音轨。17项检查、全程解码／连续PTS／黑帧检测、77张编码抽帧与浏览器播放通过。41组动作、美术与文本不变，本轮无生成模型调用。旧v07文件保留。
+
+复现：`node arts/actions/film/bake-v09.mjs`、`node arts/actions/film/review-bake-v09.mjs`；导出拒绝覆盖现有目标。bake-assets-v09.mjs在动作替换完成后一次嵌入PNG，与原管线在三处SVG逐字节一致。过程、哈希和编码联系表在provenance/bake-v09。
+
+下方为历史阶段，当前成片以本段为准。
+
+
+**当前动态采用：FILM_PREVIEW v0.9／FILM_NARRATION v0.8 · 2026-10-20。** [全片动态](http://127.0.0.1:8765/actions/film/preview.html)／[动作逐帧检查](http://127.0.0.1:8765/actions/film/motion-review.html)／[补帧采用与续作](MOTION.md)。
+
+43组动作库、361张采用帧，全片实际41组且各组至少五帧；人物抬臂、用餐、选择、提包起身及纸页交接等以完整补绘和光流过渡接入。脚本994字符、54字幕、72镜、280秒均保持，库存503项。17项检查及8段编码动作片通过；本轮未导出新版完整MP4。离线渲染必须使用render-assets.mjs无损转PNG，勿直接运行仍写死v07的bake.mjs。
+
+以下为历史阶段记录，当前采用以本段及MOTION.md为准。
+
+
 **当前动态采用：FILM_PREVIEW v0.8／FILM_NARRATION v0.8 · 2026-10-20。** [审阅预览](http://127.0.0.1:8765/actions/film/preview.html)／[新版SRT](captions-v01.srt)／[逐镜同步表](narration-alignment-v08.md)。
 
 采用人工审核口播994字符／54条字幕，05“课程”按确认改为“可能”，其他audio原文保持。字幕统一44px冬青黑体、500字重，至少10字符、最短2.5秒；六章时长／offset不变，总计280秒／8400帧，最后14秒文献无字幕。72镜导航同步重新排时，142项原库存复用。03提前展开组织约束，04延长三窗并行，05压缩前段关系展示、加时间投入与调用续费反馈并提前进入共同成果图。

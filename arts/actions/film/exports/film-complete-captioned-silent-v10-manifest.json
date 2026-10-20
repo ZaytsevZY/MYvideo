@@ -1,0 +1,797 @@
+{
+  "version": "FILM_BAKE v0.10",
+  "sourceVersion": "FILM_PREVIEW v0.10",
+  "output": {
+    "path": "arts/actions/film/exports/film-complete-captioned-silent-v10.mp4",
+    "bytes": 39586611,
+    "sha256": "9647feb5de64a4ac2a14f2b35121a56b99f37626eec77a6585140f0c1b604f6b"
+  },
+  "chapters": [
+    {
+      "id": "01",
+      "title": "效率与任务边界",
+      "duration": 45,
+      "version": "S01_CAMERA v0.3",
+      "frames": 1350,
+      "startFrame": 0,
+      "endFrame": 1350,
+      "start": 0,
+      "end": 45
+    },
+    {
+      "id": "02",
+      "title": "成本下降与任务扩张",
+      "duration": 38,
+      "version": "S02_STORY v0.4",
+      "frames": 1140,
+      "startFrame": 1350,
+      "endFrame": 2490,
+      "start": 45,
+      "end": 83
+    },
+    {
+      "id": "03",
+      "title": "雇佣关系与工作时间",
+      "duration": 39,
+      "version": "S03_STORY v0.5",
+      "frames": 1170,
+      "startFrame": 2490,
+      "endFrame": 3660,
+      "start": 83,
+      "end": 122
+    },
+    {
+      "id": "04",
+      "title": "竞争与标准重设",
+      "duration": 55,
+      "version": "S04_STORY v0.5",
+      "frames": 1650,
+      "startFrame": 3660,
+      "endFrame": 5310,
+      "start": 122,
+      "end": 177
+    },
+    {
+      "id": "05",
+      "title": "执行能力与决定权",
+      "duration": 45,
+      "version": "S05_STORY v0.3",
+      "frames": 1350,
+      "startFrame": 5310,
+      "endFrame": 6660,
+      "start": 177,
+      "end": 222
+    },
+    {
+      "id": "06",
+      "title": "效率收益与人的自由",
+      "duration": 58,
+      "version": "S06_STORY v0.3",
+      "frames": 1740,
+      "startFrame": 6660,
+      "endFrame": 8400,
+      "start": 222,
+      "end": 280
+    }
+  ],
+  "captions": 54,
+  "beats": 72,
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 4300800,
+        "duration": "280.000000",
+        "bit_rate": "1128207",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "8400",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc62.11.100 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/alan671/Documents/MYvideo/arts/actions/film/exports/film-complete-captioned-silent-v10.part.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "280.000000",
+      "size": "39586611",
+      "bit_rate": "1131046",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf62.3.100"
+      }
+    }
+  },
+  "frames": 8400,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "duration": 280,
+  "audio": false,
+  "decodePassed": true,
+  "blackFrames": false,
+  "continuousPresentationTimestamps": true,
+  "encodedFrameEvidence": [
+    {
+      "frame": 0,
+      "time": 0,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-001.png",
+      "sha256": "99aba8c8ed23eb6dc7272e9e0ffe8ae9e80ef45b3c50a347278712dff2f43809"
+    },
+    {
+      "frame": 69,
+      "time": 2.3,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-002.png",
+      "sha256": "f0340c93f2939d3c7452585684dedcb3bd50bfd509a00fd7e3c6c10607a198a8"
+    },
+    {
+      "frame": 113,
+      "time": 3.7666666666666666,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-003.png",
+      "sha256": "2c8b334a455ff94ca6d7073e8b7793350f344de0f5ab2b2e9919d080c33ebd8a"
+    },
+    {
+      "frame": 195,
+      "time": 6.5,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-004.png",
+      "sha256": "5450914938f376efdffdcddcdd44cb5b2d8257ad45e439e91afdbfa72ee4128f"
+    },
+    {
+      "frame": 366,
+      "time": 12.2,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-005.png",
+      "sha256": "8c0aa4468f69d78f6bb7b421363f2369760d923958a5ecf02b852efd07a39a50"
+    },
+    {
+      "frame": 546,
+      "time": 18.2,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-006.png",
+      "sha256": "4cbea9387fcbc6c49c1b1d94daa603657a80cde1f11ec80d459d2704d08641df"
+    },
+    {
+      "frame": 666,
+      "time": 22.2,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-007.png",
+      "sha256": "b9381eee1d005ea2041ac8e2e0c1396cfad6828ebdcb9564383687066b93771b"
+    },
+    {
+      "frame": 777,
+      "time": 25.9,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-008.png",
+      "sha256": "33e1ce34b4762fdcc7f0c9833a966556dde605c947d263ae12cc45faedf24467"
+    },
+    {
+      "frame": 891,
+      "time": 29.7,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-009.png",
+      "sha256": "261ec2cf42fbdf2d2b2548a99423ae5c037212d92880703e50c6f30403562d7d"
+    },
+    {
+      "frame": 1035,
+      "time": 34.5,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-010.png",
+      "sha256": "acdc65d186f41a9cde04f8bfa4fdd66a59f942f71c35ad14ab55f38adbc2776c"
+    },
+    {
+      "frame": 1236,
+      "time": 41.2,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-011.png",
+      "sha256": "0a6cd4d9d93a1cf55b05af656ab5d76a3702af99c59fac0eea52fb75f9ac500e"
+    },
+    {
+      "frame": 1349,
+      "time": 44.96666666666667,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-012.png",
+      "sha256": "7aa493609798f034eb660293c7bb9b87a56e374af471c6120b7d426b11bc3d83"
+    },
+    {
+      "frame": 1350,
+      "time": 45,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-013.png",
+      "sha256": "0a0c133400872747569b847e1a396f065286f71e8afe7e0fa7ff82cc264a6692"
+    },
+    {
+      "frame": 1426,
+      "time": 47.53333333333333,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-014.png",
+      "sha256": "70bbce570ae77d8264983163c3e118663ce1f125647aab2d42b75f6af7b36763"
+    },
+    {
+      "frame": 1578,
+      "time": 52.6,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-015.png",
+      "sha256": "3425479822c46e585f3ac5cff64ca9f30ab73115d0cc74ea37a52f1328b8ac34"
+    },
+    {
+      "frame": 1714,
+      "time": 57.13333333333333,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-016.png",
+      "sha256": "f17e86f4b583ba10dcea5d74fb47da4e05c9e5506930537964a4c7750adaf3c3"
+    },
+    {
+      "frame": 1825,
+      "time": 60.833333333333336,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-017.png",
+      "sha256": "7972d1a272f3a4a9affd3bc9e723f40c210c083b34f66754c743ee4abe7ca13d"
+    },
+    {
+      "frame": 1882,
+      "time": 62.733333333333334,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-018.png",
+      "sha256": "41ba56ea1310dcce73ef019a9797cfb0b8f87bfcff31053ad62e5c93b0c574f8"
+    },
+    {
+      "frame": 2077,
+      "time": 69.23333333333333,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-019.png",
+      "sha256": "c024360ad9dd8f6c5f0385989d4ccde989a0f32f0dec3d5c4918fbd37062fc5d"
+    },
+    {
+      "frame": 2245,
+      "time": 74.83333333333333,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-020.png",
+      "sha256": "98e689deee51e9533ccdd2e4652b0188038d854efe7168699034caaa543443f4"
+    },
+    {
+      "frame": 2407,
+      "time": 80.23333333333333,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-021.png",
+      "sha256": "2081156edce5c3e8b346e6136600596a747dee3ccfba4077379bfdd50b96d856"
+    },
+    {
+      "frame": 2489,
+      "time": 82.96666666666667,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-022.png",
+      "sha256": "f9e00c2cb7ec26f20572dd51993c072bfb44d0f5022268e6f2c4264981c4263d"
+    },
+    {
+      "frame": 2490,
+      "time": 83,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-023.png",
+      "sha256": "cfda177e4ccc2169800945338a8e427da1f0d69574f4f9bb6057ca186b18d9cc"
+    },
+    {
+      "frame": 2560,
+      "time": 85.33333333333333,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-024.png",
+      "sha256": "5bc2ab11a150b6d846572f2823661cc673fa4f1f80d3bb47f19f9d725d7bc3d8"
+    },
+    {
+      "frame": 2704,
+      "time": 90.13333333333334,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-025.png",
+      "sha256": "54ab2cef53d66f9261f0e391608f3c87cf48bfc9c547178ee6bd8d7cc045a070"
+    },
+    {
+      "frame": 2833,
+      "time": 94.43333333333334,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-026.png",
+      "sha256": "990d497594919aca908cc336486139a30726daea24f202b2f430f2627e7c935d"
+    },
+    {
+      "frame": 2944,
+      "time": 98.13333333333334,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-027.png",
+      "sha256": "cc0f36863e1723c05943961ee7ae1934467398a300d0fc69f9414c8a166c0c29"
+    },
+    {
+      "frame": 3040,
+      "time": 101.33333333333333,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-028.png",
+      "sha256": "047f098e29d49cc771cffa60e302d79cfdbf4bf89154a29d4d0a5345a477dca5"
+    },
+    {
+      "frame": 3075,
+      "time": 102.5,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-029.png",
+      "sha256": "1c3893079902fcfd4b8c5348a4e92607149499233b1e974feafb84878b7c7466"
+    },
+    {
+      "frame": 3213,
+      "time": 107.1,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-030.png",
+      "sha256": "65d572647365ef55ba5dbbcd4c03b412eda4db7fbdee4c2e9d19b7a99da18cf3"
+    },
+    {
+      "frame": 3340,
+      "time": 111.33333333333333,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-031.png",
+      "sha256": "0de4abb8f0fb88eae492f685e233482f967df8b52056e4dd63e3c5d0985aa222"
+    },
+    {
+      "frame": 3474,
+      "time": 115.8,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-032.png",
+      "sha256": "9d01fcb928af6ae23b3b3d790f2e95fb2043776e9a2baf919c595a98f5c02efc"
+    },
+    {
+      "frame": 3601,
+      "time": 120.03333333333333,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-033.png",
+      "sha256": "cb0fdeb3b5eb7f8389d551217122fc27cd2751299608abb53a93e5ac2e7f3c37"
+    },
+    {
+      "frame": 3659,
+      "time": 121.96666666666667,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-034.png",
+      "sha256": "5ac1b72f12aa5edddf0ae2e5e21c8ec3a894875e4ee7895ccd8311994d683fad"
+    },
+    {
+      "frame": 3660,
+      "time": 122,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-035.png",
+      "sha256": "cc3a7381ec90eaad2606f6d8de532535256eeb35ee5e401582457251018a31fc"
+    },
+    {
+      "frame": 3724,
+      "time": 124.13333333333334,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-036.png",
+      "sha256": "9be9114604caece8a3ea2dc5bd23169541ccf78ed2e30f47fe42218101947785"
+    },
+    {
+      "frame": 3850,
+      "time": 128.33333333333334,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-037.png",
+      "sha256": "ba4d8a24c2e2904f67d6f2b983c3709ff7fea4dfb69951cb53c0a2496770f303"
+    },
+    {
+      "frame": 3995,
+      "time": 133.16666666666666,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-038.png",
+      "sha256": "9c072ee8431f38cb9b6a3cd6078ddd8366d8fb86cee283319458fe5d6f72e5dd"
+    },
+    {
+      "frame": 4140,
+      "time": 138,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-039.png",
+      "sha256": "6a19834913260027b27f5318651763e68368a2b656ca0de650b1839646b8778c"
+    },
+    {
+      "frame": 4252,
+      "time": 141.73333333333332,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-040.png",
+      "sha256": "e412a87f354a2eb01436b2e97989d269e39907b83c0dad8f6cdc510adb7671c8"
+    },
+    {
+      "frame": 4384,
+      "time": 146.13333333333333,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-041.png",
+      "sha256": "ea86db67a05a7d156573cc89e5884c46fc94fe0f217cb08cf0de87c1f11254ab"
+    },
+    {
+      "frame": 4539,
+      "time": 151.3,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-042.png",
+      "sha256": "1fde186d0485887bb408a64eba125b0e6462b3f02aaa05ebe73ff59860fca479"
+    },
+    {
+      "frame": 4677,
+      "time": 155.9,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-043.png",
+      "sha256": "02ca1f19f373be0ea43c754ada2b472a2c65f92fc70f4c118b2785dc33bfd1ac"
+    },
+    {
+      "frame": 4805,
+      "time": 160.16666666666666,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-044.png",
+      "sha256": "a587ab60fd38d89e1605766097eae7bc45900527117762183ab2f0834ee85249"
+    },
+    {
+      "frame": 4806,
+      "time": 160.2,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-045.png",
+      "sha256": "01eb4023c428f981cb10477560fd1abaddf3c6460f10667a0b78635189ae4352"
+    },
+    {
+      "frame": 4935,
+      "time": 164.5,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-046.png",
+      "sha256": "9df8df7a2d911f8fbb2be952cf89a86bd5cb612844efed591a181356f6cf2d7a"
+    },
+    {
+      "frame": 5088,
+      "time": 169.6,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-047.png",
+      "sha256": "cf5640849f12f2de0ffdfb465464a3178f0aec9add1b1e47cf74e8276e2d6d53"
+    },
+    {
+      "frame": 5244,
+      "time": 174.8,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-048.png",
+      "sha256": "69ac77786c7c5dd62dc1c2c2be8125623897e325f613d4732346e93d38763a17"
+    },
+    {
+      "frame": 5309,
+      "time": 176.96666666666667,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-049.png",
+      "sha256": "036944e23f8c24ff0210dc78b0251313800460fec7f641e940d8df49940554fe"
+    },
+    {
+      "frame": 5310,
+      "time": 177,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-050.png",
+      "sha256": "d6660944802776ca7135ab51b16b837ffd1926f00db059915c13d42c7d921bc7"
+    },
+    {
+      "frame": 5421,
+      "time": 180.7,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-051.png",
+      "sha256": "82c14efc9bffb07480309cf28b0727fea429987c1134af3decd43d5e4c9a1ff8"
+    },
+    {
+      "frame": 5607,
+      "time": 186.9,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-052.png",
+      "sha256": "b0b4a7728ba8f0dbde23667ae15199d1016a7f587d5bd12f251d3d54d5402c0f"
+    },
+    {
+      "frame": 5779,
+      "time": 192.63333333333333,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-053.png",
+      "sha256": "27c7bec1f1a2c1221912fd2de48cdad7c60987c9f178a49cd04563a8453178c3"
+    },
+    {
+      "frame": 5846,
+      "time": 194.86666666666667,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-054.png",
+      "sha256": "78a05e128e81228ddf7d68cb60f8f11a30f3744b683b3faadc2bae40d77fc568"
+    },
+    {
+      "frame": 5913,
+      "time": 197.1,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-055.png",
+      "sha256": "ecd4ae00405dcb281ab8357bf6bc7022fbb21d5d6bf743f665d5f6661d68f9f1"
+    },
+    {
+      "frame": 6037,
+      "time": 201.23333333333332,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-056.png",
+      "sha256": "08e77dc92ab89f840900c3b4018a41eb4f25dde4f98636d1052cb3501ce8466b"
+    },
+    {
+      "frame": 6199,
+      "time": 206.63333333333333,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-057.png",
+      "sha256": "a2a96f4dea1651ce3af5e123657a713a84cbfaa46db18090b2161bcd34f5159f"
+    },
+    {
+      "frame": 6352,
+      "time": 211.73333333333332,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-058.png",
+      "sha256": "39b8d2fba65916ef84a48781d40b08778e7b7d520ffe1271a3c508f19163467b"
+    },
+    {
+      "frame": 6457,
+      "time": 215.23333333333332,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-059.png",
+      "sha256": "812460c533842a2f3d7a437a45bc282a49f28c73577891165a852821f64bc4de"
+    },
+    {
+      "frame": 6532,
+      "time": 217.73333333333332,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-060.png",
+      "sha256": "628b254c8aee0d78945c62df940ddf68998a8d033f39518f09607f17a3fb22b1"
+    },
+    {
+      "frame": 6615,
+      "time": 220.5,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-061.png",
+      "sha256": "bbf19fd6976155df5893b1f44d84860d7d80d75646250a13dc46b35fa70fcaa3"
+    },
+    {
+      "frame": 6659,
+      "time": 221.96666666666667,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-062.png",
+      "sha256": "2be8578462ff12fee2b95988def4249c4222cc09b18def0e575ceb899df6eb22"
+    },
+    {
+      "frame": 6660,
+      "time": 222,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-063.png",
+      "sha256": "3822eecc4008d620f8613eaa21c2f0e0ba8148770272b50afb608160bff788c8"
+    },
+    {
+      "frame": 6735,
+      "time": 224.5,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-064.png",
+      "sha256": "1172844943a254baca5471a8e92acd0353a7640729cac863f1cde801c94655d1"
+    },
+    {
+      "frame": 6800,
+      "time": 226.66666666666666,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-065.png",
+      "sha256": "ba1beb8e5453508492c85d07c5fc52068e8d8efef448bccaaf51556e57f21bb4"
+    },
+    {
+      "frame": 6861,
+      "time": 228.7,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-066.png",
+      "sha256": "2921a341063e3a5dbaef34af7cd20e5d097ea9cddf57ad724c31a5e6c766c8df"
+    },
+    {
+      "frame": 6870,
+      "time": 229,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-067.png",
+      "sha256": "e03e96bf4e54dd82a29569ccb57cc552608cb93b89f6e603b3501874e5a85839"
+    },
+    {
+      "frame": 6900,
+      "time": 230,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-068.png",
+      "sha256": "fbb80bb7034fce7cd802c04d35b02aa3f6fd025328c43b0cb2acc5093c73c1f1"
+    },
+    {
+      "frame": 6960,
+      "time": 232,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-069.png",
+      "sha256": "4ab105a236dbc26eee54c6ed4b44751949adc6f45d561b900b6153c1056216bc"
+    },
+    {
+      "frame": 7020,
+      "time": 234,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-070.png",
+      "sha256": "a8d164b2d4f05d2430f6909bc7f8d51e4772605f73a6cd6cac318a5a1ab72004"
+    },
+    {
+      "frame": 7032,
+      "time": 234.4,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-071.png",
+      "sha256": "b6d7866f9d88991652a06015ac1aa84fd4bda437fce7cda72220479853ed792d"
+    },
+    {
+      "frame": 7120,
+      "time": 237.33333333333334,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-072.png",
+      "sha256": "e15c7b7cf59bdc236d0102b331a77e7d35fca6a26b21abfd74f7c26d9cabb151"
+    },
+    {
+      "frame": 7200,
+      "time": 240,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-073.png",
+      "sha256": "08685639975864d5025a88e6e3f646bcc96db37a44cbfbb28c227b2a954f3e0b"
+    },
+    {
+      "frame": 7222,
+      "time": 240.73333333333332,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-074.png",
+      "sha256": "b8c6f96d338db327e04ee74d4581b4e84bef319e0cc358b475f7f5fd8bfa5aaf"
+    },
+    {
+      "frame": 7280,
+      "time": 242.66666666666666,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-075.png",
+      "sha256": "3fc63d8aa0457ab963b56947caede794df1a9f82c903f271f4cc505a53c52a3a"
+    },
+    {
+      "frame": 7330,
+      "time": 244.33333333333334,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-076.png",
+      "sha256": "d17a76a63f1d80fc4a702d2486669a9a432da9f95b434143ea52c676d6e43732"
+    },
+    {
+      "frame": 7387,
+      "time": 246.23333333333332,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-077.png",
+      "sha256": "86576bf040e2acdae9ad0b0c69a235ad4a548f3f50c403e52e3f2ba1fe34d7b6"
+    },
+    {
+      "frame": 7390,
+      "time": 246.33333333333334,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-078.png",
+      "sha256": "22a5566b483ee04776d26387f6436751b506d53d797a899f0dbb7db6eab949b7"
+    },
+    {
+      "frame": 7460,
+      "time": 248.66666666666666,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-079.png",
+      "sha256": "37f7fcea49592c740021e97689304e1014878c9e1d107ad7f3c917d884159f79"
+    },
+    {
+      "frame": 7520,
+      "time": 250.66666666666666,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-080.png",
+      "sha256": "0c952d31d1fe33eac4a5a44e7b39c08fb00a0b77ccd2c356c738442f7ffd725e"
+    },
+    {
+      "frame": 7530,
+      "time": 251,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-081.png",
+      "sha256": "f334ca0df5d18fd400dd539bb3e39d85785e61b08891f71cb07c1634529ce1f3"
+    },
+    {
+      "frame": 7555,
+      "time": 251.83333333333334,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-082.png",
+      "sha256": "327aafdcc1c4093f2d2727381a18358fc61f0856da2f4d928b369c8fe79764d9"
+    },
+    {
+      "frame": 7610,
+      "time": 253.66666666666666,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-083.png",
+      "sha256": "165d3dda68caea40067eff1e17947eb055c5382b5826d66a4058df2026b5b987"
+    },
+    {
+      "frame": 7710,
+      "time": 257,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-084.png",
+      "sha256": "55e0b5de9f524661520ea45fc8df759a952aa4668ef03c215781d4049abf75f6"
+    },
+    {
+      "frame": 7785,
+      "time": 259.5,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-085.png",
+      "sha256": "c46b390232e5191b88b4e3c53fd47e50e0e80f43d12ad1ec0f9d7e729515188e"
+    },
+    {
+      "frame": 7790,
+      "time": 259.6666666666667,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-086.png",
+      "sha256": "4a46ece758730892183c9e94b1e5a1a418a88faf0ff03dc407d7d5e46a22bb62"
+    },
+    {
+      "frame": 7890,
+      "time": 263,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-087.png",
+      "sha256": "aef0b228842366e60201a99184554df4f4d4c6bc46956a4d46baaf750959f587"
+    },
+    {
+      "frame": 7960,
+      "time": 265.3333333333333,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-088.png",
+      "sha256": "4241da4accbc748d6ea8d559d9cfddbb2d362bc795fde03e783a2f4cd2a3d1ac"
+    },
+    {
+      "frame": 7979,
+      "time": 265.96666666666664,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-089.png",
+      "sha256": "88d746c0fe7ec7df47759b44c29420f4d0369918b714ff75be6b5e206c5fc1ab"
+    },
+    {
+      "frame": 7980,
+      "time": 266,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-090.png",
+      "sha256": "6714c9aa4fd68895b2119a2199241047ea211e94959d60d3672a1c160007328b"
+    },
+    {
+      "frame": 8189,
+      "time": 272.96666666666664,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-091.png",
+      "sha256": "144edf894718f6aba78d89259cc4b345400f18decaf65d94e17cdb41610e6b9d"
+    },
+    {
+      "frame": 8190,
+      "time": 273,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-092.png",
+      "sha256": "50dbe769cfee8e8fddac6f66f86a6659770fad63238e8fb7a99ec1c3124826f2"
+    },
+    {
+      "frame": 8399,
+      "time": 279.96666666666664,
+      "path": "arts/actions/film/provenance/bake-v10/encoded-093.png",
+      "sha256": "36ceddd2dddce90eb76aeff472e03c4b226e407968ec133b12b6334fe1ffd696"
+    }
+  ],
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "warning",
+    "-nostdin",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "medium",
+    "-crf",
+    "18",
+    "-threads",
+    "2",
+    "-pix_fmt",
+    "yuv420p",
+    "-frames:v",
+    "8400",
+    "-video_track_timescale",
+    "15360",
+    "-map_metadata",
+    "-1",
+    "-movflags",
+    "+faststart",
+    "/Users/alan671/Documents/MYvideo/arts/actions/film/exports/film-complete-captioned-silent-v10.part.mp4"
+  ],
+  "renderSeconds": 1210.811,
+  "uniqueRasters": 4717,
+  "cacheHits": 3695,
+  "protectedInputs": 213,
+  "externalModelCalls": 0,
+  "captionCharacters": 994,
+  "motionFamilies": 4,
+  "opticalFlow": false,
+  "chapter06Restored": true,
+  "visualReview": "encoded contact sheets and browser playback verified",
+  "subtitles": {
+    "path": "arts/actions/film/exports/film-subtitles-v10.srt",
+    "sha256": "06693a2d0ae9735ec8d8ade7ac32137aef8d8489aef6d4cef8eb59c80453ebfe",
+    "count": 54,
+    "characters": 994
+  },
+  "browserReview": {
+    "ready": true,
+    "chapterJumpSeconds": 222,
+    "playbackFrom": 226.7,
+    "playbackReached": 275.8,
+    "seek": 242.7,
+    "screenshot": "arts/actions/film/provenance/bake-v10/browser-video.png"
+  },
+  "activeFlowFrames": 0,
+  "independentPaintingOriginals": 11,
+  "original06FramesRestored": 1740
+}
