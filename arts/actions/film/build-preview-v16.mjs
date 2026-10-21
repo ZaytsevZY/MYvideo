@@ -1,0 +1,5 @@
+import fs from 'node:fs';import {fileURLToPath} from 'node:url';import path from 'node:path';import {GLOBAL_BEATS,GLOBAL_CUES,NARRATION} from './scenes-v16.mjs';
+const F=path.dirname(fileURLToPath(import.meta.url)),prior=JSON.parse(fs.readFileSync(path.join(F,'bundle-v15.json'))),bundle={...prior,version:'FILM_PREVIEW v0.16',narrationVersion:NARRATION.version,date:'2026-10-21',audio:true,beats:GLOBAL_BEATS,captions:GLOBAL_CUES.length,captionSource:'captions-v16.json',audioSource:'arts/audio/film/voice-v16/narration-v16.wav'};
+fs.writeFileSync(path.join(F,'bundle-v16.json'),JSON.stringify(bundle,null,2)+'\n');
+const page=fs.readFileSync(path.join(F,'preview-v15.html'),'utf8').replace('新稿字幕预览 · 待新配音校时','新稿配音 · 已校准').replace('新稿字幕预览','配音同步预览').replace('新稿1247字符 · 69条字幕 · 暂定排时 · 旧配音不适用',`新稿1247字符 · ${GLOBAL_CUES.length}条字幕 · 云扬完整句配音 · 音频驱动同步`).replaceAll('captions-v15','captions-v16').replace('player-v15','player-v16');
+fs.writeFileSync(path.join(F,'preview-v16.html'),page);fs.writeFileSync(path.join(F,'preview.html'),page);console.log(JSON.stringify({version:bundle.version,duration:280,captions:GLOBAL_CUES.length,audio:true}));

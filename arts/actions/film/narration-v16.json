@@ -1,0 +1,1633 @@
+{
+  "version": "FILM_NARRATION v0.16",
+  "date": "2026-10-21",
+  "duration": 280,
+  "frames": 8400,
+  "fps": 30,
+  "audio": true,
+  "timing": "WordBoundary aligned to newly generated1247-character narration; chapter budgets unchanged",
+  "sources": [
+    {
+      "chapter": "01",
+      "path": "scripts/final/shot/01.md",
+      "sha256": "fb6fcba6b34891b2e4dd031bece5d782d41178b7da01c7c14b710dda36397f10",
+      "audioSha256": "f5557732c67bd5445e4fce1784b6adc4bc73d0f175b96efd595fa0ebde422a2c",
+      "audioText": "\n深夜，一位程序员把尚未完成的功能交给 Agent：编写代码、运行测试、整理文档。随后他合上屏幕，等到第二天再进行验收。\n\n从逐行敲下代码，转向简单的向 Agent 输入“发送”“接受”，他有机会更早合上电脑，下班回家休息。\n\n然而季度绩效评价就要到了，看着身边的同事，他总想着多做一些事：或许是补一个单元测试，重启某个搁置的需求。他发现任务逐项完成，Todo list却不断延长，似乎永远也做不完。\n\n为什么工具替人完成了更多任务，工作的终点反而越来越远？\n",
+      "canonicalText": "深夜，一位程序员把尚未完成的功能交给 Agent：编写代码、运行测试、整理文档。随后他合上屏幕，等到第二天再进行验收。从逐行敲下代码，转向简单的向 Agent 输入“发送”“接受”，他有机会更早合上电脑，下班回家休息。然而季度绩效评价就要到了，看着身边的同事，他总想着多做一些事：或许是补一个单元测试，重启某个搁置的需求。他发现任务逐项完成，Todo list却不断延长，似乎永远也做不完。为什么工具替人完成了更多任务，工作的终点反而越来越远？"
+    },
+    {
+      "chapter": "02",
+      "path": "scripts/final/shot/02.md",
+      "sha256": "a9721936bec26aa6dc718a095e637fe3caf30a5acf4ba2ce4c5f7d97d422bdfd",
+      "audioSha256": "d584d8f33377dfd74d7b3c6af7ddffee3835d186af685a4520dd2ade26e97a4a",
+      "audioText": "\n作为一名程序员，在他的职业中，工作不是固定的存量，永远会出现新的项目和需求。\nAgent 导致的开发成本下降会使项目的“成本-收益”边界移动，让部分需求的可行性逐渐提升。\n\n对这位劳动者而言，工具带来的效率收益既可用于减少劳动时长，也可用于扩大产出。\n而价值增殖目的促使其将节约的成本重新投入生产。因此随着成本降低，他倾向于安排更多的任务，以维持总劳动投入的平衡。\n",
+      "canonicalText": "作为一名程序员，在他的职业中，工作不是固定的存量，永远会出现新的项目和需求。Agent 导致的开发成本下降会使项目的“成本-收益”边界移动，让部分需求的可行性逐渐提升。对这位劳动者而言，工具带来的效率收益既可用于减少劳动时长，也可用于扩大产出。而价值增殖目的促使其将节约的成本重新投入生产。因此随着成本降低，他倾向于安排更多的任务，以维持总劳动投入的平衡。"
+    },
+    {
+      "chapter": "03",
+      "path": "scripts/final/shot/03.md",
+      "sha256": "ca03417c2248be5204ce9f9706401360262d7c43d1f2587169870250f2b8073b",
+      "audioSha256": "eea74e91cd10a9635c34c425be51493a13d67a566e9d6c518833e7a8735ed265",
+      "audioText": "\n在以工时组织的雇佣劳动中，劳动者让渡一定期限内的劳动力使用权以换取报酬。\n\n而在他的工作内，这“一定期限”的长度完全由企业和上司决定。即使他决定将清单提前清空，在约定工时结束之前，企业仍能在约定时段分配其他任务。\n\nAgent 工具前所未有地缩短了执行过程，却未必增大了劳动者对劳动时间的决定权。在响应要求、任务标准和工时界限的约束下，劳动者自然无法决定劳动是否结束。\n",
+      "canonicalText": "在以工时组织的雇佣劳动中，劳动者让渡一定期限内的劳动力使用权以换取报酬。而在他的工作内，这“一定期限”的长度完全由企业和上司决定。即使他决定将清单提前清空，在约定工时结束之前，企业仍能在约定时段分配其他任务。Agent 工具前所未有地缩短了执行过程，却未必增大了劳动者对劳动时间的决定权。在响应要求、任务标准和工时界限的约束下，劳动者自然无法决定劳动是否结束。"
+    },
+    {
+      "chapter": "04",
+      "path": "scripts/final/shot/04.md",
+      "sha256": "ce1785606691df53e0eae74ba429d20535dc1a615941235170f9e4a447dd5ab7",
+      "audioSha256": "6b9dca77876b9b55797a7112bd349621b2271a2145599c69da25d6c1301a2e79",
+      "audioText": "\n对一家科技公司的调查称，部分员工会主动扩大任务范围，在午餐、会前和晚间等非工作时段向 Agent 交付任务。\n对于这些员工而言，新增能力带来更多产出，组织预期也随之提高；其他员工将难以避免地卷入挤压时间的军备竞赛，以避免生产力竞争中落败。\n\n对于企业而言，竞争同样会强化采用新技术的压力：Agent 普及后，原有的效率优势逐渐消退。\n面对采用新技术的同行，企业同样会促使更高产出进入排期和考核，使原本的额外贡献转为新的基准，以在激烈竞争的市场中维持产品交付的优势。\n\n因此：Agent 带来的普遍生产力提升造成了工作标准的提升，从“能多做”，到“必须做”。\n",
+      "canonicalText": "对一家科技公司的调查称，部分员工会主动扩大任务范围，在午餐、会前和晚间等非工作时段向 Agent 交付任务。对于这些员工而言，新增能力带来更多产出，组织预期也随之提高；其他员工将难以避免地卷入挤压时间的军备竞赛，以避免生产力竞争中落败。对于企业而言，竞争同样会强化采用新技术的压力：Agent 普及后，原有的效率优势逐渐消退。面对采用新技术的同行，企业同样会促使更高产出进入排期和考核，使原本的额外贡献转为新的基准，以在激烈竞争的市场中维持产品交付的优势。因此：Agent 带来的普遍生产力提升造成了工作标准的提升，从“能多做”，到“必须做”。"
+    },
+    {
+      "chapter": "05",
+      "path": "scripts/final/shot/05.md",
+      "sha256": "38ec763fe22b97601b803cd7abdefcdd77a48622bf198dfc39ab2dfa6a1a9284",
+      "audioSha256": "e13ca80ee0807049a1ed01435e02a96567b0bb11856eff1abe258fed05723210",
+      "audioText": "\n或许有人会认为 Agent 总能分担一部分工作，为劳动者增加自主性；\n然而调度多个 Agent 可能会让部分员工产生指挥“虚拟员工”的错觉，却未必会赋予任何作为雇主的权力；\n这些“虚拟员工”反而会要求员工付出更多的成本，例如额外的时间和金钱，以维持自己作为“虚拟雇主”的身份。\n\n通过对劳动者施加竞争压力，社会劳动创造的生产力，在特定的占有和组织关系中，反而会成为约束劳动者的外在力量。\n这是劳动异化的一个侧面：具体的指令由劳动者发出，而劳动的目的与尺度仍可能由他人设定。\n",
+      "canonicalText": "或许有人会认为 Agent 总能分担一部分工作，为劳动者增加自主性；然而调度多个 Agent 可能会让部分员工产生指挥“虚拟员工”的错觉，却未必会赋予任何作为雇主的权力；这些“虚拟员工”反而会要求员工付出更多的成本，例如额外的时间和金钱，以维持自己作为“虚拟雇主”的身份。通过对劳动者施加竞争压力，社会劳动创造的生产力，在特定的占有和组织关系中，反而会成为约束劳动者的外在力量。这是劳动异化的一个侧面：具体的指令由劳动者发出，而劳动的目的与尺度仍可能由他人设定。"
+    },
+    {
+      "chapter": "06",
+      "path": "scripts/final/shot/06.md",
+      "sha256": "a43f42c19d1efbb6de6616ca272c04e05a020db670db65c35b1c39bb8755bb74",
+      "audioSha256": "418977b816256a2bc573b381976b7e7ca105aa882686880237ff65aa2d52b312",
+      "audioText": "\n总而言之，效率收益可以转化为更多交付，也可以转化为更短工时。区别在于谁决定生产规模，谁分配节约的时间。\n\n在生产力飞跃的时代，需要让劳动者参与确定任务边界，并获得实际可支配的时间，技术进步才有机会转化为人的自由。由此，劳动者才不会陷入无休止的竞争，市场才能远离生产过剩和衰退的危机。\n\n效率何时成为义务，取决于谁有权为工作画上句号。在 Agent 时代，记得好好生活。\n",
+      "canonicalText": "总而言之，效率收益可以转化为更多交付，也可以转化为更短工时。区别在于谁决定生产规模，谁分配节约的时间。在生产力飞跃的时代，需要让劳动者参与确定任务边界，并获得实际可支配的时间，技术进步才有机会转化为人的自由。由此，劳动者才不会陷入无休止的竞争，市场才能远离生产过剩和衰退的危机。效率何时成为义务，取决于谁有权为工作画上句号。在 Agent 时代，记得好好生活。"
+    }
+  ],
+  "cues": {
+    "01": [
+      {
+        "id": "N16-01-01",
+        "chapterId": "01",
+        "text": "深夜，一位程序员把尚未完成的功能交给 Agent：",
+        "startMs": 33,
+        "endMs": 3967,
+        "timestampMs": 40,
+        "confidence": null,
+        "voiceStartMs": 40.0,
+        "voiceEndMs": 3984.4579999999996,
+        "sentenceId": "S16-01-01",
+        "sourceIds": [
+          "N15-01-01"
+        ],
+        "sourceStartMs": 0,
+        "sourceEndMs": 4467,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-01-02",
+        "chapterId": "01",
+        "text": "编写代码、运行测试、整理文档。",
+        "startMs": 3967,
+        "endMs": 7000,
+        "timestampMs": 3984,
+        "confidence": null,
+        "voiceStartMs": 3984.4579999999996,
+        "voiceEndMs": 6852.874000000001,
+        "sentenceId": "S16-01-01",
+        "sourceIds": [
+          "N15-01-02"
+        ],
+        "sourceStartMs": 4467,
+        "sourceEndMs": 8033,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-01-03",
+        "chapterId": "01",
+        "text": "随后他合上屏幕，等到第二天再进行验收。",
+        "startMs": 7833,
+        "endMs": 11533,
+        "timestampMs": 7848,
+        "confidence": null,
+        "voiceStartMs": 7847.625000000001,
+        "voiceEndMs": 11400.249,
+        "sentenceId": "S16-01-02",
+        "sourceIds": [
+          "N15-01-03"
+        ],
+        "sourceStartMs": 8033,
+        "sourceEndMs": 12000,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-01-04",
+        "chapterId": "01",
+        "text": "从逐行敲下代码，转向简单的向 Agent 输入“发送”“接受”，",
+        "startMs": 12400,
+        "endMs": 17300,
+        "timestampMs": 12400,
+        "confidence": null,
+        "voiceStartMs": 12400.000000000002,
+        "voiceEndMs": 17308.166,
+        "sentenceId": "S16-01-03",
+        "sourceIds": [
+          "N15-01-04"
+        ],
+        "sourceStartMs": 12000,
+        "sourceEndMs": 17633,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-01-05",
+        "chapterId": "01",
+        "text": "他有机会更早合上电脑，下班回家休息。",
+        "startMs": 17300,
+        "endMs": 20733,
+        "timestampMs": 17308,
+        "confidence": null,
+        "voiceStartMs": 17308.166,
+        "voiceEndMs": 20597.624000000003,
+        "sentenceId": "S16-01-03",
+        "sourceIds": [
+          "N15-01-05"
+        ],
+        "sourceStartMs": 17633,
+        "sourceEndMs": 21800,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-01-06",
+        "chapterId": "01",
+        "text": "然而季度绩效评价就要到了，",
+        "startMs": 21600,
+        "endMs": 23967,
+        "timestampMs": 21608,
+        "confidence": null,
+        "voiceStartMs": 21607.625000000004,
+        "voiceEndMs": 23989.208000000002,
+        "sentenceId": "S16-01-04",
+        "sourceIds": [
+          "N15-01-06"
+        ],
+        "sourceStartMs": 21800,
+        "sourceEndMs": 25233,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-01-07",
+        "chapterId": "01",
+        "text": "看着身边的同事，他总想着多做一些事：",
+        "startMs": 23967,
+        "endMs": 27233,
+        "timestampMs": 23989,
+        "confidence": null,
+        "voiceStartMs": 23989.208000000002,
+        "voiceEndMs": 27265.541,
+        "sentenceId": "S16-01-04",
+        "sourceIds": [
+          "N15-01-07"
+        ],
+        "sourceStartMs": 25233,
+        "sourceEndMs": 29200,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-01-08",
+        "chapterId": "01",
+        "text": "或许是补一个单元测试，重启某个搁置的需求。",
+        "startMs": 27233,
+        "endMs": 31333,
+        "timestampMs": 27266,
+        "confidence": null,
+        "voiceStartMs": 27265.541,
+        "voiceEndMs": 31186.582000000002,
+        "sentenceId": "S16-01-04",
+        "sourceIds": [
+          "N15-01-08"
+        ],
+        "sourceStartMs": 29200,
+        "sourceEndMs": 33500,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-01-09",
+        "chapterId": "01",
+        "text": "他发现任务逐项完成，Todo list却不断延长，似乎永远也做不完。",
+        "startMs": 32200,
+        "endMs": 38200,
+        "timestampMs": 32230,
+        "confidence": null,
+        "voiceStartMs": 32230.000000000004,
+        "voiceEndMs": 38049.708000000006,
+        "sentenceId": "S16-01-05",
+        "sourceIds": [
+          "N15-01-09"
+        ],
+        "sourceStartMs": 33500,
+        "sourceEndMs": 39100,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-01-10",
+        "chapterId": "01",
+        "text": "为什么工具替人完成了更多任务，工作的终点反而越来越远？",
+        "startMs": 39033,
+        "endMs": 44333,
+        "timestampMs": 39058,
+        "confidence": null,
+        "voiceStartMs": 39057.625,
+        "voiceEndMs": 44189.208000000006,
+        "sentenceId": "S16-01-06",
+        "sourceIds": [
+          "N15-01-10"
+        ],
+        "sourceStartMs": 39100,
+        "sourceEndMs": 45000,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      }
+    ],
+    "02": [
+      {
+        "id": "N16-02-01",
+        "chapterId": "02",
+        "text": "作为一名程序员，在他的职业中，",
+        "startMs": 33,
+        "endMs": 2733,
+        "timestampMs": 45048,
+        "confidence": null,
+        "voiceStartMs": 45047.625,
+        "voiceEndMs": 47745.0,
+        "sentenceId": "S16-02-01",
+        "sourceIds": [
+          "N15-02-01"
+        ],
+        "sourceStartMs": 45000,
+        "sourceEndMs": 48633,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-02-02",
+        "chapterId": "02",
+        "text": "工作不是固定的存量，永远会出现新的项目和需求。",
+        "startMs": 2733,
+        "endMs": 7167,
+        "timestampMs": 47745,
+        "confidence": null,
+        "voiceStartMs": 47745.0,
+        "voiceEndMs": 52021.291,
+        "sentenceId": "S16-02-01",
+        "sourceIds": [
+          "N15-02-02"
+        ],
+        "sourceStartMs": 48633,
+        "sourceEndMs": 53100,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-02-03",
+        "chapterId": "02",
+        "text": "Agent 导致的开发成本下降会使项目的“成本-收益”边界移动，",
+        "startMs": 8000,
+        "endMs": 13233,
+        "timestampMs": 53020,
+        "confidence": null,
+        "voiceStartMs": 53019.99999999999,
+        "voiceEndMs": 58243.95799999999,
+        "sentenceId": "S16-02-02",
+        "sourceIds": [
+          "N15-02-03"
+        ],
+        "sourceStartMs": 53100,
+        "sourceEndMs": 58767,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-02-04",
+        "chapterId": "02",
+        "text": "让部分需求的可行性逐渐提升。",
+        "startMs": 13233,
+        "endMs": 16000,
+        "timestampMs": 58244,
+        "confidence": null,
+        "voiceStartMs": 58243.95799999999,
+        "voiceEndMs": 60862.37499999999,
+        "sentenceId": "S16-02-02",
+        "sourceIds": [
+          "N15-02-04"
+        ],
+        "sourceStartMs": 58767,
+        "sourceEndMs": 62400,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-02-05",
+        "chapterId": "02",
+        "text": "对这位劳动者而言，工具带来的效率收益",
+        "startMs": 16833,
+        "endMs": 20167,
+        "timestampMs": 61860,
+        "confidence": null,
+        "voiceStartMs": 61860.0,
+        "voiceEndMs": 65196.041,
+        "sentenceId": "S16-02-03",
+        "sourceIds": [
+          "N15-02-05"
+        ],
+        "sourceStartMs": 62400,
+        "sourceEndMs": 66300,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-02-06",
+        "chapterId": "02",
+        "text": "既可用于减少劳动时长，也可用于扩大产出。",
+        "startMs": 20167,
+        "endMs": 24167,
+        "timestampMs": 65196,
+        "confidence": null,
+        "voiceStartMs": 65196.041,
+        "voiceEndMs": 69024.999,
+        "sentenceId": "S16-02-03",
+        "sourceIds": [
+          "N15-02-06"
+        ],
+        "sourceStartMs": 66300,
+        "sourceEndMs": 70400,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-02-07",
+        "chapterId": "02",
+        "text": "而价值增殖目的促使其将节约的成本重新投入生产。",
+        "startMs": 25033,
+        "endMs": 30100,
+        "timestampMs": 70048,
+        "confidence": null,
+        "voiceStartMs": 70047.625,
+        "voiceEndMs": 74968.666,
+        "sentenceId": "S16-02-04",
+        "sourceIds": [
+          "N15-02-07"
+        ],
+        "sourceStartMs": 70400,
+        "sourceEndMs": 75400,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-02-08",
+        "chapterId": "02",
+        "text": "因此随着成本降低，他倾向于安排更多的任务，",
+        "startMs": 30933,
+        "endMs": 35167,
+        "timestampMs": 75960,
+        "confidence": null,
+        "voiceStartMs": 75960.00000000001,
+        "voiceEndMs": 80168.16600000001,
+        "sentenceId": "S16-02-05",
+        "sourceIds": [
+          "N15-02-08"
+        ],
+        "sourceStartMs": 75400,
+        "sourceEndMs": 79700,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-02-09",
+        "chapterId": "02",
+        "text": "以维持总劳动投入的平衡。",
+        "startMs": 35167,
+        "endMs": 37533,
+        "timestampMs": 80168,
+        "confidence": null,
+        "voiceStartMs": 80168.16600000001,
+        "voiceEndMs": 82405.0,
+        "sentenceId": "S16-02-05",
+        "sourceIds": [
+          "N15-02-09"
+        ],
+        "sourceStartMs": 79700,
+        "sourceEndMs": 83000,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      }
+    ],
+    "03": [
+      {
+        "id": "N16-03-01",
+        "chapterId": "03",
+        "text": "在以工时组织的雇佣劳动中，",
+        "startMs": 33,
+        "endMs": 2367,
+        "timestampMs": 83040,
+        "confidence": null,
+        "voiceStartMs": 83040.0,
+        "voiceEndMs": 85372.375,
+        "sentenceId": "S16-03-01",
+        "sourceIds": [
+          "N15-03-01"
+        ],
+        "sourceStartMs": 83000,
+        "sourceEndMs": 86433,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-03-02",
+        "chapterId": "03",
+        "text": "劳动者让渡一定期限内的劳动力使用权以换取报酬。",
+        "startMs": 2367,
+        "endMs": 6733,
+        "timestampMs": 85372,
+        "confidence": null,
+        "voiceStartMs": 85372.375,
+        "voiceEndMs": 89609.20800000001,
+        "sentenceId": "S16-03-01",
+        "sourceIds": [
+          "N15-03-02"
+        ],
+        "sourceStartMs": 86433,
+        "sourceEndMs": 91000,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-03-03",
+        "chapterId": "03",
+        "text": "而在他的工作内，这“一定期限”的长度",
+        "startMs": 7567,
+        "endMs": 10700,
+        "timestampMs": 90578,
+        "confidence": null,
+        "voiceStartMs": 90577.625,
+        "voiceEndMs": 93709.20799999998,
+        "sentenceId": "S16-03-02",
+        "sourceIds": [
+          "N15-03-03"
+        ],
+        "sourceStartMs": 91000,
+        "sourceEndMs": 94367,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-03-04",
+        "chapterId": "03",
+        "text": "完全由企业和上司决定。",
+        "startMs": 10700,
+        "endMs": 12933,
+        "timestampMs": 93709,
+        "confidence": null,
+        "voiceStartMs": 93709.20799999998,
+        "voiceEndMs": 95801.333,
+        "sentenceId": "S16-03-02",
+        "sourceIds": [
+          "N15-03-04"
+        ],
+        "sourceStartMs": 94367,
+        "sourceEndMs": 97200,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-03-05",
+        "chapterId": "03",
+        "text": "即使他决定将清单提前清空，",
+        "startMs": 13800,
+        "endMs": 16567,
+        "timestampMs": 96808,
+        "confidence": null,
+        "voiceStartMs": 96807.625,
+        "voiceEndMs": 99570.791,
+        "sentenceId": "S16-03-03",
+        "sourceIds": [
+          "N15-03-05"
+        ],
+        "sourceStartMs": 97200,
+        "sourceEndMs": 100667,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-03-06",
+        "chapterId": "03",
+        "text": "在约定工时结束之前，企业仍能在约定时段分配其他任务。",
+        "startMs": 16567,
+        "endMs": 21667,
+        "timestampMs": 99571,
+        "confidence": null,
+        "voiceStartMs": 99570.791,
+        "voiceEndMs": 104544.458,
+        "sentenceId": "S16-03-03",
+        "sourceIds": [
+          "N15-03-06"
+        ],
+        "sourceStartMs": 100667,
+        "sourceEndMs": 105600,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-03-07",
+        "chapterId": "03",
+        "text": "Agent 工具前所未有地缩短了执行过程，",
+        "startMs": 22500,
+        "endMs": 25800,
+        "timestampMs": 105500,
+        "confidence": null,
+        "voiceStartMs": 105500.0,
+        "voiceEndMs": 108806.041,
+        "sentenceId": "S16-03-04",
+        "sourceIds": [
+          "N15-03-07"
+        ],
+        "sourceStartMs": 105600,
+        "sourceEndMs": 109667,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-03-08",
+        "chapterId": "03",
+        "text": "却未必增大了劳动者对劳动时间的决定权。",
+        "startMs": 25800,
+        "endMs": 29367,
+        "timestampMs": 108806,
+        "confidence": null,
+        "voiceStartMs": 108806.041,
+        "voiceEndMs": 112213.958,
+        "sentenceId": "S16-03-04",
+        "sourceIds": [
+          "N15-03-08"
+        ],
+        "sourceStartMs": 109667,
+        "sourceEndMs": 113600,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-03-09",
+        "chapterId": "03",
+        "text": "在响应要求、任务标准和工时界限的约束下，",
+        "startMs": 30200,
+        "endMs": 34167,
+        "timestampMs": 113208,
+        "confidence": null,
+        "voiceStartMs": 113207.625,
+        "voiceEndMs": 117168.166,
+        "sentenceId": "S16-03-05",
+        "sourceIds": [
+          "N15-03-09"
+        ],
+        "sourceStartMs": 113600,
+        "sourceEndMs": 118033,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-03-10",
+        "chapterId": "03",
+        "text": "劳动者自然无法决定劳动是否结束。",
+        "startMs": 34167,
+        "endMs": 37467,
+        "timestampMs": 117168,
+        "confidence": null,
+        "voiceStartMs": 117168.166,
+        "voiceEndMs": 120326.041,
+        "sentenceId": "S16-03-05",
+        "sourceIds": [
+          "N15-03-10"
+        ],
+        "sourceStartMs": 118033,
+        "sourceEndMs": 122000,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      }
+    ],
+    "04": [
+      {
+        "id": "N16-04-01",
+        "chapterId": "04",
+        "text": "对一家科技公司的调查称，",
+        "startMs": 433,
+        "endMs": 2433,
+        "timestampMs": 122440,
+        "confidence": null,
+        "voiceStartMs": 122440.0,
+        "voiceEndMs": 124456.583,
+        "sentenceId": "S16-04-01",
+        "sourceIds": [
+          "N15-04-01"
+        ],
+        "sourceStartMs": 122400,
+        "sourceEndMs": 125400,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-04-02",
+        "chapterId": "04",
+        "text": "部分员工会主动扩大任务范围，",
+        "startMs": 2433,
+        "endMs": 5167,
+        "timestampMs": 124457,
+        "confidence": null,
+        "voiceStartMs": 124456.583,
+        "voiceEndMs": 127193.416,
+        "sentenceId": "S16-04-01",
+        "sourceIds": [
+          "N15-04-02"
+        ],
+        "sourceStartMs": 125400,
+        "sourceEndMs": 128600,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-04-03",
+        "chapterId": "04",
+        "text": "在午餐、会前和晚间等非工作时段向 Agent 交付任务。",
+        "startMs": 5167,
+        "endMs": 9967,
+        "timestampMs": 127193,
+        "confidence": null,
+        "voiceStartMs": 127193.416,
+        "voiceEndMs": 131824.99899999998,
+        "sentenceId": "S16-04-01",
+        "sourceIds": [
+          "N15-04-03"
+        ],
+        "sourceStartMs": 128600,
+        "sourceEndMs": 132800,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-04-04",
+        "chapterId": "04",
+        "text": "对于这些员工而言，新增能力带来更多产出，",
+        "startMs": 10767,
+        "endMs": 14633,
+        "timestampMs": 132788,
+        "confidence": null,
+        "voiceStartMs": 132787.625,
+        "voiceEndMs": 136642.875,
+        "sentenceId": "S16-04-02",
+        "sourceIds": [
+          "N15-04-04"
+        ],
+        "sourceStartMs": 132800,
+        "sourceEndMs": 136467,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-04-05",
+        "chapterId": "04",
+        "text": "组织预期也随之提高；",
+        "startMs": 14633,
+        "endMs": 16833,
+        "timestampMs": 136643,
+        "confidence": null,
+        "voiceStartMs": 136642.875,
+        "voiceEndMs": 138682.374,
+        "sentenceId": "S16-04-02",
+        "sourceIds": [
+          "N15-04-05"
+        ],
+        "sourceStartMs": 136467,
+        "sourceEndMs": 139300,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-04-06",
+        "chapterId": "04",
+        "text": "其他员工将难以避免地卷入挤压时间的军备竞赛，",
+        "startMs": 17667,
+        "endMs": 21967,
+        "timestampMs": 139680,
+        "confidence": null,
+        "voiceStartMs": 139680.0,
+        "voiceEndMs": 143986.041,
+        "sentenceId": "S16-04-03",
+        "sourceIds": [
+          "N15-04-06"
+        ],
+        "sourceStartMs": 139300,
+        "sourceEndMs": 143100,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-04-07",
+        "chapterId": "04",
+        "text": "以避免生产力竞争中落败。",
+        "startMs": 21967,
+        "endMs": 24300,
+        "timestampMs": 143986,
+        "confidence": null,
+        "voiceStartMs": 143986.041,
+        "voiceEndMs": 146170.249,
+        "sentenceId": "S16-04-03",
+        "sourceIds": [
+          "N15-04-07"
+        ],
+        "sourceStartMs": 143100,
+        "sourceEndMs": 146100,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-04-08",
+        "chapterId": "04",
+        "text": "对于企业而言，竞争同样会强化采用新技术的压力：",
+        "startMs": 25167,
+        "endMs": 29367,
+        "timestampMs": 147170,
+        "confidence": null,
+        "voiceStartMs": 147170.00000000003,
+        "voiceEndMs": 151370.79100000003,
+        "sentenceId": "S16-04-04",
+        "sourceIds": [
+          "N15-04-08"
+        ],
+        "sourceStartMs": 146100,
+        "sourceEndMs": 150700,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-04-09",
+        "chapterId": "04",
+        "text": "Agent 普及后，原有的效率优势逐渐消退。",
+        "startMs": 29367,
+        "endMs": 32767,
+        "timestampMs": 151371,
+        "confidence": null,
+        "voiceStartMs": 151370.79100000003,
+        "voiceEndMs": 154620.79100000003,
+        "sentenceId": "S16-04-04",
+        "sourceIds": [
+          "N15-04-09"
+        ],
+        "sourceStartMs": 150700,
+        "sourceEndMs": 155100,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-04-10",
+        "chapterId": "04",
+        "text": "面对采用新技术的同行，企业同样会促使更高产出进入排期和考核，",
+        "startMs": 33600,
+        "endMs": 39733,
+        "timestampMs": 155600,
+        "confidence": null,
+        "voiceStartMs": 155600.0,
+        "voiceEndMs": 161748.666,
+        "sentenceId": "S16-04-05",
+        "sourceIds": [
+          "N15-04-10",
+          "N15-04-11"
+        ],
+        "sourceStartMs": 155100,
+        "sourceEndMs": 161500,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-04-11",
+        "chapterId": "04",
+        "text": "使原本的额外贡献转为新的基准，",
+        "startMs": 39733,
+        "endMs": 42800,
+        "timestampMs": 161749,
+        "confidence": null,
+        "voiceStartMs": 161748.666,
+        "voiceEndMs": 164801.333,
+        "sentenceId": "S16-04-05",
+        "sourceIds": [
+          "N15-04-12"
+        ],
+        "sourceStartMs": 161500,
+        "sourceEndMs": 164700,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-04-12",
+        "chapterId": "04",
+        "text": "以在激烈竞争的市场中维持产品交付的优势。",
+        "startMs": 42800,
+        "endMs": 46567,
+        "timestampMs": 164801,
+        "confidence": null,
+        "voiceStartMs": 164801.333,
+        "voiceEndMs": 168432.874,
+        "sentenceId": "S16-04-05",
+        "sourceIds": [
+          "N15-04-13"
+        ],
+        "sourceStartMs": 164700,
+        "sourceEndMs": 168300,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-04-13",
+        "chapterId": "04",
+        "text": "因此：Agent 带来的普遍生产力提升造成了工作标准的提升，",
+        "startMs": 47433,
+        "endMs": 52267,
+        "timestampMs": 169440,
+        "confidence": null,
+        "voiceStartMs": 169440.0,
+        "voiceEndMs": 174292.375,
+        "sentenceId": "S16-04-06",
+        "sourceIds": [
+          "N15-04-14"
+        ],
+        "sourceStartMs": 168300,
+        "sourceEndMs": 173467,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-04-14",
+        "chapterId": "04",
+        "text": "从“能多做”，到“必须做”。",
+        "startMs": 52267,
+        "endMs": 54533,
+        "timestampMs": 174292,
+        "confidence": null,
+        "voiceStartMs": 174292.375,
+        "voiceEndMs": 176397.666,
+        "sentenceId": "S16-04-06",
+        "sourceIds": [
+          "N15-04-15"
+        ],
+        "sourceStartMs": 173467,
+        "sourceEndMs": 177000,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      }
+    ],
+    "05": [
+      {
+        "id": "N16-05-01",
+        "chapterId": "05",
+        "text": "或许有人会认为 Agent 总能分担一部分工作，",
+        "startMs": 433,
+        "endMs": 4033,
+        "timestampMs": 177440,
+        "confidence": null,
+        "voiceStartMs": 177440.0,
+        "voiceEndMs": 181045.541,
+        "sentenceId": "S16-05-01",
+        "sourceIds": [
+          "N15-05-01"
+        ],
+        "sourceStartMs": 177400,
+        "sourceEndMs": 180967,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-05-02",
+        "chapterId": "05",
+        "text": "为劳动者增加自主性；",
+        "startMs": 4033,
+        "endMs": 6067,
+        "timestampMs": 181046,
+        "confidence": null,
+        "voiceStartMs": 181045.541,
+        "voiceEndMs": 182940.24899999998,
+        "sentenceId": "S16-05-01",
+        "sourceIds": [
+          "N15-05-02"
+        ],
+        "sourceStartMs": 180967,
+        "sourceEndMs": 183700,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-05-03",
+        "chapterId": "05",
+        "text": "然而调度多个 Agent 可能会让部分员工产生",
+        "startMs": 6767,
+        "endMs": 10400,
+        "timestampMs": 183770,
+        "confidence": null,
+        "voiceStartMs": 183770.0,
+        "voiceEndMs": 187418.16600000003,
+        "sentenceId": "S16-05-02",
+        "sourceIds": [
+          "N15-05-03"
+        ],
+        "sourceStartMs": 183700,
+        "sourceEndMs": 187300,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-05-04",
+        "chapterId": "05",
+        "text": "指挥“虚拟员工”的错觉，却未必会赋予任何作为雇主的权力；",
+        "startMs": 10400,
+        "endMs": 15400,
+        "timestampMs": 187418,
+        "confidence": null,
+        "voiceStartMs": 187418.16600000003,
+        "voiceEndMs": 192247.082,
+        "sentenceId": "S16-05-02",
+        "sourceIds": [
+          "N15-05-04",
+          "N15-05-05"
+        ],
+        "sourceStartMs": 187300,
+        "sourceEndMs": 193400,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-05-05",
+        "chapterId": "05",
+        "text": "这些“虚拟员工”反而会要求员工付出更多的成本，",
+        "startMs": 16067,
+        "endMs": 20067,
+        "timestampMs": 193098,
+        "confidence": null,
+        "voiceStartMs": 193097.625,
+        "voiceEndMs": 197097.625,
+        "sentenceId": "S16-05-03",
+        "sourceIds": [
+          "N15-05-06"
+        ],
+        "sourceStartMs": 193400,
+        "sourceEndMs": 197200,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-05-06",
+        "chapterId": "05",
+        "text": "例如额外的时间和金钱，",
+        "startMs": 20067,
+        "endMs": 22100,
+        "timestampMs": 197098,
+        "confidence": null,
+        "voiceStartMs": 197097.625,
+        "voiceEndMs": 199110.791,
+        "sentenceId": "S16-05-03",
+        "sourceIds": [
+          "N15-05-07"
+        ],
+        "sourceStartMs": 197200,
+        "sourceEndMs": 200067,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-05-07",
+        "chapterId": "05",
+        "text": "以维持自己作为“虚拟雇主”的身份。",
+        "startMs": 22100,
+        "endMs": 24767,
+        "timestampMs": 199111,
+        "confidence": null,
+        "voiceStartMs": 199110.791,
+        "voiceEndMs": 201637.082,
+        "sentenceId": "S16-05-03",
+        "sourceIds": [
+          "N15-05-08"
+        ],
+        "sourceStartMs": 200067,
+        "sourceEndMs": 203400,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-05-08",
+        "chapterId": "05",
+        "text": "通过对劳动者施加竞争压力，",
+        "startMs": 25467,
+        "endMs": 28033,
+        "timestampMs": 202490,
+        "confidence": null,
+        "voiceStartMs": 202490.0,
+        "voiceEndMs": 205040.25,
+        "sentenceId": "S16-05-04",
+        "sourceIds": [
+          "N15-05-09"
+        ],
+        "sourceStartMs": 203400,
+        "sourceEndMs": 206400,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-05-09",
+        "chapterId": "05",
+        "text": "社会劳动创造的生产力，在特定的占有和组织关系中，",
+        "startMs": 28033,
+        "endMs": 32600,
+        "timestampMs": 205040,
+        "confidence": null,
+        "voiceStartMs": 205040.25,
+        "voiceEndMs": 209632.375,
+        "sentenceId": "S16-05-04",
+        "sourceIds": [
+          "N15-05-10"
+        ],
+        "sourceStartMs": 206400,
+        "sourceEndMs": 210267,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-05-10",
+        "chapterId": "05",
+        "text": "反而会成为约束劳动者的外在力量。",
+        "startMs": 32600,
+        "endMs": 35667,
+        "timestampMs": 209632,
+        "confidence": null,
+        "voiceStartMs": 209632.375,
+        "voiceEndMs": 212513.957,
+        "sentenceId": "S16-05-04",
+        "sourceIds": [
+          "N15-05-11"
+        ],
+        "sourceStartMs": 210267,
+        "sourceEndMs": 213500,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-05-11",
+        "chapterId": "05",
+        "text": "这是劳动异化的一个侧面：具体的指令由劳动者发出，",
+        "startMs": 36367,
+        "endMs": 40800,
+        "timestampMs": 213388,
+        "confidence": null,
+        "voiceStartMs": 213387.625,
+        "voiceEndMs": 217821.83299999998,
+        "sentenceId": "S16-05-05",
+        "sourceIds": [
+          "N15-05-12",
+          "N15-05-13"
+        ],
+        "sourceStartMs": 213500,
+        "sourceEndMs": 218933,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-05-12",
+        "chapterId": "05",
+        "text": "而劳动的目的与尺度仍可能由他人设定。",
+        "startMs": 40800,
+        "endMs": 44933,
+        "timestampMs": 217822,
+        "confidence": null,
+        "voiceStartMs": 217821.83299999998,
+        "voiceEndMs": 221782.374,
+        "sentenceId": "S16-05-05",
+        "sourceIds": [
+          "N15-05-14"
+        ],
+        "sourceStartMs": 218933,
+        "sourceEndMs": 222000,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      }
+    ],
+    "06": [
+      {
+        "id": "N16-06-01",
+        "chapterId": "06",
+        "text": "总而言之，效率收益可以转化为更多交付，",
+        "startMs": 433,
+        "endMs": 3933,
+        "timestampMs": 222448,
+        "confidence": null,
+        "voiceStartMs": 222447.625,
+        "voiceEndMs": 225934.458,
+        "sentenceId": "S16-06-01",
+        "sourceIds": [
+          "N15-06-01"
+        ],
+        "sourceStartMs": 222400,
+        "sourceEndMs": 226100,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-06-02",
+        "chapterId": "06",
+        "text": "也可以转化为更短工时。",
+        "startMs": 3933,
+        "endMs": 5933,
+        "timestampMs": 225934,
+        "confidence": null,
+        "voiceStartMs": 225934.458,
+        "voiceEndMs": 227789.75,
+        "sentenceId": "S16-06-01",
+        "sourceIds": [
+          "N15-06-02"
+        ],
+        "sourceStartMs": 226100,
+        "sourceEndMs": 229100,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-06-03",
+        "chapterId": "06",
+        "text": "区别在于谁决定生产规模，谁分配节约的时间。",
+        "startMs": 6800,
+        "endMs": 11233,
+        "timestampMs": 228818,
+        "confidence": null,
+        "voiceStartMs": 228817.625,
+        "voiceEndMs": 233080.75,
+        "sentenceId": "S16-06-02",
+        "sourceIds": [
+          "N15-06-03"
+        ],
+        "sourceStartMs": 229100,
+        "sourceEndMs": 233000,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-06-04",
+        "chapterId": "06",
+        "text": "在生产力飞跃的时代，需要让劳动者参与确定任务边界，",
+        "startMs": 12067,
+        "endMs": 16600,
+        "timestampMs": 234080,
+        "confidence": null,
+        "voiceStartMs": 234080.0,
+        "voiceEndMs": 238626.04100000003,
+        "sentenceId": "S16-06-03",
+        "sourceIds": [
+          "N15-06-04",
+          "N15-06-05"
+        ],
+        "sourceStartMs": 233000,
+        "sourceEndMs": 238900,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-06-05",
+        "chapterId": "06",
+        "text": "并获得实际可支配的时间，",
+        "startMs": 16600,
+        "endMs": 18967,
+        "timestampMs": 238626,
+        "confidence": null,
+        "voiceStartMs": 238626.04100000003,
+        "voiceEndMs": 240968.16600000003,
+        "sentenceId": "S16-06-03",
+        "sourceIds": [
+          "N15-06-06"
+        ],
+        "sourceStartMs": 238900,
+        "sourceEndMs": 241800,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-06-06",
+        "chapterId": "06",
+        "text": "技术进步才有机会转化为人的自由。",
+        "startMs": 18967,
+        "endMs": 22033,
+        "timestampMs": 240968,
+        "confidence": null,
+        "voiceStartMs": 240968.16600000003,
+        "voiceEndMs": 243889.207,
+        "sentenceId": "S16-06-03",
+        "sourceIds": [
+          "N15-06-07"
+        ],
+        "sourceStartMs": 241800,
+        "sourceEndMs": 245000,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-06-07",
+        "chapterId": "06",
+        "text": "由此，劳动者才不会陷入无休止的竞争，",
+        "startMs": 22867,
+        "endMs": 26200,
+        "timestampMs": 244880,
+        "confidence": null,
+        "voiceStartMs": 244880.0,
+        "voiceEndMs": 248232.875,
+        "sentenceId": "S16-06-04",
+        "sourceIds": [
+          "N15-06-08"
+        ],
+        "sourceStartMs": 245000,
+        "sourceEndMs": 249067,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-06-08",
+        "chapterId": "06",
+        "text": "市场才能远离生产过剩和衰退的危机。",
+        "startMs": 26200,
+        "endMs": 29733,
+        "timestampMs": 248233,
+        "confidence": null,
+        "voiceStartMs": 248232.875,
+        "voiceEndMs": 251601.291,
+        "sentenceId": "S16-06-04",
+        "sourceIds": [
+          "N15-06-09"
+        ],
+        "sourceStartMs": 249067,
+        "sourceEndMs": 253000,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-06-09",
+        "chapterId": "06",
+        "text": "效率何时成为义务，取决于谁有权为工作画上句号。",
+        "startMs": 31033,
+        "endMs": 35533,
+        "timestampMs": 253040,
+        "confidence": null,
+        "voiceStartMs": 253040.0,
+        "voiceEndMs": 257395.49999999997,
+        "sentenceId": "S16-06-05",
+        "sourceIds": [
+          "N15-06-10"
+        ],
+        "sourceStartMs": 253000,
+        "sourceEndMs": 258833,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      },
+      {
+        "id": "N16-06-10",
+        "chapterId": "06",
+        "text": "在 Agent 时代，记得好好生活。",
+        "startMs": 35900,
+        "endMs": 38367,
+        "timestampMs": 257910,
+        "confidence": null,
+        "voiceStartMs": 257909.99999999997,
+        "voiceEndMs": 260229.20799999998,
+        "sentenceId": "S16-06-06",
+        "sourceIds": [
+          "N15-06-11"
+        ],
+        "sourceStartMs": 258833,
+        "sourceEndMs": 263500,
+        "timing": "Microsoft WordBoundary character offsets; display rounded to30fps"
+      }
+    ]
+  },
+  "clocks": {
+    "01": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.967,
+        4.467
+      ],
+      [
+        7.833,
+        8.033
+      ],
+      [
+        12.4,
+        12.0
+      ],
+      [
+        17.3,
+        17.633
+      ],
+      [
+        21.6,
+        21.8
+      ],
+      [
+        23.967,
+        25.233
+      ],
+      [
+        27.233,
+        29.2
+      ],
+      [
+        32.2,
+        33.5
+      ],
+      [
+        39.033,
+        39.1
+      ],
+      [
+        45.0,
+        45.0
+      ]
+    ],
+    "02": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.732999999999997,
+        3.6330000000000027
+      ],
+      [
+        8.0,
+        8.100000000000001
+      ],
+      [
+        13.232999999999997,
+        13.767000000000003
+      ],
+      [
+        16.833,
+        17.4
+      ],
+      [
+        20.167,
+        21.299999999999997
+      ],
+      [
+        25.033,
+        25.400000000000006
+      ],
+      [
+        30.933000000000007,
+        30.400000000000006
+      ],
+      [
+        35.167,
+        34.7
+      ],
+      [
+        38.0,
+        38.0
+      ]
+    ],
+    "03": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        2.3670000000000044,
+        3.433000000000007
+      ],
+      [
+        7.566999999999993,
+        8.0
+      ],
+      [
+        10.700000000000003,
+        11.367000000000004
+      ],
+      [
+        13.799999999999997,
+        14.200000000000003
+      ],
+      [
+        16.566999999999993,
+        17.667
+      ],
+      [
+        22.5,
+        22.599999999999994
+      ],
+      [
+        25.799999999999997,
+        26.667
+      ],
+      [
+        30.200000000000003,
+        30.599999999999994
+      ],
+      [
+        34.167,
+        35.033
+      ],
+      [
+        39.0,
+        39.0
+      ]
+    ],
+    "04": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.4,
+        0.4
+      ],
+      [
+        2.433000000000007,
+        3.4000000000000057
+      ],
+      [
+        5.167000000000002,
+        6.599999999999994
+      ],
+      [
+        10.766999999999996,
+        10.800000000000011
+      ],
+      [
+        14.63300000000001,
+        14.467000000000013
+      ],
+      [
+        17.667,
+        17.30000000000001
+      ],
+      [
+        21.967000000000013,
+        21.099999999999994
+      ],
+      [
+        25.167,
+        24.099999999999994
+      ],
+      [
+        29.36699999999999,
+        28.69999999999999
+      ],
+      [
+        33.599999999999994,
+        33.099999999999994
+      ],
+      [
+        35.53299999999999,
+        35.96700000000001
+      ],
+      [
+        39.733000000000004,
+        39.5
+      ],
+      [
+        42.80000000000001,
+        42.69999999999999
+      ],
+      [
+        47.43299999999999,
+        46.30000000000001
+      ],
+      [
+        52.266999999999996,
+        51.46700000000001
+      ],
+      [
+        55.0,
+        55.0
+      ]
+    ],
+    "05": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.4,
+        0.4
+      ],
+      [
+        4.032999999999987,
+        3.967000000000013
+      ],
+      [
+        6.766999999999996,
+        6.699999999999989
+      ],
+      [
+        10.400000000000006,
+        10.300000000000011
+      ],
+      [
+        12.233000000000004,
+        13.199999999999989
+      ],
+      [
+        16.067000000000007,
+        16.400000000000006
+      ],
+      [
+        20.067000000000007,
+        20.19999999999999
+      ],
+      [
+        22.099999999999994,
+        23.067000000000007
+      ],
+      [
+        25.467000000000013,
+        26.400000000000006
+      ],
+      [
+        28.032999999999987,
+        29.400000000000006
+      ],
+      [
+        32.599999999999994,
+        33.266999999999996
+      ],
+      [
+        36.36699999999999,
+        36.5
+      ],
+      [
+        38.333,
+        39.19999999999999
+      ],
+      [
+        40.80000000000001,
+        41.93299999999999
+      ],
+      [
+        45.0,
+        45.0
+      ]
+    ],
+    "06": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.4,
+        0.4
+      ],
+      [
+        3.9329999999999927,
+        4.099999999999994
+      ],
+      [
+        6.800000000000011,
+        7.099999999999994
+      ],
+      [
+        12.067000000000007,
+        11.0
+      ],
+      [
+        13.733000000000004,
+        13.766999999999996
+      ],
+      [
+        16.599999999999994,
+        16.900000000000006
+      ],
+      [
+        18.967000000000013,
+        19.80000000000001
+      ],
+      [
+        22.86699999999999,
+        23.0
+      ],
+      [
+        26.19999999999999,
+        27.067000000000007
+      ],
+      [
+        31.0,
+        31.0
+      ],
+      [
+        35.89999999999998,
+        36.83300000000003
+      ],
+      [
+        44.0,
+        44.0
+      ],
+      [
+        58.0,
+        58.0
+      ]
+    ]
+  },
+  "chapters": [
+    {
+      "chapter": "01",
+      "duration": 45,
+      "start": 0,
+      "cues": 10,
+      "characters": 218,
+      "chineseCharacters": 175,
+      "minDisplayMs": 2367
+    },
+    {
+      "chapter": "02",
+      "duration": 38,
+      "start": 45,
+      "cues": 9,
+      "characters": 177,
+      "chineseCharacters": 156,
+      "minDisplayMs": 2366
+    },
+    {
+      "chapter": "03",
+      "duration": 39,
+      "start": 83,
+      "cues": 10,
+      "characters": 179,
+      "chineseCharacters": 160,
+      "minDisplayMs": 2233
+    },
+    {
+      "chapter": "04",
+      "duration": 55,
+      "start": 122,
+      "cues": 14,
+      "characters": 268,
+      "chineseCharacters": 228,
+      "minDisplayMs": 2000
+    },
+    {
+      "chapter": "05",
+      "duration": 45,
+      "start": 177,
+      "cues": 12,
+      "characters": 227,
+      "chineseCharacters": 197,
+      "minDisplayMs": 2033
+    },
+    {
+      "chapter": "06",
+      "duration": 58,
+      "start": 222,
+      "cues": 10,
+      "characters": 178,
+      "chineseCharacters": 157,
+      "minDisplayMs": 2000
+    }
+  ]
+}

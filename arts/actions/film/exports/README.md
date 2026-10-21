@@ -1,3 +1,11 @@
+# 当前完整成片 v0.18
+
+[播放器](http://127.0.0.1:8765/actions/film/exports/index-v18.html) · [MP4](film-complete-final-v18.mp4) · [SRT](film-subtitles-final-v18.srt) · [验证清单](film-complete-final-v18-manifest.json)
+
+280秒／1080p30／8400帧，含修正英语读音的云扬配音及65条已烧录字幕。全片解码、PTS、黑帧和两条音视频码流一致性检查通过。片尾“课程成员：待填写”占位保持，尚未收到成员姓名。详细复现见../FINAL-v18.md。
+
+下方为历史导出说明。
+
 # 完整无声字幕版 · FILM_BAKE v0.7
 
 [播放页](http://127.0.0.1:8765/actions/film/exports/index.html)／[MP4](film-complete-captioned-silent-v07.mp4)／[SRT](film-subtitles-v07.srt)。

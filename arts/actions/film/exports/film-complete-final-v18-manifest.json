@@ -1,0 +1,84 @@
+{
+  "version": "FILM_FINAL v0.18",
+  "date": "2026-10-21",
+  "duration": 280,
+  "frames": 8400,
+  "fps": 30,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "bakedCaptions": 65,
+  "narration": "Microsoft Yunyang; to do list pronunciation corrected",
+  "pictureSource": "Native baked v16 / adopted complete paintings only",
+  "voiceSource": "Corrected v17",
+  "rasterRenderRepeated": false,
+  "generationMode": "Final lossless container assembly of already baked picture and corrected AAC",
+  "newTtsRequests": 0,
+  "newImages": 0,
+  "opticalFlow": false,
+  "videoPayloadBitExact": true,
+  "audioPayloadBitExact": true,
+  "streamHashes": {
+    "v": "SHA256=9975e20483840b8c93a1a391ffa33ec123f1de4cead29038b17758d51b88d74b",
+    "a": "SHA256=0630ae110c2c0aa4e199d657bc9e9a53b4f575cbf6c32070e04cd80851442223"
+  },
+  "fullDecodePassed": true,
+  "continuousPTS": true,
+  "blackFrameCheckPassed": true,
+  "representativeFinalFrames": 17,
+  "inheritedPictureQA": "provenance/voice-v16/visual-verification.json",
+  "inheritedNarrationQA": "provenance/pronunciation-v17/verification.json",
+  "sourceGuardsPassed": 16,
+  "captionTextAndTimingUnchanged": true,
+  "last14SecondsSilent": true,
+  "browserReview": "passed",
+  "output": {
+    "path": "arts/actions/film/exports/film-complete-final-v18.mp4",
+    "bytes": 44042495,
+    "sha256": "da7960765382d92655eda0e043825bd1c397eab60c0bf00dee886b8c5e2c7b04"
+  },
+  "command": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-hide_banner",
+    "-nostdin",
+    "-y",
+    "-i",
+    "/Users/alan671/Documents/MYvideo/arts/actions/film/exports/film-complete-captioned-voiced-v17.mp4",
+    "-map",
+    "0:v:0",
+    "-map",
+    "0:a:0",
+    "-c",
+    "copy",
+    "-map_metadata",
+    "-1",
+    "-metadata",
+    "title=当效率成为义务",
+    "-metadata:s:a:0",
+    "language=zho",
+    "-movflags",
+    "+faststart",
+    "/Users/alan671/Documents/MYvideo/arts/actions/film/exports/film-complete-final-v18.part.mp4"
+  ],
+  "representativeFrameVisualReview": "passed",
+  "knownOpenItems": [
+    {
+      "location": "06末张参考文献卡",
+      "text": "课程成员：待填写",
+      "disposition": "Existing placeholder preserved; member names have not been provided."
+    }
+  ],
+  "browserProof": "browser-final.png",
+  "browserMediaState": {
+    "duration": 280,
+    "width": 1920,
+    "height": 1080,
+    "readyState": 4,
+    "error": null,
+    "playbackAdvancedTo": 61.322929,
+    "pausedDeliveryAt": 2
+  },
+  "defaultPlayer": "exports/index.html",
+  "versionedPlayer": "exports/index-v18.html"
+}

@@ -1,0 +1,80 @@
+{
+  "version": "FILM_VOICE v0.17",
+  "duration": 280,
+  "frames": 8400,
+  "captionCount": 65,
+  "originalWordingPreserved": true,
+  "displayText": "他发现任务逐项完成，Todo list却不断延长，似乎永远也做不完。",
+  "ttsInput": "他发现任务逐项完成，to do list却不断延长，似乎永远也做不完。",
+  "voice": "zh-CN-YunyangNeural",
+  "rate": "-5%",
+  "pitch": "-2Hz",
+  "newTtsRequests": 1,
+  "adoptedNewWholeSentences": 1,
+  "englishWordBoundaries": [
+    "to",
+    "do",
+    "list"
+  ],
+  "oldEnglishAsr": [
+    "Title list",
+    "Title List"
+  ],
+  "newEnglishAsr": [
+    {
+      "label": "phrase-en",
+      "language": "en",
+      "transcript": " To do list."
+    },
+    {
+      "label": "phrase-zh",
+      "language": "zh",
+      "transcript": "to do list"
+    },
+    {
+      "label": "full-sentence",
+      "language": "zh",
+      "transcript": "他发现任务逐项完成,to do list 却不断延长,似乎永远也做不完。"
+    }
+  ],
+  "manualListening": false,
+  "newSentenceSeconds": 5.8,
+  "originalSentenceSeconds": 5.920000000000002,
+  "volumeDifferenceDb": -1.0223607746169514,
+  "gain": 2.936894416809082,
+  "peakControl": "Lookahead peak limiter0.84, compensated latency, no tempo change",
+  "patchSamples": [
+    1547040,
+    1831200
+  ],
+  "allMasterSamplesOutsidePatchIdentical": true,
+  "videoStreamBitExact": true,
+  "videoStreamSha256": "SHA256=9975e20483840b8c93a1a391ffa33ec123f1de4cead29038b17758d51b88d74b",
+  "audioTempoApplied": false,
+  "captionBytesUnchanged": true,
+  "fullDecodePassed": true,
+  "protectedInputs": 12,
+  "output": {
+    "path": "arts/actions/film/exports/film-complete-captioned-voiced-v17.mp4",
+    "bytes": 44042450,
+    "sha256": "f8af97bc432db819a7c201f90fd8e50b73f535222f22c7d173eee464b24cb532"
+  },
+  "narration": {
+    "path": "arts/audio/film/voice-v17/narration-v17.wav",
+    "sha256": "15c59c42db3f398a96c90b465746346da51ef91b242616b536f6ecb6e5c642f9"
+  },
+  "newSentence": {
+    "path": "arts/audio/film/voice-v17/S17-01-05-corrected.wav",
+    "sha256": "9181c71cd4b5f4a93413ff1b3014cd10532115b90740bb0767bdeeeec39349c2"
+  },
+  "finalAacEnglishRecognition": " to do list.",
+  "aacSamplePeak": 0.8519830703735352,
+  "aacMasterCorrelation": 0.9999749660491943,
+  "aacLast14SecondsSilent": true,
+  "aacSamples": 13440000,
+  "browserReview": "passed",
+  "browserScreenshot": "browser-movie.png",
+  "browserPausedAtSeconds": 32.3,
+  "defaultVideoPlayer": "exports/index.html",
+  "defaultDynamicPlayer": "preview.html"
+}

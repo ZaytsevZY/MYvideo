@@ -1,0 +1,13 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {fileURLToPath} from 'node:url';
+import {GLOBAL_BEATS,NARRATION,GLOBAL_CUES} from './scenes-v15.mjs';
+const HERE=path.dirname(fileURLToPath(import.meta.url)),ROOT=path.resolve(HERE,'../../..'),PROV=path.join(HERE,'provenance/captions-v15');
+const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const prior=JSON.parse(fs.readFileSync(path.join(HERE,'bundle-v01.json'))),bundle={...prior,version:'FILM_PREVIEW v0.15',narrationVersion:NARRATION.version,date:'2026-10-21',audio:false,beats:GLOBAL_BEATS,captions:GLOBAL_CUES.length,captionSource:'captions-v15.json',previousSceneSource:'FILM_PREVIEW v0.10; original painted assets only'};
+fs.writeFileSync(path.join(HERE,'bundle-v15.json'),JSON.stringify(bundle,null,2)+'\n');
+const old=path.join(HERE,'preview-v10.html');if(!fs.existsSync(old))fs.copyFileSync(path.join(HERE,'preview.html'),old);
+let page=fs.readFileSync(old,'utf8').replace('当效率成为义务 · 全片动态预览','当效率成为义务 · 新稿字幕预览').replace('无声字幕预览','新稿字幕预览 · 待新配音校时').replace('纯补绘 v0.10 · 口播 v0.8 · 语义排时 · 未添加配音、音效','新稿1247字符 · 69条字幕 · 暂定排时 · 旧配音不适用').replace('captions-v01.srt','captions-v15.srt').replace('src="player.mjs"','src="player-v15.mjs"');
+fs.writeFileSync(path.join(HERE,'preview-v15.html'),page);fs.writeFileSync(path.join(HERE,'preview.html'),page);
+const player=fs.readFileSync(path.join(HERE,'player.mjs'),'utf8').replace("from './scenes.mjs'","from './scenes-v15.mjs'").replace("'bundle-v01.json'","'bundle-v15.json'");fs.writeFileSync(path.join(HERE,'player-v15.mjs'),player);
+const inputs=['caption-plan-v15.json','build-captions-v15.py','narration-v15.json','scenes-v15.mjs','build-preview-v15.mjs','captions.mjs','scenes.mjs','bundle-v01.json','assets-v01.json','timeline.mjs','motion-v10.json','motion-v10.mjs'].map(p=>({path:'arts/actions/film/'+p,sha256:sha(path.join(HERE,p))}));
+fs.writeFileSync(path.join(PROV,'preview-inputs.json'),JSON.stringify({version:bundle.version,chapters:bundle.chapters,duration:280,frames:8400,characters:1247,captions:GLOBAL_CUES.length,sourceScripts:NARRATION.sources,inputs,assetsUnchanged:true,newAudio:false,oldAudioCompatible:false,oldExportsUnchanged:true,note:'Only captions and intra-chapter semantic pacing updated; no new paintings or optical-flow interpolation. Historical scene renderer, caption files and280s MP4s remain unchanged.'},null,2)+'\n');
+console.log(JSON.stringify({version:bundle.version,duration:280,frames:8400,captions:GLOBAL_CUES.length}));

@@ -1,0 +1,227 @@
+{
+  "version": "NARRATION_WORDCOUNT_REVIEW v0.14",
+  "date": "2026-10-21",
+  "scope": "Only audio text between unique start/end tags; no narration, subtitle, scene or audio regeneration.",
+  "counting": "Unicode code points excluding whitespace; punctuation, Latin letters and digits included. Han count separate.",
+  "planningRateCharactersPerMinute": 300,
+  "voiceCalibration": "zh-CN-YunyangNeural rate=-5%, v13 whole-sentence sample",
+  "totalCharacters": 1267,
+  "totalChineseCharacters": 1092,
+  "previousCharacters": 994,
+  "addedCharacters": 273,
+  "addedChineseCharacters": 232,
+  "estimatedNarrationSeconds": 253.4,
+  "legacyCharacterCap": 1100,
+  "overLegacyCapCharacters": 167,
+  "originalFilmDurationSeconds": 280,
+  "chapterResults": [
+    {
+      "chapter": "01",
+      "path": "scripts/final/shot/01.md",
+      "sha256": "fb6fcba6b34891b2e4dd031bece5d782d41178b7da01c7c14b710dda36397f10",
+      "audioText": "\n深夜，一位程序员把尚未完成的功能交给 Agent：编写代码、运行测试、整理文档。随后他合上屏幕，等到第二天再进行验收。\n\n从逐行敲下代码，转向简单的向 Agent 输入“发送”“接受”，他有机会更早合上电脑，下班回家休息。\n\n然而季度绩效评价就要到了，看着身边的同事，他总想着多做一些事：或许是补一个单元测试，重启某个搁置的需求。他发现任务逐项完成，Todo list却不断延长，似乎永远也做不完。\n\n为什么工具替人完成了更多任务，工作的终点反而越来越远？\n",
+      "characters": 218,
+      "chineseCharacters": 175,
+      "previousCharacters": 175,
+      "addedCharacters": 43,
+      "addedChineseCharacters": 34,
+      "chapterBudgetSeconds": 45,
+      "entryAdapterSeconds": 0,
+      "referencesSilentSeconds": 0,
+      "availableNarrationWindowSeconds": 45,
+      "estimatedNarrationSeconds": 43.6,
+      "estimatedSecondsUsingPreviousChapterRate": 43.85,
+      "remainingSeconds": 1.4,
+      "status": "fits_estimated_window",
+      "recommendedTrimCharacters": 0,
+      "paragraphs": [
+        {
+          "characters": 58,
+          "text": "深夜，一位程序员把尚未完成的功能交给 Agent：编写代码、运行测试、整理文档。随后他合上屏幕，等到第二天再进行验收。"
+        },
+        {
+          "characters": 48,
+          "text": "从逐行敲下代码，转向简单的向 Agent 输入“发送”“接受”，他有机会更早合上电脑，下班回家休息。"
+        },
+        {
+          "characters": 85,
+          "text": "然而季度绩效评价就要到了，看着身边的同事，他总想着多做一些事：或许是补一个单元测试，重启某个搁置的需求。他发现任务逐项完成，Todo list却不断延长，似乎永远也做不完。"
+        },
+        {
+          "characters": 27,
+          "text": "为什么工具替人完成了更多任务，工作的终点反而越来越远？"
+        }
+      ]
+    },
+    {
+      "chapter": "02",
+      "path": "scripts/final/shot/02.md",
+      "sha256": "a9721936bec26aa6dc718a095e637fe3caf30a5acf4ba2ce4c5f7d97d422bdfd",
+      "audioText": "\n作为一名程序员，在他的职业中，工作不是固定的存量，永远会出现新的项目和需求。\nAgent 导致的开发成本下降会使项目的“成本-收益”边界移动，让部分需求的可行性逐渐提升。\n\n对这位劳动者而言，工具带来的效率收益既可用于减少劳动时长，也可用于扩大产出。\n而价值增殖目的促使其将节约的成本重新投入生产。因此随着成本降低，他倾向于安排更多的任务，以维持总劳动投入的平衡。\n",
+      "characters": 177,
+      "chineseCharacters": 156,
+      "previousCharacters": 145,
+      "addedCharacters": 32,
+      "addedChineseCharacters": 26,
+      "chapterBudgetSeconds": 38,
+      "entryAdapterSeconds": 0,
+      "referencesSilentSeconds": 0,
+      "availableNarrationWindowSeconds": 38,
+      "estimatedNarrationSeconds": 35.4,
+      "estimatedSecondsUsingPreviousChapterRate": 37.92,
+      "remainingSeconds": 2.6,
+      "status": "fits_estimated_window",
+      "recommendedTrimCharacters": 0,
+      "paragraphs": [
+        {
+          "characters": 83,
+          "text": "作为一名程序员，在他的职业中，工作不是固定的存量，永远会出现新的项目和需求。\nAgent 导致的开发成本下降会使项目的“成本-收益”边界移动，让部分需求的可行性逐渐提升。"
+        },
+        {
+          "characters": 94,
+          "text": "对这位劳动者而言，工具带来的效率收益既可用于减少劳动时长，也可用于扩大产出。\n而价值增殖目的促使其将节约的成本重新投入生产。因此随着成本降低，他倾向于安排更多的任务，以维持总劳动投入的平衡。"
+        }
+      ]
+    },
+    {
+      "chapter": "03",
+      "path": "scripts/final/shot/03.md",
+      "sha256": "e6b256d17eb5882ee278bc54970700c9153cf704ed2be74081767dcafb776aaa",
+      "audioText": "\n他供职于一家互联网企业。在以工时组织的雇佣劳动中，劳动者让渡一定期限内的劳动力使用权以换取报酬。\n\n在他的工作内，这“一定期限”的长度完全由企业和上司决定。即使他决定将清单提前清空，在约定工时结束之前，企业仍能在约定时段分配其他任务。\n\nAgent 工具前所未有地缩短了执行过程，却未必增大了劳动者对劳动时间的决定权。在响应要求、任务标准和工时界限的约束下，劳动者自然无法决定劳动是否结束。\n",
+      "characters": 190,
+      "chineseCharacters": 170,
+      "previousCharacters": 156,
+      "addedCharacters": 34,
+      "addedChineseCharacters": 30,
+      "chapterBudgetSeconds": 39,
+      "entryAdapterSeconds": 0,
+      "referencesSilentSeconds": 0,
+      "availableNarrationWindowSeconds": 39,
+      "estimatedNarrationSeconds": 38.0,
+      "estimatedSecondsUsingPreviousChapterRate": 38.81,
+      "remainingSeconds": 1.0,
+      "status": "fits_estimated_window",
+      "recommendedTrimCharacters": 0,
+      "paragraphs": [
+        {
+          "characters": 48,
+          "text": "他供职于一家互联网企业。在以工时组织的雇佣劳动中，劳动者让渡一定期限内的劳动力使用权以换取报酬。"
+        },
+        {
+          "characters": 67,
+          "text": "在他的工作内，这“一定期限”的长度完全由企业和上司决定。即使他决定将清单提前清空，在约定工时结束之前，企业仍能在约定时段分配其他任务。"
+        },
+        {
+          "characters": 75,
+          "text": "Agent 工具前所未有地缩短了执行过程，却未必增大了劳动者对劳动时间的决定权。在响应要求、任务标准和工时界限的约束下，劳动者自然无法决定劳动是否结束。"
+        }
+      ]
+    },
+    {
+      "chapter": "04",
+      "path": "scripts/final/shot/04.md",
+      "sha256": "ce1785606691df53e0eae74ba429d20535dc1a615941235170f9e4a447dd5ab7",
+      "audioText": "\n对一家科技公司的调查称，部分员工会主动扩大任务范围，在午餐、会前和晚间等非工作时段向 Agent 交付任务。\n对于这些员工而言，新增能力带来更多产出，组织预期也随之提高；其他员工将难以避免地卷入挤压时间的军备竞赛，以避免生产力竞争中落败。\n\n对于企业而言，竞争同样会强化采用新技术的压力：Agent 普及后，原有的效率优势逐渐消退。\n面对采用新技术的同行，企业同样会促使更高产出进入排期和考核，使原本的额外贡献转为新的基准，以在激烈竞争的市场中维持产品交付的优势。\n\n因此：Agent 带来的普遍生产力提升造成了工作标准的提升，从“能多做”，到“必须做”。\n",
+      "characters": 268,
+      "chineseCharacters": 228,
+      "previousCharacters": 217,
+      "addedCharacters": 51,
+      "addedChineseCharacters": 49,
+      "chapterBudgetSeconds": 55,
+      "entryAdapterSeconds": 0,
+      "referencesSilentSeconds": 0,
+      "availableNarrationWindowSeconds": 55,
+      "estimatedNarrationSeconds": 53.6,
+      "estimatedSecondsUsingPreviousChapterRate": 52.45,
+      "remainingSeconds": 1.4,
+      "status": "fits_estimated_window",
+      "recommendedTrimCharacters": 0,
+      "paragraphs": [
+        {
+          "characters": 116,
+          "text": "对一家科技公司的调查称，部分员工会主动扩大任务范围，在午餐、会前和晚间等非工作时段向 Agent 交付任务。\n对于这些员工而言，新增能力带来更多产出，组织预期也随之提高；其他员工将难以避免地卷入挤压时间的军备竞赛，以避免生产力竞争中落败。"
+        },
+        {
+          "characters": 109,
+          "text": "对于企业而言，竞争同样会强化采用新技术的压力：Agent 普及后，原有的效率优势逐渐消退。\n面对采用新技术的同行，企业同样会促使更高产出进入排期和考核，使原本的额外贡献转为新的基准，以在激烈竞争的市场中维持产品交付的优势。"
+        },
+        {
+          "characters": 43,
+          "text": "因此：Agent 带来的普遍生产力提升造成了工作标准的提升，从“能多做”，到“必须做”。"
+        }
+      ]
+    },
+    {
+      "chapter": "05",
+      "path": "scripts/final/shot/05.md",
+      "sha256": "12fed52095d619e28e2e47ffa780683f26c25924f61cc1145897ff22a46d765f",
+      "audioText": "\n或许有人会认为 Agent 总能分担一部分工作，为劳动者增加自主性；\n然而调度多个 Agent 可能会让部分员工产生指挥“虚拟员工”的错觉，却未必会赋予任何雇主的决定权或分享额外收益的权力；\n这些“虚拟员工”反而会要求员工付出更多的成本，例如额外的时间和金钱，以维持自己作为“虚拟雇主”的身份。\n\n通过对劳动着施加竞争压力，社会劳动创造的生产力，在特定的占有和组织关系中，反而会成为约束劳动者的外在力量。\n这是劳动异化的一个侧面：具体的指令由劳动者发出，而劳动的目的与尺度仍可能由他人设定。\n",
+      "characters": 236,
+      "chineseCharacters": 206,
+      "previousCharacters": 191,
+      "addedCharacters": 45,
+      "addedChineseCharacters": 37,
+      "chapterBudgetSeconds": 45,
+      "entryAdapterSeconds": 0.4,
+      "referencesSilentSeconds": 0,
+      "availableNarrationWindowSeconds": 44.6,
+      "estimatedNarrationSeconds": 47.2,
+      "estimatedSecondsUsingPreviousChapterRate": 45.72,
+      "remainingSeconds": -2.6,
+      "status": "slightly_over_budget",
+      "recommendedTrimCharacters": 13,
+      "paragraphs": [
+        {
+          "characters": 141,
+          "text": "或许有人会认为 Agent 总能分担一部分工作，为劳动者增加自主性；\n然而调度多个 Agent 可能会让部分员工产生指挥“虚拟员工”的错觉，却未必会赋予任何雇主的决定权或分享额外收益的权力；\n这些“虚拟员工”反而会要求员工付出更多的成本，例如额外的时间和金钱，以维持自己作为“虚拟雇主”的身份。"
+        },
+        {
+          "characters": 95,
+          "text": "通过对劳动着施加竞争压力，社会劳动创造的生产力，在特定的占有和组织关系中，反而会成为约束劳动者的外在力量。\n这是劳动异化的一个侧面：具体的指令由劳动者发出，而劳动的目的与尺度仍可能由他人设定。"
+        }
+      ]
+    },
+    {
+      "chapter": "06",
+      "path": "scripts/final/shot/06.md",
+      "sha256": "a43f42c19d1efbb6de6616ca272c04e05a020db670db65c35b1c39bb8755bb74",
+      "audioText": "\n总而言之，效率收益可以转化为更多交付，也可以转化为更短工时。区别在于谁决定生产规模，谁分配节约的时间。\n\n在生产力飞跃的时代，需要让劳动者参与确定任务边界，并获得实际可支配的时间，技术进步才有机会转化为人的自由。由此，劳动者才不会陷入无休止的竞争，市场才能远离生产过剩和衰退的危机。\n\n效率何时成为义务，取决于谁有权为工作画上句号。在 Agent 时代，记得好好生活。\n",
+      "characters": 178,
+      "chineseCharacters": 157,
+      "previousCharacters": 110,
+      "addedCharacters": 68,
+      "addedChineseCharacters": 56,
+      "chapterBudgetSeconds": 58,
+      "entryAdapterSeconds": 0.4,
+      "referencesSilentSeconds": 14,
+      "availableNarrationWindowSeconds": 43.6,
+      "estimatedNarrationSeconds": 35.6,
+      "estimatedSecondsUsingPreviousChapterRate": 37.81,
+      "remainingSeconds": 8.0,
+      "status": "fits_estimated_window",
+      "recommendedTrimCharacters": 0,
+      "paragraphs": [
+        {
+          "characters": 51,
+          "text": "总而言之，效率收益可以转化为更多交付，也可以转化为更短工时。区别在于谁决定生产规模，谁分配节约的时间。"
+        },
+        {
+          "characters": 88,
+          "text": "在生产力飞跃的时代，需要让劳动者参与确定任务边界，并获得实际可支配的时间，技术进步才有机会转化为人的自由。由此，劳动者才不会陷入无休止的竞争，市场才能远离生产过剩和衰退的危机。"
+        },
+        {
+          "characters": 39,
+          "text": "效率何时成为义务，取决于谁有权为工作画上句号。在 Agent 时代，记得好好生活。"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "05 is about2.6 seconds over its44.6-second narration window at300characters/min; trim about13characters or validate with actual synthesis before deciding.",
+    "01–04 and06 fit the rough duration windows;02/03 have limited margin under their prior chapter-specific observed speeds.",
+    "06 first139characters estimate27.8seconds before original31-second life transition; final39characters estimate7.8seconds inside13-second life montage; final14-second references remain silent.",
+    "Total1267 exceeds legacy1100-character cap by167;1092 Han characters do not mean compliance with a full-character cap.",
+    "05 contains the likely typo 劳动着; report only, user text left unchanged.",
+    "Old per-chapter budget labels and runtime captions/audio still describe the earlier994-character version; current manual manuscript has not been integrated."
+  ]
+}

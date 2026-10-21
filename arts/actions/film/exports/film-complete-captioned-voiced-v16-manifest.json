@@ -1,0 +1,173 @@
+{
+  "version": "FILM_VOICE v0.16",
+  "date": "2026-10-21",
+  "duration": 280,
+  "frames": 8400,
+  "fps": 30,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "chapters": [
+    {
+      "chapter": "01",
+      "duration": 45,
+      "start": 0,
+      "cues": 10,
+      "characters": 218,
+      "chineseCharacters": 175,
+      "minDisplayMs": 2367
+    },
+    {
+      "chapter": "02",
+      "duration": 38,
+      "start": 45,
+      "cues": 9,
+      "characters": 177,
+      "chineseCharacters": 156,
+      "minDisplayMs": 2366
+    },
+    {
+      "chapter": "03",
+      "duration": 39,
+      "start": 83,
+      "cues": 10,
+      "characters": 179,
+      "chineseCharacters": 160,
+      "minDisplayMs": 2233
+    },
+    {
+      "chapter": "04",
+      "duration": 55,
+      "start": 122,
+      "cues": 14,
+      "characters": 268,
+      "chineseCharacters": 228,
+      "minDisplayMs": 2000
+    },
+    {
+      "chapter": "05",
+      "duration": 45,
+      "start": 177,
+      "cues": 12,
+      "characters": 227,
+      "chineseCharacters": 197,
+      "minDisplayMs": 2033
+    },
+    {
+      "chapter": "06",
+      "duration": 58,
+      "start": 222,
+      "cues": 10,
+      "characters": 178,
+      "chineseCharacters": 157,
+      "minDisplayMs": 2000
+    }
+  ],
+  "voice": "zh-CN-YunyangNeural",
+  "pitch": "-2Hz",
+  "audioTempoApplied": false,
+  "generationMode": "whole-sentence TTS",
+  "newTtsRequests": 33,
+  "sentenceGroups": 33,
+  "captionCount": 65,
+  "captionTextUnchanged": true,
+  "captionTiming": "Aligned to TTS word boundaries; old semantic windows replaced.",
+  "opticalFlow": false,
+  "paintings": "All adopted v10 assets unchanged; scene time follows spoken clauses.",
+  "fullDecodePassed": true,
+  "sourceGuardsPassed": 168,
+  "output": {
+    "path": "arts/actions/film/exports/film-complete-captioned-voiced-v16.mp4",
+    "bytes": 44046851,
+    "sha256": "8ca76ce292e547124deb157cb9bd3daf1dedb693de6817175a13447b424d8020"
+  },
+  "narration": {
+    "path": "arts/audio/film/voice-v16/narration-v16.wav",
+    "sha256": "b9d66143080da4b0dbc1462d9c70cdad3914292c0c4e495ebb41125f2c908298"
+  },
+  "inputs": [
+    {
+      "path": "arts/actions/film/voice-v16.py",
+      "sha256": "65f804856ef94f9d8019c96e58b912174888c7a0c495d6d71643beef4ead1688",
+      "archiveAtBake": "arts/actions/film/provenance/voice-v16/bake-inputs/voice-v16.py",
+      "currentSha256AfterMetadataCorrection": "d8338c8741b24be61a3f5267c66ada7103a72fbb559585a7b26933baa488c6b7"
+    },
+    {
+      "path": "arts/actions/film/scenes-v16.mjs",
+      "sha256": "9deb1248b00be30dfcdf7b80f6908da355113a771114cc11cf5e261bf1df50b2"
+    },
+    {
+      "path": "arts/actions/film/bake-v16.mjs",
+      "sha256": "a76e381471321132c50e32a7d70669565faf87c1761cbc9713daf6164e4c7546"
+    },
+    {
+      "path": "arts/actions/film/captions-v16.json",
+      "sha256": "7cf221d341d977314d2c3b0afb26a725fbe16981c0c3e11cc598872700baedd7"
+    },
+    {
+      "path": "arts/actions/film/provenance/voice-v16/alignment.json",
+      "sha256": "13fde1dba516089898625a1ac6cdc9da3ced80b8df87bb9c080be2681cd4657c",
+      "archiveAtBake": "arts/actions/film/provenance/voice-v16/bake-inputs/alignment.json",
+      "currentSha256AfterMetadataCorrection": "084811c803a491e3e5ebeefb5a2615d7e835e95b017d1ff9b7efc12c8098befb"
+    }
+  ],
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "warning",
+    "-nostdin",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-i",
+    "/Users/alan671/Documents/MYvideo/arts/audio/film/voice-v16/narration-v16.wav",
+    "-map",
+    "0:v:0",
+    "-map",
+    "1:a:0",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "medium",
+    "-crf",
+    "18",
+    "-threads",
+    "2",
+    "-pix_fmt",
+    "yuv420p",
+    "-frames:v",
+    "8400",
+    "-c:a",
+    "aac",
+    "-b:a",
+    "192k",
+    "-ar",
+    "48000",
+    "-ac",
+    "1",
+    "-t",
+    "280",
+    "-metadata:s:a:0",
+    "language=zho",
+    "-video_track_timescale",
+    "15360",
+    "-map_metadata",
+    "-1",
+    "-movflags",
+    "+faststart",
+    "/Users/alan671/Documents/MYvideo/arts/actions/film/exports/film-complete-captioned-voiced-v16.part.mp4"
+  ],
+  "renderSeconds": 1489.243,
+  "defaultRate": "-5%",
+  "rateSelection": {},
+  "postBakeMetadataCorrection": "Correct per-chapter caption counts and minimum durations copied from v15; media, actual caption list, voice words and all scene clocks unchanged. See provenance/voice-v16/metadata-correction.json."
+}

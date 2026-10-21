@@ -1,0 +1,8 @@
+from pathlib import Path
+import json,subprocess,numpy as np
+from faster_whisper import WhisperModel
+R=Path(__file__).resolve().parents[3];F=R/'arts/actions/film';P=F/'provenance/pronunciation-v17';O=R/'arts/audio/film/voice-v17';q=json.loads((P/'verification.json').read_text());s=next(s for s in json.loads((P/'alignment.json').read_text())['sentences']if s['id']=='S17-01-05');w=[w for w in s['words']if w['text']in ['to','do','list']];movie=R/q['output']['path']
+def pcm(p,sr=48000):return np.frombuffer(subprocess.check_output(['/opt/homebrew/bin/ffmpeg','-v','error','-i',str(p),'-map','0:a:0','-ar',str(sr),'-ac','1','-f','f32le','pipe:1']),dtype='<f4').copy()
+a=pcm(movie);b=pcm(O/'narration-v17.wav');assert len(a)==len(b)==13440000;assert np.max(np.abs(a))<1 and np.max(np.abs(a[-14*48000:]))==0
+cor=float(np.dot(a,b)/np.sqrt(np.dot(a,a)*np.dot(b,b)));assert cor>.999;audio=pcm(movie,16000);crop=audio[round((w[0]['start']-.06)*16000):round((w[-1]['end']+.06)*16000)].copy();m=WhisperModel('small',device='cpu',compute_type='int8',cpu_threads=2,download_root='/private/tmp/myvideo-whisper-cache',local_files_only=True);segs,_=m.transcribe(crop,language='en',beam_size=5,condition_on_previous_text=False,temperature=0,vad_filter=False);text=''.join(x.text for x in segs);print(text,flush=True);assert 'to do list'in text.lower(),text
+q.update(finalAacEnglishRecognition=text,aacSamplePeak=float(np.max(np.abs(a))),aacMasterCorrelation=cor,aacLast14SecondsSilent=True,aacSamples=13440000,browserReview='pending');(P/'verification.json').write_text(json.dumps(q,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:q[k]for k in ['finalAacEnglishRecognition','aacSamplePeak','aacMasterCorrelation','aacLast14SecondsSilent']},ensure_ascii=False))

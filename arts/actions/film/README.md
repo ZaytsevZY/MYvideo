@@ -1,5 +1,24 @@
 # 01–06统一动态展示框架
 
+
+**当前完整成片：FILM_FINAL v0.18。** [播放](http://127.0.0.1:8765/actions/film/exports/index-v18.html)／[下载MP4](exports/film-complete-final-v18.mp4)／[字幕SRT](exports/film-subtitles-final-v18.srt)／[交付说明](FINAL-v18.md)。4分40秒／1080p30／8400帧，包含修正后的云扬配音和65条烧录字幕；44,042,495字节。正式封装复用已核验的烘焙画面和v17音轨，两条码流均逐字节相同。完整解码、连续PTS、黑帧与17张最终文件抽帧通过。默认视频入口已更新，动态预览继续同版v17。片尾课程成员仍为待填写，姓名未提供，当前导出保留原文；旧版本保留。
+
+下方为基础版本和历史制作记录。
+
+
+**当前采用：FILM_VOICE／FILM_PREVIEW v0.17，Todo list英文读音修订。** [播放](http://127.0.0.1:8765/actions/film/exports/index-v17.html)／[本句试听](../../audio/film/voice-v17/S17-01-05-corrected.wav)／[MP4](exports/film-complete-captioned-voiced-v17.mp4)／[说明](VOICE-v17.md)。仅把配音输入规范为to do list，1次请求重录整句；原字幕仍写Todo list，65字幕／全部画面及280秒保持。视频H.264码流与v16逐字节相同，母带其余区域逐样本相同；最终AAC英文识别复核通过。默认动态和视频入口均已更新；下方v16为本版基础与历史记录。
+
+
+**当前音画：FILM_VOICE／FILM_PREVIEW／FILM_NARRATION v0.16 · 2026-10-21。** [播放新版](http://127.0.0.1:8765/actions/film/exports/index.html)／[动态预览](http://127.0.0.1:8765/actions/film/preview.html)／[MP4](exports/film-complete-captioned-voiced-v16.mp4)／[SRT](captions-v16.srt)／[旁白WAV](../../audio/film/voice-v16/narration-v16.wav)／[制作与验证](VOICE-v16.md)。
+
+1247字符新人工稿、云扬33完整句、65条实录字幕，原280秒／8400帧和全部纯补绘素材保留。同句跨字幕原生停顿中位0.197秒、最大0.276秒，字幕最短2秒、统一44px。章内演出已按发音校准，默认动态预览使用音频时钟；06文献页14秒静音。已完成完整bake、解码／音轨／PTS／黑帧／原文和素材保护／源图与编码抽帧检查。没有音频变速、配乐或声效。新输出与哈希见exports/film-complete-captioned-voiced-v16-manifest.json和provenance/voice-v16/verification.json。
+
+下方为历史制作阶段，当前采用以v16为准。
+
+
+**当前动态字幕：FILM_PREVIEW／FILM_NARRATION v0.15 · 2026-10-21。** [新版预览](http://127.0.0.1:8765/actions/film/preview.html)／[SRT](captions-v15.srt)／[VTT](captions-v15.vtt)／[制作与续作](CAPTIONS-v15.md)。修复稿1247字符、69条字幕，最短2.7秒；原280秒和全部纯补绘保留。当前为待新录音校准的语义排时，没有新配音或新完整MP4。下方v11配音成片仍为旧994字符稿，不能配用本版字幕。
+
+
 **当前配音成片：FILM_VOICE v0.11 · 2026-10-21。** [播放男声配音版](http://127.0.0.1:8765/actions/film/exports/index-v11.html)／[MP4](exports/film-complete-captioned-voiced-v11.mp4)／[SRT](exports/film-subtitles-v11.srt)／[旁白WAV](../../audio/film/voice-v11/narration-v11.wav)／[验证](provenance/voice-v11/verification.json)。
 
 采用微软云扬普通话男声，54句对齐原字幕，994字符／280秒／8400帧及纯补绘画面均保持；视频码流完全一致，只加入48kHz单声道AAC。文件43,949,680字节，完整解码、音频样本／削波／尾静音、原码流和ASR逐句检查已完成。56次TTS采用54段，声音过程与复现见[配音说明](../../audio/film/voice-v11/README.md)。动态框架仍为v10无声演出参考。
