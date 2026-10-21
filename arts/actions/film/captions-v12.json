@@ -1,0 +1,974 @@
+[
+  {
+    "id": "N08-01-01",
+    "startMs": 0,
+    "endMs": 4067,
+    "text": "深夜，一位程序员把尚未完成的功能交给 Agent：",
+    "mergedFrom": [
+      {
+        "id": "N08-01-01",
+        "startMs": 0,
+        "endMs": 4600,
+        "text": "深夜，一位程序员把尚未完成的功能交给 Agent："
+      }
+    ],
+    "chapterId": "01",
+    "sentenceId": "S12-01-01",
+    "sourceStartMs": 0,
+    "sourceEndMs": 4600
+  },
+  {
+    "id": "N08-01-02",
+    "startMs": 4067,
+    "endMs": 6900,
+    "text": "编写代码、运行测试、整理文档。",
+    "mergedFrom": [
+      {
+        "id": "N08-01-02",
+        "startMs": 4600,
+        "endMs": 8400,
+        "text": "编写代码、运行测试、整理文档。"
+      }
+    ],
+    "chapterId": "01",
+    "sentenceId": "S12-01-01",
+    "sourceStartMs": 4600,
+    "sourceEndMs": 8400
+  },
+  {
+    "id": "N08-01-03",
+    "startMs": 7367,
+    "endMs": 10700,
+    "text": "随后关掉屏幕，等到第二天再进行验收。",
+    "mergedFrom": [
+      {
+        "id": "N08-01-03",
+        "startMs": 8400,
+        "endMs": 16000,
+        "text": "随后关掉屏幕，等到第二天再进行验收。"
+      }
+    ],
+    "chapterId": "01",
+    "sentenceId": "S12-01-02",
+    "sourceStartMs": 8400,
+    "sourceEndMs": 16000
+  },
+  {
+    "id": "N08-01-04",
+    "startMs": 11200,
+    "endMs": 14333,
+    "text": "从逐行写代码转向简单的“发送”“接受”，",
+    "mergedFrom": [
+      {
+        "id": "N08-01-04",
+        "startMs": 16000,
+        "endMs": 20400,
+        "text": "从逐行写代码转向简单的“发送”“接受”，"
+      }
+    ],
+    "chapterId": "01",
+    "sentenceId": "S12-01-03",
+    "sourceStartMs": 16000,
+    "sourceEndMs": 20400
+  },
+  {
+    "id": "N08-01-05",
+    "startMs": 14333,
+    "endMs": 17400,
+    "text": "他有机会更早合上电脑，下班回家。",
+    "mergedFrom": [
+      {
+        "id": "N08-01-05",
+        "startMs": 20400,
+        "endMs": 24000,
+        "text": "他有机会更早合上电脑，下班回家。"
+      }
+    ],
+    "chapterId": "01",
+    "sentenceId": "S12-01-03",
+    "sourceStartMs": 20400,
+    "sourceEndMs": 24000
+  },
+  {
+    "id": "N08-01-06",
+    "startMs": 17900,
+    "endMs": 20400,
+    "text": "然而他总想着多做一件事，",
+    "mergedFrom": [
+      {
+        "id": "N08-01-06",
+        "startMs": 24000,
+        "endMs": 27800,
+        "text": "然而他总想着多做一件事，"
+      }
+    ],
+    "chapterId": "01",
+    "sentenceId": "S12-01-04",
+    "sourceStartMs": 24000,
+    "sourceEndMs": 27800
+  },
+  {
+    "id": "N08-01-07",
+    "startMs": 20400,
+    "endMs": 23800,
+    "text": "或许是补一个单元测试，重启搁置的需求。",
+    "mergedFrom": [
+      {
+        "id": "N08-01-07",
+        "startMs": 27800,
+        "endMs": 31600,
+        "text": "或许是补一个单元测试，重启搁置的需求。"
+      }
+    ],
+    "chapterId": "01",
+    "sentenceId": "S12-01-04",
+    "sourceStartMs": 27800,
+    "sourceEndMs": 31600
+  },
+  {
+    "id": "N08-01-08",
+    "startMs": 24300,
+    "endMs": 28367,
+    "text": "他发现任务逐项完成，Todo list却不断延长。",
+    "mergedFrom": [
+      {
+        "id": "N08-01-08",
+        "startMs": 31600,
+        "endMs": 37400,
+        "text": "他发现任务逐项完成，Todo list却不断延长。"
+      }
+    ],
+    "chapterId": "01",
+    "sentenceId": "S12-01-05",
+    "sourceStartMs": 31600,
+    "sourceEndMs": 37400
+  },
+  {
+    "id": "N08-01-09",
+    "startMs": 28833,
+    "endMs": 33833,
+    "text": "为什么工具替人完成了更多任务，工作的终点反而越来越远？",
+    "mergedFrom": [
+      {
+        "id": "N08-01-09",
+        "startMs": 37400,
+        "endMs": 45000,
+        "text": "为什么工具替人完成了更多任务，工作的终点反而越来越远？"
+      }
+    ],
+    "chapterId": "01",
+    "sentenceId": "S12-01-06",
+    "sourceStartMs": 37400,
+    "sourceEndMs": 45000
+  },
+  {
+    "id": "N08-02-01",
+    "startMs": 34467,
+    "endMs": 37467,
+    "text": "在他的职业中，工作并非固定的存量。",
+    "mergedFrom": [
+      {
+        "id": "N08-02-01",
+        "startMs": 0,
+        "endMs": 5100,
+        "text": "在他的职业中，工作并非固定的存量。"
+      }
+    ],
+    "chapterId": "02",
+    "sentenceId": "S12-02-01",
+    "sourceStartMs": 45000,
+    "sourceEndMs": 50100
+  },
+  {
+    "id": "N08-02-02",
+    "startMs": 37933,
+    "endMs": 41967,
+    "text": "开发成本下降，会使项目的“成本-收益”边界移动，",
+    "mergedFrom": [
+      {
+        "id": "N08-02-02",
+        "startMs": 5100,
+        "endMs": 10100,
+        "text": "开发成本下降，会使项目的“成本-收益”边界移动，"
+      }
+    ],
+    "chapterId": "02",
+    "sentenceId": "S12-02-02",
+    "sourceStartMs": 50100,
+    "sourceEndMs": 55100
+  },
+  {
+    "id": "N08-02-03",
+    "startMs": 41967,
+    "endMs": 44700,
+    "text": "让部分需求的可行性逐渐提升。",
+    "mergedFrom": [
+      {
+        "id": "N08-02-03",
+        "startMs": 10100,
+        "endMs": 14200,
+        "text": "让部分需求的可行性逐渐提升。"
+      }
+    ],
+    "chapterId": "02",
+    "sentenceId": "S12-02-02",
+    "sourceStartMs": 55100,
+    "sourceEndMs": 59200
+  },
+  {
+    "id": "N08-02-04",
+    "startMs": 45200,
+    "endMs": 51433,
+    "text": "对他而言，工具带来的效率收益既可用于减少劳动时长，也可用于扩大产出。",
+    "mergedFrom": [
+      {
+        "id": "N08-02-04",
+        "startMs": 14200,
+        "endMs": 21300,
+        "text": "对他而言，工具带来的效率收益既可用于减少劳动时长，也可用于扩大产出。"
+      }
+    ],
+    "chapterId": "02",
+    "sentenceId": "S12-02-03",
+    "sourceStartMs": 59200,
+    "sourceEndMs": 66300
+  },
+  {
+    "id": "N08-02-05",
+    "startMs": 51933,
+    "endMs": 56733,
+    "text": "而价值增殖目的促使其将节约的成本重新投入生产。",
+    "mergedFrom": [
+      {
+        "id": "N08-02-05",
+        "startMs": 21300,
+        "endMs": 27200,
+        "text": "而价值增殖目的促使其将节约的成本重新投入生产。"
+      }
+    ],
+    "chapterId": "02",
+    "sentenceId": "S12-02-04",
+    "sourceStartMs": 66300,
+    "sourceEndMs": 72200
+  },
+  {
+    "id": "N08-02-06",
+    "startMs": 57233,
+    "endMs": 61367,
+    "text": "因此随着成本降低，他倾向于安排更多的任务，",
+    "mergedFrom": [
+      {
+        "id": "N08-02-06",
+        "startMs": 27200,
+        "endMs": 32500,
+        "text": "因此随着成本降低，他倾向于安排更多的任务，"
+      }
+    ],
+    "chapterId": "02",
+    "sentenceId": "S12-02-05",
+    "sourceStartMs": 72200,
+    "sourceEndMs": 77500
+  },
+  {
+    "id": "N08-02-07",
+    "startMs": 61367,
+    "endMs": 63433,
+    "text": "以维持总劳动投入的平衡。",
+    "mergedFrom": [
+      {
+        "id": "N08-02-07",
+        "startMs": 32500,
+        "endMs": 38000,
+        "text": "以维持总劳动投入的平衡。"
+      }
+    ],
+    "chapterId": "02",
+    "sentenceId": "S12-02-05",
+    "sourceStartMs": 77500,
+    "sourceEndMs": 83000
+  },
+  {
+    "id": "N08-03-01",
+    "startMs": 64033,
+    "endMs": 67533,
+    "text": "对企业而言，在以工时组织的雇佣劳动中，",
+    "mergedFrom": [
+      {
+        "id": "N08-03-01",
+        "startMs": 0,
+        "endMs": 4700,
+        "text": "对企业而言，在以工时组织的雇佣劳动中，"
+      }
+    ],
+    "chapterId": "03",
+    "sentenceId": "S12-03-01",
+    "sourceStartMs": 83000,
+    "sourceEndMs": 87700
+  },
+  {
+    "id": "N08-03-02",
+    "startMs": 67533,
+    "endMs": 71633,
+    "text": "劳动者让渡一定期限内的劳动力使用权以换取报酬。",
+    "mergedFrom": [
+      {
+        "id": "N08-03-02",
+        "startMs": 4700,
+        "endMs": 9600,
+        "text": "劳动者让渡一定期限内的劳动力使用权以换取报酬。"
+      }
+    ],
+    "chapterId": "03",
+    "sentenceId": "S12-03-01",
+    "sourceStartMs": 87700,
+    "sourceEndMs": 92600
+  },
+  {
+    "id": "N08-03-03",
+    "startMs": 72100,
+    "endMs": 74733,
+    "text": "即使他决定将清单提前清空，",
+    "mergedFrom": [
+      {
+        "id": "N08-03-03",
+        "startMs": 9600,
+        "endMs": 13300,
+        "text": "即使他决定将清单提前清空，"
+      }
+    ],
+    "chapterId": "03",
+    "sentenceId": "S12-03-02",
+    "sourceStartMs": 92600,
+    "sourceEndMs": 96300
+  },
+  {
+    "id": "N08-03-04",
+    "startMs": 74733,
+    "endMs": 76667,
+    "text": "在约定工时结束之前，",
+    "mergedFrom": [
+      {
+        "id": "N08-03-04",
+        "startMs": 13300,
+        "endMs": 17000,
+        "text": "在约定工时结束之前，"
+      }
+    ],
+    "chapterId": "03",
+    "sentenceId": "S12-03-02",
+    "sourceStartMs": 96300,
+    "sourceEndMs": 100000
+  },
+  {
+    "id": "N08-03-05",
+    "startMs": 76667,
+    "endMs": 79500,
+    "text": "企业仍能在约定时段分配其他任务。",
+    "mergedFrom": [
+      {
+        "id": "N08-03-05",
+        "startMs": 17000,
+        "endMs": 22000,
+        "text": "企业仍能在约定时段分配其他任务。"
+      }
+    ],
+    "chapterId": "03",
+    "sentenceId": "S12-03-02",
+    "sourceStartMs": 100000,
+    "sourceEndMs": 105000
+  },
+  {
+    "id": "N08-03-06",
+    "startMs": 79967,
+    "endMs": 83233,
+    "text": "Agent 工具前所未有地缩短了执行过程，",
+    "mergedFrom": [
+      {
+        "id": "N08-03-06",
+        "startMs": 22000,
+        "endMs": 26200,
+        "text": "Agent 工具前所未有地缩短了执行过程，"
+      }
+    ],
+    "chapterId": "03",
+    "sentenceId": "S12-03-03",
+    "sourceStartMs": 105000,
+    "sourceEndMs": 109200
+  },
+  {
+    "id": "N08-03-07",
+    "startMs": 83233,
+    "endMs": 86633,
+    "text": "却未必增大了劳动者对劳动时间的决定权。",
+    "mergedFrom": [
+      {
+        "id": "N08-03-07",
+        "startMs": 26200,
+        "endMs": 30500,
+        "text": "却未必增大了劳动者对劳动时间的决定权。"
+      }
+    ],
+    "chapterId": "03",
+    "sentenceId": "S12-03-03",
+    "sourceStartMs": 109200,
+    "sourceEndMs": 113500
+  },
+  {
+    "id": "N08-03-08",
+    "startMs": 87133,
+    "endMs": 90933,
+    "text": "在响应要求、任务标准和工时界限的约束下，",
+    "mergedFrom": [
+      {
+        "id": "N08-03-08",
+        "startMs": 30500,
+        "endMs": 35100,
+        "text": "在响应要求、任务标准和工时界限的约束下，"
+      }
+    ],
+    "chapterId": "03",
+    "sentenceId": "S12-03-04",
+    "sourceStartMs": 113500,
+    "sourceEndMs": 118100
+  },
+  {
+    "id": "N08-03-09",
+    "startMs": 90933,
+    "endMs": 93967,
+    "text": "劳动者自然无法决定劳动是否结束。",
+    "mergedFrom": [
+      {
+        "id": "N08-03-09",
+        "startMs": 35100,
+        "endMs": 39000,
+        "text": "劳动者自然无法决定劳动是否结束。"
+      }
+    ],
+    "chapterId": "03",
+    "sentenceId": "S12-03-04",
+    "sourceStartMs": 118100,
+    "sourceEndMs": 122000
+  },
+  {
+    "id": "N08-04-01",
+    "startMs": 94533,
+    "endMs": 96500,
+    "text": "对一家科技公司的调查称，",
+    "mergedFrom": [
+      {
+        "id": "N08-04-01",
+        "startMs": 0,
+        "endMs": 4300,
+        "text": "对一家科技公司的调查称，"
+      }
+    ],
+    "chapterId": "04",
+    "sentenceId": "S12-04-01",
+    "sourceStartMs": 122000,
+    "sourceEndMs": 126300
+  },
+  {
+    "id": "N08-04-02",
+    "startMs": 96500,
+    "endMs": 99133,
+    "text": "部分员工会主动扩大任务范围，",
+    "mergedFrom": [
+      {
+        "id": "N08-04-02",
+        "startMs": 4300,
+        "endMs": 8400,
+        "text": "部分员工会主动扩大任务范围，"
+      }
+    ],
+    "chapterId": "04",
+    "sentenceId": "S12-04-01",
+    "sourceStartMs": 126300,
+    "sourceEndMs": 130400
+  },
+  {
+    "id": "N08-04-03",
+    "startMs": 99133,
+    "endMs": 103633,
+    "text": "在午餐、会前和晚间等非工作时段向 Agent 交付任务。",
+    "mergedFrom": [
+      {
+        "id": "N08-04-03",
+        "startMs": 8400,
+        "endMs": 14000,
+        "text": "在午餐、会前和晚间等非工作时段向 Agent 交付任务。"
+      }
+    ],
+    "chapterId": "04",
+    "sentenceId": "S12-04-01",
+    "sourceStartMs": 130400,
+    "sourceEndMs": 136000
+  },
+  {
+    "id": "N08-04-04",
+    "startMs": 104100,
+    "endMs": 107467,
+    "text": "对于员工而言，新增能力带来更多产出，",
+    "mergedFrom": [
+      {
+        "id": "N08-04-04",
+        "startMs": 14000,
+        "endMs": 18000,
+        "text": "对于员工而言，新增能力带来更多产出，"
+      }
+    ],
+    "chapterId": "04",
+    "sentenceId": "S12-04-02",
+    "sourceStartMs": 136000,
+    "sourceEndMs": 140000
+  },
+  {
+    "id": "N08-04-05",
+    "startMs": 107467,
+    "endMs": 109433,
+    "text": "组织预期也随之提高。",
+    "mergedFrom": [
+      {
+        "id": "N08-04-05",
+        "startMs": 18000,
+        "endMs": 21500,
+        "text": "组织预期也随之提高。"
+      }
+    ],
+    "chapterId": "04",
+    "sentenceId": "S12-04-02",
+    "sourceStartMs": 140000,
+    "sourceEndMs": 143500
+  },
+  {
+    "id": "N08-04-06",
+    "startMs": 109933,
+    "endMs": 114267,
+    "text": "而在企业侧，竞争同样会强化采用新技术的压力：",
+    "mergedFrom": [
+      {
+        "id": "N08-04-06",
+        "startMs": 21500,
+        "endMs": 26800,
+        "text": "而在企业侧，竞争同样会强化采用新技术的压力："
+      }
+    ],
+    "chapterId": "04",
+    "sentenceId": "S12-04-03",
+    "sourceStartMs": 143500,
+    "sourceEndMs": 148800
+  },
+  {
+    "id": "N08-04-07",
+    "startMs": 114267,
+    "endMs": 117467,
+    "text": "Agent 普及后，原有的效率优势逐渐消退，",
+    "mergedFrom": [
+      {
+        "id": "N08-04-07",
+        "startMs": 26800,
+        "endMs": 31800,
+        "text": "Agent 普及后，原有的效率优势逐渐消退，"
+      }
+    ],
+    "chapterId": "04",
+    "sentenceId": "S12-04-03",
+    "sourceStartMs": 148800,
+    "sourceEndMs": 153800
+  },
+  {
+    "id": "N08-04-08",
+    "startMs": 117467,
+    "endMs": 120467,
+    "text": "企业仍有缩短周期、增加交付的动力。",
+    "mergedFrom": [
+      {
+        "id": "N08-04-08",
+        "startMs": 31800,
+        "endMs": 36000,
+        "text": "企业仍有缩短周期、增加交付的动力。"
+      }
+    ],
+    "chapterId": "04",
+    "sentenceId": "S12-04-03",
+    "sourceStartMs": 153800,
+    "sourceEndMs": 158000
+  },
+  {
+    "id": "N08-04-09",
+    "startMs": 120967,
+    "endMs": 124767,
+    "text": "企业同样会促使更高产出进入排期和考核，",
+    "mergedFrom": [
+      {
+        "id": "N08-04-09",
+        "startMs": 36000,
+        "endMs": 40400,
+        "text": "企业同样会促使更高产出进入排期和考核，"
+      }
+    ],
+    "chapterId": "04",
+    "sentenceId": "S12-04-04",
+    "sourceStartMs": 158000,
+    "sourceEndMs": 162400
+  },
+  {
+    "id": "N08-04-10",
+    "startMs": 124767,
+    "endMs": 127667,
+    "text": "使原本的额外贡献转为新的基准。",
+    "mergedFrom": [
+      {
+        "id": "N08-04-10",
+        "startMs": 40400,
+        "endMs": 44600,
+        "text": "使原本的额外贡献转为新的基准。"
+      }
+    ],
+    "chapterId": "04",
+    "sentenceId": "S12-04-04",
+    "sourceStartMs": 162400,
+    "sourceEndMs": 166600
+  },
+  {
+    "id": "N08-04-11",
+    "startMs": 128200,
+    "endMs": 132700,
+    "text": "因此：Agent 带来的普遍生产力提升造成了工作标准的提升，",
+    "mergedFrom": [
+      {
+        "id": "N08-04-11",
+        "startMs": 44600,
+        "endMs": 50600,
+        "text": "因此：Agent 带来的普遍生产力提升造成了工作标准的提升，"
+      }
+    ],
+    "chapterId": "04",
+    "sentenceId": "S12-04-05",
+    "sourceStartMs": 166600,
+    "sourceEndMs": 172600
+  },
+  {
+    "id": "N08-04-12",
+    "startMs": 132700,
+    "endMs": 134733,
+    "text": "从“能多做”，到“必须做”。",
+    "mergedFrom": [
+      {
+        "id": "N08-04-12",
+        "startMs": 50600,
+        "endMs": 55000,
+        "text": "从“能多做”，到“必须做”。"
+      }
+    ],
+    "chapterId": "04",
+    "sentenceId": "S12-04-05",
+    "sourceStartMs": 172600,
+    "sourceEndMs": 177000
+  },
+  {
+    "id": "N08-05-01",
+    "startMs": 135767,
+    "endMs": 140100,
+    "text": "调度多个 Agent 可能会让员工产生指挥“虚拟员工”的错觉，",
+    "mergedFrom": [
+      {
+        "id": "N08-05-01",
+        "startMs": 400,
+        "endMs": 7000,
+        "text": "调度多个 Agent 可能会让员工产生指挥“虚拟员工”的错觉，"
+      }
+    ],
+    "chapterId": "05",
+    "sentenceId": "S12-05-01",
+    "sourceStartMs": 177400,
+    "sourceEndMs": 184000
+  },
+  {
+    "id": "N08-05-02",
+    "startMs": 140100,
+    "endMs": 144633,
+    "text": "却未必会赋予任何雇主的决定权或分享额外收益的权力；",
+    "mergedFrom": [
+      {
+        "id": "N08-05-02",
+        "startMs": 7000,
+        "endMs": 12800,
+        "text": "却未必会赋予任何雇主的决定权或分享额外收益的权力；"
+      }
+    ],
+    "chapterId": "05",
+    "sentenceId": "S12-05-01",
+    "sourceStartMs": 184000,
+    "sourceEndMs": 189800
+  },
+  {
+    "id": "N08-05-03",
+    "startMs": 145033,
+    "endMs": 148833,
+    "text": "这些“虚拟员工”反而会要求员工付出更多的成本，",
+    "mergedFrom": [
+      {
+        "id": "N08-05-03",
+        "startMs": 12800,
+        "endMs": 18500,
+        "text": "这些“虚拟员工”反而会要求员工付出更多的成本，"
+      }
+    ],
+    "chapterId": "05",
+    "sentenceId": "S12-05-02",
+    "sourceStartMs": 189800,
+    "sourceEndMs": 195500
+  },
+  {
+    "id": "N08-05-04",
+    "startMs": 148833,
+    "endMs": 151067,
+    "text": "甚至是额外的时间和金钱，",
+    "mergedFrom": [
+      {
+        "id": "N08-05-04",
+        "startMs": 18500,
+        "endMs": 21700,
+        "text": "甚至是额外的时间和金钱，"
+      }
+    ],
+    "chapterId": "05",
+    "sentenceId": "S12-05-02",
+    "sourceStartMs": 195500,
+    "sourceEndMs": 198700
+  },
+  {
+    "id": "N08-05-05",
+    "startMs": 151067,
+    "endMs": 154067,
+    "text": "以维持自己作为“虚拟雇主”的生产力优势。",
+    "mergedFrom": [
+      {
+        "id": "N08-05-05",
+        "startMs": 21700,
+        "endMs": 26800,
+        "text": "以维持自己作为“虚拟雇主”的生产力优势。"
+      }
+    ],
+    "chapterId": "05",
+    "sentenceId": "S12-05-02",
+    "sourceStartMs": 198700,
+    "sourceEndMs": 203800
+  },
+  {
+    "id": "N08-05-06",
+    "startMs": 154567,
+    "endMs": 159000,
+    "text": "社会劳动创造的生产力，在特定的占有和组织关系中，",
+    "mergedFrom": [
+      {
+        "id": "N08-05-06",
+        "startMs": 26800,
+        "endMs": 32500,
+        "text": "社会劳动创造的生产力，在特定的占有和组织关系中，"
+      }
+    ],
+    "chapterId": "05",
+    "sentenceId": "S12-05-03",
+    "sourceStartMs": 203800,
+    "sourceEndMs": 209500
+  },
+  {
+    "id": "N08-05-07",
+    "startMs": 159000,
+    "endMs": 161867,
+    "text": "反而会成为约束劳动者的外在力量。",
+    "mergedFrom": [
+      {
+        "id": "N08-05-07",
+        "startMs": 32500,
+        "endMs": 37000,
+        "text": "反而会成为约束劳动者的外在力量。"
+      }
+    ],
+    "chapterId": "05",
+    "sentenceId": "S12-05-03",
+    "sourceStartMs": 209500,
+    "sourceEndMs": 214000
+  },
+  {
+    "id": "N08-05-08",
+    "startMs": 162333,
+    "endMs": 164500,
+    "text": "这是劳动异化的一个侧面：",
+    "mergedFrom": [
+      {
+        "id": "N08-05-08",
+        "startMs": 37000,
+        "endMs": 39500,
+        "text": "这是劳动异化的一个侧面："
+      }
+    ],
+    "chapterId": "05",
+    "sentenceId": "S12-05-04",
+    "sourceStartMs": 214000,
+    "sourceEndMs": 216500
+  },
+  {
+    "id": "N08-05-09",
+    "startMs": 164500,
+    "endMs": 166700,
+    "text": "具体的指令由劳动者发出，",
+    "mergedFrom": [
+      {
+        "id": "N08-05-09",
+        "startMs": 39500,
+        "endMs": 42000,
+        "text": "具体的指令由劳动者发出，"
+      }
+    ],
+    "chapterId": "05",
+    "sentenceId": "S12-05-04",
+    "sourceStartMs": 216500,
+    "sourceEndMs": 219000
+  },
+  {
+    "id": "N08-05-10",
+    "startMs": 166700,
+    "endMs": 169600,
+    "text": "而劳动的目的与尺度仍可能由他人设定。",
+    "mergedFrom": [
+      {
+        "id": "N08-05-10",
+        "startMs": 42000,
+        "endMs": 45000,
+        "text": "而劳动的目的与尺度仍可能由他人设定。"
+      }
+    ],
+    "chapterId": "05",
+    "sentenceId": "S12-05-04",
+    "sourceStartMs": 219000,
+    "sourceEndMs": 222000
+  },
+  {
+    "id": "N08-06-01",
+    "startMs": 170567,
+    "endMs": 173067,
+    "text": "效率收益可以转化为更多交付，",
+    "mergedFrom": [
+      {
+        "id": "N08-06-01",
+        "startMs": 400,
+        "endMs": 4600,
+        "text": "效率收益可以转化为更多交付，"
+      }
+    ],
+    "chapterId": "06",
+    "sentenceId": "S12-06-01",
+    "sourceStartMs": 222400,
+    "sourceEndMs": 226600
+  },
+  {
+    "id": "N08-06-02",
+    "startMs": 173067,
+    "endMs": 174967,
+    "text": "也可以转化为更短工时。",
+    "mergedFrom": [
+      {
+        "id": "N08-06-02",
+        "startMs": 4600,
+        "endMs": 8800,
+        "text": "也可以转化为更短工时。"
+      }
+    ],
+    "chapterId": "06",
+    "sentenceId": "S12-06-01",
+    "sourceStartMs": 226600,
+    "sourceEndMs": 230800
+  },
+  {
+    "id": "N08-06-03",
+    "startMs": 175433,
+    "endMs": 179600,
+    "text": "区别在于谁决定生产规模，谁分配节约的时间。",
+    "mergedFrom": [
+      {
+        "id": "N08-06-03",
+        "startMs": 8800,
+        "endMs": 16000,
+        "text": "区别在于谁决定生产规模，谁分配节约的时间。"
+      }
+    ],
+    "chapterId": "06",
+    "sentenceId": "S12-06-02",
+    "sourceStartMs": 230800,
+    "sourceEndMs": 238000
+  },
+  {
+    "id": "N08-06-04",
+    "startMs": 180100,
+    "endMs": 182433,
+    "text": "让劳动者参与确定任务边界，",
+    "mergedFrom": [
+      {
+        "id": "N08-06-04",
+        "startMs": 16000,
+        "endMs": 21500,
+        "text": "让劳动者参与确定任务边界，"
+      }
+    ],
+    "chapterId": "06",
+    "sentenceId": "S12-06-03",
+    "sourceStartMs": 238000,
+    "sourceEndMs": 243500
+  },
+  {
+    "id": "N08-06-05",
+    "startMs": 182433,
+    "endMs": 184767,
+    "text": "并获得实际可支配的时间，",
+    "mergedFrom": [
+      {
+        "id": "N08-06-05",
+        "startMs": 21500,
+        "endMs": 27000,
+        "text": "并获得实际可支配的时间，"
+      }
+    ],
+    "chapterId": "06",
+    "sentenceId": "S12-06-03",
+    "sourceStartMs": 243500,
+    "sourceEndMs": 249000
+  },
+  {
+    "id": "N08-06-06",
+    "startMs": 184767,
+    "endMs": 187600,
+    "text": "技术进步才有机会转化为人的自由。",
+    "mergedFrom": [
+      {
+        "id": "N08-06-06",
+        "startMs": 27000,
+        "endMs": 31000,
+        "text": "技术进步才有机会转化为人的自由。"
+      }
+    ],
+    "chapterId": "06",
+    "sentenceId": "S12-06-03",
+    "sourceStartMs": 249000,
+    "sourceEndMs": 253000
+  },
+  {
+    "id": "N08-06-07",
+    "startMs": 188100,
+    "endMs": 192367,
+    "text": "效率何时成为义务，取决于谁有权为工作画上句号。",
+    "mergedFrom": [
+      {
+        "id": "N08-06-07",
+        "startMs": 31000,
+        "endMs": 44000,
+        "text": "效率何时成为义务，取决于谁有权为工作画上句号。"
+      }
+    ],
+    "chapterId": "06",
+    "sentenceId": "S12-06-04",
+    "sourceStartMs": 253000,
+    "sourceEndMs": 266000
+  }
+]

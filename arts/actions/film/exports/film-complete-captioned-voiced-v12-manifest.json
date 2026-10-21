@@ -1,0 +1,149 @@
+{
+  "version": "FILM_VOICE v0.12",
+  "date": "2026-10-21",
+  "duration": 215.1,
+  "frames": 6453,
+  "fps": 30,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "chapters": [
+    {
+      "id": "01",
+      "start": 0,
+      "end": 34.466667,
+      "duration": 34.466667
+    },
+    {
+      "id": "02",
+      "start": 34.466667,
+      "end": 64.033333,
+      "duration": 29.566667
+    },
+    {
+      "id": "03",
+      "start": 64.033333,
+      "end": 94.533333,
+      "duration": 30.5
+    },
+    {
+      "id": "04",
+      "start": 94.533333,
+      "end": 135.366667,
+      "duration": 40.833333
+    },
+    {
+      "id": "05",
+      "start": 135.366667,
+      "end": 170.166667,
+      "duration": 34.8
+    },
+    {
+      "id": "06",
+      "start": 170.166667,
+      "end": 215.1,
+      "duration": 44.933333
+    }
+  ],
+  "voice": "zh-CN-YunyangNeural",
+  "rate": "cached-v11",
+  "pitch": "-2Hz",
+  "audioTempoApplied": false,
+  "generationMode": "local clip assembly",
+  "newTtsRequests": 0,
+  "sentenceGroups": 28,
+  "captionCount": 54,
+  "captionTextUnchanged": true,
+  "captionTiming": "Aligned to TTS word boundaries; old semantic windows replaced.",
+  "opticalFlow": false,
+  "paintings": "All adopted v10 assets unchanged; scene time follows spoken clauses.",
+  "fullDecodePassed": true,
+  "sourceGuardsPassed": 12,
+  "output": {
+    "path": "arts/actions/film/exports/film-complete-captioned-voiced-v12.mp4",
+    "bytes": 38012521,
+    "sha256": "db14dcfe0be713854d162c3503a85bd0a3ef7d15633fada469bb61de8cdf82d4"
+  },
+  "narration": {
+    "path": "arts/audio/film/voice-v12/narration-v12.wav",
+    "sha256": "9583583cb6df020424917bbf3c2cb0443e49415e2eecf84664649572b12b3d1b"
+  },
+  "inputs": [
+    {
+      "path": "arts/actions/film/voice-v12.py",
+      "sha256": "ee34c3517c78bc6b7193baec924a46499d06c65a4e6f1e4bf6c1b969c410c430"
+    },
+    {
+      "path": "arts/actions/film/speech-scene-v12.mjs",
+      "sha256": "36ff2b80cc4f9280e85f0b4818985d751add6d6b5f2012a9e63f74aef8393a5a"
+    },
+    {
+      "path": "arts/actions/film/bake-v12.mjs",
+      "sha256": "dc57f02b6be8d697ccab8fdf68c1f825b22ac08b710fbe23e39ba8876c39d63b"
+    },
+    {
+      "path": "arts/actions/film/captions-v12.json",
+      "sha256": "cc4ef43dbae287446ff4869106912a6a1ffdeab6ceaabe82998802d0535d8242"
+    },
+    {
+      "path": "arts/actions/film/provenance/voice-v12/alignment.json",
+      "sha256": "a803bda0fe92dd9918624efacca953e0ca225e13a3dd54f6fcd6b370a46e8147"
+    }
+  ],
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "warning",
+    "-nostdin",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-i",
+    "/Users/alan671/Documents/MYvideo/arts/audio/film/voice-v12/narration-v12.wav",
+    "-map",
+    "0:v:0",
+    "-map",
+    "1:a:0",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "medium",
+    "-crf",
+    "18",
+    "-threads",
+    "2",
+    "-pix_fmt",
+    "yuv420p",
+    "-frames:v",
+    "6453",
+    "-c:a",
+    "aac",
+    "-b:a",
+    "192k",
+    "-ar",
+    "48000",
+    "-ac",
+    "1",
+    "-t",
+    "215.1",
+    "-metadata:s:a:0",
+    "language=zho",
+    "-video_track_timescale",
+    "15360",
+    "-map_metadata",
+    "-1",
+    "-movflags",
+    "+faststart",
+    "/Users/alan671/Documents/MYvideo/arts/actions/film/exports/film-complete-captioned-voiced-v12.part.mp4"
+  ],
+  "renderSeconds": 1229.672
+}

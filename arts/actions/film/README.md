@@ -1,5 +1,12 @@
 # 01–06统一动态展示框架
 
+**当前配音成片：FILM_VOICE v0.11 · 2026-10-21。** [播放男声配音版](http://127.0.0.1:8765/actions/film/exports/index-v11.html)／[MP4](exports/film-complete-captioned-voiced-v11.mp4)／[SRT](exports/film-subtitles-v11.srt)／[旁白WAV](../../audio/film/voice-v11/narration-v11.wav)／[验证](provenance/voice-v11/verification.json)。
+
+采用微软云扬普通话男声，54句对齐原字幕，994字符／280秒／8400帧及纯补绘画面均保持；视频码流完全一致，只加入48kHz单声道AAC。文件43,949,680字节，完整解码、音频样本／削波／尾静音、原码流和ASR逐句检查已完成。56次TTS采用54段，声音过程与复现见[配音说明](../../audio/film/voice-v11/README.md)。动态框架仍为v10无声演出参考。
+
+下方为历史阶段。
+
+
 **当前成片：FILM_BAKE v0.10，纯补绘恢复版。** [播放](http://127.0.0.1:8765/actions/film/exports/index-v10.html)／[MP4](exports/film-complete-captioned-silent-v10.mp4)／[SRT](exports/film-subtitles-v10.srt)／[验证](provenance/bake-v10/verification.json)。
 
 已清除当前运行的全部光流帧，并将06整章恢复到光流前绘稿和演出；保留四组独立补绘，口播994字符／54字幕／280秒不变。完整视频39,586,611字节，1080p／30fps／H.264无声。16项检查、全程解码、连续PTS及93张编码抽帧通过。规则见[PAINTED_ONLY.md](PAINTED_ONLY.md)。下方v09已被用户撤回，历史文件不参与当前预览或导出。
